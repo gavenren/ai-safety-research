@@ -12,10 +12,11 @@ The task is scheduled in Codex. It is not a GitHub Actions workflow.
 
 ## Research reports
 
-No research reports have been published yet.
+The first example study was completed on October 8, 2026.
 
 | Date | Study | Main result | Review status |
 | --- | --- | --- | --- |
+| 2026-10-08 | [AI incident counts and severity](research/2026-10-08-incident-trends/report.md) | Recorded counts rose; a severity trend cannot be established from the selected labels. | AI-generated; agent checks completed; no human review. |
 
 ## Report files
 
@@ -34,4 +35,5 @@ The protocol uses relevant parts of the [NeurIPS Paper Checklist](https://neurip
 ## Rights
 
 No reuse license has been selected for this repository. Third-party material remains subject to its source license and attribution requirements.
+
 
