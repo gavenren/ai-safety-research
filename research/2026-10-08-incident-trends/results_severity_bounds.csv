@@ -1,0 +1,6 @@
+period,incidents,known_severity,moderate_or_higher,unclassified_or_unknown,coverage_pct,classified_share_pct,lower_bound_pct,upper_bound_pct
+1983–2009,16,5,1,11,31.25,20.0,6.25,75.0
+2010–2014,31,9,1,22,29.032258,11.111111,3.225806,74.193548
+2015–2019,207,53,11,154,25.603865,20.754717,5.31401,79.710145
+2020–2025,1218,9,3,1209,0.738916,33.333333,0.246305,99.507389
+2026 partial,241,0,0,241,0.0,,0.0,100.0

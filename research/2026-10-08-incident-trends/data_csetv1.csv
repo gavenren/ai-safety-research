@@ -1,0 +1,215 @@
+Incident ID,Published,AI System,AI Harm Level
+1,True,yes,none
+2,True,no,none
+3,True,maybe,unclear
+4,True,yes,AI tangible harm event
+5,True,no,none
+6,True,yes,none
+7,True,maybe,none
+8,True,yes,AI tangible harm near-miss
+9,True,no,none
+10,True,yes,AI tangible harm event
+11,True,yes,AI tangible harm event
+12,True,yes,none
+13,True,yes,none
+14,True,yes,none
+15,True,maybe,none
+16,True,yes,none
+17,True,yes,none
+18,True,yes,none
+19,True,yes,none
+20,True,yes,AI tangible harm event
+21,True,,
+22,True,yes,AI tangible harm near-miss
+23,True,yes,AI tangible harm event
+24,True,no,none
+25,True,yes,none
+26,True,yes,none
+27,True,no,none
+28,True,no,none
+29,True,,
+30,True,yes,none
+31,True,no,none
+32,True,yes,none
+33,True,yes,none
+34,True,yes,AI tangible harm near-miss
+35,True,no,none
+36,True,yes,AI tangible harm near-miss
+37,True,yes,AI tangible harm issue
+38,True,yes,none
+39,True,yes,none
+40,True,yes,AI tangible harm event
+41,True,yes,none
+42,True,,
+43,True,maybe,none
+44,True,yes,none
+45,True,yes,AI tangible harm event
+46,True,no,none
+47,True,yes,none
+48,True,yes,none
+49,True,yes,none
+50,True,maybe,none
+51,True,yes,AI tangible harm event
+52,True,,
+53,True,yes,none
+54,True,yes,none
+55,True,yes,none
+56,True,maybe,none
+57,True,no,none
+58,True,yes,none
+59,True,yes,none
+60,True,yes,none
+61,True,yes,none
+62,True,,
+63,True,yes,none
+64,True,yes,none
+65,True,yes,none
+66,True,yes,none
+67,True,yes,none
+68,True,yes,AI tangible harm event
+69,True,no,none
+70,True,yes,none
+71,True,yes,AI tangible harm event
+72,True,yes,AI tangible harm event
+73,True,no,none
+74,True,yes,AI tangible harm event
+75,True,yes,none
+76,True,yes,AI tangible harm event
+77,True,yes,none
+78,True,no,none
+79,True,no,none
+80,True,yes,none
+81,True,yes,none
+82,True,yes,none
+83,True,yes,none
+84,True,yes,none
+85,True,,
+86,True,no,none
+87,True,yes,none
+88,True,yes,none
+89,True,yes,none
+91,True,no,none
+92,True,yes,AI tangible harm event
+93,True,yes,none
+94,True,yes,AI tangible harm event
+95,True,yes,AI tangible harm issue
+96,True,no,none
+97,True,yes,AI tangible harm issue
+98,True,maybe,unclear
+99,True,yes,none
+100,True,no,none
+101,True,yes,AI tangible harm event
+102,True,yes,none
+103,True,yes,none
+104,True,no,none
+105,True,yes,AI tangible harm event
+106,True,yes,none
+108,True,yes,none
+109,True,yes,unclear
+110,True,no,none
+112,True,yes,AI tangible harm event
+113,True,yes,none
+114,True,yes,none
+115,True,yes,none
+116,True,yes,AI tangible harm event
+118,True,yes,none
+119,True,no,none
+120,True,yes,none
+121,True,yes,AI tangible harm near-miss
+122,True,yes,AI tangible harm event
+123,True,yes,AI tangible harm issue
+124,True,yes,AI tangible harm event
+125,True,yes,AI tangible harm event
+126,True,no,none
+127,True,yes,none
+128,True,yes,AI tangible harm event
+129,True,yes,none
+131,True,yes,none
+132,True,yes,none
+133,True,no,none
+134,True,maybe,unclear
+135,True,yes,none
+136,True,no,none
+137,True,no,unclear
+139,True,yes,none
+140,True,yes,none
+142,True,yes,AI tangible harm issue
+143,True,yes,none
+144,True,yes,unclear
+145,True,yes,AI tangible harm issue
+146,True,yes,none
+147,True,yes,AI tangible harm event
+148,True,yes,none
+149,True,yes,AI tangible harm event
+151,True,yes,AI tangible harm event
+152,True,yes,AI tangible harm event
+153,True,yes,AI tangible harm event
+154,True,yes,AI tangible harm event
+155,True,yes,AI tangible harm near-miss
+156,True,yes,none
+157,True,yes,unclear
+160,True,yes,AI tangible harm issue
+162,True,yes,AI tangible harm event
+164,True,yes,AI tangible harm event
+204,False,,
+205,True,no,none
+208,False,,
+210,True,,
+214,True,yes,AI tangible harm near-miss
+220,True,yes,AI tangible harm event
+239,True,maybe,unclear
+244,True,yes,AI tangible harm event
+245,True,yes,AI tangible harm event
+250,False,,
+254,True,yes,AI tangible harm event
+273,True,yes,none
+281,True,yes,none
+290,True,yes,AI tangible harm near-miss
+294,True,yes,AI tangible harm event
+313,True,yes,none
+323,True,yes,AI tangible harm event
+329,True,yes,none
+339,True,yes,none
+341,True,yes,AI tangible harm event
+349,True,yes,AI tangible harm issue
+350,False,,
+351,False,,
+354,True,yes,AI tangible harm event
+355,True,yes,AI tangible harm event
+360,True,yes,none
+367,True,yes,none
+387,True,no,none
+393,True,yes,none
+396,False,,
+409,True,maybe,none
+410,True,yes,none
+412,True,yes,none
+414,True,yes,none
+435,True,yes,AI tangible harm event
+452,True,yes,none
+454,True,yes,none
+456,True,yes,none
+457,True,yes,none
+461,True,no,none
+474,True,yes,none
+476,True,yes,unclear
+489,True,yes,none
+490,True,yes,none
+493,True,maybe,unclear
+501,True,yes,AI tangible harm event
+509,True,yes,AI tangible harm event
+510,True,yes,none
+519,True,yes,AI tangible harm near-miss
+520,True,yes,AI tangible harm issue
+526,True,yes,none
+545,True,yes,none
+547,True,yes,none
+554,True,yes,none
+564,True,yes,AI tangible harm near-miss
+574,True,yes,none
+576,True,yes,none
+583,True,yes,none
+594,True,yes,none
+603,True,yes,AI tangible harm event
+614,True,yes,none
+619,True,yes,AI tangible harm issue

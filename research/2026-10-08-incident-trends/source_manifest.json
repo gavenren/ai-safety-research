@@ -1,0 +1,66 @@
+{
+  "retrieved_on": "2026-10-08",
+  "snapshot_current": "2026-10-05",
+  "snapshot_comparison": "2026-01-05",
+  "source": "AI Incident Database, Responsible AI Collaborative and contributors",
+  "source_index": "https://incidentdatabase.ai/research/snapshots/",
+  "data_license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "archives": [
+    {
+      "file": "backup-20261005101424.tar.bz2",
+      "url": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/backup-20261005101424.tar.bz2",
+      "sha256": "46af6f306e09a2a0cbe18d50d6c81fd362047876572e5fc4022bc0dd4419e378",
+      "bytes": 113137169
+    },
+    {
+      "file": "backup-20260105100653.tar.bz2",
+      "url": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/backup-20260105100653.tar.bz2",
+      "sha256": "630c299918c1068b8843f1ea955f31350327805c6786d1cf99c05b2bee7af707",
+      "bytes": 88876855
+    }
+  ],
+  "extracted_files": [
+    {
+      "file": "incidents.csv",
+      "sha256": "95f2ae9e0d5adcbd3396f62a1ffb2fad7f82163dafa94e9265e707f8fccd9665",
+      "bytes": 1266962
+    },
+    {
+      "file": "incidents-january.csv",
+      "sha256": "62b0ba40d2caeaf23231561f052b975b9bd597ec38a7a4cc2d58faac255c8405",
+      "bytes": 869748
+    },
+    {
+      "file": "classifications_CSETv0.csv",
+      "sha256": "6d2d5e30a7fe81e85d8d0c3c7a2e89d7e10d792c96f1c21422698e19b754bb9b",
+      "bytes": 132244
+    },
+    {
+      "file": "classifications_CSETv1.csv",
+      "sha256": "9a1af8a205525b7d92b81c8cf2b4b925855c98c8b4c214e418fb272c3244ae13",
+      "bytes": 260903
+    }
+  ],
+  "published_extracts": [
+    {
+      "file": "data_csetv0.csv",
+      "sha256": "c7ea757ea6705e533bbb894f5a38a8e42fd5200a7997c48d53d163a8a5095252",
+      "bytes": 1969
+    },
+    {
+      "file": "data_csetv1.csv",
+      "sha256": "58441bdaad3aa784efb96a553ad5c76a709373e07d54cdabdb69e2805c109d73",
+      "bytes": 5137
+    },
+    {
+      "file": "data_incidents_january.csv",
+      "sha256": "49aa9ccfe91de6e380315d2cf0bb9e441188fbefbe1f17513ce7183a4078f624",
+      "bytes": 21244
+    },
+    {
+      "file": "data_incidents_october.csv",
+      "sha256": "63b4c7abf8a7fa64186e59ca868a163a23ca773e0d409de3054c8eddadaffd17",
+      "bytes": 28044
+    }
+  ]
+}
