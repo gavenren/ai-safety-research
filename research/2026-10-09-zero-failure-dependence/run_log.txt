@@ -1,0 +1,39 @@
+{
+  "type": "Exact mathematical model study; no observed AI outputs",
+  "budget": 300,
+  "grid_rows": 252,
+  "boundary_rows": 84,
+  "baseline_p01": 0.04904089407128572,
+  "independent_95pct_zero_failure_boundary": 0.00993608194445772,
+  "plan_sha256": "c45cc14654af756e175fb71e98cc542136c9d8be3c4d5f82d700673708548e05",
+  "python": "3.13.7",
+  "checks": {
+    "probabilities_valid": 252,
+    "boundary_residuals_below_1e_12": 84,
+    "moment_and_boundary_controls": "passed",
+    "near_one_zero_atom_controls": 21,
+    "monotonicity_grid_checks": 84000
+  }
+}
+p=.01, rho=.1: groups,repeats,model,P0,boundary
+300,1,beta,0.049040894,0.009936082
+300,1,zero_atom,0.049040894,0.009936082
+300,1,one_atom,0.049040894,0.009936082
+150,2,beta,0.057059421,0.010458888
+150,2,zero_atom,0.057059421,0.010458888
+150,2,one_atom,0.057059421,0.010458888
+60,5,beta,0.081519066,0.011939975
+60,5,zero_atom,0.085147620,0.012154430
+60,5,one_atom,0.062486867,0.010799987
+30,10,beta,0.121683832,0.014200414
+30,10,zero_atom,0.142819651,0.015427602
+30,10,one_atom,0.064408406,0.010918712
+10,30,beta,0.255952408,0.021910786
+10,30,zero_atom,0.394294619,0.034414642
+10,30,one_atom,0.065722148,0.010999331
+3,100,beta,0.502192826,0.043214001
+3,100,zero_atom,0.749251066,0.146351075
+3,100,one_atom,0.066188260,0.011027831
+1,300,beta,0.723494922,0.091451287
+1,300,zero_atom,0.908256881,0.655172414
+1,300,one_atom,0.066322041,0.011036001

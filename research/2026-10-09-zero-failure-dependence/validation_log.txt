@@ -1,0 +1,14 @@
+Independent validation. Python 3.13.7.
+Decimal precision: 60 digits. No import from analyze.py.
+Published result tolerance: 5E-13. Algebra control tolerance: 1E-55.
+SHA256 analysis_plan.md: c45cc14654af756e175fb71e98cc542136c9d8be3c4d5f82d700673708548e05
+SHA256 analyze.py: ad20057dcf79cc80ef29ec1a396e642f043f40ed94f1b54c64bc05e165158d60
+SHA256 results_grid.csv: 72ce066f6147a0857e2c6742eb425053495fa380eca34031f3c2c1019cd43c5a
+SHA256 results_boundaries.csv: 57355165d7f6372a4702e8942e7278e88f9df9a58dba5b437a6a1ae2c572120f
+PASS: all 252 grid rows. Maximum P0 error: 1.41035174507249874501217076125002885869829193039E-13.
+PASS: all baseline, variance size, and plug-in values. Maximum error: 3.7614678899082568807339449541284403669724771E-14.
+PASS: all 84 boundaries. Maximum root error: 5.698456412709518465561233609429944465933507825E-16.
+PASS: boundary values and flags. Maximum published-root residual: 8.6334674592029922475354957217665389235209038315E-15.
+PASS: 486 moment, correlation, small-group, and limit controls.
+PASS: 10500 strict monotonicity comparisons. The proof is separate.
+PASS: all independent validation checks.

@@ -1,0 +1,250 @@
+{
+  "type": "Exact mathematical model study; no observed AI outputs",
+  "budget": 300,
+  "grid_rows": 252,
+  "boundary_rows": 84,
+  "baseline_p01": 0.04904089407128572,
+  "independent_95pct_zero_failure_boundary": 0.00993608194445772,
+  "plan_sha256": "c45cc14654af756e175fb71e98cc542136c9d8be3c4d5f82d700673708548e05",
+  "python": "3.13.7",
+  "checks": {
+    "probabilities_valid": 252,
+    "boundary_residuals_below_1e_12": 84,
+    "moment_and_boundary_controls": "passed",
+    "near_one_zero_atom_controls": 21,
+    "monotonicity_grid_checks": 84000
+  },
+  "headline": [
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 1,
+      "groups": 300,
+      "model": "beta",
+      "zero_failure_probability": 0.049040894071285854,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 300.0,
+      "effective_n_plugin_probability": 0.049040894071285854
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 1,
+      "groups": 300,
+      "model": "zero_atom",
+      "zero_failure_probability": 0.04904089407129052,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 300.0,
+      "effective_n_plugin_probability": 0.049040894071285854
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 1,
+      "groups": 300,
+      "model": "one_atom",
+      "zero_failure_probability": 0.049040894071285854,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 300.0,
+      "effective_n_plugin_probability": 0.049040894071285854
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 2,
+      "groups": 150,
+      "model": "beta",
+      "zero_failure_probability": 0.05705942126328076,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 272.7272727272727,
+      "effective_n_plugin_probability": 0.0645057644846644
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 2,
+      "groups": 150,
+      "model": "zero_atom",
+      "zero_failure_probability": 0.05705942126328027,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 272.7272727272727,
+      "effective_n_plugin_probability": 0.0645057644846644
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 2,
+      "groups": 150,
+      "model": "one_atom",
+      "zero_failure_probability": 0.05705942126328076,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 272.7272727272727,
+      "effective_n_plugin_probability": 0.0645057644846644
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 5,
+      "groups": 60,
+      "model": "beta",
+      "zero_failure_probability": 0.08151906587570512,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 214.2857142857143,
+      "effective_n_plugin_probability": 0.11606053190893345
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 5,
+      "groups": 60,
+      "model": "zero_atom",
+      "zero_failure_probability": 0.08514761989818995,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 214.2857142857143,
+      "effective_n_plugin_probability": 0.11606053190893345
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 5,
+      "groups": 60,
+      "model": "one_atom",
+      "zero_failure_probability": 0.062486867287058476,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 214.2857142857143,
+      "effective_n_plugin_probability": 0.11606053190893345
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 10,
+      "groups": 30,
+      "model": "beta",
+      "zero_failure_probability": 0.12168383183675022,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 157.89473684210526,
+      "effective_n_plugin_probability": 0.20455975723566347
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 10,
+      "groups": 30,
+      "model": "zero_atom",
+      "zero_failure_probability": 0.14281965084036155,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 157.89473684210526,
+      "effective_n_plugin_probability": 0.20455975723566347
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 10,
+      "groups": 30,
+      "model": "one_atom",
+      "zero_failure_probability": 0.06440840566213023,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 157.89473684210526,
+      "effective_n_plugin_probability": 0.20455975723566347
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 30,
+      "groups": 10,
+      "model": "beta",
+      "zero_failure_probability": 0.25595240790394896,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 76.92307692307692,
+      "effective_n_plugin_probability": 0.4615786772620545
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 30,
+      "groups": 10,
+      "model": "zero_atom",
+      "zero_failure_probability": 0.3942946189571295,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 76.92307692307692,
+      "effective_n_plugin_probability": 0.4615786772620545
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 30,
+      "groups": 10,
+      "model": "one_atom",
+      "zero_failure_probability": 0.06572214764342553,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 76.92307692307692,
+      "effective_n_plugin_probability": 0.4615786772620545
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 100,
+      "groups": 3,
+      "model": "beta",
+      "zero_failure_probability": 0.5021928263198486,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 27.522935779816514,
+      "effective_n_plugin_probability": 0.758346595185425
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 100,
+      "groups": 3,
+      "model": "zero_atom",
+      "zero_failure_probability": 0.7492510659296422,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 27.522935779816514,
+      "effective_n_plugin_probability": 0.758346595185425
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 100,
+      "groups": 3,
+      "model": "one_atom",
+      "zero_failure_probability": 0.06618826025859555,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 27.522935779816514,
+      "effective_n_plugin_probability": 0.758346595185425
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 300,
+      "groups": 1,
+      "model": "beta",
+      "zero_failure_probability": 0.7234949221196313,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 9.70873786407767,
+      "effective_n_plugin_probability": 0.907033335238383
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 300,
+      "groups": 1,
+      "model": "zero_atom",
+      "zero_failure_probability": 0.9082568807339451,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 9.70873786407767,
+      "effective_n_plugin_probability": 0.907033335238383
+    },
+    {
+      "p": 0.01,
+      "rho": 0.1,
+      "repeats": 300,
+      "groups": 1,
+      "model": "one_atom",
+      "zero_failure_probability": 0.06632204144783366,
+      "independent_probability": 0.04904089407128572,
+      "variance_effective_n": 9.70873786407767,
+      "effective_n_plugin_probability": 0.907033335238383
+    }
+  ]
+}

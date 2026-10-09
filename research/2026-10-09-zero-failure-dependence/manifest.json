@@ -1,0 +1,23 @@
+{
+  "run_date": "2026-10-09",
+  "hash_algorithm": "SHA-256",
+  "files": {
+    "README.md": "a5c9b9194d3b45844cfb42f64aff2594386df8710d410fc72929b479c6e44ba6",
+    "analysis_plan.md": "c45cc14654af756e175fb71e98cc542136c9d8be3c4d5f82d700673708548e05",
+    "analyze.py": "ad20057dcf79cc80ef29ec1a396e642f043f40ed94f1b54c64bc05e165158d60",
+    "derivations.md": "0a07f619314285e54b3eb660548ce3162395f9bb2b7aa4e100771a207c1bc685",
+    "figure_zero_failures.png": "f1b2658f2f7e8b4d71313d81d210983f58e9274bd2e6ba039fb464c76263a6fa",
+    "plot.py": "119bd28050379394927a5b751f72f4fcaff8e7b4a6954a9e6a3c62843368e26a",
+    "references.bib": "129d810baaba7298e142676d1166a49a147487ec6dd3f007d7462fca503764a2",
+    "report.md": "aeb937a86257a8d86c16172f2a9fa88610471b81d5047747c2baee1e20c5dded",
+    "requirements-plot.txt": "853ff9f3935cbedf2e8be15d9dd14b5c395e2a9f46a06e4359ea32deda73bd52",
+    "results_boundaries.csv": "57355165d7f6372a4702e8942e7278e88f9df9a58dba5b437a6a1ae2c572120f",
+    "results_grid.csv": "72ce066f6147a0857e2c6742eb425053495fa380eca34031f3c2c1019cd43c5a",
+    "results_summary.json": "571f36b30618d1fcd8b9aafb7979391413c1a7f830a2698ae08a791cfcd13a67",
+    "review.md": "f58b4afaff29819cde59b459a67215eb5b834be5ce1c5bf9550e74e90f47a8c7",
+    "run_log.txt": "afdd3c739d050e4b5aeb92fec809e1e56444aa05afd710d2948379c91de03c48",
+    "source_search.md": "ff1caacccefa85f9fe687810e57095a0080b87e28f98b98d499c771921732261",
+    "validate.py": "d0c79ee801d6c7f94497c3432dc59612f89fdd42edff2fbfe35eb772f38b6cd8",
+    "validation_log.txt": "1448422305338162b81ca8b2121554bd6386d0e7560911ff707e4ac1821e7ed4"
+  }
+}
