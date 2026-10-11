@@ -1,0 +1,361 @@
+{
+  "repository": "https://github.com/yibo-hu-lab/safety-flag-benchmark",
+  "commit": "82d39d018c5522dfbdf303b49c5d83a8444d03d2",
+  "retrieved_utc": "2026-10-10T16:29:53.772027+00:00",
+  "license": "CC-BY-4.0",
+  "files": [
+    {
+      "path": "data/results/Llama-3.1-8B__beavertails.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/Llama-3.1-8B__beavertails.jsonl",
+      "sha256": "be2d86924e02a04cdb398d6012a0393fd535bc541844ce244bceea090441c88f",
+      "bytes": 265471,
+      "unique_records": 300,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/Llama-3.1-8B__xstest.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/Llama-3.1-8B__xstest.jsonl",
+      "sha256": "4573bce357ed01810e5844575477cb75ed1d448515fc14d72ec664004ec94cc9",
+      "bytes": 75302,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/Llama-3.1-8B__ethics.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/Llama-3.1-8B__ethics.jsonl",
+      "sha256": "414679c6428dc680fb08fe0766f828b605e151043dece12202c01a85c8873340",
+      "bytes": 82742,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/Llama-3.1-8B-Instruct__wildguard_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Llama-3.1-8B-Instruct__wildguard_s0.jsonl",
+      "sha256": "3409e2c4f15ff3018c7f701c951bc7b2af41a5c4e7b07d14573f6b80e22012af",
+      "bytes": 83740,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/Llama-3.1-8B-Instruct__aegis_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Llama-3.1-8B-Instruct__aegis_s0.jsonl",
+      "sha256": "16be5b3e07e1b2b8d70051f347d4ae5170ef7c199a32e90462b137188f36d137",
+      "bytes": 84329,
+      "unique_records": 198,
+      "identical_duplicates_removed": 2
+    },
+    {
+      "path": "data/results/moderation_ext/Llama-3.1-8B-Instruct__toxicchat_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Llama-3.1-8B-Instruct__toxicchat_s0.jsonl",
+      "sha256": "58e3e6743e0c33cd0647e4a9c376e45ffa1b68251ff897f05c128799031ffeb4",
+      "bytes": 87311,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/Llama-3.1-8B-Instruct__toxigen_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Llama-3.1-8B-Instruct__toxigen_s0.jsonl",
+      "sha256": "3ac551a8e565637b417bc230896b190cbeb2ceea14b19fc05f7c96883ebbc1bf",
+      "bytes": 79721,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/Mistral-7B__beavertails.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/Mistral-7B__beavertails.jsonl",
+      "sha256": "ca7212c36578e6f6fe7a4f07a838d35730c84a2c29f050e839b013e80a2ceab4",
+      "bytes": 177616,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/Mistral-7B__xstest.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/Mistral-7B__xstest.jsonl",
+      "sha256": "0aba3feadd9af8d8f8a8057393ebd7fd8d5e08a583a39dd6a9f3326c88e1f201",
+      "bytes": 75575,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/Mistral-7B__ethics.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/Mistral-7B__ethics.jsonl",
+      "sha256": "e84abdba69f29935b7d3090f423379b30710a0c9397886b432f95ad3f4ab49f0",
+      "bytes": 83087,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/Mistral-7B-Instruct-v0.3__wildguard_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Mistral-7B-Instruct-v0.3__wildguard_s0.jsonl",
+      "sha256": "13600febf5140ed0a429d881fef7681ecb6bec59e9d6f9bbffeed97c440058e0",
+      "bytes": 84137,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/Mistral-7B-Instruct-v0.3__aegis_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Mistral-7B-Instruct-v0.3__aegis_s0.jsonl",
+      "sha256": "152ca391783cfad7ff5475d6c3ad881e6545bc6ac197ea6fb3d4689821e20b83",
+      "bytes": 84496,
+      "unique_records": 198,
+      "identical_duplicates_removed": 2
+    },
+    {
+      "path": "data/results/moderation_ext/Mistral-7B-Instruct-v0.3__toxicchat_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Mistral-7B-Instruct-v0.3__toxicchat_s0.jsonl",
+      "sha256": "5897215ebcb574c5cb59c39079bce8480bfd3587843f349df7265d2db0cab069",
+      "bytes": 87865,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/Mistral-7B-Instruct-v0.3__toxigen_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Mistral-7B-Instruct-v0.3__toxigen_s0.jsonl",
+      "sha256": "0ed6710c6a51a1f748d2f393415c02f378dd5ffb337399fbc4b104147e06f9d6",
+      "bytes": 79884,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/OLMo-2-7B__beavertails.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/OLMo-2-7B__beavertails.jsonl",
+      "sha256": "c36a96853702be7d50af836048bb3edc7281e90fa953ee3ef8eda60646d13b54",
+      "bytes": 177302,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/OLMo-2-7B__xstest.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/OLMo-2-7B__xstest.jsonl",
+      "sha256": "98ac4378bfefb677b1bb1513b677f69b612dc7a16def475bca424266dba082a0",
+      "bytes": 75094,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/OLMo-2-7B__ethics.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/OLMo-2-7B__ethics.jsonl",
+      "sha256": "a4096a085298af1471eb7be3c0a9e76cc5715ceef6cc4f6a69f25689f7e71f7a",
+      "bytes": 82800,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/OLMo-2-1124-7B-Instruct__wildguard_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/OLMo-2-1124-7B-Instruct__wildguard_s0.jsonl",
+      "sha256": "2db9f75564a0e6e95dc04ba01638db082ac6b549ad641a15131854842b549dc8",
+      "bytes": 83602,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/OLMo-2-1124-7B-Instruct__aegis_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/OLMo-2-1124-7B-Instruct__aegis_s0.jsonl",
+      "sha256": "6546c5554c9eef17afb63911d23a490506acb9383094db1db187ad81373a93d4",
+      "bytes": 84111,
+      "unique_records": 198,
+      "identical_duplicates_removed": 2
+    },
+    {
+      "path": "data/results/moderation_ext/OLMo-2-1124-7B-Instruct__toxicchat_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/OLMo-2-1124-7B-Instruct__toxicchat_s0.jsonl",
+      "sha256": "cdd50171161ed065acd4ac46b32b5b16aed9d823e550c7c5a3c47544cf98db00",
+      "bytes": 87516,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/OLMo-2-1124-7B-Instruct__toxigen_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/OLMo-2-1124-7B-Instruct__toxigen_s0.jsonl",
+      "sha256": "4968b63a4bd5120c4d284230911d95dfd5cb6a5a0bf8f126866dec31e339d203",
+      "bytes": 79761,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/Qwen2.5-7B__beavertails.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/Qwen2.5-7B__beavertails.jsonl",
+      "sha256": "4130f65c40d6b102092f41e4e6aba3200a750d89cd11c8bd8190d4b6fd257f23",
+      "bytes": 266685,
+      "unique_records": 300,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/Qwen2.5-7B__xstest.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/Qwen2.5-7B__xstest.jsonl",
+      "sha256": "0e59fb976c3ecec83b1dc007c11cfbc18835ad325db9f2edf5d42b6459a931b3",
+      "bytes": 75984,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/Qwen2.5-7B__ethics.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/Qwen2.5-7B__ethics.jsonl",
+      "sha256": "3c8540bca22f5a024589330c74d50efd014141676456bef1ab43d012eff7ae53",
+      "bytes": 83574,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/Qwen2.5-7B-Instruct__wildguard_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Qwen2.5-7B-Instruct__wildguard_s0.jsonl",
+      "sha256": "b081956a8d7b3da4e34a440c10dced01b96e508c380b186bcf29a557cfa4ab46",
+      "bytes": 84541,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/Qwen2.5-7B-Instruct__aegis_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Qwen2.5-7B-Instruct__aegis_s0.jsonl",
+      "sha256": "24f840e367276cfa03025fa67cc2d0b3d76df12037726c5ca68aa44ca35cd84c",
+      "bytes": 85143,
+      "unique_records": 198,
+      "identical_duplicates_removed": 2
+    },
+    {
+      "path": "data/results/moderation_ext/Qwen2.5-7B-Instruct__toxicchat_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Qwen2.5-7B-Instruct__toxicchat_s0.jsonl",
+      "sha256": "83e9f756d894fe3d3cfbde68bdfc0ddfc574d509bfcc7cee2c227e358a36d261",
+      "bytes": 88352,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/Qwen2.5-7B-Instruct__toxigen_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/Qwen2.5-7B-Instruct__toxigen_s0.jsonl",
+      "sha256": "03a901d384be96299e1ff46ec326a0881a1d3bd0f7930fae9729db86e38ae7a0",
+      "bytes": 80588,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/gemma-2-9b__beavertails.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/gemma-2-9b__beavertails.jsonl",
+      "sha256": "98ff71f8ffcbc26d168041bf75f1f4ad92ada5632d157bd883b9ae24840beb48",
+      "bytes": 266457,
+      "unique_records": 300,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/gemma-2-9b__xstest.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/gemma-2-9b__xstest.jsonl",
+      "sha256": "46fa97824ac0d9b6a19a415224e293d8e4e54798ca4d24166c4f923da5a049f5",
+      "bytes": 75933,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/gemma-2-9b__ethics.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/gemma-2-9b__ethics.jsonl",
+      "sha256": "c221c4a809e44b6674b62a1d276da51a00fd8d55044a106439ca7e8a33ce78d8",
+      "bytes": 83448,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/gemma-2-9b-it__wildguard_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/gemma-2-9b-it__wildguard_s0.jsonl",
+      "sha256": "54c65f78a9d037b4c2016d31e4d72622a44e61d91e77ced975223dba07a8b316",
+      "bytes": 84367,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/gemma-2-9b-it__aegis_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/gemma-2-9b-it__aegis_s0.jsonl",
+      "sha256": "b67472e7f243b5b2554f38d5e1ac7b4e99f65d148ad8864ec4306e65c50aa0e6",
+      "bytes": 84920,
+      "unique_records": 198,
+      "identical_duplicates_removed": 2
+    },
+    {
+      "path": "data/results/moderation_ext/gemma-2-9b-it__toxicchat_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/gemma-2-9b-it__toxicchat_s0.jsonl",
+      "sha256": "70341ed3255a28c303858832a808a4c910644c9d5dbcde333cd163710d75d609",
+      "bytes": 88268,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    },
+    {
+      "path": "data/results/moderation_ext/gemma-2-9b-it__toxigen_s0.jsonl",
+      "url": "https://raw.githubusercontent.com/yibo-hu-lab/safety-flag-benchmark/82d39d018c5522dfbdf303b49c5d83a8444d03d2/data/results/moderation_ext/gemma-2-9b-it__toxigen_s0.jsonl",
+      "sha256": "9cf46800cdae1a11a3595b86739e916b4b5f85344a003b355483863af0f355b7",
+      "bytes": 80472,
+      "unique_records": 200,
+      "identical_duplicates_removed": 0
+    }
+  ],
+  "selection": {
+    "beavertails": {
+      "common_items": 200,
+      "removed_by_model": {
+        "Llama-3.1-8B": 100,
+        "Mistral-7B": 0,
+        "OLMo-2-7B": 0,
+        "Qwen2.5-7B": 100,
+        "gemma-2-9b": 100
+      }
+    },
+    "xstest": {
+      "common_items": 200,
+      "removed_by_model": {
+        "Llama-3.1-8B": 0,
+        "Mistral-7B": 0,
+        "OLMo-2-7B": 0,
+        "Qwen2.5-7B": 0,
+        "gemma-2-9b": 0
+      }
+    },
+    "ethics": {
+      "common_items": 200,
+      "removed_by_model": {
+        "Llama-3.1-8B": 0,
+        "Mistral-7B": 0,
+        "OLMo-2-7B": 0,
+        "Qwen2.5-7B": 0,
+        "gemma-2-9b": 0
+      }
+    },
+    "wildguard": {
+      "common_items": 200,
+      "removed_by_model": {
+        "Llama-3.1-8B": 0,
+        "Mistral-7B": 0,
+        "OLMo-2-7B": 0,
+        "Qwen2.5-7B": 0,
+        "gemma-2-9b": 0
+      }
+    },
+    "aegis": {
+      "common_items": 198,
+      "removed_by_model": {
+        "Llama-3.1-8B": 0,
+        "Mistral-7B": 0,
+        "OLMo-2-7B": 0,
+        "Qwen2.5-7B": 0,
+        "gemma-2-9b": 0
+      }
+    },
+    "toxicchat": {
+      "common_items": 200,
+      "removed_by_model": {
+        "Llama-3.1-8B": 0,
+        "Mistral-7B": 0,
+        "OLMo-2-7B": 0,
+        "Qwen2.5-7B": 0,
+        "gemma-2-9b": 0
+      }
+    },
+    "toxigen": {
+      "common_items": 200,
+      "removed_by_model": {
+        "Llama-3.1-8B": 0,
+        "Mistral-7B": 0,
+        "OLMo-2-7B": 0,
+        "Qwen2.5-7B": 0,
+        "gemma-2-9b": 0
+      }
+    }
+  },
+  "minimal_data_sha256": "a8c004743230361498dc7eaca9ee9900bbc3a4a7f0dfba113b0052668325be7e"
+}

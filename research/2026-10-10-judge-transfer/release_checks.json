@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-10",
+  "report_and_license_urls": [
+    {
+      "url": "https://arxiv.org/html/2605.06939v1",
+      "http_status": "200",
+      "exit_code": 0
+    },
+    {
+      "url": "https://arxiv.org/html/2609.19072v1",
+      "http_status": "200",
+      "exit_code": 0
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "http_status": "200",
+      "exit_code": 0
+    },
+    {
+      "url": "https://github.com/yibo-hu-lab/safety-flag-benchmark/blob/82d39d018c5522dfbdf303b49c5d83a8444d03d2/DATA_LICENSE.md",
+      "http_status": "200",
+      "exit_code": 0
+    },
+    {
+      "url": "https://github.com/yibo-hu-lab/safety-flag-benchmark/tree/82d39d018c5522dfbdf303b49c5d83a8444d03d2",
+      "http_status": "200",
+      "exit_code": 0
+    },
+    {
+      "url": "https://neurips.cc/public/guides/PaperChecklist",
+      "http_status": "200",
+      "exit_code": 0
+    },
+    {
+      "url": "https://proceedings.mlr.press/v306/lee26bl.html",
+      "http_status": "200",
+      "exit_code": 0
+    }
+  ],
+  "broken_relative_links": [],
+  "secret_or_local_path_pattern_hits": []
+}

@@ -1,0 +1,74 @@
+{
+  "beavertails": {
+    "common_items": 200,
+    "removed_by_model": {
+      "Llama-3.1-8B": 100,
+      "Mistral-7B": 0,
+      "OLMo-2-7B": 0,
+      "Qwen2.5-7B": 100,
+      "gemma-2-9b": 100
+    }
+  },
+  "xstest": {
+    "common_items": 200,
+    "removed_by_model": {
+      "Llama-3.1-8B": 0,
+      "Mistral-7B": 0,
+      "OLMo-2-7B": 0,
+      "Qwen2.5-7B": 0,
+      "gemma-2-9b": 0
+    }
+  },
+  "ethics": {
+    "common_items": 200,
+    "removed_by_model": {
+      "Llama-3.1-8B": 0,
+      "Mistral-7B": 0,
+      "OLMo-2-7B": 0,
+      "Qwen2.5-7B": 0,
+      "gemma-2-9b": 0
+    }
+  },
+  "wildguard": {
+    "common_items": 200,
+    "removed_by_model": {
+      "Llama-3.1-8B": 0,
+      "Mistral-7B": 0,
+      "OLMo-2-7B": 0,
+      "Qwen2.5-7B": 0,
+      "gemma-2-9b": 0
+    }
+  },
+  "aegis": {
+    "common_items": 198,
+    "removed_by_model": {
+      "Llama-3.1-8B": 0,
+      "Mistral-7B": 0,
+      "OLMo-2-7B": 0,
+      "Qwen2.5-7B": 0,
+      "gemma-2-9b": 0
+    }
+  },
+  "toxicchat": {
+    "common_items": 200,
+    "removed_by_model": {
+      "Llama-3.1-8B": 0,
+      "Mistral-7B": 0,
+      "OLMo-2-7B": 0,
+      "Qwen2.5-7B": 0,
+      "gemma-2-9b": 0
+    }
+  },
+  "toxigen": {
+    "common_items": 200,
+    "removed_by_model": {
+      "Llama-3.1-8B": 0,
+      "Mistral-7B": 0,
+      "OLMo-2-7B": 0,
+      "Qwen2.5-7B": 0,
+      "gemma-2-9b": 0
+    }
+  }
+}
+All 35 source cells passed schema, binary-label, duplicate consistency, and paired-label checks.
+Minimal data SHA256: a8c004743230361498dc7eaca9ee9900bbc3a4a7f0dfba113b0052668325be7e

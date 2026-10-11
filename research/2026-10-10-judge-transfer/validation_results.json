@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "checks": 650700,
+  "input_decisions": 6990,
+  "unique_items": 1398,
+  "confusion_rows": 35,
+  "grid_cells": 175,
+  "bootstrap_rate_rows": 70000,
+  "interval_cells_checked": 175,
+  "intervals_suppressed": 5,
+  "oracle_singular_cells": 5,
+  "exact_fraction_point_checks": true,
+  "limits": "No source-label validation or population coverage claim. Bootstrap draws were checked from saved rates; random draw generation was not independently repeated."
+}

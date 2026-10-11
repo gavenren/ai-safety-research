@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-10",
+  "files": {
+    "DATA_LICENSE.md": "c140e6dab954692a214ed0a21fc9fb5ddeba23db324e58daf20a3fdcd884fc2b",
+    "README.md": "818887992b7ccf08be29dea13fd6a9ed32be97ce173e09a74f7ff27aaddf51b7",
+    "analysis_plan.md": "79d372741e586586e7bb2ee1427d772b7cc9b72e8893e83e917cd75e99dbfc54",
+    "analyze.py": "d121f87cb442a9e1eaaf09cfc75f501d1ae59c75bceda5cf8060aee30f13b04e",
+    "data_labels.csv": "a8c004743230361498dc7eaca9ee9900bbc3a4a7f0dfba113b0052668325be7e",
+    "data_quality_audit.json": "a5e19120b49d935aaf4e2b82bd433735a3d3445004f1c24d7f00861b3fe09b24",
+    "failed_checks.md": "e6c96db02ea0f0d021745486c03aed8c8e01d15e52318a1dd458a0a757fce79a",
+    "fetch_data.py": "349404950b8374151f9520fad7cc635d783707fec09dfad5ebd8c3e407c3be99",
+    "figure_transfer.png": "015c47a5854029686ab74fd7bc86af525f430435ee83297e56f736aa104f29ec",
+    "plot.py": "629f3af49d45f86573d623262f3f5dc654b5f498ad3cc0a1e972764092c41958",
+    "references.bib": "e0db7205266b677eaf616e68b8beb1602b30d62f3b7a509de9fb02c43f356093",
+    "release_checks.json": "4490656cea54e664edfcb69bccc0a1f77c112c77b42ff34b5ded6222ca575af1",
+    "report.md": "5fd57c4a8c95270f053eeeee7c5c7bc89b1811d1e2de4d3177e56f3402ea49c4",
+    "requirements.txt": "26c8230ce48250b97ffe645248f0c0dd233116e0671d41446c75272f6d3c3a7a",
+    "results_bootstrap_rates.csv": "4d46a2f44c2e55157b853d08101ab31f8d80a75ad8c6f0fb7c8c2d945f2c0b6c",
+    "results_confusion.csv": "afdc555de8eee1b2f88100d4ce17d7dd6a1d7bda8568a95277058a427cb8294e",
+    "results_grid.csv": "0e2b441b518ee21b3d6012ca9eb0ecf94a5e74969debf6b1caf489adf7dcac41",
+    "results_summary.json": "524ded60e2e71c32a58978c96a6adcd533833434ae2da5590c9bcc5aada6e979",
+    "retrieval_log.txt": "fffd62b048d6ba05553f533475a58ad377cb7ceb82ec83ca1566b5f9a44f1a44",
+    "review.md": "faf144e2fee9923931edc83d0d7984a02f2c2be4eadd715b742605d9304a2306",
+    "run_log.txt": "66a62f21183275b5753623ca5efd57ae373cf94ac12b98daaf5401cc6215f688",
+    "source_manifest.json": "78b18f8985cedc019192dac8114d32eb7567b7f1eb92881c4c8880d0681f4b9e",
+    "source_search.md": "f3fdd2cd94100a26860425f498179ef1ad5ce59d8047a9d4e27eda7d4b175680",
+    "validate.py": "9319b9001c00e68fe7723a7714114925bba98225c8b6cc3ae50b74f7505f4191",
+    "validation_log.txt": "d96aeb7e5a51290f255112c5b7c18cf68c7fd7ce21234efb2555a4c1e9a499ba",
+    "validation_results.json": "d96aeb7e5a51290f255112c5b7c18cf68c7fd7ce21234efb2555a4c1e9a499ba"
+  }
+}

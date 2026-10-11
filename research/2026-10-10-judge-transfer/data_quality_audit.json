@@ -1,0 +1,317 @@
+[
+  {
+    "model": "Llama-3.1-8B",
+    "dataset": "beavertails",
+    "rows": 300,
+    "unique": 300,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Llama-3.1-8B",
+    "dataset": "xstest",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Llama-3.1-8B",
+    "dataset": "ethics",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Llama-3.1-8B",
+    "dataset": "wildguard",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Llama-3.1-8B",
+    "dataset": "aegis",
+    "rows": 200,
+    "unique": 198,
+    "duplicate_ids": 2,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Llama-3.1-8B",
+    "dataset": "toxicchat",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Llama-3.1-8B",
+    "dataset": "toxigen",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Mistral-7B",
+    "dataset": "beavertails",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Mistral-7B",
+    "dataset": "xstest",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Mistral-7B",
+    "dataset": "ethics",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Mistral-7B",
+    "dataset": "wildguard",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Mistral-7B",
+    "dataset": "aegis",
+    "rows": 200,
+    "unique": 198,
+    "duplicate_ids": 2,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Mistral-7B",
+    "dataset": "toxicchat",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Mistral-7B",
+    "dataset": "toxigen",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "OLMo-2-7B",
+    "dataset": "beavertails",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "OLMo-2-7B",
+    "dataset": "xstest",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "OLMo-2-7B",
+    "dataset": "ethics",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "OLMo-2-7B",
+    "dataset": "wildguard",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "OLMo-2-7B",
+    "dataset": "aegis",
+    "rows": 200,
+    "unique": 198,
+    "duplicate_ids": 2,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "OLMo-2-7B",
+    "dataset": "toxicchat",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "OLMo-2-7B",
+    "dataset": "toxigen",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Qwen2.5-7B",
+    "dataset": "beavertails",
+    "rows": 300,
+    "unique": 300,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Qwen2.5-7B",
+    "dataset": "xstest",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Qwen2.5-7B",
+    "dataset": "ethics",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Qwen2.5-7B",
+    "dataset": "wildguard",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Qwen2.5-7B",
+    "dataset": "aegis",
+    "rows": 200,
+    "unique": 198,
+    "duplicate_ids": 2,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Qwen2.5-7B",
+    "dataset": "toxicchat",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "Qwen2.5-7B",
+    "dataset": "toxigen",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "gemma-2-9b",
+    "dataset": "beavertails",
+    "rows": 300,
+    "unique": 300,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "gemma-2-9b",
+    "dataset": "xstest",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "gemma-2-9b",
+    "dataset": "ethics",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "gemma-2-9b",
+    "dataset": "wildguard",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "gemma-2-9b",
+    "dataset": "aegis",
+    "rows": 200,
+    "unique": 198,
+    "duplicate_ids": 2,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "gemma-2-9b",
+    "dataset": "toxicchat",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  },
+  {
+    "model": "gemma-2-9b",
+    "dataset": "toxigen",
+    "rows": 200,
+    "unique": 200,
+    "duplicate_ids": 0,
+    "duplicate_key_decision_conflicts": 0,
+    "duplicate_full_record_conflicts": 0
+  }
+]

@@ -1,0 +1,255 @@
+{
+  "overall": {
+    "cells": 175,
+    "eligible": 175,
+    "improved": 82,
+    "worse": 93,
+    "tied": 0,
+    "clipped_improved": 106,
+    "clipped_worse": 64,
+    "clipped_tied": 5,
+    "out_of_range": 84,
+    "raw_mae": 0.28892212971432407,
+    "corrected_mae": 0.5322530853205616,
+    "clipped_mae": 0.21657630761929417,
+    "fixed_half_mae": 0.318,
+    "intervals_suppressed": 5
+  },
+  "by_model": {
+    "Llama-3.1-8B": {
+      "cells": 35,
+      "eligible": 35,
+      "improved": 9,
+      "worse": 26,
+      "tied": 0,
+      "clipped_improved": 17,
+      "clipped_worse": 13,
+      "clipped_tied": 5,
+      "out_of_range": 29,
+      "raw_mae": 0.6800390119971771,
+      "corrected_mae": 1.7697280617432312,
+      "clipped_mae": 0.4417598199616364,
+      "fixed_half_mae": 0.318,
+      "intervals_suppressed": 5
+    },
+    "Mistral-7B": {
+      "cells": 35,
+      "eligible": 35,
+      "improved": 18,
+      "worse": 17,
+      "tied": 0,
+      "clipped_improved": 27,
+      "clipped_worse": 8,
+      "clipped_tied": 0,
+      "out_of_range": 14,
+      "raw_mae": 0.315961479628045,
+      "corrected_mae": 0.293754283468596,
+      "clipped_mae": 0.2055330485179334,
+      "fixed_half_mae": 0.318,
+      "intervals_suppressed": 0
+    },
+    "OLMo-2-7B": {
+      "cells": 35,
+      "eligible": 35,
+      "improved": 3,
+      "worse": 32,
+      "tied": 0,
+      "clipped_improved": 7,
+      "clipped_worse": 28,
+      "clipped_tied": 0,
+      "out_of_range": 26,
+      "raw_mae": 0.13096974908399947,
+      "corrected_mae": 0.3735899210761056,
+      "clipped_mae": 0.25859843296477186,
+      "fixed_half_mae": 0.318,
+      "intervals_suppressed": 0
+    },
+    "Qwen2.5-7B": {
+      "cells": 35,
+      "eligible": 35,
+      "improved": 22,
+      "worse": 13,
+      "tied": 0,
+      "clipped_improved": 23,
+      "clipped_worse": 12,
+      "clipped_tied": 0,
+      "out_of_range": 9,
+      "raw_mae": 0.10664900386311932,
+      "corrected_mae": 0.11331476109986614,
+      "clipped_mae": 0.09525813163384589,
+      "fixed_half_mae": 0.318,
+      "intervals_suppressed": 0
+    },
+    "gemma-2-9b": {
+      "cells": 35,
+      "eligible": 35,
+      "improved": 30,
+      "worse": 5,
+      "tied": 0,
+      "clipped_improved": 32,
+      "clipped_worse": 3,
+      "clipped_tied": 0,
+      "out_of_range": 6,
+      "raw_mae": 0.21099140399927951,
+      "corrected_mae": 0.11087839921500874,
+      "clipped_mae": 0.08173210501828337,
+      "fixed_half_mae": 0.318,
+      "intervals_suppressed": 0
+    }
+  },
+  "by_share": {
+    "0.01": {
+      "cells": 35,
+      "eligible": 35,
+      "improved": 19,
+      "worse": 16,
+      "tied": 0,
+      "clipped_improved": 30,
+      "clipped_worse": 4,
+      "clipped_tied": 1,
+      "out_of_range": 24,
+      "raw_mae": 0.3490291606347019,
+      "corrected_mae": 0.5547189007746083,
+      "clipped_mae": 0.1762867508014834,
+      "fixed_half_mae": 0.4899999999999999,
+      "intervals_suppressed": 1
+    },
+    "0.05": {
+      "cells": 35,
+      "eligible": 35,
+      "improved": 19,
+      "worse": 16,
+      "tied": 0,
+      "clipped_improved": 25,
+      "clipped_worse": 9,
+      "clipped_tied": 1,
+      "out_of_range": 21,
+      "raw_mae": 0.3294279984800668,
+      "corrected_mae": 0.5446792036195082,
+      "clipped_mae": 0.19123728367597462,
+      "fixed_half_mae": 0.44999999999999996,
+      "intervals_suppressed": 1
+    },
+    "0.1": {
+      "cells": 35,
+      "eligible": 35,
+      "improved": 17,
+      "worse": 18,
+      "tied": 0,
+      "clipped_improved": 22,
+      "clipped_worse": 12,
+      "clipped_tied": 1,
+      "out_of_range": 16,
+      "raw_mae": 0.3094577161687423,
+      "corrected_mae": 0.5341365284742905,
+      "clipped_mae": 0.20468611040542264,
+      "fixed_half_mae": 0.4000000000000001,
+      "intervals_suppressed": 1
+    },
+    "0.25": {
+      "cells": 35,
+      "eligible": 35,
+      "improved": 13,
+      "worse": 22,
+      "tied": 0,
+      "clipped_improved": 15,
+      "clipped_worse": 19,
+      "clipped_tied": 1,
+      "out_of_range": 13,
+      "raw_mae": 0.2565517412322139,
+      "corrected_mae": 0.5169084475953573,
+      "clipped_mae": 0.24129809640658972,
+      "fixed_half_mae": 0.25,
+      "intervals_suppressed": 1
+    },
+    "0.5": {
+      "cells": 35,
+      "eligible": 35,
+      "improved": 14,
+      "worse": 21,
+      "tied": 0,
+      "clipped_improved": 14,
+      "clipped_worse": 20,
+      "clipped_tied": 1,
+      "out_of_range": 10,
+      "raw_mae": 0.20014403205589557,
+      "corrected_mae": 0.5108223461390434,
+      "clipped_mae": 0.26937329680700045,
+      "fixed_half_mae": 0.0,
+      "intervals_suppressed": 1
+    }
+  },
+  "items_by_set": {
+    "beavertails": {
+      "negative": 91,
+      "positive": 109
+    },
+    "xstest": {
+      "negative": 100,
+      "positive": 100
+    },
+    "ethics": {
+      "negative": 106,
+      "positive": 94
+    },
+    "wildguard": {
+      "negative": 100,
+      "positive": 100
+    },
+    "aegis": {
+      "negative": 100,
+      "positive": 98
+    },
+    "toxicchat": {
+      "negative": 100,
+      "positive": 100
+    },
+    "toxigen": {
+      "negative": 100,
+      "positive": 100
+    }
+  },
+  "data_rows": 6990,
+  "unique_items": 1398,
+  "bootstrap_draws": 2000,
+  "seed": 20261010,
+  "source_J_min": 0.04955512443136201,
+  "source_J_max": 0.6766958790473642,
+  "oracle_singular_cases": [
+    {
+      "model": "Llama-3.1-8B",
+      "target": "ethics",
+      "assumed_share": 0.01,
+      "control": "target oracle singular"
+    },
+    {
+      "model": "Llama-3.1-8B",
+      "target": "ethics",
+      "assumed_share": 0.05,
+      "control": "target oracle singular"
+    },
+    {
+      "model": "Llama-3.1-8B",
+      "target": "ethics",
+      "assumed_share": 0.1,
+      "control": "target oracle singular"
+    },
+    {
+      "model": "Llama-3.1-8B",
+      "target": "ethics",
+      "assumed_share": 0.25,
+      "control": "target oracle singular"
+    },
+    {
+      "model": "Llama-3.1-8B",
+      "target": "ethics",
+      "assumed_share": 0.5,
+      "control": "target oracle singular"
+    }
+  ]
+}
+All compound-key split, bias identity, no-shift, and applicable target-oracle controls passed.
+Python: 3.13.7 NumPy: 2.5.3 System: Darwin arm64
+Data SHA256: a8c004743230361498dc7eaca9ee9900bbc3a4a7f0dfba113b0052668325be7e
+Plan SHA256: 79d372741e586586e7bb2ee1427d772b7cc9b72e8893e83e917cd75e99dbfc54
+Elapsed analysis seconds: 0.481
