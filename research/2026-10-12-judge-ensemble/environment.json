@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "macOS-26.7.2-arm64-arm-64bit",
+  "seed": 20261012,
+  "data_sha256": "a8c004743230361498dc7eaca9ee9900bbc3a4a7f0dfba113b0052668325be7e",
+  "model_inference": "None. Fixed saved model outputs only."
+}

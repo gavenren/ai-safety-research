@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "input_sha256": "a8c004743230361498dc7eaca9ee9900bbc3a4a7f0dfba113b0052668325be7e",
+  "input_rows": 6990,
+  "aligned_items": 1398,
+  "point_cells_checked": 154,
+  "pattern_histograms_checked": 14,
+  "pattern_rows_checked": 448,
+  "bootstrap_rows_checked": 28000,
+  "percentile_ranges_checked": 14,
+  "primary_algorithm_controls_checked": 8,
+  "independent_method": "Fraction event enumeration for point cells; direct event sums for every bootstrap row",
+  "bootstrap_seed_and_order_checked": true,
+  "percentile_rule_checked": "linear, independently implemented with sorted values",
+  "validator_control_results": {
+    "identical_voters_02": {
+      "observed_error": 0.2,
+      "independent_error": 0.05792
+    },
+    "synthetic_product": {
+      "member_rates": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ],
+      "observed_error": 0.15,
+      "independent_error": 0.15
+    }
+  },
+  "check_counts": {
+    "controls": 78,
+    "input": 36367,
+    "types": 199012,
+    "points": 2312,
+    "patterns": 898,
+    "bootstrap": 308016,
+    "intervals": 100
+  },
+  "total_checks": 546783,
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5"
+}

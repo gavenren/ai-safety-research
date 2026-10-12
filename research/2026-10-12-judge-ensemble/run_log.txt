@@ -1,0 +1,29 @@
+{
+  "data_rows": 6990,
+  "items": 1398,
+  "point_cells": 154,
+  "pattern_rows": 448,
+  "bootstrap_rows": 28000,
+  "interval_rows": 14,
+  "primary": {
+    "cells": 14,
+    "positive_gap": 13,
+    "negative_gap": 0,
+    "zero_gap": 1,
+    "abs_gap_at_least_5pp": 7,
+    "mean_observed": 0.18631263637730094,
+    "mean_independent": 0.13106676210266982,
+    "mean_gap": 0.05524587427463111,
+    "min_gap": 0.0,
+    "max_gap": 0.1142916096
+  },
+  "elapsed_seconds": 0.8028489589996752,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "macOS-26.7.2-arm64-arm-64bit",
+    "seed": 20261012,
+    "data_sha256": "a8c004743230361498dc7eaca9ee9900bbc3a4a7f0dfba113b0052668325be7e",
+    "model_inference": "None. Fixed saved model outputs only."
+  }
+}

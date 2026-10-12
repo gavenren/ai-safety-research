@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "relative_links_checked": 19,
+  "missing_links": [],
+  "secret_pattern_matches": [],
+  "plan_unchanged": true,
+  "input_unchanged": true,
+  "source_rights": "Pinned Safety-Flag data license read with connector on 2026-10-12; CC BY 4.0 retained.",
+  "source_links": "Primary source pages and cited read scope verified through web tool and source-agent review. See source_search.md.",
+  "text_check": "Report uses short original paraphrases. No copied paper passages or figures found in manual review. Input data and its attribution are intentionally reused.",
+  "private_data_check": "IDs, binary labels, and public model aliases only. No source content or private personal data.",
+  "novelty_check": "A new secondary calculation only; established method and dependent-error concern attributed."
+}

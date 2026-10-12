@@ -1,0 +1,77 @@
+{
+  "commands": [
+    {
+      "script": "analyze.py",
+      "exit_code": 0
+    },
+    {
+      "script": "validate.py",
+      "exit_code": 0
+    },
+    {
+      "script": "plot.py",
+      "exit_code": 0
+    }
+  ],
+  "byte_comparisons": {
+    "results_cells.csv": {
+      "match": true,
+      "sha256": "9b07e8e2dfa739591d71381d84cc786b47e5d22ff7a115a85fedc2cfba0c80ee"
+    },
+    "results_patterns.csv": {
+      "match": true,
+      "sha256": "1c822c7322baff4e382913f439887b7e1f5d99f26f7896e73f33dbe8cd8adb23"
+    },
+    "results_bootstrap.csv": {
+      "match": true,
+      "sha256": "2c70d14c78230302fbe4025f6b6d1a4ed1b7d5915d7e4584619f7b5d9ec52e20"
+    },
+    "results_intervals.csv": {
+      "match": true,
+      "sha256": "c517b6b1dcf3d3ff4e5e2d06f786abb60a37fccf0f85b29050ec022baf743331"
+    },
+    "results_controls.json": {
+      "match": true,
+      "sha256": "18b802c48231d4a2d37c809da00269c4cffbeef5fb7aaec0cc0494c7b0892255"
+    },
+    "results_summary.json": {
+      "match": true,
+      "sha256": "ba7ea69c19ff0de6784756df401aa2cd05c33d136fafe2218567580724967cec"
+    },
+    "validation_results.json": {
+      "match": true,
+      "sha256": "1d82fedeab60c4ff593bd9f0b3425fd83dc54541acb172bbd7fa9356c8bf2dd8"
+    },
+    "environment.json": {
+      "match": true,
+      "sha256": "c2924ee0d000e878ee0f670c73ff89202f99f8c0afcc9730f0db15b434e7ad90"
+    },
+    "figure_gaps.png": {
+      "match": true,
+      "sha256": "2b7a92b42b8ef5af14cba67be63466a1c5746f54fca6489287e8dc3785a0acef"
+    },
+    "plot_environment.json": {
+      "match": true,
+      "sha256": "21e48868fad7b39ea3cf9141d0052f774139090c4a7a7482b5ea6b741989c2c4"
+    }
+  },
+  "plan_hash_match": true,
+  "data_hash_match": true,
+  "primary_mean_member_error": 0.2828537481292453,
+  "primary_best_member_error": 0.055234897471211075,
+  "minimum_triple": {
+    "dataset": "ethics",
+    "reference": "0",
+    "panel": "Llama-3.1-8B|Mistral-7B|gemma-2-9b",
+    "panel_size": "3",
+    "n": "106",
+    "errors": "48",
+    "observed_error": "0.4528301886792453",
+    "independent_error": "0.5781416874332502",
+    "gap": "-0.12531149875400494",
+    "mean_member_error": "0.5628930817610064",
+    "best_member_error": "0.25471698113207547",
+    "member_error_counts": "[106,46,27]"
+  },
+  "unexpected_relative_links": []
+}

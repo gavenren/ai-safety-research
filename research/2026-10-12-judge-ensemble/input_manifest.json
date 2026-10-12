@@ -1,0 +1,8 @@
+{
+  "plan_saved_utc": "2026-10-12T12:58:41.333804+00:00",
+  "plan_sha256": "5b511162b8125065a60add904a94f7efc18f71c156ed5a8c30074fba4d8dee1a",
+  "data_sha256": "a8c004743230361498dc7eaca9ee9900bbc3a4a7f0dfba113b0052668325be7e",
+  "input_url": "https://github.com/gavenren/ai-safety-research/blob/a713543cfaa4188d6675826fc12ca3f9f2da582a/research/2026-10-10-judge-transfer/data_labels.csv",
+  "source_commit": "82d39d018c5522dfbdf303b49c5d83a8444d03d2",
+  "retrieval": "Copied unchanged from the checked local October 10 release. Remote blob hash is checked before analysis."
+}

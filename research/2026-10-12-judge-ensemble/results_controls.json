@@ -1,0 +1,84 @@
+{
+  "controls": [
+    {
+      "name": "all_correct",
+      "rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observed_error": 0.0,
+      "independent_error": 0.0
+    },
+    {
+      "name": "all_wrong",
+      "rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "observed_error": 1.0,
+      "independent_error": 1.0
+    },
+    {
+      "name": "identical_voters_02",
+      "rates": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "observed_error": 0.2,
+      "independent_error": 0.05792000000000003
+    },
+    {
+      "name": "synthetic_product",
+      "rates": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.6
+      ],
+      "observed_error": 0.17144,
+      "independent_error": 0.17144
+    },
+    {
+      "name": "single_0",
+      "rates": [
+        0.0
+      ],
+      "observed_error": 0.0,
+      "independent_error": 0.0
+    },
+    {
+      "name": "single_02",
+      "rates": [
+        0.2
+      ],
+      "observed_error": 0.2,
+      "independent_error": 0.2
+    },
+    {
+      "name": "single_05",
+      "rates": [
+        0.5
+      ],
+      "observed_error": 0.5,
+      "independent_error": 0.5
+    },
+    {
+      "name": "single_1",
+      "rates": [
+        1.0
+      ],
+      "observed_error": 1.0,
+      "independent_error": 1.0
+    }
+  ]
+}
