@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-13T13:38:57.117663+00:00",
+  "scope": "Local release checks; remote publication is verified separately.",
+  "source_references": "Primary report references were opened and read within the scope recorded in source_search.md.",
+  "source_license_blob": "b072612b2f026bd5fe10c53eecef3d9d5ecbe2e2",
+  "manual_checks": [
+    "report claims and limits",
+    "source attribution and reuse rights",
+    "no copied source prose or code identified",
+    "no private data or harmful instructions identified",
+    "figure visually checked",
+    "separate final reproduction review passed"
+  ],
+  "secret_pattern_matches": [],
+  "relative_links": [
+    {
+      "source": "README.md",
+      "target": "report.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "DATA_LICENSE.md",
+      "exists": true
+    },
+    {
+      "source": "final_review.md",
+      "target": "reproduction_check.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "review.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "../2026-10-10-judge-transfer/report.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "../2026-10-12-judge-ensemble/report.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "source_search.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "analysis_plan.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "input_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "data_labels.csv",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "DATA_LICENSE.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "results_groups.csv",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "figure_routing.png",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "results_random_distribution.csv",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "results_review_scenarios.csv",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "DATA_LICENSE.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "method_review.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "failed_checks.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "review.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "final_review.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "target": "source_search.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "target": "method_review.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "target": "final_review.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "target": "failed_checks.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "target": "release_checks.json",
+      "exists": true
+    }
+  ],
+  "relative_link_instances": 26,
+  "plan_unchanged": true,
+  "data_unchanged": true,
+  "validator_status": "PASS",
+  "validator_checks": 53852
+}

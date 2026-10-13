@@ -1,0 +1,76 @@
+{
+  "all_accepted": {
+    "accepted": 2,
+    "accepted_errors": 1,
+    "deferred": 0,
+    "deferred_errors": 0,
+    "errors": 1,
+    "n": 2,
+    "review_break_even_error": "",
+    "selective_error": "0.500000000000"
+  },
+  "all_correct": {
+    "accepted": 4,
+    "accepted_errors": 0,
+    "deferred": 0,
+    "deferred_errors": 0,
+    "errors": 0,
+    "n": 4,
+    "review_break_even_error": "",
+    "selective_error": "0.000000000000"
+  },
+  "all_wrong": {
+    "accepted": 4,
+    "accepted_errors": 4,
+    "deferred": 0,
+    "deferred_errors": 0,
+    "errors": 4,
+    "n": 4,
+    "review_break_even_error": "",
+    "selective_error": "1.000000000000"
+  },
+  "correct_deferred": {
+    "accepted": 1,
+    "accepted_errors": 1,
+    "deferred": 1,
+    "deferred_errors": 0,
+    "errors": 1,
+    "n": 2,
+    "review_break_even_error": "0.000000000000",
+    "selective_error": "1.000000000000"
+  },
+  "no_accepted": {
+    "accepted": 0,
+    "accepted_errors": 0,
+    "deferred": 2,
+    "deferred_errors": 1,
+    "errors": 1,
+    "n": 2,
+    "review_break_even_error": "0.500000000000",
+    "selective_error": ""
+  },
+  "small_random_distribution": [
+    [
+      0,
+      "1/6"
+    ],
+    [
+      1,
+      "2/3"
+    ],
+    [
+      2,
+      "1/6"
+    ]
+  ],
+  "wrong_deferred": {
+    "accepted": 1,
+    "accepted_errors": 0,
+    "deferred": 1,
+    "deferred_errors": 1,
+    "errors": 1,
+    "n": 2,
+    "review_break_even_error": "1.000000000000",
+    "selective_error": "0.000000000000"
+  }
+}

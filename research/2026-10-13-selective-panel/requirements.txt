@@ -1,0 +1,2 @@
+# Core analysis and validation use Python 3.13.7 and its standard library.
+# No third-party packages are required.

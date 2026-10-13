@@ -1,0 +1,40 @@
+{
+  "group_rows": 63,
+  "items": 1398,
+  "random_probability_rows": 944,
+  "scenario_rows": 378,
+  "thresholds": {
+    "3": {
+      "class_rows_no_accepted": 0,
+      "class_rows_selective_worse": 0,
+      "mean_set_coverage": 1.0,
+      "mean_set_selective_error": 0.18751803751803753,
+      "sets_improve": 0,
+      "sets_no_accepted": 0,
+      "sets_tie": 7,
+      "sets_worsen": 0
+    },
+    "4": {
+      "class_rows_no_accepted": 0,
+      "class_rows_selective_worse": 0,
+      "mean_set_coverage": 0.7188455988455988,
+      "mean_set_selective_error": 0.12366058625292624,
+      "sets_improve": 7,
+      "sets_no_accepted": 0,
+      "sets_tie": 0,
+      "sets_worsen": 0
+    },
+    "5": {
+      "class_rows_no_accepted": 0,
+      "class_rows_selective_worse": 5,
+      "mean_set_coverage": 0.2783910533910534,
+      "mean_set_selective_error": 0.09636896250044598,
+      "sets_improve": 7,
+      "sets_no_accepted": 0,
+      "sets_tie": 0,
+      "sets_worsen": 0
+    }
+  },
+  "votes": 6990
+}
+PASS: input hashes, keys, labels, count checks, distributions, and controls.

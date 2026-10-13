@@ -1,0 +1,8 @@
+{
+  "implementation": "CPython",
+  "machine": "arm64",
+  "packages": "standard library only",
+  "platform": "Darwin",
+  "python": "3.13.7",
+  "random_seed": null
+}

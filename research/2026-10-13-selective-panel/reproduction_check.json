@@ -1,0 +1,308 @@
+{
+  "command_path_note": "Executable paths are shown as local environment aliases. Both environments used CPython 3.13.7. The plot package versions are in plot_environment.json.",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "analyze.py"
+      ],
+      "exit_code": 0,
+      "output": "run_log.txt",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "validate.py"
+      ],
+      "exit_code": 0,
+      "output": "validation_results.json",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<plot-environment>/bin/python",
+        "plot.py"
+      ],
+      "exit_code": 0,
+      "output": "plot_log.txt",
+      "stderr": ""
+    }
+  ],
+  "core_python": "3.13.7",
+  "date": "2026-10-13",
+  "files": [
+    {
+      "byte_equal": true,
+      "file": "results_items.csv",
+      "rerun_sha256": "42b6573a7227716795c8e0c141f4c67f0bb0b35e91ac109af42b94261c837d54",
+      "source_sha256": "42b6573a7227716795c8e0c141f4c67f0bb0b35e91ac109af42b94261c837d54"
+    },
+    {
+      "byte_equal": true,
+      "file": "results_groups.csv",
+      "rerun_sha256": "59cd2a538c171ddf9ae94c7ed50b414c66ad61165730475b499048e1b293967f",
+      "source_sha256": "59cd2a538c171ddf9ae94c7ed50b414c66ad61165730475b499048e1b293967f"
+    },
+    {
+      "byte_equal": true,
+      "file": "results_random_distribution.csv",
+      "rerun_sha256": "ea1c13ddada37a3f34fc2e281ea280deb3c40a53b48c827d69e2aa9ca0359540",
+      "source_sha256": "ea1c13ddada37a3f34fc2e281ea280deb3c40a53b48c827d69e2aa9ca0359540"
+    },
+    {
+      "byte_equal": true,
+      "file": "results_review_scenarios.csv",
+      "rerun_sha256": "69e61405f36a429dad2955e33cdfdd49cc66f8880f4750e708d8ef3e3f132929",
+      "source_sha256": "69e61405f36a429dad2955e33cdfdd49cc66f8880f4750e708d8ef3e3f132929"
+    },
+    {
+      "byte_equal": true,
+      "file": "results_summary.json",
+      "rerun_sha256": "c755daef8832853dc7924e63889e0cf29a421e2a0d6ee8140291cf89b218cef2",
+      "source_sha256": "c755daef8832853dc7924e63889e0cf29a421e2a0d6ee8140291cf89b218cef2"
+    },
+    {
+      "byte_equal": true,
+      "file": "results_controls.json",
+      "rerun_sha256": "f876cffb54fcf38176e4c6dd1f604add0b24f6a9b5a419f0d6636090e87dde90",
+      "source_sha256": "f876cffb54fcf38176e4c6dd1f604add0b24f6a9b5a419f0d6636090e87dde90"
+    },
+    {
+      "byte_equal": true,
+      "file": "validation_results.json",
+      "rerun_sha256": "34eb8f8f4a1519c2bb94f8c489bb27ca3f1a845c9296f2df726daf59a0fb978a",
+      "source_sha256": "34eb8f8f4a1519c2bb94f8c489bb27ca3f1a845c9296f2df726daf59a0fb978a"
+    },
+    {
+      "byte_equal": true,
+      "file": "environment.json",
+      "rerun_sha256": "110e0e8e595400b6258a5ec2feb49e6807cb61c1dfb828be0e62ab516d7f275a",
+      "source_sha256": "110e0e8e595400b6258a5ec2feb49e6807cb61c1dfb828be0e62ab516d7f275a"
+    },
+    {
+      "byte_equal": true,
+      "file": "plot_environment.json",
+      "rerun_sha256": "293d5741388dc0413237370d91668cf3254443988a8fe887574bbe8373666b38",
+      "source_sha256": "293d5741388dc0413237370d91668cf3254443988a8fe887574bbe8373666b38"
+    },
+    {
+      "byte_equal": true,
+      "file": "figure_routing.png",
+      "rerun_sha256": "c1072d510294212517d678abcd525c922168b64a10e39e446caa2fe794261dc3",
+      "source_sha256": "c1072d510294212517d678abcd525c922168b64a10e39e446caa2fe794261dc3"
+    }
+  ],
+  "report_checks": {
+    "class_increase_table_rows": 5,
+    "mean_rates": {
+      "3": {
+        "coverage": "100.00",
+        "selective_error": "18.75"
+      },
+      "4": {
+        "coverage": "71.88",
+        "selective_error": "12.37"
+      },
+      "5": {
+        "coverage": "27.84",
+        "selective_error": "9.64"
+      }
+    },
+    "obvious_secret_pattern_matches": [],
+    "primary_table_rows": 14,
+    "review_error_boundaries_percent": {
+      "4": [
+        "20.83",
+        "50.82"
+      ],
+      "5": [
+        "11.11",
+        "34.68"
+      ]
+    },
+    "review_scenario_20_percent": "PASS",
+    "secret_patterns_checked": [
+      "private_key",
+      "github_token",
+      "openai_key",
+      "aws_access_key"
+    ],
+    "sets_below_random_range": {
+      "4": [
+        "aegis",
+        "beavertails",
+        "ethics",
+        "toxicchat",
+        "toxigen",
+        "wildguard",
+        "xstest"
+      ],
+      "5": [
+        "aegis",
+        "toxigen",
+        "wildguard",
+        "xstest"
+      ]
+    },
+    "small_class_and_class_mix_examples": "PASS"
+  },
+  "scope": "Fresh separate-copy reproduction on the same local machine",
+  "status": "PASS",
+  "validation": {
+    "check_counts": {
+      "aligned item count": 1,
+      "all correct rate control": 1,
+      "all wrong rate control": 1,
+      "binary error control": 64,
+      "binary reference": 6990,
+      "binary vote": 6990,
+      "complete shared model set": 1398,
+      "control expected errors": 284,
+      "control probability sums to one": 284,
+      "control quantile left boundary": 568,
+      "control quantile right boundary": 568,
+      "count conservation": 63,
+      "equal review break even": 246,
+      "exact distribution mean": 63,
+      "exact recurrence probability equality": 944,
+      "five votes per item": 1398,
+      "fixed input hash": 1,
+      "full acceptance identity": 21,
+      "group baseline_error: finite": 63,
+      "group baseline_error: numeric equality": 63,
+      "group baseline_error: value exists": 63,
+      "group count accepted": 63,
+      "group count accepted_errors": 63,
+      "group count deferred": 63,
+      "group count deferred_errors": 63,
+      "group count errors": 63,
+      "group count n": 63,
+      "group coverage: finite": 63,
+      "group coverage: numeric equality": 63,
+      "group coverage: value exists": 63,
+      "group error_capture: empty denominator": 3,
+      "group error_capture: finite": 60,
+      "group error_capture: numeric equality": 60,
+      "group error_capture: value exists": 60,
+      "group nested acceptance": 42,
+      "group quantile accepted error: finite": 126,
+      "group quantile accepted error: numeric equality": 126,
+      "group quantile accepted error: value exists": 126,
+      "group random quantile": 126,
+      "group random_expected_accepted_errors: finite": 63,
+      "group random_expected_accepted_errors: numeric equality": 63,
+      "group random_expected_accepted_errors: value exists": 63,
+      "group residual_automated_error: finite": 63,
+      "group residual_automated_error: numeric equality": 63,
+      "group residual_automated_error: value exists": 63,
+      "group review_break_even_error: empty denominator": 22,
+      "group review_break_even_error: finite": 41,
+      "group review_break_even_error: numeric equality": 41,
+      "group review_break_even_error: value exists": 41,
+      "group selective_error: finite": 63,
+      "group selective_error: numeric equality": 63,
+      "group selective_error: value exists": 63,
+      "group selective_minus_baseline: finite": 63,
+      "group selective_minus_baseline: numeric equality": 63,
+      "group selective_minus_baseline: value exists": 63,
+      "group unique and known": 63,
+      "input key is unique": 6990,
+      "input row count": 1,
+      "manifest data hash": 1,
+      "nested acceptance control": 64,
+      "no review change identity": 132,
+      "plan hash unchanged": 1,
+      "probability fraction positive": 944,
+      "probability groups complete": 1,
+      "probability key unique": 944,
+      "probability sum equals one": 63,
+      "probability support complete": 63,
+      "rate in range": 378,
+      "reference class count sum": 126,
+      "review change identity": 378,
+      "saved control count": 36,
+      "saved control keys": 1,
+      "saved control review error: empty denominator": 3,
+      "saved control review error: finite": 3,
+      "saved control review error: numeric equality": 3,
+      "saved control review error: value exists": 3,
+      "saved control selective error: empty denominator": 1,
+      "saved control selective error: finite": 5,
+      "saved control selective error: numeric equality": 5,
+      "saved control selective error: value exists": 5,
+      "saved group row count": 1,
+      "saved groups complete": 1,
+      "saved item agreement": 1398,
+      "saved item error": 1398,
+      "saved item flag_votes": 1398,
+      "saved item majority": 1398,
+      "saved item reference": 1398,
+      "saved item routing": 4194,
+      "saved item row count": 1,
+      "saved item unique and known": 1398,
+      "saved items complete": 1,
+      "saved quantile left boundary": 126,
+      "saved quantile right boundary": 126,
+      "saved scenario row count": 1,
+      "saved scenarios complete": 1,
+      "saved small probability control": 1,
+      "scenario baseline_error: finite": 378,
+      "scenario baseline_error: numeric equality": 378,
+      "scenario baseline_error: value exists": 378,
+      "scenario change: finite": 378,
+      "scenario change: numeric equality": 378,
+      "scenario change: value exists": 378,
+      "scenario outcome": 378,
+      "scenario random_system_error: finite": 378,
+      "scenario random_system_error: numeric equality": 378,
+      "scenario random_system_error: value exists": 378,
+      "scenario routing_minus_random: finite": 378,
+      "scenario routing_minus_random: numeric equality": 378,
+      "scenario routing_minus_random: value exists": 378,
+      "scenario system_error: finite": 378,
+      "scenario system_error: numeric equality": 378,
+      "scenario system_error: value exists": 378,
+      "scenario unique and planned": 378,
+      "seven test sets": 1,
+      "shared reference per item": 1398,
+      "small subset distribution control": 284,
+      "strict review break even": 246,
+      "summary class_rows_no_accepted": 3,
+      "summary class_rows_selective_worse": 3,
+      "summary count group_rows": 1,
+      "summary count items": 1,
+      "summary count random_probability_rows": 1,
+      "summary count scenario_rows": 1,
+      "summary count votes": 1,
+      "summary mean set coverage: finite": 3,
+      "summary mean set coverage: numeric equality": 3,
+      "summary mean set coverage: value exists": 3,
+      "summary mean set selective error: finite": 3,
+      "summary mean set selective error: numeric equality": 3,
+      "summary mean set selective error: value exists": 3,
+      "summary sets_improve": 3,
+      "summary sets_no_accepted": 3,
+      "summary sets_tie": 3,
+      "summary sets_worsen": 3,
+      "summary thresholds complete": 1,
+      "unanimity endpoint control": 64,
+      "vote agreement range control": 64,
+      "zero denominator control": 1
+    },
+    "checks": 53852,
+    "exact_probability_rows_checked": 944,
+    "groups_checked": 63,
+    "input_sha256": "a8c004743230361498dc7eaca9ee9900bbc3a4a7f0dfba113b0052668325be7e",
+    "items_checked": 1398,
+    "method": "Independent item reconstruction, exact Fraction recurrence, and direct small subset enumeration",
+    "review_scenario_outcomes": {
+      "improve": 163,
+      "tie": 135,
+      "worsen": 80
+    },
+    "review_scenarios_checked": 378,
+    "small_subset_distribution_cases": 284,
+    "status": "PASS"
+  }
+}

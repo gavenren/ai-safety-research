@@ -1,0 +1,11 @@
+{
+  "saved_at_utc": "2026-10-13T12:47:54.363974+00:00",
+  "plan_sha256": "60217069f3d9d8e4a5b931b1f2fa6ced524bf2dd95030d9f648e3649298b6d0b",
+  "data_sha256": "a8c004743230361498dc7eaca9ee9900bbc3a4a7f0dfba113b0052668325be7e",
+  "repository_commit": "5da968d9c12edc82e1f0030d7e61f91233c509cd",
+  "upstream_commit": "82d39d018c5522dfbdf303b49c5d83a8444d03d2",
+  "upstream_data_url": "https://github.com/yibo-hu-lab/safety-flag-benchmark/tree/82d39d018c5522dfbdf303b49c5d83a8444d03d2",
+  "reduced_data_url": "https://github.com/gavenren/ai-safety-research/blob/5da968d9c12edc82e1f0030d7e61f91233c509cd/research/2026-10-12-judge-ensemble/data_labels.csv",
+  "random_seed": null,
+  "reason": "Exact finite-data enumeration; no random sampling."
+}
