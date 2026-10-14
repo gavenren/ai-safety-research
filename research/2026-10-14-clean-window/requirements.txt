@@ -1,0 +1,1 @@
+# Core calculation and validation: CPython 3.13.7, standard library only.

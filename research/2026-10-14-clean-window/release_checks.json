@@ -1,0 +1,218 @@
+{
+  "status": "PASS",
+  "date": "2026-10-14",
+  "completed_utc": "2026-10-14T17:50:08.738921+00:00",
+  "report_sha256": "36dbe2a30578ca26f8fa919b9ede55b9503201e9027ff15b37664415572af0d0",
+  "source_and_claim_review": "PASS; see source_search.md and final_review.md. Source read sections and limits are explicit.",
+  "reproduction": "PASS; eight files match byte for byte in a separate copy. See reproduction_check.json.",
+  "mathematical_validation": "PASS; see method_review.md and validation_results.json.",
+  "relative_links": [
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "../2026-10-09-zero-failure-dependence/report.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "source_search.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "analysis_plan.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "config.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "input_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "derivations.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "figure_windows.png",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "results_grid.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "results_calibration.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "results_trajectory.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "method_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "validation_results.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "failed_checks.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/report.md",
+      "target": "final_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "config.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "input_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "report.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "derivations.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "analysis_plan.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "source_search.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "results_grid.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "results_calibration.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "results_trajectory.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "method_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "validation_results.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "final_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/README.md",
+      "target": "review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/final_review.md",
+      "target": "reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-14-clean-window/final_review.md",
+      "target": "source_search.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "RESEARCH_PROTOCOL.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-14-clean-window/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-13-selective-panel/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-12-judge-ensemble/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-10-judge-transfer/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-09-zero-failure-dependence/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-08-incident-trends/report.md",
+      "exists": true
+    }
+  ],
+  "secret_and_private_path_scan": {
+    "status": "PASS",
+    "files_scanned": 29,
+    "scope": [
+      "local_path",
+      "credential",
+      "private_email"
+    ],
+    "findings": []
+  },
+  "manual_content_review": "PASS; no copied source passage, third-party asset, private record, harmful procedure, license conflict, or unsupported novelty claim found in the inspected package. This is a bounded check, not a universal guarantee.",
+  "privacy_repair": "The final reviewer replaced one local interpreter path with a portable command name in reproduction_check.json. Environment versions and all results are unchanged.",
+  "root_index": "One new report row only. All prior text is preserved.",
+  "checklist": "Relevant NeurIPS items reviewed; no approval or compliance claim.",
+  "human_review": false,
+  "external_peer_review": false,
+  "publication_status": "Not verified by this pre-publication record. Remote verification must follow upload."
+}

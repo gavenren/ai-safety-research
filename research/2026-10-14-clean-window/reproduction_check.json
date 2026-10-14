@@ -1,0 +1,211 @@
+{
+  "status": "PASS",
+  "date": "2026-10-14",
+  "review_type": "Separate Codex agent fresh-copy reproduction; no human review",
+  "completed_utc": "2026-10-14T17:46:00.983528+00:00",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "analyze.py"
+      ],
+      "return_code": 0,
+      "stdout_chars": 2784,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "validate.py"
+      ],
+      "return_code": 0,
+      "stdout_chars": 1134,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "plot.py"
+      ],
+      "return_code": 0,
+      "stdout_chars": 47,
+      "stderr": ""
+    }
+  ],
+  "files_compared": [
+    {
+      "file": "results_grid.csv",
+      "byte_identical": true,
+      "sha256": "fd876b62d2adff952af86853d12fa1f0c2e0d375cf7c5b09ab32c1a330b40429"
+    },
+    {
+      "file": "results_calibration.csv",
+      "byte_identical": true,
+      "sha256": "d458c5e0ecced091749fb0b7a29330c29bf354be351b925eb6f89260e3a96f23"
+    },
+    {
+      "file": "results_trajectory.csv",
+      "byte_identical": true,
+      "sha256": "f6478797d9ce02a60f081253e975fe01b5b048638a9566d9b1adea51965d68f2"
+    },
+    {
+      "file": "results_summary.json",
+      "byte_identical": true,
+      "sha256": "03caed15246baa0d130b4164610dffdd5907c0f8e7d4f0f9be397e9457322d35"
+    },
+    {
+      "file": "environment.json",
+      "byte_identical": true,
+      "sha256": "81d6046721c9fba41c0bec82d8933bc0fe5357673c5175de1df4c749c66fcd75"
+    },
+    {
+      "file": "validation_results.json",
+      "byte_identical": true,
+      "sha256": "da5ff27f8238940bcfd675383544bc2bb2b7c22a6066c23a9022c811e240a91b"
+    },
+    {
+      "file": "figure_windows.png",
+      "byte_identical": true,
+      "sha256": "250ba63b9bdf0fe0a032c5e03d4bd1668b6fc6e313fff2385d671b9eb92c3ac1"
+    },
+    {
+      "file": "plot_environment.json",
+      "byte_identical": true,
+      "sha256": "3b0b866d428bef604909b6d3bd84340acae4cdcaac72995a82fed4fe17a1c035"
+    }
+  ],
+  "byte_identical_file_count": 8,
+  "input_and_plan_hashes": "Verified by analysis and validator; unchanged",
+  "report_table_rows": [
+    {
+      "p0": "0.001",
+      "horizon": 2995,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.001",
+      "horizon": 5990,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.001",
+      "horizon": 14975,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.001",
+      "horizon": 29950,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.01",
+      "horizon": 299,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.01",
+      "horizon": 598,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.01",
+      "horizon": 1495,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.01",
+      "horizon": 2990,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.05",
+      "horizon": 59,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.05",
+      "horizon": 118,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.05",
+      "horizon": 295,
+      "all_eight_cells_match": true
+    },
+    {
+      "p0": "0.05",
+      "horizon": 590,
+      "all_eight_cells_match": true
+    }
+  ],
+  "figure_visual_check": "PASS: axes, units, title, legend, markers, and caption are clear. No clipping. All four series match the saved data. Caption limits the connecting lines to the four saved designs.",
+  "report_sha256": "36dbe2a30578ca26f8fa919b9ede55b9503201e9027ff15b37664415572af0d0",
+  "numeric_prose_checks": [
+    {
+      "claim": "abstract one-window",
+      "percentage": "4.95%",
+      "matches_report": true
+    },
+    {
+      "claim": "abstract separate",
+      "percentage": "39.83%",
+      "matches_report": true
+    },
+    {
+      "claim": "abstract rolling",
+      "percentage": "80.49%",
+      "matches_report": true
+    },
+    {
+      "claim": "corrected rolling",
+      "percentage": "4.9943%",
+      "matches_report": true
+    },
+    {
+      "claim": "predecessor",
+      "percentage": "5.0459%",
+      "matches_report": true
+    },
+    {
+      "claim": "union bound",
+      "percentage": "4.9637%",
+      "matches_report": true
+    },
+    {
+      "claim": "rolling at union length",
+      "percentage": "0.0522%",
+      "matches_report": true
+    },
+    {
+      "claim": "p2 single",
+      "percentage": "0.2380%",
+      "matches_report": true
+    },
+    {
+      "claim": "p2 separate",
+      "percentage": "2.3548%",
+      "matches_report": true
+    },
+    {
+      "claim": "p2 rolling",
+      "percentage": "12.3901%",
+      "matches_report": true
+    },
+    {
+      "claim": "p2 corrected",
+      "percentage": "0.0191%",
+      "matches_report": true
+    },
+    {
+      "claim": "p5 rolling",
+      "percentage": "0.0030%",
+      "matches_report": true
+    }
+  ],
+  "report_counts": "36 grid rows, 12 calibrations, 5982 time rows, 9 of 9 primary conditions, 198 exhaustive cases and 84 state cases match saved outputs",
+  "derivation_review": "PASS: first-hit recurrence, coefficient expression, event nesting, union bound, boundary worst case, minimum length, and unlimited-horizon limit",
+  "source_claims": "PASS: final reviewer reopened cited primary sources and checklist. Specific read sections are in final_review.md. Other search items were checked by the source reviewer.",
+  "limitations_and_disclosure": "PASS: synthetic model, fixed horizon, independence, constant failure rate, correct labels, unchanged system, no practical efficiency result, no AI experiment, no human review",
+  "material_issues": [],
+  "plot_command_environment": "The plot command used the existing environment described in plot_environment.json."
+}

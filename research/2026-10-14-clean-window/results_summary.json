@@ -1,0 +1,75 @@
+{
+  "study_type": "Exact synthetic probability model; no AI model tested",
+  "grid_rows": 36,
+  "calibration_rows": 12,
+  "trajectory_rows": 5982,
+  "primary_hypothesis_conditions": 9,
+  "primary_above_alpha": 9,
+  "plan_sha256": "8531929f762bd92d9041cf79f0e7e6070098cdaa010a9f3cac9da8ba69ec77bc",
+  "config_sha256": "572d6792649e78cdc7cc258d1e43abb442c3abbea9e20da8d46814f1283aba74",
+  "example_p0_0p01_horizon_10": [
+    {
+      "p0": "0.01",
+      "rate_multiplier": 1,
+      "p": "0.01",
+      "horizon_multiplier": 10,
+      "horizon": 2990,
+      "nominal_k": 299,
+      "single_probability": "0.049536256637662480714411746889",
+      "separate_probability": "0.398333892271749032919252669682",
+      "rolling_probability": "0.804934535273434247653541665939",
+      "window_union_bound": "1.000000000000000000000000000000",
+      "exact_k": 616,
+      "corrected_rolling_probability": "0.049943022994619520220629079780",
+      "union_k": 1052,
+      "union_length_rolling_probability": "0.000521678183724485478024853315"
+    },
+    {
+      "p0": "0.01",
+      "rate_multiplier": 2,
+      "p": "0.02",
+      "horizon_multiplier": 10,
+      "horizon": 2990,
+      "nominal_k": 299,
+      "single_probability": "0.002380107824440230288523833866",
+      "separate_probability": "0.023547768400456794360446717200",
+      "rolling_probability": "0.123900628945707146881296540388",
+      "window_union_bound": "1.000000000000000000000000000000",
+      "exact_k": 616,
+      "corrected_rolling_probability": "0.000190898363217143430261272466",
+      "union_k": 1052,
+      "union_length_rolling_probability": "0.000000023403348680292327564051"
+    },
+    {
+      "p0": "0.01",
+      "rate_multiplier": 5,
+      "p": "0.05",
+      "horizon_multiplier": 10,
+      "horizon": 2990,
+      "nominal_k": 299,
+      "single_probability": "0.000000218452983975587904376440",
+      "separate_probability": "0.000002184527692280350684449777",
+      "rolling_probability": "0.000029610955105647759580503924",
+      "window_union_bound": "0.000588075432862282638581376281",
+      "exact_k": 616,
+      "corrected_rolling_probability": "0.000000000002269002677337665278",
+      "union_k": 1052,
+      "union_length_rolling_probability": "0.000000000000000000000359762138"
+    }
+  ],
+  "example_calibration": [
+    {
+      "p0": "0.01",
+      "horizon_multiplier": 10,
+      "horizon": 2990,
+      "nominal_k": 299,
+      "exact_k": 616,
+      "union_k": 1052,
+      "exact_probability": "0.049943022994619520220629079780",
+      "exact_predecessor_probability": "0.050459307674055527550252332364",
+      "union_bound": "0.049636657156643038489673228880",
+      "union_predecessor_bound": "0.050163895209905915613049559039",
+      "rolling_at_union_k": "0.000521678183724485478024853315"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "python": "3.13.7",
+  "implementation": "CPython",
+  "dependencies": "standard library only",
+  "decimal_precision": 60,
+  "platform": "darwin",
+  "random_sampling": false,
+  "new_model_inference": false
+}

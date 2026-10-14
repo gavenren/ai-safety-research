@@ -1,0 +1,33 @@
+{
+  "small_controls": {
+    "status": "PASS",
+    "exhaustive_binary_cases": 198,
+    "additional_exact_state_cases": 84,
+    "maximum_absolute_coefficient_error": "0",
+    "boundaries": [
+      "p=0",
+      "p=1",
+      "H<k",
+      "H=k",
+      "k=1"
+    ],
+    "state_probability_conservation": "exact Fraction equality"
+  },
+  "full_outputs": {
+    "status": "PASS",
+    "grid_rows": 36,
+    "calibration_rows": 12,
+    "trajectory_rows": 5982,
+    "minimum_search": "Independent linear search, with every candidate and predecessor checked",
+    "maximum_saved_probability_error": "4.99915506614128703049194664649084606462240616111858940873227E-31",
+    "minimum_calibration_distance_from_alpha": "0.0000019202325562898497380330178152745619443816398613145213512907192875836827939055601050559",
+    "primary_conditions_above_alpha": "9/9",
+    "monotonicity": "PASS for p, H at fixed k, and calibrated k across H",
+    "nesting_and_union_bound": "PASS",
+    "trajectory_conservation": "PASS",
+    "input_plan_and_config_hashes": "PASS"
+  },
+  "status": "PASS",
+  "decimal_precision": 90,
+  "saved_probability_tolerance": "1E-28"
+}
