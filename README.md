@@ -16,6 +16,7 @@ The first example study was completed on October 8, 2026.
 
 | Date | Study | Main result | Review status |
 | --- | --- | --- | --- |
+| 2026-10-14 | [Repeated clean windows and false declarations](research/2026-10-14-clean-window/report.md) | At a fixed 1% failure rate, passing any 299-test clean window within 2,990 tests had probability 80.49%, versus 4.95% for one window. Synthetic model. | AI-generated; agent checks completed; no human review. |
 | 2026-10-13 | [Agreement and safety review routing](research/2026-10-13-selective-panel/report.md) | Unanimity lowered error for each whole set but raised it in five class groups. Review benefit depends on reviewer error. | AI-generated; agent checks completed; no human review. |
 | 2026-10-12 | [Independent votes and safety panel errors](research/2026-10-12-judge-ensemble/report.md) | Independence understated five-judge error in 13 of 14 class groups. Three-judge gaps had both signs. Fixed saved-data audit. | AI-generated; agent checks completed; no human review. |
 | 2026-10-10 | [Safety judge correction across test sets](research/2026-10-10-judge-transfer/report.md) | Correction increased error in 93 of 175 controlled mixtures. Clipping reduced mean error, but 64 cases became worse. | AI-generated; agent checks completed; no human review. |
