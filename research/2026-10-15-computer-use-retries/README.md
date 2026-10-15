@@ -2,9 +2,35 @@
 
 This is a separate user-requested paper dated October 15, 2026. It is not a second daily automation study.
 
-Read [report.md](report.md) or [paper.pdf](paper.pdf). The new contribution is a finite synthetic benchmark and full policy comparison. The paper applies known retry and idempotency principles. It does not claim a new protocol or a measured improvement in a real AI agent.
+Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark and a later real-agent browser pilot. The local task tests instructed retry rules with real browser actions and stored writes. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
 
 Codex generated this work. Separate agents checked the design, sources, calculations, reproduction, and PDF. No human or external peer review occurred. No new reuse license is assigned.
+
+## Analyze the saved browser evidence
+
+Use a separate copy of this folder. Python standard library is sufficient.
+
+```sh
+python3 browser_analyze.py --input-dir . --output-dir .
+python3 browser_validate.py --input-dir . --output-dir validation-output
+```
+
+This command reads the frozen audit and SQLite database. It checks their agreement, scores all 18 assigned trials, and writes browser_results.csv, browser_summary.json, browser_pairs.csv, and browser_analysis_log.txt. It does not make model calls. The second command independently rebuilds all trial fields and timing pairs from the stored events. It checks the action logs and runs the analyzer in a temporary folder. It writes browser_validation_results.json in validation-output. The saved package includes the reviewer's result for comparison. See browser_review.md for the separate text and image review. The saved trajectories cannot be repeated byte for byte because model and tool timing can change.
+
+## Repeat the browser task
+
+Read browser_plan.md and browser_runner_prompt.md first. Check the app in a separate temporary test database:
+
+```sh
+python3 browser_app_checks.py
+python3 browser_app.py --config browser_config.json --data-dir new-browser-data --port 8769
+```
+
+Use a new data directory. The app rejects an existing event database. Start two separate agent contexts. Give each the saved prompt and its assigned URL: http://127.0.0.1:8769/runner/A or http://127.0.0.1:8769/runner/B. Each runner must use the supported browser interface, one model decision per action, and its own action log. Do not give the runner the source, configuration, or audit. The app uses real timers and durable append rows. It does not enforce the policy-specific retry guard.
+
+After all trials stop, wait for every admitted timer to resolve. A separate observer can retrieve http://127.0.0.1:8769/audit and check unresolved_attempts is zero. Save that response as browser_audit.json. Back up the database with SQLite's backup API as browser_state.sqlite. Save events.jsonl, both runner logs, and completion screenshots. Preserve unstarted or interrupted trials if the 12-minute admission budget expires. Never replace a failed trial. Run browser_analyze.py on this new evidence. Its output can differ from the saved pilot. No API spending is required by the analysis or app. A fresh agent experiment uses the chosen agent service.
+
+The server used Python 3.14.7. App checks used Python 3.13.7. Browser and available agent identity are recorded in browser_environment.json. The plan, app, evidence, and validation hashes are saved in the browser manifest files. browser_screenshots.zip contains the stopped-trial and runner-completion screenshots. The 20 saved files have .png names, but the browser tool returned JPEG bytes. The archive preserves the original evidence names and bytes. Use a viewer that detects the image format from its bytes. browser_runner_A_actions.jsonl and browser_runner_B_actions.jsonl contain the real browser action records. The warm-up W01 remains in raw evidence but is excluded from every scored count.
 
 ## Repeat the numerical study
 
@@ -55,6 +81,8 @@ This command reads report.md and the PNG figure. It writes paper.pdf and checks 
 - [failed_checks.md](failed_checks.md), [review.md](review.md), and [final_review.md](final_review.md): changes, checklist review, and independent final review.
 - [release_checks.json](release_checks.json) and [package_manifest.json](package_manifest.json): release checks and package hashes. A local release check does not prove GitHub publication.
 
-## Limits
+## Version history and limits
 
-All cases are synthetic. No browser, visual model, or AI policy was tested. Truthful terminal status and ideal server deduplication are explicit assumptions. The finite case counts are not field error rates. Main and stress suites must remain separate.
+The first published version was a synthetic study. Its numerical evidence remains unchanged. simulation_final_review.md, simulation_release_checks.json, simulation_pdf_check.json, and reproduction_check.json refer to that version. Their old report or PDF hashes are historical records. final_review.md and the browser review files describe the extension. package_manifest.json lists current package hashes.
+
+The pilot tests a real agent in a constructed local browser application. It is not a public-web or pixel-only benchmark. Two contexts share one host and browser service. The rules are supplied by prompt, so these are not natural error rates. Truthful terminal status is a constructed app capability. The finite case counts are not field error rates. Synthetic and browser results must remain separate.

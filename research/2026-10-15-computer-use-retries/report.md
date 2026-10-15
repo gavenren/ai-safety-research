@@ -1,12 +1,12 @@
 # When a fresh screen is not enough: safe retry timing for computer-use agents
 
 Date: 2026-10-15 (America/Toronto).  
-Research type: formal analysis and exhaustive synthetic event study.  
-Codex generated this paper, code, and analysis. No human or external peer review occurred. No AI model or browser was tested in the experiment.
+Research type: formal analysis, exhaustive synthetic event study, and controlled real-agent browser pilot.  
+Codex generated this paper, code, and analysis. No human or external peer review occurred. The added pilot tests real agent decisions in a local browser task.
 
 ## Abstract
 
-Computer-use systems can repeat an action when its result is not visible. A current negative read does not show that an earlier action can no longer take effect. We isolate this problem in a finite model of delayed append actions and delayed reads. We compare five retry rules, four observation schedules, and two server contracts over 336 constructed cases and 13,440 runs. In the main 256-case append grid, a retry after the first empty read produces 60 duplicate results with checks every tick, versus 36 with checks every four ticks. Twelve of 64 zero-lag cases still produce duplicates with checks every tick. A truthful terminal-failure rule and a conservative 12-tick bound both produce zero duplicates and 192 clean confirmations. The terminal rule reduces mean confirmation time on their common successful cases from 9.500 to 7.333 ticks, with fewer queries. Incorrect timing bounds break timeout safety. Terminal status preserves safety but can still miss the deadline. The contribution is a complete, repeatable comparison that separates read freshness, execution closure, and final effects. It applies established systems principles. It does not establish an improvement in real AI model performance.
+Computer-use systems can repeat an action when its result is not visible. A current empty read does not show that an earlier action can no longer take effect. We compare retry rules in two separate studies. The finite synthetic study covers 336 constructed cases and 13,440 runs. In its main 256-case append grid, first-empty retry creates 60 duplicates with checks every tick, versus 36 with checks every four ticks. Truthful terminal status and a conservative timing bound both produce zero duplicates and 192 clean confirmations. The terminal rule reduces matched synthetic mean time from 9.500 to 7.333 ticks. A later pilot uses two real Codex agent contexts in Chrome for 18 controlled local trials. Absence retry creates four duplicates in six trials. Terminal and a 24-second timeout each create zero duplicates and five clean on-time claims in six trials. One terminal claim is late. The four clean timing pairs include two faster and two slower terminal trials; they do not establish a general browser speed gain. All four browser duplicate claims occur after two records already exist. No browser effect occurs after stopping. The contribution is a repeatable comparison that separates read freshness, execution closure, claim timing, and final effects. It applies established systems principles. The browser task is constructed, and its counts are not field error rates.
 
 ## 1. Research question and contribution
 
@@ -14,7 +14,7 @@ An agent clicks a button. The next observation shows no new item. Should the age
 
 We ask how the completion delay of an earlier action and the delay of an observation affect retry safety, confirmed completion, and observation cost. **Execution closure** means that an earlier attempt can no longer create a future effect. A current read and execution closure are different properties.
 
-The original contribution of this paper is its specific test design and full comparison. We combine pending writes, delayed negative reads, observation schedules, and post-stop effect checks. We include a conservative no-retry control, an adequate fixed-bound baseline, and a matched server-deduplication control. We publish every event trace, including writes that finish after the controller stops. This contribution is a small synthetic benchmark and interface audit. It is not a new exactly-once protocol, learned agent, or general theorem. The limited source search cannot prove that this is the first such comparison.
+The contribution of this paper is its specific test design and full comparison. We combine pending writes, delayed negative reads, observation schedules, and post-stop effect checks. We include a conservative no-retry control, an adequate fixed-bound baseline, and a matched server-deduplication control. We publish every event trace, including writes that finish after the controller stops. This contribution is a small synthetic benchmark, interface audit, and controlled browser pilot. It is not a new exactly-once protocol, learned agent, or general theorem. The limited source search cannot prove that this is the first such comparison.
 
 Reliable completion matters because an extra record can be harmful even when the original task eventually succeeds. Faster tools are useful only if the controller interprets their observations correctly. We therefore keep duplicate prevention, useful completion, delay, and call count separate.
 
@@ -28,7 +28,7 @@ CapLease studies repeated agent proposals after uncertain execution. It uses dur
 
 RIFL already treats lost results and duplicate execution as systems problems. Its browser example discusses uncertain outcomes and recognition of prior effects. HTTP Semantics also limits automatic retries of non-idempotent requests. These sources establish that absence of a visible result is not a general retry guarantee [4,5].
 
-The dated search record contains 15 exact queries, read sections, versions, access limits, and additional related work. See [source_search.md](source_search.md) and [references.bib](references.bib). The study does not claim that waiting, verification, durable status, or duplicate suppression is new.
+The original source record contains 15 exact queries, read sections, versions, access limits, and additional related work. The browser extension adds two queries and a new check of the closest sources. RStackBench already reports a small model planning pilot; real-agent execution alone is not a new research idea [7]. See [source_search.md](source_search.md), [browser_source_search.md](browser_source_search.md), and [references.bib](references.bib). The study does not claim that waiting, verification, durable status, or duplicate suppression is new.
 
 ## 3. Method
 
@@ -145,35 +145,107 @@ The 12-tick rule creates three duplicates in the late-execution suite and four i
 
 Under ideal server deduplication, no policy produces a duplicate in any of the 6,720 matched runs. This confirms the intended positive control. It does not demonstrate an implemented or universal exactly-once service. H4 holds under the stated truthful-status and deduplication contracts.
 
-## 6. Computer-use interface implications
+## 6. Real agent and browser pilot
+
+### 6.1 Saved design and executed task
+
+We added a controlled browser pilot after the synthetic study. The new plan and configuration were saved before implementation and scored execution. The implementation was hashed before the warm-up and scored trials. The original synthetic results remain unchanged. See [browser_plan.md](browser_plan.md), [browser_plan_manifest.json](browser_plan_manifest.json), and [browser_execution_manifest.json](browser_execution_manifest.json).
+
+Two separate Codex agent contexts used Chrome through the supported computer-use interface. Each context received nine trials in a fixed order. Runner B used the reverse policy-condition order of runner A. The agents read the rendered accessibility or DOM state and used visible buttons. The runners were instructed to select each next action in a separate model decision and not use a scripted policy loop. The saved logs record actions and states, but do not contain model-turn boundaries or tool code. Thus, those logs cannot alone prove every access or decision constraint. This is a real agent interaction test with an artificial local task. It is not a pixel-only benchmark or a public-web evaluation.
+
+The task was to create exactly one stored item. A local Python HTTP server accepted submissions. Independent timers then committed or permanently dropped each attempt. Each commit inserted a row into SQLite. A requested state check showed the item count and first-attempt status at a configured historical time. That snapshot did not update by itself. The agent could submit, request state, claim completion, or stop. The app enforced a maximum of two submissions. It did not enforce the policy-specific retry or claim rules. The state fields were structured and truthful by construction.
+
+| Condition | Initial attempt | Retry if sent | Read lag |
+| --- | --- | --- | ---: |
+| Pending | Commit after 16 seconds | Commit after 2 seconds | 0 seconds |
+| Failure | Permanently drop after 4 seconds | Commit after 2 seconds | 0 seconds |
+| Stale | Commit after 4 seconds | Commit after 2 seconds | 8 seconds |
+
+These are nominal timer delays. The evidence records actual resolution times. Three rules each had two runs per condition, for 18 assigned trials. Absence retried after the first requested empty state. Bound24 required a newly requested empty state at elapsed time 24 seconds or later. Terminal required a requested empty state with permanent failure status. All rules allowed one retry at most. The 24-second threshold adds the largest nominal action delay and largest read lag. It is conservative for these selected combinations. It is not the fastest possible safe timeout.
+
+A requested count of one permitted a completion claim before the 60-second deadline. A count of two required a duplicate stop. A state check at or after 60 seconds required an unresolved stop. A late claim was retained but could not count as a clean on-time confirmation. Pending actions continued after every stop. Final stored rows, not the stop screen, determined duplicate outcomes.
+
+The runner prompts hid condition labels, delay values, outcomes, source code, and audit data. The runners were told not to inspect those data or the other runner. They shared one machine and browser service, so this was instruction-based separation, not a secure isolation boundary. The lead did one excluded warm-up trial. The fixed budget allowed new scored trials for 12 minutes after the first scored submission. There was no replacement of an inconvenient trial.
+
+### 6.2 Measurements and limits of comparison
+
+The primary measures were final duplicates, clean on-time claims, unsafe claims, and adherence to the supplied rule. An unsafe claim is any completion claim whose final item count is not one. The server used a monotonic clock for all measured elapsed seconds. Browser and model overhead contributed to these times. The study did not measure their parts separately.
+
+We retained each browser action log, requested snapshot, server event, durable record, and stopped-trial screenshot. The final audit waited for all accepted attempts to resolve. A negative observation was called stale when a committed record already existed at the observation request time but was absent from its historical snapshot. An unresolved-negative exposure was an empty observation made before the initial attempt resolved. A pending-status exposure could also come from a delayed historical snapshot. These are test exposures, not model mistakes by themselves.
+
+The saved hypotheses asked whether absence could create duplicates, whether terminal could avoid them and recover earlier than Bound24, and whether the final audit could find a duplicate after a completion claim. All assigned trials remain in the results. Timing comparisons pair the same runner and condition where both policies have clean on-time claims. Two repetitions per cell do not support a population error rate, a safety certificate, or a statistical significance claim. We do not combine these seconds or counts with the synthetic grid.
+
+### 6.3 Observed results
+
+All 18 assigned trials started and stopped. The frozen evidence contains 380 server events, 23 stored rows including the excluded warm-up, and 62 requested snapshots including the warm-up. The scored trials used 28 accepted submissions and 61 snapshots. The browser reported Chrome 155.0.0.0 on macOS. The server used CPython 3.14.7. The exact immutable agent model build was not available. See [browser_environment.json](browser_environment.json).
+
+| Rule | Trials | Duplicates | Clean on-time claims | Unsafe claims | Deadline misses | Snapshots |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Absence | 6 | 4 | 1 | 4 | 1 | 13 |
+| Bound24 | 6 | 0 | 5 | 0 | 1 | 30 |
+| Terminal | 6 | 0 | 5 | 0 | 1 | 18 |
+
+Deadline misses include unresolved stops and late completion claims. Absence had one unresolved stop. Bound24 had one unresolved stop. Terminal had one late claim. The four duplicates came from both pending and both stale-condition absence trials. Three had an empty observation before a later original commit. All three created duplicates, which meets the narrow H-B1 criterion. The fourth, A09, saw an empty historical state after the original record already existed. It also created a duplicate. Thus both unresolved execution and delayed visibility were active in the observed failures. All four false completion claims were allowed by the deliberately weak absence rule. They are not evidence that an unconstrained agent would naturally choose that rule.
+
+A01 gives a measured example with no configured read lag. The first empty check occurred at 4.091 seconds. The agent submitted a retry at 7.087 seconds. That retry committed at 9.097 seconds. A check at 12.560 seconds showed one item while the original attempt remained pending. The original attempt committed at 16.008 seconds. The completion claim arrived at 16.244 seconds and referred to the earlier one-item snapshot. The final database held two items. The other three duplicate trials also had two stored items before the claim reached the server. There were no post-stop effects and no duplicate created after a claim. H-B3 therefore had zero observed instances. The pilot does not reproduce the synthetic study's later-after-stop duplicate trace.
+
+Bound24 and Terminal each had five clean on-time claims and no duplicates. Terminal used 18 snapshots, versus 30 for Bound24, across six assigned trials each. These are observed call totals. Different delays, interrupted contexts, and outcome sets prevent a causal efficiency claim. The server-visible rule checks passed in 17 trials. A04 made a late terminal-policy claim at 69.230 seconds after reading a one-item snapshot requested at 20.076 seconds. Its final count was one, but it failed the on-time criterion. This is a deadline failure, not a duplicate failure.
+
+The agent logs report context recovery or compaction delays in A02, A04, B05, and B07. A02 stopped unresolved at 93.147 seconds. B05 stopped unresolved at 68.737 seconds. Both had one final item. B07's first check arrived at 49.340 seconds; its clean claim arrived at 52.488 seconds. Repeated Statsig telemetry HTTP 403 notices appeared in both runner logs. The saved task requests reached the local server. The study cannot isolate how much time came from telemetry, model inference, tool work, context recovery, or shared host load. No trial was removed or repeated.
+
+### 6.4 Paired timing results
+
+The table preserves all six planned pairs. The difference is Terminal minus Bound24, so a negative value means the terminal trial was faster. A difference is given only when both trials were clean and on time. All values are measured seconds.
+
+| Runner and condition | Bound24 claim | Terminal claim | Paired difference | Pair status |
+| --- | ---: | ---: | ---: | --- |
+| A, failure | None | 17.789 | Not compared | Bound24 unresolved |
+| A, pending | 25.488 | 69.230 | Not compared | Terminal late |
+| A, stale | 21.268 | 16.529 | -4.739 | Both clean |
+| B, failure | 37.583 | 22.092 | -15.491 | Both clean |
+| B, pending | 21.599 | 23.272 | +1.673 | Both clean |
+| B, stale | 15.364 | 52.488 | +37.124 | Both clean |
+
+The four matched differences range from -15.491 to +37.124 seconds. Their median is -1.533 seconds and mean is +4.642 seconds. Terminal is faster in two pairs and slower in two. Only the B failure pair is clean under both rules. In that pair, Terminal confirms 15.491 seconds earlier than Bound24. The A failure pair is not a valid speed comparison because Bound24 has no completion claim. H-B2 supports zero duplicates under the tested truthful-status contract, but these browser data do not establish a general speed gain. In particular, the synthetic 22.81% reduction must not be presented as a browser measurement.
+
+No trial breached the selected 24-second first-resolution-plus-lag threshold. The largest timer overrun above its nominal scheduled delay was 0.012 seconds. Nominal timer values were not exact real-time guarantees. The saved raw times retain full precision. The 60-second claim deadline and tool delay had larger effects on clean completion than these small scheduling overruns.
+
+The full trial table, all six pairs, and evidence checks are in [browser_results.csv](browser_results.csv), [browser_pairs.csv](browser_pairs.csv), and [browser_summary.json](browser_summary.json). The pilot supports the specific duplicate-risk mechanism and shows a separate deadline problem. It does not establish field error rates, natural agent behavior, or universal safe retry timing.
+
+
+
+
+## 7. Computer-use interface implications
 
 The results support a concrete interface requirement: distinguish an unresolved attempt from a terminal failure with no future effect. A timeout, unchanged screen, or current empty record list is not that failure signal. Where the application supports it, bind status to the specific attempt and keep that identity across recovery.
 
 A controller should retain pending actions after its own wait ends. It should use a documented terminal signal, a valid execution-and-visibility bound, or a server-enforced idempotency contract before a repeat action. If none is available, the outcome remains unresolved. Waiting or asking for review has an availability cost; it does not prove failure.
 
-An evaluator should also let admitted actions finish after the agent stops. In this grid, that step exposes 56 unsafe early claims for every-tick absence retry. A test that checks only the visible count at stop can award success before a duplicate appears. These recommendations apply known systems reasoning to computer-use interfaces. Real browser and model trials remain future work.
+An evaluator should also let admitted actions finish after the agent stops. In this grid, that step exposes 56 unsafe early claims for every-tick absence retry. A test that checks only the visible count at stop can award success before a duplicate appears. The browser late claim also shows why a deadline should be checked at claim receipt. A snapshot timestamp can be valid while the later claim is too late. These recommendations apply known systems reasoning to computer-use interfaces. The controlled browser pilot tests the same distinction with real requests and writes. Public-web tasks and broader model comparisons remain future work.
 
-## 7. Limitations
+## 8. Limitations
 
-The experiment runs a finite event model, not a browser, visual model, or full computer-use agent. Tick values are chosen; call costs and delays are not measured on a service. The grid weights are artificial. Real applications can have unbounded delays, rollback, partial writes, status loss, incorrect status, changing caches, and multiple writers.
+The main grid runs a finite event model. Its tick values are chosen; its call costs and delays are not measured on a service. The browser extension uses real model decisions, requests, timers, and stored writes, but its task and fault conditions are constructed. The grid weights are artificial. Real applications can have unbounded delays, rollback, partial writes, status loss, incorrect status, changing caches, and multiple writers.
 
 The terminal rule assumes a truthful, durable, attempt-specific drop record. Some sites expose no such record. The model gives all rules the same response but only this rule uses that extra field. Its advantage is therefore conditional on an interface capability. A richer failure model can invalidate the guarantee.
 
 Only one retry and one logical item are modeled. There is no crash recovery, concurrent controller, permission change, authentication failure, or imperfect action identity. Ideal deduplication is a control, not a tested implementation. The deadline is fixed, query duration is zero, and the schedules are not learned or optimized. Neither the finite cases nor the proof justify a safety certification or field error estimate.
 
-The same cases are disclosed to the policy designers. The rules are fixed before execution, but this is not a blind benchmark. No held-out real task or model evaluation supports transfer. Further work should test truthful terminal signals and post-stop auditing in controlled browser applications, then in permitted real workflows.
+The same cases are disclosed to the policy designers. The browser runners did not receive the condition configuration, but each received a prescribed policy. This does not measure natural retry behavior. There are only two contexts, one machine, one browser service, and one simple local task. Repeated trials share context within each runner. Tool and model delay can remove an intended negative-state exposure before a check occurs. The exact model build and service timing are not available. No held-out public-web task supports general transfer. Further work should test more agents, richer applications, and permitted real workflows.
 
-## 8. Ethics, rights, and AI use
+## 9. Ethics, rights, and AI use
 
 The study can help prevent duplicate records and premature completion claims. It contains no harmful prompts, exploit steps, private records, account data, or real transactions. None of the experiment sends messages or changes an external account. GitHub publication is a separate authorized action, not experimental evidence.
 
-Codex generated the plan, implementations, calculations, figure, and paper. Separate Codex agents reviewed sources, design, independent calculations, and final reproduction. AI review is not human or external peer review. No human review, university affiliation, endorsement, or certification is claimed. No model inference experiment, training, paid API call, or paid compute service was used.
+Codex generated the plan, implementations, calculations, figure, and paper. Two separate Codex contexts performed the browser trials. Other Codex agents checked sources, design, calculations, and reproduction. AI review is not human or external peer review. No human review, university affiliation, endorsement, or certification is claimed. The browser pilot used real model inference through the existing Codex service. No model training, separate paid API, or new paid compute service was used.
 
-All input cases are newly constructed. No source paper, benchmark task, dataset, code, or figure is redistributed. Sources retain their rights. No new license is assigned to this work. The paper uses original prose and cites the related methods.
+All input cases and local browser tasks are newly constructed. No source paper, benchmark task, dataset, code, or figure is redistributed. Sources retain their rights. No new license is assigned to this work. The paper uses original prose and cites the related methods.
 
-## 9. Checks and reproduction
+## 10. Checks and reproduction
 
 The main implementation advances the environment one tick at a time. The independent validator uses direct event-time thresholds and does not import the analyzer. It checked all 13,440 run rows, 167,520 trace events, 676 post-stop resolutions, 6,720 matched server pairs, all grouped result tables, and 48 paired comparisons. All checked integer and label fields match exactly. See [method_review.md](method_review.md) and [validation_results.json](validation_results.json).
+
+The browser analyzer reads the frozen SQLite database and audit independently of the application code. It checks event, snapshot, stop, and stored-row identities before it computes outcomes. Its author also reviewed the design, so a fresh reviewer separately checks the final evidence. See [browser_review.md](browser_review.md) and [browser_reproduction_check.json](browser_reproduction_check.json). The action logs and screenshots support the observed interaction sequence; they do not reveal internal model reasoning.
 
 Run the documented commands in [README.md](README.md). The package includes the saved plan, cases, complete compressed traces, readable examples, summaries, code, dependency versions, logs, proofs, source record, and agent reviews. Relevant parts of the NeurIPS checklist were used to review claims, assumptions, reproduction, limits, rights, and AI use [6]. This is not a conference submission or approval claim. See [final_review.md](final_review.md) for the final reproduction outcome.
 
@@ -185,3 +257,5 @@ Run the documented commands in [README.md](README.md). The package includes the 
 4. Lee, C., Park, S. J., Kejriwal, A., Matsushita, S., and Ousterhout, J. (2015). *Implementing Linearizability at Large Scale and Low Latency*. SOSP 2015. DOI: 10.1145/2815400.2815416. [Author-hosted paper](https://web.stanford.edu/~ouster/cgi-bin/papers/rifl.pdf).
 5. Fielding, R. T., Nottingham, M., and Reschke, J., editors (2022). *HTTP Semantics*. RFC 9110, Section 9.2.2. Internet Standard. [Source](https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2).
 6. NeurIPS. *Paper Checklist Guidelines*. Accessed October 15, 2026. [Review aid](https://neurips.cc/public/guides/PaperChecklist).
+
+7. Calanza, E. (2026). *Measuring the Gap Between Visible UI Success and Persisted State in Browser Agents*. Author report, August 14. [Source](https://exzilcalanza.info/rstackbench-browser-agent-reliability/).

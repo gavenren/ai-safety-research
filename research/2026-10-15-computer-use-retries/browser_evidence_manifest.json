@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-10-15T16:59:25.765351+00:00",
+  "scored_trials": 18,
+  "unresolved_attempts": 0,
+  "sha256": {
+    "browser_audit.json": "92e2d06968c907e771dbf335fa5e53c9c89b51749e4fffecacf90461493fc550",
+    "browser_state.sqlite": "e3fe50288cd94231f186a2074ed61c251aca40919ff27941be9c3da8442ab127",
+    "browser_events.jsonl": "b5088a26c99a03858307a075e29313a9769cb48806612c31d9ea8f653ad54530",
+    "browser_screenshots.zip": "7198ec61f954ee3537f212892d06b269281d45c14a0dc3a7acdd216e5f10c5c2",
+    "browser_runner_A_actions.jsonl": "e932f4203d27d20e3927bd954cd23e1368ad6270182905bfcfa4721a66f54a28",
+    "browser_runner_B_actions.jsonl": "d0286e1eeb54ba48a46df0f525864b7b27eb5da0f3a66abbff1bfd05b1154d72"
+  },
+  "note": "Read-only post-trial audit. All accepted timers resolved before this snapshot. Warm-up W01 is retained and excluded from scored results."
+}

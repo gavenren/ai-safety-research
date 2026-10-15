@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope": "Code-level checks in isolated temporary databases; no scored browser trials",
+  "python": "3.13.7",
+  "platform": "Darwin",
+  "app_sha256": "9f37c87e85dc85669ff18dbdb89d658fe3861feda88adb7542cb965ee4f7f705",
+  "test_sha256": "a98ef02d245e674353c5928f2f7ff94bb453aa63752a19a18f74ed14c2770ea1",
+  "checks": [
+    {
+      "check": "permanent_drop",
+      "status": "PASS",
+      "elapsed_s": 0.007743916001345497
+    },
+    {
+      "check": "two_durable_appends",
+      "status": "PASS",
+      "elapsed_s": 0.007449374999850988
+    },
+    {
+      "check": "lagged_count_and_status",
+      "status": "PASS",
+      "elapsed_s": 0.006271207996178418
+    },
+    {
+      "check": "stop_identity_and_post_stop_effect",
+      "status": "PASS",
+      "elapsed_s": 0.008525500001269393
+    },
+    {
+      "check": "isolation_and_rejections",
+      "status": "PASS",
+      "elapsed_s": 0.011408250000386033
+    },
+    {
+      "check": "late_and_duplicate_claims_are_recorded",
+      "status": "PASS",
+      "elapsed_s": 0.00682312500430271
+    },
+    {
+      "check": "budget_and_existing_database",
+      "status": "PASS",
+      "elapsed_s": 0.0053946670013829134
+    },
+    {
+      "check": "real_timer_persists_after_stop",
+      "status": "PASS",
+      "elapsed_s": 0.04272583300189581,
+      "actual_delay_s": 0.03416966700024204
+    }
+  ]
+}

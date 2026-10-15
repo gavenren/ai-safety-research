@@ -1,0 +1,9 @@
+{
+  "saved_utc": "2026-10-15T16:46:02.604981+00:00",
+  "stage": "Before warm-up or scored browser trials",
+  "files": {
+    "browser_plan.md": "58d61c3df2a692e865c54f79f591d38a8e4249c67f7d8583404cc0d1380ec56e",
+    "browser_config.json": "6bcc7c127df4837cd00b3358f9c569f91828dbcba6cf349cb236671d956fdf81",
+    "browser_app.py": "9f37c87e85dc85669ff18dbdb89d658fe3861feda88adb7542cb965ee4f7f705"
+  }
+}

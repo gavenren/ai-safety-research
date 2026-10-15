@@ -1,0 +1,16 @@
+{
+  "server_python": "3.14.7",
+  "platform": "Darwin",
+  "dependencies": "Python standard library only",
+  "agent": "Codex; GPT-6-family system identity. Exact model build and reasoning setting are not exposed to this study.",
+  "browser_interface": "Supported CUA tool; rendered accessibility or DOM text, visible controls, and screenshots",
+  "model_inference": "Real Codex agent decisions occur during browser trials. No separate paid API or new paid compute service was started.",
+  "blinding": "Runner prompts omit configuration values. Runners are instructed not to read code or audit data. Shared local host; no security isolation claim.",
+  "browser_reported_user_agent": [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  ],
+  "server_start_utc": "2026-10-15T16:46:01.599823+00:00",
+  "scored_first_submission_utc": "2026-10-15T16:48:43.273624+00:00",
+  "frozen_utc": "2026-10-15T16:59:25.765351+00:00",
+  "agent_identity_limit": "Two separate Codex contexts. Exact immutable model build, service reasoning setting, and per-call inference duration are not exposed. Logs retain actions and states, not internal model reasoning or tool-code boundaries."
+}

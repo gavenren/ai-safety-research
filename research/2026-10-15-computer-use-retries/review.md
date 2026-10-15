@@ -1,23 +1,15 @@
-# Research checklist review
+# Review checklist for the browser extension
 
-Date: October 15, 2026. Reviewer: Codex. This is an AI check. No human or external peer review occurred.
+The NeurIPS Paper Checklist was used as a review aid. This is not a claim of conference approval, submission compliance, or certification. The original synthetic review is preserved in simulation_review.md.
 
-The review uses relevant parts of the [NeurIPS Paper Checklist](https://neurips.cc/public/guides/PaperChecklist). It does not establish conference approval or submission compliance.
-
-| Item | Finding and evidence |
+| Review item | Evidence and limit |
 | --- | --- |
-| Claims and contribution | The report states a new finite benchmark and comparison. It credits known retry principles. The limited search does not prove priority. No real model improvement is claimed. |
-| Assumptions and proofs | Section 3 defines the full event order, delay, status, deadline, and server contracts. derivations.md gives the local ambiguity result and safety arguments. The two-world argument is conditional and is not a general impossibility claim. |
-| Reproduction | The plan, configuration, two implementations, cases, traces, versions, commands, logs, and grouped results are included. The final independent rerun is recorded in final_review.md and reproduction_check.json. |
-| Baselines and controls | No retry is a conservative control. Bound 12 is an adequate timing baseline under the main bounds. Ideal server deduplication is a positive control. Both broken-bound suites are reported separately. |
-| Uncertainty | Exhaustive counts describe the chosen finite grid. The report does not treat them as population estimates. No sampling interval or significance test is appropriate for these exact case counts. |
-| Data and selection | All cases are synthetic and disclosed. There is no training data, random split, held-out evaluation, or claim of transfer. Untaken branches still produce repeated factor combinations. |
-| Negative outcomes | The paper includes duplicates, unsafe completion claims, missing effects, and deadline stops. All later admitted effects are retained in the traces. Safety and timely completion remain separate. |
-| Changes and failed checks | A completion-guard change occurred before analysis. A later plot overlap was repaired. Both are recorded in failed_checks.md. |
-| Resources | The study used existing local Python tools. No model inference experiment, training, paid API call, or paid compute service was used. Ticks are synthetic time units. |
-| Sources and rights | source_search.md identifies source versions, read sections, rights, and search limits. The package copies no source paper, benchmark data, task, code, or figure. It assigns no new license. |
-| Ethics and privacy | The study uses no personal records, real transactions, harmful prompts, or exploit instructions. It explains the safety use and limits of the result. |
-| AI disclosure | Codex roles and agent review are disclosed. No human authorship, affiliation, endorsement, certification, or peer review is implied. |
-| Publication | Release checks and remote verification are separate. A local commit, PDF, or upload attempt alone is not publication evidence. |
-
-The independent final review must pass before publication. Its outcome and any corrections are recorded in final_review.md.
+| Claims and contribution | The report separates a finite event model from an 18-trial real-agent browser pilot. It does not claim a new retry principle, first priority, a general speed gain, or field failure rates. |
+| Method and assumptions | Saved browser plan, configuration, application hash, assigned policies, order, limits, and actual timer data are retained. Structured truthful status is a constructed application capability. |
+| Reproduction | Original numerical outputs keep their prior hashes. The browser analyzer reads frozen SQLite and JSON evidence. A new model trajectory need not repeat byte for byte. |
+| Uncertainty and selection | All 18 assigned trials remain. Two unresolved stops, one late claim, four duplicates, and zero post-stop effects are reported. Two repetitions per cell do not justify population confidence intervals. All six timing pairs are shown. |
+| Data access and leakage | Runner prompts withhold condition values and forbid hidden-state access. Logs contain task actions and visible states, not tool code or model-turn boundaries. Instruction-based separation is not secure isolation. |
+| Resources and versions | The server, browser-reported version, Python versions, and available agent identity are recorded. Exact model snapshot and service latency parts are unavailable. Existing Codex inference was used; no separate paid API or new paid compute service was started. |
+| Ethics and rights | Only a local constructed task creates records. No external transaction is an experiment outcome. No private task record or copied source asset is included. No new license is assigned. |
+| Provenance and review | Codex generated the work and performed the browser trials. Agent review is stated. No human or external peer review is claimed. |
+| Presentation and checks | Current PDF layout and text checks are in pdf_check.json. Independent evidence checks are in browser_review.md and browser_reproduction_check.json. Release checks and remote verification are separate. |

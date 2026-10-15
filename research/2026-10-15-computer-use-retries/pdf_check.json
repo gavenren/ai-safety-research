@@ -1,18 +1,29 @@
 {
   "status": "PASS",
-  "source_sha256": "cd9407e6ded1f851c2545c98f6dd2d3e5cca3951d140abff35759b9efb7ae47c",
-  "pdf_sha256": "1cdbf9c33991d7d1a3c5d184dba8ba342d2b2b700a1aeeb58d7eb37cd5aaa4de",
-  "pages": 8,
-  "source_text_chunks_checked": 192,
+  "source_sha256": "dfac57c142a8379363610e036b362798b70515e0d2bbdf07720e86a327562d75",
+  "pdf_sha256": "cfdd43fe92c9f1b05e60bc1550acfad73849b2d153d3cd9fd0d741301cffbdf6",
+  "pages": 11,
+  "source_text_chunks_checked": 296,
   "missing_text_chunks": [],
-  "table_count": 4,
+  "table_count": 7,
   "figure_count": 1,
-  "external_link_annotations": 15,
+  "external_link_annotations": 26,
   "link_targets": [
     "https://arxiv.org/html/2608.01710v1",
     "https://arxiv.org/html/2609.40284v1",
+    "https://exzilcalanza.info/rstackbench-browser-agent-reliability/",
     "https://exzilcalanza.info/wp-content/uploads/2026/08/rstackbench-browser-agent-reliability-preprint.pdf",
     "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/README.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/browser_environment.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/browser_execution_manifest.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/browser_pairs.csv",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/browser_plan.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/browser_plan_manifest.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/browser_reproduction_check.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/browser_results.csv",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/browser_review.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/browser_source_search.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/browser_summary.json",
     "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/derivations.md",
     "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/final_review.md",
     "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/input_manifest.json",
@@ -37,24 +48,28 @@
       5,
       6,
       7,
-      8
+      8,
+      9,
+      10,
+      11
     ],
     "render_engine": "Poppler pdftoppm 26.05.0",
     "resolution_dpi": 120,
-    "findings": "All eight pages were inspected. No clipped text, overlapping content, missing glyphs, table overflow, or hidden chart labels were found. Short tables stay intact. The full-size figure and caption stay together."
+    "findings": "All 11 pages were inspected. No clipped text, overlapping content, missing glyphs, table overflow, or hidden chart labels were found. All seven tables stay intact. The full-size figure and caption stay together. All seven references are present."
   },
   "deterministic_rebuild": {
     "status": "PASS",
-    "first_sha256": "1cdbf9c33991d7d1a3c5d184dba8ba342d2b2b700a1aeeb58d7eb37cd5aaa4de",
-    "second_sha256": "1cdbf9c33991d7d1a3c5d184dba8ba342d2b2b700a1aeeb58d7eb37cd5aaa4de",
-    "scope": "Same runtime, fonts, report, and figure"
+    "first_sha256": "cfdd43fe92c9f1b05e60bc1550acfad73849b2d153d3cd9fd0d741301cffbdf6",
+    "second_sha256": "cfdd43fe92c9f1b05e60bc1550acfad73849b2d153d3cd9fd0d741301cffbdf6",
+    "scope": "Same runtime, fonts, report, figure, and build script"
   },
-  "privacy": "Public build records omit local absolute paths.",
+  "privacy": "PASS: Extracted text, metadata, and link targets contain no local absolute paths or secret patterns. Public build records omit local absolute paths.",
   "source_figure_sha256": "8dfc26bca2d1a871bcd3a6f48bd30bc9a014cd7ebee92a8291f0c7ea9ef2a0a5",
-  "build_script_sha256": "634b0101c9292a56c4fee4c774cf02fa71f1aa93e3c4968a81d8006152ad5c56",
+  "build_script_sha256": "6b147cbf21722658bce20da3c649fbc150727c854064a34cd50950c7a401c616",
   "repairs": [
-    "The first text check treated a running page header as part of a paragraph that crossed a page break. The extractor now removes only the known running header and footer before the comparison. No source text changed.",
-    "Short tables are kept intact to avoid a table continuation with one row."
+    "The extractor removes the known running header and footer before it checks source text. No source text changed.",
+    "Short tables are kept intact to prevent a table continuation with one row.",
+    "The PDF subject metadata now identifies the formal event-model study and controlled real-agent browser pilot."
   ],
   "font_license_check": {
     "status": "PASS",

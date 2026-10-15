@@ -1,0 +1,5576 @@
+{
+  "config": {
+    "version": 1,
+    "date": "2026-10-15",
+    "deadline_s": 60,
+    "bound_s": 24,
+    "total_trial_budget_s": 720,
+    "trials": [
+      {
+        "id": "A01",
+        "runner": "A",
+        "order": 1,
+        "policy": "absence",
+        "condition": "pending",
+        "first_outcome": "commit",
+        "first_delay_s": 16,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "A02",
+        "runner": "A",
+        "order": 2,
+        "policy": "bound24",
+        "condition": "failure",
+        "first_outcome": "drop",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "A03",
+        "runner": "A",
+        "order": 3,
+        "policy": "terminal",
+        "condition": "stale",
+        "first_outcome": "commit",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 8
+      },
+      {
+        "id": "A04",
+        "runner": "A",
+        "order": 4,
+        "policy": "terminal",
+        "condition": "pending",
+        "first_outcome": "commit",
+        "first_delay_s": 16,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "A05",
+        "runner": "A",
+        "order": 5,
+        "policy": "absence",
+        "condition": "failure",
+        "first_outcome": "drop",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "A06",
+        "runner": "A",
+        "order": 6,
+        "policy": "bound24",
+        "condition": "stale",
+        "first_outcome": "commit",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 8
+      },
+      {
+        "id": "A07",
+        "runner": "A",
+        "order": 7,
+        "policy": "bound24",
+        "condition": "pending",
+        "first_outcome": "commit",
+        "first_delay_s": 16,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "A08",
+        "runner": "A",
+        "order": 8,
+        "policy": "terminal",
+        "condition": "failure",
+        "first_outcome": "drop",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "A09",
+        "runner": "A",
+        "order": 9,
+        "policy": "absence",
+        "condition": "stale",
+        "first_outcome": "commit",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 8
+      },
+      {
+        "id": "B01",
+        "runner": "B",
+        "order": 1,
+        "policy": "absence",
+        "condition": "stale",
+        "first_outcome": "commit",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 8
+      },
+      {
+        "id": "B02",
+        "runner": "B",
+        "order": 2,
+        "policy": "terminal",
+        "condition": "failure",
+        "first_outcome": "drop",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "B03",
+        "runner": "B",
+        "order": 3,
+        "policy": "bound24",
+        "condition": "pending",
+        "first_outcome": "commit",
+        "first_delay_s": 16,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "B04",
+        "runner": "B",
+        "order": 4,
+        "policy": "bound24",
+        "condition": "stale",
+        "first_outcome": "commit",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 8
+      },
+      {
+        "id": "B05",
+        "runner": "B",
+        "order": 5,
+        "policy": "absence",
+        "condition": "failure",
+        "first_outcome": "drop",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "B06",
+        "runner": "B",
+        "order": 6,
+        "policy": "terminal",
+        "condition": "pending",
+        "first_outcome": "commit",
+        "first_delay_s": 16,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "B07",
+        "runner": "B",
+        "order": 7,
+        "policy": "terminal",
+        "condition": "stale",
+        "first_outcome": "commit",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 8
+      },
+      {
+        "id": "B08",
+        "runner": "B",
+        "order": 8,
+        "policy": "bound24",
+        "condition": "failure",
+        "first_outcome": "drop",
+        "first_delay_s": 4,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      },
+      {
+        "id": "B09",
+        "runner": "B",
+        "order": 9,
+        "policy": "absence",
+        "condition": "pending",
+        "first_outcome": "commit",
+        "first_delay_s": 16,
+        "retry_outcome": "commit",
+        "retry_delay_s": 2,
+        "lag_s": 0
+      }
+    ],
+    "warmup": {
+      "id": "W01",
+      "runner": "W",
+      "order": 1,
+      "policy": "terminal",
+      "condition": "warmup",
+      "first_outcome": "commit",
+      "first_delay_s": 0.2,
+      "retry_outcome": "commit",
+      "retry_delay_s": 0.2,
+      "lag_s": 0
+    }
+  },
+  "trials": [
+    {
+      "id": "A01",
+      "runner": "A",
+      "order": 1,
+      "policy": "absence",
+      "condition": "pending",
+      "first_outcome": "commit",
+      "first_delay_s": 16,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 161.67463208299887,
+      "stop": 177.91851699999825,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 161.67463208299887,
+          "delay": 16,
+          "outcome": "commit",
+          "resolved": 177.68255716699787
+        },
+        {
+          "index": 2,
+          "submitted": 168.7615561249986,
+          "delay": 2,
+          "outcome": "commit",
+          "resolved": 170.77198033299646
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 165.76538599999913,
+          "elapsed_s": 4.0907539170002565,
+          "as_of_s": 165.76538599999913,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 174.2351226249957,
+          "elapsed_s": 12.560490541996842,
+          "as_of_s": 174.2351226249957,
+          "count": 1,
+          "first_status": "pending",
+          "record_ids": [
+            2
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "A02",
+      "runner": "A",
+      "order": 2,
+      "policy": "bound24",
+      "condition": "failure",
+      "first_outcome": "drop",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 206.32164974999614,
+      "stop": 299.46826608300034,
+      "stop_kind": "unresolved",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 206.32164974999614,
+          "delay": 4,
+          "outcome": "drop",
+          "resolved": 210.33219845799613
+        },
+        {
+          "index": 2,
+          "submitted": 237.2608023749999,
+          "delay": 2,
+          "outcome": "commit",
+          "resolved": 239.26785074999498
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 212.10662745800073,
+          "elapsed_s": 5.78497770800459,
+          "as_of_s": 212.10662745800073,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 215.38995862499723,
+          "elapsed_s": 9.068308875001094,
+          "as_of_s": 215.38995862499723,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 221.81005258300138,
+          "elapsed_s": 15.488402833005239,
+          "as_of_s": 221.81005258300138,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 4,
+          "requested_s": 226.18675908300065,
+          "elapsed_s": 19.86510933300451,
+          "as_of_s": 226.18675908300065,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 5,
+          "requested_s": 229.73878854199575,
+          "elapsed_s": 23.417138791999605,
+          "as_of_s": 229.73878854199575,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 6,
+          "requested_s": 233.1382972499996,
+          "elapsed_s": 26.816647500003455,
+          "as_of_s": 233.1382972499996,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 7,
+          "requested_s": 293.945736624999,
+          "elapsed_s": 87.62408687500283,
+          "as_of_s": 293.945736624999,
+          "count": 1,
+          "first_status": "drop",
+          "record_ids": [
+            4
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "A03",
+      "runner": "A",
+      "order": 3,
+      "policy": "terminal",
+      "condition": "stale",
+      "first_outcome": "commit",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 8,
+      "start": 307.21425525000086,
+      "stop": 323.7434088329974,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 307.21425525000086,
+          "delay": 4,
+          "outcome": "commit",
+          "resolved": 311.2261622079968
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 310.6091786249963,
+          "elapsed_s": 3.3949233749954146,
+          "as_of_s": 302.6091786249963,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 316.7054663329982,
+          "elapsed_s": 9.491211082997324,
+          "as_of_s": 308.7054663329982,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 320.1298071669953,
+          "elapsed_s": 12.915551916994445,
+          "as_of_s": 312.1298071669953,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            7
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "A04",
+      "runner": "A",
+      "order": 4,
+      "policy": "terminal",
+      "condition": "pending",
+      "first_outcome": "commit",
+      "first_delay_s": 16,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 332.1796037499953,
+      "stop": 401.4091948329951,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 332.1796037499953,
+          "delay": 16,
+          "outcome": "commit",
+          "resolved": 348.1869181669972
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 336.6859323329991,
+          "elapsed_s": 4.5063285830037785,
+          "as_of_s": 336.6859323329991,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 343.703098082995,
+          "elapsed_s": 11.52349433299969,
+          "as_of_s": 343.703098082995,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 347.8963398749984,
+          "elapsed_s": 15.71673612500308,
+          "as_of_s": 347.8963398749984,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 4,
+          "requested_s": 352.2558484999972,
+          "elapsed_s": 20.076244750001933,
+          "as_of_s": 352.2558484999972,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            8
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "A05",
+      "runner": "A",
+      "order": 5,
+      "policy": "absence",
+      "condition": "failure",
+      "first_outcome": "drop",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 414.17105129199626,
+      "stop": 427.56422845799534,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 414.17105129199626,
+          "delay": 4,
+          "outcome": "drop",
+          "resolved": 418.1752874579979
+        },
+        {
+          "index": 2,
+          "submitted": 421.08913762500015,
+          "delay": 2,
+          "outcome": "commit",
+          "resolved": 423.09830525000143
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 417.87801254200167,
+          "elapsed_s": 3.7069612500054063,
+          "as_of_s": 417.87801254200167,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 424.3500871669967,
+          "elapsed_s": 10.179035875000409,
+          "as_of_s": 424.3500871669967,
+          "count": 1,
+          "first_status": "drop",
+          "record_ids": [
+            10
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "A06",
+      "runner": "A",
+      "order": 6,
+      "policy": "bound24",
+      "condition": "stale",
+      "first_outcome": "commit",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 8,
+      "start": 439.14729850000003,
+      "stop": 460.4152202080004,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 439.14729850000003,
+          "delay": 4,
+          "outcome": "commit",
+          "resolved": 443.1507338750016
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 442.5154109169962,
+          "elapsed_s": 3.368112416996155,
+          "as_of_s": 434.5154109169962,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 445.97689379200165,
+          "elapsed_s": 6.829595292001613,
+          "as_of_s": 437.97689379200165,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 451.0078031250014,
+          "elapsed_s": 11.86050462500134,
+          "as_of_s": 443.0078031250014,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 4,
+          "requested_s": 456.20376895799563,
+          "elapsed_s": 17.0564704579956,
+          "as_of_s": 448.20376895799563,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            12
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "A07",
+      "runner": "A",
+      "order": 7,
+      "policy": "bound24",
+      "condition": "pending",
+      "first_outcome": "commit",
+      "first_delay_s": 16,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 517.4359362920004,
+      "stop": 542.9235269579949,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 517.4359362920004,
+          "delay": 16,
+          "outcome": "commit",
+          "resolved": 533.4429964169976
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 520.5745545419995,
+          "elapsed_s": 3.1386182499991264,
+          "as_of_s": 520.5745545419995,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 524.1270976250016,
+          "elapsed_s": 6.691161333001219,
+          "as_of_s": 524.1270976250016,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 527.3710398749972,
+          "elapsed_s": 9.935103582996817,
+          "as_of_s": 527.3710398749972,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 4,
+          "requested_s": 530.8000405419953,
+          "elapsed_s": 13.364104249994853,
+          "as_of_s": 530.8000405419953,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 5,
+          "requested_s": 535.1458467499979,
+          "elapsed_s": 17.709910457997466,
+          "as_of_s": 535.1458467499979,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            14
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "A08",
+      "runner": "A",
+      "order": 8,
+      "policy": "terminal",
+      "condition": "failure",
+      "first_outcome": "drop",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 550.9577635419992,
+      "stop": 568.7466578749954,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 550.9577635419992,
+          "delay": 4,
+          "outcome": "drop",
+          "resolved": 554.9621031669958
+        },
+        {
+          "index": 2,
+          "submitted": 561.3881075829995,
+          "delay": 2,
+          "outcome": "commit",
+          "resolved": 563.3958336669966
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 557.7763222499998,
+          "elapsed_s": 6.818558708000637,
+          "as_of_s": 557.7763222499998,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 565.0392728329971,
+          "elapsed_s": 14.081509290997928,
+          "as_of_s": 565.0392728329971,
+          "count": 1,
+          "first_status": "drop",
+          "record_ids": [
+            16
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "A09",
+      "runner": "A",
+      "order": 9,
+      "policy": "absence",
+      "condition": "stale",
+      "first_outcome": "commit",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 8,
+      "start": 624.7873771250015,
+      "stop": 643.0207061670008,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 624.7873771250015,
+          "delay": 4,
+          "outcome": "commit",
+          "resolved": 628.7949922080006
+        },
+        {
+          "index": 2,
+          "submitted": 632.447731166998,
+          "delay": 2,
+          "outcome": "commit",
+          "resolved": 634.4586067499986
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 628.9417005829964,
+          "elapsed_s": 4.154323457994906,
+          "as_of_s": 620.9417005829964,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 635.6259767079973,
+          "elapsed_s": 10.838599582995812,
+          "as_of_s": 627.6259767079973,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 638.8724198749987,
+          "elapsed_s": 14.085042749997228,
+          "as_of_s": 630.8724198749987,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            19
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "B01",
+      "runner": "B",
+      "order": 1,
+      "policy": "absence",
+      "condition": "stale",
+      "first_outcome": "commit",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 8,
+      "start": 299.6477629169967,
+      "stop": 317.0807772920016,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 299.6477629169967,
+          "delay": 4,
+          "outcome": "commit",
+          "resolved": 303.65513016699697
+        },
+        {
+          "index": 2,
+          "submitted": 307.99958066699764,
+          "delay": 2,
+          "outcome": "commit",
+          "resolved": 310.0068729170016
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 303.23458662499615,
+          "elapsed_s": 3.5868237079994287,
+          "as_of_s": 295.23458662499615,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 313.52378354199755,
+          "elapsed_s": 13.87602062500082,
+          "as_of_s": 305.52378354199755,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            5
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "B02",
+      "runner": "B",
+      "order": 2,
+      "policy": "terminal",
+      "condition": "failure",
+      "first_outcome": "drop",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 343.721448874996,
+      "stop": 365.8134158749963,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 343.721448874996,
+          "delay": 4,
+          "outcome": "drop",
+          "resolved": 347.72852616699674
+        },
+        {
+          "index": 2,
+          "submitted": 357.091628999995,
+          "delay": 2,
+          "outcome": "commit",
+          "resolved": 359.10173591700004
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 347.5411193330001,
+          "elapsed_s": 3.8196704580041114,
+          "as_of_s": 347.5411193330001,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 351.89186925000104,
+          "elapsed_s": 8.170420375005051,
+          "as_of_s": 351.89186925000104,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 361.69164862499747,
+          "elapsed_s": 17.970199750001484,
+          "as_of_s": 361.69164862499747,
+          "count": 1,
+          "first_status": "drop",
+          "record_ids": [
+            9
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "B03",
+      "runner": "B",
+      "order": 3,
+      "policy": "bound24",
+      "condition": "pending",
+      "first_outcome": "commit",
+      "first_delay_s": 16,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 421.58787524999934,
+      "stop": 443.1868489999979,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 421.58787524999934,
+          "delay": 16,
+          "outcome": "commit",
+          "resolved": 437.59608758299873
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 424.84793158299726,
+          "elapsed_s": 3.2600563329979195,
+          "as_of_s": 424.84793158299726,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 429.106781167,
+          "elapsed_s": 7.518905917000666,
+          "as_of_s": 429.106781167,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 432.75113558299927,
+          "elapsed_s": 11.163260332999926,
+          "as_of_s": 432.75113558299927,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 4,
+          "requested_s": 438.38778541699867,
+          "elapsed_s": 16.799910166999325,
+          "as_of_s": 438.38778541699867,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            11
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "B04",
+      "runner": "B",
+      "order": 4,
+      "policy": "bound24",
+      "condition": "stale",
+      "first_outcome": "commit",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 8,
+      "start": 453.4404190419955,
+      "stop": 468.80490933299734,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 453.4404190419955,
+          "delay": 4,
+          "outcome": "commit",
+          "resolved": 457.44515108299674
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 457.2724607499986,
+          "elapsed_s": 3.8320417080030893,
+          "as_of_s": 449.2724607499986,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 460.9125433329973,
+          "elapsed_s": 7.472124291001819,
+          "as_of_s": 452.9125433329973,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 465.52738591699745,
+          "elapsed_s": 12.086966875001963,
+          "as_of_s": 457.52738591699745,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            13
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "B05",
+      "runner": "B",
+      "order": 5,
+      "policy": "absence",
+      "condition": "failure",
+      "first_outcome": "drop",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 477.9757653330016,
+      "stop": 546.7125754579974,
+      "stop_kind": "unresolved",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 477.9757653330016,
+          "delay": 4,
+          "outcome": "drop",
+          "resolved": 481.9829360829972
+        },
+        {
+          "index": 2,
+          "submitted": 534.680483832999,
+          "delay": 2,
+          "outcome": "commit",
+          "resolved": 536.6889857499991
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 530.2081023329956,
+          "elapsed_s": 52.232336999994004,
+          "as_of_s": 530.2081023329956,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 542.9456871669972,
+          "elapsed_s": 64.96992183399561,
+          "as_of_s": 542.9456871669972,
+          "count": 1,
+          "first_status": "drop",
+          "record_ids": [
+            15
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "B06",
+      "runner": "B",
+      "order": 6,
+      "policy": "terminal",
+      "condition": "pending",
+      "first_outcome": "commit",
+      "first_delay_s": 16,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 560.5413320419975,
+      "stop": 583.8133212079993,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 560.5413320419975,
+          "delay": 16,
+          "outcome": "commit",
+          "resolved": 576.5484125419971
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 564.4764072499966,
+          "elapsed_s": 3.9350752079990343,
+          "as_of_s": 564.4764072499966,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 567.9978582499971,
+          "elapsed_s": 7.456526207999559,
+          "as_of_s": 567.9978582499971,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 571.7218485420017,
+          "elapsed_s": 11.18051650000416,
+          "as_of_s": 571.7218485420017,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 4,
+          "requested_s": 575.2305766669961,
+          "elapsed_s": 14.689244624998537,
+          "as_of_s": 575.2305766669961,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 5,
+          "requested_s": 578.8183352499982,
+          "elapsed_s": 18.27700320800068,
+          "as_of_s": 578.8183352499982,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            17
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "B07",
+      "runner": "B",
+      "order": 7,
+      "policy": "terminal",
+      "condition": "stale",
+      "first_outcome": "commit",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 8,
+      "start": 594.8500182499993,
+      "stop": 647.3380354170004,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 594.8500182499993,
+          "delay": 4,
+          "outcome": "commit",
+          "resolved": 598.8573893329958
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 644.1900558749985,
+          "elapsed_s": 49.34003762499924,
+          "as_of_s": 636.1900558749985,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            18
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "B08",
+      "runner": "B",
+      "order": 8,
+      "policy": "bound24",
+      "condition": "failure",
+      "first_outcome": "drop",
+      "first_delay_s": 4,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 656.5636653749971,
+      "stop": 694.1463274999987,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 656.5636653749971,
+          "delay": 4,
+          "outcome": "drop",
+          "resolved": 660.5739077920007
+        },
+        {
+          "index": 2,
+          "submitted": 686.109199999999,
+          "delay": 2,
+          "outcome": "commit",
+          "resolved": 688.1155044170009
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 660.0483045419969,
+          "elapsed_s": 3.484639166999841,
+          "as_of_s": 660.0483045419969,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 664.0961530419954,
+          "elapsed_s": 7.53248766699835,
+          "as_of_s": 664.0961530419954,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 3,
+          "requested_s": 667.6815311249957,
+          "elapsed_s": 11.1178657499986,
+          "as_of_s": 667.6815311249957,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 4,
+          "requested_s": 671.3883552080006,
+          "elapsed_s": 14.824689833003504,
+          "as_of_s": 671.3883552080006,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 5,
+          "requested_s": 677.3830214170011,
+          "elapsed_s": 20.819356042004074,
+          "as_of_s": 677.3830214170011,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 6,
+          "requested_s": 682.7186485419952,
+          "elapsed_s": 26.154983166998136,
+          "as_of_s": 682.7186485419952,
+          "count": 0,
+          "first_status": "drop",
+          "record_ids": []
+        },
+        {
+          "index": 7,
+          "requested_s": 690.0208902500017,
+          "elapsed_s": 33.45722487500461,
+          "as_of_s": 690.0208902500017,
+          "count": 1,
+          "first_status": "drop",
+          "record_ids": [
+            21
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "B09",
+      "runner": "B",
+      "order": 9,
+      "policy": "absence",
+      "condition": "pending",
+      "first_outcome": "commit",
+      "first_delay_s": 16,
+      "retry_outcome": "commit",
+      "retry_delay_s": 2,
+      "lag_s": 0,
+      "start": 754.0029601669958,
+      "stop": 771.637684207999,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 754.0029601669958,
+          "delay": 16,
+          "outcome": "commit",
+          "resolved": 770.0104783749994
+        },
+        {
+          "index": 2,
+          "submitted": 761.3946618749978,
+          "delay": 2,
+          "outcome": "commit",
+          "resolved": 763.4029315419975
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 757.255553832998,
+          "elapsed_s": 3.2525936660022126,
+          "as_of_s": 757.255553832998,
+          "count": 0,
+          "first_status": "pending",
+          "record_ids": []
+        },
+        {
+          "index": 2,
+          "requested_s": 764.8470979999984,
+          "elapsed_s": 10.844137833002605,
+          "as_of_s": 764.8470979999984,
+          "count": 1,
+          "first_status": "pending",
+          "record_ids": [
+            22
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    },
+    {
+      "id": "W01",
+      "runner": "W",
+      "order": 1,
+      "policy": "terminal",
+      "condition": "warmup",
+      "first_outcome": "commit",
+      "first_delay_s": 0.2,
+      "retry_outcome": "commit",
+      "retry_delay_s": 0.2,
+      "lag_s": 0,
+      "start": 13.350475999999617,
+      "stop": 21.389968208000937,
+      "stop_kind": "claim",
+      "attempts": [
+        {
+          "index": 1,
+          "submitted": 13.350475999999617,
+          "delay": 0.2,
+          "outcome": "commit",
+          "resolved": 13.557462874996418
+        }
+      ],
+      "observations": [
+        {
+          "index": 1,
+          "requested_s": 17.222470749999047,
+          "elapsed_s": 3.8719947499994305,
+          "as_of_s": 17.222470749999047,
+          "count": 1,
+          "first_status": "commit",
+          "record_ids": [
+            1
+          ]
+        }
+      ],
+      "last_action": "Your stop was recorded. Accepted writes continue. This page does not show the final audit."
+    }
+  ],
+  "events": [
+    {
+      "kind": "server_start",
+      "python": "3.14.7",
+      "seq": 1,
+      "server_elapsed_s": 0.00278641699696891,
+      "started_utc": "2026-10-15T16:46:01.599618+00:00",
+      "system": "Darwin",
+      "trial": null,
+      "utc": "2026-10-15T16:46:01.599823+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 2,
+      "server_elapsed_s": 9.24432354199962,
+      "trial": "W01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:46:10.841376+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 3,
+      "server_elapsed_s": 13.350478624997777,
+      "trial": "W01",
+      "utc": "2026-10-15T16:46:14.947534+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 0.2,
+      "planned_outcome": "commit",
+      "seq": 4,
+      "server_elapsed_s": 13.351648249998107,
+      "submitted_s": 13.350475999999617,
+      "trial": "W01",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:46:14.948701+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 5,
+      "server_elapsed_s": 13.366719792000367,
+      "trial": "W01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:46:14.963776+00:00"
+    },
+    {
+      "actual_delay_s": 0.2069868749968009,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 0.2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 13.557462874996418,
+      "seq": 6,
+      "server_elapsed_s": 13.558960292000847,
+      "submitted_s": 13.350475999999617,
+      "trial": "W01",
+      "utc": "2026-10-15T16:46:15.156019+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 7,
+      "server_elapsed_s": 17.22154862499883,
+      "trial": "W01",
+      "utc": "2026-10-15T16:46:18.818608+00:00"
+    },
+    {
+      "as_of_s": 17.222470749999047,
+      "count": 1,
+      "elapsed_s": 3.8719947499994305,
+      "first_status": "commit",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [
+        1
+      ],
+      "requested_s": 17.222470749999047,
+      "seq": 8,
+      "server_elapsed_s": 17.22253912499582,
+      "trial": "W01",
+      "utc": "2026-10-15T16:46:18.819597+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 9,
+      "server_elapsed_s": 17.233444874997076,
+      "trial": "W01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:46:18.830506+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 10,
+      "server_elapsed_s": 21.389969666997786,
+      "trial": "W01",
+      "utc": "2026-10-15T16:46:22.987036+00:00"
+    },
+    {
+      "attempt_count": 1,
+      "elapsed_s": 8.03949220800132,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 17.222470749999047,
+        "count": 1,
+        "elapsed_s": 3.8719947499994305,
+        "first_status": "commit",
+        "index": 1,
+        "record_ids": [
+          1
+        ],
+        "requested_s": 17.222470749999047
+      },
+      "seq": 11,
+      "server_elapsed_s": 21.39110004199756,
+      "stop_kind": "claim",
+      "trial": "W01",
+      "utc": "2026-10-15T16:46:22.988164+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 12,
+      "server_elapsed_s": 21.405771249999816,
+      "trial": "W01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:46:23.002837+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 13,
+      "server_elapsed_s": 154.71658999999636,
+      "trial": "A01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:48:36.313829+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 14,
+      "server_elapsed_s": 161.67463337499794,
+      "trial": "A01",
+      "utc": "2026-10-15T16:48:43.271883+00:00"
+    },
+    {
+      "kind": "scored_budget_start",
+      "seconds": 720,
+      "seq": 15,
+      "server_elapsed_s": 161.6757211669974,
+      "trial": null,
+      "utc": "2026-10-15T16:48:43.272968+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 16,
+      "planned_outcome": "commit",
+      "seq": 16,
+      "server_elapsed_s": 161.6763773329949,
+      "submitted_s": 161.67463208299887,
+      "trial": "A01",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:48:43.273624+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 17,
+      "server_elapsed_s": 161.69144295799924,
+      "trial": "A01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:48:43.288692+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 18,
+      "server_elapsed_s": 165.76422404199548,
+      "trial": "A01",
+      "utc": "2026-10-15T16:48:47.361477+00:00"
+    },
+    {
+      "as_of_s": 165.76538599999913,
+      "count": 0,
+      "elapsed_s": 4.0907539170002565,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 165.76538599999913,
+      "seq": 19,
+      "server_elapsed_s": 165.7654259580013,
+      "trial": "A01",
+      "utc": "2026-10-15T16:48:47.362678+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 20,
+      "server_elapsed_s": 165.7793850829985,
+      "trial": "A01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:48:47.376640+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 21,
+      "server_elapsed_s": 168.76155787499738,
+      "trial": "A01",
+      "utc": "2026-10-15T16:48:50.358817+00:00"
+    },
+    {
+      "attempt": 2,
+      "kind": "submit",
+      "planned_delay_s": 2,
+      "planned_outcome": "commit",
+      "seq": 22,
+      "server_elapsed_s": 168.76495087499643,
+      "submitted_s": 168.7615561249986,
+      "trial": "A01",
+      "trial_elapsed_s": 7.086924041999737,
+      "utc": "2026-10-15T16:48:50.362240+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 23,
+      "server_elapsed_s": 168.77853666699957,
+      "trial": "A01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:48:50.375795+00:00"
+    },
+    {
+      "actual_delay_s": 2.0104242079978576,
+      "after_stop": false,
+      "attempt": 2,
+      "configured_delay_s": 2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 170.77198033299646,
+      "seq": 24,
+      "server_elapsed_s": 170.7735329999996,
+      "submitted_s": 168.7615561249986,
+      "trial": "A01",
+      "utc": "2026-10-15T16:48:52.370796+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 25,
+      "server_elapsed_s": 174.2337786249991,
+      "trial": "A01",
+      "utc": "2026-10-15T16:48:55.831044+00:00"
+    },
+    {
+      "as_of_s": 174.2351226249957,
+      "count": 1,
+      "elapsed_s": 12.560490541996842,
+      "first_status": "pending",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [
+        2
+      ],
+      "requested_s": 174.2351226249957,
+      "seq": 26,
+      "server_elapsed_s": 174.23517658299534,
+      "trial": "A01",
+      "utc": "2026-10-15T16:48:55.832441+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 27,
+      "server_elapsed_s": 174.24988470799872,
+      "trial": "A01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:48:55.847151+00:00"
+    },
+    {
+      "actual_delay_s": 16.007925083998998,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 16,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 177.68255716699787,
+      "seq": 28,
+      "server_elapsed_s": 177.68464854199556,
+      "submitted_s": 161.67463208299887,
+      "trial": "A01",
+      "utc": "2026-10-15T16:48:59.281920+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 29,
+      "server_elapsed_s": 177.91851945799863,
+      "trial": "A01",
+      "utc": "2026-10-15T16:48:59.515793+00:00"
+    },
+    {
+      "attempt_count": 2,
+      "elapsed_s": 16.243884916999377,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 174.2351226249957,
+        "count": 1,
+        "elapsed_s": 12.560490541996842,
+        "first_status": "pending",
+        "index": 2,
+        "record_ids": [
+          2
+        ],
+        "requested_s": 174.2351226249957
+      },
+      "seq": 30,
+      "server_elapsed_s": 177.91985566700168,
+      "stop_kind": "claim",
+      "trial": "A01",
+      "utc": "2026-10-15T16:48:59.517123+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 31,
+      "server_elapsed_s": 177.93677887499507,
+      "trial": "A01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:48:59.534049+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 32,
+      "server_elapsed_s": 190.75437533299555,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:49:12.351664+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 33,
+      "server_elapsed_s": 206.32165337499464,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:27.918965+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "drop",
+      "seq": 34,
+      "server_elapsed_s": 206.32434674999968,
+      "submitted_s": 206.32164974999614,
+      "trial": "A02",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:49:27.921663+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 35,
+      "server_elapsed_s": 206.34036654199735,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:49:27.937673+00:00"
+    },
+    {
+      "actual_delay_s": 4.0105487079999875,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "drop",
+      "resolved_s": 210.33219845799613,
+      "seq": 36,
+      "server_elapsed_s": 210.3322309169962,
+      "submitted_s": 206.32164974999614,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:31.929566+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 37,
+      "server_elapsed_s": 212.10401637500036,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:33.701336+00:00"
+    },
+    {
+      "as_of_s": 212.10662745800073,
+      "count": 0,
+      "elapsed_s": 5.78497770800459,
+      "first_status": "drop",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 212.10662745800073,
+      "seq": 38,
+      "server_elapsed_s": 212.1067736670011,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:33.704094+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 39,
+      "server_elapsed_s": 212.12119183300092,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:49:33.718505+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 40,
+      "server_elapsed_s": 215.38883391700074,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:36.986152+00:00"
+    },
+    {
+      "as_of_s": 215.38995862499723,
+      "count": 0,
+      "elapsed_s": 9.068308875001094,
+      "first_status": "drop",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 215.38995862499723,
+      "seq": 41,
+      "server_elapsed_s": 215.3899903749989,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:36.987307+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 42,
+      "server_elapsed_s": 215.40421754199633,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:49:37.001538+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 43,
+      "server_elapsed_s": 221.80865304199688,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:43.405980+00:00"
+    },
+    {
+      "as_of_s": 221.81005258300138,
+      "count": 0,
+      "elapsed_s": 15.488402833005239,
+      "first_status": "drop",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 221.81005258300138,
+      "seq": 44,
+      "server_elapsed_s": 221.8100924169994,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:43.407418+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 45,
+      "server_elapsed_s": 221.82798241699493,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:49:43.425310+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 46,
+      "server_elapsed_s": 226.18556812500174,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:47.782900+00:00"
+    },
+    {
+      "as_of_s": 226.18675908300065,
+      "count": 0,
+      "elapsed_s": 19.86510933300451,
+      "first_status": "drop",
+      "index": 4,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 226.18675908300065,
+      "seq": 47,
+      "server_elapsed_s": 226.1867905830004,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:47.784121+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 48,
+      "server_elapsed_s": 226.2027715419972,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:49:47.800104+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 49,
+      "server_elapsed_s": 229.73731970800145,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:51.334659+00:00"
+    },
+    {
+      "as_of_s": 229.73878854199575,
+      "count": 0,
+      "elapsed_s": 23.417138791999605,
+      "first_status": "drop",
+      "index": 5,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 229.73878854199575,
+      "seq": 50,
+      "server_elapsed_s": 229.73882420799782,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:51.336161+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 51,
+      "server_elapsed_s": 229.75430074999895,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:49:51.351638+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 52,
+      "server_elapsed_s": 233.136294291995,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:54.733639+00:00"
+    },
+    {
+      "as_of_s": 233.1382972499996,
+      "count": 0,
+      "elapsed_s": 26.816647500003455,
+      "first_status": "drop",
+      "index": 6,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 233.1382972499996,
+      "seq": 53,
+      "server_elapsed_s": 233.13839562499925,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:54.735743+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 54,
+      "server_elapsed_s": 233.15507262499887,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:49:54.752414+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 55,
+      "server_elapsed_s": 237.26080441699742,
+      "trial": "A02",
+      "utc": "2026-10-15T16:49:58.858153+00:00"
+    },
+    {
+      "attempt": 2,
+      "kind": "submit",
+      "planned_delay_s": 2,
+      "planned_outcome": "commit",
+      "seq": 56,
+      "server_elapsed_s": 237.2619582920015,
+      "submitted_s": 237.2608023749999,
+      "trial": "A02",
+      "trial_elapsed_s": 30.93915262500377,
+      "utc": "2026-10-15T16:49:58.859303+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 57,
+      "server_elapsed_s": 237.27801249999902,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:49:58.875359+00:00"
+    },
+    {
+      "actual_delay_s": 2.0070483749950654,
+      "after_stop": false,
+      "attempt": 2,
+      "configured_delay_s": 2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 239.26785074999498,
+      "seq": 58,
+      "server_elapsed_s": 239.2697118329961,
+      "submitted_s": 237.2608023749999,
+      "trial": "A02",
+      "utc": "2026-10-15T16:50:00.867069+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 59,
+      "server_elapsed_s": 291.02584249999927,
+      "trial": "B01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:50:52.623260+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 60,
+      "server_elapsed_s": 293.9443012920019,
+      "trial": "A02",
+      "utc": "2026-10-15T16:50:55.541724+00:00"
+    },
+    {
+      "as_of_s": 293.945736624999,
+      "count": 1,
+      "elapsed_s": 87.62408687500283,
+      "first_status": "drop",
+      "index": 7,
+      "kind": "observation",
+      "record_ids": [
+        4
+      ],
+      "requested_s": 293.945736624999,
+      "seq": 61,
+      "server_elapsed_s": 293.94577495799604,
+      "trial": "A02",
+      "utc": "2026-10-15T16:50:55.543194+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 62,
+      "server_elapsed_s": 293.9599123329972,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:50:55.557332+00:00"
+    },
+    {
+      "action": "unresolved",
+      "kind": "button",
+      "seq": 63,
+      "server_elapsed_s": 299.4682675829972,
+      "trial": "A02",
+      "utc": "2026-10-15T16:51:01.065696+00:00"
+    },
+    {
+      "attempt_count": 2,
+      "elapsed_s": 93.1466163330042,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 293.945736624999,
+        "count": 1,
+        "elapsed_s": 87.62408687500283,
+        "first_status": "drop",
+        "index": 7,
+        "record_ids": [
+          4
+        ],
+        "requested_s": 293.945736624999
+      },
+      "seq": 64,
+      "server_elapsed_s": 299.46972354199534,
+      "stop_kind": "unresolved",
+      "trial": "A02",
+      "utc": "2026-10-15T16:51:01.067150+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 65,
+      "server_elapsed_s": 299.4849574580003,
+      "trial": "A02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:01.082386+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 66,
+      "server_elapsed_s": 299.6477651669993,
+      "trial": "B01",
+      "utc": "2026-10-15T16:51:01.245195+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "commit",
+      "seq": 67,
+      "server_elapsed_s": 299.6499523329985,
+      "submitted_s": 299.6477629169967,
+      "trial": "B01",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:51:01.247383+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 68,
+      "server_elapsed_s": 299.66513974999543,
+      "trial": "B01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:01.262570+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 69,
+      "server_elapsed_s": 303.23343658299564,
+      "trial": "B01",
+      "utc": "2026-10-15T16:51:04.830869+00:00"
+    },
+    {
+      "as_of_s": 295.23458662499615,
+      "count": 0,
+      "elapsed_s": 3.5868237079994287,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 303.23458662499615,
+      "seq": 70,
+      "server_elapsed_s": 303.2346267499961,
+      "trial": "B01",
+      "utc": "2026-10-15T16:51:04.832058+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 71,
+      "server_elapsed_s": 303.25006191699504,
+      "trial": "B01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:04.847498+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 72,
+      "server_elapsed_s": 303.584697833001,
+      "trial": "A03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:05.182132+00:00"
+    },
+    {
+      "actual_delay_s": 4.007367250000243,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 303.65513016699697,
+      "seq": 73,
+      "server_elapsed_s": 303.6562520000007,
+      "submitted_s": 299.6477629169967,
+      "trial": "B01",
+      "utc": "2026-10-15T16:51:05.253686+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 74,
+      "server_elapsed_s": 307.2142582500019,
+      "trial": "A03",
+      "utc": "2026-10-15T16:51:08.811774+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "commit",
+      "seq": 75,
+      "server_elapsed_s": 307.2164222079955,
+      "submitted_s": 307.21425525000086,
+      "trial": "A03",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:51:08.813861+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 76,
+      "server_elapsed_s": 307.2366417079975,
+      "trial": "A03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:08.834082+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 77,
+      "server_elapsed_s": 307.9995824169964,
+      "trial": "B01",
+      "utc": "2026-10-15T16:51:09.597022+00:00"
+    },
+    {
+      "attempt": 2,
+      "kind": "submit",
+      "planned_delay_s": 2,
+      "planned_outcome": "commit",
+      "seq": 78,
+      "server_elapsed_s": 308.001011291999,
+      "submitted_s": 307.99958066699764,
+      "trial": "B01",
+      "trial_elapsed_s": 8.351817750000919,
+      "utc": "2026-10-15T16:51:09.598448+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 79,
+      "server_elapsed_s": 308.01152145800006,
+      "trial": "B01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:09.608962+00:00"
+    },
+    {
+      "actual_delay_s": 2.0072922500039567,
+      "after_stop": false,
+      "attempt": 2,
+      "configured_delay_s": 2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 310.0068729170016,
+      "seq": 80,
+      "server_elapsed_s": 310.0090184579967,
+      "submitted_s": 307.99958066699764,
+      "trial": "B01",
+      "utc": "2026-10-15T16:51:11.606463+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 81,
+      "server_elapsed_s": 310.6078562920011,
+      "trial": "A03",
+      "utc": "2026-10-15T16:51:12.205300+00:00"
+    },
+    {
+      "as_of_s": 302.6091786249963,
+      "count": 0,
+      "elapsed_s": 3.3949233749954146,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 310.6091786249963,
+      "seq": 82,
+      "server_elapsed_s": 310.60922591699637,
+      "trial": "A03",
+      "utc": "2026-10-15T16:51:12.206668+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 83,
+      "server_elapsed_s": 310.61819362499955,
+      "trial": "A03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:12.215636+00:00"
+    },
+    {
+      "actual_delay_s": 4.011906957995961,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 311.2261622079968,
+      "seq": 84,
+      "server_elapsed_s": 311.22805516699736,
+      "submitted_s": 307.21425525000086,
+      "trial": "A03",
+      "utc": "2026-10-15T16:51:12.825501+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 85,
+      "server_elapsed_s": 313.5218848329969,
+      "trial": "B01",
+      "utc": "2026-10-15T16:51:15.119334+00:00"
+    },
+    {
+      "as_of_s": 305.52378354199755,
+      "count": 1,
+      "elapsed_s": 13.87602062500082,
+      "first_status": "commit",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [
+        5
+      ],
+      "requested_s": 313.52378354199755,
+      "seq": 86,
+      "server_elapsed_s": 313.5238669169994,
+      "trial": "B01",
+      "utc": "2026-10-15T16:51:15.121318+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 87,
+      "server_elapsed_s": 313.5357900000017,
+      "trial": "B01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:15.133237+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 88,
+      "server_elapsed_s": 316.70398399999976,
+      "trial": "A03",
+      "utc": "2026-10-15T16:51:18.301435+00:00"
+    },
+    {
+      "as_of_s": 308.7054663329982,
+      "count": 0,
+      "elapsed_s": 9.491211082997324,
+      "first_status": "pending",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 316.7054663329982,
+      "seq": 89,
+      "server_elapsed_s": 316.70550104200083,
+      "trial": "A03",
+      "utc": "2026-10-15T16:51:18.302949+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 90,
+      "server_elapsed_s": 316.7192044580006,
+      "trial": "A03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:18.316655+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 91,
+      "server_elapsed_s": 317.080779332995,
+      "trial": "B01",
+      "utc": "2026-10-15T16:51:18.678231+00:00"
+    },
+    {
+      "attempt_count": 2,
+      "elapsed_s": 17.43301437500486,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 305.52378354199755,
+        "count": 1,
+        "elapsed_s": 13.87602062500082,
+        "first_status": "commit",
+        "index": 2,
+        "record_ids": [
+          5
+        ],
+        "requested_s": 313.52378354199755
+      },
+      "seq": 92,
+      "server_elapsed_s": 317.08184233299835,
+      "stop_kind": "claim",
+      "trial": "B01",
+      "utc": "2026-10-15T16:51:18.679291+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 93,
+      "server_elapsed_s": 317.0918107499965,
+      "trial": "B01",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:18.689262+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 94,
+      "server_elapsed_s": 320.12771404199884,
+      "trial": "A03",
+      "utc": "2026-10-15T16:51:21.725172+00:00"
+    },
+    {
+      "as_of_s": 312.1298071669953,
+      "count": 1,
+      "elapsed_s": 12.915551916994445,
+      "first_status": "commit",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [
+        7
+      ],
+      "requested_s": 320.1298071669953,
+      "seq": 95,
+      "server_elapsed_s": 320.1298810829976,
+      "trial": "A03",
+      "utc": "2026-10-15T16:51:21.727351+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 96,
+      "server_elapsed_s": 320.1445515000014,
+      "trial": "A03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:21.742007+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 97,
+      "server_elapsed_s": 323.7434121670012,
+      "trial": "A03",
+      "utc": "2026-10-15T16:51:25.340875+00:00"
+    },
+    {
+      "attempt_count": 1,
+      "elapsed_s": 16.529153582996514,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 312.1298071669953,
+        "count": 1,
+        "elapsed_s": 12.915551916994445,
+        "first_status": "commit",
+        "index": 3,
+        "record_ids": [
+          7
+        ],
+        "requested_s": 320.1298071669953
+      },
+      "seq": 98,
+      "server_elapsed_s": 323.74537304199475,
+      "stop_kind": "claim",
+      "trial": "A03",
+      "utc": "2026-10-15T16:51:25.342835+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 99,
+      "server_elapsed_s": 323.7608355830016,
+      "trial": "A03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:25.358295+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 100,
+      "server_elapsed_s": 328.6774375419991,
+      "trial": "A04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:30.274904+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 101,
+      "server_elapsed_s": 332.17960499999754,
+      "trial": "A04",
+      "utc": "2026-10-15T16:51:33.777075+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 16,
+      "planned_outcome": "commit",
+      "seq": 102,
+      "server_elapsed_s": 332.1811904169954,
+      "submitted_s": 332.1796037499953,
+      "trial": "A04",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:51:33.778659+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 103,
+      "server_elapsed_s": 332.1934685829983,
+      "trial": "A04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:33.790939+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 104,
+      "server_elapsed_s": 332.2921935830018,
+      "trial": "B02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:33.889665+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 105,
+      "server_elapsed_s": 336.684824291995,
+      "trial": "A04",
+      "utc": "2026-10-15T16:51:38.282300+00:00"
+    },
+    {
+      "as_of_s": 336.6859323329991,
+      "count": 0,
+      "elapsed_s": 4.5063285830037785,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 336.6859323329991,
+      "seq": 106,
+      "server_elapsed_s": 336.68596350000007,
+      "trial": "A04",
+      "utc": "2026-10-15T16:51:38.283438+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 107,
+      "server_elapsed_s": 336.69686658299906,
+      "trial": "A04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:38.294344+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 108,
+      "server_elapsed_s": 343.7017313749966,
+      "trial": "A04",
+      "utc": "2026-10-15T16:51:45.299219+00:00"
+    },
+    {
+      "as_of_s": 343.703098082995,
+      "count": 0,
+      "elapsed_s": 11.52349433299969,
+      "first_status": "pending",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 343.703098082995,
+      "seq": 109,
+      "server_elapsed_s": 343.7031286669953,
+      "trial": "A04",
+      "utc": "2026-10-15T16:51:45.300612+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 110,
+      "server_elapsed_s": 343.7171545829988,
+      "trial": "A04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:45.314640+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 111,
+      "server_elapsed_s": 343.7214502499992,
+      "trial": "B02",
+      "utc": "2026-10-15T16:51:45.318935+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "drop",
+      "seq": 112,
+      "server_elapsed_s": 343.7224537919974,
+      "submitted_s": 343.721448874996,
+      "trial": "B02",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:51:45.319938+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 113,
+      "server_elapsed_s": 343.7513636250005,
+      "trial": "B02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:45.348849+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 114,
+      "server_elapsed_s": 347.5391496669981,
+      "trial": "B02",
+      "utc": "2026-10-15T16:51:49.136643+00:00"
+    },
+    {
+      "as_of_s": 347.5411193330001,
+      "count": 0,
+      "elapsed_s": 3.8196704580041114,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 347.5411193330001,
+      "seq": 115,
+      "server_elapsed_s": 347.54116149999754,
+      "trial": "B02",
+      "utc": "2026-10-15T16:51:49.138653+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 116,
+      "server_elapsed_s": 347.55287983299786,
+      "trial": "B02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:49.150370+00:00"
+    },
+    {
+      "actual_delay_s": 4.0070772920007585,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "drop",
+      "resolved_s": 347.72852616699674,
+      "seq": 117,
+      "server_elapsed_s": 347.72853274999943,
+      "submitted_s": 343.721448874996,
+      "trial": "B02",
+      "utc": "2026-10-15T16:51:49.326024+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 118,
+      "server_elapsed_s": 347.89480520800134,
+      "trial": "A04",
+      "utc": "2026-10-15T16:51:49.492297+00:00"
+    },
+    {
+      "as_of_s": 347.8963398749984,
+      "count": 0,
+      "elapsed_s": 15.71673612500308,
+      "first_status": "pending",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 347.8963398749984,
+      "seq": 119,
+      "server_elapsed_s": 347.89638641700003,
+      "trial": "A04",
+      "utc": "2026-10-15T16:51:49.493876+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 120,
+      "server_elapsed_s": 347.9066029999958,
+      "trial": "A04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:49.504096+00:00"
+    },
+    {
+      "actual_delay_s": 16.007314417001908,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 16,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 348.1869181669972,
+      "seq": 121,
+      "server_elapsed_s": 348.187952166998,
+      "submitted_s": 332.1796037499953,
+      "trial": "A04",
+      "utc": "2026-10-15T16:51:49.785442+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 122,
+      "server_elapsed_s": 351.89079270799994,
+      "trial": "B02",
+      "utc": "2026-10-15T16:51:53.488288+00:00"
+    },
+    {
+      "as_of_s": 351.89186925000104,
+      "count": 0,
+      "elapsed_s": 8.170420375005051,
+      "first_status": "drop",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 351.89186925000104,
+      "seq": 123,
+      "server_elapsed_s": 351.8919124169988,
+      "trial": "B02",
+      "utc": "2026-10-15T16:51:53.489406+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 124,
+      "server_elapsed_s": 351.9042245419987,
+      "trial": "B02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:53.501721+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 125,
+      "server_elapsed_s": 352.25418729199737,
+      "trial": "A04",
+      "utc": "2026-10-15T16:51:53.851686+00:00"
+    },
+    {
+      "as_of_s": 352.2558484999972,
+      "count": 1,
+      "elapsed_s": 20.076244750001933,
+      "first_status": "commit",
+      "index": 4,
+      "kind": "observation",
+      "record_ids": [
+        8
+      ],
+      "requested_s": 352.2558484999972,
+      "seq": 126,
+      "server_elapsed_s": 352.25596779199986,
+      "trial": "A04",
+      "utc": "2026-10-15T16:51:53.853463+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 127,
+      "server_elapsed_s": 352.26681262499915,
+      "trial": "A04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:53.864309+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 128,
+      "server_elapsed_s": 357.0916323329948,
+      "trial": "B02",
+      "utc": "2026-10-15T16:51:58.689139+00:00"
+    },
+    {
+      "attempt": 2,
+      "kind": "submit",
+      "planned_delay_s": 2,
+      "planned_outcome": "commit",
+      "seq": 129,
+      "server_elapsed_s": 357.0938066669987,
+      "submitted_s": 357.091628999995,
+      "trial": "B02",
+      "trial_elapsed_s": 13.370180124999024,
+      "utc": "2026-10-15T16:51:58.691322+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 130,
+      "server_elapsed_s": 357.10727074999886,
+      "trial": "B02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:51:58.704774+00:00"
+    },
+    {
+      "actual_delay_s": 2.0101069170050323,
+      "after_stop": false,
+      "attempt": 2,
+      "configured_delay_s": 2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 359.10173591700004,
+      "seq": 131,
+      "server_elapsed_s": 359.10258449999674,
+      "submitted_s": 357.091628999995,
+      "trial": "B02",
+      "utc": "2026-10-15T16:52:00.700090+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 132,
+      "server_elapsed_s": 361.69006808300037,
+      "trial": "B02",
+      "utc": "2026-10-15T16:52:03.287580+00:00"
+    },
+    {
+      "as_of_s": 361.69164862499747,
+      "count": 1,
+      "elapsed_s": 17.970199750001484,
+      "first_status": "drop",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [
+        9
+      ],
+      "requested_s": 361.69164862499747,
+      "seq": 133,
+      "server_elapsed_s": 361.69170433299587,
+      "trial": "B02",
+      "utc": "2026-10-15T16:52:03.289211+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 134,
+      "server_elapsed_s": 361.7062060829994,
+      "trial": "B02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:52:03.303714+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 135,
+      "server_elapsed_s": 365.8134172499995,
+      "trial": "B02",
+      "utc": "2026-10-15T16:52:07.410931+00:00"
+    },
+    {
+      "attempt_count": 2,
+      "elapsed_s": 22.091967000000295,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 361.69164862499747,
+        "count": 1,
+        "elapsed_s": 17.970199750001484,
+        "first_status": "drop",
+        "index": 3,
+        "record_ids": [
+          9
+        ],
+        "requested_s": 361.69164862499747
+      },
+      "seq": 136,
+      "server_elapsed_s": 365.81468587499694,
+      "stop_kind": "claim",
+      "trial": "B02",
+      "utc": "2026-10-15T16:52:07.412198+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 137,
+      "server_elapsed_s": 365.8234981249989,
+      "trial": "B02",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:52:07.421013+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 138,
+      "server_elapsed_s": 373.9264508749984,
+      "trial": "B03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:52:15.523976+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 139,
+      "server_elapsed_s": 401.4091981249949,
+      "trial": "A04",
+      "utc": "2026-10-15T16:52:43.006762+00:00"
+    },
+    {
+      "attempt_count": 1,
+      "elapsed_s": 69.22959108299983,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 352.2558484999972,
+        "count": 1,
+        "elapsed_s": 20.076244750001933,
+        "first_status": "commit",
+        "index": 4,
+        "record_ids": [
+          8
+        ],
+        "requested_s": 352.2558484999972
+      },
+      "seq": 140,
+      "server_elapsed_s": 401.41123395799514,
+      "stop_kind": "claim",
+      "trial": "A04",
+      "utc": "2026-10-15T16:52:43.008796+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 141,
+      "server_elapsed_s": 401.42797216699546,
+      "trial": "A04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:52:43.025533+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 142,
+      "server_elapsed_s": 407.0407915830001,
+      "trial": "A05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:52:48.638360+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 143,
+      "server_elapsed_s": 414.17105329199694,
+      "trial": "A05",
+      "utc": "2026-10-15T16:52:55.768631+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "drop",
+      "seq": 144,
+      "server_elapsed_s": 414.17305674999807,
+      "submitted_s": 414.17105129199626,
+      "trial": "A05",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:52:55.770635+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 145,
+      "server_elapsed_s": 414.1880294579969,
+      "trial": "A05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:52:55.785608+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 146,
+      "server_elapsed_s": 417.8761340419951,
+      "trial": "A05",
+      "utc": "2026-10-15T16:52:59.473720+00:00"
+    },
+    {
+      "as_of_s": 417.87801254200167,
+      "count": 0,
+      "elapsed_s": 3.7069612500054063,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 417.87801254200167,
+      "seq": 147,
+      "server_elapsed_s": 417.87806820799597,
+      "trial": "A05",
+      "utc": "2026-10-15T16:52:59.475652+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 148,
+      "server_elapsed_s": 417.8884466669988,
+      "trial": "A05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:52:59.486034+00:00"
+    },
+    {
+      "actual_delay_s": 4.004236166001647,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "drop",
+      "resolved_s": 418.1752874579979,
+      "seq": 149,
+      "server_elapsed_s": 418.1752965830019,
+      "submitted_s": 414.17105129199626,
+      "trial": "A05",
+      "utc": "2026-10-15T16:52:59.772881+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 150,
+      "server_elapsed_s": 421.08914054199704,
+      "trial": "A05",
+      "utc": "2026-10-15T16:53:02.686729+00:00"
+    },
+    {
+      "attempt": 2,
+      "kind": "submit",
+      "planned_delay_s": 2,
+      "planned_outcome": "commit",
+      "seq": 151,
+      "server_elapsed_s": 421.09096562500054,
+      "submitted_s": 421.08913762500015,
+      "trial": "A05",
+      "trial_elapsed_s": 6.918086333003885,
+      "utc": "2026-10-15T16:53:02.688560+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 152,
+      "server_elapsed_s": 421.1070186249999,
+      "trial": "A05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:02.704606+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 153,
+      "server_elapsed_s": 421.58787825000036,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:03.185469+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 16,
+      "planned_outcome": "commit",
+      "seq": 154,
+      "server_elapsed_s": 421.5896162919962,
+      "submitted_s": 421.58787524999934,
+      "trial": "B03",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:53:03.187206+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 155,
+      "server_elapsed_s": 421.6076313329977,
+      "trial": "B03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:03.205224+00:00"
+    },
+    {
+      "actual_delay_s": 2.0091676250012824,
+      "after_stop": false,
+      "attempt": 2,
+      "configured_delay_s": 2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 423.09830525000143,
+      "seq": 156,
+      "server_elapsed_s": 423.10015691699664,
+      "submitted_s": 421.08913762500015,
+      "trial": "A05",
+      "utc": "2026-10-15T16:53:04.697748+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 157,
+      "server_elapsed_s": 424.3481416669965,
+      "trial": "A05",
+      "utc": "2026-10-15T16:53:05.945736+00:00"
+    },
+    {
+      "as_of_s": 424.3500871669967,
+      "count": 1,
+      "elapsed_s": 10.179035875000409,
+      "first_status": "drop",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [
+        10
+      ],
+      "requested_s": 424.3500871669967,
+      "seq": 158,
+      "server_elapsed_s": 424.35016874999565,
+      "trial": "A05",
+      "utc": "2026-10-15T16:53:05.947764+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 159,
+      "server_elapsed_s": 424.3664512920004,
+      "trial": "A05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:05.964043+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 160,
+      "server_elapsed_s": 424.84634845799883,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:06.443941+00:00"
+    },
+    {
+      "as_of_s": 424.84793158299726,
+      "count": 0,
+      "elapsed_s": 3.2600563329979195,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 424.84793158299726,
+      "seq": 161,
+      "server_elapsed_s": 424.84799999999814,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:06.445591+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 162,
+      "server_elapsed_s": 424.86300679199485,
+      "trial": "B03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:06.460604+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 163,
+      "server_elapsed_s": 427.56423166699824,
+      "trial": "A05",
+      "utc": "2026-10-15T16:53:09.161830+00:00"
+    },
+    {
+      "attempt_count": 2,
+      "elapsed_s": 13.393177165999077,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 424.3500871669967,
+        "count": 1,
+        "elapsed_s": 10.179035875000409,
+        "first_status": "drop",
+        "index": 2,
+        "record_ids": [
+          10
+        ],
+        "requested_s": 424.3500871669967
+      },
+      "seq": 164,
+      "server_elapsed_s": 427.56637979199877,
+      "stop_kind": "claim",
+      "trial": "A05",
+      "utc": "2026-10-15T16:53:09.163981+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 165,
+      "server_elapsed_s": 427.58151008300047,
+      "trial": "A05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:09.179105+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 166,
+      "server_elapsed_s": 429.1047718749978,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:10.702370+00:00"
+    },
+    {
+      "as_of_s": 429.106781167,
+      "count": 0,
+      "elapsed_s": 7.518905917000666,
+      "first_status": "pending",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 429.106781167,
+      "seq": 167,
+      "server_elapsed_s": 429.10685087499587,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:10.704448+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 168,
+      "server_elapsed_s": 429.1222637499959,
+      "trial": "B03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:10.719865+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 169,
+      "server_elapsed_s": 432.29133866699704,
+      "trial": "A06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:13.888940+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 170,
+      "server_elapsed_s": 432.7487981669983,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:14.346404+00:00"
+    },
+    {
+      "as_of_s": 432.75113558299927,
+      "count": 0,
+      "elapsed_s": 11.163260332999926,
+      "first_status": "pending",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 432.75113558299927,
+      "seq": 171,
+      "server_elapsed_s": 432.75122674999875,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:14.348833+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 172,
+      "server_elapsed_s": 432.76491754200106,
+      "trial": "B03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:14.362519+00:00"
+    },
+    {
+      "actual_delay_s": 16.008212332999392,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 16,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 437.59608758299873,
+      "seq": 173,
+      "server_elapsed_s": 437.59842099999514,
+      "submitted_s": 421.58787524999934,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:19.196033+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 174,
+      "server_elapsed_s": 438.3866937499988,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:19.984302+00:00"
+    },
+    {
+      "as_of_s": 438.38778541699867,
+      "count": 1,
+      "elapsed_s": 16.799910166999325,
+      "first_status": "commit",
+      "index": 4,
+      "kind": "observation",
+      "record_ids": [
+        11
+      ],
+      "requested_s": 438.38778541699867,
+      "seq": 175,
+      "server_elapsed_s": 438.3878246249951,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:19.985432+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 176,
+      "server_elapsed_s": 438.40003050000087,
+      "trial": "B03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:19.997640+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 177,
+      "server_elapsed_s": 439.1473025000014,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:20.744917+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "commit",
+      "seq": 178,
+      "server_elapsed_s": 439.1491185420018,
+      "submitted_s": 439.14729850000003,
+      "trial": "A06",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:53:20.746729+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 179,
+      "server_elapsed_s": 439.1640670419947,
+      "trial": "A06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:20.761677+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 180,
+      "server_elapsed_s": 442.5132640419979,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:24.110881+00:00"
+    },
+    {
+      "as_of_s": 434.5154109169962,
+      "count": 0,
+      "elapsed_s": 3.368112416996155,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 442.5154109169962,
+      "seq": 181,
+      "server_elapsed_s": 442.5154778329961,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:24.113096+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 182,
+      "server_elapsed_s": 442.5309447920008,
+      "trial": "A06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:24.128559+00:00"
+    },
+    {
+      "actual_delay_s": 4.0034353750015725,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 443.1507338750016,
+      "seq": 183,
+      "server_elapsed_s": 443.15178429200023,
+      "submitted_s": 439.14729850000003,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:24.749398+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 184,
+      "server_elapsed_s": 443.1868514579983,
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:24.784470+00:00"
+    },
+    {
+      "attempt_count": 1,
+      "elapsed_s": 21.59897374999855,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 438.38778541699867,
+        "count": 1,
+        "elapsed_s": 16.799910166999325,
+        "first_status": "commit",
+        "index": 4,
+        "record_ids": [
+          11
+        ],
+        "requested_s": 438.38778541699867
+      },
+      "seq": 185,
+      "server_elapsed_s": 443.18835462499555,
+      "stop_kind": "claim",
+      "trial": "B03",
+      "utc": "2026-10-15T16:53:24.785968+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 186,
+      "server_elapsed_s": 443.2003734999962,
+      "trial": "B03",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:24.797989+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 187,
+      "server_elapsed_s": 445.9752034580015,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:27.572825+00:00"
+    },
+    {
+      "as_of_s": 437.97689379200165,
+      "count": 0,
+      "elapsed_s": 6.829595292001613,
+      "first_status": "pending",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 445.97689379200165,
+      "seq": 188,
+      "server_elapsed_s": 445.9769395830008,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:27.574559+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 189,
+      "server_elapsed_s": 445.9879828330013,
+      "trial": "A06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:27.585601+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 190,
+      "server_elapsed_s": 448.9985295419974,
+      "trial": "B04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:30.596153+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 191,
+      "server_elapsed_s": 451.0053946670014,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:32.603023+00:00"
+    },
+    {
+      "as_of_s": 443.0078031250014,
+      "count": 0,
+      "elapsed_s": 11.86050462500134,
+      "first_status": "pending",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 451.0078031250014,
+      "seq": 192,
+      "server_elapsed_s": 451.0078957919977,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:32.605520+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 193,
+      "server_elapsed_s": 451.02173220799887,
+      "trial": "A06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:32.619357+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 194,
+      "server_elapsed_s": 453.44042287499906,
+      "trial": "B04",
+      "utc": "2026-10-15T16:53:35.038056+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "commit",
+      "seq": 195,
+      "server_elapsed_s": 453.44289187499817,
+      "submitted_s": 453.4404190419955,
+      "trial": "B04",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:53:35.040525+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 196,
+      "server_elapsed_s": 453.4563927919953,
+      "trial": "B04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:35.054021+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 197,
+      "server_elapsed_s": 456.2025822079959,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:37.800214+00:00"
+    },
+    {
+      "as_of_s": 448.20376895799563,
+      "count": 1,
+      "elapsed_s": 17.0564704579956,
+      "first_status": "commit",
+      "index": 4,
+      "kind": "observation",
+      "record_ids": [
+        12
+      ],
+      "requested_s": 456.20376895799563,
+      "seq": 198,
+      "server_elapsed_s": 456.20380224999826,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:37.801433+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 199,
+      "server_elapsed_s": 456.2168332919973,
+      "trial": "A06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:37.814467+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 200,
+      "server_elapsed_s": 457.2711384169961,
+      "trial": "B04",
+      "utc": "2026-10-15T16:53:38.868774+00:00"
+    },
+    {
+      "as_of_s": 449.2724607499986,
+      "count": 0,
+      "elapsed_s": 3.8320417080030893,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 457.2724607499986,
+      "seq": 201,
+      "server_elapsed_s": 457.2724982919972,
+      "trial": "B04",
+      "utc": "2026-10-15T16:53:38.870129+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 202,
+      "server_elapsed_s": 457.2868744579973,
+      "trial": "B04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:38.884508+00:00"
+    },
+    {
+      "actual_delay_s": 4.004732041001262,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 457.44515108299674,
+      "seq": 203,
+      "server_elapsed_s": 457.44643233299576,
+      "submitted_s": 453.4404190419955,
+      "trial": "B04",
+      "utc": "2026-10-15T16:53:39.044065+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 204,
+      "server_elapsed_s": 460.4152236250011,
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:42.012864+00:00"
+    },
+    {
+      "attempt_count": 1,
+      "elapsed_s": 21.267921708000358,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 448.20376895799563,
+        "count": 1,
+        "elapsed_s": 17.0564704579956,
+        "first_status": "commit",
+        "index": 4,
+        "record_ids": [
+          12
+        ],
+        "requested_s": 456.20376895799563
+      },
+      "seq": 205,
+      "server_elapsed_s": 460.41737974999705,
+      "stop_kind": "claim",
+      "trial": "A06",
+      "utc": "2026-10-15T16:53:42.015025+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 206,
+      "server_elapsed_s": 460.4318960829987,
+      "trial": "A06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:42.029534+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 207,
+      "server_elapsed_s": 460.91146966700035,
+      "trial": "B04",
+      "utc": "2026-10-15T16:53:42.509107+00:00"
+    },
+    {
+      "as_of_s": 452.9125433329973,
+      "count": 0,
+      "elapsed_s": 7.472124291001819,
+      "first_status": "pending",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 460.9125433329973,
+      "seq": 208,
+      "server_elapsed_s": 460.9125785419965,
+      "trial": "B04",
+      "utc": "2026-10-15T16:53:42.510215+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 209,
+      "server_elapsed_s": 460.92022170799464,
+      "trial": "B04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:42.517859+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 210,
+      "server_elapsed_s": 465.5256847499986,
+      "trial": "B04",
+      "utc": "2026-10-15T16:53:47.123332+00:00"
+    },
+    {
+      "as_of_s": 457.52738591699745,
+      "count": 1,
+      "elapsed_s": 12.086966875001963,
+      "first_status": "commit",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [
+        13
+      ],
+      "requested_s": 465.52738591699745,
+      "seq": 211,
+      "server_elapsed_s": 465.527445832995,
+      "trial": "B04",
+      "utc": "2026-10-15T16:53:47.125090+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 212,
+      "server_elapsed_s": 465.5389030829974,
+      "trial": "B04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:47.136549+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 213,
+      "server_elapsed_s": 468.80491249999614,
+      "trial": "B04",
+      "utc": "2026-10-15T16:53:50.402564+00:00"
+    },
+    {
+      "attempt_count": 1,
+      "elapsed_s": 15.364490291001857,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 457.52738591699745,
+        "count": 1,
+        "elapsed_s": 12.086966875001963,
+        "first_status": "commit",
+        "index": 3,
+        "record_ids": [
+          13
+        ],
+        "requested_s": 465.52738591699745
+      },
+      "seq": 214,
+      "server_elapsed_s": 468.80690279199916,
+      "stop_kind": "claim",
+      "trial": "B04",
+      "utc": "2026-10-15T16:53:50.404557+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 215,
+      "server_elapsed_s": 468.82117783300055,
+      "trial": "B04",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:50.418827+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 216,
+      "server_elapsed_s": 473.9576664999986,
+      "trial": "B05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:55.555324+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 217,
+      "server_elapsed_s": 477.9757679579998,
+      "trial": "B05",
+      "utc": "2026-10-15T16:53:59.573430+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "drop",
+      "seq": 218,
+      "server_elapsed_s": 477.9771017079984,
+      "submitted_s": 477.9757653330016,
+      "trial": "B05",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:53:59.574763+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 219,
+      "server_elapsed_s": 477.99096191699937,
+      "trial": "B05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:53:59.588623+00:00"
+    },
+    {
+      "actual_delay_s": 4.007170749995566,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "drop",
+      "resolved_s": 481.9829360829972,
+      "seq": 220,
+      "server_elapsed_s": 481.9829454579958,
+      "submitted_s": 477.9757653330016,
+      "trial": "B05",
+      "utc": "2026-10-15T16:54:03.580615+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 221,
+      "server_elapsed_s": 511.33158866699523,
+      "trial": "A07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:54:32.929294+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 222,
+      "server_elapsed_s": 517.4359374999985,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:39.033649+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 16,
+      "planned_outcome": "commit",
+      "seq": 223,
+      "server_elapsed_s": 517.4371836669961,
+      "submitted_s": 517.4359362920004,
+      "trial": "A07",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:54:39.034893+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 224,
+      "server_elapsed_s": 517.4461911249964,
+      "trial": "A07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:54:39.043903+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 225,
+      "server_elapsed_s": 520.5732007080005,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:42.170917+00:00"
+    },
+    {
+      "as_of_s": 520.5745545419995,
+      "count": 0,
+      "elapsed_s": 3.1386182499991264,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 520.5745545419995,
+      "seq": 226,
+      "server_elapsed_s": 520.5745895829969,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:42.172304+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 227,
+      "server_elapsed_s": 520.5857899580005,
+      "trial": "A07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:54:42.183505+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 228,
+      "server_elapsed_s": 524.125588457995,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:45.723310+00:00"
+    },
+    {
+      "as_of_s": 524.1270976250016,
+      "count": 0,
+      "elapsed_s": 6.691161333001219,
+      "first_status": "pending",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 524.1270976250016,
+      "seq": 229,
+      "server_elapsed_s": 524.1271477080008,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:45.724868+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 230,
+      "server_elapsed_s": 524.1383988749949,
+      "trial": "A07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:54:45.736120+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 231,
+      "server_elapsed_s": 527.3698206670015,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:48.967545+00:00"
+    },
+    {
+      "as_of_s": 527.3710398749972,
+      "count": 0,
+      "elapsed_s": 9.935103582996817,
+      "first_status": "pending",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 527.3710398749972,
+      "seq": 232,
+      "server_elapsed_s": 527.371072916998,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:48.968796+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 233,
+      "server_elapsed_s": 527.3810220419982,
+      "trial": "A07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:54:48.978748+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 234,
+      "server_elapsed_s": 530.2060592499984,
+      "trial": "B05",
+      "utc": "2026-10-15T16:54:51.803793+00:00"
+    },
+    {
+      "as_of_s": 530.2081023329956,
+      "count": 0,
+      "elapsed_s": 52.232336999994004,
+      "first_status": "drop",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 530.2081023329956,
+      "seq": 235,
+      "server_elapsed_s": 530.2082427079949,
+      "trial": "B05",
+      "utc": "2026-10-15T16:54:51.805977+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 236,
+      "server_elapsed_s": 530.2223279579994,
+      "trial": "B05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:54:51.820057+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 237,
+      "server_elapsed_s": 530.7980218329976,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:52.395756+00:00"
+    },
+    {
+      "as_of_s": 530.8000405419953,
+      "count": 0,
+      "elapsed_s": 13.364104249994853,
+      "first_status": "pending",
+      "index": 4,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 530.8000405419953,
+      "seq": 238,
+      "server_elapsed_s": 530.8001208329952,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:52.397855+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 239,
+      "server_elapsed_s": 530.812584416999,
+      "trial": "A07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:54:52.410314+00:00"
+    },
+    {
+      "actual_delay_s": 16.007060124997224,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 16,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 533.4429964169976,
+      "seq": 240,
+      "server_elapsed_s": 533.4441464170013,
+      "submitted_s": 517.4359362920004,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:55.041879+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 241,
+      "server_elapsed_s": 534.680486792,
+      "trial": "B05",
+      "utc": "2026-10-15T16:54:56.278224+00:00"
+    },
+    {
+      "attempt": 2,
+      "kind": "submit",
+      "planned_delay_s": 2,
+      "planned_outcome": "commit",
+      "seq": 242,
+      "server_elapsed_s": 534.6824259579953,
+      "submitted_s": 534.680483832999,
+      "trial": "B05",
+      "trial_elapsed_s": 56.7047184999974,
+      "utc": "2026-10-15T16:54:56.280164+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 243,
+      "server_elapsed_s": 534.6977655419978,
+      "trial": "B05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:54:56.295500+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 244,
+      "server_elapsed_s": 535.1441136669964,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:56.741850+00:00"
+    },
+    {
+      "as_of_s": 535.1458467499979,
+      "count": 1,
+      "elapsed_s": 17.709910457997466,
+      "first_status": "commit",
+      "index": 5,
+      "kind": "observation",
+      "record_ids": [
+        14
+      ],
+      "requested_s": 535.1458467499979,
+      "seq": 245,
+      "server_elapsed_s": 535.145916124995,
+      "trial": "A07",
+      "utc": "2026-10-15T16:54:56.743652+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 246,
+      "server_elapsed_s": 535.1628463749948,
+      "trial": "A07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:54:56.760587+00:00"
+    },
+    {
+      "actual_delay_s": 2.0085019170001033,
+      "after_stop": false,
+      "attempt": 2,
+      "configured_delay_s": 2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 536.6889857499991,
+      "seq": 247,
+      "server_elapsed_s": 536.6914070829953,
+      "submitted_s": 534.680483832999,
+      "trial": "B05",
+      "utc": "2026-10-15T16:54:58.289147+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 248,
+      "server_elapsed_s": 542.9235290829965,
+      "trial": "A07",
+      "utc": "2026-10-15T16:55:04.521276+00:00"
+    },
+    {
+      "attempt_count": 1,
+      "elapsed_s": 25.487590665994503,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 535.1458467499979,
+        "count": 1,
+        "elapsed_s": 17.709910457997466,
+        "first_status": "commit",
+        "index": 5,
+        "record_ids": [
+          14
+        ],
+        "requested_s": 535.1458467499979
+      },
+      "seq": 249,
+      "server_elapsed_s": 542.9257138749963,
+      "stop_kind": "claim",
+      "trial": "A07",
+      "utc": "2026-10-15T16:55:04.523469+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 250,
+      "server_elapsed_s": 542.9431492919975,
+      "trial": "A07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:04.540894+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 251,
+      "server_elapsed_s": 542.9445832499987,
+      "trial": "B05",
+      "utc": "2026-10-15T16:55:04.542327+00:00"
+    },
+    {
+      "as_of_s": 542.9456871669972,
+      "count": 1,
+      "elapsed_s": 64.96992183399561,
+      "first_status": "drop",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [
+        15
+      ],
+      "requested_s": 542.9456871669972,
+      "seq": 252,
+      "server_elapsed_s": 542.9457669999974,
+      "trial": "B05",
+      "utc": "2026-10-15T16:55:04.543510+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 253,
+      "server_elapsed_s": 542.9911029579962,
+      "trial": "B05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:04.588849+00:00"
+    },
+    {
+      "action": "unresolved",
+      "kind": "button",
+      "seq": 254,
+      "server_elapsed_s": 546.7125784169984,
+      "trial": "B05",
+      "utc": "2026-10-15T16:55:08.310332+00:00"
+    },
+    {
+      "attempt_count": 2,
+      "elapsed_s": 68.73681012499583,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 542.9456871669972,
+        "count": 1,
+        "elapsed_s": 64.96992183399561,
+        "first_status": "drop",
+        "index": 2,
+        "record_ids": [
+          15
+        ],
+        "requested_s": 542.9456871669972
+      },
+      "seq": 255,
+      "server_elapsed_s": 546.7144968329958,
+      "stop_kind": "unresolved",
+      "trial": "B05",
+      "utc": "2026-10-15T16:55:08.312250+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 256,
+      "server_elapsed_s": 546.7303444579957,
+      "trial": "B05",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:08.328094+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 257,
+      "server_elapsed_s": 547.4171141249972,
+      "trial": "A08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:09.014866+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 258,
+      "server_elapsed_s": 550.9577664579992,
+      "trial": "A08",
+      "utc": "2026-10-15T16:55:12.555526+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "drop",
+      "seq": 259,
+      "server_elapsed_s": 550.9595939579958,
+      "submitted_s": 550.9577635419992,
+      "trial": "A08",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:55:12.557352+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 260,
+      "server_elapsed_s": 550.9721148749959,
+      "trial": "A08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:12.569870+00:00"
+    },
+    {
+      "actual_delay_s": 4.004339624996646,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "drop",
+      "resolved_s": 554.9621031669958,
+      "seq": 261,
+      "server_elapsed_s": 554.9621102919991,
+      "submitted_s": 550.9577635419992,
+      "trial": "A08",
+      "utc": "2026-10-15T16:55:16.559872+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 262,
+      "server_elapsed_s": 556.3463100829977,
+      "trial": "B06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:17.944073+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 263,
+      "server_elapsed_s": 557.7748301669999,
+      "trial": "A08",
+      "utc": "2026-10-15T16:55:19.372595+00:00"
+    },
+    {
+      "as_of_s": 557.7763222499998,
+      "count": 0,
+      "elapsed_s": 6.818558708000637,
+      "first_status": "drop",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 557.7763222499998,
+      "seq": 264,
+      "server_elapsed_s": 557.7763712919987,
+      "trial": "A08",
+      "utc": "2026-10-15T16:55:19.374135+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 265,
+      "server_elapsed_s": 557.7863991669947,
+      "trial": "A08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:19.384164+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 266,
+      "server_elapsed_s": 560.541333000001,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:22.139100+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 16,
+      "planned_outcome": "commit",
+      "seq": 267,
+      "server_elapsed_s": 560.5425747920017,
+      "submitted_s": 560.5413320419975,
+      "trial": "B06",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:55:22.140341+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 268,
+      "server_elapsed_s": 560.5501270829991,
+      "trial": "B06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:22.147893+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 269,
+      "server_elapsed_s": 561.3881094579992,
+      "trial": "A08",
+      "utc": "2026-10-15T16:55:22.985881+00:00"
+    },
+    {
+      "attempt": 2,
+      "kind": "submit",
+      "planned_delay_s": 2,
+      "planned_outcome": "commit",
+      "seq": 270,
+      "server_elapsed_s": 561.3897012079979,
+      "submitted_s": 561.3881075829995,
+      "trial": "A08",
+      "trial_elapsed_s": 10.430344041000353,
+      "utc": "2026-10-15T16:55:22.987470+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 271,
+      "server_elapsed_s": 561.4042651669952,
+      "trial": "A08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:23.002035+00:00"
+    },
+    {
+      "actual_delay_s": 2.007726083997113,
+      "after_stop": false,
+      "attempt": 2,
+      "configured_delay_s": 2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 563.3958336669966,
+      "seq": 272,
+      "server_elapsed_s": 563.3980062499977,
+      "submitted_s": 561.3881075829995,
+      "trial": "A08",
+      "utc": "2026-10-15T16:55:24.995778+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 273,
+      "server_elapsed_s": 564.474060499997,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:26.071837+00:00"
+    },
+    {
+      "as_of_s": 564.4764072499966,
+      "count": 0,
+      "elapsed_s": 3.9350752079990343,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 564.4764072499966,
+      "seq": 274,
+      "server_elapsed_s": 564.4765254999948,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:26.074304+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 275,
+      "server_elapsed_s": 564.490760749999,
+      "trial": "B06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:26.088534+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 276,
+      "server_elapsed_s": 565.0376238749959,
+      "trial": "A08",
+      "utc": "2026-10-15T16:55:26.635401+00:00"
+    },
+    {
+      "as_of_s": 565.0392728329971,
+      "count": 1,
+      "elapsed_s": 14.081509290997928,
+      "first_status": "drop",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [
+        16
+      ],
+      "requested_s": 565.0392728329971,
+      "seq": 277,
+      "server_elapsed_s": 565.03934725,
+      "trial": "A08",
+      "utc": "2026-10-15T16:55:26.637124+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 278,
+      "server_elapsed_s": 565.0540252499995,
+      "trial": "A08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:26.651804+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 279,
+      "server_elapsed_s": 567.9967294999951,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:29.594507+00:00"
+    },
+    {
+      "as_of_s": 567.9978582499971,
+      "count": 0,
+      "elapsed_s": 7.456526207999559,
+      "first_status": "pending",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 567.9978582499971,
+      "seq": 280,
+      "server_elapsed_s": 567.997889541999,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:29.595665+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 281,
+      "server_elapsed_s": 568.005948166996,
+      "trial": "B06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:29.603726+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 282,
+      "server_elapsed_s": 568.7466665829998,
+      "trial": "A08",
+      "utc": "2026-10-15T16:55:30.344457+00:00"
+    },
+    {
+      "attempt_count": 2,
+      "elapsed_s": 17.78889433299628,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 565.0392728329971,
+        "count": 1,
+        "elapsed_s": 14.081509290997928,
+        "first_status": "drop",
+        "index": 2,
+        "record_ids": [
+          16
+        ],
+        "requested_s": 565.0392728329971
+      },
+      "seq": 283,
+      "server_elapsed_s": 568.7491425830012,
+      "stop_kind": "claim",
+      "trial": "A08",
+      "utc": "2026-10-15T16:55:30.346925+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 284,
+      "server_elapsed_s": 568.7633280829978,
+      "trial": "A08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:30.361107+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 285,
+      "server_elapsed_s": 571.7203633329991,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:33.318146+00:00"
+    },
+    {
+      "as_of_s": 571.7218485420017,
+      "count": 0,
+      "elapsed_s": 11.18051650000416,
+      "first_status": "pending",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 571.7218485420017,
+      "seq": 286,
+      "server_elapsed_s": 571.721889249995,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:33.319671+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 287,
+      "server_elapsed_s": 571.7370374579987,
+      "trial": "B06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:33.334820+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 288,
+      "server_elapsed_s": 575.2287221669976,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:36.826512+00:00"
+    },
+    {
+      "as_of_s": 575.2305766669961,
+      "count": 0,
+      "elapsed_s": 14.689244624998537,
+      "first_status": "pending",
+      "index": 4,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 575.2305766669961,
+      "seq": 289,
+      "server_elapsed_s": 575.2306252499984,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:36.828412+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 290,
+      "server_elapsed_s": 575.2425637499982,
+      "trial": "B06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:36.840351+00:00"
+    },
+    {
+      "actual_delay_s": 16.007080499999574,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 16,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 576.5484125419971,
+      "seq": 291,
+      "server_elapsed_s": 576.549324874999,
+      "submitted_s": 560.5413320419975,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:38.147113+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 292,
+      "server_elapsed_s": 578.8162404999966,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:40.414032+00:00"
+    },
+    {
+      "as_of_s": 578.8183352499982,
+      "count": 1,
+      "elapsed_s": 18.27700320800068,
+      "first_status": "commit",
+      "index": 5,
+      "kind": "observation",
+      "record_ids": [
+        17
+      ],
+      "requested_s": 578.8183352499982,
+      "seq": 293,
+      "server_elapsed_s": 578.8183820830018,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:40.416174+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 294,
+      "server_elapsed_s": 578.8276587079963,
+      "trial": "B06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:40.425451+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 295,
+      "server_elapsed_s": 583.8133239579984,
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:45.411125+00:00"
+    },
+    {
+      "attempt_count": 1,
+      "elapsed_s": 23.27198916600173,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 578.8183352499982,
+        "count": 1,
+        "elapsed_s": 18.27700320800068,
+        "first_status": "commit",
+        "index": 5,
+        "record_ids": [
+          17
+        ],
+        "requested_s": 578.8183352499982
+      },
+      "seq": 296,
+      "server_elapsed_s": 583.8152927080009,
+      "stop_kind": "claim",
+      "trial": "B06",
+      "utc": "2026-10-15T16:55:45.413093+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 297,
+      "server_elapsed_s": 583.8313878749977,
+      "trial": "B06",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:45.429186+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 298,
+      "server_elapsed_s": 589.1907254999969,
+      "trial": "B07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:50.788532+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 299,
+      "server_elapsed_s": 594.8500205000018,
+      "trial": "B07",
+      "utc": "2026-10-15T16:55:56.447871+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "commit",
+      "seq": 300,
+      "server_elapsed_s": 594.8514958329979,
+      "submitted_s": 594.8500182499993,
+      "trial": "B07",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:55:56.449307+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 301,
+      "server_elapsed_s": 594.8633914579987,
+      "trial": "B07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:55:56.461205+00:00"
+    },
+    {
+      "actual_delay_s": 4.007371082996542,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 598.8573893329958,
+      "seq": 302,
+      "server_elapsed_s": 598.859312499997,
+      "submitted_s": 594.8500182499993,
+      "trial": "B07",
+      "utc": "2026-10-15T16:56:00.457131+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 303,
+      "server_elapsed_s": 620.5643272499947,
+      "trial": "A09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:22.162173+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 304,
+      "server_elapsed_s": 624.7873797499997,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:26.385234+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "commit",
+      "seq": 305,
+      "server_elapsed_s": 624.7890868749964,
+      "submitted_s": 624.7873771250015,
+      "trial": "A09",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:56:26.386937+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 306,
+      "server_elapsed_s": 624.8047653749964,
+      "trial": "A09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:26.402616+00:00"
+    },
+    {
+      "actual_delay_s": 4.007615082999109,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 628.7949922080006,
+      "seq": 307,
+      "server_elapsed_s": 628.796154124997,
+      "submitted_s": 624.7873771250015,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:30.394013+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 308,
+      "server_elapsed_s": 628.9405767079952,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:30.538433+00:00"
+    },
+    {
+      "as_of_s": 620.9417005829964,
+      "count": 0,
+      "elapsed_s": 4.154323457994906,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 628.9417005829964,
+      "seq": 309,
+      "server_elapsed_s": 628.9417375420016,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:30.539593+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 310,
+      "server_elapsed_s": 628.9539757079983,
+      "trial": "A09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:30.551833+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 311,
+      "server_elapsed_s": 632.4477348329965,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:34.045601+00:00"
+    },
+    {
+      "attempt": 2,
+      "kind": "submit",
+      "planned_delay_s": 2,
+      "planned_outcome": "commit",
+      "seq": 312,
+      "server_elapsed_s": 632.4519314999998,
+      "submitted_s": 632.447731166998,
+      "trial": "A09",
+      "trial_elapsed_s": 7.66035404199647,
+      "utc": "2026-10-15T16:56:34.049803+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 313,
+      "server_elapsed_s": 632.4647650420011,
+      "trial": "A09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:34.062628+00:00"
+    },
+    {
+      "actual_delay_s": 2.0108755830005975,
+      "after_stop": false,
+      "attempt": 2,
+      "configured_delay_s": 2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 634.4586067499986,
+      "seq": 314,
+      "server_elapsed_s": 634.4594893749963,
+      "submitted_s": 632.447731166998,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:36.057352+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 315,
+      "server_elapsed_s": 635.6246222920017,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:37.222488+00:00"
+    },
+    {
+      "as_of_s": 627.6259767079973,
+      "count": 0,
+      "elapsed_s": 10.838599582995812,
+      "first_status": "pending",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 635.6259767079973,
+      "seq": 316,
+      "server_elapsed_s": 635.6260119579965,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:37.223876+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 317,
+      "server_elapsed_s": 635.6385227919964,
+      "trial": "A09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:37.236391+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 318,
+      "server_elapsed_s": 638.8711502079968,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:40.469020+00:00"
+    },
+    {
+      "as_of_s": 630.8724198749987,
+      "count": 1,
+      "elapsed_s": 14.085042749997228,
+      "first_status": "commit",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [
+        19
+      ],
+      "requested_s": 638.8724198749987,
+      "seq": 319,
+      "server_elapsed_s": 638.8724622079972,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:40.470331+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 320,
+      "server_elapsed_s": 638.8809298749984,
+      "trial": "A09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:40.478800+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 321,
+      "server_elapsed_s": 643.0207090420008,
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:44.618588+00:00"
+    },
+    {
+      "attempt_count": 2,
+      "elapsed_s": 18.23332904199924,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 630.8724198749987,
+        "count": 1,
+        "elapsed_s": 14.085042749997228,
+        "first_status": "commit",
+        "index": 3,
+        "record_ids": [
+          19
+        ],
+        "requested_s": 638.8724198749987
+      },
+      "seq": 322,
+      "server_elapsed_s": 643.0233516669978,
+      "stop_kind": "claim",
+      "trial": "A09",
+      "utc": "2026-10-15T16:56:44.621232+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 323,
+      "server_elapsed_s": 643.038991166999,
+      "trial": "A09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:44.636868+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 324,
+      "server_elapsed_s": 644.1888221670015,
+      "trial": "B07",
+      "utc": "2026-10-15T16:56:45.786699+00:00"
+    },
+    {
+      "as_of_s": 636.1900558749985,
+      "count": 1,
+      "elapsed_s": 49.34003762499924,
+      "first_status": "commit",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [
+        18
+      ],
+      "requested_s": 644.1900558749985,
+      "seq": 325,
+      "server_elapsed_s": 644.1900972500007,
+      "trial": "B07",
+      "utc": "2026-10-15T16:56:45.787973+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 326,
+      "server_elapsed_s": 644.1988143330018,
+      "trial": "B07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:45.796692+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 327,
+      "server_elapsed_s": 647.3380371669991,
+      "trial": "B07",
+      "utc": "2026-10-15T16:56:48.935918+00:00"
+    },
+    {
+      "attempt_count": 1,
+      "elapsed_s": 52.48801716700109,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 636.1900558749985,
+        "count": 1,
+        "elapsed_s": 49.34003762499924,
+        "first_status": "commit",
+        "index": 1,
+        "record_ids": [
+          18
+        ],
+        "requested_s": 644.1900558749985
+      },
+      "seq": 328,
+      "server_elapsed_s": 647.3399984169955,
+      "stop_kind": "claim",
+      "trial": "B07",
+      "utc": "2026-10-15T16:56:48.937881+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 329,
+      "server_elapsed_s": 647.3539386670018,
+      "trial": "B07",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:48.951820+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 330,
+      "server_elapsed_s": 652.8928574999954,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:54.490747+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 331,
+      "server_elapsed_s": 656.5636679999952,
+      "trial": "B08",
+      "utc": "2026-10-15T16:56:58.161565+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 4,
+      "planned_outcome": "drop",
+      "seq": 332,
+      "server_elapsed_s": 656.5666467920018,
+      "submitted_s": 656.5636653749971,
+      "trial": "B08",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:56:58.164546+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 333,
+      "server_elapsed_s": 656.5887016249981,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:56:58.186595+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 334,
+      "server_elapsed_s": 660.0462587500006,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:01.644161+00:00"
+    },
+    {
+      "as_of_s": 660.0483045419969,
+      "count": 0,
+      "elapsed_s": 3.484639166999841,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 660.0483045419969,
+      "seq": 335,
+      "server_elapsed_s": 660.0483830000012,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:01.646285+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 336,
+      "server_elapsed_s": 660.064660582997,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:57:01.662559+00:00"
+    },
+    {
+      "actual_delay_s": 4.01024241700361,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 4,
+      "kind": "resolution",
+      "outcome": "drop",
+      "resolved_s": 660.5739077920007,
+      "seq": 337,
+      "server_elapsed_s": 660.5739168750006,
+      "submitted_s": 656.5636653749971,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:02.171817+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 338,
+      "server_elapsed_s": 664.0947649169975,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:05.692669+00:00"
+    },
+    {
+      "as_of_s": 664.0961530419954,
+      "count": 0,
+      "elapsed_s": 7.53248766699835,
+      "first_status": "drop",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 664.0961530419954,
+      "seq": 339,
+      "server_elapsed_s": 664.0961823749967,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:05.694083+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 340,
+      "server_elapsed_s": 664.1097107499954,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:57:05.707614+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 341,
+      "server_elapsed_s": 667.6795597079981,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:09.277471+00:00"
+    },
+    {
+      "as_of_s": 667.6815311249957,
+      "count": 0,
+      "elapsed_s": 11.1178657499986,
+      "first_status": "drop",
+      "index": 3,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 667.6815311249957,
+      "seq": 342,
+      "server_elapsed_s": 667.6815859579947,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:09.279495+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 343,
+      "server_elapsed_s": 667.6973312499977,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:57:09.295239+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 344,
+      "server_elapsed_s": 671.3868207499982,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:12.984734+00:00"
+    },
+    {
+      "as_of_s": 671.3883552080006,
+      "count": 0,
+      "elapsed_s": 14.824689833003504,
+      "first_status": "drop",
+      "index": 4,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 671.3883552080006,
+      "seq": 345,
+      "server_elapsed_s": 671.3884054169976,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:12.986317+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 346,
+      "server_elapsed_s": 671.4038125000006,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:57:13.001725+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 347,
+      "server_elapsed_s": 677.3805467919956,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:18.978471+00:00"
+    },
+    {
+      "as_of_s": 677.3830214170011,
+      "count": 0,
+      "elapsed_s": 20.819356042004074,
+      "first_status": "drop",
+      "index": 5,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 677.3830214170011,
+      "seq": 348,
+      "server_elapsed_s": 677.3831530829993,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:18.981083+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 349,
+      "server_elapsed_s": 677.3974314579973,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:57:18.995352+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 350,
+      "server_elapsed_s": 682.7173469580011,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:24.315274+00:00"
+    },
+    {
+      "as_of_s": 682.7186485419952,
+      "count": 0,
+      "elapsed_s": 26.154983166998136,
+      "first_status": "drop",
+      "index": 6,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 682.7186485419952,
+      "seq": 351,
+      "server_elapsed_s": 682.718683041996,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:24.316608+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 352,
+      "server_elapsed_s": 682.7295079999967,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:57:24.327436+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 353,
+      "server_elapsed_s": 686.109201291998,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:27.707132+00:00"
+    },
+    {
+      "attempt": 2,
+      "kind": "submit",
+      "planned_delay_s": 2,
+      "planned_outcome": "commit",
+      "seq": 354,
+      "server_elapsed_s": 686.1105740829953,
+      "submitted_s": 686.109199999999,
+      "trial": "B08",
+      "trial_elapsed_s": 29.545534625001892,
+      "utc": "2026-10-15T16:57:27.708505+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 355,
+      "server_elapsed_s": 686.1231301669977,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:57:27.721062+00:00"
+    },
+    {
+      "actual_delay_s": 2.0063044170019566,
+      "after_stop": false,
+      "attempt": 2,
+      "configured_delay_s": 2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 688.1155044170009,
+      "seq": 356,
+      "server_elapsed_s": 688.1164051250016,
+      "submitted_s": 686.109199999999,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:29.714338+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 357,
+      "server_elapsed_s": 690.018690207995,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:31.616631+00:00"
+    },
+    {
+      "as_of_s": 690.0208902500017,
+      "count": 1,
+      "elapsed_s": 33.45722487500461,
+      "first_status": "drop",
+      "index": 7,
+      "kind": "observation",
+      "record_ids": [
+        21
+      ],
+      "requested_s": 690.0208902500017,
+      "seq": 358,
+      "server_elapsed_s": 690.0209836669965,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:31.618927+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 359,
+      "server_elapsed_s": 690.0340402500005,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:57:31.631976+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 360,
+      "server_elapsed_s": 694.1463305419966,
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:35.744276+00:00"
+    },
+    {
+      "attempt_count": 2,
+      "elapsed_s": 37.58266212500166,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 690.0208902500017,
+        "count": 1,
+        "elapsed_s": 33.45722487500461,
+        "first_status": "drop",
+        "index": 7,
+        "record_ids": [
+          21
+        ],
+        "requested_s": 690.0208902500017
+      },
+      "seq": 361,
+      "server_elapsed_s": 694.148194292,
+      "stop_kind": "claim",
+      "trial": "B08",
+      "utc": "2026-10-15T16:57:35.746137+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 362,
+      "server_elapsed_s": 694.1625708329957,
+      "trial": "B08",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:57:35.760513+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 363,
+      "server_elapsed_s": 701.497583999997,
+      "trial": "B09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:57:43.095536+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 364,
+      "server_elapsed_s": 754.0029618330009,
+      "trial": "B09",
+      "utc": "2026-10-15T16:58:35.602860+00:00"
+    },
+    {
+      "attempt": 1,
+      "kind": "submit",
+      "planned_delay_s": 16,
+      "planned_outcome": "commit",
+      "seq": 365,
+      "server_elapsed_s": 754.0045985420002,
+      "submitted_s": 754.0029601669958,
+      "trial": "B09",
+      "trial_elapsed_s": 0.0,
+      "utc": "2026-10-15T16:58:35.604495+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 366,
+      "server_elapsed_s": 754.0176962920013,
+      "trial": "B09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:58:35.617594+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 367,
+      "server_elapsed_s": 757.2527924999958,
+      "trial": "B09",
+      "utc": "2026-10-15T16:58:38.852719+00:00"
+    },
+    {
+      "as_of_s": 757.255553832998,
+      "count": 0,
+      "elapsed_s": 3.2525936660022126,
+      "first_status": "pending",
+      "index": 1,
+      "kind": "observation",
+      "record_ids": [],
+      "requested_s": 757.255553832998,
+      "seq": 368,
+      "server_elapsed_s": 757.2556009999971,
+      "trial": "B09",
+      "utc": "2026-10-15T16:58:38.855526+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 369,
+      "server_elapsed_s": 757.2699850829958,
+      "trial": "B09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:58:38.869910+00:00"
+    },
+    {
+      "action": "submit",
+      "kind": "button",
+      "seq": 370,
+      "server_elapsed_s": 761.3946664169998,
+      "trial": "B09",
+      "utc": "2026-10-15T16:58:42.994626+00:00"
+    },
+    {
+      "attempt": 2,
+      "kind": "submit",
+      "planned_delay_s": 2,
+      "planned_outcome": "commit",
+      "seq": 371,
+      "server_elapsed_s": 761.396436791998,
+      "submitted_s": 761.3946618749978,
+      "trial": "B09",
+      "trial_elapsed_s": 7.391701708002074,
+      "utc": "2026-10-15T16:58:42.996397+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 372,
+      "server_elapsed_s": 761.4121546669994,
+      "trial": "B09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:58:43.012111+00:00"
+    },
+    {
+      "actual_delay_s": 2.008269666999695,
+      "after_stop": false,
+      "attempt": 2,
+      "configured_delay_s": 2,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 763.4029315419975,
+      "seq": 373,
+      "server_elapsed_s": 763.4046180829973,
+      "submitted_s": 761.3946618749978,
+      "trial": "B09",
+      "utc": "2026-10-15T16:58:45.004587+00:00"
+    },
+    {
+      "action": "observe",
+      "kind": "button",
+      "seq": 374,
+      "server_elapsed_s": 764.8457557919974,
+      "trial": "B09",
+      "utc": "2026-10-15T16:58:46.445733+00:00"
+    },
+    {
+      "as_of_s": 764.8470979999984,
+      "count": 1,
+      "elapsed_s": 10.844137833002605,
+      "first_status": "pending",
+      "index": 2,
+      "kind": "observation",
+      "record_ids": [
+        22
+      ],
+      "requested_s": 764.8470979999984,
+      "seq": 375,
+      "server_elapsed_s": 764.8471429169949,
+      "trial": "B09",
+      "utc": "2026-10-15T16:58:46.447121+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 376,
+      "server_elapsed_s": 764.856573416997,
+      "trial": "B09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:58:46.456551+00:00"
+    },
+    {
+      "actual_delay_s": 16.007518208003603,
+      "after_stop": false,
+      "attempt": 1,
+      "configured_delay_s": 16,
+      "kind": "resolution",
+      "outcome": "commit",
+      "resolved_s": 770.0104783749994,
+      "seq": 377,
+      "server_elapsed_s": 770.0122047080004,
+      "submitted_s": 754.0029601669958,
+      "trial": "B09",
+      "utc": "2026-10-15T16:58:51.612209+00:00"
+    },
+    {
+      "action": "claim",
+      "kind": "button",
+      "seq": 378,
+      "server_elapsed_s": 771.6376874580019,
+      "trial": "B09",
+      "utc": "2026-10-15T16:58:53.237701+00:00"
+    },
+    {
+      "attempt_count": 2,
+      "elapsed_s": 17.63472404100321,
+      "kind": "stop",
+      "last_observation": {
+        "as_of_s": 764.8470979999984,
+        "count": 1,
+        "elapsed_s": 10.844137833002605,
+        "first_status": "pending",
+        "index": 2,
+        "record_ids": [
+          22
+        ],
+        "requested_s": 764.8470979999984
+      },
+      "seq": 379,
+      "server_elapsed_s": 771.6394904999979,
+      "stop_kind": "claim",
+      "trial": "B09",
+      "utc": "2026-10-15T16:58:53.239500+00:00"
+    },
+    {
+      "kind": "page_view",
+      "seq": 380,
+      "server_elapsed_s": 771.6538254580009,
+      "trial": "B09",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "utc": "2026-10-15T16:58:53.253836+00:00"
+    }
+  ],
+  "records": [
+    {
+      "id": 1,
+      "trial": "W01",
+      "attempt": 1,
+      "elapsed_s": 13.557462874996418,
+      "utc": "2026-10-15T16:46:15.154532+00:00"
+    },
+    {
+      "id": 2,
+      "trial": "A01",
+      "attempt": 2,
+      "elapsed_s": 170.77198033299646,
+      "utc": "2026-10-15T16:48:52.369248+00:00"
+    },
+    {
+      "id": 3,
+      "trial": "A01",
+      "attempt": 1,
+      "elapsed_s": 177.68255716699787,
+      "utc": "2026-10-15T16:48:59.279840+00:00"
+    },
+    {
+      "id": 4,
+      "trial": "A02",
+      "attempt": 2,
+      "elapsed_s": 239.26785074999498,
+      "utc": "2026-10-15T16:50:00.865210+00:00"
+    },
+    {
+      "id": 5,
+      "trial": "B01",
+      "attempt": 1,
+      "elapsed_s": 303.65513016699697,
+      "utc": "2026-10-15T16:51:05.252572+00:00"
+    },
+    {
+      "id": 6,
+      "trial": "B01",
+      "attempt": 2,
+      "elapsed_s": 310.0068729170016,
+      "utc": "2026-10-15T16:51:11.604326+00:00"
+    },
+    {
+      "id": 7,
+      "trial": "A03",
+      "attempt": 1,
+      "elapsed_s": 311.2261622079968,
+      "utc": "2026-10-15T16:51:12.823613+00:00"
+    },
+    {
+      "id": 8,
+      "trial": "A04",
+      "attempt": 1,
+      "elapsed_s": 348.1869181669972,
+      "utc": "2026-10-15T16:51:49.784411+00:00"
+    },
+    {
+      "id": 9,
+      "trial": "B02",
+      "attempt": 2,
+      "elapsed_s": 359.10173591700004,
+      "utc": "2026-10-15T16:52:00.699262+00:00"
+    },
+    {
+      "id": 10,
+      "trial": "A05",
+      "attempt": 2,
+      "elapsed_s": 423.09830525000143,
+      "utc": "2026-10-15T16:53:04.695904+00:00"
+    },
+    {
+      "id": 11,
+      "trial": "B03",
+      "attempt": 1,
+      "elapsed_s": 437.59608758299873,
+      "utc": "2026-10-15T16:53:19.193707+00:00"
+    },
+    {
+      "id": 12,
+      "trial": "A06",
+      "attempt": 1,
+      "elapsed_s": 443.1507338750016,
+      "utc": "2026-10-15T16:53:24.748357+00:00"
+    },
+    {
+      "id": 13,
+      "trial": "B04",
+      "attempt": 1,
+      "elapsed_s": 457.44515108299674,
+      "utc": "2026-10-15T16:53:39.042788+00:00"
+    },
+    {
+      "id": 14,
+      "trial": "A07",
+      "attempt": 1,
+      "elapsed_s": 533.4429964169976,
+      "utc": "2026-10-15T16:54:55.040738+00:00"
+    },
+    {
+      "id": 15,
+      "trial": "B05",
+      "attempt": 2,
+      "elapsed_s": 536.6889857499991,
+      "utc": "2026-10-15T16:54:58.286734+00:00"
+    },
+    {
+      "id": 16,
+      "trial": "A08",
+      "attempt": 2,
+      "elapsed_s": 563.3958336669966,
+      "utc": "2026-10-15T16:55:24.993617+00:00"
+    },
+    {
+      "id": 17,
+      "trial": "B06",
+      "attempt": 1,
+      "elapsed_s": 576.5484125419971,
+      "utc": "2026-10-15T16:55:38.146208+00:00"
+    },
+    {
+      "id": 18,
+      "trial": "B07",
+      "attempt": 1,
+      "elapsed_s": 598.8573893329958,
+      "utc": "2026-10-15T16:56:00.455219+00:00"
+    },
+    {
+      "id": 19,
+      "trial": "A09",
+      "attempt": 1,
+      "elapsed_s": 628.7949922080006,
+      "utc": "2026-10-15T16:56:30.392858+00:00"
+    },
+    {
+      "id": 20,
+      "trial": "A09",
+      "attempt": 2,
+      "elapsed_s": 634.4586067499986,
+      "utc": "2026-10-15T16:56:36.056476+00:00"
+    },
+    {
+      "id": 21,
+      "trial": "B08",
+      "attempt": 2,
+      "elapsed_s": 688.1155044170009,
+      "utc": "2026-10-15T16:57:29.713440+00:00"
+    },
+    {
+      "id": 22,
+      "trial": "B09",
+      "attempt": 2,
+      "elapsed_s": 763.4029315419975,
+      "utc": "2026-10-15T16:58:45.002911+00:00"
+    },
+    {
+      "id": 23,
+      "trial": "B09",
+      "attempt": 1,
+      "elapsed_s": 770.0104783749994,
+      "utc": "2026-10-15T16:58:51.610493+00:00"
+    }
+  ],
+  "audit_elapsed_s": 804.1144564169954,
+  "unresolved_attempts": 0
+}

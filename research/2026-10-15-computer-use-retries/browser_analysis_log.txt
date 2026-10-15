@@ -1,0 +1,12 @@
+PASS: Frozen SQLite integrity and audit equality
+PASS: Trial, attempt, resolution, snapshot, record, and stop identities
+PASS: All 18 scored rows retained; warm-up excluded
+Events checked: 380
+Records checked including warm-up: 23
+Snapshots checked including warm-up: 62
+Started scored trials: 18
+Stopped scored trials: 18
+Duplicate scored trials: 4
+Clean on-time claims: 11
+Server-visible rule failures: 1
+A PASS here means evidence checks passed. It does not mean all agent trials succeeded.

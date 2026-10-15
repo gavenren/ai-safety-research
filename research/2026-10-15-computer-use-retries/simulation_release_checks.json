@@ -1,0 +1,301 @@
+{
+  "status": "PASS",
+  "date": "2026-10-15",
+  "scope": "Separate user-requested paper; not a second daily automation study.",
+  "completed_utc": "2026-10-15T16:35:02.107726+00:00",
+  "report_sha256": "cd9407e6ded1f851c2545c98f6dd2d3e5cca3951d140abff35759b9efb7ae47c",
+  "source_and_claim_review": "PASS; see source_search.md and final_review.md. Source read sections and limits are explicit.",
+  "reproduction": "PASS; see reproduction_check.json for exact output comparisons and environment limits.",
+  "mathematical_validation": "PASS; see method_review.md, derivations.md, and validation_results.json.",
+  "pdf": "PASS; every page was inspected. Text coverage and a repeated build passed. See pdf_check.json.",
+  "pdf_privacy_review": "PASS; extracted page text and document metadata were separately scanned for private paths, credential patterns, and email addresses. No match was found.",
+  "relative_links": [
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "report.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "paper.pdf",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "validation_results.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "method_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "derivations.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "requirements-plot.txt",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "requirements-pdf.txt",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "pdf_environment.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "FONT_LICENSE.txt",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "pdf_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "analysis_plan.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "config.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "input_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "analyze.py",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "validate.py",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "cases.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "results_runs.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "traces.jsonl.gz",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "trace_examples.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "results_summary.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "results_by_lag.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "results_by_outcome.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "results_paired.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "source_search.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "references.bib",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "failed_checks.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "final_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "release_checks.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "package_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/final_review.md",
+      "target": "reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/final_review.md",
+      "target": "reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "source_search.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "references.bib",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "input_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "derivations.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "trace_examples.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "figure_retry_cost.png",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "method_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "validation_results.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "final_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/source_search.md",
+      "target": "analysis_plan.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/source_search.md",
+      "target": "references.bib",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "RESEARCH_PROTOCOL.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-15-computer-use-retries/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-15-detector-calibration/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-14-clean-window/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-13-selective-panel/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-12-judge-ensemble/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-10-judge-transfer/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-09-zero-failure-dependence/report.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/2026-10-08-incident-trends/report.md",
+      "exists": true
+    }
+  ],
+  "secret_and_private_path_scan": {
+    "status": "PASS",
+    "files_scanned": 40,
+    "scope": [
+      "private_local_path",
+      "credential",
+      "email"
+    ],
+    "compressed_traces_included": true,
+    "findings": []
+  },
+  "manual_content_review": "PASS; no copied source passage, third-party experimental asset, private record, harmful procedure, license conflict, or unsupported novelty claim was found in the inspected package. DejaVu fonts are embedded by the PDF builder. This is a bounded review, not a universal guarantee.",
+  "root_index": "One new report row only. All prior text is preserved.",
+  "checklist": "Relevant NeurIPS items reviewed; no approval or compliance claim.",
+  "human_review": false,
+  "external_peer_review": false,
+  "publication_status": "Not verified by this pre-publication record. Remote verification must follow upload."
+}
