@@ -1,12 +1,12 @@
 FONT NOTICES FOR THE PDF
 
 The PDF embeds subsets of DejaVu Sans, DejaVu Sans Bold, DejaVu Serif,
-DejaVu Serif Bold, and DejaVu Serif Italic, version 2.37. The build also
-registers DejaVu Serif Bold Italic and DejaVu Sans Mono. No standalone
+DejaVu Serif Bold, DejaVu Serif Italic, and DejaVu Sans Mono, version 2.37.
+The build also registers DejaVu Serif Bold Italic. No standalone
 font file is included in this package.
 
 The installed font name tables and the bundled LibreOffice LICENSE were
-checked. All five font subsets embedded in paper.pdf retain their font
+checked. All six font subsets embedded in paper.pdf retain their font
 copyright, version, and license records. The notices below are copied
 from the installed LibreOffice LICENSE, section "Deja Vu". They apply
 to the font software. They do not assign a license to this research.

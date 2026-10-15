@@ -1,0 +1,34 @@
+{
+  "extraction": "Task-region DOM text only; unchanged action metadata except image filename reduced to basename. State source hashes are SHA256 of exact original strings. Unknown task views are explicitly marked.",
+  "files": [
+    {
+      "source": "demoqa_preflight.jsonl",
+      "public_file": "cross_demoqa_preflight.jsonl",
+      "original_sha256": "31dcc2f25634f8810d7f319215813afac4e3702630732ec93a7e9850569360ae",
+      "public_sha256": "f592a347154d92351f77ae5c7730bc4b5e48e39d10f38c461ae03837ce568a8e",
+      "records": 11
+    },
+    {
+      "source": "datatables_preflight.jsonl",
+      "public_file": "cross_datatables_preflight.jsonl",
+      "original_sha256": "09a1814984ed29f4e52aaec15f7862461217c1b95706dfcebac3615d7e744a07",
+      "public_sha256": "ea53ed413f78b9faa5584f90c469bb40ed392dc90df1a7e5971dd4a24ac13480",
+      "records": 12
+    },
+    {
+      "source": "actions.jsonl",
+      "public_file": "cross_runner_q_actions.jsonl",
+      "original_sha256": "37c76cec2a514be0660058dc2b5b3b35a725525bbd89dece707f4d6f902e3c23",
+      "public_sha256": "b7ecb4dece7ff925ee8ac81929f314bde872daf1fe5729ec246929685d89938a",
+      "records": 476
+    },
+    {
+      "source": "actions.jsonl",
+      "public_file": "cross_runner_d_actions.jsonl",
+      "original_sha256": "085232958b4df35433db325f73c478d647d38bbc58c8ee495b36aeda33af1880",
+      "public_sha256": "fc810655b30a47228a74401116668559f56174d3ee6e5a3ab971cba27be6105b",
+      "records": 404
+    }
+  ],
+  "images": 145
+}

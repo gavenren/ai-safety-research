@@ -1,0 +1,13 @@
+{
+  "assigned": 48,
+  "classification_counts": {
+    "correct_confirmation": 32,
+    "unresolved": 16
+  },
+  "errors": [],
+  "parser_checks_passed": 15,
+  "pass": true,
+  "repeat_derivation_identical": true,
+  "started": 48,
+  "status": "complete"
+}

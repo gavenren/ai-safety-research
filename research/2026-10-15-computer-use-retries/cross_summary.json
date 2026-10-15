@@ -1,0 +1,56 @@
+{
+  "assigned_trials": 48,
+  "audit_total_new_rows": 64,
+  "classification_counts": {
+    "correct_confirmation": 32,
+    "unresolved": 16
+  },
+  "cleanup_verified": 48,
+  "completed_trials": 48,
+  "deviation_trials": {},
+  "errors": [],
+  "extra_effect_outcomes": 16,
+  "hypotheses": {
+    "datatables": {
+      "H_X1": true,
+      "H_X2": true,
+      "H_X3": true,
+      "activation": {
+        "Absence": true,
+        "Scope": true,
+        "Wait24": true
+      },
+      "complete": true
+    },
+    "demoqa": {
+      "H_X1": true,
+      "H_X2": true,
+      "H_X3": true,
+      "activation": {
+        "Absence": true,
+        "Scope": true,
+        "Wait24": true
+      },
+      "complete": true
+    }
+  },
+  "initial_requests": 48,
+  "input_sha256": {
+    "cross_runner_d_actions.jsonl": "fc810655b30a47228a74401116668559f56174d3ee6e5a3ab971cba27be6105b",
+    "cross_runner_q_actions.jsonl": "b7ecb4dece7ff925ee8ac81929f314bde872daf1fe5729ec246929685d89938a"
+  },
+  "limits": [
+    "Selected public demonstrations; not a random site sample.",
+    "Rows are temporary browser state; no service-side audit.",
+    "DataTables footer totals are visible but excluded from supplied policy evidence.",
+    "Repeated shared-context cases do not support population confidence intervals."
+  ],
+  "pass": true,
+  "plan_frozen_utc": "2026-10-15T19:03:18.716645+00:00",
+  "retry_requests": 16,
+  "schema_version": 1,
+  "started_trials": 48,
+  "status": "complete",
+  "tool_error_count": 0,
+  "warnings": []
+}

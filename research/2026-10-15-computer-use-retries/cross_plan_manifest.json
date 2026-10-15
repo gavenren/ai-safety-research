@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-10-15T19:03:18.716645+00:00",
+  "scored_trials_started": false,
+  "external_preregistration": false,
+  "pre_freeze_change": "Corrected the plan to record the completed DataTables P02 timing gate; no design or assignment changed.",
+  "sha256": {
+    "cross_plan.md": "2b982e509752c6280ad3ca06c0eb9200b11c5cb27c4d9f6eb9dcb52bd962aec9",
+    "cross_assignments.csv": "55991fb6975e956f0aa80fb37a9393d85b3ef383fa16f4efc8b2109123a0f2ca",
+    "cross_runner_instructions.md": "b782e9664e9f2b4944ea3920d4a70333ce0c89ce8cebe61d5bc9011359c56dcf",
+    "cross_preflight.md": "06fb56a86c160ffae40eb12b4e6601662985b89b87e5e0df984df2be77d96e60"
+  }
+}

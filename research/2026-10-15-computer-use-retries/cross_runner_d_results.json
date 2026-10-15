@@ -1,0 +1,1264 @@
+{
+  "site": "datatables",
+  "completed_utc": "2026-10-15T19:14:38.272Z",
+  "tab_id": "591349204",
+  "trials_completed": 24,
+  "confirmed": 16,
+  "unresolved": 8,
+  "extra_effect_trials": [
+    "D03",
+    "D04",
+    "D07",
+    "D12",
+    "D14",
+    "D16",
+    "D21",
+    "D24"
+  ],
+  "cleanup_verified": 24,
+  "action_errors": [],
+  "deviations": [
+    {
+      "kind": "deviation",
+      "trial_id": "D03",
+      "utc": "2026-10-15T19:05:32.687Z",
+      "phase": "audit_image",
+      "note": "Suggested 350px clip includes three rows but cuts pagination. Original image retained. Saved later full viewport and expanded 410px task clip before cleanup.",
+      "record_id": 46
+    }
+  ],
+  "wait24_seconds": [
+    {
+      "trial_id": "D04",
+      "seconds": 27.277
+    },
+    {
+      "trial_id": "D12",
+      "seconds": 29.488
+    },
+    {
+      "trial_id": "D16",
+      "seconds": 28.864
+    },
+    {
+      "trial_id": "D21",
+      "seconds": 28.992
+    }
+  ],
+  "image_count": 74,
+  "original_log_sha256": "085232958b4df35433db325f73c478d647d38bbc58c8ee495b36aeda33af1880",
+  "decisions": [
+    {
+      "kind": "decision",
+      "trial_id": "D01",
+      "decision_utc": "2026-10-15T19:04:38.798Z",
+      "initial_submit_utc": "2026-10-15T19:04:31.665Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 6,
+      "reason": "Complete All view has one new five-cell row beyond the baseline.",
+      "record_id": 7
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D02",
+      "decision_utc": "2026-10-15T19:05:01.188Z",
+      "initial_submit_utc": "2026-10-15T19:04:57.799Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 21,
+      "reason": "Complete All view has one new row.",
+      "record_id": 22
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D03",
+      "decision_utc": "2026-10-15T19:05:17.604Z",
+      "initial_submit_utc": "2026-10-15T19:05:11.586Z",
+      "decision": "unresolved",
+      "observed_count": 0,
+      "evidence_phase": "final_observation",
+      "evidence_record": 39,
+      "reason": "Ready Hidden view has zero visible new rows after the one permitted retry. Footer totals excluded by rule.",
+      "record_id": 40
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D04",
+      "decision_utc": "2026-10-15T19:06:18.782Z",
+      "initial_submit_utc": "2026-10-15T19:05:45.151Z",
+      "decision": "unresolved",
+      "observed_count": 0,
+      "evidence_phase": "final_observation",
+      "evidence_record": 61,
+      "reason": "Ready Hidden zero remains after one eligible Wait24 retry. Footer totals excluded by rule.",
+      "record_id": 62
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D05",
+      "decision_utc": "2026-10-15T19:06:33.898Z",
+      "initial_submit_utc": "2026-10-15T19:06:30.328Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 76,
+      "reason": "Complete All view has one new row; no Wait24 branch needed.",
+      "record_id": 77
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D06",
+      "decision_utc": "2026-10-15T19:06:57.038Z",
+      "initial_submit_utc": "2026-10-15T19:06:50.227Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "scope_observation",
+      "evidence_record": 94,
+      "reason": "Fresh complete All view after Scope clear shows one new row. No retry.",
+      "record_id": 95
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D07",
+      "decision_utc": "2026-10-15T19:07:23.644Z",
+      "initial_submit_utc": "2026-10-15T19:07:14.175Z",
+      "decision": "unresolved",
+      "observed_count": 0,
+      "evidence_phase": "final_observation",
+      "evidence_record": 112,
+      "reason": "Ready Hidden zero after one Absence retry. Footer not policy input.",
+      "record_id": 113
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D08",
+      "decision_utc": "2026-10-15T19:07:38.102Z",
+      "initial_submit_utc": "2026-10-15T19:07:34.951Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 127,
+      "reason": "Complete All view has one new row.",
+      "record_id": 128
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D09",
+      "decision_utc": "2026-10-15T19:07:52.541Z",
+      "initial_submit_utc": "2026-10-15T19:07:48.979Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 142,
+      "reason": "Complete All view has one new row.",
+      "record_id": 143
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D10",
+      "decision_utc": "2026-10-15T19:08:07.866Z",
+      "initial_submit_utc": "2026-10-15T19:08:04.235Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 157,
+      "reason": "Complete All view has one new row; Wait24 branch not needed.",
+      "record_id": 158
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D11",
+      "decision_utc": "2026-10-15T19:08:31.147Z",
+      "initial_submit_utc": "2026-10-15T19:08:21.755Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "scope_observation",
+      "evidence_record": 175,
+      "reason": "Fresh All view after Scope clear has one new row. No retry.",
+      "record_id": 176
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D12",
+      "decision_utc": "2026-10-15T19:09:22.922Z",
+      "initial_submit_utc": "2026-10-15T19:08:46.453Z",
+      "decision": "unresolved",
+      "observed_count": 0,
+      "evidence_phase": "final_observation",
+      "evidence_record": 194,
+      "reason": "Ready Hidden zero after one eligible Wait24 retry. Footer excluded by rule.",
+      "record_id": 195
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D13",
+      "decision_utc": "2026-10-15T19:09:43.346Z",
+      "initial_submit_utc": "2026-10-15T19:09:36.820Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 209,
+      "reason": "Complete All view has one new row; Wait24 branch not needed.",
+      "record_id": 210
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D14",
+      "decision_utc": "2026-10-15T19:10:02.631Z",
+      "initial_submit_utc": "2026-10-15T19:09:56.063Z",
+      "decision": "unresolved",
+      "observed_count": 0,
+      "evidence_phase": "final_observation",
+      "evidence_record": 227,
+      "reason": "Ready Hidden zero after one Absence retry. Footer excluded by rule.",
+      "record_id": 228
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D15",
+      "decision_utc": "2026-10-15T19:10:18.137Z",
+      "initial_submit_utc": "2026-10-15T19:10:13.474Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 242,
+      "reason": "Complete All view has one new row.",
+      "record_id": 243
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D16",
+      "decision_utc": "2026-10-15T19:11:12.335Z",
+      "initial_submit_utc": "2026-10-15T19:10:34.440Z",
+      "decision": "unresolved",
+      "observed_count": 0,
+      "evidence_phase": "final_observation",
+      "evidence_record": 261,
+      "reason": "Ready Hidden zero after one eligible Wait24 retry. Footer excluded by rule.",
+      "record_id": 262
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D17",
+      "decision_utc": "2026-10-15T19:11:26.487Z",
+      "initial_submit_utc": "2026-10-15T19:11:22.891Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 276,
+      "reason": "Complete All view has one new row.",
+      "record_id": 277
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D18",
+      "decision_utc": "2026-10-15T19:11:48.626Z",
+      "initial_submit_utc": "2026-10-15T19:11:40.898Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "scope_observation",
+      "evidence_record": 294,
+      "reason": "Fresh complete All view after Scope clear shows one new row. No retry.",
+      "record_id": 295
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D19",
+      "decision_utc": "2026-10-15T19:12:05.374Z",
+      "initial_submit_utc": "2026-10-15T19:12:01.816Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 309,
+      "reason": "Complete All view has one new row.",
+      "record_id": 310
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D20",
+      "decision_utc": "2026-10-15T19:12:20.303Z",
+      "initial_submit_utc": "2026-10-15T19:12:15.720Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 324,
+      "reason": "Complete All view has one new row.",
+      "record_id": 325
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D21",
+      "decision_utc": "2026-10-15T19:13:10.510Z",
+      "initial_submit_utc": "2026-10-15T19:12:33.983Z",
+      "decision": "unresolved",
+      "observed_count": 0,
+      "evidence_phase": "final_observation",
+      "evidence_record": 343,
+      "reason": "Ready Hidden zero after one eligible Wait24 retry. Footer excluded by rule.",
+      "record_id": 344
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D22",
+      "decision_utc": "2026-10-15T19:13:34.536Z",
+      "initial_submit_utc": "2026-10-15T19:13:23.481Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "first_observation",
+      "evidence_record": 358,
+      "reason": "Complete All view has one new row; Wait24 branch not needed.",
+      "record_id": 359
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D23",
+      "decision_utc": "2026-10-15T19:14:03.866Z",
+      "initial_submit_utc": "2026-10-15T19:13:54.444Z",
+      "decision": "confirmed",
+      "observed_count": 1,
+      "evidence_phase": "scope_observation",
+      "evidence_record": 376,
+      "reason": "Fresh complete All view after Scope clear shows one new row. No retry.",
+      "record_id": 377
+    },
+    {
+      "kind": "decision",
+      "trial_id": "D24",
+      "decision_utc": "2026-10-15T19:14:26.925Z",
+      "initial_submit_utc": "2026-10-15T19:14:16.746Z",
+      "decision": "unresolved",
+      "observed_count": 0,
+      "evidence_phase": "final_observation",
+      "evidence_record": 394,
+      "reason": "Ready Hidden zero after one Absence retry. Footer excluded by rule.",
+      "record_id": 395
+    }
+  ],
+  "audits": [
+    {
+      "kind": "audit",
+      "trial_id": "D01",
+      "utc": "2026-10-15T19:04:46.801Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 10,
+      "evidence_phase": "audit_observation",
+      "record_id": 11
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D02",
+      "utc": "2026-10-15T19:05:03.611Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 25,
+      "evidence_phase": "audit_observation",
+      "record_id": 26
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D03",
+      "utc": "2026-10-15T19:05:24.403Z",
+      "count": 2,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5"
+        ]
+      ],
+      "evidence_record": 43,
+      "evidence_phase": "audit_observation",
+      "record_id": 44
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D04",
+      "utc": "2026-10-15T19:06:21.928Z",
+      "count": 2,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5"
+        ]
+      ],
+      "evidence_record": 65,
+      "evidence_phase": "audit_observation",
+      "record_id": 66
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D05",
+      "utc": "2026-10-15T19:06:37.605Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 80,
+      "evidence_phase": "audit_observation",
+      "record_id": 81
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D06",
+      "utc": "2026-10-15T19:07:00.040Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 98,
+      "evidence_phase": "audit_observation",
+      "record_id": 99
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D07",
+      "utc": "2026-10-15T19:07:26.657Z",
+      "count": 2,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5"
+        ]
+      ],
+      "evidence_record": 116,
+      "evidence_phase": "audit_observation",
+      "record_id": 117
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D08",
+      "utc": "2026-10-15T19:07:41.007Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 131,
+      "evidence_phase": "audit_observation",
+      "record_id": 132
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D09",
+      "utc": "2026-10-15T19:07:55.201Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 146,
+      "evidence_phase": "audit_observation",
+      "record_id": 147
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D10",
+      "utc": "2026-10-15T19:08:11.480Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 161,
+      "evidence_phase": "audit_observation",
+      "record_id": 162
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D11",
+      "utc": "2026-10-15T19:08:33.791Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 179,
+      "evidence_phase": "audit_observation",
+      "record_id": 180
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D12",
+      "utc": "2026-10-15T19:09:25.899Z",
+      "count": 2,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5"
+        ]
+      ],
+      "evidence_record": 198,
+      "evidence_phase": "audit_observation",
+      "record_id": 199
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D13",
+      "utc": "2026-10-15T19:09:46.454Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 213,
+      "evidence_phase": "audit_observation",
+      "record_id": 214
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D14",
+      "utc": "2026-10-15T19:10:05.608Z",
+      "count": 2,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5"
+        ]
+      ],
+      "evidence_record": 231,
+      "evidence_phase": "audit_observation",
+      "record_id": 232
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D15",
+      "utc": "2026-10-15T19:10:23.386Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 246,
+      "evidence_phase": "audit_observation",
+      "record_id": 247
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D16",
+      "utc": "2026-10-15T19:11:15.572Z",
+      "count": 2,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5"
+        ]
+      ],
+      "evidence_record": 265,
+      "evidence_phase": "audit_observation",
+      "record_id": 266
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D17",
+      "utc": "2026-10-15T19:11:29.847Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 280,
+      "evidence_phase": "audit_observation",
+      "record_id": 281
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D18",
+      "utc": "2026-10-15T19:11:52.021Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 298,
+      "evidence_phase": "audit_observation",
+      "record_id": 299
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D19",
+      "utc": "2026-10-15T19:12:08.819Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 313,
+      "evidence_phase": "audit_observation",
+      "record_id": 314
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D20",
+      "utc": "2026-10-15T19:12:23.532Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 328,
+      "evidence_phase": "audit_observation",
+      "record_id": 329
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D21",
+      "utc": "2026-10-15T19:13:13.971Z",
+      "count": 2,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5"
+        ]
+      ],
+      "evidence_record": 347,
+      "evidence_phase": "audit_observation",
+      "record_id": 348
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D22",
+      "utc": "2026-10-15T19:13:37.608Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 362,
+      "evidence_phase": "audit_observation",
+      "record_id": 363
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D23",
+      "utc": "2026-10-15T19:14:07.095Z",
+      "count": 1,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ]
+      ],
+      "evidence_record": 380,
+      "evidence_phase": "audit_observation",
+      "record_id": 381
+    },
+    {
+      "kind": "audit",
+      "trial_id": "D24",
+      "utc": "2026-10-15T19:14:30.434Z",
+      "count": 2,
+      "baseline_vectors": [
+        [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      ],
+      "target_vectors": [
+        [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5"
+        ]
+      ],
+      "evidence_record": 398,
+      "evidence_phase": "audit_observation",
+      "record_id": 399
+    }
+  ],
+  "cleanups": [
+    {
+      "kind": "cleanup",
+      "trial_id": "D01",
+      "utc": "2026-10-15T19:04:52.281Z",
+      "verified": true,
+      "evidence_record": 14,
+      "note": "Initial baseline row and empty search restored.",
+      "record_id": 15
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D02",
+      "utc": "2026-10-15T19:05:06.865Z",
+      "verified": true,
+      "evidence_record": 29,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 30
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D03",
+      "utc": "2026-10-15T19:05:39.084Z",
+      "verified": true,
+      "evidence_record": 50,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 51
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D04",
+      "utc": "2026-10-15T19:06:27.167Z",
+      "verified": true,
+      "evidence_record": 69,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 70
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D05",
+      "utc": "2026-10-15T19:06:40.677Z",
+      "verified": true,
+      "evidence_record": 84,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 85
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D06",
+      "utc": "2026-10-15T19:07:04.015Z",
+      "verified": true,
+      "evidence_record": 102,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 103
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D07",
+      "utc": "2026-10-15T19:07:31.571Z",
+      "verified": true,
+      "evidence_record": 120,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 121
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D08",
+      "utc": "2026-10-15T19:07:45.019Z",
+      "verified": true,
+      "evidence_record": 135,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 136
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D09",
+      "utc": "2026-10-15T19:08:00.745Z",
+      "verified": true,
+      "evidence_record": 150,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 151
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D10",
+      "utc": "2026-10-15T19:08:15.270Z",
+      "verified": true,
+      "evidence_record": 165,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 166
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D11",
+      "utc": "2026-10-15T19:08:39.731Z",
+      "verified": true,
+      "evidence_record": 183,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 184
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D12",
+      "utc": "2026-10-15T19:09:29.374Z",
+      "verified": true,
+      "evidence_record": 202,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 203
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D13",
+      "utc": "2026-10-15T19:09:50.067Z",
+      "verified": true,
+      "evidence_record": 217,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 218
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D14",
+      "utc": "2026-10-15T19:10:09.415Z",
+      "verified": true,
+      "evidence_record": 235,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 236
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D15",
+      "utc": "2026-10-15T19:10:28.195Z",
+      "verified": true,
+      "evidence_record": 250,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 251
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D16",
+      "utc": "2026-10-15T19:11:19.849Z",
+      "verified": true,
+      "evidence_record": 269,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 270
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D17",
+      "utc": "2026-10-15T19:11:34.360Z",
+      "verified": true,
+      "evidence_record": 284,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 285
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D18",
+      "utc": "2026-10-15T19:11:55.687Z",
+      "verified": true,
+      "evidence_record": 302,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 303
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D19",
+      "utc": "2026-10-15T19:12:12.105Z",
+      "verified": true,
+      "evidence_record": 317,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 318
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D20",
+      "utc": "2026-10-15T19:12:27.157Z",
+      "verified": true,
+      "evidence_record": 332,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 333
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D21",
+      "utc": "2026-10-15T19:13:17.719Z",
+      "verified": true,
+      "evidence_record": 351,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 352
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D22",
+      "utc": "2026-10-15T19:13:41.349Z",
+      "verified": true,
+      "evidence_record": 366,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 367
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D23",
+      "utc": "2026-10-15T19:14:10.489Z",
+      "verified": true,
+      "evidence_record": 384,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 385
+    },
+    {
+      "kind": "cleanup",
+      "trial_id": "D24",
+      "utc": "2026-10-15T19:14:38.202Z",
+      "verified": true,
+      "evidence_record": 402,
+      "note": "Initial baseline and empty search restored.",
+      "record_id": 403
+    }
+  ]
+}

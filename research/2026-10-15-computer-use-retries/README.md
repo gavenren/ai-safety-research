@@ -2,9 +2,24 @@
 
 This is a separate user-requested paper dated October 15, 2026. It is not a second daily automation study.
 
-Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, a later 30-trial experiment in one authenticated Google Drive account, and a 32-trial two-tab extension in that account. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
+Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, a later 30-trial experiment in one authenticated Google Drive account, a 32-trial two-tab extension in that account, and a 48-trial extension on two additional public table websites. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
 
 Codex generated this work. Separate agents checked the design, sources, calculations, reproduction, and PDF. No human or external peer review occurred. No new reuse license is assigned.
+
+## Analyze the saved additional website evidence
+
+Use a separate copy of this folder. Python standard library is sufficient. This procedure makes no browser, model, connector, or network call.
+
+```sh
+python3 cross_analyze.py --input-dir . --output-dir .
+python3 cross_independent_replay.py
+```
+
+The command reads cross_assignments.csv, frozen plan hashes, and both cross_runner action logs. It reconstructs exact task rows, search views, ready states, action times, rule paths, final counts, and cleanup. It writes cross_trials.csv, cross_groups.csv, cross_summary.json, cross_analysis_checks.json, and cross_analysis_log.txt. The saved raw input hashes permit a byte check. Parser checks and a repeated derivation are author checks. The second command uses the separate reviewer's implementation. See cross_review.md and cross_reproduction_check.json for the saved checks.
+
+Read [cross_plan.md](cross_plan.md), [cross_runner_instructions.md](cross_runner_instructions.md), and [cross_assignments.csv](cross_assignments.csv) before a new browser run. Use the actual DemoQA Web Tables and DataTables Add rows pages, one browser tab and separate model context per site. Verify the default baseline. A native search value hides the new rows. Do not reload until the decision and full-table audit are saved: reload erases these examples' temporary rows. Keep failed trials and all decision/audit/cleanup evidence. Repeated DataTables actions create different generated rows, so the shared measure is an extra effect, not an identical-data duplicate.
+
+The sites were selected after feasibility checks. They are public demonstrations, not additional production account services. The fixed rules deliberately exclude other visible evidence, including DataTables footer totals. Receipt is unavailable. New live runs can differ as the sites, model, and tool timing change. The evidence is descriptive and does not establish natural error rates or server durability. See [cross_source_search.md](cross_source_search.md), [cross_preflight.md](cross_preflight.md), and [cross_evidence.md](cross_evidence.md) for selection, failed checks, extraction, attribution, and image limits.
 
 ## Analyze the saved two-tab evidence
 
@@ -134,3 +149,5 @@ The live-site extension keeps all original simulation and local browser data unc
 The account extension preserves all simulation, local-pilot, and public-demo evidence. public_site_final_review.md, public_site_checklist.md, public_site_release_checks.json, public_site_pdf_check.json, and live_review.md describe the preceding 60-trial version. Their old report and PDF hashes are historical. account_review.md and account_validation.json describe that 30-trial evidence. The historical account_version files preserve the release checks for that version.
 
 The two-tab extension preserves the earlier 30-trial evidence. account_version_final_review.md, account_version_checklist.md, account_version_release_checks.json, account_version_pdf_check.json, and account_review.md describe the previous paper. Their report/PDF hashes are historical. The trigger files describe the new 32-trial extension. Current final_review.md, release_checks.json, pdf_check.json, and package_manifest.json apply to the latest release.
+
+The additional website extension preserves all earlier evidence. trigger_version_final_review.md, trigger_version_checklist.md, trigger_version_release_checks.json, and trigger_version_pdf_check.json preserve the preceding two-tab release. Their hashes are historical. The cross files describe the new 48-trial extension. Current final_review.md, release_checks.json, pdf_check.json, and package_manifest.json apply to the latest release.

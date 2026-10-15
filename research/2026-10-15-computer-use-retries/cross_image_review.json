@@ -1,0 +1,287 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "issues": [],
+  "archive_sha256": "ae54890756011aa4c1145d0b35de1e24392b804acfa04447a88e5173cdd2a37b",
+  "input_sha256": {
+    "cross_image_manifest.json": "29450230ef632079f1a89687b3405126e3e3d3456deffc38eb3094495c83ddd4",
+    "cross_runner_q_actions.jsonl": "b7ecb4dece7ff925ee8ac81929f314bde872daf1fe5729ec246929685d89938a",
+    "cross_runner_d_actions.jsonl": "fc810655b30a47228a74401116668559f56174d3ee6e5a3ab971cba27be6105b"
+  },
+  "public_images": 145,
+  "planned_images": 144,
+  "additional_public_images": [
+    "D03-audit-expanded.jpg"
+  ],
+  "excluded_private_images": [
+    "D03-audit-full-private.jpg"
+  ],
+  "unique_public_byte_hashes": 54,
+  "visual_method": "Viewed all 54 distinct image byte patterns in full-resolution contact sheets. Eight partial sheets covered 32 patterns; six final sheets covered the 22 new patterns. Identical images are mapped by SHA256. All 145 archive members were checked against their originals, manifest, and timed action records.",
+  "visual_findings": [
+    "All DemoQA captures show Web Tables, Add, search, all displayed test rows, and pagination.",
+    "DataTables captures show Add, search, row vectors, footer totals, and pagination, except the documented original D03 audit crop.",
+    "No private account controls, credentials, or non-test personal records were seen. Example.com addresses and public default sample rows remain.",
+    "The hidden DataTables view visibly exposes total-entry footer counts. These counts were retained in evidence.",
+    "Some DataTables captures include public code-tab labels. No application source code is visible in the public captures."
+  ],
+  "limitations": [
+    "D03-audit.jpg cuts off status and pagination. It remains in the archive as failed image coverage. D03-audit-expanded.jpg is a separate later capture before cleanup and shows the complete audit. It does not change the saved decision.",
+    "These are post-decision images. Text records and timestamps define the decision evidence. Images do not prove service durability.",
+    "DataTables site identity is provided by source URLs and attribution in the report; its narrow task crop does not show a URL bar."
+  ],
+  "reviewed_hash_groups": {
+    "1cce6a061e4d5b4fadeeb2ba987587407fa9395750892639c5a9d80bae35e960": [
+      "Q01-audit.jpg"
+    ],
+    "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23": [
+      "Q01-cleanup.jpg",
+      "Q02-cleanup.jpg",
+      "Q03-cleanup.jpg",
+      "Q04-cleanup.jpg",
+      "Q05-cleanup.jpg",
+      "Q06-cleanup.jpg",
+      "Q07-cleanup.jpg",
+      "Q08-cleanup.jpg",
+      "Q09-cleanup.jpg",
+      "Q10-cleanup.jpg",
+      "Q11-cleanup.jpg",
+      "Q12-cleanup.jpg",
+      "Q13-cleanup.jpg",
+      "Q14-cleanup.jpg",
+      "Q15-cleanup.jpg",
+      "Q16-cleanup.jpg",
+      "Q17-cleanup.jpg",
+      "Q18-cleanup.jpg",
+      "Q19-cleanup.jpg",
+      "Q20-cleanup.jpg",
+      "Q21-cleanup.jpg",
+      "Q22-cleanup.jpg",
+      "Q23-cleanup.jpg",
+      "Q24-cleanup.jpg"
+    ],
+    "8d3d9428d9497ed17015640a8c1c006aad41483810be22a6e02d89a29a83a3f1": [
+      "Q01-decision.jpg"
+    ],
+    "d8da83d7f613821cde6e09653c40fc4d558a5fa2de6c7a01ac3df2def78ae5a4": [
+      "Q02-audit.jpg"
+    ],
+    "45848b743d352564a25de2e662c2f5bb1083aa28b1ebc58ae044b830d59303fd": [
+      "Q02-decision.jpg"
+    ],
+    "42e09661f9d5d86122ad43257a773cd9c3db1207303e8522a33dd19113d1f813": [
+      "Q03-audit.jpg"
+    ],
+    "a5c1ddc91c10208ebf619d024d819c8b8c1aa837673297c48378fdb62713ee5f": [
+      "Q03-decision.jpg"
+    ],
+    "b14ce8c03dd810bf1cd3aafa1123a2758300c24ed2a6dae1b460e5c2344669b5": [
+      "Q04-audit.jpg"
+    ],
+    "3088996012ea56da6ff03b7a15a908761a565ad6bff6f0ad993c80acf2062ff0": [
+      "Q04-decision.jpg",
+      "Q06-decision.jpg",
+      "Q11-decision.jpg",
+      "Q12-decision.jpg",
+      "Q13-decision.jpg",
+      "Q15-decision.jpg",
+      "Q21-decision.jpg",
+      "Q22-decision.jpg"
+    ],
+    "b13d2fea5f941b8088e01e8a925f08e5c748ccca3959336fc3b23d225a603bce": [
+      "Q05-audit.jpg"
+    ],
+    "55c1243a4c4cfc2b3a3974437c49128647f4b6137a5cef0b13359b76bb95b3d5": [
+      "Q05-decision.jpg"
+    ],
+    "36c5ac165a8247d3c7d45f957a00dd0670fe94a355ca1b064639e06eb12671af": [
+      "Q06-audit.jpg"
+    ],
+    "b3fb444fc2ebd97a59f9127c77ad81b25027873dcd8a0905c3142eafff1074ee": [
+      "Q07-audit.jpg"
+    ],
+    "8d6023c40ae21d7dfbbb01e2c74d942c09a558e17c538e6fe3f77913b7eb848d": [
+      "Q07-decision.jpg"
+    ],
+    "83aedd0c5ebfa2845d42e6723e660bbdf7aa6498c034a1758ce8ee3c4d7fbcd5": [
+      "Q08-audit.jpg",
+      "Q08-decision.jpg"
+    ],
+    "c60c96b0c26d779297473c06ca141fd48a4602bfea6fa8fc81ae2a53764e4221": [
+      "Q09-audit.jpg"
+    ],
+    "40ae4fe5011c265fdf81c56be3eff9eccd796b632b67c710b2a32d4f9f611891": [
+      "Q09-decision.jpg"
+    ],
+    "3bed87ef0430bfb38ab3c0137a474c1df96489cb09f75163598d52b62b0488b4": [
+      "Q10-audit.jpg"
+    ],
+    "d5ae5ae10b1f47fdf1d7ba419bf7c1929e0ed57394debc94dc149e26198a1632": [
+      "Q10-decision.jpg"
+    ],
+    "cfe93c4a1834c55c1d0757f1437b6c8449ab441c2fe2c48f39f65407235fa471": [
+      "Q11-audit.jpg"
+    ],
+    "4a353b7b864aa1b5221babeaa6100634e7d3ca90064cfc91fad78c932e713850": [
+      "Q12-audit.jpg"
+    ],
+    "789830f38b0ee6a121a99765ae9d1cef97f0891bfd547183fd1356e6e415218d": [
+      "Q13-audit.jpg"
+    ],
+    "18b5c30a82314ea6dc5a933c008e03aca198473d3bd8484d49d538028849048e": [
+      "Q14-audit.jpg",
+      "Q14-decision.jpg"
+    ],
+    "9124c091fb77dd674ef6efc68b06a532dee7a493eb9877ba104213c47a2e70cb": [
+      "Q15-audit.jpg"
+    ],
+    "c478420c3c440d425782f29b2be6a33900d96870a2a6177cce4c79df9329f440": [
+      "Q16-audit.jpg"
+    ],
+    "6b9645226c275c8cc90879f331d9dcdc16b8e1021bc74a13502f9c3fc0e8b812": [
+      "Q16-decision.jpg"
+    ],
+    "b287858c10549b9530063f23d215d1f9acffc0b2eeb3978b231a26b6618bf15d": [
+      "Q17-audit.jpg"
+    ],
+    "e014e2826f66fe7048f4135fd54202b126da659ba6168e8623717788ffc567e7": [
+      "Q17-decision.jpg"
+    ],
+    "8534a92f9527761c33a6c168fbd4a8ab5e0710e9653fb534bbd6602cb8e3058f": [
+      "Q18-audit.jpg"
+    ],
+    "728a6614bcf8aa6a5602ea5862c67ccb7cc77d234b22b6fec68d8f7c613de3b3": [
+      "Q18-decision.jpg"
+    ],
+    "1d8e48d89ec674fb51ad80f12397811fda5ff4953c53291c30bde7c456c075c8": [
+      "Q19-audit.jpg"
+    ],
+    "c4dc7fb4a1e933d124cfbe3c9f89eb6adec5ed990502f6f665e7c45f58a7b058": [
+      "Q19-decision.jpg"
+    ],
+    "4f2f40cf836e736dbed49d197ff169f5ff63f2eaaa848e250276917195ec526d": [
+      "Q20-audit.jpg"
+    ],
+    "3ac392833d826cd6c356ac838a54d359941d10feb77377fd2c603474600fc0e8": [
+      "Q20-decision.jpg"
+    ],
+    "3984820fe9c52df9cf19f6ea416ea67e4e58391934791067377b489eb1da8521": [
+      "Q21-audit.jpg"
+    ],
+    "d6e77a5afb62b6d9a606237ce3840091c70103709b9e140be545b9421811c13f": [
+      "Q22-audit.jpg"
+    ],
+    "c71ef73f3d95bdc86de8faef94e7cc13f58ec7597fd5f0ec56dd87fcd392754a": [
+      "Q23-audit.jpg"
+    ],
+    "95bb0c6114e0eb5a342aa9ad3efe1afdcbce77fdbf9f6584d24a4a9a4609dc44": [
+      "Q23-decision.jpg"
+    ],
+    "c35a78b05a03454603fef31c9769409f4847631da58675cbefec1640756885b7": [
+      "Q24-audit.jpg"
+    ],
+    "f99e9da023319865ea9599061986ae3b7a1aeb6d16001bc917a9de39d0e1ad26": [
+      "Q24-decision.jpg"
+    ],
+    "96c880cecf5dc4d7182625eb1a48a4005fb6cb082bc0636f9fc3c6154f74d01a": [
+      "D01-audit.jpg",
+      "D05-audit.jpg",
+      "D08-audit.jpg",
+      "D11-decision.jpg",
+      "D18-audit.jpg",
+      "D20-audit.jpg"
+    ],
+    "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a": [
+      "D01-cleanup.jpg",
+      "D02-cleanup.jpg",
+      "D05-cleanup.jpg",
+      "D07-cleanup.jpg",
+      "D08-cleanup.jpg",
+      "D10-cleanup.jpg",
+      "D11-cleanup.jpg",
+      "D12-cleanup.jpg",
+      "D13-cleanup.jpg",
+      "D14-cleanup.jpg",
+      "D15-cleanup.jpg",
+      "D16-cleanup.jpg",
+      "D17-cleanup.jpg",
+      "D18-cleanup.jpg",
+      "D19-cleanup.jpg",
+      "D20-cleanup.jpg",
+      "D21-cleanup.jpg",
+      "D22-cleanup.jpg",
+      "D24-cleanup.jpg"
+    ],
+    "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6": [
+      "D01-decision.jpg",
+      "D02-decision.jpg",
+      "D05-decision.jpg",
+      "D08-decision.jpg",
+      "D09-decision.jpg",
+      "D10-decision.jpg",
+      "D13-decision.jpg",
+      "D15-decision.jpg",
+      "D17-decision.jpg",
+      "D19-decision.jpg",
+      "D20-decision.jpg",
+      "D22-decision.jpg"
+    ],
+    "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e": [
+      "D02-audit.jpg",
+      "D10-audit.jpg",
+      "D11-audit.jpg",
+      "D13-audit.jpg",
+      "D15-audit.jpg",
+      "D17-audit.jpg",
+      "D18-decision.jpg",
+      "D19-audit.jpg",
+      "D22-audit.jpg",
+      "D23-decision.jpg"
+    ],
+    "440fa1fefce2c8c7dd8e0f4f185809630afbc59362ba574b70c4fe0aa836a11c": [
+      "D03-audit-expanded.jpg"
+    ],
+    "f015be1c633aa7ef5d5f25bd3c4e9e4104020930ddacfeec1b6cd2b48579d3a1": [
+      "D03-audit.jpg"
+    ],
+    "d44e6769a9c90a6f0a30dd5752734381661dbe712910df7d8eff0d55c6bbfc06": [
+      "D03-cleanup.jpg",
+      "D04-cleanup.jpg",
+      "D06-cleanup.jpg",
+      "D09-cleanup.jpg",
+      "D23-cleanup.jpg"
+    ],
+    "fcc19aa285a54fb1838be4be6d3de5707b08e2aec7eab6e62a92bd02547ceb8a": [
+      "D03-decision.jpg",
+      "D04-decision.jpg",
+      "D07-decision.jpg",
+      "D12-decision.jpg",
+      "D14-decision.jpg",
+      "D16-decision.jpg",
+      "D21-decision.jpg",
+      "D24-decision.jpg"
+    ],
+    "0599ef122dfe3ada3890866224891de576e59a8f85bf45e95f8e26e967710cbe": [
+      "D04-audit.jpg"
+    ],
+    "138525f45238d5601cacd746c404497df10003e195b688ca52b98a9ae8f147be": [
+      "D06-audit.jpg"
+    ],
+    "d30b7dce334c4daf685eaae205394a8abd85574aa3e618ad0cd657b1c0163923": [
+      "D06-decision.jpg"
+    ],
+    "e138128598f811901b53bf4a2f45ea4b6c3257b91d1258601fbd1e67901b1049": [
+      "D07-audit.jpg",
+      "D12-audit.jpg",
+      "D14-audit.jpg"
+    ],
+    "5a5b3ca99385c315f2580a3f531376c8a5b371fc49943829e9d892250de866d9": [
+      "D09-audit.jpg",
+      "D23-audit.jpg"
+    ],
+    "7822823db90fd9efcd2b05bffe16724005f6235302759adfded58e90cb0841a1": [
+      "D16-audit.jpg",
+      "D21-audit.jpg",
+      "D24-audit.jpg"
+    ]
+  }
+}

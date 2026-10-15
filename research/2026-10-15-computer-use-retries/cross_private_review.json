@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "input_sha256": {
+    "cross_runner_q_actions.jsonl": "b7ecb4dece7ff925ee8ac81929f314bde872daf1fe5729ec246929685d89938a",
+    "cross_runner_d_actions.jsonl": "fc810655b30a47228a74401116668559f56174d3ee6e5a3ab971cba27be6105b",
+    "cross_demoqa_preflight.jsonl": "f592a347154d92351f77ae5c7730bc4b5e48e39d10f38c461ae03837ce568a8e",
+    "cross_datatables_preflight.jsonl": "ea53ed413f78b9faa5584f90c469bb40ed392dc90df1a7e5971dd4a24ac13480",
+    "cross_runner_q_results.json": "ca173a721aeecc4805f1ec3cc2cf8d5f6ed7edbfbb566ab6fd851aab509424c6",
+    "cross_runner_d_results.json": "e1252c46ef6d265ec1371f14c58ae5b6e6ce80d37dff98d0cb9862461e73e596"
+  },
+  "method": "Independent line-region reconstruction, exact metadata comparison, full state hashes, and independent control/cell parser equality. No trial summary used.",
+  "record_count": 903,
+  "state_strings_checked": 948,
+  "files": [
+    {
+      "public_file": "cross_runner_q_actions.jsonl",
+      "private_file": "runner_q/actions.jsonl",
+      "private_records": 476,
+      "public_records": 476,
+      "original_sha256": "37c76cec2a514be0660058dc2b5b3b35a725525bbd89dece707f4d6f902e3c23",
+      "public_sha256": "b7ecb4dece7ff925ee8ac81929f314bde872daf1fe5729ec246929685d89938a"
+    },
+    {
+      "public_file": "cross_runner_d_actions.jsonl",
+      "private_file": "runner_d/actions.jsonl",
+      "private_records": 404,
+      "public_records": 404,
+      "original_sha256": "085232958b4df35433db325f73c478d647d38bbc58c8ee495b36aeda33af1880",
+      "public_sha256": "fc810655b30a47228a74401116668559f56174d3ee6e5a3ab971cba27be6105b"
+    },
+    {
+      "public_file": "cross_demoqa_preflight.jsonl",
+      "private_file": "private/demoqa_preflight.jsonl",
+      "private_records": 11,
+      "public_records": 11,
+      "original_sha256": "31dcc2f25634f8810d7f319215813afac4e3702630732ec93a7e9850569360ae",
+      "public_sha256": "f592a347154d92351f77ae5c7730bc4b5e48e39d10f38c461ae03837ce568a8e"
+    },
+    {
+      "public_file": "cross_datatables_preflight.jsonl",
+      "private_file": "private/datatables_preflight.jsonl",
+      "private_records": 12,
+      "public_records": 12,
+      "original_sha256": "09a1814984ed29f4e52aaec15f7862461217c1b95706dfcebac3615d7e744a07",
+      "public_sha256": "ea53ed413f78b9faa5584f90c469bb40ed392dc90df1a7e5971dd4a24ac13480"
+    },
+    {
+      "public_file": "cross_runner_q_results.json",
+      "private_file": "runner_q/results.json",
+      "original_sha256": "ca173a721aeecc4805f1ec3cc2cf8d5f6ed7edbfbb566ab6fd851aab509424c6",
+      "public_sha256": "ca173a721aeecc4805f1ec3cc2cf8d5f6ed7edbfbb566ab6fd851aab509424c6",
+      "type": "runner summary; not primary outcome evidence"
+    },
+    {
+      "public_file": "cross_runner_d_results.json",
+      "private_file": "runner_d/results.json",
+      "original_sha256": "e1252c46ef6d265ec1371f14c58ae5b6e6ce80d37dff98d0cb9862461e73e596",
+      "public_sha256": "e1252c46ef6d265ec1371f14c58ae5b6e6ce80d37dff98d0cb9862461e73e596",
+      "type": "runner summary; not primary outcome evidence"
+    }
+  ],
+  "limits": [
+    "Original full page text stays local. Hashes establish byte identity, not observation truth.",
+    "Public table sample names and example.com addresses are retained as synthetic test data.",
+    "A pattern scan is not a guarantee that no secret exists. Visual image review is separate."
+  ]
+}

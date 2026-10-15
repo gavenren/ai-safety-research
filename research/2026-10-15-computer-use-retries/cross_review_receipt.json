@@ -1,0 +1,62 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "issues": [],
+  "reviewer": "Separate Codex agent; no human or external peer review",
+  "scope": "New 48-trial website extension; original evidence, analysis, images, sources, and report claims. PDF and remote publication are separate.",
+  "report_sha256": "3767dd6fa0f23cd1715ed44e71b7d0c9e9e63af346007e41b6f8e54598e1cbec",
+  "archive_sha256": "ae54890756011aa4c1145d0b35de1e24392b804acfa04447a88e5173cdd2a37b",
+  "input_sha256": {
+    "report.md": "3767dd6fa0f23cd1715ed44e71b7d0c9e9e63af346007e41b6f8e54598e1cbec",
+    "README.md": "2ebbbda79d8abe2fa07215a827c747cfe5076b6a356aaf8a901d5f3bc0ac68e7",
+    "references.bib": "7d488bc3d776ae4e8d999d611633ce035b30ab1a5438fc420d3fd8d05e2d881b",
+    "cross_plan.md": "2b982e509752c6280ad3ca06c0eb9200b11c5cb27c4d9f6eb9dcb52bd962aec9",
+    "cross_plan_manifest.json": "a5757257adc7f8975cc7f820aa217246edbdff0a9d1ff3741b6796fe5a07645f",
+    "cross_assignments.csv": "55991fb6975e956f0aa80fb37a9393d85b3ef383fa16f4efc8b2109123a0f2ca",
+    "cross_runner_instructions.md": "b782e9664e9f2b4944ea3920d4a70333ce0c89ce8cebe61d5bc9011359c56dcf",
+    "cross_runner_q_actions.jsonl": "b7ecb4dece7ff925ee8ac81929f314bde872daf1fe5729ec246929685d89938a",
+    "cross_runner_d_actions.jsonl": "fc810655b30a47228a74401116668559f56174d3ee6e5a3ab971cba27be6105b",
+    "cross_runner_q_results.json": "ca173a721aeecc4805f1ec3cc2cf8d5f6ed7edbfbb566ab6fd851aab509424c6",
+    "cross_runner_d_results.json": "e1252c46ef6d265ec1371f14c58ae5b6e6ce80d37dff98d0cb9862461e73e596",
+    "cross_trials.csv": "a13fc869911114c15c7f266fa9c39f84488a017451158ac84dd6abd378ad77a1",
+    "cross_groups.csv": "700610077805bc1654f9c3e244c30da3868d1a5a2d1e6b9fe3819660b8cd4fca",
+    "cross_summary.json": "c8830fe23314014c926b105d1a5ef233e70e6f88ece3d81006c89f078a0a72e8",
+    "cross_analysis_checks.json": "ad72c6341b566bf889940ac35524d1dd28fe6e9ba6baabd8bc57a8a3ae4b1c77",
+    "cross_analysis_log.txt": "d9b125ec5bb31c6a0a5e736caf488205dd3fc1b7df40689fa36b07b40a681db7",
+    "cross_analyze.py": "befd9d64e240973bab50d3184510f020407d68e841003ecfea601d8641f80570",
+    "cross_independent_replay.py": "bd4dd57cf5bccec5b4dd3346598edaf3739cebb6dea3efbd43d1e41365417f82",
+    "cross_independent_replay.json": "132e8a2af24183389e698e480ae97af39d52e7c18001a73d5c53238ec9b5e7c8",
+    "cross_private_review.json": "4383684b5021d0667f0541be3e3c1d24f6aaeed6d62e2c079c06e7961a541863",
+    "cross_image_review.json": "93ed3ca9ffcfffc1248114a495c39cbabeb303f41b2050db718fb71b33e4648d",
+    "cross_image_manifest.json": "29450230ef632079f1a89687b3405126e3e3d3456deffc38eb3094495c83ddd4",
+    "cross_source_search.md": "871b3819f8a87c4b0058e9a74ac9b2faa4b79cbd18cd63ca41da104a4f25fbcc",
+    "cross_changes.md": "e4eabf9cdf10789f31ddcbb270d115232db4ba8424f119f69c792aa89b0f2101",
+    "cross_review.md": "3ed3c03aaa52ab1aadf889ab668a1fc5656e27ed52436d3754074b090f1df8af"
+  },
+  "trial_checks_passed": 1448,
+  "complete_trials": 48,
+  "records_compared": 903,
+  "state_strings_compared": 948,
+  "public_images_reviewed": 145,
+  "unique_image_byte_patterns_reviewed": 54,
+  "main_output_files_reproduced_identically": 5,
+  "material_limitations": [
+    "Selected public demos with temporary page effects, not independent service persistence.",
+    "DataTables footer totals are visible and deliberately excluded by the supplied policy.",
+    "D03 original audit crop omits status and pagination; later full task capture is separately timed and does not alter the decision.",
+    "One runner per site; repeated shared contexts do not support population claims.",
+    "Exact model build and internal inference hardware are unavailable; logs are not a secure execution attestation."
+  ],
+  "minor_edits_resolved": [
+    "Abstract uses temporary browser state rather than a general storage claim.",
+    "README includes the independent replay command.",
+    "Final documentation check: cross_changes records 197 protected prior files and the font-check fallback. FONT_LICENSE adds Mono to the six-subset header; its license body is unchanged. The historical notice exactly matches the prior release. Other reviewed inputs are unchanged. No trial or image rerun was needed."
+  ],
+  "sources_checked": [
+    "https://datatables.net/examples/core/api/add_row.html",
+    "https://datatables.net/ref/core/api/row.add%28%29",
+    "https://arxiv.org/html/2510.03285v1",
+    "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2",
+    "https://demoqa.com/webtables",
+    "https://neurips.cc/public/guides/PaperChecklist"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-15T19:01:14.374973+00:00",
+  "os": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "chrome_app_version": "155.0.8059.40",
+  "agent": "Codex, GPT-6 family; two separate delegated browser contexts under supplied rules",
+  "exact_model_build": "Not exposed",
+  "sampling_settings": "Not exposed; assignment seed controls order only",
+  "assignment_seed": 20261016,
+  "shared_resources": "One host and browser service; separate site tabs",
+  "datatables_visible_library_version": "3.1.4 from the rendered public library link",
+  "demoqa_build": "Not exposed by the task page",
+  "tools": "Supported CUA browser text/actions/screenshots; no connector used for experimental actions",
+  "training": "None",
+  "new_paid_services": "None",
+  "inference_hardware": "Not exposed",
+  "limits": "Two selected public table demonstrations; no server audit."
+}

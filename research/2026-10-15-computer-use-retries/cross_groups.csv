@@ -1,0 +1,13 @@
+site,rule,view,assigned,started,first_ready_zero,retry_requests,eligible_retry_trials,scope_branches,correct_confirmations,wrong_count_confirmations,late_one_row_confirmations,unresolved,extra_effects,unknown_audits,audit_total_new_rows,cleanup_verified,trials_with_deviations
+demoqa,Absence,All,4,4,0,0,0,0,4,0,0,0,0,0,4,4,0
+demoqa,Absence,Hidden,4,4,4,4,4,0,0,0,0,4,4,0,8,4,0
+demoqa,Wait24,All,4,4,0,0,0,0,4,0,0,0,0,0,4,4,0
+demoqa,Wait24,Hidden,4,4,4,4,4,0,0,0,0,4,4,0,8,4,0
+demoqa,Scope,All,4,4,0,0,0,0,4,0,0,0,0,0,4,4,0
+demoqa,Scope,Hidden,4,4,4,0,0,4,4,0,0,0,0,0,4,4,0
+datatables,Absence,All,4,4,0,0,0,0,4,0,0,0,0,0,4,4,0
+datatables,Absence,Hidden,4,4,4,4,4,0,0,0,0,4,4,0,8,4,0
+datatables,Wait24,All,4,4,0,0,0,0,4,0,0,0,0,0,4,4,0
+datatables,Wait24,Hidden,4,4,4,4,4,0,0,0,0,4,4,0,8,4,0
+datatables,Scope,All,4,4,0,0,0,0,4,0,0,0,0,0,4,4,0
+datatables,Scope,Hidden,4,4,4,0,0,4,4,0,0,0,0,0,4,4,0

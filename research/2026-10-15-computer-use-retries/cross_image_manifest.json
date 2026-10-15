@@ -1,0 +1,882 @@
+{
+  "images": [
+    {
+      "filename": "Q01-audit.jpg",
+      "bytes": 47088,
+      "sha256": "1cce6a061e4d5b4fadeeb2ba987587407fa9395750892639c5a9d80bae35e960",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q01-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q01-decision.jpg",
+      "bytes": 46212,
+      "sha256": "8d3d9428d9497ed17015640a8c1c006aad41483810be22a6e02d89a29a83a3f1",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q02-audit.jpg",
+      "bytes": 47061,
+      "sha256": "d8da83d7f613821cde6e09653c40fc4d558a5fa2de6c7a01ac3df2def78ae5a4",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q02-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q02-decision.jpg",
+      "bytes": 47124,
+      "sha256": "45848b743d352564a25de2e662c2f5bb1083aa28b1ebc58ae044b830d59303fd",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q03-audit.jpg",
+      "bytes": 47116,
+      "sha256": "42e09661f9d5d86122ad43257a773cd9c3db1207303e8522a33dd19113d1f813",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q03-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q03-decision.jpg",
+      "bytes": 46228,
+      "sha256": "a5c1ddc91c10208ebf619d024d819c8b8c1aa837673297c48378fdb62713ee5f",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q04-audit.jpg",
+      "bytes": 52950,
+      "sha256": "b14ce8c03dd810bf1cd3aafa1123a2758300c24ed2a6dae1b460e5c2344669b5",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q04-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q04-decision.jpg",
+      "bytes": 22861,
+      "sha256": "3088996012ea56da6ff03b7a15a908761a565ad6bff6f0ad993c80acf2062ff0",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q05-audit.jpg",
+      "bytes": 47117,
+      "sha256": "b13d2fea5f941b8088e01e8a925f08e5c748ccca3959336fc3b23d225a603bce",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q05-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q05-decision.jpg",
+      "bytes": 46237,
+      "sha256": "55c1243a4c4cfc2b3a3974437c49128647f4b6137a5cef0b13359b76bb95b3d5",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q06-audit.jpg",
+      "bytes": 53117,
+      "sha256": "36c5ac165a8247d3c7d45f957a00dd0670fe94a355ca1b064639e06eb12671af",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q06-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q06-decision.jpg",
+      "bytes": 22861,
+      "sha256": "3088996012ea56da6ff03b7a15a908761a565ad6bff6f0ad993c80acf2062ff0",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q07-audit.jpg",
+      "bytes": 47069,
+      "sha256": "b3fb444fc2ebd97a59f9127c77ad81b25027873dcd8a0905c3142eafff1074ee",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q07-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q07-decision.jpg",
+      "bytes": 46193,
+      "sha256": "8d6023c40ae21d7dfbbb01e2c74d942c09a558e17c538e6fe3f77913b7eb848d",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q08-audit.jpg",
+      "bytes": 47140,
+      "sha256": "83aedd0c5ebfa2845d42e6723e660bbdf7aa6498c034a1758ce8ee3c4d7fbcd5",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q08-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q08-decision.jpg",
+      "bytes": 47140,
+      "sha256": "83aedd0c5ebfa2845d42e6723e660bbdf7aa6498c034a1758ce8ee3c4d7fbcd5",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q09-audit.jpg",
+      "bytes": 47127,
+      "sha256": "c60c96b0c26d779297473c06ca141fd48a4602bfea6fa8fc81ae2a53764e4221",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q09-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q09-decision.jpg",
+      "bytes": 46242,
+      "sha256": "40ae4fe5011c265fdf81c56be3eff9eccd796b632b67c710b2a32d4f9f611891",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q10-audit.jpg",
+      "bytes": 46999,
+      "sha256": "3bed87ef0430bfb38ab3c0137a474c1df96489cb09f75163598d52b62b0488b4",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q10-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q10-decision.jpg",
+      "bytes": 46189,
+      "sha256": "d5ae5ae10b1f47fdf1d7ba419bf7c1929e0ed57394debc94dc149e26198a1632",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q11-audit.jpg",
+      "bytes": 52738,
+      "sha256": "cfe93c4a1834c55c1d0757f1437b6c8449ab441c2fe2c48f39f65407235fa471",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q11-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q11-decision.jpg",
+      "bytes": 22861,
+      "sha256": "3088996012ea56da6ff03b7a15a908761a565ad6bff6f0ad993c80acf2062ff0",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q12-audit.jpg",
+      "bytes": 52825,
+      "sha256": "4a353b7b864aa1b5221babeaa6100634e7d3ca90064cfc91fad78c932e713850",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q12-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q12-decision.jpg",
+      "bytes": 22861,
+      "sha256": "3088996012ea56da6ff03b7a15a908761a565ad6bff6f0ad993c80acf2062ff0",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q13-audit.jpg",
+      "bytes": 52936,
+      "sha256": "789830f38b0ee6a121a99765ae9d1cef97f0891bfd547183fd1356e6e415218d",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q13-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q13-decision.jpg",
+      "bytes": 22861,
+      "sha256": "3088996012ea56da6ff03b7a15a908761a565ad6bff6f0ad993c80acf2062ff0",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q14-audit.jpg",
+      "bytes": 47112,
+      "sha256": "18b5c30a82314ea6dc5a933c008e03aca198473d3bd8484d49d538028849048e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q14-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q14-decision.jpg",
+      "bytes": 47112,
+      "sha256": "18b5c30a82314ea6dc5a933c008e03aca198473d3bd8484d49d538028849048e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q15-audit.jpg",
+      "bytes": 53022,
+      "sha256": "9124c091fb77dd674ef6efc68b06a532dee7a493eb9877ba104213c47a2e70cb",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q15-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q15-decision.jpg",
+      "bytes": 22861,
+      "sha256": "3088996012ea56da6ff03b7a15a908761a565ad6bff6f0ad993c80acf2062ff0",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q16-audit.jpg",
+      "bytes": 47126,
+      "sha256": "c478420c3c440d425782f29b2be6a33900d96870a2a6177cce4c79df9329f440",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q16-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q16-decision.jpg",
+      "bytes": 46246,
+      "sha256": "6b9645226c275c8cc90879f331d9dcdc16b8e1021bc74a13502f9c3fc0e8b812",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q17-audit.jpg",
+      "bytes": 47014,
+      "sha256": "b287858c10549b9530063f23d215d1f9acffc0b2eeb3978b231a26b6618bf15d",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q17-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q17-decision.jpg",
+      "bytes": 46125,
+      "sha256": "e014e2826f66fe7048f4135fd54202b126da659ba6168e8623717788ffc567e7",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q18-audit.jpg",
+      "bytes": 47071,
+      "sha256": "8534a92f9527761c33a6c168fbd4a8ab5e0710e9653fb534bbd6602cb8e3058f",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q18-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q18-decision.jpg",
+      "bytes": 46261,
+      "sha256": "728a6614bcf8aa6a5602ea5862c67ccb7cc77d234b22b6fec68d8f7c613de3b3",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q19-audit.jpg",
+      "bytes": 47124,
+      "sha256": "1d8e48d89ec674fb51ad80f12397811fda5ff4953c53291c30bde7c456c075c8",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q19-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q19-decision.jpg",
+      "bytes": 46239,
+      "sha256": "c4dc7fb4a1e933d124cfbe3c9f89eb6adec5ed990502f6f665e7c45f58a7b058",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q20-audit.jpg",
+      "bytes": 47112,
+      "sha256": "4f2f40cf836e736dbed49d197ff169f5ff63f2eaaa848e250276917195ec526d",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q20-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q20-decision.jpg",
+      "bytes": 46229,
+      "sha256": "3ac392833d826cd6c356ac838a54d359941d10feb77377fd2c603474600fc0e8",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q21-audit.jpg",
+      "bytes": 52889,
+      "sha256": "3984820fe9c52df9cf19f6ea416ea67e4e58391934791067377b489eb1da8521",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q21-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q21-decision.jpg",
+      "bytes": 22861,
+      "sha256": "3088996012ea56da6ff03b7a15a908761a565ad6bff6f0ad993c80acf2062ff0",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q22-audit.jpg",
+      "bytes": 53068,
+      "sha256": "d6e77a5afb62b6d9a606237ce3840091c70103709b9e140be545b9421811c13f",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q22-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q22-decision.jpg",
+      "bytes": 22861,
+      "sha256": "3088996012ea56da6ff03b7a15a908761a565ad6bff6f0ad993c80acf2062ff0",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q23-audit.jpg",
+      "bytes": 47135,
+      "sha256": "c71ef73f3d95bdc86de8faef94e7cc13f58ec7597fd5f0ec56dd87fcd392754a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q23-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q23-decision.jpg",
+      "bytes": 46262,
+      "sha256": "95bb0c6114e0eb5a342aa9ad3efe1afdcbce77fdbf9f6584d24a4a9a4609dc44",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q24-audit.jpg",
+      "bytes": 47132,
+      "sha256": "c35a78b05a03454603fef31c9769409f4847631da58675cbefec1640756885b7",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q24-cleanup.jpg",
+      "bytes": 39400,
+      "sha256": "eaa865aa87e87df4f31d06066ab1c1a598754f1c3365f08bddd40b5dc7159d23",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "Q24-decision.jpg",
+      "bytes": 47061,
+      "sha256": "f99e9da023319865ea9599061986ae3b7a1aeb6d16001bc917a9de39d0e1ad26",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D01-audit.jpg",
+      "bytes": 23515,
+      "sha256": "96c880cecf5dc4d7182625eb1a48a4005fb6cb082bc0636f9fc3c6154f74d01a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D01-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D01-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D02-audit.jpg",
+      "bytes": 23553,
+      "sha256": "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D02-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D02-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D03-audit-expanded.jpg",
+      "bytes": 25891,
+      "sha256": "440fa1fefce2c8c7dd8e0f4f185809630afbc59362ba574b70c4fe0aa836a11c",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D03-audit.jpg",
+      "bytes": 23549,
+      "sha256": "f015be1c633aa7ef5d5f25bd3c4e9e4104020930ddacfeec1b6cd2b48579d3a1",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D03-cleanup.jpg",
+      "bytes": 24346,
+      "sha256": "d44e6769a9c90a6f0a30dd5752734381661dbe712910df7d8eff0d55c6bbfc06",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D03-decision.jpg",
+      "bytes": 27342,
+      "sha256": "fcc19aa285a54fb1838be4be6d3de5707b08e2aec7eab6e62a92bd02547ceb8a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D04-audit.jpg",
+      "bytes": 25583,
+      "sha256": "0599ef122dfe3ada3890866224891de576e59a8f85bf45e95f8e26e967710cbe",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D04-cleanup.jpg",
+      "bytes": 24346,
+      "sha256": "d44e6769a9c90a6f0a30dd5752734381661dbe712910df7d8eff0d55c6bbfc06",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D04-decision.jpg",
+      "bytes": 27342,
+      "sha256": "fcc19aa285a54fb1838be4be6d3de5707b08e2aec7eab6e62a92bd02547ceb8a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D05-audit.jpg",
+      "bytes": 23515,
+      "sha256": "96c880cecf5dc4d7182625eb1a48a4005fb6cb082bc0636f9fc3c6154f74d01a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D05-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D05-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D06-audit.jpg",
+      "bytes": 23453,
+      "sha256": "138525f45238d5601cacd746c404497df10003e195b688ca52b98a9ae8f147be",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D06-cleanup.jpg",
+      "bytes": 24346,
+      "sha256": "d44e6769a9c90a6f0a30dd5752734381661dbe712910df7d8eff0d55c6bbfc06",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D06-decision.jpg",
+      "bytes": 23438,
+      "sha256": "d30b7dce334c4daf685eaae205394a8abd85574aa3e618ad0cd657b1c0163923",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D07-audit.jpg",
+      "bytes": 25598,
+      "sha256": "e138128598f811901b53bf4a2f45ea4b6c3257b91d1258601fbd1e67901b1049",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D07-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D07-decision.jpg",
+      "bytes": 27342,
+      "sha256": "fcc19aa285a54fb1838be4be6d3de5707b08e2aec7eab6e62a92bd02547ceb8a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D08-audit.jpg",
+      "bytes": 23515,
+      "sha256": "96c880cecf5dc4d7182625eb1a48a4005fb6cb082bc0636f9fc3c6154f74d01a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D08-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D08-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D09-audit.jpg",
+      "bytes": 23464,
+      "sha256": "5a5b3ca99385c315f2580a3f531376c8a5b371fc49943829e9d892250de866d9",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D09-cleanup.jpg",
+      "bytes": 24346,
+      "sha256": "d44e6769a9c90a6f0a30dd5752734381661dbe712910df7d8eff0d55c6bbfc06",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D09-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D10-audit.jpg",
+      "bytes": 23553,
+      "sha256": "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D10-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D10-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D11-audit.jpg",
+      "bytes": 23553,
+      "sha256": "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D11-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D11-decision.jpg",
+      "bytes": 23515,
+      "sha256": "96c880cecf5dc4d7182625eb1a48a4005fb6cb082bc0636f9fc3c6154f74d01a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D12-audit.jpg",
+      "bytes": 25598,
+      "sha256": "e138128598f811901b53bf4a2f45ea4b6c3257b91d1258601fbd1e67901b1049",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D12-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D12-decision.jpg",
+      "bytes": 27342,
+      "sha256": "fcc19aa285a54fb1838be4be6d3de5707b08e2aec7eab6e62a92bd02547ceb8a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D13-audit.jpg",
+      "bytes": 23553,
+      "sha256": "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D13-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D13-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D14-audit.jpg",
+      "bytes": 25598,
+      "sha256": "e138128598f811901b53bf4a2f45ea4b6c3257b91d1258601fbd1e67901b1049",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D14-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D14-decision.jpg",
+      "bytes": 27342,
+      "sha256": "fcc19aa285a54fb1838be4be6d3de5707b08e2aec7eab6e62a92bd02547ceb8a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D15-audit.jpg",
+      "bytes": 23553,
+      "sha256": "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D15-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D15-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D16-audit.jpg",
+      "bytes": 25646,
+      "sha256": "7822823db90fd9efcd2b05bffe16724005f6235302759adfded58e90cb0841a1",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D16-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D16-decision.jpg",
+      "bytes": 27342,
+      "sha256": "fcc19aa285a54fb1838be4be6d3de5707b08e2aec7eab6e62a92bd02547ceb8a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D17-audit.jpg",
+      "bytes": 23553,
+      "sha256": "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D17-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D17-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D18-audit.jpg",
+      "bytes": 23515,
+      "sha256": "96c880cecf5dc4d7182625eb1a48a4005fb6cb082bc0636f9fc3c6154f74d01a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D18-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D18-decision.jpg",
+      "bytes": 23553,
+      "sha256": "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D19-audit.jpg",
+      "bytes": 23553,
+      "sha256": "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D19-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D19-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D20-audit.jpg",
+      "bytes": 23515,
+      "sha256": "96c880cecf5dc4d7182625eb1a48a4005fb6cb082bc0636f9fc3c6154f74d01a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D20-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D20-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D21-audit.jpg",
+      "bytes": 25646,
+      "sha256": "7822823db90fd9efcd2b05bffe16724005f6235302759adfded58e90cb0841a1",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D21-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D21-decision.jpg",
+      "bytes": 27342,
+      "sha256": "fcc19aa285a54fb1838be4be6d3de5707b08e2aec7eab6e62a92bd02547ceb8a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D22-audit.jpg",
+      "bytes": 23553,
+      "sha256": "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D22-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D22-decision.jpg",
+      "bytes": 22839,
+      "sha256": "0b412494cbf5c1d1652348f8361ef861cd5254c5f0ce7db0b2dde3745b69fba6",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D23-audit.jpg",
+      "bytes": 23464,
+      "sha256": "5a5b3ca99385c315f2580a3f531376c8a5b371fc49943829e9d892250de866d9",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D23-cleanup.jpg",
+      "bytes": 24346,
+      "sha256": "d44e6769a9c90a6f0a30dd5752734381661dbe712910df7d8eff0d55c6bbfc06",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D23-decision.jpg",
+      "bytes": 23553,
+      "sha256": "3b821ce01f28e07ae622bcdc2d9bc23e889740ae98c8f8b10193828cd85c461e",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D24-audit.jpg",
+      "bytes": 25646,
+      "sha256": "7822823db90fd9efcd2b05bffe16724005f6235302759adfded58e90cb0841a1",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D24-cleanup.jpg",
+      "bytes": 24067,
+      "sha256": "b8682cfb8b5ba7c9aaa6257f68e9f4d1ac3e8dc0478c0296bcaf48558bfb4c6a",
+      "byte_format": "JPEG"
+    },
+    {
+      "filename": "D24-decision.jpg",
+      "bytes": 27342,
+      "sha256": "fcc19aa285a54fb1838be4be6d3de5707b08e2aec7eab6e62a92bd02547ceb8a",
+      "byte_format": "JPEG"
+    }
+  ],
+  "private_images_not_published": [
+    {
+      "filename": "D03-audit-full-private.jpg",
+      "bytes": 121606,
+      "sha256": "8d1167d15714dbc3856519707abf42c53e94344296d5c64694c5ff81cbee02c3",
+      "byte_format": "JPEG"
+    }
+  ]
+}

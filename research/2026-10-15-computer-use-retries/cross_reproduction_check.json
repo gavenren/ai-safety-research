@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-15T19:17:14.018357+00:00",
+  "command": "python3 cross_analyze.py --input-dir . --output-dir .",
+  "python": "3.14.7",
+  "separate_copy": true,
+  "network_browser_model_calls": false,
+  "returncode": 0,
+  "matching_outputs": {
+    "cross_trials.csv": true,
+    "cross_groups.csv": true,
+    "cross_summary.json": true,
+    "cross_analysis_checks.json": true,
+    "cross_analysis_log.txt": true
+  },
+  "output_sha256": {
+    "cross_trials.csv": "a13fc869911114c15c7f266fa9c39f84488a017451158ac84dd6abd378ad77a1",
+    "cross_groups.csv": "700610077805bc1654f9c3e244c30da3868d1a5a2d1e6b9fe3819660b8cd4fca",
+    "cross_summary.json": "c8830fe23314014c926b105d1a5ef233e70e6f88ece3d81006c89f078a0a72e8",
+    "cross_analysis_checks.json": "ad72c6341b566bf889940ac35524d1dd28fe6e9ba6baabd8bc57a8a3ae4b1c77",
+    "cross_analysis_log.txt": "d9b125ec5bb31c6a0a5e736caf488205dd3fc1b7df40689fa36b07b40a681db7"
+  },
+  "analyzer_sha256": "befd9d64e240973bab50d3184510f020407d68e841003ecfea601d8641f80570",
+  "independent_replay": {
+    "command": "python3 cross_independent_replay.py",
+    "separate_copy": true,
+    "returncode": 0,
+    "same_bytes": true,
+    "sha256": "132e8a2af24183389e698e480ae97af39d52e7c18001a73d5c53238ec9b5e7c8"
+  }
+}

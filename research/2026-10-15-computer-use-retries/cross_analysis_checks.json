@@ -1,0 +1,2669 @@
+{
+  "assignment_order_matches": true,
+  "errors": [],
+  "frozen_file_hashes_match": {
+    "cross_assignments.csv": true,
+    "cross_plan.md": true,
+    "cross_preflight.md": true,
+    "cross_runner_instructions.md": true
+  },
+  "manual_mismatches": {},
+  "observation_parses": [
+    {
+      "elapsed_seconds": 0.298,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q01-20261015",
+            "TEMP",
+            "30",
+            "retry-q01@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q01-20261015",
+            "TEMP",
+            "30",
+            "retry-q01@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 8,
+      "trial_id": "Q01"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 26,
+      "trial_id": "Q02"
+    },
+    {
+      "elapsed_seconds": 2.259,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q02-20261015",
+            "TEMP",
+            "30",
+            "retry-q02@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q02-20261015",
+            "TEMP",
+            "30",
+            "retry-q02@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "scope_observation",
+      "record_id": 28,
+      "trial_id": "Q02"
+    },
+    {
+      "elapsed_seconds": 0.3,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q03-20261015",
+            "TEMP",
+            "30",
+            "retry-q03@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q03-20261015",
+            "TEMP",
+            "30",
+            "retry-q03@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 46,
+      "trial_id": "Q03"
+    },
+    {
+      "elapsed_seconds": 0.289,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 64,
+      "trial_id": "Q04"
+    },
+    {
+      "elapsed_seconds": 27.689,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "wait24_observation",
+      "record_id": 65,
+      "trial_id": "Q04"
+    },
+    {
+      "elapsed_seconds": 38.392,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 69,
+      "trial_id": "Q04"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q05-20261015",
+            "TEMP",
+            "30",
+            "retry-q05@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q05-20261015",
+            "TEMP",
+            "30",
+            "retry-q05@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 87,
+      "trial_id": "Q05"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 105,
+      "trial_id": "Q06"
+    },
+    {
+      "elapsed_seconds": 7.921,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 109,
+      "trial_id": "Q06"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q07-20261015",
+            "TEMP",
+            "30",
+            "retry-q07@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q07-20261015",
+            "TEMP",
+            "30",
+            "retry-q07@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 127,
+      "trial_id": "Q07"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 145,
+      "trial_id": "Q08"
+    },
+    {
+      "elapsed_seconds": 2.781,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q08-20261015",
+            "TEMP",
+            "30",
+            "retry-q08@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q08-20261015",
+            "TEMP",
+            "30",
+            "retry-q08@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "scope_observation",
+      "record_id": 147,
+      "trial_id": "Q08"
+    },
+    {
+      "elapsed_seconds": 0.296,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q09-20261015",
+            "TEMP",
+            "30",
+            "retry-q09@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q09-20261015",
+            "TEMP",
+            "30",
+            "retry-q09@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 165,
+      "trial_id": "Q09"
+    },
+    {
+      "elapsed_seconds": 0.291,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q10-20261015",
+            "TEMP",
+            "30",
+            "retry-q10@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q10-20261015",
+            "TEMP",
+            "30",
+            "retry-q10@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 183,
+      "trial_id": "Q10"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 201,
+      "trial_id": "Q11"
+    },
+    {
+      "elapsed_seconds": 9.226,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 205,
+      "trial_id": "Q11"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 223,
+      "trial_id": "Q12"
+    },
+    {
+      "elapsed_seconds": 28.883,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "wait24_observation",
+      "record_id": 224,
+      "trial_id": "Q12"
+    },
+    {
+      "elapsed_seconds": 35.91,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 228,
+      "trial_id": "Q12"
+    },
+    {
+      "elapsed_seconds": 0.291,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 246,
+      "trial_id": "Q13"
+    },
+    {
+      "elapsed_seconds": 7.667,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 250,
+      "trial_id": "Q13"
+    },
+    {
+      "elapsed_seconds": 0.295,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 268,
+      "trial_id": "Q14"
+    },
+    {
+      "elapsed_seconds": 2.661,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q14-20261015",
+            "TEMP",
+            "30",
+            "retry-q14@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q14-20261015",
+            "TEMP",
+            "30",
+            "retry-q14@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "scope_observation",
+      "record_id": 270,
+      "trial_id": "Q14"
+    },
+    {
+      "elapsed_seconds": 0.291,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 288,
+      "trial_id": "Q15"
+    },
+    {
+      "elapsed_seconds": 28.11,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "wait24_observation",
+      "record_id": 289,
+      "trial_id": "Q15"
+    },
+    {
+      "elapsed_seconds": 36.672,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 293,
+      "trial_id": "Q15"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q16-20261015",
+            "TEMP",
+            "30",
+            "retry-q16@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q16-20261015",
+            "TEMP",
+            "30",
+            "retry-q16@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 311,
+      "trial_id": "Q16"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q17-20261015",
+            "TEMP",
+            "30",
+            "retry-q17@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q17-20261015",
+            "TEMP",
+            "30",
+            "retry-q17@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 329,
+      "trial_id": "Q17"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q18-20261015",
+            "TEMP",
+            "30",
+            "retry-q18@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q18-20261015",
+            "TEMP",
+            "30",
+            "retry-q18@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 347,
+      "trial_id": "Q18"
+    },
+    {
+      "elapsed_seconds": 0.311,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q19-20261015",
+            "TEMP",
+            "30",
+            "retry-q19@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q19-20261015",
+            "TEMP",
+            "30",
+            "retry-q19@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 365,
+      "trial_id": "Q19"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q20-20261015",
+            "TEMP",
+            "30",
+            "retry-q20@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q20-20261015",
+            "TEMP",
+            "30",
+            "retry-q20@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 383,
+      "trial_id": "Q20"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 401,
+      "trial_id": "Q21"
+    },
+    {
+      "elapsed_seconds": 7.063,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 405,
+      "trial_id": "Q21"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 423,
+      "trial_id": "Q22"
+    },
+    {
+      "elapsed_seconds": 28.294,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "wait24_observation",
+      "record_id": 424,
+      "trial_id": "Q22"
+    },
+    {
+      "elapsed_seconds": 35.961,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 428,
+      "trial_id": "Q22"
+    },
+    {
+      "elapsed_seconds": 0.295,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q23-20261015",
+            "TEMP",
+            "30",
+            "retry-q23@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q23-20261015",
+            "TEMP",
+            "30",
+            "retry-q23@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 446,
+      "trial_id": "Q23"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "parsed": {
+        "count": 0,
+        "footer": null,
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 464,
+      "trial_id": "Q24"
+    },
+    {
+      "elapsed_seconds": 3.631,
+      "parsed": {
+        "count": 1,
+        "footer": null,
+        "ready": true,
+        "rows": [
+          [
+            "Cierra",
+            "Vega",
+            "39",
+            "cierra@example.com",
+            "10000",
+            "Insurance",
+            "EditDelete"
+          ],
+          [
+            "Alden",
+            "Cantrell",
+            "45",
+            "alden@example.com",
+            "12000",
+            "Compliance",
+            "EditDelete"
+          ],
+          [
+            "Kierra",
+            "Gentry",
+            "29",
+            "kierra@example.com",
+            "2000",
+            "Legal",
+            "EditDelete"
+          ],
+          [
+            "CROSS-Q24-20261015",
+            "TEMP",
+            "30",
+            "retry-q24@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "CROSS-Q24-20261015",
+            "TEMP",
+            "30",
+            "retry-q24@example.com",
+            "1",
+            "Test",
+            "EditDelete"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "scope_observation",
+      "record_id": 466,
+      "trial_id": "Q24"
+    },
+    {
+      "elapsed_seconds": 0.388,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 6,
+      "trial_id": "D01"
+    },
+    {
+      "elapsed_seconds": 0.303,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 21,
+      "trial_id": "D02"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 37,
+      "trial_id": "D03"
+    },
+    {
+      "elapsed_seconds": 2.864,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 3
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 39,
+      "trial_id": "D03"
+    },
+    {
+      "elapsed_seconds": 0.303,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 58,
+      "trial_id": "D04"
+    },
+    {
+      "elapsed_seconds": 27.277,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "wait24_observation",
+      "record_id": 59,
+      "trial_id": "D04"
+    },
+    {
+      "elapsed_seconds": 30.262,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 3
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 61,
+      "trial_id": "D04"
+    },
+    {
+      "elapsed_seconds": 0.3,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 76,
+      "trial_id": "D05"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 92,
+      "trial_id": "D06"
+    },
+    {
+      "elapsed_seconds": 3.342,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "scope_observation",
+      "record_id": 94,
+      "trial_id": "D06"
+    },
+    {
+      "elapsed_seconds": 0.314,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 110,
+      "trial_id": "D07"
+    },
+    {
+      "elapsed_seconds": 4.791,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 3
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 112,
+      "trial_id": "D07"
+    },
+    {
+      "elapsed_seconds": 0.309,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 127,
+      "trial_id": "D08"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 142,
+      "trial_id": "D09"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 157,
+      "trial_id": "D10"
+    },
+    {
+      "elapsed_seconds": 0.326,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 173,
+      "trial_id": "D11"
+    },
+    {
+      "elapsed_seconds": 5.809,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "scope_observation",
+      "record_id": 175,
+      "trial_id": "D11"
+    },
+    {
+      "elapsed_seconds": 0.294,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 191,
+      "trial_id": "D12"
+    },
+    {
+      "elapsed_seconds": 29.488,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "wait24_observation",
+      "record_id": 192,
+      "trial_id": "D12"
+    },
+    {
+      "elapsed_seconds": 33.007,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 3
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 194,
+      "trial_id": "D12"
+    },
+    {
+      "elapsed_seconds": 0.344,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 209,
+      "trial_id": "D13"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 225,
+      "trial_id": "D14"
+    },
+    {
+      "elapsed_seconds": 3.57,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 3
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 227,
+      "trial_id": "D14"
+    },
+    {
+      "elapsed_seconds": 0.309,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 242,
+      "trial_id": "D15"
+    },
+    {
+      "elapsed_seconds": 0.316,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 258,
+      "trial_id": "D16"
+    },
+    {
+      "elapsed_seconds": 28.864,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "wait24_observation",
+      "record_id": 259,
+      "trial_id": "D16"
+    },
+    {
+      "elapsed_seconds": 32.009,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 3
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 261,
+      "trial_id": "D16"
+    },
+    {
+      "elapsed_seconds": 0.295,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 276,
+      "trial_id": "D17"
+    },
+    {
+      "elapsed_seconds": 0.336,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 292,
+      "trial_id": "D18"
+    },
+    {
+      "elapsed_seconds": 4.375,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "scope_observation",
+      "record_id": 294,
+      "trial_id": "D18"
+    },
+    {
+      "elapsed_seconds": 0.323,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 309,
+      "trial_id": "D19"
+    },
+    {
+      "elapsed_seconds": 0.303,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 324,
+      "trial_id": "D20"
+    },
+    {
+      "elapsed_seconds": 0.353,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 340,
+      "trial_id": "D21"
+    },
+    {
+      "elapsed_seconds": 28.992,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "wait24_observation",
+      "record_id": 341,
+      "trial_id": "D21"
+    },
+    {
+      "elapsed_seconds": 32.324,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 3
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 343,
+      "trial_id": "D21"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "first_observation",
+      "record_id": 358,
+      "trial_id": "D22"
+    },
+    {
+      "elapsed_seconds": 0.323,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 374,
+      "trial_id": "D23"
+    },
+    {
+      "elapsed_seconds": 5.173,
+      "parsed": {
+        "count": 1,
+        "footer": {
+          "shown_entries": 2,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [
+          [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5"
+          ],
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "search": "",
+        "target_rows": [
+          [
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5"
+          ]
+        ],
+        "unknown_reasons": [],
+        "view": "All"
+      },
+      "phase": "scope_observation",
+      "record_id": 376,
+      "trial_id": "D23"
+    },
+    {
+      "elapsed_seconds": 0.316,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 2
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "first_observation",
+      "record_id": 392,
+      "trial_id": "D24"
+    },
+    {
+      "elapsed_seconds": 3.574,
+      "parsed": {
+        "count": 0,
+        "footer": {
+          "shown_entries": 0,
+          "total_entries": 3
+        },
+        "ready": true,
+        "rows": [],
+        "search": "CROSS-NOMATCH",
+        "target_rows": [],
+        "unknown_reasons": [],
+        "view": "Hidden"
+      },
+      "phase": "final_observation",
+      "record_id": 394,
+      "trial_id": "D24"
+    }
+  ],
+  "parser_sanity_checks": [
+    {
+      "name": "demoqa_exact_cells_not_input_mentions",
+      "pass": true
+    },
+    {
+      "name": "demoqa_exact_token_not_prefix",
+      "pass": true
+    },
+    {
+      "name": "demoqa_empty_complete_hidden_zero",
+      "pass": true
+    },
+    {
+      "name": "demoqa_missing_search_unknown",
+      "pass": true
+    },
+    {
+      "name": "demoqa_open_form_unknown",
+      "pass": true
+    },
+    {
+      "name": "pagination_enabled_unknown",
+      "pass": true
+    },
+    {
+      "name": "missing_header_unknown",
+      "pass": true
+    },
+    {
+      "name": "datatables_baseline_excluded",
+      "pass": true
+    },
+    {
+      "name": "datatables_five_cells_required",
+      "pass": true
+    },
+    {
+      "name": "datatables_empty_message_zero",
+      "pass": true
+    },
+    {
+      "name": "datatables_blank_not_zero",
+      "pass": true
+    },
+    {
+      "name": "datatables_footer_not_policy_evidence",
+      "pass": true
+    },
+    {
+      "name": "nondefault_baseline_vector_excluded",
+      "pass": true
+    },
+    {
+      "name": "unknown_search_not_assigned_hidden",
+      "pass": true
+    },
+    {
+      "name": "timestamp_24_boundary",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "python_version": "3.14.7",
+  "repeat_derivation_identical": true,
+  "review_scope": "Author analysis and parser sanity checks. Separate agent review is required.",
+  "runner_record_checks": {
+    "datatables": {
+      "action_observation_chronology_valid": true,
+      "action_observation_times_complete": true,
+      "admission_order_matches_prefix": true,
+      "admitted_trial_order": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24"
+      ],
+      "record_ids_monotonic": true,
+      "records": 404
+    },
+    "demoqa": {
+      "action_observation_chronology_valid": true,
+      "action_observation_times_complete": true,
+      "admission_order_matches_prefix": true,
+      "admitted_trial_order": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q24"
+      ],
+      "record_ids_monotonic": true,
+      "records": 476
+    }
+  },
+  "schema_version": 1,
+  "status": "complete"
+}
