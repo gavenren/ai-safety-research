@@ -1,0 +1,208 @@
+{
+  "status": "PASS",
+  "grid_rows": 1296,
+  "bounds_rows": 128,
+  "policy_rows": 1536,
+  "boundary_counts": [
+    {
+      "rule": "perfect_assumed",
+      "cap_multiplier": "none",
+      "cases": 54,
+      "above_005": 45,
+      "equal_005": 0,
+      "maximum_ties_at_saved_precision": [
+        {
+          "p0": "0.05",
+          "m": 5,
+          "s": "0.1"
+        },
+        {
+          "p0": "0.05",
+          "m": 20,
+          "s": "0.1"
+        },
+        {
+          "p0": "0.05",
+          "m": 100,
+          "s": "0.1"
+        }
+      ],
+      "maximum_probability": "0.7439808620067383808076511344708238385823127662033658679440341795121830",
+      "maximum_at": {
+        "p0": "0.05",
+        "m": 5,
+        "s": "0.1"
+      }
+    },
+    {
+      "rule": "perfect_assumed",
+      "cap_multiplier": 20,
+      "cases": 54,
+      "above_005": 45,
+      "equal_005": 0,
+      "maximum_ties_at_saved_precision": [
+        {
+          "p0": "0.05",
+          "m": 5,
+          "s": "0.1"
+        },
+        {
+          "p0": "0.05",
+          "m": 20,
+          "s": "0.1"
+        },
+        {
+          "p0": "0.05",
+          "m": 100,
+          "s": "0.1"
+        }
+      ],
+      "maximum_probability": "0.7439808620067383808076511344708238385823127662033658679440341795121830",
+      "maximum_at": {
+        "p0": "0.05",
+        "m": 5,
+        "s": "0.1"
+      }
+    },
+    {
+      "rule": "known_sensitivity",
+      "cap_multiplier": "none",
+      "cases": 54,
+      "above_005": 0,
+      "equal_005": 0,
+      "maximum_ties_at_saved_precision": [
+        {
+          "p0": "0.001",
+          "m": 5,
+          "s": "0.5"
+        },
+        {
+          "p0": "0.001",
+          "m": 20,
+          "s": "0.5"
+        },
+        {
+          "p0": "0.001",
+          "m": 100,
+          "s": "0.5"
+        }
+      ],
+      "maximum_probability": "0.04999916370084536359851469517418255571501942777264513203467125641146321",
+      "maximum_at": {
+        "p0": "0.001",
+        "m": 5,
+        "s": "0.5"
+      }
+    },
+    {
+      "rule": "known_sensitivity",
+      "cap_multiplier": 20,
+      "cases": 54,
+      "above_005": 0,
+      "equal_005": 0,
+      "maximum_ties_at_saved_precision": [
+        {
+          "p0": "0.001",
+          "m": 5,
+          "s": "0.5"
+        },
+        {
+          "p0": "0.001",
+          "m": 20,
+          "s": "0.5"
+        },
+        {
+          "p0": "0.001",
+          "m": 100,
+          "s": "0.5"
+        }
+      ],
+      "maximum_probability": "0.04999916370084536359851469517418255571501942777264513203467125641146321",
+      "maximum_at": {
+        "p0": "0.001",
+        "m": 5,
+        "s": "0.5"
+      }
+    },
+    {
+      "rule": "point_estimate",
+      "cap_multiplier": "none",
+      "cases": 54,
+      "above_005": 41,
+      "equal_005": 0,
+      "maximum_ties_at_saved_precision": [
+        {
+          "p0": "0.01",
+          "m": 5,
+          "s": "0.1"
+        }
+      ],
+      "maximum_probability": "0.1130931173769799342853943194902728567378371712194176507740436255764477",
+      "maximum_at": {
+        "p0": "0.01",
+        "m": 5,
+        "s": "0.1"
+      }
+    },
+    {
+      "rule": "point_estimate",
+      "cap_multiplier": 20,
+      "cases": 54,
+      "above_005": 41,
+      "equal_005": 0,
+      "maximum_ties_at_saved_precision": [
+        {
+          "p0": "0.01",
+          "m": 5,
+          "s": "0.1"
+        }
+      ],
+      "maximum_probability": "0.1130931173769799342853943194902728567378371712194176507740436255764477",
+      "maximum_at": {
+        "p0": "0.01",
+        "m": 5,
+        "s": "0.1"
+      }
+    },
+    {
+      "rule": "lower_bound",
+      "cap_multiplier": "none",
+      "cases": 54,
+      "above_005": 0,
+      "equal_005": 0,
+      "maximum_ties_at_saved_precision": [
+        {
+          "p0": "0.001",
+          "m": 100,
+          "s": "1"
+        }
+      ],
+      "maximum_probability": "0.02175494314379284509301566600521534256276725769808904563325798345818394",
+      "maximum_at": {
+        "p0": "0.001",
+        "m": 100,
+        "s": "1"
+      }
+    },
+    {
+      "rule": "lower_bound",
+      "cap_multiplier": 20,
+      "cases": 54,
+      "above_005": 0,
+      "equal_005": 0,
+      "maximum_ties_at_saved_precision": [
+        {
+          "p0": "0.001",
+          "m": 100,
+          "s": "1"
+        }
+      ],
+      "maximum_probability": "0.02175494314379284509301566600521534256276725769808904563325798345818394",
+      "maximum_at": {
+        "p0": "0.001",
+        "m": 100,
+        "s": "1"
+      }
+    }
+  ]
+}

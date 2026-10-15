@@ -1,0 +1,17 @@
+{
+  "run_date": "2026-10-15",
+  "alpha": "0.05",
+  "calibration_error": "0.025",
+  "target_error": "0.025",
+  "targets": ["0.001", "0.01", "0.05"],
+  "calibration_sizes": [5, 20, 100],
+  "sensitivities": ["0.1", "0.25", "0.5", "0.75", "0.9", "1"],
+  "failure_rate_multipliers": ["0.5", "1", "2"],
+  "false_positive_rate": "0",
+  "cap_multipliers": [null, 20],
+  "rules": ["perfect_assumed", "known_sensitivity", "point_estimate", "lower_bound"],
+  "decimal_precision": 70,
+  "root_bisections": 220,
+  "output_decimal_places": 30,
+  "planned_example": {"target": "0.01", "calibration_size": 5, "sensitivity": "0.1"}
+}

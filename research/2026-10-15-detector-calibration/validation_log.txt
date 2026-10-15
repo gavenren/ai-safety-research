@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "python": "3.14.7",
+  "precision": 90,
+  "root_bisections": 290,
+  "saved_output_tolerance": "6E-29",
+  "largest_saved_output_error": "4.99199100091807527762002881420073517213287140626788056141043E-31",
+  "method": "Binomial probability recurrence and lower-CDF complement; 90-digit bisection; integer doubling and binary search. No import of analyze.py.",
+  "checks": {
+    "frozen_input_hashes": "PASS",
+    "binomial_exact_enumeration_cases": 45,
+    "joint_exact_enumeration_cases": 216,
+    "positive_CP_roots_and_brackets": 125,
+    "largest_main_lower_root_error": "5.80328829546903880119190E-67",
+    "CP_endpoint_closed_forms": 6,
+    "policy_rows_all_fields": 1536,
+    "minimum_integer_decision_margin": "1.5125450440182713322177415505702939257946694275588029576404387938178168879221642658E-9",
+    "CP_coverage_conditions": 21,
+    "largest_CP_noncoverage_probability": "0.0243126248651606147177517414093017578125",
+    "grid_rows_all_fields": 1296,
+    "cap_event_inclusion_cases": 648,
+    "failure_rate_monotonicity_groups": 432,
+    "endpoint_and_nonzero_false_positive_cases": 576,
+    "summary_counts_maxima_and_example": "PASS",
+    "all_corrected_null_rows_below_bound": 216,
+    "all_oracle_null_rows_below_005": 216
+  },
+  "unconditional_null_limit": "0.049375"
+}

@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "review_date": "2026-10-15",
+  "completed_utc": "2026-10-15T11:20:20.458247+00:00",
+  "reviewer": "Separate Codex final review agent",
+  "human_review": false,
+  "external_peer_review": false,
+  "procedure": "Copy the study to a fresh folder. Run the three documented commands in the stated environments. Compare each generated file with the release candidate.",
+  "commands": [
+    {
+      "command": "python3 analyze.py > run_log.txt",
+      "environment": "CPython 3.14.7 on Darwin; standard library only",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 validate.py > validation_log.txt",
+      "environment": "CPython 3.14.7 on Darwin; standard library only",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 plot.py > plot_log.txt",
+      "environment": "CPython 3.13.7; Matplotlib 3.10.7; NumPy 2.5.3; Agg backend",
+      "exit_code": 0
+    }
+  ],
+  "output_files_matched": 8,
+  "log_files_matched": 3,
+  "matches": [
+    {
+      "file": "results_bounds.csv",
+      "kind": "output",
+      "sha256": "e417b155a586bb7fa1fac0696bccba57ef8792929edc35e816ab320a61d0695a",
+      "reproduced_sha256": "e417b155a586bb7fa1fac0696bccba57ef8792929edc35e816ab320a61d0695a",
+      "byte_for_byte_match": true
+    },
+    {
+      "file": "results_policy.csv",
+      "kind": "output",
+      "sha256": "e6c2a4800db73b58a883af0d5822adb42101c5746fe89f3ad372446aba0af4d8",
+      "reproduced_sha256": "e6c2a4800db73b58a883af0d5822adb42101c5746fe89f3ad372446aba0af4d8",
+      "byte_for_byte_match": true
+    },
+    {
+      "file": "results_grid.csv",
+      "kind": "output",
+      "sha256": "063fccb0d7b1a999f1958e37377b95ed77b359c8bb3aeac4462e29237beccd35",
+      "reproduced_sha256": "063fccb0d7b1a999f1958e37377b95ed77b359c8bb3aeac4462e29237beccd35",
+      "byte_for_byte_match": true
+    },
+    {
+      "file": "results_summary.json",
+      "kind": "output",
+      "sha256": "09cba8c02e7d9d82aaed110021276e1163d9a8c54d02747b0b88b9fbd25d2d73",
+      "reproduced_sha256": "09cba8c02e7d9d82aaed110021276e1163d9a8c54d02747b0b88b9fbd25d2d73",
+      "byte_for_byte_match": true
+    },
+    {
+      "file": "environment.json",
+      "kind": "output",
+      "sha256": "5885f87a30a1488aff068f3d1572bfa1f47508128671aa94125749dc1ac2d7d7",
+      "reproduced_sha256": "5885f87a30a1488aff068f3d1572bfa1f47508128671aa94125749dc1ac2d7d7",
+      "byte_for_byte_match": true
+    },
+    {
+      "file": "validation_results.json",
+      "kind": "output",
+      "sha256": "bc72d49c32df2dda45d1fb6026640ed8d259dd76192c9bd1375c75fa60500e8c",
+      "reproduced_sha256": "bc72d49c32df2dda45d1fb6026640ed8d259dd76192c9bd1375c75fa60500e8c",
+      "byte_for_byte_match": true
+    },
+    {
+      "file": "plot_environment.json",
+      "kind": "output",
+      "sha256": "6800b96e08c2dc07de3e05c8a4006aa0131a067f676ee5d243e17a8b0c89486a",
+      "reproduced_sha256": "6800b96e08c2dc07de3e05c8a4006aa0131a067f676ee5d243e17a8b0c89486a",
+      "byte_for_byte_match": true
+    },
+    {
+      "file": "figure_calibration.png",
+      "kind": "output",
+      "sha256": "17a1043e2381daa1f3e8d60349478d98b1f1dbf2419ae1ddbbb96a86d2f93738",
+      "reproduced_sha256": "17a1043e2381daa1f3e8d60349478d98b1f1dbf2419ae1ddbbb96a86d2f93738",
+      "byte_for_byte_match": true
+    },
+    {
+      "file": "run_log.txt",
+      "kind": "log",
+      "sha256": "74dc54af5904d340e6655a17e8b61feab512edb2884ae901eb002358da040791",
+      "reproduced_sha256": "74dc54af5904d340e6655a17e8b61feab512edb2884ae901eb002358da040791",
+      "byte_for_byte_match": true
+    },
+    {
+      "file": "validation_log.txt",
+      "kind": "log",
+      "sha256": "bc72d49c32df2dda45d1fb6026640ed8d259dd76192c9bd1375c75fa60500e8c",
+      "reproduced_sha256": "bc72d49c32df2dda45d1fb6026640ed8d259dd76192c9bd1375c75fa60500e8c",
+      "byte_for_byte_match": true
+    },
+    {
+      "file": "plot_log.txt",
+      "kind": "log",
+      "sha256": "d71bf05129ad7c47759583f17d7f05a298718dcab3a0238e16a52bbafd6be7ce",
+      "reproduced_sha256": "d71bf05129ad7c47759583f17d7f05a298718dcab3a0238e16a52bbafd6be7ce",
+      "byte_for_byte_match": true
+    }
+  ],
+  "reviewed_input_sha256": {
+    "report.md": "8616408e22c608bdb69ba12aa95f16d4c9bc3d8c72adceebb7cd716a4580f05c",
+    "README.md": "68f853d83fc09436f458be56f0f8bd7a94af4fe92eaabcf5de61167f7b96450f",
+    "analysis_plan.md": "a5367c11bed1210a1dcddb3e5c1f44523baceccdf4a9fdd42b39c6ef47e96fec",
+    "config.json": "8cf14f992b9fd1c377eb662a0bf4241bf6f688055a76ecbc9cf1817e46ba18b0",
+    "input_manifest.json": "52bc35f67d82453389a89e66842ba40cd8e18800e7e998fdebe69ecff4932ac5",
+    "analyze.py": "fb867e7b3aa60fde79ebae1960a1e7af334cfd2007af40e6fba927f7afe3e1b9",
+    "validate.py": "145651a642791880e61020c8e5044c8ae78300305d8edc7ccaead2c9878cc65d",
+    "plot.py": "7dadb9831bcee4887707f77699352af5e6e10ae4e88c5011291df51cbef82b81",
+    "derivations.md": "5f54af4823c67072fbde31f42d76f1e9e57fc21842ab5f04699e02059d6b3534",
+    "references.bib": "9c1d33413cd45ea3a384a06bd70114241ffa93e7a62f0a6c84c10b4e96d2b673",
+    "source_search.md": "e5b6e59bfa8279afce6e8ad1bcebd56d2d883fe0780146ef53530c27afc25a17",
+    "method_review.md": "4ae3c207e495140196524f054c573dd567aa688b23652308d6cb604c50dee797"
+  },
+  "report_checks": {
+    "boundary_table_rows": 8,
+    "planned_example_table_rows": 5,
+    "control_outcome_table_rows": 6,
+    "conditional_workload_and_no_launch_probability": "PASS",
+    "abstract_and_prose_values": "PASS",
+    "figure_visual_check": "PASS",
+    "whole_batch_skip_policy": "PASS",
+    "proof_and_assumptions": "PASS",
+    "source_claim_support": "PASS",
+    "low_launch_and_true_declaration_limits": "PASS",
+    "AI_and_human_review_disclosure": "PASS",
+    "unsupported_novelty_claims": "NONE FOUND"
+  },
+  "new_failures": [],
+  "material_blockers": [],
+  "publication_status": "Not checked by this review. Remote verification is a separate required step."
+}
