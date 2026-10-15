@@ -1,0 +1,279 @@
+{
+  "files": [
+    {
+      "group": "calendar_preflight",
+      "public_file": "v2_calendar_preflight_cancel-service-audit.json",
+      "records": 1,
+      "original_sha256": "c61c30d70732e6c9930fd932b74c8e7c16a0878034a6be5b556e48164d5a069a",
+      "public_sha256": "c61c30d70732e6c9930fd932b74c8e7c16a0878034a6be5b556e48164d5a069a"
+    },
+    {
+      "group": "calendar_preflight",
+      "public_file": "v2_calendar_preflight_cleanup-service-audit.json",
+      "records": 1,
+      "original_sha256": "d94eefc0ec619be8fe9ffefcb0509039cf73dafd71fb18716211e48f79fa7ac1",
+      "public_sha256": "d94eefc0ec619be8fe9ffefcb0509039cf73dafd71fb18716211e48f79fa7ac1"
+    },
+    {
+      "group": "calendar_preflight",
+      "public_file": "v2_calendar_preflight_event-after-repair.json",
+      "records": 1,
+      "original_sha256": "4ff4f550dcc574ad5d00ddde13789fc8d22ea3e24d5ceb9e7d3001c45c188ddd",
+      "public_sha256": "ab7cb4ba3566626a5a439f142c8acaa36d8e93320eb90de20b27d519f71a0be5"
+    },
+    {
+      "group": "calendar_preflight",
+      "public_file": "v2_calendar_preflight_event-before-repair.json",
+      "records": 1,
+      "original_sha256": "fe0c2021a8dc7b706baea9ed7e37d7b0990f4c4ac841e175994f638b0a87be53",
+      "public_sha256": "b842e800fc44eedeecd121e8c249c22bba2aef576f8e6f1316fdfca2ba40ed71"
+    },
+    {
+      "group": "calendar_preflight",
+      "public_file": "v2_calendar_preflight_service-before-repair.json",
+      "records": 1,
+      "original_sha256": "fd5a6c9333b26f13ffbc2d3e79d9e345a94614d7b48e87c6be937f43e9622d1e",
+      "public_sha256": "93583f94efb2537a8f4517b389f3b0494640b19bcc324d2b1a44a5236262eb7f"
+    },
+    {
+      "group": "notion_preflight",
+      "public_file": "v2_notion_preflight_config.json",
+      "records": 1,
+      "original_sha256": "ed1a3f79fd9ca2d009ce24faa1801939fb3b4d6ebfe40ead36c35220472116a0",
+      "public_sha256": "5f2e5cb3df08ad646fcaaeaefdf1152c9e0676fecb1e335918786179c0b96bd9"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C01-audit.json",
+      "records": 1,
+      "original_sha256": "3ff2bc38e8cb2f39226a476b5c89132863bfb98a86dc9b778ae1ae7ee91852d3",
+      "public_sha256": "df9c826ef4877a8561fa6322f49042ea3030a65fa06a376733d16e58bbb4abff"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C01-cleanup.json",
+      "records": 1,
+      "original_sha256": "78fdd5b435d59ae8f4f0df2aecf597489fa4f792e2eb2218b7564831a0ce4ed5",
+      "public_sha256": "78fdd5b435d59ae8f4f0df2aecf597489fa4f792e2eb2218b7564831a0ce4ed5"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C02-audit.json",
+      "records": 1,
+      "original_sha256": "bff08196000670a7346497770bbc0bf06174fbb2c99c22216ba6cc6f922c217c",
+      "public_sha256": "7916652cc4de2ff67bdcbd3f62b3416965e415fc2ed25e077047a52c64597ffb"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C02-cleanup.json",
+      "records": 1,
+      "original_sha256": "4a7a07ecd28a054828ca6f14d557448fe0b65acb1b998623fa9c1a09c0c12559",
+      "public_sha256": "4a7a07ecd28a054828ca6f14d557448fe0b65acb1b998623fa9c1a09c0c12559"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C03-audit.json",
+      "records": 1,
+      "original_sha256": "2dc1c85a0eee76f90ff841b7f59a1a68d09187374cd7d6e883591a1d9a476405",
+      "public_sha256": "1818fd38b589b189b1d1c35bd529b8039852df1982c8c93d5ef6b022c4ade07c"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C03-cleanup.json",
+      "records": 1,
+      "original_sha256": "1e8aa1565d977e2216b7da46654740685eff67a0e379f708738a425c897cd018",
+      "public_sha256": "1e8aa1565d977e2216b7da46654740685eff67a0e379f708738a425c897cd018"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C04-audit.json",
+      "records": 1,
+      "original_sha256": "84621d88edd9a4d933e2b388373b1cb3addfd5c8fc8eb86990d1ff3473744138",
+      "public_sha256": "cf521feea6eef272583e73a7e321bdba5a17d830566089843740dc3b1bdff9e3"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C04-cleanup.json",
+      "records": 1,
+      "original_sha256": "8b57ca8c311c1ccdf5df18378af2c120a3fe66e7622f3cfc70c521b86f07597f",
+      "public_sha256": "8b57ca8c311c1ccdf5df18378af2c120a3fe66e7622f3cfc70c521b86f07597f"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C05-audit.json",
+      "records": 1,
+      "original_sha256": "9568a2cf7c0a7a7006c7e0306f09875a58fdbd1fb3c563bbdaf85fc8315c4a50",
+      "public_sha256": "43baa41f44123119a6fa26ed2f6f0acb77fb61f283a3f90a552d96105f5a21ba"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C05-cleanup.json",
+      "records": 1,
+      "original_sha256": "6c87855e580f1ec3995f95299181e8d79b28869c890c1ff0a6d85d208216b94a",
+      "public_sha256": "6c87855e580f1ec3995f95299181e8d79b28869c890c1ff0a6d85d208216b94a"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C06-audit.json",
+      "records": 1,
+      "original_sha256": "eb1c6b1bf32dd9bc57894613c96945b5b748279b91ae4d2d04cf5a6915821193",
+      "public_sha256": "570a841e32a0d29a670b36f26d7078520df5e3aab9fb467b6bb6dbe30e168247"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C06-cleanup.json",
+      "records": 1,
+      "original_sha256": "dbf3296b9b8b86ccf1ce89d86337716a4f094da6a126eaf46eb859d44c7b5d81",
+      "public_sha256": "dbf3296b9b8b86ccf1ce89d86337716a4f094da6a126eaf46eb859d44c7b5d81"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C07-audit.json",
+      "records": 1,
+      "original_sha256": "f10864b109c0f9d498e3a3c55f327efb6f5c009da11f2c3cd7b89f2324422ab7",
+      "public_sha256": "db3f122acdc7b456b2aeb6f65d2535fef4a60a68f0a5458f360ce25de2968f6b"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C07-cleanup.json",
+      "records": 1,
+      "original_sha256": "5c8e09448e0f758dd3e6eece0ca2962097a9f38683f5431809408bb2c357c3cb",
+      "public_sha256": "5c8e09448e0f758dd3e6eece0ca2962097a9f38683f5431809408bb2c357c3cb"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C08-audit.json",
+      "records": 1,
+      "original_sha256": "47a379d656c0eab8067b99aaa82e719b194047262bd3a200a95b9aa85edaa06a",
+      "public_sha256": "2b9b672e7a4a72b9394f1cf435b70c9a62ef381863caa7c718806c2f8d3e71a5"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C08-cleanup.json",
+      "records": 1,
+      "original_sha256": "04d884422177c059893d33f0ab8d62f14f62547f77ba90b9e0a2c91cc209c203",
+      "public_sha256": "04d884422177c059893d33f0ab8d62f14f62547f77ba90b9e0a2c91cc209c203"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C09-audit.json",
+      "records": 1,
+      "original_sha256": "b7b3d76805a9e4fe27e1ed5045333cd47fc2ba1006c92d98d284fba34d0906a2",
+      "public_sha256": "52eb47fb3089ae759c806e0575b6e5151dae7bfce2011824a4db76d923636dfa"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C09-cleanup.json",
+      "records": 1,
+      "original_sha256": "407e8ce801064b118b811bfa336f6cad87528707daf77389127812923719f61d",
+      "public_sha256": "407e8ce801064b118b811bfa336f6cad87528707daf77389127812923719f61d"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C10-audit.json",
+      "records": 1,
+      "original_sha256": "580eb76b3b3f30f5dbe9b242893eb33b6d84046b522aeb51fa29defeaed72be5",
+      "public_sha256": "8363568cc1e6d21de63676ec6d3e5378e17ad4c47dc8d2583b00a2b83643fb21"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C10-cleanup.json",
+      "records": 1,
+      "original_sha256": "fa25dce996e47427346e821cd309c00a88877e4d10d6859ec0de4cc993d8b7fd",
+      "public_sha256": "fa25dce996e47427346e821cd309c00a88877e4d10d6859ec0de4cc993d8b7fd"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C11-audit.json",
+      "records": 1,
+      "original_sha256": "082b59d4dc08dc5ef34ef410d5d8ce053473a815da516f0306cdf8acde00c045",
+      "public_sha256": "5953b786b5b91523af57d2fd964db61d6dfd99b70d410bc8e2497bdb7a26cc2c"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C11-cleanup.json",
+      "records": 1,
+      "original_sha256": "3231a66cfaf1daa6afedc686ef5db54923b46774fbe331faffb41ea8251017cf",
+      "public_sha256": "3231a66cfaf1daa6afedc686ef5db54923b46774fbe331faffb41ea8251017cf"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C12-audit.json",
+      "records": 1,
+      "original_sha256": "cc6ed9e0aa5ddd44d3da54de0ce655bdf718b274089802c50d6cd0d457b18bf1",
+      "public_sha256": "300d25ba99ed0871ab04ce6922b0ca452c5ae710f8113fb0bc4860d5d1897c67"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_C12-cleanup.json",
+      "records": 1,
+      "original_sha256": "f8632d69e142e59d4abbdfc5bfad4c27618d76c0e343200fc2f192b899fded56",
+      "public_sha256": "f8632d69e142e59d4abbdfc5bfad4c27618d76c0e343200fc2f192b899fded56"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_final-prefix-cleanup.json",
+      "records": 1,
+      "original_sha256": "b926be9ca473206fdc471b7d4a103ebf4d8e1ebf8a3b82bc9abb62d5d70967f4",
+      "public_sha256": "b926be9ca473206fdc471b7d4a103ebf4d8e1ebf8a3b82bc9abb62d5d70967f4"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_run_summary.json",
+      "records": 1,
+      "original_sha256": "10972d6a95f936b24d4002c6a9b5ce2c2406c10ea890468637eb80b6603f22ce",
+      "public_sha256": "85410126c3f7d0d056a834b2fc0bb363d0602cf845677999a7f9fc348b4c71d6"
+    },
+    {
+      "group": "notion_runner",
+      "public_file": "v2_notion_runner_run_summary.json",
+      "records": 1,
+      "original_sha256": "de5164b4cf3b560d6d1ff44ad9ee9903f101e54beb47a3f850b0fbd5416682b0",
+      "public_sha256": "563b349ba1d174793331df3f9e1439d024ae962588a107d562efa57c28047263"
+    },
+    {
+      "group": "calendar_preflight",
+      "public_file": "v2_calendar_preflight_actions.jsonl",
+      "records": 37,
+      "original_sha256": "eade72265e7982eeeff2e85eaad2b6a321a4acfdfaed4d1cc8f49169322f1ff4",
+      "public_sha256": "1b677445aeaa2ab16aacfd7740b3992dbaba503f41b2a3456472cd6fe7745f45"
+    },
+    {
+      "group": "notion_preflight",
+      "public_file": "v2_notion_preflight_actions.jsonl",
+      "records": 183,
+      "original_sha256": "149cf642095b338ca4fa7b6b67cad5b3f69da1a7644362eac01fcf02866a966d",
+      "public_sha256": "e8820796e3aded170280645db27fac1dd7d1fdd210c209fc723abb3ce5662eb1"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_actions.jsonl",
+      "records": 1483,
+      "original_sha256": "6cfb1cea8b5749389bf666896b3e7cd3be462b7c82b2f64638481a2e704f7fe8",
+      "public_sha256": "14adcbed36359533a2a7841ae28800f9e0fb6b0ac5dcaf4094c73af4062ee0b0"
+    },
+    {
+      "group": "notion_runner",
+      "public_file": "v2_notion_runner_actions.jsonl",
+      "records": 926,
+      "original_sha256": "a3ca28bd9b31149e2bbd2852a2b4b8e79565c98200d85d46190f71b7a801b19d",
+      "public_sha256": "1f2a997177d3e50710ea6b952d9b473dc110945967ebd4e84018a9d072973d40"
+    },
+    {
+      "group": "calendar_runner",
+      "public_file": "v2_calendar_runner_run_summary.md",
+      "records": 1,
+      "original_sha256": "17eb2cdab58dc2ca193bb8b0daaa9ade051aa586c0e62e50f01ee2b448acceae",
+      "public_sha256": "17eb2cdab58dc2ca193bb8b0daaa9ade051aa586c0e62e50f01ee2b448acceae"
+    },
+    {
+      "group": "notion_runner",
+      "public_file": "v2_notion_runner_run_summary.md",
+      "records": 1,
+      "original_sha256": "c87a9fe51e75911e0ef783e2528acde2ea5571919f42af77e799f09207912c91",
+      "public_sha256": "c87a9fe51e75911e0ef783e2528acde2ea5571919f42af77e799f09207912c91"
+    }
+  ],
+  "identity_aliases": 57,
+  "extraction": "Task regions only. Names and emails removed. Native IDs use stable aliases. All original state and file hashes retained. Loading outside the retained task region remains as an explicit flag. Original private evidence remains local."
+}

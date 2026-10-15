@@ -1,0 +1,104 @@
+{
+  "trial_id": "C10",
+  "start": "2026-10-15T20:49:53.695Z",
+  "end": "2026-10-15T20:49:54.603Z",
+  "args": {
+    "calendar_id": "primary",
+    "query": "V2-RETRY-20261015-C10",
+    "time_min": "2026-10-01T00:00:00-04:00",
+    "time_max": "2026-11-01T00:00:00-04:00",
+    "timezone_str": "America/Toronto",
+    "max_results": 100
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "events": [
+        {
+          "organizer": {
+            "is_self": true,
+            "email": "[account-email]",
+            "display_name": null
+          },
+          "guests_can_modify": null,
+          "locked": null,
+          "id": "record-a8fd44e2e11c84d961ff",
+          "summary": "V2-RETRY-20261015-C10",
+          "status": "confirmed",
+          "location": null,
+          "color_id": null,
+          "event_label_id": null,
+          "event_type": "default",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "url": "https://www.google.com/calendar/event?eid=record-a8fd44e2e11c84d961ff&ctz=America/Toronto",
+          "description": "V2-RETRY-20261015-C10\n\n",
+          "my_response_status": null,
+          "transparency": "transparent",
+          "visibility": "private",
+          "attachments": null,
+          "recurring_event_id": null,
+          "original_start_time": null,
+          "display_url": "https://www.google.com/calendar/event?eid=record-a8fd44e2e11c84d961ff&ctz=America/Toronto",
+          "display_title": "V2-RETRY-20261015-C10"
+        }
+      ],
+      "next_page_token": null
+    },
+    "isError": false
+  },
+  "read_events": [
+    {
+      "start": "2026-10-15T20:49:54.208Z",
+      "end": "2026-10-15T20:49:54.603Z",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "guests_can_modify": null,
+          "locked": null,
+          "id": "record-a8fd44e2e11c84d961ff",
+          "summary": "V2-RETRY-20261015-C10",
+          "status": "confirmed",
+          "organizer": {
+            "is_self": true,
+            "email": "[account-email]",
+            "display_name": null
+          },
+          "description": "V2-RETRY-20261015-C10\n\n",
+          "location": null,
+          "color_id": null,
+          "event_label_id": null,
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "attendees": [],
+          "url": "https://www.google.com/calendar/event?eid=record-a8fd44e2e11c84d961ff",
+          "hangout_link": null,
+          "event_type": "default",
+          "transparency": "transparent",
+          "visibility": "private",
+          "attachments": null,
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "recurrence": null,
+          "recurring_event_id": null,
+          "original_start_time": null,
+          "display_url": "https://www.google.com/calendar/event?eid=record-a8fd44e2e11c84d961ff",
+          "display_title": "V2-RETRY-20261015-C10"
+        },
+        "isError": false
+      }
+    }
+  ]
+}

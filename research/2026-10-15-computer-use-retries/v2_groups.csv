@@ -1,0 +1,13 @@
+service,policy,scenario,assigned,complete,create_requests,title_repairs,audit_records,partial_records,duplicates,clean_confirmations,false_confirmations,exploratory_normalized_confirmations,unsupported_guard_confirmations,native_detail_prompt_trials,unresolved,late_confirmations,unknown_audits,unknown_fields,same_identity_recoveries,exploratory_normalized_same_identity_recoveries,cleanup_verified,action_errors,setup_errors,retained_notes,policy_departures
+Calendar,Absence,Hidden,2,2,4,0,4,0,2,0,0,0,0,0,2,0,0,2,0,0,2,0,0,0,0
+Calendar,Absence,Partial,2,2,4,0,4,2,2,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+Calendar,Absence,Cancel,2,2,2,0,2,0,0,0,0,2,0,0,0,0,0,2,0,0,2,1,0,0,0
+Calendar,Guard,Hidden,2,2,2,0,2,0,0,0,0,2,0,0,0,0,0,2,0,0,2,0,2,0,0
+Calendar,Guard,Partial,2,2,2,2,2,0,0,0,0,2,0,0,0,0,0,2,0,2,2,1,0,0,0
+Calendar,Guard,Cancel,2,2,2,0,2,0,0,0,0,2,0,0,0,0,0,2,0,0,2,0,1,0,0
+Notion,Absence,Hidden,2,2,4,0,4,0,2,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0
+Notion,Absence,Partial,2,2,4,0,4,2,2,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,2
+Notion,Absence,Cancel,2,2,2,0,2,0,0,2,0,2,0,0,0,0,0,0,0,0,2,0,0,0,1
+Notion,Guard,Hidden,2,2,2,0,2,0,0,2,0,2,0,2,0,0,0,0,0,0,2,0,0,0,0
+Notion,Guard,Partial,2,2,2,2,2,0,0,2,0,2,0,2,0,0,0,0,2,2,2,2,0,1,1
+Notion,Guard,Cancel,2,2,2,0,2,0,0,2,0,2,0,2,0,0,0,0,0,0,2,1,0,0,0

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "input_files": 36,
+  "exit_code": 0,
+  "byte_identical": true,
+  "result_sha256": "258f22e23be9250fb6c9004b56e700733b4eda0bc7853385e65e400346e5e1e4",
+  "stdout": "{\"assigned\": 24, \"audited_records\": 32, \"completed\": 24, \"create_requests\": 32, \"extra_cases\": 8, \"false_confirmations\": 4, \"normalized_clean\": 16, \"strict_clean\": 8, \"title_repairs\": 4, \"unknown_confirmations\": 8}\n",
+  "stderr": "",
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]"
+}

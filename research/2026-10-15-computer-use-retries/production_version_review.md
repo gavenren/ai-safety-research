@@ -1,0 +1,17 @@
+# Research checklist review
+
+Date: 2026-10-15. Scope: the 24-trial production account extension and combined paper. Relevant parts of the [NeurIPS Paper Checklist](https://neurips.cc/public/guides/PaperChecklist) were used as a review aid. This is not a conference submission, certification, or approval claim.
+
+- Claims: the abstract and Section 11 report selected tasks in production Notion and Google Calendar accounts. Counts are descriptive. The work does not introduce a new retry rule or establish a natural service error rate.
+- Method: the question, hypotheses, controls, measures, 180-second deadline, and all 24 assignments were frozen before scored writes. The local hash record is not external preregistration. Excluded preflight failures remain available.
+- Evidence: all assignments, actual view changes, action errors, failed controls, and departures remain in the sample. N03 is unresolved; N12 is a false confirmation. C07, C10, N04, and N05 have retained procedure or cleanup-gate flags.
+- Reproduction: all 23 main parser tests pass. The five main outputs match a fresh copied run byte for byte. A different agent wrote a separate state parser and checked 264 trial fields against the main table. See the current reproduction and independent review files.
+- Audit limits: Notion uses complete browser tables and distinct page links. Its connector was unavailable. Calendar uses exact-title browser searches and a bounded post-decision connector audit. Records with another title or date can be outside that query. Finite reads do not prove execution closure or indefinite persistence.
+- Task correctness: Calendar count confirmations are separate from strict clean task completion. Noon at -04 and 11:00 at -05 denote the same UTC instant, but the date-aware editor semantics were not established. Field correctness remains unknown. The report does not call the saved time wrong.
+- Uncertainty: two selected repeats per cell share runner contexts. Both runners received supplied rules and later feedback. The evidence restrictions are deliberate. No population interval, significance claim, model comparison, or speed claim is made.
+- Privacy and rights: the separate reviewer compared 1,965 original and public records and checked all 84 image files. Public text removes unrelated account content and replaces record IDs. Native Calendar eid values are aliased. Two defective N01 images remain unchanged with explicit limits. Sources keep their rights; no new license is assigned.
+- Cleanup: all trial active-zero results have ready covered observations. C07 and C10 use later same-token reads before the next writes because their first phase-labeled cleanup reads had a sidebar loading marker. Calendar also has 12 zero-result connector checks. The Notion parent shows recoverable Trash after reload. No Trash was emptied.
+- Resources: existing Codex service, browser, local tools, and read-only audit connectors. No training, new paid API, purchased compute, permission change, agent message, or invitation. Provider service notices were not excluded by a claim of no email.
+- Review status: Codex generated the work. Separate agents reviewed the method, counts, private/public extraction, images, and PDF. There was no human or external peer review.
+
+Read production_review.md for the independent scientific review, production_reproduction_check.json for the main copied-run checks, production_pdf_review.json for visual checks, and final_review.md for the release summary. The preceding checklist remains in cross_version_checklist.md.

@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN",
+  "frozen_utc": "2026-10-15T20:30:25.922873+00:00",
+  "not_external_preregistration": true,
+  "assigned_trials": 24,
+  "seed": 2026101508,
+  "sha256": {
+    "v2_plan.md": "1cef100392c566af4c9dab37e46b01cf9a21f1b6984bc57bd60a75097c3e8219",
+    "v2_assignments.csv": "2713c8e26ca91dbd16c424083ae51a4af84dd7af21b2ea86c80d96808a768a9c",
+    "v2_runner_instructions.md": "4c2526be5e7d175c24eccea25f7c9a6e32d869a65fb62dbff7efe3af55c4f97b",
+    "v2_policy.py": "426443f68ec01f990bae287f30274502cb2da1afad2bb162ab2ea8f0e452c7b7",
+    "v2_policy_tests.py": "f64bb25563d14b51787b64b27a1321de108eb07f9411fcbd26fa441fcb9a77e3",
+    "v2_source_notes.md": "316801c0ba630698ba52b15403d0677ce8223c69e931a9c3174fc57ae623d99a",
+    "v2_design_review.md": "2dddc747687ca38d5dbc9b3a5184ef640ff0e4fb54f697bbf3de7aacf7a1b3c3",
+    "v2_preflight.md": "2b9042b03369f327ac8e9ec204657435f167a206246e987b566daf8623151681"
+  },
+  "preflight_originals": {
+    "calendar_preflight": "eade72265e7982eeeff2e85eaad2b6a321a4acfdfaed4d1cc8f49169322f1ff4",
+    "notion_preflight": "149cf642095b338ca4fa7b6b67cad5b3f69da1a7644362eac01fcf02866a966d"
+  },
+  "policy_tests": "19 tests passed; 2304 pending-create combinations disallow a new Guard create"
+}

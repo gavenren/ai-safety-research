@@ -1,0 +1,25 @@
+{
+  "start": "2026-10-15T20:53:03.869Z",
+  "end": "2026-10-15T20:53:04.219Z",
+  "args": {
+    "calendar_id": "primary",
+    "query": "V2-RETRY-20261015",
+    "time_min": "2026-10-01T00:00:00-04:00",
+    "time_max": "2026-11-01T00:00:00-04:00",
+    "timezone_str": "America/Toronto",
+    "max_results": 100
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "events": [],
+      "next_page_token": null
+    },
+    "isError": false
+  }
+}

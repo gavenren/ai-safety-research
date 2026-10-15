@@ -1,0 +1,51 @@
+{
+  "start": "2026-10-15T20:26:07.013Z",
+  "end": "2026-10-15T20:26:07.395Z",
+  "args": {
+    "calendar_id": "primary",
+    "event_id": "record-c0262593e58004b92baf"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "guests_can_modify": null,
+      "locked": null,
+      "id": "record-c0262593e58004b92baf",
+      "summary": "V2-PREFLIGHT-CALENDAR-20261015",
+      "status": "confirmed",
+      "organizer": {
+        "is_self": true,
+        "email": "[account-email]",
+        "display_name": null
+      },
+      "description": "V2-PREFLIGHT-CALENDAR-20261015 operation marker\n\n",
+      "location": null,
+      "color_id": null,
+      "event_label_id": null,
+      "start": "2026-10-14T00:00:00",
+      "end": "2026-10-15T00:00:00",
+      "attendees": [],
+      "url": "https://www.google.com/calendar/event?eid=record-c0262593e58004b92baf",
+      "hangout_link": null,
+      "event_type": "default",
+      "transparency": "transparent",
+      "visibility": "private",
+      "attachments": null,
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "recurring_event_id": null,
+      "original_start_time": null,
+      "display_url": "https://www.google.com/calendar/event?eid=record-c0262593e58004b92baf",
+      "display_title": "V2-PREFLIGHT-CALENDAR-20261015"
+    },
+    "isError": false
+  }
+}

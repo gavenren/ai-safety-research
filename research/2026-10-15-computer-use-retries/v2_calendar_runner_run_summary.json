@@ -1,0 +1,868 @@
+{
+  "generated_utc": "2026-10-15T20:53:53.043860+00:00",
+  "status": "12 scored Calendar trials complete; all temporary records removed to recoverable Trash",
+  "private_evidence": true,
+  "raw_action_records": 1483,
+  "unique_record_ids": 1483,
+  "actions_sha256": "6cfb1cea8b5749389bf666896b3e7cd3be462b7c82b2f64638481a2e704f7fe8",
+  "decision_status": "Original live model decisions preserved; no retrospective repair",
+  "policy_execution": "Manual rule application in CUA; v2_policy.py was not run live. Later policy replay must be labeled offline.",
+  "manual_label_map": {
+    "verify_fields": "read_identity",
+    "repair_title": "repair_same_id",
+    "repeat_create": "create"
+  },
+  "description_limit": "Browser popup rendered the exact marker. Raw connector descriptions contain token followed by two newline characters, also seen in preflight. Literal byte equality fails; do not silently strip or count this as exact stored-string match.",
+  "connector_normalization": "Read_event start/end are naive strings 2026-10-14T00:00:00 and 2026-10-15T00:00:00. No offset, timezone, or explicit all-day flag is returned. Browser re-opened native editors independently show All day checked and both inclusive UI dates Oct 14, 2026.",
+  "timing": "UI action wrapper start/end times bracket each call. Its after-state record is appended before the action record, so sort action intervals by timestamps rather than file line order. Decision elapsed time starts at the first mutation_admitted record. Images have their own start/end capture times and source observation IDs. Connector audit end time is after read_event replies. One C01 wait error was logged at detection time with equal start/end, not measured wait duration.",
+  "readiness": "Some records with ready in phase names still contain Searching/progressbar. Those raw observations were retained. Only subsequent fully loaded states support decisions.",
+  "privacy": "Raw snapshots include account details, calendar items, and opaque event URLs that encode the account. A normal unrelated reminder appears near C07 audit and C08 setup/audit. Review and redact any public extracts or images.",
+  "changes_during_run": [
+    "Helper load via eval failed before browser I/O. Direct JavaScript definitions were used.",
+    "C04 close used wrong Cancel event creation locator once. Fresh state showed Cancel event changes; corrected read-only close.",
+    "C05 leave-search used wrong Exit search locator once. Fresh state showed Go back; corrected before effective Create.",
+    "C10 local vlast lookup failed before browser I/O. Fresh full snapshot was read.",
+    "C10 first post-Discard snapshot retained transition editor nodes. Later empty search snapshot verified closed form; this is noted in appended baseline record.",
+    "Guard Partial repair ledger was reserved before title fill, then linked to the single Save. Same native ID verified afterward."
+  ],
+  "errors": [
+    {
+      "record_id": "V2CAL-00001",
+      "trial_id": "C01",
+      "type": "setup_error",
+      "phase": "baseline",
+      "start_utc": "2026-10-15T20:31:32.159Z",
+      "end_utc": "2026-10-15T20:31:32.159Z",
+      "error": "Code generation from strings disallowed for this context",
+      "notes": "Helper load failed before any scored browser action. Helpers were then entered as direct CUA JavaScript."
+    },
+    {
+      "record_id": "V2CAL-00095",
+      "trial_id": "C01",
+      "type": "action_error",
+      "phase": "verification",
+      "start_utc": "2026-10-15T20:32:49.745Z",
+      "end_utc": "2026-10-15T20:32:49.745Z",
+      "error": "Search results heading wait timed out after Cancel on reloaded native detail; no mutation requested",
+      "notes": null
+    },
+    {
+      "record_id": "V2CAL-00139",
+      "trial_id": "C01",
+      "type": "setup_error",
+      "phase": "cleanup",
+      "start_utc": "2026-10-15T20:34:09.095Z",
+      "end_utc": "2026-10-15T20:34:09.095Z",
+      "error": "Cannot read properties of undefined (reading 'trial_id')",
+      "notes": "A same-cell var redeclaration hid the prior trial before a cleanup read. The call failed before browser I/O. Explicit assignment restored the correct trial."
+    },
+    {
+      "record_id": "V2CAL-00478",
+      "trial_id": "C04",
+      "type": "action",
+      "phase": "initial_identity",
+      "start_utc": "2026-10-15T20:40:06.248Z",
+      "end_utc": "2026-10-15T20:40:09.292Z",
+      "error": "Error: Error: Playwright selector deadline exceeded\nwaiting on click for selector internal:role=button[name=\"Cancel event creation\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"click\",\"locator\":\"internal:role=button[name=\\\"Cancel event creation\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+      "notes": null
+    },
+    {
+      "record_id": "V2CAL-00529",
+      "trial_id": "C05",
+      "type": "action",
+      "phase": "prepare",
+      "start_utc": "2026-10-15T20:41:05.264Z",
+      "end_utc": "2026-10-15T20:41:08.313Z",
+      "error": "Error: Error: Playwright selector deadline exceeded\nwaiting on click for selector internal:role=button[name=\"Exit search\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"click\",\"locator\":\"internal:role=button[name=\\\"Exit search\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+      "notes": null
+    },
+    {
+      "record_id": "V2CAL-01154",
+      "trial_id": "C10",
+      "type": "setup_error",
+      "phase": "cancel_prompt_read",
+      "start_utc": "2026-10-15T20:48:57.605Z",
+      "end_utc": "2026-10-15T20:48:57.605Z",
+      "error": "Local helper attempted vlast[tab].state, but vlast stores state reference rather than a full observation. No browser action occurred.",
+      "notes": null
+    }
+  ],
+  "trials": [
+    {
+      "trial_id": "C01",
+      "assignment": {},
+      "decision_record_id": "V2CAL-00110",
+      "decision": "confirm",
+      "decision_utc": "2026-10-15T20:33:03.208Z",
+      "elapsed_seconds": 60.987,
+      "first_create_admitted_utc": "2026-10-15T20:32:02.221Z",
+      "create_admitted": 1,
+      "repair_admitted": 0,
+      "audit_file": "C01-audit.json",
+      "audit_start_utc": "2026-10-15T20:33:10.528Z",
+      "audit_end_utc": "2026-10-15T20:33:11.510Z",
+      "audit_count": 1,
+      "native_identity_records": [
+        "V2CAL-00066",
+        "V2CAL-00089",
+        "V2CAL-00122"
+      ],
+      "audit_browser_records": [
+        "V2CAL-00112",
+        "V2CAL-00114",
+        "V2CAL-00116",
+        "V2CAL-00118",
+        "V2CAL-00119",
+        "V2CAL-00121",
+        "V2CAL-00123",
+        "V2CAL-00125"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-ebd326bcfd437ccc2062",
+          "summary": "V2-RETRY-20261015-C01",
+          "description": "V2-RETRY-20261015-C01\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C01-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": [
+        "V2CAL-00001",
+        "V2CAL-00095",
+        "V2CAL-00139"
+      ]
+    },
+    {
+      "trial_id": "C02",
+      "assignment": {},
+      "decision_record_id": "V2CAL-00253",
+      "decision": "unresolved",
+      "decision_utc": "2026-10-15T20:35:33.958Z",
+      "elapsed_seconds": 52.983,
+      "first_create_admitted_utc": "2026-10-15T20:34:40.975Z",
+      "create_admitted": 2,
+      "repair_admitted": 0,
+      "audit_file": "C02-audit.json",
+      "audit_start_utc": "2026-10-15T20:35:45.635Z",
+      "audit_end_utc": "2026-10-15T20:35:47.066Z",
+      "audit_count": 2,
+      "native_identity_records": [
+        "V2CAL-00195",
+        "V2CAL-00236",
+        "V2CAL-00246"
+      ],
+      "audit_browser_records": [
+        "V2CAL-00255",
+        "V2CAL-00257",
+        "V2CAL-00259",
+        "V2CAL-00261",
+        "V2CAL-00262",
+        "V2CAL-00264",
+        "V2CAL-00266",
+        "V2CAL-00268",
+        "V2CAL-00269",
+        "V2CAL-00271"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-50fa163796dce2716477",
+          "summary": "V2-RETRY-20261015-C02",
+          "description": "V2-RETRY-20261015-C02\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        },
+        {
+          "id": "record-2cbb479dd80ee9d27f72",
+          "summary": "V2-RETRY-20261015-C02",
+          "description": "V2-RETRY-20261015-C02\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C02-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": []
+    },
+    {
+      "trial_id": "C03",
+      "assignment": {},
+      "decision_record_id": "V2CAL-00385",
+      "decision": "confirm",
+      "decision_utc": "2026-10-15T20:37:26.657Z",
+      "elapsed_seconds": 31.137,
+      "first_create_admitted_utc": "2026-10-15T20:36:55.520Z",
+      "create_admitted": 1,
+      "repair_admitted": 0,
+      "audit_file": "C03-audit.json",
+      "audit_start_utc": "2026-10-15T20:37:32.616Z",
+      "audit_end_utc": "2026-10-15T20:37:33.381Z",
+      "audit_count": 1,
+      "native_identity_records": [
+        "V2CAL-00362",
+        "V2CAL-00375"
+      ],
+      "audit_browser_records": [
+        "V2CAL-00387",
+        "V2CAL-00389",
+        "V2CAL-00391",
+        "V2CAL-00392"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-6a9ea229f75d00aa9a37",
+          "summary": "V2-RETRY-20261015-C03",
+          "description": "V2-RETRY-20261015-C03\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C03-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": []
+    },
+    {
+      "trial_id": "C04",
+      "assignment": {},
+      "decision_record_id": "V2CAL-00485",
+      "decision": "confirm",
+      "decision_utc": "2026-10-15T20:40:21.193Z",
+      "elapsed_seconds": 21.489,
+      "first_create_admitted_utc": "2026-10-15T20:39:59.704Z",
+      "create_admitted": 1,
+      "repair_admitted": 0,
+      "audit_file": "C04-audit.json",
+      "audit_start_utc": "2026-10-15T20:40:33.835Z",
+      "audit_end_utc": "2026-10-15T20:40:34.727Z",
+      "audit_count": 1,
+      "native_identity_records": [
+        "V2CAL-00476"
+      ],
+      "audit_browser_records": [
+        "V2CAL-00487",
+        "V2CAL-00489",
+        "V2CAL-00491",
+        "V2CAL-00492",
+        "V2CAL-00495"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-3bbb7a9ede342c418d92",
+          "summary": "V2-RETRY-20261015-C04",
+          "description": "V2-RETRY-20261015-C04\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C04-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": [
+        "V2CAL-00478"
+      ]
+    },
+    {
+      "trial_id": "C05",
+      "assignment": {
+        "trial_id": "C05",
+        "service": "Calendar",
+        "policy": "Guard",
+        "scenario": "Partial",
+        "repeat": 1,
+        "token": "V2-RETRY-20261015-C05"
+      },
+      "decision_record_id": "V2CAL-00609",
+      "decision": "confirm",
+      "decision_utc": "2026-10-15T20:42:03.134Z",
+      "elapsed_seconds": 43.008,
+      "first_create_admitted_utc": "2026-10-15T20:41:20.126Z",
+      "create_admitted": 1,
+      "repair_admitted": 1,
+      "audit_file": "C05-audit.json",
+      "audit_start_utc": "2026-10-15T20:42:10.470Z",
+      "audit_end_utc": "2026-10-15T20:42:11.608Z",
+      "audit_count": 1,
+      "native_identity_records": [
+        "V2CAL-00564",
+        "V2CAL-00577",
+        "V2CAL-00599"
+      ],
+      "audit_browser_records": [
+        "V2CAL-00611",
+        "V2CAL-00613",
+        "V2CAL-00615",
+        "V2CAL-00616",
+        "V2CAL-00619"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-fedc9fbd8d9c9f63417d",
+          "summary": "V2-RETRY-20261015-C05",
+          "description": "V2-RETRY-20261015-C05\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C05-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": [
+        "V2CAL-00529"
+      ]
+    },
+    {
+      "trial_id": "C06",
+      "assignment": {
+        "trial_id": "C06",
+        "service": "Calendar",
+        "policy": "Absence",
+        "scenario": "Partial",
+        "repeat": 1,
+        "token": "V2-RETRY-20261015-C06"
+      },
+      "decision_record_id": "V2CAL-00731",
+      "decision": "confirm",
+      "decision_utc": "2026-10-15T20:43:25.163Z",
+      "elapsed_seconds": 38.594,
+      "first_create_admitted_utc": "2026-10-15T20:42:46.569Z",
+      "create_admitted": 2,
+      "repair_admitted": 0,
+      "audit_file": "C06-audit.json",
+      "audit_start_utc": "2026-10-15T20:43:33.196Z",
+      "audit_end_utc": "2026-10-15T20:43:34.369Z",
+      "audit_count": 2,
+      "native_identity_records": [
+        "V2CAL-00684",
+        "V2CAL-00724"
+      ],
+      "audit_browser_records": [
+        "V2CAL-00733",
+        "V2CAL-00735",
+        "V2CAL-00737",
+        "V2CAL-00738",
+        "V2CAL-00740",
+        "V2CAL-00742",
+        "V2CAL-00744"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-488f62f2335e38d6d101",
+          "summary": "V2-RETRY-20261015-C06",
+          "description": "V2-RETRY-20261015-C06\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        },
+        {
+          "id": "record-dcb461ec2f59c3b9f772",
+          "summary": "V2-RETRY-20261015-C06-DRAFT",
+          "description": "V2-RETRY-20261015-C06\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C06-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": []
+    },
+    {
+      "trial_id": "C07",
+      "assignment": {
+        "trial_id": "C07",
+        "service": "Calendar",
+        "policy": "Guard",
+        "scenario": "Hidden",
+        "repeat": 2,
+        "token": "V2-RETRY-20261015-C07"
+      },
+      "decision_record_id": "V2CAL-00854",
+      "decision": "confirm",
+      "decision_utc": "2026-10-15T20:45:15.550Z",
+      "elapsed_seconds": 39.731,
+      "first_create_admitted_utc": "2026-10-15T20:44:35.819Z",
+      "create_admitted": 1,
+      "repair_admitted": 0,
+      "audit_file": "C07-audit.json",
+      "audit_start_utc": "2026-10-15T20:45:22.582Z",
+      "audit_end_utc": "2026-10-15T20:45:23.577Z",
+      "audit_count": 1,
+      "native_identity_records": [
+        "V2CAL-00821",
+        "V2CAL-00844"
+      ],
+      "audit_browser_records": [
+        "V2CAL-00856",
+        "V2CAL-00858",
+        "V2CAL-00860",
+        "V2CAL-00861",
+        "V2CAL-00864"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-5e3029add937d9b5366e",
+          "summary": "V2-RETRY-20261015-C07",
+          "description": "V2-RETRY-20261015-C07\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C07-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": []
+    },
+    {
+      "trial_id": "C08",
+      "assignment": {
+        "trial_id": "C08",
+        "service": "Calendar",
+        "policy": "Absence",
+        "scenario": "Hidden",
+        "repeat": 2,
+        "token": "V2-RETRY-20261015-C08"
+      },
+      "decision_record_id": "V2CAL-00983",
+      "decision": "unresolved",
+      "decision_utc": "2026-10-15T20:46:39.097Z",
+      "elapsed_seconds": 38.004,
+      "first_create_admitted_utc": "2026-10-15T20:46:01.093Z",
+      "create_admitted": 2,
+      "repair_admitted": 0,
+      "audit_file": "C08-audit.json",
+      "audit_start_utc": "2026-10-15T20:46:45.758Z",
+      "audit_end_utc": "2026-10-15T20:46:47.276Z",
+      "audit_count": 2,
+      "native_identity_records": [
+        "V2CAL-00936",
+        "V2CAL-00976"
+      ],
+      "audit_browser_records": [
+        "V2CAL-00985",
+        "V2CAL-00987",
+        "V2CAL-00989",
+        "V2CAL-00991",
+        "V2CAL-00992",
+        "V2CAL-00994",
+        "V2CAL-00996",
+        "V2CAL-00997",
+        "V2CAL-00999",
+        "V2CAL-01001",
+        "V2CAL-01003"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-00d180c6fbcf1ece3f92",
+          "summary": "V2-RETRY-20261015-C08",
+          "description": "V2-RETRY-20261015-C08\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        },
+        {
+          "id": "record-1e355eaf2795f321b1af",
+          "summary": "V2-RETRY-20261015-C08",
+          "description": "V2-RETRY-20261015-C08\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C08-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": []
+    },
+    {
+      "trial_id": "C09",
+      "assignment": {
+        "trial_id": "C09",
+        "service": "Calendar",
+        "policy": "Guard",
+        "scenario": "Partial",
+        "repeat": 2,
+        "token": "V2-RETRY-20261015-C09"
+      },
+      "decision_record_id": "V2CAL-01120",
+      "decision": "confirm",
+      "decision_utc": "2026-10-15T20:48:18.994Z",
+      "elapsed_seconds": 50.194,
+      "first_create_admitted_utc": "2026-10-15T20:47:28.800Z",
+      "create_admitted": 1,
+      "repair_admitted": 1,
+      "audit_file": "C09-audit.json",
+      "audit_start_utc": "2026-10-15T20:48:24.697Z",
+      "audit_end_utc": "2026-10-15T20:48:25.485Z",
+      "audit_count": 1,
+      "native_identity_records": [
+        "V2CAL-01075",
+        "V2CAL-01088",
+        "V2CAL-01110"
+      ],
+      "audit_browser_records": [
+        "V2CAL-01122",
+        "V2CAL-01124",
+        "V2CAL-01126",
+        "V2CAL-01127",
+        "V2CAL-01130"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-e9b8eb03127d23984940",
+          "summary": "V2-RETRY-20261015-C09",
+          "description": "V2-RETRY-20261015-C09\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C09-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": []
+    },
+    {
+      "trial_id": "C10",
+      "assignment": {
+        "trial_id": "C10",
+        "service": "Calendar",
+        "policy": "Guard",
+        "scenario": "Cancel",
+        "repeat": 2,
+        "token": "V2-RETRY-20261015-C10"
+      },
+      "decision_record_id": "V2CAL-01236",
+      "decision": "confirm",
+      "decision_utc": "2026-10-15T20:49:47.871Z",
+      "elapsed_seconds": 28.983,
+      "first_create_admitted_utc": "2026-10-15T20:49:18.888Z",
+      "create_admitted": 1,
+      "repair_admitted": 0,
+      "audit_file": "C10-audit.json",
+      "audit_start_utc": "2026-10-15T20:49:53.695Z",
+      "audit_end_utc": "2026-10-15T20:49:54.603Z",
+      "audit_count": 1,
+      "native_identity_records": [
+        "V2CAL-01213",
+        "V2CAL-01226"
+      ],
+      "audit_browser_records": [
+        "V2CAL-01238",
+        "V2CAL-01240",
+        "V2CAL-01242",
+        "V2CAL-01243",
+        "V2CAL-01246"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-a8fd44e2e11c84d961ff",
+          "summary": "V2-RETRY-20261015-C10",
+          "description": "V2-RETRY-20261015-C10\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C10-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": [
+        "V2CAL-01154"
+      ]
+    },
+    {
+      "trial_id": "C11",
+      "assignment": {
+        "trial_id": "C11",
+        "service": "Calendar",
+        "policy": "Absence",
+        "scenario": "Partial",
+        "repeat": 2,
+        "token": "V2-RETRY-20261015-C11"
+      },
+      "decision_record_id": "V2CAL-01356",
+      "decision": "confirm",
+      "decision_utc": "2026-10-15T20:51:04.273Z",
+      "elapsed_seconds": 38.421,
+      "first_create_admitted_utc": "2026-10-15T20:50:25.852Z",
+      "create_admitted": 2,
+      "repair_admitted": 0,
+      "audit_file": "C11-audit.json",
+      "audit_start_utc": "2026-10-15T20:51:12.177Z",
+      "audit_end_utc": "2026-10-15T20:51:13.387Z",
+      "audit_count": 2,
+      "native_identity_records": [
+        "V2CAL-01309",
+        "V2CAL-01349"
+      ],
+      "audit_browser_records": [
+        "V2CAL-01358",
+        "V2CAL-01360",
+        "V2CAL-01362",
+        "V2CAL-01363",
+        "V2CAL-01365",
+        "V2CAL-01367",
+        "V2CAL-01369"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-1532e1caad0914a2c2e7",
+          "summary": "V2-RETRY-20261015-C11-DRAFT",
+          "description": "V2-RETRY-20261015-C11\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        },
+        {
+          "id": "record-73dc46b968da3f50f6eb",
+          "summary": "V2-RETRY-20261015-C11",
+          "description": "V2-RETRY-20261015-C11\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C11-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": []
+    },
+    {
+      "trial_id": "C12",
+      "assignment": {
+        "trial_id": "C12",
+        "service": "Calendar",
+        "policy": "Absence",
+        "scenario": "Cancel",
+        "repeat": 2,
+        "token": "V2-RETRY-20261015-C12"
+      },
+      "decision_record_id": "V2CAL-01462",
+      "decision": "confirm",
+      "decision_utc": "2026-10-15T20:52:18.964Z",
+      "elapsed_seconds": 12.712,
+      "first_create_admitted_utc": "2026-10-15T20:52:06.252Z",
+      "create_admitted": 1,
+      "repair_admitted": 0,
+      "audit_file": "C12-audit.json",
+      "audit_start_utc": "2026-10-15T20:52:25.214Z",
+      "audit_end_utc": "2026-10-15T20:52:26.037Z",
+      "audit_count": 1,
+      "native_identity_records": [
+        "V2CAL-01455"
+      ],
+      "audit_browser_records": [
+        "V2CAL-01464",
+        "V2CAL-01466",
+        "V2CAL-01468",
+        "V2CAL-01469",
+        "V2CAL-01472"
+      ],
+      "connector_field_evidence": [
+        {
+          "id": "record-6cc7a775a76f4e760815",
+          "summary": "V2-RETRY-20261015-C12",
+          "description": "V2-RETRY-20261015-C12\n\n",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "all_day_flag_present": false,
+          "timezone_field_present": false,
+          "transparency": "transparent",
+          "visibility": "private",
+          "reminders": {
+            "use_default": false,
+            "overrides": []
+          },
+          "attendees": [],
+          "location": null,
+          "hangout_link": null,
+          "recurrence": null
+        }
+      ],
+      "cleanup_file": "C12-cleanup.json",
+      "cleanup_count": 0,
+      "cleanup_complete": true,
+      "error_record_ids": []
+    }
+  ],
+  "final_cleanup_file": "final-prefix-cleanup.json",
+  "screenshots": 36,
+  "external_mutations": "16 effective Creates, two same-ID title repairs, then 16 recoverable event deletions. No permanent deletion. No invited guests, sent messages, location, conference, recurrence, notifications, or global setting changes."
+}

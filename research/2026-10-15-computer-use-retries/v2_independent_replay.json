@@ -1,0 +1,2860 @@
+{
+  "status": "COMPLETE",
+  "method": "Independent parser; does not import v2_analyze.py, production_analyze.py, or v2_policy.py. Counts use UI tables, native detail URLs, and raw connector lists and detail replies. This script supplements a manual source review; it is not a browser driver.",
+  "input_sha256": {
+    "v2_assignments.csv": "2713c8e26ca91dbd16c424083ae51a4af84dd7af21b2ea86c80d96808a768a9c",
+    "v2_calendar_runner_C01-audit.json": "df9c826ef4877a8561fa6322f49042ea3030a65fa06a376733d16e58bbb4abff",
+    "v2_calendar_runner_C01-cleanup.json": "78fdd5b435d59ae8f4f0df2aecf597489fa4f792e2eb2218b7564831a0ce4ed5",
+    "v2_calendar_runner_C02-audit.json": "7916652cc4de2ff67bdcbd3f62b3416965e415fc2ed25e077047a52c64597ffb",
+    "v2_calendar_runner_C02-cleanup.json": "4a7a07ecd28a054828ca6f14d557448fe0b65acb1b998623fa9c1a09c0c12559",
+    "v2_calendar_runner_C03-audit.json": "1818fd38b589b189b1d1c35bd529b8039852df1982c8c93d5ef6b022c4ade07c",
+    "v2_calendar_runner_C03-cleanup.json": "1e8aa1565d977e2216b7da46654740685eff67a0e379f708738a425c897cd018",
+    "v2_calendar_runner_C04-audit.json": "cf521feea6eef272583e73a7e321bdba5a17d830566089843740dc3b1bdff9e3",
+    "v2_calendar_runner_C04-cleanup.json": "8b57ca8c311c1ccdf5df18378af2c120a3fe66e7622f3cfc70c521b86f07597f",
+    "v2_calendar_runner_C05-audit.json": "43baa41f44123119a6fa26ed2f6f0acb77fb61f283a3f90a552d96105f5a21ba",
+    "v2_calendar_runner_C05-cleanup.json": "6c87855e580f1ec3995f95299181e8d79b28869c890c1ff0a6d85d208216b94a",
+    "v2_calendar_runner_C06-audit.json": "570a841e32a0d29a670b36f26d7078520df5e3aab9fb467b6bb6dbe30e168247",
+    "v2_calendar_runner_C06-cleanup.json": "dbf3296b9b8b86ccf1ce89d86337716a4f094da6a126eaf46eb859d44c7b5d81",
+    "v2_calendar_runner_C07-audit.json": "db3f122acdc7b456b2aeb6f65d2535fef4a60a68f0a5458f360ce25de2968f6b",
+    "v2_calendar_runner_C07-cleanup.json": "5c8e09448e0f758dd3e6eece0ca2962097a9f38683f5431809408bb2c357c3cb",
+    "v2_calendar_runner_C08-audit.json": "2b9b672e7a4a72b9394f1cf435b70c9a62ef381863caa7c718806c2f8d3e71a5",
+    "v2_calendar_runner_C08-cleanup.json": "04d884422177c059893d33f0ab8d62f14f62547f77ba90b9e0a2c91cc209c203",
+    "v2_calendar_runner_C09-audit.json": "52eb47fb3089ae759c806e0575b6e5151dae7bfce2011824a4db76d923636dfa",
+    "v2_calendar_runner_C09-cleanup.json": "407e8ce801064b118b811bfa336f6cad87528707daf77389127812923719f61d",
+    "v2_calendar_runner_C10-audit.json": "8363568cc1e6d21de63676ec6d3e5378e17ad4c47dc8d2583b00a2b83643fb21",
+    "v2_calendar_runner_C10-cleanup.json": "fa25dce996e47427346e821cd309c00a88877e4d10d6859ec0de4cc993d8b7fd",
+    "v2_calendar_runner_C11-audit.json": "5953b786b5b91523af57d2fd964db61d6dfd99b70d410bc8e2497bdb7a26cc2c",
+    "v2_calendar_runner_C11-cleanup.json": "3231a66cfaf1daa6afedc686ef5db54923b46774fbe331faffb41ea8251017cf",
+    "v2_calendar_runner_C12-audit.json": "300d25ba99ed0871ab04ce6922b0ca452c5ae710f8113fb0bc4860d5d1897c67",
+    "v2_calendar_runner_C12-cleanup.json": "f8632d69e142e59d4abbdfc5bfad4c27618d76c0e343200fc2f192b899fded56",
+    "v2_calendar_runner_actions.jsonl": "14adcbed36359533a2a7841ae28800f9e0fb6b0ac5dcaf4094c73af4062ee0b0",
+    "v2_notion_runner_actions.jsonl": "1f2a997177d3e50710ea6b952d9b473dc110945967ebd4e84018a9d072973d40",
+    "v2_plan_manifest.json": "ee609b2a3c9a707d8f165a553f93f3ec8c53e0e04622038f15ecdf027e522cdf"
+  },
+  "frozen_file_checks": {
+    "v2_plan.md": true,
+    "v2_assignments.csv": true,
+    "v2_runner_instructions.md": true,
+    "v2_policy.py": true,
+    "v2_policy_tests.py": true,
+    "v2_source_notes.md": true,
+    "v2_design_review.md": true,
+    "v2_preflight.md": true
+  },
+  "summary": {
+    "assigned": 24,
+    "completed": 24,
+    "audited_records": 32,
+    "extra_cases": 8,
+    "false_confirmations": 4,
+    "strict_clean": 8,
+    "normalized_clean": 16,
+    "create_requests": 32,
+    "title_repairs": 4,
+    "unknown_confirmations": 8
+  },
+  "groups": [
+    {
+      "service": "Calendar",
+      "policy": "Absence",
+      "completed": 6,
+      "records": 10,
+      "extra_cases": 4,
+      "false_confirmations": 2,
+      "unknown_confirmations": 2,
+      "strict_clean": 0,
+      "normalized_clean": 2
+    },
+    {
+      "service": "Calendar",
+      "policy": "Guard",
+      "completed": 6,
+      "records": 6,
+      "extra_cases": 0,
+      "false_confirmations": 0,
+      "unknown_confirmations": 6,
+      "strict_clean": 0,
+      "normalized_clean": 6
+    },
+    {
+      "service": "Notion",
+      "policy": "Absence",
+      "completed": 6,
+      "records": 10,
+      "extra_cases": 4,
+      "false_confirmations": 2,
+      "unknown_confirmations": 0,
+      "strict_clean": 2,
+      "normalized_clean": 2
+    },
+    {
+      "service": "Notion",
+      "policy": "Guard",
+      "completed": 6,
+      "records": 6,
+      "extra_cases": 0,
+      "false_confirmations": 0,
+      "unknown_confirmations": 0,
+      "strict_clean": 6,
+      "normalized_clean": 6
+    }
+  ],
+  "parent_cleanup": {
+    "verified": true,
+    "empty_state": "NV2-00907",
+    "restore_state": "NV2-00923",
+    "same_parent_identity": true,
+    "recoverable_only": true
+  },
+  "trials": [
+    {
+      "trial_id": "C01",
+      "service": "Calendar",
+      "policy": "Guard",
+      "scenario": "Hidden",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-C01",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "V2CAL-00110",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "V2CAL-00047"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 60.987,
+      "on_time": true,
+      "first_id": "record-ebd326bcfd437ccc2062",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-00140"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-ebd326bcfd437ccc2062"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C01"
+        ],
+        "fields": [
+          {
+            "id": "record-ebd326bcfd437ccc2062",
+            "title": "V2-RETRY-20261015-C01",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-00119",
+              "V2CAL-00121",
+              "V2CAL-00125"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "unknown",
+        "normalized_fields_pass": true,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": null,
+      "strict_clean": null,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "V2CAL-00065",
+        "V2CAL-00086",
+        "V2CAL-00088",
+        "V2CAL-00092"
+      ],
+      "guard_covered_refs": [
+        "V2CAL-00054",
+        "V2CAL-00056",
+        "V2CAL-00059",
+        "V2CAL-00082",
+        "V2CAL-00108"
+      ],
+      "fresh_guard_covered_refs": [
+        "V2CAL-00059",
+        "V2CAL-00082",
+        "V2CAL-00108"
+      ],
+      "fresh_guard_detail_refs": [
+        "V2CAL-00092"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [
+        "V2CAL-00062",
+        "V2CAL-00085"
+      ],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-00044",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00072",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_identity",
+          "canonical_action": "read_identity",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00109",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "confirm",
+          "canonical_action": "confirm",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C02",
+      "service": "Calendar",
+      "policy": "Absence",
+      "scenario": "Hidden",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-C02",
+      "complete": true,
+      "decision": "unresolved",
+      "decision_ref": "V2CAL-00253",
+      "create_requests": 2,
+      "title_repairs": 0,
+      "create_refs": [
+        "V2CAL-00185",
+        "V2CAL-00226"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 52.983,
+      "on_time": true,
+      "first_id": "record-2cbb479dd80ee9d27f72",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-00290"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 2,
+        "ids": [
+          "record-2cbb479dd80ee9d27f72",
+          "record-50fa163796dce2716477"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C02",
+          "V2-RETRY-20261015-C02"
+        ],
+        "fields": [
+          {
+            "id": "record-50fa163796dce2716477",
+            "title": "V2-RETRY-20261015-C02",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-00271"
+            ],
+            "status": "unknown",
+            "missing": []
+          },
+          {
+            "id": "record-2cbb479dd80ee9d27f72",
+            "title": "V2-RETRY-20261015-C02",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-00268"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "unknown",
+        "normalized_fields_pass": true,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": true,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": false,
+      "normalized_clean": false,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "V2CAL-00233",
+        "V2CAL-00235"
+      ],
+      "guard_covered_refs": [],
+      "fresh_guard_covered_refs": [],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-00182",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00201",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00252",
+          "reference_action": "unresolved",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "unresolved",
+          "canonical_action": "unresolved",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C03",
+      "service": "Calendar",
+      "policy": "Guard",
+      "scenario": "Cancel",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-C03",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "V2CAL-00385",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "V2CAL-00352"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 31.137,
+      "on_time": true,
+      "first_id": "record-6a9ea229f75d00aa9a37",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-00404"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-6a9ea229f75d00aa9a37"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C03"
+        ],
+        "fields": [
+          {
+            "id": "record-6a9ea229f75d00aa9a37",
+            "title": "V2-RETRY-20261015-C03",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-00391"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "unknown",
+        "normalized_fields_pass": true,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": null,
+      "strict_clean": null,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "V2CAL-00359",
+        "V2CAL-00361",
+        "V2CAL-00372",
+        "V2CAL-00374",
+        "V2CAL-00378"
+      ],
+      "guard_covered_refs": [
+        "V2CAL-00355",
+        "V2CAL-00367",
+        "V2CAL-00383"
+      ],
+      "fresh_guard_covered_refs": [
+        "V2CAL-00367",
+        "V2CAL-00383"
+      ],
+      "fresh_guard_detail_refs": [
+        "V2CAL-00378"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [
+        "V2CAL-00371"
+      ],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-00328",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00368",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_identity",
+          "canonical_action": "read_identity",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00384",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "confirm",
+          "canonical_action": "confirm",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C04",
+      "service": "Calendar",
+      "policy": "Absence",
+      "scenario": "Cancel",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-C04",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "V2CAL-00485",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "V2CAL-00466"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 21.489,
+      "on_time": true,
+      "first_id": "record-3bbb7a9ede342c418d92",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-00504"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-3bbb7a9ede342c418d92"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C04"
+        ],
+        "fields": [
+          {
+            "id": "record-3bbb7a9ede342c418d92",
+            "title": "V2-RETRY-20261015-C04",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-00491"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "unknown",
+        "normalized_fields_pass": true,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": null,
+      "strict_clean": null,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "V2CAL-00473",
+        "V2CAL-00475",
+        "V2CAL-00477"
+      ],
+      "guard_covered_refs": [
+        "V2CAL-00469",
+        "V2CAL-00483"
+      ],
+      "fresh_guard_covered_refs": [
+        "V2CAL-00483"
+      ],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-00441",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00484",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "confirm",
+          "canonical_action": "confirm",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C05",
+      "service": "Calendar",
+      "policy": "Guard",
+      "scenario": "Partial",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-C05",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "V2CAL-00609",
+      "create_requests": 1,
+      "title_repairs": 1,
+      "create_refs": [
+        "V2CAL-00554"
+      ],
+      "repair_refs": [
+        "V2CAL-00586"
+      ],
+      "elapsed_seconds": 43.008,
+      "on_time": true,
+      "first_id": "record-fedc9fbd8d9c9f63417d",
+      "repair_same_id": true,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-00627"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-fedc9fbd8d9c9f63417d"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C05"
+        ],
+        "fields": [
+          {
+            "id": "record-fedc9fbd8d9c9f63417d",
+            "title": "V2-RETRY-20261015-C05",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-00615"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "unknown",
+        "normalized_fields_pass": true,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": null,
+      "strict_clean": null,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "V2CAL-00596",
+        "V2CAL-00598",
+        "V2CAL-00602"
+      ],
+      "guard_covered_refs": [
+        "V2CAL-00589",
+        "V2CAL-00592",
+        "V2CAL-00607"
+      ],
+      "fresh_guard_covered_refs": [
+        "V2CAL-00592",
+        "V2CAL-00607"
+      ],
+      "fresh_guard_detail_refs": [
+        "V2CAL-00602"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [
+        "V2CAL-00595"
+      ],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-00527",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00570",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "verify_fields",
+          "canonical_action": "read_identity",
+          "literal_label_difference": true,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00581",
+          "reference_action": "repair_same_id",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "repair_title",
+          "canonical_action": "repair_same_id",
+          "literal_label_difference": true,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00608",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "confirm",
+          "canonical_action": "confirm",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C06",
+      "service": "Calendar",
+      "policy": "Absence",
+      "scenario": "Partial",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-C06",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "V2CAL-00731",
+      "create_requests": 2,
+      "title_repairs": 0,
+      "create_refs": [
+        "V2CAL-00674",
+        "V2CAL-00714"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 38.594,
+      "on_time": true,
+      "first_id": "record-dcb461ec2f59c3b9f772",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-00759"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 2,
+        "ids": [
+          "record-488f62f2335e38d6d101",
+          "record-dcb461ec2f59c3b9f772"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C06",
+          "V2-RETRY-20261015-C06-DRAFT"
+        ],
+        "fields": [
+          {
+            "id": "record-488f62f2335e38d6d101",
+            "title": "V2-RETRY-20261015-C06",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-00742"
+            ],
+            "status": "unknown",
+            "missing": []
+          },
+          {
+            "id": "record-dcb461ec2f59c3b9f772",
+            "title": "V2-RETRY-20261015-C06-DRAFT",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": false,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-00737"
+            ],
+            "status": "fail",
+            "missing": []
+          }
+        ],
+        "field_status": "fail",
+        "normalized_fields_pass": false,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": true,
+      "partial_records": 1,
+      "false_confirmation": true,
+      "strict_clean": false,
+      "normalized_clean": false,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [],
+      "guard_covered_refs": [],
+      "fresh_guard_covered_refs": [],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-00650",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00690",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "repeat_create",
+          "canonical_action": "create",
+          "literal_label_difference": true,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00730",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "confirm",
+          "canonical_action": "confirm",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C07",
+      "service": "Calendar",
+      "policy": "Guard",
+      "scenario": "Hidden",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-C07",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "V2CAL-00854",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "V2CAL-00811"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 39.731,
+      "on_time": true,
+      "first_id": "record-5e3029add937d9b5366e",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-00872"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-5e3029add937d9b5366e"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C07"
+        ],
+        "fields": [
+          {
+            "id": "record-5e3029add937d9b5366e",
+            "title": "V2-RETRY-20261015-C07",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-00860"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "unknown",
+        "normalized_fields_pass": true,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": null,
+      "strict_clean": null,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "V2CAL-00818",
+        "V2CAL-00820",
+        "V2CAL-00841",
+        "V2CAL-00843",
+        "V2CAL-00847"
+      ],
+      "guard_covered_refs": [
+        "V2CAL-00814",
+        "V2CAL-00837",
+        "V2CAL-00852"
+      ],
+      "fresh_guard_covered_refs": [
+        "V2CAL-00837",
+        "V2CAL-00852"
+      ],
+      "fresh_guard_detail_refs": [
+        "V2CAL-00847"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [
+        "V2CAL-00840"
+      ],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-00780",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00827",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_identity",
+          "canonical_action": "read_identity",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00853",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "confirm",
+          "canonical_action": "confirm",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C08",
+      "service": "Calendar",
+      "policy": "Absence",
+      "scenario": "Hidden",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-C08",
+      "complete": true,
+      "decision": "unresolved",
+      "decision_ref": "V2CAL-00983",
+      "create_requests": 2,
+      "title_repairs": 0,
+      "create_refs": [
+        "V2CAL-00926",
+        "V2CAL-00966"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 38.004,
+      "on_time": true,
+      "first_id": "record-00d180c6fbcf1ece3f92",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-01018"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 2,
+        "ids": [
+          "record-00d180c6fbcf1ece3f92",
+          "record-1e355eaf2795f321b1af"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C08",
+          "V2-RETRY-20261015-C08"
+        ],
+        "fields": [
+          {
+            "id": "record-00d180c6fbcf1ece3f92",
+            "title": "V2-RETRY-20261015-C08",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-00996"
+            ],
+            "status": "unknown",
+            "missing": []
+          },
+          {
+            "id": "record-1e355eaf2795f321b1af",
+            "title": "V2-RETRY-20261015-C08",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-01001"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "unknown",
+        "normalized_fields_pass": true,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": true,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": false,
+      "normalized_clean": false,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [],
+      "guard_covered_refs": [],
+      "fresh_guard_covered_refs": [],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-00895",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00942",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-00982",
+          "reference_action": "unresolved",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "unresolved",
+          "canonical_action": "unresolved",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C09",
+      "service": "Calendar",
+      "policy": "Guard",
+      "scenario": "Partial",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-C09",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "V2CAL-01120",
+      "create_requests": 1,
+      "title_repairs": 1,
+      "create_refs": [
+        "V2CAL-01065"
+      ],
+      "repair_refs": [
+        "V2CAL-01097"
+      ],
+      "elapsed_seconds": 50.194,
+      "on_time": true,
+      "first_id": "record-e9b8eb03127d23984940",
+      "repair_same_id": true,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-01138"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-e9b8eb03127d23984940"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C09"
+        ],
+        "fields": [
+          {
+            "id": "record-e9b8eb03127d23984940",
+            "title": "V2-RETRY-20261015-C09",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-01126"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "unknown",
+        "normalized_fields_pass": true,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": null,
+      "strict_clean": null,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "V2CAL-01109",
+        "V2CAL-01113"
+      ],
+      "guard_covered_refs": [
+        "V2CAL-01100",
+        "V2CAL-01103",
+        "V2CAL-01118"
+      ],
+      "fresh_guard_covered_refs": [
+        "V2CAL-01103",
+        "V2CAL-01118"
+      ],
+      "fresh_guard_detail_refs": [
+        "V2CAL-01113"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [
+        "V2CAL-01106"
+      ],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-01041",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-01081",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_identity",
+          "canonical_action": "read_identity",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-01092",
+          "reference_action": "repair_same_id",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "repair_same_id",
+          "canonical_action": "repair_same_id",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-01119",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "confirm",
+          "canonical_action": "confirm",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C10",
+      "service": "Calendar",
+      "policy": "Guard",
+      "scenario": "Cancel",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-C10",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "V2CAL-01236",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "V2CAL-01203"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 28.983,
+      "on_time": true,
+      "first_id": "record-a8fd44e2e11c84d961ff",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-01254"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-a8fd44e2e11c84d961ff"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C10"
+        ],
+        "fields": [
+          {
+            "id": "record-a8fd44e2e11c84d961ff",
+            "title": "V2-RETRY-20261015-C10",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-01242"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "unknown",
+        "normalized_fields_pass": true,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": null,
+      "strict_clean": null,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "V2CAL-01210",
+        "V2CAL-01212",
+        "V2CAL-01225",
+        "V2CAL-01229"
+      ],
+      "guard_covered_refs": [
+        "V2CAL-01206",
+        "V2CAL-01218",
+        "V2CAL-01234"
+      ],
+      "fresh_guard_covered_refs": [
+        "V2CAL-01218",
+        "V2CAL-01234"
+      ],
+      "fresh_guard_detail_refs": [
+        "V2CAL-01229"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [
+        "V2CAL-01222"
+      ],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-01179",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-01219",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_identity",
+          "canonical_action": "read_identity",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-01235",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "confirm",
+          "canonical_action": "confirm",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C11",
+      "service": "Calendar",
+      "policy": "Absence",
+      "scenario": "Partial",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-C11",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "V2CAL-01356",
+      "create_requests": 2,
+      "title_repairs": 0,
+      "create_refs": [
+        "V2CAL-01299",
+        "V2CAL-01339"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 38.421,
+      "on_time": true,
+      "first_id": "record-1532e1caad0914a2c2e7",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-01384"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 2,
+        "ids": [
+          "record-1532e1caad0914a2c2e7",
+          "record-73dc46b968da3f50f6eb"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C11-DRAFT",
+          "V2-RETRY-20261015-C11"
+        ],
+        "fields": [
+          {
+            "id": "record-1532e1caad0914a2c2e7",
+            "title": "V2-RETRY-20261015-C11-DRAFT",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": false,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-01362"
+            ],
+            "status": "fail",
+            "missing": []
+          },
+          {
+            "id": "record-73dc46b968da3f50f6eb",
+            "title": "V2-RETRY-20261015-C11",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-01367"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "fail",
+        "normalized_fields_pass": false,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": true,
+      "partial_records": 1,
+      "false_confirmation": true,
+      "strict_clean": false,
+      "normalized_clean": false,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [],
+      "guard_covered_refs": [],
+      "fresh_guard_covered_refs": [],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-01275",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-01315",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-01355",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "confirm",
+          "canonical_action": "confirm",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "C12",
+      "service": "Calendar",
+      "policy": "Absence",
+      "scenario": "Cancel",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-C12",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "V2CAL-01462",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "V2CAL-01445"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 12.712,
+      "on_time": true,
+      "first_id": "record-6cc7a775a76f4e760815",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "V2CAL-01480"
+      ],
+      "cleanup_connector_zero": true,
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-6cc7a775a76f4e760815"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-C12"
+        ],
+        "fields": [
+          {
+            "id": "record-6cc7a775a76f4e760815",
+            "title": "V2-RETRY-20261015-C12",
+            "description_literal": false,
+            "description_marker": true,
+            "other_checks": {
+              "title": true,
+              "start": true,
+              "end": true,
+              "free": true,
+              "private": true,
+              "guests": true,
+              "reminders": true,
+              "recurrence": true,
+              "location": true,
+              "conference": true
+            },
+            "browser_editor": true,
+            "browser_refs": [
+              "V2CAL-01468"
+            ],
+            "status": "unknown",
+            "missing": []
+          }
+        ],
+        "field_status": "unknown",
+        "normalized_fields_pass": true,
+        "read_after_decision": true,
+        "pagination_complete": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": null,
+      "strict_clean": null,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "V2CAL-01452",
+        "V2CAL-01454"
+      ],
+      "guard_covered_refs": [
+        "V2CAL-01448",
+        "V2CAL-01460"
+      ],
+      "fresh_guard_covered_refs": [
+        "V2CAL-01460"
+      ],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "V2CAL-01421",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "create",
+          "canonical_action": "create",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "V2CAL-01461",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "confirm",
+          "canonical_action": "confirm",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N01",
+      "service": "Notion",
+      "policy": "Guard",
+      "scenario": "Partial",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-N01",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "NV2-00072",
+      "create_requests": 1,
+      "title_repairs": 1,
+      "create_refs": [
+        "NV2-00007"
+      ],
+      "repair_refs": [
+        "NV2-00048"
+      ],
+      "elapsed_seconds": 99.294,
+      "on_time": true,
+      "first_id": "record-4a3d7e960452d0f8798a",
+      "repair_same_id": true,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00086",
+        "NV2-00089"
+      ],
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-4a3d7e960452d0f8798a"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N01"
+        ],
+        "fields": [
+          {
+            "id": "record-4a3d7e960452d0f8798a",
+            "title": "V2-RETRY-20261015-N01",
+            "prompt": true,
+            "record_id": "NV2-00080",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "pass",
+        "table_ref": "NV2-00077",
+        "normalized_fields_pass": true,
+        "read_after_decision": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": true,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [
+        "NV2-00070"
+      ],
+      "guard_detail_refs": [
+        "NV2-00066"
+      ],
+      "guard_prompt_detail_refs": [
+        "NV2-00066"
+      ],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [
+        "NV2-00054"
+      ],
+      "fresh_guard_covered_refs": [
+        "NV2-00054"
+      ],
+      "fresh_guard_detail_refs": [
+        "NV2-00066"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00016",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00046",
+          "reference_action": "repair_same_id",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00071",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N02",
+      "service": "Notion",
+      "policy": "Guard",
+      "scenario": "Cancel",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-N02",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "NV2-00157",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "NV2-00108"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 95.114,
+      "on_time": true,
+      "first_id": "record-d6e11edec89b4c32266e",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00175",
+        "NV2-00176"
+      ],
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-d6e11edec89b4c32266e"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N02"
+        ],
+        "fields": [
+          {
+            "id": "record-d6e11edec89b4c32266e",
+            "title": "V2-RETRY-20261015-N02",
+            "prompt": true,
+            "record_id": "NV2-00164",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "pass",
+        "table_ref": "NV2-00163",
+        "normalized_fields_pass": true,
+        "read_after_decision": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": true,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "NV2-00127",
+        "NV2-00129",
+        "NV2-00131"
+      ],
+      "guard_prompt_detail_refs": [
+        "NV2-00127",
+        "NV2-00129",
+        "NV2-00131"
+      ],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [
+        "NV2-00118",
+        "NV2-00143",
+        "NV2-00155"
+      ],
+      "fresh_guard_covered_refs": [
+        "NV2-00118",
+        "NV2-00143",
+        "NV2-00155"
+      ],
+      "fresh_guard_detail_refs": [
+        "NV2-00127",
+        "NV2-00129",
+        "NV2-00131"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00119",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00156",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N03",
+      "service": "Notion",
+      "policy": "Absence",
+      "scenario": "Hidden",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-N03",
+      "complete": true,
+      "decision": "unresolved",
+      "decision_ref": "NV2-00215",
+      "create_requests": 2,
+      "title_repairs": 0,
+      "create_refs": [
+        "NV2-00188",
+        "NV2-00203"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 26.257,
+      "on_time": true,
+      "first_id": "record-67cd42582284719cb55c",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00248",
+        "NV2-00251"
+      ],
+      "audit": {
+        "count": 2,
+        "ids": [
+          "record-67cd42582284719cb55c",
+          "record-a7af664679dbd2cc79db"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N03",
+          "V2-RETRY-20261015-N03"
+        ],
+        "fields": [
+          {
+            "id": "record-67cd42582284719cb55c",
+            "title": "V2-RETRY-20261015-N03",
+            "prompt": true,
+            "record_id": "NV2-00226",
+            "empty_body": true,
+            "parent": true
+          },
+          {
+            "id": "record-a7af664679dbd2cc79db",
+            "title": "V2-RETRY-20261015-N03",
+            "prompt": true,
+            "record_id": "NV2-00232",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "pass",
+        "table_ref": "NV2-00225",
+        "normalized_fields_pass": true,
+        "read_after_decision": true
+      },
+      "extra_case": true,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": false,
+      "normalized_clean": false,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [],
+      "guard_prompt_detail_refs": [],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [],
+      "fresh_guard_covered_refs": [],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00199",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00214",
+          "reference_action": "unresolved",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N04",
+      "service": "Notion",
+      "policy": "Absence",
+      "scenario": "Partial",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-N04",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "NV2-00283",
+      "create_requests": 2,
+      "title_repairs": 0,
+      "create_refs": [
+        "NV2-00261",
+        "NV2-00272"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 15.054,
+      "on_time": true,
+      "first_id": "record-dde8d10552ddc0bbfb4f",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00342"
+      ],
+      "audit": {
+        "count": 2,
+        "ids": [
+          "record-1884ab388ebf97f96cf6",
+          "record-dde8d10552ddc0bbfb4f"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N04",
+          ""
+        ],
+        "fields": [
+          {
+            "id": "record-dde8d10552ddc0bbfb4f",
+            "title": "",
+            "prompt": true,
+            "record_id": "NV2-00292",
+            "empty_body": true,
+            "parent": true
+          },
+          {
+            "id": "record-1884ab388ebf97f96cf6",
+            "title": "V2-RETRY-20261015-N04",
+            "prompt": true,
+            "record_id": "NV2-00298",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "fail",
+        "table_ref": "NV2-00291",
+        "normalized_fields_pass": false,
+        "read_after_decision": true
+      },
+      "extra_case": true,
+      "partial_records": 1,
+      "false_confirmation": true,
+      "strict_clean": false,
+      "normalized_clean": false,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [],
+      "guard_prompt_detail_refs": [],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [],
+      "fresh_guard_covered_refs": [],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00270",
+          "reference_action": "compact_schema",
+          "compact_absence_branch_from_evidence": "create",
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00282",
+          "reference_action": "compact_schema",
+          "compact_absence_branch_from_evidence": "confirm",
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N05",
+      "service": "Notion",
+      "policy": "Absence",
+      "scenario": "Cancel",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-N05",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "NV2-00372",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "NV2-00360"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 8.432,
+      "on_time": true,
+      "first_id": "record-ddf5481e87e5c57294c0",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00392",
+        "NV2-00393"
+      ],
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-ddf5481e87e5c57294c0"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N05"
+        ],
+        "fields": [
+          {
+            "id": "record-ddf5481e87e5c57294c0",
+            "title": "V2-RETRY-20261015-N05",
+            "prompt": true,
+            "record_id": "NV2-00381",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "pass",
+        "table_ref": "NV2-00380",
+        "normalized_fields_pass": true,
+        "read_after_decision": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": true,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [],
+      "guard_prompt_detail_refs": [],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [
+        "NV2-00370"
+      ],
+      "fresh_guard_covered_refs": [
+        "NV2-00370"
+      ],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00371",
+          "reference_action": "compact_schema",
+          "compact_absence_branch_from_evidence": "confirm",
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N06",
+      "service": "Notion",
+      "policy": "Guard",
+      "scenario": "Hidden",
+      "repeat": "1",
+      "token": "V2-RETRY-20261015-N06",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "NV2-00447",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "NV2-00407"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 39.65,
+      "on_time": true,
+      "first_id": "record-fdde1cab380c4863e021",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00460",
+        "NV2-00465"
+      ],
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-fdde1cab380c4863e021"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N06"
+        ],
+        "fields": [
+          {
+            "id": "record-fdde1cab380c4863e021",
+            "title": "V2-RETRY-20261015-N06",
+            "prompt": true,
+            "record_id": "NV2-00454",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "pass",
+        "table_ref": "NV2-00453",
+        "normalized_fields_pass": true,
+        "read_after_decision": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": true,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "NV2-00428"
+      ],
+      "guard_prompt_detail_refs": [
+        "NV2-00428"
+      ],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [
+        "NV2-00431",
+        "NV2-00445"
+      ],
+      "fresh_guard_covered_refs": [
+        "NV2-00431",
+        "NV2-00445"
+      ],
+      "fresh_guard_detail_refs": [
+        "NV2-00428"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00419",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_native",
+          "canonical_action": "read_identity",
+          "literal_label_difference": true,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00444",
+          "reference_action": "read_scope",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_scope",
+          "canonical_action": "read_scope",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00446",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N07",
+      "service": "Notion",
+      "policy": "Guard",
+      "scenario": "Partial",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-N07",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "NV2-00537",
+      "create_requests": 1,
+      "title_repairs": 1,
+      "create_refs": [
+        "NV2-00474"
+      ],
+      "repair_refs": [
+        "NV2-00509"
+      ],
+      "elapsed_seconds": 50.069,
+      "on_time": true,
+      "first_id": "record-795b461f79a228546ebf",
+      "repair_same_id": true,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00552",
+        "NV2-00557"
+      ],
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-795b461f79a228546ebf"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N07"
+        ],
+        "fields": [
+          {
+            "id": "record-795b461f79a228546ebf",
+            "title": "V2-RETRY-20261015-N07",
+            "prompt": true,
+            "record_id": "NV2-00546",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "pass",
+        "table_ref": "NV2-00545",
+        "normalized_fields_pass": true,
+        "read_after_decision": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": true,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "NV2-00519"
+      ],
+      "guard_prompt_detail_refs": [
+        "NV2-00519"
+      ],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [
+        "NV2-00521",
+        "NV2-00535"
+      ],
+      "fresh_guard_covered_refs": [
+        "NV2-00521",
+        "NV2-00535"
+      ],
+      "fresh_guard_detail_refs": [
+        "NV2-00519"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00483",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_native",
+          "canonical_action": "read_identity",
+          "literal_label_difference": true,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00505",
+          "reference_action": "repair_same_id",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "repair_title",
+          "canonical_action": "repair_same_id",
+          "literal_label_difference": true,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00534",
+          "reference_action": "read_scope",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_scope",
+          "canonical_action": "read_scope",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00536",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N08",
+      "service": "Notion",
+      "policy": "Absence",
+      "scenario": "Cancel",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-N08",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "NV2-00588",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "NV2-00575"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 9.352,
+      "on_time": true,
+      "first_id": "record-4aa5d4413a242af0c4e2",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00603",
+        "NV2-00608"
+      ],
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-4aa5d4413a242af0c4e2"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N08"
+        ],
+        "fields": [
+          {
+            "id": "record-4aa5d4413a242af0c4e2",
+            "title": "V2-RETRY-20261015-N08",
+            "prompt": true,
+            "record_id": "NV2-00597",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "pass",
+        "table_ref": "NV2-00596",
+        "normalized_fields_pass": true,
+        "read_after_decision": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": true,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [],
+      "guard_prompt_detail_refs": [],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [
+        "NV2-00585"
+      ],
+      "fresh_guard_covered_refs": [
+        "NV2-00585"
+      ],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00587",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N09",
+      "service": "Notion",
+      "policy": "Absence",
+      "scenario": "Partial",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-N09",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "NV2-00642",
+      "create_requests": 2,
+      "title_repairs": 0,
+      "create_refs": [
+        "NV2-00617",
+        "NV2-00630"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 18.144,
+      "on_time": true,
+      "first_id": "record-410c066987c9d0d78a3b",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00687",
+        "NV2-00688"
+      ],
+      "audit": {
+        "count": 2,
+        "ids": [
+          "record-410c066987c9d0d78a3b",
+          "record-d4d9668228d23e606c99"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N09",
+          ""
+        ],
+        "fields": [
+          {
+            "id": "record-410c066987c9d0d78a3b",
+            "title": "",
+            "prompt": true,
+            "record_id": "NV2-00651",
+            "empty_body": true,
+            "parent": true
+          },
+          {
+            "id": "record-d4d9668228d23e606c99",
+            "title": "V2-RETRY-20261015-N09",
+            "prompt": true,
+            "record_id": "NV2-00657",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "fail",
+        "table_ref": "NV2-00650",
+        "normalized_fields_pass": false,
+        "read_after_decision": true
+      },
+      "extra_case": true,
+      "partial_records": 1,
+      "false_confirmation": true,
+      "strict_clean": false,
+      "normalized_clean": false,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [],
+      "guard_prompt_detail_refs": [],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [],
+      "fresh_guard_covered_refs": [],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00628",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "repeat_create",
+          "canonical_action": "create",
+          "literal_label_difference": true,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00641",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N10",
+      "service": "Notion",
+      "policy": "Guard",
+      "scenario": "Cancel",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-N10",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "NV2-00738",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "NV2-00704"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 30.325,
+      "on_time": true,
+      "first_id": "record-ae3bbadfe12d18be99a6",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00751",
+        "NV2-00756"
+      ],
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-ae3bbadfe12d18be99a6"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N10"
+        ],
+        "fields": [
+          {
+            "id": "record-ae3bbadfe12d18be99a6",
+            "title": "V2-RETRY-20261015-N10",
+            "prompt": true,
+            "record_id": "NV2-00745",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "pass",
+        "table_ref": "NV2-00744",
+        "normalized_fields_pass": true,
+        "read_after_decision": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": true,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "NV2-00725"
+      ],
+      "guard_prompt_detail_refs": [
+        "NV2-00725"
+      ],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [
+        "NV2-00714",
+        "NV2-00736"
+      ],
+      "fresh_guard_covered_refs": [
+        "NV2-00714",
+        "NV2-00736"
+      ],
+      "fresh_guard_detail_refs": [
+        "NV2-00725"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00716",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_native",
+          "canonical_action": "read_identity",
+          "literal_label_difference": true,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00735",
+          "reference_action": "read_scope",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_scope",
+          "canonical_action": "read_scope",
+          "literal_label_difference": false,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00737",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N11",
+      "service": "Notion",
+      "policy": "Absence",
+      "scenario": "Hidden",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-N11",
+      "complete": true,
+      "decision": "unresolved",
+      "decision_ref": "NV2-00799",
+      "create_requests": 2,
+      "title_repairs": 0,
+      "create_refs": [
+        "NV2-00770",
+        "NV2-00786"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 22.238,
+      "on_time": true,
+      "first_id": "record-ade336e7d997d6d630ba",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00839"
+      ],
+      "audit": {
+        "count": 2,
+        "ids": [
+          "record-ade336e7d997d6d630ba",
+          "record-bdf6a66ba3361f0e84ae"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N11",
+          "V2-RETRY-20261015-N11"
+        ],
+        "fields": [
+          {
+            "id": "record-ade336e7d997d6d630ba",
+            "title": "V2-RETRY-20261015-N11",
+            "prompt": true,
+            "record_id": "NV2-00810",
+            "empty_body": true,
+            "parent": true
+          },
+          {
+            "id": "record-bdf6a66ba3361f0e84ae",
+            "title": "V2-RETRY-20261015-N11",
+            "prompt": true,
+            "record_id": "NV2-00816",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "pass",
+        "table_ref": "NV2-00809",
+        "normalized_fields_pass": true,
+        "read_after_decision": true
+      },
+      "extra_case": true,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": false,
+      "normalized_clean": false,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [],
+      "guard_prompt_detail_refs": [],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [],
+      "fresh_guard_covered_refs": [],
+      "fresh_guard_detail_refs": [],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00782",
+          "reference_action": "create",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "repeat_create",
+          "canonical_action": "create",
+          "literal_label_difference": true,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00798",
+          "reference_action": "unresolved",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    },
+    {
+      "trial_id": "N12",
+      "service": "Notion",
+      "policy": "Guard",
+      "scenario": "Hidden",
+      "repeat": "2",
+      "token": "V2-RETRY-20261015-N12",
+      "complete": true,
+      "decision": "confirm",
+      "decision_ref": "NV2-00889",
+      "create_requests": 1,
+      "title_repairs": 0,
+      "create_refs": [
+        "NV2-00852"
+      ],
+      "repair_refs": [],
+      "elapsed_seconds": 28.884,
+      "on_time": true,
+      "first_id": "record-119a4e105d3ebb4f11c4",
+      "repair_same_id": null,
+      "cleanup_browser_zero": true,
+      "cleanup_zero_refs": [
+        "NV2-00902",
+        "NV2-00907"
+      ],
+      "audit": {
+        "count": 1,
+        "ids": [
+          "record-119a4e105d3ebb4f11c4"
+        ],
+        "titles": [
+          "V2-RETRY-20261015-N12"
+        ],
+        "fields": [
+          {
+            "id": "record-119a4e105d3ebb4f11c4",
+            "title": "V2-RETRY-20261015-N12",
+            "prompt": true,
+            "record_id": "NV2-00896",
+            "empty_body": true,
+            "parent": true
+          }
+        ],
+        "field_status": "pass",
+        "table_ref": "NV2-00895",
+        "normalized_fields_pass": true,
+        "read_after_decision": true
+      },
+      "extra_case": false,
+      "partial_records": 0,
+      "false_confirmation": false,
+      "strict_clean": true,
+      "normalized_clean": true,
+      "bad_terminal_observer_refs": [],
+      "guard_detail_refs": [
+        "NV2-00873"
+      ],
+      "guard_prompt_detail_refs": [
+        "NV2-00873"
+      ],
+      "guard_detail_without_prompt": false,
+      "guard_covered_refs": [
+        "NV2-00875",
+        "NV2-00887"
+      ],
+      "fresh_guard_covered_refs": [
+        "NV2-00875",
+        "NV2-00887"
+      ],
+      "fresh_guard_detail_refs": [
+        "NV2-00873"
+      ],
+      "known_created_ids_in_audit": true,
+      "guard_marker_refs": [],
+      "reference_replay": [
+        {
+          "record_id": "NV2-00864",
+          "reference_action": "read_identity",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": "read_native",
+          "canonical_action": "read_identity",
+          "literal_label_difference": true,
+          "semantic_label_match": true,
+          "future_sources": []
+        },
+        {
+          "record_id": "NV2-00888",
+          "reference_action": "confirm",
+          "compact_absence_branch_from_evidence": null,
+          "manual_action": null,
+          "canonical_action": null,
+          "literal_label_difference": false,
+          "semantic_label_match": null,
+          "future_sources": []
+        }
+      ],
+      "missing_source_refs": []
+    }
+  ]
+}

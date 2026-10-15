@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "method": "Fresh directory copy. Same documented analysis and test commands. No browser or network calls.",
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "tests": {
+    "policy": 19,
+    "analyzer": 15,
+    "total": 34,
+    "returncode": 0
+  },
+  "outputs": [
+    {
+      "file": "v2_trials.csv",
+      "sha256": "85cc7a90720a21d8a367d45728f9c23a5b0edaa26feb42e9d0e2ab421387f4a5",
+      "byte_equal": true
+    },
+    {
+      "file": "v2_groups.csv",
+      "sha256": "237eb712ca163fba3638d2f179ae225c529985b0e3c23f0b953819ac10cdb188",
+      "byte_equal": true
+    },
+    {
+      "file": "v2_summary.json",
+      "sha256": "1509872bd83baf20f3189523c0ff1670622eecb8011c38fcbea365c60a4d743b",
+      "byte_equal": true
+    },
+    {
+      "file": "v2_analysis_checks.json",
+      "sha256": "5b11f06c0966edf38f9d240a714734504906b232fa958aea5093b04892b9d8d9",
+      "byte_equal": true
+    },
+    {
+      "file": "v2_analysis_log.txt",
+      "sha256": "1509872bd83baf20f3189523c0ff1670622eecb8011c38fcbea365c60a4d743b",
+      "byte_equal": true
+    }
+  ],
+  "analysis_sha256": "cf635ea00f981f3cc3d9935b408f10e30733fe800cde21237355b3bb4eb766fb",
+  "policy_sha256": "426443f68ec01f990bae287f30274502cb2da1afad2bb162ab2ea8f0e452c7b7"
+}

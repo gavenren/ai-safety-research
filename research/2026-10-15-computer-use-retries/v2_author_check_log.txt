@@ -1,0 +1,7 @@
+Author verification log
+
+Two early verification launches used the wrong working directory. One patch launcher reported FileNotFoundError before it changed a file. One unittest launcher could not import the two modules. These were command-path errors, not failed trial outcomes. The patch was applied from the workspace root. Test discovery from that root then ran all 34 checks successfully. The final reproduction check below is saved separately in v2_reproduction_check.json.
+
+An initial evidence extractor aliased a whole Calendar native URL before its opaque event segment. This made the UI and connector aliases differ. Before final analysis, the extractor was corrected to map the observed opaque segment and decoded service event ID to the same alias. A separate review checked identity agreement. Raw files were not changed.
+
+The analyzer initially missed two repair action labels and counted parent cleanup as N12 trial cleanup. These parsing errors were found during review and corrected. The raw actions, frozen policy, and saved decisions were not changed.

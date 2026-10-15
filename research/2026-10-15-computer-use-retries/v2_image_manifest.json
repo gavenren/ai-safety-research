@@ -1,0 +1,486 @@
+{
+  "archive": "v2_images.zip",
+  "archive_sha256": "3cfeb6f2124444ec108c62cec03025e889469a716b723792fa7fa917dea171e6",
+  "method": "Original browser screenshots. Calendar uses task-region crops. Scored Notion images use the full viewport with its sidebar closed. No image transformation. Fixed archive timestamps make repeated packaging deterministic. Failed or premature evidence is retained with its log interpretation.",
+  "images": [
+    {
+      "group": "calendar_preflight",
+      "archive_path": "calendar_preflight/cleanup-zero.jpg",
+      "bytes": 8437,
+      "sha256": "26dfd4114ff5478424434160078f0623555dad3ce06aa1db26263178f47e8969"
+    },
+    {
+      "group": "notion_preflight",
+      "archive_path": "notion_preflight/corrected-one.png",
+      "bytes": 27668,
+      "sha256": "f20a81d0f8b8fe56de134abe9e2e84fc62628dbda6534dcf22edca038588c0d6"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C01-audit.jpg",
+      "bytes": 12394,
+      "sha256": "862f091282f2445c462939e1665662f0a4885ecf746b29b930589085ad199061"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C01-cleanup.jpg",
+      "bytes": 8542,
+      "sha256": "f1864c8da88eb0b03edbc23bbec1e47b955176867fda11235532c5d5fe0302f2"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C01-decision.jpg",
+      "bytes": 12394,
+      "sha256": "862f091282f2445c462939e1665662f0a4885ecf746b29b930589085ad199061"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C02-audit.jpg",
+      "bytes": 14877,
+      "sha256": "41573a8cfde734571858eeebbb93aaf021c4e3924253498195e79f0c01faf7ac"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C02-cleanup.jpg",
+      "bytes": 8558,
+      "sha256": "ed37aafb72fb1f66cf6a8f45bcd94ac50df4aa3dddecd5477342b8d3e8ba3b6a"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C02-decision.jpg",
+      "bytes": 8562,
+      "sha256": "533ce3f4ac1b3ba6a98cabce807909e33ca67be7e108fcdad003b25f890ac56c"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C03-audit.jpg",
+      "bytes": 12476,
+      "sha256": "0639284fd52afe8aff1a740bf9fb42b4144e28284b0a5b2348d1e8d436d1cb77"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C03-cleanup.jpg",
+      "bytes": 8557,
+      "sha256": "b2a943383dbd6d7e43370ada586307bd7d464255b671f489d8d90373e826f98c"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C03-decision.jpg",
+      "bytes": 12476,
+      "sha256": "0639284fd52afe8aff1a740bf9fb42b4144e28284b0a5b2348d1e8d436d1cb77"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C04-audit.jpg",
+      "bytes": 12562,
+      "sha256": "e6a2942a3477d225843a38105686538ca5b594882fbb2088b132c32f7bfe1895"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C04-cleanup.jpg",
+      "bytes": 8550,
+      "sha256": "9578543f3347db4e3a0f38df77c4ab35318f7c0193df139362fd46ec7bc7bcfb"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C04-decision.jpg",
+      "bytes": 12562,
+      "sha256": "e6a2942a3477d225843a38105686538ca5b594882fbb2088b132c32f7bfe1895"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C05-audit.jpg",
+      "bytes": 12480,
+      "sha256": "0bdf21235e259e2eaadd88e623d263db78943160b532125032e7b17447dbb884"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C05-cleanup.jpg",
+      "bytes": 8551,
+      "sha256": "01e1bbc658a3f013f90ed422a7d200dcb95f6092970250d14b1c8a1b83b73ebf"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C05-decision.jpg",
+      "bytes": 12480,
+      "sha256": "0bdf21235e259e2eaadd88e623d263db78943160b532125032e7b17447dbb884"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C06-audit.jpg",
+      "bytes": 15357,
+      "sha256": "ba83fdb81234dd4d14fbae2a4a993e9be4a0b8b46878f82e5ee1fafe297ea69b"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C06-cleanup.jpg",
+      "bytes": 8559,
+      "sha256": "008051a91afd63f7dc8807f6a6f5602e79c9197f5dca36f45c3e49ee948ada44"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C06-decision.jpg",
+      "bytes": 15357,
+      "sha256": "ba83fdb81234dd4d14fbae2a4a993e9be4a0b8b46878f82e5ee1fafe297ea69b"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C07-audit.jpg",
+      "bytes": 12435,
+      "sha256": "80c0956fee776de2760a629dd8cd46c2e78ccc08aa0f79f85cc0c3f3c21621c8"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C07-cleanup.jpg",
+      "bytes": 8970,
+      "sha256": "1cf57dd4e0d3ee37aa9679e34058d71c2c6f22c2d4c088a5504c297a3d4e0566"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C07-decision.jpg",
+      "bytes": 12435,
+      "sha256": "80c0956fee776de2760a629dd8cd46c2e78ccc08aa0f79f85cc0c3f3c21621c8"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C08-audit.jpg",
+      "bytes": 13149,
+      "sha256": "61e973921ad543cc8eee8b3f5788618e9a377cf2f2a05579fb40541e56a4ccea"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C08-cleanup.jpg",
+      "bytes": 8560,
+      "sha256": "3b1a15b64ac9f4445acb544a612f54967098e01714ae4225dd3b6f51fe99f968"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C08-decision.jpg",
+      "bytes": 7872,
+      "sha256": "8c4b130ab0b5cd03c2edb4c26dd82471fc4441da70c6a04a927c4164b2b48c01"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C09-audit.jpg",
+      "bytes": 12482,
+      "sha256": "6677b4717c9d70d20c3e671ac283b55983afd37da2469ca23d1246a456cfdd44"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C09-cleanup.jpg",
+      "bytes": 8557,
+      "sha256": "0ddb203e424447600558dca5d2e23cf47d59961063d42636b06388edb87c63bf"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C09-decision.jpg",
+      "bytes": 12482,
+      "sha256": "6677b4717c9d70d20c3e671ac283b55983afd37da2469ca23d1246a456cfdd44"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C10-audit.jpg",
+      "bytes": 12453,
+      "sha256": "45ed478a89a72ba3c0d3f554c05b443eb1aec9c5eb3efdd6cb59408cb469db1d"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C10-cleanup.jpg",
+      "bytes": 8544,
+      "sha256": "e80ece3207ff9cf88e38ab1a750606dde050bdd4eacf23dce36fa9253d365103"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C10-decision.jpg",
+      "bytes": 12453,
+      "sha256": "45ed478a89a72ba3c0d3f554c05b443eb1aec9c5eb3efdd6cb59408cb469db1d"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C11-audit.jpg",
+      "bytes": 13371,
+      "sha256": "180ca146f031e03efebc8948b9ed6bdf2b9fdb5b5c6d4168ccdb1354236059ee"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C11-cleanup.jpg",
+      "bytes": 8458,
+      "sha256": "62d052636f1fcb353d916e5d3540f192cfa5f25e4ee7a1670015fc6e6d1f152e"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C11-decision.jpg",
+      "bytes": 13371,
+      "sha256": "180ca146f031e03efebc8948b9ed6bdf2b9fdb5b5c6d4168ccdb1354236059ee"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C12-audit.jpg",
+      "bytes": 10365,
+      "sha256": "65ffbc3215a6624fce030ae1cdc345a452c3de231aaac6d09c8e6bd5f36e6d45"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C12-cleanup.jpg",
+      "bytes": 8521,
+      "sha256": "c5fb9b45affaf80cc3c64e041ac86cb1e23032c54c37865b1740cb65b054d932"
+    },
+    {
+      "group": "calendar_runner",
+      "archive_path": "calendar_runner/C12-decision.jpg",
+      "bytes": 10365,
+      "sha256": "65ffbc3215a6624fce030ae1cdc345a452c3de231aaac6d09c8e6bd5f36e6d45"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/N02-popup-inspect.png",
+      "bytes": 37749,
+      "sha256": "993e9a41fb39e74b3f4588cd3700e958443945af51af5b4a2c8b9f03423290f7"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N01-audit.png",
+      "bytes": 27233,
+      "sha256": "c796e33cc0d94eb8cb7232cd1c1a6d307b85f3a20b3211d90e6d7567f51ebe08"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N01-cleanup.png",
+      "bytes": 28357,
+      "sha256": "e22863841786d9548717a2868d48f3d80243425706b04acb39ccd04b8803a4db"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N01-decision.png",
+      "bytes": 29125,
+      "sha256": "cc3d603571694c58194f1e2fda259a8337ccef65446158e6847fff425f3a20d2"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N02-audit.png",
+      "bytes": 28519,
+      "sha256": "1e40b55547ed239cdeeaf34fb486c7673abf46a2e4eb6052657160136a01bedf"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N02-cleanup.png",
+      "bytes": 31736,
+      "sha256": "6021bee9a8289571a8860cf26c4f53c5bb9cebd186aeac2cc73e227974e6ce3a"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N02-decision.png",
+      "bytes": 28519,
+      "sha256": "1e40b55547ed239cdeeaf34fb486c7673abf46a2e4eb6052657160136a01bedf"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N03-audit.png",
+      "bytes": 29862,
+      "sha256": "bb8f9476e0a901cf0dc7edf6e5499438e0e3ef9eacbf8ef3e98029e61f6699b0"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N03-cleanup.png",
+      "bytes": 28357,
+      "sha256": "e22863841786d9548717a2868d48f3d80243425706b04acb39ccd04b8803a4db"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N03-decision.png",
+      "bytes": 25600,
+      "sha256": "b8fae892cdea3437386c335a0b11372e6b555e189117111075c2c6c6ddde65db"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N04-audit.png",
+      "bytes": 28029,
+      "sha256": "01c3838d36253d039d3ab927c83cba37885a91a8a6bfb5684fdb9940ad614b53"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N04-cleanup-verified.png",
+      "bytes": 31739,
+      "sha256": "ac4eb44156cff11eb79f9682b8a5988d8f25dcb095d818d0ea6a8e1d08b38500"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N04-cleanup.png",
+      "bytes": 26615,
+      "sha256": "87a8379f4207272a2275e35104852f6d74623485ff60208451c780b70b3c0b8f"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N04-decision.png",
+      "bytes": 28029,
+      "sha256": "01c3838d36253d039d3ab927c83cba37885a91a8a6bfb5684fdb9940ad614b53"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N05-audit.png",
+      "bytes": 28607,
+      "sha256": "7bf5d720ee8b9e0f6b11f2f7f6d63ad4a5e874c4bcc7a9b50b3cb6cd487dca3b"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N05-cleanup.png",
+      "bytes": 31813,
+      "sha256": "9fb35491f00dfe522ed2ee3efae6da87ed53d8eebcef9c361129696226994d93"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N05-decision.png",
+      "bytes": 28607,
+      "sha256": "7bf5d720ee8b9e0f6b11f2f7f6d63ad4a5e874c4bcc7a9b50b3cb6cd487dca3b"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N06-audit.png",
+      "bytes": 27357,
+      "sha256": "468180da1ca7fc33babac0e047119d0dc246ced1dfd2ed53c333fccc2681ee5a"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N06-cleanup.png",
+      "bytes": 28358,
+      "sha256": "c44709f1b46f70d062ac3b0cad0128fd710d33e97c9a53daf9a6fbf8acf530bd"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N06-decision.png",
+      "bytes": 30243,
+      "sha256": "118c471acbc03c82a3a2d877b04fa015319dac54e8a958000c2fa164ed06d24a"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N07-audit.png",
+      "bytes": 29188,
+      "sha256": "7661a6d9670229b6d362d7c7d3f00ab262e59c129d0a821fd97a60155ded53a0"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N07-cleanup.png",
+      "bytes": 28306,
+      "sha256": "8567a3597e73d57e77c61d70c7db51fe62b4ec3b7e9dbc673869fca8e130a160"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N07-decision.png",
+      "bytes": 29188,
+      "sha256": "7661a6d9670229b6d362d7c7d3f00ab262e59c129d0a821fd97a60155ded53a0"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N08-audit.png",
+      "bytes": 27343,
+      "sha256": "65160aad5bdb8a7ff47504b0c4485c0723088974293ed61f176c77995f7c425b"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N08-cleanup.png",
+      "bytes": 31819,
+      "sha256": "7cd455a6b62d01b895de0118261306cd278fcf155a3cbd560ace15b8ece6e928"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N08-decision.png",
+      "bytes": 27343,
+      "sha256": "65160aad5bdb8a7ff47504b0c4485c0723088974293ed61f176c77995f7c425b"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N09-audit.png",
+      "bytes": 28051,
+      "sha256": "f77090df7e9bf298334f52e63eb1dd648f6af4d7a1a629412b2344bacd10e5bb"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N09-cleanup.png",
+      "bytes": 28306,
+      "sha256": "8567a3597e73d57e77c61d70c7db51fe62b4ec3b7e9dbc673869fca8e130a160"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N09-decision.png",
+      "bytes": 28051,
+      "sha256": "f77090df7e9bf298334f52e63eb1dd648f6af4d7a1a629412b2344bacd10e5bb"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N10-audit.png",
+      "bytes": 27348,
+      "sha256": "38cf412016d036ea7f2e58338b5b1fd30f04f036e7193a5cfffb2c776aa4e0b9"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N10-cleanup.png",
+      "bytes": 28358,
+      "sha256": "c44709f1b46f70d062ac3b0cad0128fd710d33e97c9a53daf9a6fbf8acf530bd"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N10-decision.png",
+      "bytes": 29209,
+      "sha256": "1c5bdd67607f3aec2a3db15502d9ce81d4634e2a09710aeba9240e6b8b81f693"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N11-audit.png",
+      "bytes": 29828,
+      "sha256": "a87ad80fe25a4a173885ebedb8ded2785ddfb178d259ca9f4424bd219bd5c371"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N11-cleanup.png",
+      "bytes": 28358,
+      "sha256": "c44709f1b46f70d062ac3b0cad0128fd710d33e97c9a53daf9a6fbf8acf530bd"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N11-decision.png",
+      "bytes": 25600,
+      "sha256": "b8fae892cdea3437386c335a0b11372e6b555e189117111075c2c6c6ddde65db"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N12-audit.png",
+      "bytes": 27324,
+      "sha256": "b274e0417e7f3cf30c4cdd6cf4409354f77d0ee68c05a53f3bac9a5f9d6503b9"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N12-cleanup.png",
+      "bytes": 31819,
+      "sha256": "7cd455a6b62d01b895de0118261306cd278fcf155a3cbd560ace15b8ece6e928"
+    },
+    {
+      "group": "notion_runner",
+      "archive_path": "notion_runner/images/N12-decision.png",
+      "bytes": 27324,
+      "sha256": "b274e0417e7f3cf30c4cdd6cf4409354f77d0ee68c05a53f3bac9a5f9d6503b9"
+    }
+  ],
+  "excluded_private_images": [
+    {
+      "group": "calendar_preflight",
+      "original_path": "calendar_preflight/repaired-event.jpg",
+      "bytes": 24558,
+      "sha256": "ebee20e78b77de5c2d09ff31f5df37f5117fd395676e528160c1e5966b4e4c60",
+      "reason": "Account display name in event popup."
+    },
+    {
+      "group": "notion_preflight",
+      "original_path": "notion_preflight/preflight-record-trash.png",
+      "bytes": 53384,
+      "sha256": "3b6f1d60a9330c089f01fef210fcc3ee5fda475f3872a0204de1373e030120aa",
+      "reason": "Account display name in Trash banner."
+    },
+    {
+      "group": "notion_runner",
+      "original_path": "notion_runner/images/N12-parent-trash.png",
+      "bytes": 34198,
+      "sha256": "615d29080f07ba97314a14ec3aa7292b91eadff44265dbcc5845cbb7f3da276d",
+      "reason": "Account display name in Trash banner."
+    }
+  ]
+}

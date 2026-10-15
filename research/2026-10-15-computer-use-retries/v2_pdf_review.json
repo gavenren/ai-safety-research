@@ -1,0 +1,234 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-15T20:57:20.894277+00:00",
+  "reviewer_role": "Separate agent visual reviewer. No human review occurred.",
+  "pdf": "paper.pdf",
+  "pdf_sha256": "33f2581a25f40bcf464e673bdda5b9cb54e24d980c35108e6c5e40ac40d9cb7d",
+  "report_sha256": "0a7827682d965ab8bec8422042c5099a68ace57ac90f0c2db6ff1b9245d1cedb",
+  "page_count": 32,
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "method": "Visual inspection of every full-page JPEG render of the final PDF. The review checked the final abstract, all tables, the figure, evidence images, section breaks, margins, page numbers, and reference layout. A separate PDF parser confirmed the page count and selected final text.",
+  "checks": {
+    "all_32_pages_visually_inspected": true,
+    "text_legible": true,
+    "no_pdf_text_clipping_found": true,
+    "no_overlapping_text_found": true,
+    "table_headers_and_cells_legible": true,
+    "no_missing_glyph_boxes_found": true,
+    "figure_axes_legends_and_caption_legible": true,
+    "headers_footers_and_page_numbers_consistent": true,
+    "linked_text_and_reference_layout_legible": true,
+    "latest_study_scope_present_in_abstract": true,
+    "new_section_12_visible_on_pages": [
+      26,
+      27,
+      28,
+      29
+    ],
+    "new_four_row_result_table_visible_on_page": 27,
+    "strict_unknown_and_exploratory_results_separate": true,
+    "image_capture_limits_visible_on_page": 28
+  },
+  "issues": [],
+  "notes": [
+    "The four-row result table on page 27 is fully visible. Its headers include extra cases, proved false claims, strict clean, unknown claims, and unresolved cases.",
+    "The final abstract limits the Trash statement to the latest study. It states the Calendar strict-field uncertainty.",
+    "The earlier evidence images on pages 18 and 22 retain source-image crop limits. Their captions explain the evidence scope. No new PDF clipping was found.",
+    "This review checks presentation. Independent analysis review and source checks establish the study results. It does not certify the correctness of all scientific claims."
+  ],
+  "renders": [
+    {
+      "page": 1,
+      "render_name": "page-01.jpg",
+      "sha256": "d291c63df3f608bc1c496c0d839da74af57ce7e8c74a1630ae1a5deeac1e6d9b"
+    },
+    {
+      "page": 2,
+      "render_name": "page-02.jpg",
+      "sha256": "dd7fc8ad36a3a83dd2f38a349ffceb498642e712c7a5f1a75a1887b691976023"
+    },
+    {
+      "page": 3,
+      "render_name": "page-03.jpg",
+      "sha256": "72d5ddb370a75674f6183e55d4571420a55e8558e35a20895862caf3422f18bd"
+    },
+    {
+      "page": 4,
+      "render_name": "page-04.jpg",
+      "sha256": "f16cb92e80de621170af60ff51d1ae690dd5140748b2e674e0de8c9f152b089b"
+    },
+    {
+      "page": 5,
+      "render_name": "page-05.jpg",
+      "sha256": "a65dfa554362a44555e6a278daaa36818ed0cf03e57fcb5f9c9998e2e5c8e8df"
+    },
+    {
+      "page": 6,
+      "render_name": "page-06.jpg",
+      "sha256": "c62c8c8e60c441b3fe1b96beda6fd8648f46a054d41351a6dddb8465d18dd6ae"
+    },
+    {
+      "page": 7,
+      "render_name": "page-07.jpg",
+      "sha256": "d46399d2839f9a1afe5530e675b84ebd254626d666443e25fad51772f2bdf1ce"
+    },
+    {
+      "page": 8,
+      "render_name": "page-08.jpg",
+      "sha256": "b585c2875804ff755638dc45c8882bb566c417782c8d23c84860770f76d81cfe"
+    },
+    {
+      "page": 9,
+      "render_name": "page-09.jpg",
+      "sha256": "7d5380cdc5c42c7e1ad45e74e23a2ba7458ca79343a27dfb304cc8321b869e4f"
+    },
+    {
+      "page": 10,
+      "render_name": "page-10.jpg",
+      "sha256": "2c9c13aa142a6d1047d2f4ad416ee3d66f8e7b6c37faa2343b1baff220526ee7"
+    },
+    {
+      "page": 11,
+      "render_name": "page-11.jpg",
+      "sha256": "7faa855254a2a9c06610f62516e5ec5546c067b508bd7a557c189bf95a760bae"
+    },
+    {
+      "page": 12,
+      "render_name": "page-12.jpg",
+      "sha256": "0f979f22420208f09e6a1fdf26d60ec40147d6cb1cbae4bfe5507ecb68bcc67b"
+    },
+    {
+      "page": 13,
+      "render_name": "page-13.jpg",
+      "sha256": "27c6284f3fa8a2e5cd18df9b7397fa1975ce86b3a2092a3f96b55288f8574e4f"
+    },
+    {
+      "page": 14,
+      "render_name": "page-14.jpg",
+      "sha256": "9e335e893179f9eab09c71353f4d5318aece16f1544102ca0af0c8b14b96a321"
+    },
+    {
+      "page": 15,
+      "render_name": "page-15.jpg",
+      "sha256": "55cb14f6f7dc797f50ca5fa184bdddc96abdacf3d447f35a2f8ffed4d91d99a9"
+    },
+    {
+      "page": 16,
+      "render_name": "page-16.jpg",
+      "sha256": "1e9bf434efe725150267ca436e0916af5ec4b220a575a52ed15df660f371a3ce"
+    },
+    {
+      "page": 17,
+      "render_name": "page-17.jpg",
+      "sha256": "1e9639d927593294c1f62100231ccbcac6f865b5a38f4dbdf0fd21da2f85361e"
+    },
+    {
+      "page": 18,
+      "render_name": "page-18.jpg",
+      "sha256": "5ac0e785a97aa89c6630c13a0ae7364aa82983469fd14bea089dd89619a55223"
+    },
+    {
+      "page": 19,
+      "render_name": "page-19.jpg",
+      "sha256": "7c73fb34cc47321913f0f9ffced7362a2fa54946f782582a0b1692e3458e06cb"
+    },
+    {
+      "page": 20,
+      "render_name": "page-20.jpg",
+      "sha256": "060d03f95c45ecd8db4f996ef9789d1d50a54a4bda0dcc527cf4b71946ec2274"
+    },
+    {
+      "page": 21,
+      "render_name": "page-21.jpg",
+      "sha256": "d2660ce3132a5c83932088732373ea6583a0597b77fa2c5beef036401eae013f"
+    },
+    {
+      "page": 22,
+      "render_name": "page-22.jpg",
+      "sha256": "457031fccbfbe944f95488e11095e3fe803c20fd66071924ed41b9d98c136531"
+    },
+    {
+      "page": 23,
+      "render_name": "page-23.jpg",
+      "sha256": "599349a26ba85e8c0279d7439a885a7f5c13df5c958b7ba83c6fe86346fb9e2e"
+    },
+    {
+      "page": 24,
+      "render_name": "page-24.jpg",
+      "sha256": "805f183fa24c7b49882c69ccab30a93fa24fac47c0243c86ba81bd533457e88f"
+    },
+    {
+      "page": 25,
+      "render_name": "page-25.jpg",
+      "sha256": "10478aea7b8e32f6f91887a55c9be2de090370f9b9dcc8cf8656bd496cde06a9"
+    },
+    {
+      "page": 26,
+      "render_name": "page-26.jpg",
+      "sha256": "8e9992d52d977475b67ef207466f584d3a0a682fefb01f36dc3494d6ae69984e"
+    },
+    {
+      "page": 27,
+      "render_name": "page-27.jpg",
+      "sha256": "73365f77b5cf73ac0b7d9b4492948e8a092493e969ff0026fa510b82fdf4998b"
+    },
+    {
+      "page": 28,
+      "render_name": "page-28.jpg",
+      "sha256": "76f747d2b054dcb156c2253fc6466cbf4fd3c855357a66b092199310af0a7783"
+    },
+    {
+      "page": 29,
+      "render_name": "page-29.jpg",
+      "sha256": "fc32439d9565bf19994766ecbca8622da3b94ac349b26a7f42ba677b9d261aca"
+    },
+    {
+      "page": 30,
+      "render_name": "page-30.jpg",
+      "sha256": "deb224b158999fbc7a56aca6795c3915459a46414bf13e1c437ef60e3fd096b6"
+    },
+    {
+      "page": 31,
+      "render_name": "page-31.jpg",
+      "sha256": "7201e1ca65b86df00804e1bfc37cf7325284c136fae6e681a812aa416cba92f3"
+    },
+    {
+      "page": 32,
+      "render_name": "page-32.jpg",
+      "sha256": "e11f5be71a7058d9810a5588cec82ad98ba5524da01db6b124a5c7b95c6a6a1d"
+    }
+  ]
+}

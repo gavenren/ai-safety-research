@@ -1,0 +1,279 @@
+{
+  "service": "Notion",
+  "completed_at_utc": "2026-10-15T20:47:38.090Z",
+  "raw_record_count": 926,
+  "trials": [
+    {
+      "trial_id": "N01",
+      "policy": "Guard",
+      "scenario": "Partial",
+      "repeat": 1,
+      "decision": "confirm",
+      "elapsed_seconds": 99.294,
+      "create_count": 1,
+      "repair_count": 1,
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "decision_record": "NV2-00072",
+      "audit_record": "NV2-00081",
+      "final_cleanup_record": "NV2-00090",
+      "native_ids": [
+        "record-4a3d7e960452d0f8798a"
+      ]
+    },
+    {
+      "trial_id": "N02",
+      "policy": "Guard",
+      "scenario": "Cancel",
+      "repeat": 1,
+      "decision": "confirm",
+      "elapsed_seconds": 95.114,
+      "create_count": 1,
+      "repair_count": 0,
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "decision_record": "NV2-00157",
+      "audit_record": "NV2-00165",
+      "final_cleanup_record": "NV2-00177",
+      "native_ids": [
+        "record-d6e11edec89b4c32266e"
+      ]
+    },
+    {
+      "trial_id": "N03",
+      "policy": "Absence",
+      "scenario": "Hidden",
+      "repeat": 1,
+      "decision": "unresolved",
+      "elapsed_seconds": 26.257,
+      "create_count": 2,
+      "repair_count": 0,
+      "total": 2,
+      "correct": 2,
+      "partial": 0,
+      "decision_record": "NV2-00215",
+      "audit_record": "NV2-00234",
+      "final_cleanup_record": "NV2-00254",
+      "native_ids": [
+        "record-67cd42582284719cb55c",
+        "record-a7af664679dbd2cc79db"
+      ]
+    },
+    {
+      "trial_id": "N04",
+      "policy": "Absence",
+      "scenario": "Partial",
+      "repeat": 1,
+      "decision": "confirm",
+      "elapsed_seconds": 15.054,
+      "create_count": 2,
+      "repair_count": 0,
+      "total": 2,
+      "correct": 1,
+      "partial": 1,
+      "decision_record": "NV2-00283",
+      "audit_record": "NV2-00300",
+      "final_cleanup_record": "NV2-00345",
+      "native_ids": [
+        "record-dde8d10552ddc0bbfb4f",
+        "record-1884ab388ebf97f96cf6"
+      ]
+    },
+    {
+      "trial_id": "N05",
+      "policy": "Absence",
+      "scenario": "Cancel",
+      "repeat": 1,
+      "decision": "confirm",
+      "elapsed_seconds": 8.432,
+      "create_count": 1,
+      "repair_count": 0,
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "decision_record": "NV2-00372",
+      "audit_record": "NV2-00382",
+      "final_cleanup_record": "NV2-00394",
+      "native_ids": [
+        "record-ddf5481e87e5c57294c0"
+      ]
+    },
+    {
+      "trial_id": "N06",
+      "policy": "Guard",
+      "scenario": "Hidden",
+      "repeat": 1,
+      "decision": "confirm",
+      "elapsed_seconds": 39.65,
+      "create_count": 1,
+      "repair_count": 0,
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "decision_record": "NV2-00447",
+      "audit_record": "NV2-00455",
+      "final_cleanup_record": "NV2-00467",
+      "native_ids": [
+        "record-fdde1cab380c4863e021"
+      ]
+    },
+    {
+      "trial_id": "N07",
+      "policy": "Guard",
+      "scenario": "Partial",
+      "repeat": 2,
+      "decision": "confirm",
+      "elapsed_seconds": 50.069,
+      "create_count": 1,
+      "repair_count": 1,
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "decision_record": "NV2-00537",
+      "audit_record": "NV2-00547",
+      "final_cleanup_record": "NV2-00559",
+      "native_ids": [
+        "record-795b461f79a228546ebf"
+      ]
+    },
+    {
+      "trial_id": "N08",
+      "policy": "Absence",
+      "scenario": "Cancel",
+      "repeat": 2,
+      "decision": "confirm",
+      "elapsed_seconds": 9.352,
+      "create_count": 1,
+      "repair_count": 0,
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "decision_record": "NV2-00588",
+      "audit_record": "NV2-00598",
+      "final_cleanup_record": "NV2-00610",
+      "native_ids": [
+        "record-4aa5d4413a242af0c4e2"
+      ]
+    },
+    {
+      "trial_id": "N09",
+      "policy": "Absence",
+      "scenario": "Partial",
+      "repeat": 2,
+      "decision": "confirm",
+      "elapsed_seconds": 18.144,
+      "create_count": 2,
+      "repair_count": 0,
+      "total": 2,
+      "correct": 1,
+      "partial": 1,
+      "decision_record": "NV2-00642",
+      "audit_record": "NV2-00658",
+      "final_cleanup_record": "NV2-00689",
+      "native_ids": [
+        "record-410c066987c9d0d78a3b",
+        "record-d4d9668228d23e606c99"
+      ]
+    },
+    {
+      "trial_id": "N10",
+      "policy": "Guard",
+      "scenario": "Cancel",
+      "repeat": 2,
+      "decision": "confirm",
+      "elapsed_seconds": 30.325,
+      "create_count": 1,
+      "repair_count": 0,
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "decision_record": "NV2-00738",
+      "audit_record": "NV2-00746",
+      "final_cleanup_record": "NV2-00758",
+      "native_ids": [
+        "record-ae3bbadfe12d18be99a6"
+      ]
+    },
+    {
+      "trial_id": "N11",
+      "policy": "Absence",
+      "scenario": "Hidden",
+      "repeat": 2,
+      "decision": "unresolved",
+      "elapsed_seconds": 22.238,
+      "create_count": 2,
+      "repair_count": 0,
+      "total": 2,
+      "correct": 2,
+      "partial": 0,
+      "decision_record": "NV2-00799",
+      "audit_record": "NV2-00817",
+      "final_cleanup_record": "NV2-00841",
+      "native_ids": [
+        "record-ade336e7d997d6d630ba",
+        "record-bdf6a66ba3361f0e84ae"
+      ]
+    },
+    {
+      "trial_id": "N12",
+      "policy": "Guard",
+      "scenario": "Hidden",
+      "repeat": 2,
+      "decision": "confirm",
+      "elapsed_seconds": 28.884,
+      "create_count": 1,
+      "repair_count": 0,
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "decision_record": "NV2-00889",
+      "audit_record": "NV2-00897",
+      "final_cleanup_record": "NV2-00909",
+      "native_ids": [
+        "record-119a4e105d3ebb4f11c4"
+      ]
+    }
+  ],
+  "departures_and_notes": [
+    "N01 records NV2-00001 through NV2-00013 carry baseline phase due to a REPL closure binding issue. Original labels and times remain. NV2-00014 records the correction to shared mutable state.",
+    "N01 had failed checkbox clearing (NV2-00040) and an ambiguous blank-row locator (NV2-00042). No extra create or title assignment occurred. The observed property-value test ID resolved the row.",
+    "N01 final decision NV2-00072 cites observer NV2-00070 with a closing Side Peek. Separate pre-decision coverage NV2-00054 was a ready reloaded All table after repair. Keep the original decision and source departure. NV2-00076 records this.",
+    "N02 made unplanned attempts to dismiss the GPTZero Writing Replay prompt. Clicking Page properties timed out (NV2-00128). A page-main click opened an empty body textbox, with no entered text (NV2-00135). Reload restored the empty-content view.",
+    "At N02 verification, the lead clarified that the strict observer gate applies to the database result. A fresh native detail can be read with the nonmodal GPTZero prompt if the full title is visible and no edit is pending. NV2-00140 is the live clarification. No Turn on or Disable action was used. Keep this online clarification and a conservative sensitivity analysis.",
+    "N01 through N05 use compact policy-facts objects and some nonstandard phase labels. NV2-00396 records the change to the full frozen schema before N06. The original compact records were not changed or retrofitted.",
+    "N03 audit summary NV2-00234 lacks its intended audit_start_utc field because the helper used an absent property name. The original post-decision audit actions and state times remain, beginning NV2-00217. N02 audit-start field equals the decision time; actual audit actions occur later. Use raw action times for a derived audit interval and label it derived.",
+    "N03 through N05 audit summaries use a shorter schema. Their full native title reads, links, raw states, and action times remain. N06 through N12 use the full audit schema plus count aliases.",
+    "N04 cleanup record NV2-00319 incorrectly states zero while NV2-00317 and NV2-00318 show a blank row. NV2-00321 corrects this. The original cleanup image NV2-00320 is retained. A separate cleanup-verified image and NV2-00345 record the later zero state NV2-00342.",
+    "N04 blank cleanup remained active after native reloads with no Restore receipt. A cleanup-only second recoverable Trash action on the known ID was logged at NV2-00337/00338. This did not change the scored decision. No new trial began before the later ready zero.",
+    "N09 named cleanup showed a stale row after Trash. Native read NV2-00670 showed Restore page. There was no second Trash call for that identity. The first blank identity was removed separately via its native Actions menu.",
+    "Hidden-view trials show a shared Notion view change: the writer was All before New and could become Hidden after New. These observed transitions remain in raw states. Before the baseline repeat in N03/N11 the writer was explicitly set to All; the observer retained Hidden after its reload.",
+    "All images use valid full-viewport captures, not cropped task regions. The sidebar was closed for scored work. Private raw states and native IDs remain local for root review and redaction. N02-popup-inspect.png is an extra prompt diagnostic image.",
+    "The helper archive is a live-run helper excerpt, not an unattended browser trial runner. It expects the supported CUA runtime, fs and crypto bindings, mutable N state, and claimed writer/observer tabs. Policy decisions were applied manually and must be labelled offline if checked later by v2_policy.py.",
+    "The 12 scored trials created 16 records. Both excluded preflight records and all scored records were moved to recoverable Trash. The new empty parent was also moved to Trash. NV2-00923 shows Restore page. The old trashed parent was not restored. No permanent delete occurred."
+  ],
+  "parent_cleanup": {
+    "trial_id": "N12",
+    "token": "V2-RETRY-20261015-N12",
+    "service": "Notion",
+    "runner": "retry_v2_notion",
+    "record_id": "NV2-00924",
+    "phase": "parent_cleanup",
+    "started_at_utc": "2026-10-15T20:47:38.026Z",
+    "ended_at_utc": "2026-10-15T20:47:38.026Z",
+    "kind": "parent_cleanup",
+    "label": "new temporary parent in recoverable Trash",
+    "arguments": {},
+    "error": null,
+    "parent_id": "record-5efe76d74c86bf671f62",
+    "trash_action_evidence": [
+      "NV2-00915",
+      "NV2-00919"
+    ],
+    "native_url": "https://app.notion.com/p/record-5efe76d74c86bf671f62?v=record-4a4c4b2c1a4e2daade24",
+    "restore_page_visible": true,
+    "permanent_delete_used": false,
+    "source_state": "NV2-00923"
+  }
+}

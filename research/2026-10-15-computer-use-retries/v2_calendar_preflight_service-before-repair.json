@@ -1,0 +1,54 @@
+{
+  "start": "2026-10-15T20:25:39.942Z",
+  "end": "2026-10-15T20:25:40.397Z",
+  "args": {
+    "calendar_id": "primary",
+    "query": "V2-PREFLIGHT-CALENDAR-20261015",
+    "time_min": "2026-10-01T00:00:00-04:00",
+    "time_max": "2026-11-01T00:00:00-04:00",
+    "timezone_str": "America/Toronto",
+    "max_results": 100
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "events": [
+        {
+          "organizer": {
+            "is_self": true,
+            "email": "[account-email]",
+            "display_name": null
+          },
+          "guests_can_modify": null,
+          "locked": null,
+          "id": "record-c0262593e58004b92baf",
+          "summary": "V2-PREFLIGHT-CALENDAR-20261015-DRAFT",
+          "status": "confirmed",
+          "location": null,
+          "color_id": null,
+          "event_label_id": null,
+          "event_type": "default",
+          "start": "2026-10-14T00:00:00",
+          "end": "2026-10-15T00:00:00",
+          "url": "https://www.google.com/calendar/event?eid=record-c0262593e58004b92baf&ctz=America/Toronto",
+          "description": "V2-PREFLIGHT-CALENDAR-20261015 operation marker\n\n",
+          "my_response_status": null,
+          "transparency": "transparent",
+          "visibility": "private",
+          "attachments": null,
+          "recurring_event_id": null,
+          "original_start_time": null,
+          "display_url": "https://www.google.com/calendar/event?eid=record-c0262593e58004b92baf&ctz=America/Toronto",
+          "display_title": "V2-PREFLIGHT-CALENDAR-20261015-DRAFT"
+        }
+      ],
+      "next_page_token": null
+    },
+    "isError": false
+  }
+}

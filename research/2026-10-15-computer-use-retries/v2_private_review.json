@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "scope": "Offline raw/public action text review. Image privacy is reviewed separately. Raw files remain private.",
+  "files": [
+    {
+      "group": "calendar_preflight",
+      "records": 37,
+      "raw_sha256": "eade72265e7982eeeff2e85eaad2b6a321a4acfdfaed4d1cc8f49169322f1ff4",
+      "public_sha256": "1b677445aeaa2ab16aacfd7740b3992dbaba503f41b2a3456472cd6fe7745f45"
+    },
+    {
+      "group": "notion_preflight",
+      "records": 183,
+      "raw_sha256": "149cf642095b338ca4fa7b6b67cad5b3f69da1a7644362eac01fcf02866a966d",
+      "public_sha256": "e8820796e3aded170280645db27fac1dd7d1fdd210c209fc723abb3ce5662eb1"
+    },
+    {
+      "group": "calendar_runner",
+      "records": 1483,
+      "raw_sha256": "6cfb1cea8b5749389bf666896b3e7cd3be462b7c82b2f64638481a2e704f7fe8",
+      "public_sha256": "14adcbed36359533a2a7841ae28800f9e0fb6b0ac5dcaf4094c73af4062ee0b0"
+    },
+    {
+      "group": "notion_runner",
+      "records": 926,
+      "raw_sha256": "a3ca28bd9b31149e2bbd2852a2b4b8e79565c98200d85d46190f71b7a801b19d",
+      "public_sha256": "1f2a997177d3e50710ea6b952d9b473dc110945967ebd4e84018a9d072973d40"
+    }
+  ],
+  "state_hash_checks": 1342,
+  "ready_table_equivalence_checks": 245,
+  "native_identity_checks": 768,
+  "connector_file_value_checks": 31,
+  "extraction_manifest_checks": 39,
+  "new_text_files_scanned": 72,
+  "calendar_encoded_identity_checks": 232,
+  "errors": []
+}

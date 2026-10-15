@@ -1,22 +1,24 @@
 {
   "status": "PASS",
-  "source_sha256": "c3d17a728e6877d9b52db11553d849c2af966ed6a9b57b4f3c0595daae6cb49d",
-  "pdf_sha256": "272435267e2e15393ab99a5a8bb8a540bfa9f243a034aaf929d143afc2a8cf04",
-  "pages": 29,
-  "source_text_chunks_checked": 810,
+  "source_sha256": "0a7827682d965ab8bec8422042c5099a68ace57ac90f0c2db6ff1b9245d1cedb",
+  "pdf_sha256": "33f2581a25f40bcf464e673bdda5b9cb54e24d980c35108e6c5e40ac40d9cb7d",
+  "pages": 32,
+  "source_text_chunks_checked": 891,
   "missing_text_chunks": [],
-  "table_count": 14,
+  "table_count": 16,
   "figure_count": 5,
-  "external_link_annotations": 121,
+  "external_link_annotations": 143,
   "link_targets": [
     "https://aclanthology.org/2024.acl-long.371/",
     "https://arxiv.org/html/2510.03285v1",
     "https://arxiv.org/html/2608.01710v1",
+    "https://arxiv.org/html/2609.17885v1",
     "https://arxiv.org/html/2609.40284v1",
     "https://datatables.net/examples/core/api/add_row.html",
     "https://datatables.net/ref/core/api/row.add%28%29",
     "https://demo.playwright.dev/todomvc/",
     "https://demoqa.com/webtables",
+    "https://developers.google.com/workspace/calendar/api/v3/reference/events",
     "https://developers.google.com/workspace/drive/api/reference/rest/v3/files",
     "https://exzilcalanza.info/rstackbench-browser-agent-reliability/",
     "https://exzilcalanza.info/wp-content/uploads/2026/08/rstackbench-browser-agent-reliability-preprint.pdf",
@@ -115,6 +117,23 @@
     "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/trigger_source_search.md",
     "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/trigger_summary.json",
     "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/trigger_validation.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_analysis_method.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_assignments.csv",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_changes.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_evidence_manifest.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_groups.csv",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_image_review.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_independent_replay.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_plan.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_plan_manifest.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_policy.py",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_preflight.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_reproduction_check.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_review.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_runner_instructions.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_source_notes.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_summary.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/v2_trials.csv",
     "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/validation_results.json",
     "https://github.com/tastejs/todomvc/blob/master/app-spec.md",
     "https://neurips.cc/public/guides/PaperChecklist",
@@ -160,31 +179,22 @@
       26,
       27,
       28,
-      29
+      29,
+      30,
+      31,
+      32
     ],
-    "file": "production_pdf_review.json",
-    "reviewer": "Separate Codex context",
-    "issues": []
+    "review": "v2_pdf_review.json"
   },
   "deterministic_rebuild": {
     "status": "PASS",
-    "scope": "Same directory, same source and dependency versions.",
-    "first_pdf_sha256": "272435267e2e15393ab99a5a8bb8a540bfa9f243a034aaf929d143afc2a8cf04",
-    "second_pdf_sha256": "272435267e2e15393ab99a5a8bb8a540bfa9f243a034aaf929d143afc2a8cf04",
-    "byte_identical": true,
-    "separate_directory_check": {
-      "byte_identical": false,
-      "pdf_sha256": "db0da8579d9aeeca87c794c9aa829c6e5409a4fcb362b2dc2a40281eb94f9319",
-      "same_extracted_text_all_pages": true,
-      "same_document_metadata": true,
-      "page_content_difference": "Page 22 differs only in the generated image XObject resource name. Image names depend on the local image path. A different directory can change PDF bytes without changing text or layout."
-    }
+    "method": "Two builds in the same directory produce identical bytes. Cross-directory PDF byte identity is not claimed.",
+    "sha256": "33f2581a25f40bcf464e673bdda5b9cb54e24d980c35108e6c5e40ac40d9cb7d"
   },
   "privacy": "Public build records omit local absolute paths.",
   "font_license_check": {
     "status": "PASS",
-    "embedded_subset_count": 6,
-    "file": "production_font_check.json"
+    "file": "v2_font_check.json"
   },
   "build_script_sha256": "3cf2429c104c0ced812523ba90be242e5a519bf06b1be6dcc961df67cc2b06ff"
 }

@@ -2,9 +2,32 @@
 
 This is a separate user-requested paper dated October 15, 2026. It is not a second daily automation study.
 
-Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, a later 30-trial experiment in one authenticated Google Drive account, a 32-trial two-tab extension in that account, a 48-trial extension on two additional public table websites, and a 24-trial extension in production Notion and Google Calendar accounts. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
+Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, a later 30-trial experiment in one authenticated Google Drive account, a 32-trial two-tab extension in that account, a 48-trial extension on two additional public table websites, a 24-trial extension in production Notion and Google Calendar accounts, and a new 24-trial test of revised rules in those accounts. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
 
 Codex generated this work. Separate agents checked the design, sources, calculations, reproduction, and PDF. No human or external peer review occurred. No new reuse license is assigned.
+
+## Analyze the revised rule evidence
+
+Use a separate copy of this folder. Python standard library is sufficient. These commands use saved files only. They make no browser, model, connector, or network call.
+
+```sh
+python3 v2_policy_tests.py
+python3 v2_analyzer_tests.py
+python3 v2_analyze.py --input-dir . --output-dir . > v2_analysis_log.txt
+python3 v2_independent_replay.py --input-dir . --output v2_independent_replay.json
+```
+
+The [saved plan](v2_plan.md), [assignments](v2_assignments.csv), [runner instructions](v2_runner_instructions.md), and [freeze manifest](v2_plan_manifest.json) define the 24 new assignments. The reference function in [v2_policy.py](v2_policy.py) accepts validated facts and returns the next permitted action. It is not an automatic browser driver. Live mutation logs reserve the action before the call; offline replay checks the supplied policy decisions after the run.
+
+The analyzer uses the saved task-region observations, mutation records, native identities, and post-decision audits. It separates exact-title counts from all operation records. It keeps field uncertainty, unsupported evidence references, loading states, and action errors. The raw connector reply files are part of the package. Calendar's literal description string and its visible marker are separate checks. A whitespace-normalized field result is exploratory because that normalization was not specified before the run.
+
+Read [v2_changes.md](v2_changes.md) for preflight failures and the online interpretation of a nonmodal Notion prompt. No saved decision is changed by a later audit. The public logs use stable aliases for native identities and remove unrelated account content. Original private files remain local; [v2_evidence_manifest.json](v2_evidence_manifest.json) records their hashes and the public extraction.
+
+For a new live run, use authorized accounts, a new private Notion database, new unique operation tokens, and safe past Calendar dates. Recheck all procedures before a new plan freeze. The Cancel scenario ends before any effective Notion New or Calendar Save; it is not a failed submitted write. Guard reserves one Create and at most one title repair to the same ID. Never reset the Create budget after a timeout or empty result. Reload the native detail and a covered result after the last mutation. Keep unknown facts unknown. Audit before cleanup, then use recoverable Trash and verify zero active records. Do not use existing user records, send invitations, change access, or empty Trash.
+
+The [independent review](v2_review.md), [reproduction result](v2_reproduction_check.json), and [image review](v2_image_review.json) state the completed checks. The archive has 76 public images; three original images with account details remain private with their hashes recorded. Six tiled captures remain as image limits. Runner summaries describe execution; the analysis derives counts from raw task observations and service replies.
+
+Saved evidence permits offline result reproduction. It cannot reproduce an identical live trajectory. Account state, web interfaces, browser extensions, model inference, and tool timing can change. No general reliability rate or exactly-once service guarantee follows from these selected tests.
 
 ## Analyze the saved production account evidence
 

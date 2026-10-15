@@ -1,0 +1,39 @@
+test_baseline_has_only_one_repeat (v2_policy_tests.PolicyTests.test_baseline_has_only_one_repeat) ... ok
+test_baseline_reproduces_blank_row_failure_gate (v2_policy_tests.PolicyTests.test_baseline_reproduces_blank_row_failure_gate) ... ok
+test_clean_confirmation (v2_policy_tests.PolicyTests.test_clean_confirmation) ... ok
+test_deadline_prevents_any_new_action_or_confirmation (v2_policy_tests.PolicyTests.test_deadline_prevents_any_new_action_or_confirmation) ... ok
+test_different_record_cannot_replace_first_identity (v2_policy_tests.PolicyTests.test_different_record_cannot_replace_first_identity) ... ok
+test_extra_partial_record_blocks_confirmation (v2_policy_tests.PolicyTests.test_extra_partial_record_blocks_confirmation) ... ok
+test_first_create_after_canceled_preparation (v2_policy_tests.PolicyTests.test_first_create_after_canceled_preparation) ... ok
+test_first_create_needs_empty_verified_baseline (v2_policy_tests.PolicyTests.test_first_create_needs_empty_verified_baseline) ... ok
+test_guard_no_recreate_in_2304_pending_combinations (v2_policy_tests.PolicyTests.test_guard_no_recreate_in_2304_pending_combinations) ... ok
+test_invalid_counts_rejected (v2_policy_tests.PolicyTests.test_invalid_counts_rejected) ... ok
+test_invalid_evidence_types_rejected (v2_policy_tests.PolicyTests.test_invalid_evidence_types_rejected) ... ok
+test_missing_coverage_never_confirms (v2_policy_tests.PolicyTests.test_missing_coverage_never_confirms) ... ok
+test_missing_fields_never_confirm (v2_policy_tests.PolicyTests.test_missing_fields_never_confirm) ... ok
+test_missing_identity_never_confirms (v2_policy_tests.PolicyTests.test_missing_identity_never_confirms) ... ok
+test_no_second_repair_when_wrong_title_remains (v2_policy_tests.PolicyTests.test_no_second_repair_when_wrong_title_remains) ... ok
+test_pending_edit_never_confirms (v2_policy_tests.PolicyTests.test_pending_edit_never_confirms) ... ok
+test_title_repair_preserves_identity_action (v2_policy_tests.PolicyTests.test_title_repair_preserves_identity_action) ... ok
+test_unready_or_stale_positive_is_unknown (v2_policy_tests.PolicyTests.test_unready_or_stale_positive_is_unknown) ... ok
+test_wrong_non_title_field_not_repaired_or_confirmed (v2_policy_tests.PolicyTests.test_wrong_non_title_field_not_repaired_or_confirmed) ... ok
+test_background_result_under_editor_not_ready (v2_analyzer_tests.EvidenceTests.test_background_result_under_editor_not_ready) ... ok
+test_blank_notion_is_an_operation_record (v2_analyzer_tests.EvidenceTests.test_blank_notion_is_an_operation_record) ... ok
+test_cal_normalized_fields_require_marker (v2_analyzer_tests.EvidenceTests.test_cal_normalized_fields_require_marker) ... ok
+test_cal_wrong_exclusive_end_fails (v2_analyzer_tests.EvidenceTests.test_cal_wrong_exclusive_end_fails) ... ok
+test_calendar_sidebar_loading_blocks_readiness (v2_analyzer_tests.EvidenceTests.test_calendar_sidebar_loading_blocks_readiness) ... ok
+test_disabled_empty_notion_header_is_zero (v2_analyzer_tests.EvidenceTests.test_disabled_empty_notion_header_is_zero) ... ok
+test_draft_is_not_exact_title (v2_analyzer_tests.EvidenceTests.test_draft_is_not_exact_title) ... ok
+test_missing_required_service_fields_unknown (v2_analyzer_tests.EvidenceTests.test_missing_required_service_fields_unknown) ... ok
+test_mutation_labels_separate_menu_and_create (v2_analyzer_tests.EvidenceTests.test_mutation_labels_separate_menu_and_create) ... ok
+test_native_and_service_event_id_agree (v2_analyzer_tests.EvidenceTests.test_native_and_service_event_id_agree) ... ok
+test_notion_identity_from_visible_link (v2_analyzer_tests.EvidenceTests.test_notion_identity_from_visible_link) ... ok
+test_notion_loading_positive_not_ready (v2_analyzer_tests.EvidenceTests.test_notion_loading_positive_not_ready) ... ok
+test_private_alias_native_and_api_agree (v2_analyzer_tests.EvidenceTests.test_private_alias_native_and_api_agree) ... ok
+test_whitespace_marker_has_unknown_strict_match (v2_analyzer_tests.EvidenceTests.test_whitespace_marker_has_unknown_strict_match) ... ok
+test_wrong_date_range_unknown (v2_analyzer_tests.EvidenceTests.test_wrong_date_range_unknown) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.019s
+
+OK

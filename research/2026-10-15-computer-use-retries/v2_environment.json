@@ -1,0 +1,25 @@
+{
+  "recorded_utc": "2026-10-15T20:27:57.958246+00:00",
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "os": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "agent": "Codex; exact model build, sampling settings and inference hardware unavailable",
+  "browser": "Existing signed-in Chrome through supported computer-use tool; exact browser version not recorded",
+  "roles": [
+    "lead author and evidence preparation",
+    "separate design and analysis agent",
+    "separate Notion runner",
+    "separate Calendar runner",
+    "fresh review agents after execution"
+  ],
+  "api_writes": false,
+  "postdecision_service_reads": "Google Calendar connector only; Notion browser evidence",
+  "training": "None",
+  "new_paid_services": "None",
+  "seed": 2026101508,
+  "seed_scope": "Assignment order only",
+  "timing": "Wall-clock tool and model time included; not isolated service latency",
+  "analysis_python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "analysis_platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "pdf_python": "3.12.14, bundled artifact runtime",
+  "dependency_scope": "The v2 policy, analysis, and independent replay use only the Python standard library. PDF dependencies are in pdf_environment.json."
+}
