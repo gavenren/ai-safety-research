@@ -16,6 +16,7 @@ The first example study was completed on October 8, 2026.
 
 | Date | Study | Main result | Review status |
 | --- | --- | --- | --- |
+| 2026-10-15 | [Safe retries for computer-use agents](research/2026-10-15-computer-use-retries/report.md) | Terminal status matched a safe timeout's completion count with 22.81% less delay in a synthetic model. Separate user-requested paper. | AI-generated; agent checks completed; no human review. |
 | 2026-10-15 | [Detector calibration and zero-flag tests](research/2026-10-15-detector-calibration/report.md) | A sensitivity point estimate exceeded the chosen 5% error limit in 41 of 54 boundary cases. The corrected rule controlled error but often skipped testing. Synthetic model. | AI-generated; agent checks completed; no human review. |
 | 2026-10-14 | [Repeated clean windows and false declarations](research/2026-10-14-clean-window/report.md) | At a fixed 1% failure rate, passing any 299-test clean window within 2,990 tests had probability 80.49%, versus 4.95% for one window. Synthetic model. | AI-generated; agent checks completed; no human review. |
 | 2026-10-13 | [Agreement and safety review routing](research/2026-10-13-selective-panel/report.md) | Unanimity lowered error for each whole set but raised it in five class groups. Review benefit depends on reviewer error. | AI-generated; agent checks completed; no human review. |
