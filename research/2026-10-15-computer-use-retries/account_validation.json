@@ -1,0 +1,7990 @@
+{
+  "review_kind": "Independent agent evidence check; no human review. Not a population reliability estimate.",
+  "checks": 1831,
+  "passed": 1831,
+  "failed": 0,
+  "problems": [],
+  "warnings": [
+    {
+      "trial_id": "D02",
+      "issue": "No usable pre-Create list or empty state in the assigned view. Baseline count remains unknown."
+    },
+    {
+      "trial_id": "D06",
+      "issue": "No usable pre-Create list or empty state in the assigned view. Baseline count remains unknown."
+    }
+  ],
+  "summary": {
+    "trials": 30,
+    "clean": 30,
+    "retries": 0,
+    "duplicates": 0,
+    "zero": 0,
+    "unverified_baselines": [
+      "D02",
+      "D06"
+    ],
+    "first_explicit_view_counts": {
+      "unknown": 29,
+      "All": 1
+    },
+    "all_core_controls": 12,
+    "receipt_controls_with_both_row_and_receipt": 6,
+    "decision_seconds_min": 6.333,
+    "decision_seconds_max": 15.028
+  },
+  "results": [
+    {
+      "trial_id": "D01",
+      "rule": "absence",
+      "assigned_view": "All",
+      "block": 1,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 4,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 8.111,
+      "initial_submit_utc": "2026-10-15T17:51:25.790Z",
+      "decision_utc": "2026-10-15T17:51:33.901Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D02",
+      "rule": "absence",
+      "assigned_view": "Documents",
+      "block": 1,
+      "runner": "A",
+      "baseline_count": null,
+      "baseline_source_line": null,
+      "first_count": 1,
+      "first_explicit_view": "All",
+      "first_exact_receipt": true,
+      "decision_seconds": 8.199,
+      "initial_submit_utc": "2026-10-15T17:52:30.524Z",
+      "decision_utc": "2026-10-15T17:52:38.723Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D03",
+      "rule": "wait24",
+      "assigned_view": "Documents",
+      "block": 1,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 41,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 6.44,
+      "initial_submit_utc": "2026-10-15T17:53:05.160Z",
+      "decision_utc": "2026-10-15T17:53:11.600Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D04",
+      "rule": "wait24",
+      "assigned_view": "All",
+      "block": 1,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 56,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 8.107,
+      "initial_submit_utc": "2026-10-15T17:53:32.354Z",
+      "decision_utc": "2026-10-15T17:53:40.461Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D05",
+      "rule": "scope",
+      "assigned_view": "All",
+      "block": 1,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 71,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 8.532,
+      "initial_submit_utc": "2026-10-15T17:53:59.500Z",
+      "decision_utc": "2026-10-15T17:54:08.032Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D06",
+      "rule": "scope",
+      "assigned_view": "Documents",
+      "block": 1,
+      "runner": "A",
+      "baseline_count": null,
+      "baseline_source_line": null,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 6.38,
+      "initial_submit_utc": "2026-10-15T17:54:34.129Z",
+      "decision_utc": "2026-10-15T17:54:40.509Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D07",
+      "rule": "receipt",
+      "assigned_view": "All",
+      "block": 1,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 104,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 11.994,
+      "initial_submit_utc": "2026-10-15T17:54:56.620Z",
+      "decision_utc": "2026-10-15T17:55:08.614Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D08",
+      "rule": "receipt",
+      "assigned_view": "Documents",
+      "block": 1,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 122,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 6.333,
+      "initial_submit_utc": "2026-10-15T17:55:26.738Z",
+      "decision_utc": "2026-10-15T17:55:33.071Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D09",
+      "rule": "wait24",
+      "assigned_view": "Documents",
+      "block": 2,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 9,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 15.028,
+      "initial_submit_utc": "2026-10-15T17:52:12.095Z",
+      "decision_utc": "2026-10-15T17:52:27.123Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D10",
+      "rule": "wait24",
+      "assigned_view": "All",
+      "block": 2,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 25,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.684,
+      "initial_submit_utc": "2026-10-15T17:52:54.488Z",
+      "decision_utc": "2026-10-15T17:53:02.172Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D11",
+      "rule": "scope",
+      "assigned_view": "All",
+      "block": 2,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 38,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.167,
+      "initial_submit_utc": "2026-10-15T17:53:20.381Z",
+      "decision_utc": "2026-10-15T17:53:27.548Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D12",
+      "rule": "scope",
+      "assigned_view": "Documents",
+      "block": 2,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 59,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 6.562,
+      "initial_submit_utc": "2026-10-15T17:53:51.317Z",
+      "decision_utc": "2026-10-15T17:53:57.879Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D13",
+      "rule": "absence",
+      "assigned_view": "Documents",
+      "block": 2,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 78,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.091,
+      "initial_submit_utc": "2026-10-15T17:54:18.762Z",
+      "decision_utc": "2026-10-15T17:54:25.853Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D14",
+      "rule": "absence",
+      "assigned_view": "All",
+      "block": 2,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 93,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.858,
+      "initial_submit_utc": "2026-10-15T17:54:42.668Z",
+      "decision_utc": "2026-10-15T17:54:50.526Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D15",
+      "rule": "receipt",
+      "assigned_view": "Documents",
+      "block": 2,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 111,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 10.445,
+      "initial_submit_utc": "2026-10-15T17:55:57.166Z",
+      "decision_utc": "2026-10-15T17:56:07.611Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D16",
+      "rule": "receipt",
+      "assigned_view": "All",
+      "block": 2,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 126,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.761,
+      "initial_submit_utc": "2026-10-15T17:57:02.862Z",
+      "decision_utc": "2026-10-15T17:57:10.623Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D17",
+      "rule": "scope",
+      "assigned_view": "All",
+      "block": 3,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 140,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.554,
+      "initial_submit_utc": "2026-10-15T17:56:06.045Z",
+      "decision_utc": "2026-10-15T17:56:13.599Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D18",
+      "rule": "scope",
+      "assigned_view": "Documents",
+      "block": 3,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 159,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.284,
+      "initial_submit_utc": "2026-10-15T17:56:45.198Z",
+      "decision_utc": "2026-10-15T17:56:52.482Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D19",
+      "rule": "absence",
+      "assigned_view": "Documents",
+      "block": 3,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 179,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 8.781,
+      "initial_submit_utc": "2026-10-15T17:58:05.960Z",
+      "decision_utc": "2026-10-15T17:58:14.741Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D20",
+      "rule": "absence",
+      "assigned_view": "All",
+      "block": 3,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 194,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 13.465,
+      "initial_submit_utc": "2026-10-15T17:58:35.114Z",
+      "decision_utc": "2026-10-15T17:58:48.579Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D21",
+      "rule": "wait24",
+      "assigned_view": "All",
+      "block": 3,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 211,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 11.007,
+      "initial_submit_utc": "2026-10-15T17:59:13.644Z",
+      "decision_utc": "2026-10-15T17:59:24.651Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D22",
+      "rule": "wait24",
+      "assigned_view": "Documents",
+      "block": 3,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 228,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.186,
+      "initial_submit_utc": "2026-10-15T17:59:48.653Z",
+      "decision_utc": "2026-10-15T17:59:55.839Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D23",
+      "rule": "receipt",
+      "assigned_view": "All",
+      "block": 3,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 243,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 10.282,
+      "initial_submit_utc": "2026-10-15T18:00:10.668Z",
+      "decision_utc": "2026-10-15T18:00:20.950Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D24",
+      "rule": "receipt",
+      "assigned_view": "Documents",
+      "block": 3,
+      "runner": "A",
+      "baseline_count": 0,
+      "baseline_source_line": 264,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 6.925,
+      "initial_submit_utc": "2026-10-15T18:00:46.816Z",
+      "decision_utc": "2026-10-15T18:00:53.741Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D25",
+      "rule": "absence",
+      "assigned_view": "Documents",
+      "block": 4,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 151,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 11.034,
+      "initial_submit_utc": "2026-10-15T17:58:42.128Z",
+      "decision_utc": "2026-10-15T17:58:53.162Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D26",
+      "rule": "absence",
+      "assigned_view": "All",
+      "block": 4,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 164,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 11.82,
+      "initial_submit_utc": "2026-10-15T17:59:11.585Z",
+      "decision_utc": "2026-10-15T17:59:23.405Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D27",
+      "rule": "wait24",
+      "assigned_view": "All",
+      "block": 4,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 179,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.251,
+      "initial_submit_utc": "2026-10-15T17:59:42.559Z",
+      "decision_utc": "2026-10-15T17:59:49.810Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D28",
+      "rule": "wait24",
+      "assigned_view": "Documents",
+      "block": 4,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 200,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.398,
+      "initial_submit_utc": "2026-10-15T18:00:20.790Z",
+      "decision_utc": "2026-10-15T18:00:28.188Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D29",
+      "rule": "scope",
+      "assigned_view": "Documents",
+      "block": 4,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 220,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 9.328,
+      "initial_submit_utc": "2026-10-15T18:01:00.814Z",
+      "decision_utc": "2026-10-15T18:01:10.142Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    },
+    {
+      "trial_id": "D30",
+      "rule": "scope",
+      "assigned_view": "All",
+      "block": 4,
+      "runner": "B",
+      "baseline_count": 0,
+      "baseline_source_line": 235,
+      "first_count": 1,
+      "first_explicit_view": "unknown",
+      "first_exact_receipt": true,
+      "decision_seconds": 7.268,
+      "initial_submit_utc": "2026-10-15T18:01:25.125Z",
+      "decision_utc": "2026-10-15T18:01:32.393Z",
+      "pre_reload_count": 1,
+      "post_reload_count": 1,
+      "connector_count": 1,
+      "retries": 0,
+      "clean": true
+    }
+  ],
+  "tests": [
+    {
+      "check": "parser: selected row counted once",
+      "pass": true
+    },
+    {
+      "check": "parser: two rows are two",
+      "pass": true
+    },
+    {
+      "check": "parser: other token not counted",
+      "pass": true
+    },
+    {
+      "check": "parser: prefix is not exact name",
+      "pass": true
+    },
+    {
+      "check": "parser: out-of-table row not counted",
+      "pass": true
+    },
+    {
+      "check": "parser: loading screen is unknown",
+      "pass": true
+    },
+    {
+      "check": "parser: modal input is unknown",
+      "pass": true
+    },
+    {
+      "check": "parser: explicit empty result is zero",
+      "pass": true
+    },
+    {
+      "check": "parser: explicit empty folder is zero",
+      "pass": true
+    },
+    {
+      "check": "parser: exact receipt accepted",
+      "pass": true
+    },
+    {
+      "check": "parser: generic receipt rejected",
+      "pass": true
+    },
+    {
+      "check": "parser: absent toolbar is unknown",
+      "pass": true
+    },
+    {
+      "check": "saved plan hash: account_plan.md",
+      "pass": true
+    },
+    {
+      "check": "saved plan hash: account_assignments.csv",
+      "pass": true
+    },
+    {
+      "check": "30 distinct planned trial IDs",
+      "pass": true
+    },
+    {
+      "check": "30 distinct planned names",
+      "pass": true
+    },
+    {
+      "check": "A has explicit D01 correction",
+      "pass": true
+    },
+    {
+      "check": "A line 1 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 2 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 3 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 4 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 5 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 6 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 7 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 8 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 9 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 10 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 12 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 13 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 14 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 16 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 17 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 18 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 19 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 20 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 21 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 22 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 23 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 24 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 25 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 26 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 27 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 28 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 29 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 31 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 32 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 33 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 34 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 35 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 36 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 37 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 38 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 39 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 40 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 41 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 42 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 43 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 44 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 45 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 46 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 47 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 49 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 50 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 51 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 52 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 53 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 54 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 55 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 56 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 57 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 58 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 59 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 60 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 61 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 62 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 64 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 65 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 66 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 67 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 68 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 69 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 70 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 71 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 72 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 73 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 74 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 75 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 76 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 77 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 79 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 80 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 81 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 82 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 83 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 84 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 85 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 86 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 87 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 88 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 89 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 90 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 91 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 92 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 93 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 94 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 95 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 97 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 98 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 99 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 100 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 101 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 102 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 103 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 104 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 105 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 106 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 107 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 108 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 109 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 110 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 112 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 113 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 114 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 115 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 116 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 117 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 118 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 119 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 120 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 121 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 122 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 123 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 124 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 125 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 126 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 127 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 128 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 130 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 131 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 132 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 133 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 134 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 135 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 136 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 137 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 138 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 139 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 140 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 141 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 142 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 143 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 144 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 145 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 146 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 148 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 149 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 150 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 151 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 152 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 153 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 154 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 155 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 156 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 157 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 158 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 159 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 160 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 161 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 162 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 163 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 164 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 165 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 167 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 168 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 170 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 171 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 172 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 173 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 174 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 175 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 176 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 177 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 178 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 179 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 180 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 181 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 182 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 183 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 184 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 185 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 187 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 188 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 189 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 190 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 191 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 192 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 193 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 194 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 195 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 196 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 197 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 198 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 199 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 200 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 202 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 203 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 204 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 205 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 206 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 207 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 208 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 209 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 210 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 211 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 212 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 213 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 214 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 215 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 217 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 218 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 219 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 220 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 221 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 222 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 223 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 224 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 225 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 226 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 227 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 228 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 229 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 230 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 231 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 232 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 233 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 234 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 236 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 237 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 238 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 239 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 240 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 241 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 242 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 243 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 244 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 245 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 246 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 247 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 248 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 249 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 251 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 252 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 253 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 254 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 255 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 256 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 257 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 258 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 259 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 260 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 261 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 262 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 263 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 264 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 265 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 266 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 267 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 268 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 270 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 271 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 272 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 273 time order",
+      "pass": true
+    },
+    {
+      "check": "A line 274 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 1 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 1 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 1 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 2 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 2 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 2 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 3 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 3 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 3 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 4 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 4 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 4 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 5 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 5 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 5 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 6 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 6 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 6 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 7 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 7 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 7 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 8 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 8 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 8 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 9 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 9 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 9 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 10 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 10 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 10 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 11 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 11 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 11 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 12 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 12 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 12 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 13 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 13 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 13 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 14 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 14 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 14 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 15 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 16 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 16 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 16 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 17 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 17 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 17 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 18 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 18 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 18 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 19 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 19 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 19 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 20 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 20 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 20 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 21 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 21 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 21 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 22 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 22 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 22 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 23 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 23 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 23 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 24 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 24 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 24 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 25 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 25 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 25 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 26 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 26 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 26 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 27 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 27 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 27 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 28 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 28 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 28 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 29 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 29 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 29 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 30 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 31 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 31 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 31 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 32 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 32 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 32 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 33 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 33 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 33 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 34 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 34 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 34 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 35 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 35 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 35 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 36 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 36 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 36 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 37 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 37 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 37 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 38 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 38 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 38 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 39 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 39 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 39 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 40 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 40 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 40 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 41 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 41 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 41 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 42 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 42 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 42 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 43 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 43 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 43 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 44 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 44 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 44 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 45 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 46 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 46 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 46 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 47 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 47 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 47 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 48 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 48 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 48 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 49 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 49 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 49 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 50 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 50 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 50 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 51 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 51 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 51 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 52 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 52 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 52 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 53 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 53 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 53 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 54 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 54 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 54 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 55 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 55 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 55 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 56 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 56 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 56 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 57 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 57 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 57 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 58 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 58 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 58 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 59 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 59 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 59 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 60 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 60 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 60 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 61 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 61 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 61 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 62 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 62 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 62 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 63 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 63 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 63 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 64 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 65 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 65 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 65 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 66 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 66 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 66 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 67 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 67 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 67 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 68 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 68 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 68 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 69 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 69 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 69 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 70 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 70 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 70 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 71 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 71 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 71 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 72 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 72 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 72 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 73 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 73 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 73 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 74 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 74 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 74 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 75 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 75 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 75 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 76 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 76 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 76 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 77 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 77 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 77 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 78 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 78 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 78 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 79 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 79 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 79 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 80 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 80 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 80 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 81 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 81 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 81 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 82 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 82 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 82 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 83 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 84 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 84 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 84 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 85 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 85 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 85 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 86 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 86 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 86 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 87 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 87 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 87 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 88 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 88 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 88 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 89 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 89 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 89 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 90 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 90 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 90 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 91 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 91 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 91 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 92 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 92 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 92 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 93 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 93 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 93 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 94 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 94 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 94 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 95 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 95 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 95 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 96 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 96 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 96 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 97 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 97 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 97 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 98 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 99 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 99 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 99 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 100 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 100 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 100 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 101 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 101 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 101 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 102 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 102 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 102 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 103 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 103 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 103 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 104 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 104 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 104 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 105 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 105 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 105 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 106 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 106 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 106 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 107 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 107 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 107 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 108 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 108 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 108 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 109 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 109 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 109 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 110 original label matches correction",
+      "pass": true
+    },
+    {
+      "check": "B line 110 inside correction time range",
+      "pass": true
+    },
+    {
+      "check": "B line 110 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 111 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 112 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 113 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 114 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 115 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 116 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 117 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 119 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 120 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 121 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 122 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 123 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 124 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 125 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 126 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 127 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 128 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 129 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 130 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 131 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 132 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 134 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 135 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 136 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 138 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 140 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 141 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 142 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 143 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 144 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 145 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 146 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 147 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 148 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 149 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 150 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 151 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 152 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 153 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 154 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 155 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 157 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 158 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 159 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 160 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 161 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 162 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 163 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 164 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 165 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 166 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 167 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 168 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 169 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 170 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 172 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 173 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 174 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 175 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 176 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 177 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 178 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 179 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 180 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 181 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 182 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 183 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 184 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 185 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 187 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 188 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 189 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 190 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 191 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 192 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 193 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 194 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 195 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 196 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 197 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 198 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 199 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 200 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 201 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 202 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 203 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 204 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 205 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 206 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 208 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 209 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 210 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 211 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 212 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 213 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 214 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 215 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 216 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 217 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 218 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 219 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 220 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 221 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 222 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 223 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 224 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 225 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 226 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 228 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 229 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 230 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 231 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 232 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 233 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 234 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 235 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 236 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 237 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 238 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 239 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 240 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 241 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 243 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 244 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 245 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 246 time order",
+      "pass": true
+    },
+    {
+      "check": "B line 247 time order",
+      "pass": true
+    },
+    {
+      "check": "block 1 count matches",
+      "pass": true
+    },
+    {
+      "check": "block 1 below capacity",
+      "pass": true
+    },
+    {
+      "check": "block 2 count matches",
+      "pass": true
+    },
+    {
+      "check": "block 2 below capacity",
+      "pass": true
+    },
+    {
+      "check": "block 3 count matches",
+      "pass": true
+    },
+    {
+      "check": "block 3 below capacity",
+      "pass": true
+    },
+    {
+      "check": "block 4 count matches",
+      "pass": true
+    },
+    {
+      "check": "block 4 below capacity",
+      "pass": true
+    },
+    {
+      "check": "connector has 30 distinct IDs",
+      "pass": true
+    },
+    {
+      "check": "connector names equal planned names",
+      "pass": true
+    },
+    {
+      "check": "D01 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D01 one decision",
+      "pass": true
+    },
+    {
+      "check": "D01 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D01 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D01 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D01 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D01 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D01 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D01 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D01 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D01 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D01 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D01 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D01 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D01 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D01 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D01 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D01 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D01 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D01 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D01 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D02 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D02 one decision",
+      "pass": true
+    },
+    {
+      "check": "D02 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D02 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D02 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D02 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D02 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D02 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D02 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D02 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D02 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D02 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D02 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D02 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D02 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D02 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D02 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D02 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D02 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D02 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D03 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D03 one decision",
+      "pass": true
+    },
+    {
+      "check": "D03 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D03 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D03 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D03 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D03 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D03 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D03 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D03 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D03 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D03 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D03 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D03 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D03 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D03 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D03 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D03 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D03 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D03 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D03 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D04 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D04 one decision",
+      "pass": true
+    },
+    {
+      "check": "D04 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D04 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D04 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D04 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D04 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D04 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D04 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D04 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D04 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D04 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D04 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D04 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D04 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D04 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D04 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D04 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D04 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D04 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D04 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D05 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D05 one decision",
+      "pass": true
+    },
+    {
+      "check": "D05 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D05 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D05 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D05 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D05 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D05 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D05 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D05 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D05 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D05 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D05 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D05 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D05 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D05 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D05 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D05 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D05 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D05 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D05 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D06 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D06 one decision",
+      "pass": true
+    },
+    {
+      "check": "D06 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D06 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D06 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D06 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D06 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D06 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D06 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D06 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D06 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D06 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D06 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D06 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D06 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D06 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D06 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D06 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D06 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D06 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D07 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D07 one decision",
+      "pass": true
+    },
+    {
+      "check": "D07 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D07 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D07 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D07 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D07 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D07 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D07 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D07 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D07 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D07 exact-token receipt present",
+      "pass": true
+    },
+    {
+      "check": "D07 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D07 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D07 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D07 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D07 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D07 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D07 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D07 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D07 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D07 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D08 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D08 one decision",
+      "pass": true
+    },
+    {
+      "check": "D08 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D08 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D08 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D08 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D08 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D08 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D08 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D08 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D08 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D08 exact-token receipt present",
+      "pass": true
+    },
+    {
+      "check": "D08 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D08 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D08 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D08 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D08 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D08 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D08 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D08 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D08 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D08 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D09 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D09 one decision",
+      "pass": true
+    },
+    {
+      "check": "D09 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D09 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D09 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D09 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D09 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D09 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D09 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D09 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D09 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D09 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D09 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D09 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D09 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D09 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D09 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D09 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D09 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D09 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D09 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D10 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D10 one decision",
+      "pass": true
+    },
+    {
+      "check": "D10 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D10 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D10 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D10 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D10 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D10 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D10 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D10 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D10 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D10 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D10 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D10 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D10 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D10 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D10 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D10 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D10 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D10 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D10 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D11 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D11 one decision",
+      "pass": true
+    },
+    {
+      "check": "D11 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D11 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D11 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D11 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D11 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D11 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D11 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D11 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D11 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D11 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D11 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D11 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D11 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D11 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D11 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D11 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D11 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D11 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D11 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D12 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D12 one decision",
+      "pass": true
+    },
+    {
+      "check": "D12 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D12 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D12 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D12 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D12 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D12 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D12 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D12 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D12 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D12 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D12 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D12 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D12 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D12 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D12 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D12 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D12 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D12 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D12 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D13 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D13 one decision",
+      "pass": true
+    },
+    {
+      "check": "D13 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D13 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D13 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D13 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D13 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D13 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D13 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D13 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D13 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D13 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D13 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D13 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D13 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D13 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D13 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D13 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D13 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D13 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D13 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D14 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D14 one decision",
+      "pass": true
+    },
+    {
+      "check": "D14 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D14 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D14 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D14 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D14 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D14 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D14 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D14 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D14 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D14 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D14 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D14 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D14 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D14 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D14 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D14 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D14 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D14 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D14 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D15 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D15 one decision",
+      "pass": true
+    },
+    {
+      "check": "D15 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D15 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D15 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D15 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D15 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D15 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D15 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D15 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D15 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D15 exact-token receipt present",
+      "pass": true
+    },
+    {
+      "check": "D15 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D15 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D15 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D15 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D15 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D15 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D15 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D15 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D15 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D15 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D16 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D16 one decision",
+      "pass": true
+    },
+    {
+      "check": "D16 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D16 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D16 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D16 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D16 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D16 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D16 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D16 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D16 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D16 exact-token receipt present",
+      "pass": true
+    },
+    {
+      "check": "D16 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D16 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D16 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D16 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D16 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D16 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D16 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D16 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D16 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D16 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D17 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D17 one decision",
+      "pass": true
+    },
+    {
+      "check": "D17 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D17 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D17 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D17 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D17 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D17 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D17 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D17 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D17 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D17 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D17 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D17 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D17 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D17 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D17 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D17 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D17 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D17 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D17 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D18 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D18 one decision",
+      "pass": true
+    },
+    {
+      "check": "D18 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D18 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D18 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D18 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D18 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D18 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D18 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D18 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D18 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D18 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D18 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D18 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D18 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D18 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D18 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D18 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D18 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D18 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D18 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D19 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D19 one decision",
+      "pass": true
+    },
+    {
+      "check": "D19 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D19 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D19 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D19 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D19 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D19 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D19 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D19 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D19 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D19 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D19 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D19 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D19 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D19 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D19 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D19 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D19 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D19 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D19 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D20 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D20 one decision",
+      "pass": true
+    },
+    {
+      "check": "D20 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D20 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D20 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D20 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D20 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D20 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D20 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D20 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D20 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D20 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D20 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D20 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D20 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D20 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D20 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D20 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D20 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D20 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D20 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D21 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D21 one decision",
+      "pass": true
+    },
+    {
+      "check": "D21 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D21 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D21 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D21 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D21 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D21 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D21 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D21 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D21 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D21 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D21 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D21 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D21 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D21 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D21 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D21 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D21 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D21 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D21 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D22 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D22 one decision",
+      "pass": true
+    },
+    {
+      "check": "D22 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D22 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D22 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D22 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D22 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D22 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D22 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D22 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D22 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D22 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D22 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D22 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D22 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D22 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D22 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D22 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D22 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D22 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D22 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D23 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D23 one decision",
+      "pass": true
+    },
+    {
+      "check": "D23 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D23 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D23 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D23 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D23 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D23 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D23 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D23 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D23 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D23 exact-token receipt present",
+      "pass": true
+    },
+    {
+      "check": "D23 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D23 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D23 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D23 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D23 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D23 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D23 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D23 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D23 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D23 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D24 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D24 one decision",
+      "pass": true
+    },
+    {
+      "check": "D24 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D24 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D24 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D24 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D24 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D24 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D24 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D24 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D24 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D24 exact-token receipt present",
+      "pass": true
+    },
+    {
+      "check": "D24 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D24 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D24 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D24 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D24 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D24 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D24 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D24 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D24 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D24 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D25 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D25 one decision",
+      "pass": true
+    },
+    {
+      "check": "D25 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D25 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D25 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D25 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D25 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D25 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D25 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D25 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D25 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D25 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D25 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D25 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D25 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D25 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D25 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D25 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D25 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D25 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D25 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D26 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D26 one decision",
+      "pass": true
+    },
+    {
+      "check": "D26 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D26 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D26 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D26 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D26 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D26 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D26 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D26 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D26 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D26 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D26 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D26 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D26 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D26 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D26 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D26 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D26 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D26 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D26 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D27 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D27 one decision",
+      "pass": true
+    },
+    {
+      "check": "D27 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D27 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D27 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D27 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D27 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D27 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D27 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D27 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D27 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D27 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D27 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D27 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D27 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D27 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D27 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D27 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D27 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D27 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D27 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D28 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D28 one decision",
+      "pass": true
+    },
+    {
+      "check": "D28 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D28 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D28 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D28 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D28 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D28 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D28 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D28 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D28 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D28 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D28 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D28 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D28 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D28 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D28 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D28 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D28 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D28 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D28 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D29 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D29 one decision",
+      "pass": true
+    },
+    {
+      "check": "D29 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D29 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D29 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D29 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D29 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D29 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D29 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D29 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D29 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D29 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D29 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D29 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D29 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D29 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D29 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D29 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D29 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D29 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D29 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "D30 one initial Create",
+      "pass": true
+    },
+    {
+      "check": "D30 one decision",
+      "pass": true
+    },
+    {
+      "check": "D30 one first decision observation",
+      "pass": true
+    },
+    {
+      "check": "D30 plan saved before initial Create",
+      "pass": true
+    },
+    {
+      "check": "D30 decision within deadline",
+      "pass": true
+    },
+    {
+      "check": "D30 decision follows full observation",
+      "pass": true
+    },
+    {
+      "check": "D30 first observation after Create",
+      "pass": true
+    },
+    {
+      "check": "D30 connector audit after decision",
+      "pass": true
+    },
+    {
+      "check": "D30 confirmed row agrees with count",
+      "pass": true
+    },
+    {
+      "check": "D30 exported first count matches raw row",
+      "pass": true
+    },
+    {
+      "check": "D30 no retry claimed",
+      "pass": true
+    },
+    {
+      "check": "D30 verified baseline has zero token rows",
+      "pass": true
+    },
+    {
+      "check": "D30 one pre-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D30 one ready post-reload audit",
+      "pass": true
+    },
+    {
+      "check": "D30 pre-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D30 ready post-reload has one row",
+      "pass": true
+    },
+    {
+      "check": "D30 connector has one folder in assigned block",
+      "pass": true
+    },
+    {
+      "check": "D30 connector confirms private record",
+      "pass": true
+    },
+    {
+      "check": "D30 connector creation time follows click and precedes decision",
+      "pass": true
+    },
+    {
+      "check": "D30 actual token visible after Create",
+      "pass": true
+    },
+    {
+      "check": "D30 no unplanned action after Create before decision",
+      "pass": true
+    },
+    {
+      "check": "A admission within 30 minutes",
+      "pass": true
+    },
+    {
+      "check": "B admission within 30 minutes",
+      "pass": true
+    },
+    {
+      "check": "author table has same trial IDs",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D01 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D02 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D03 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D04 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D05 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D06 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D07 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D08 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D09 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D10 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D11 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D12 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D13 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D14 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D15 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D16 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D17 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D18 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D19 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D20 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D21 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D22 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D23 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D24 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D25 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D26 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D27 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D28 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D29 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: first_count",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: pre_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: post_reload_count",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: connector_count",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: baseline",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: seconds",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: first explicit view",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: clean outcome",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: receipt",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: initial_submit_utc",
+      "pass": true
+    },
+    {
+      "check": "D30 author agrees: decision_utc",
+      "pass": true
+    },
+    {
+      "check": "author summary agrees: clean",
+      "pass": true
+    },
+    {
+      "check": "author summary agrees: retries",
+      "pass": true
+    },
+    {
+      "check": "author summary agrees: duplicates",
+      "pass": true
+    },
+    {
+      "check": "author summary agrees: zero",
+      "pass": true
+    },
+    {
+      "check": "author summary agrees: baselines",
+      "pass": true
+    },
+    {
+      "check": "24 core pair comparisons",
+      "pass": true
+    },
+    {
+      "check": "pair design matches all planned comparisons",
+      "pass": true
+    },
+    {
+      "check": "pair 1 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 1 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 1 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 1 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 2 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 2 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 2 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 2 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 3 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 3 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 3 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 3 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 4 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 4 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 4 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 4 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 5 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 5 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 5 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 5 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 6 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 6 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 6 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 6 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 7 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 7 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 7 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 7 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 8 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 8 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 8 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 8 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 9 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 9 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 9 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 9 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 10 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 10 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 10 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 10 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 11 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 11 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 11 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 11 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 12 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 12 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 12 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 12 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 13 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 13 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 13 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 13 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 14 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 14 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 14 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 14 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 15 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 15 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 15 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 15 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 16 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 16 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 16 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 16 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 17 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 17 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 17 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 17 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 18 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 18 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 18 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 18 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 19 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 19 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 19 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 19 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 20 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 20 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 20 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 20 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 21 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 21 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 21 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 21 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 22 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 22 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 22 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 22 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 23 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 23 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 23 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 23 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "pair 24 identities and stratum",
+      "pass": true
+    },
+    {
+      "check": "pair 24 clean difference",
+      "pass": true
+    },
+    {
+      "check": "pair 24 duplicate difference",
+      "pass": true
+    },
+    {
+      "check": "pair 24 wall-time difference",
+      "pass": true
+    },
+    {
+      "check": "author hypothesis interpretation is bounded",
+      "pass": true
+    }
+  ],
+  "input_sha256": {
+    "account_assignments.csv": "49804ad55b37a4d10d2749737d8747a247fb4b3f2b6b109e37721bc8b5da7581",
+    "account_runner_A_actions.jsonl": "eb6c763646ea74ff11c4ff71baefbf26327c49060c64c9bc6f79619bf7e04787",
+    "account_runner_B_actions.jsonl": "7122b36e75836a9a954f314c49f3b8104dd6c687c10db74a57555d04f8e673dc",
+    "account_runner_B_corrections.json": "893db248cfdd712b61d8fbe04a4d7350e374d7524d8551627f9139af431264a1",
+    "account_connector_audit.json": "0ada181e55218d237c6f48c677219b10151b04d3313cb16bb6a4f824ec5635f4",
+    "account_plan.md": "fc1a526efa9c4d6ad5b35a57ee862e54e527eee9917a1976bc9edc9d1341fe38",
+    "account_plan_manifest.json": "6e73fb2a21ab448587a87ce75b1cf20745d37a2062bb4876262684d1cc6a9e6f",
+    "account_results.csv": "daf9604b2cc50e0f54cba6669b5d327a169bb830d207a20e12e5b191a236c973",
+    "account_summary.json": "d04b22348b50c741cb73b37d0b8ea138ecf88445727d45dae6740ae6620eb9be",
+    "account_pairs.csv": "6d42c0319e478fb659549ebdc0a37f5a6c50214134e176491737a08c56f8d277"
+  },
+  "fresh_copy_reproduction": [
+    {
+      "iteration": 1,
+      "exit_code": 0,
+      "saved_output_byte_agreement": {
+        "account_results.csv": true,
+        "account_summary.json": true,
+        "account_pairs.csv": true
+      },
+      "pass": true
+    },
+    {
+      "iteration": 2,
+      "exit_code": 0,
+      "saved_output_byte_agreement": {
+        "account_results.csv": true,
+        "account_summary.json": true,
+        "account_pairs.csv": true
+      },
+      "pass": true
+    }
+  ]
+}

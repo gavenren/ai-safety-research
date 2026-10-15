@@ -2,9 +2,22 @@
 
 This is a separate user-requested paper dated October 15, 2026. It is not a second daily automation study.
 
-Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, and a later 60-trial experiment on two live public test sites. The local task tests instructed retry rules with real browser actions and stored writes. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
+Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, and a later 30-trial experiment in one authenticated Google Drive account. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
 
 Codex generated this work. Separate agents checked the design, sources, calculations, reproduction, and PDF. No human or external peer review occurred. No new reuse license is assigned.
+
+## Analyze the saved account evidence
+
+Use a separate copy of this folder. The commands use Python standard library and saved, redacted evidence. They make no browser or connector call.
+
+```sh
+python3 account_analyze.py
+python3 account_validate.py --fresh-copy
+```
+
+Read account_plan.md before any new browser run. Use a new private test collection and new token names. Never use existing user records as tests. Use account_assignments.csv for the design. The later connector audit must list every test record only after all decisions stop. A new trajectory can differ. The saved data permit an offline check without private account access.
+
+Read account_redaction.md for removed private fields and public ID pseudonyms. The original private logs are not in this public repository. The four published block images show later audits, not the original trial decisions. Three original trial images are missing. Screenshots show only the test region. The audit is a finite service read; it is not a durability guarantee. Cleanup means moving only the test parent to Trash, not emptying Trash or permanent deletion.
 
 ## Analyze the saved live-site evidence
 
@@ -98,8 +111,10 @@ This command reads report.md and the PNG figure. It writes paper.pdf and checks 
 
 ## Version history and limits
 
-The first published version was a synthetic study. Its numerical evidence remains unchanged. simulation_final_review.md, simulation_release_checks.json, simulation_pdf_check.json, and reproduction_check.json refer to that version. Their old report or PDF hashes are historical records. final_review.md and the browser review files describe the extension. package_manifest.json lists current package hashes.
+The first published version was a synthetic study. Its numerical evidence remains unchanged. simulation_final_review.md, simulation_release_checks.json, simulation_pdf_check.json, and reproduction_check.json refer to that version. Their old report or PDF hashes are historical records. The current final_review.md describes the latest extension; each historical review states its own scope. package_manifest.json lists current package hashes.
 
 The pilot tests a real agent in a constructed local browser application. It is not a public-web or pixel-only benchmark. Two contexts share one host and browser service. The rules are supplied by prompt, so these are not natural error rates. Truthful terminal status is a constructed app capability. The finite case counts are not field error rates. Synthetic and browser results must remain separate.
 
-The live-site extension keeps all original simulation and local browser data unchanged. local_browser_final_review.md, local_browser_release_checks.json, local_browser_pdf_check.json, browser_review.md, and browser_reproduction_check.json refer to the earlier 18-trial paper. Their report/PDF/index hashes are historical. live_review.md, live_validation.json, release_checks.json, pdf_check.json, and package_manifest.json apply to the current version.
+The live-site extension keeps all original simulation and local browser data unchanged. local_browser_final_review.md, local_browser_release_checks.json, local_browser_pdf_check.json, browser_review.md, and browser_reproduction_check.json refer to the earlier 18-trial paper. Their report/PDF/index hashes are historical. live_review.md and live_validation.json apply to the 60-trial evidence. The current release_checks.json, pdf_check.json, and package_manifest.json apply to the latest account extension.
+
+The account extension preserves all simulation, local-pilot, and public-demo evidence. public_site_final_review.md, public_site_checklist.md, public_site_release_checks.json, public_site_pdf_check.json, and live_review.md describe the preceding 60-trial version. Their old report and PDF hashes are historical. account_review.md, account_validation.json, final_review.md, release_checks.json, pdf_check.json, and package_manifest.json describe the current version.

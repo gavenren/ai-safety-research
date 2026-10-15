@@ -1,0 +1,619 @@
+{
+  "study": "Authenticated Drive extension",
+  "expected_trials": 30,
+  "completed_trials": 30,
+  "status": "PASS_WITH_WARNINGS",
+  "checks": 1738,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "explicit_metadata_correction",
+      "trial_id": "D01",
+      "detail": {
+        "source_trial_ids": [
+          "setup"
+        ],
+        "changed_lines": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14
+        ],
+        "line_start": 1,
+        "line_end": 276,
+        "before_utc_min": "2026-10-15T17:51:19.371Z",
+        "after_utc_max": "2026-10-15T17:51:36.641Z"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "explicit_metadata_correction",
+      "trial_id": "D09",
+      "detail": {
+        "source_trial_ids": [
+          "D09",
+          "setup"
+        ],
+        "changed_lines": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          16,
+          18
+        ],
+        "line_start": 1,
+        "line_end": 20,
+        "before_utc_min": "2026-10-15T17:51:45.186Z",
+        "after_utc_max": "2026-10-15T17:52:35.058Z"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "explicit_metadata_correction",
+      "trial_id": "D10",
+      "detail": {
+        "source_trial_ids": [
+          "D10",
+          "setup"
+        ],
+        "changed_lines": [
+          22,
+          24,
+          26,
+          27,
+          31,
+          33
+        ],
+        "line_start": 21,
+        "line_end": 35,
+        "before_utc_min": "2026-10-15T17:52:46.403Z",
+        "after_utc_max": "2026-10-15T17:53:12.533Z"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "explicit_metadata_correction",
+      "trial_id": "D11",
+      "detail": {
+        "source_trial_ids": [
+          "D10",
+          "D11",
+          "setup"
+        ],
+        "changed_lines": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "line_start": 36,
+        "line_end": 50,
+        "before_utc_min": "2026-10-15T17:53:12.744Z",
+        "after_utc_max": "2026-10-15T17:53:35.340Z"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "explicit_metadata_correction",
+      "trial_id": "D12",
+      "detail": {
+        "source_trial_ids": [
+          "D10",
+          "D12",
+          "setup"
+        ],
+        "changed_lines": [
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        "line_start": 51,
+        "line_end": 69,
+        "before_utc_min": "2026-10-15T17:53:35.893Z",
+        "after_utc_max": "2026-10-15T17:54:05.165Z"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "explicit_metadata_correction",
+      "trial_id": "D13",
+      "detail": {
+        "source_trial_ids": [
+          "D10",
+          "D13",
+          "setup"
+        ],
+        "changed_lines": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          84,
+          85,
+          86,
+          87,
+          88
+        ],
+        "line_start": 70,
+        "line_end": 88,
+        "before_utc_min": "2026-10-15T17:54:05.318Z",
+        "after_utc_max": "2026-10-15T17:54:32.272Z"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "explicit_metadata_correction",
+      "trial_id": "D14",
+      "detail": {
+        "source_trial_ids": [
+          "D10",
+          "D14",
+          "setup"
+        ],
+        "changed_lines": [
+          89,
+          90,
+          91,
+          92,
+          94,
+          95,
+          99,
+          101
+        ],
+        "line_start": 89,
+        "line_end": 103,
+        "before_utc_min": "2026-10-15T17:54:32.444Z",
+        "after_utc_max": "2026-10-15T17:54:58.145Z"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "explicit_metadata_correction",
+      "trial_id": "D15",
+      "detail": {
+        "source_trial_ids": [
+          "D14",
+          "setup"
+        ],
+        "changed_lines": [
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110
+        ],
+        "line_start": 104,
+        "line_end": 110,
+        "before_utc_min": "2026-10-15T17:54:58.303Z",
+        "after_utc_max": "2026-10-15T17:55:14.872Z"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "unverified_assigned_baseline_plan_deviation",
+      "trial_id": "D02",
+      "detail": "baseline"
+    },
+    {
+      "severity": "warning",
+      "code": "unverified_assigned_baseline_plan_deviation",
+      "trial_id": "D06",
+      "detail": "baseline"
+    },
+    {
+      "severity": "warning",
+      "code": "runner_error_note",
+      "trial_id": "D09",
+      "detail": "Logger closure issue: see corrections.json"
+    },
+    {
+      "severity": "warning",
+      "code": "runner_error_note",
+      "trial_id": "D10",
+      "detail": "Logger closure issue: see corrections.json"
+    },
+    {
+      "severity": "warning",
+      "code": "original_image_missing",
+      "trial_id": "D11",
+      "detail": "original_overwritten_not_available"
+    },
+    {
+      "severity": "warning",
+      "code": "runner_error_note",
+      "trial_id": "D11",
+      "detail": "Logger closure issue: see corrections.json"
+    },
+    {
+      "severity": "warning",
+      "code": "original_image_missing",
+      "trial_id": "D12",
+      "detail": "original_overwritten_not_available"
+    },
+    {
+      "severity": "warning",
+      "code": "runner_error_note",
+      "trial_id": "D12",
+      "detail": "Logger closure issue: see corrections.json"
+    },
+    {
+      "severity": "warning",
+      "code": "original_image_missing",
+      "trial_id": "D13",
+      "detail": "original_overwritten_not_available"
+    },
+    {
+      "severity": "warning",
+      "code": "runner_error_note",
+      "trial_id": "D13",
+      "detail": "Logger closure issue: see corrections.json"
+    },
+    {
+      "severity": "warning",
+      "code": "runner_error_note",
+      "trial_id": "D14",
+      "detail": "Logger closure issue: see corrections.json"
+    },
+    {
+      "severity": "warning",
+      "code": "runner_error_note",
+      "trial_id": "D16",
+      "detail": "Audit post-reload browser state timed out; fresh audit state succeeded. Decision was already recorded."
+    },
+    {
+      "severity": "warning",
+      "code": "tool_errors",
+      "trial_id": "D16",
+      "detail": [
+        {
+          "phase": "audit_reload_or_post_observation",
+          "line": 137
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "runner_error_note",
+      "trial_id": "D18",
+      "detail": "Audit reload or following state timed out: Page.getFrameTree. Decision unchanged."
+    },
+    {
+      "severity": "warning",
+      "code": "tool_errors",
+      "trial_id": "D18",
+      "detail": [
+        {
+          "phase": "audit_reload_or_post_reload",
+          "line": 169
+        }
+      ]
+    }
+  ],
+  "issue_counts": {
+    "warning": 23
+  },
+  "total": {
+    "n": 30,
+    "confirmed": 30,
+    "clean": 30,
+    "unresolved": 0,
+    "false_confirmations": 0,
+    "duplicates": 0,
+    "zero": 0,
+    "retries": 0,
+    "late": 0,
+    "one_record": 30,
+    "exact_receipt_first": 30,
+    "decision_seconds": {
+      "n": 30,
+      "minimum": 6.333,
+      "median": 7.8095,
+      "maximum": 15.028,
+      "mean": 8.675833333333333
+    }
+  },
+  "groups": {
+    "absence/All": {
+      "n": 4,
+      "confirmed": 4,
+      "clean": 4,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "retries": 0,
+      "late": 0,
+      "one_record": 4,
+      "exact_receipt_first": 4,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 7.858,
+        "median": 9.9655,
+        "maximum": 13.465,
+        "mean": 10.3135
+      }
+    },
+    "absence/Documents": {
+      "n": 4,
+      "confirmed": 4,
+      "clean": 4,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "retries": 0,
+      "late": 0,
+      "one_record": 4,
+      "exact_receipt_first": 4,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 7.091,
+        "median": 8.49,
+        "maximum": 11.034,
+        "mean": 8.776250000000001
+      }
+    },
+    "wait24/All": {
+      "n": 4,
+      "confirmed": 4,
+      "clean": 4,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "retries": 0,
+      "late": 0,
+      "one_record": 4,
+      "exact_receipt_first": 4,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 7.251,
+        "median": 7.8955,
+        "maximum": 11.007,
+        "mean": 8.51225
+      }
+    },
+    "wait24/Documents": {
+      "n": 4,
+      "confirmed": 4,
+      "clean": 4,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "retries": 0,
+      "late": 0,
+      "one_record": 4,
+      "exact_receipt_first": 4,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 6.44,
+        "median": 7.292,
+        "maximum": 15.028,
+        "mean": 9.013
+      }
+    },
+    "scope/All": {
+      "n": 4,
+      "confirmed": 4,
+      "clean": 4,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "retries": 0,
+      "late": 0,
+      "one_record": 4,
+      "exact_receipt_first": 4,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 7.167,
+        "median": 7.411,
+        "maximum": 8.532,
+        "mean": 7.63025
+      }
+    },
+    "scope/Documents": {
+      "n": 4,
+      "confirmed": 4,
+      "clean": 4,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "retries": 0,
+      "late": 0,
+      "one_record": 4,
+      "exact_receipt_first": 4,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 6.38,
+        "median": 6.923,
+        "maximum": 9.328,
+        "mean": 7.3885
+      }
+    },
+    "receipt/All": {
+      "n": 3,
+      "confirmed": 3,
+      "clean": 3,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "retries": 0,
+      "late": 0,
+      "one_record": 3,
+      "exact_receipt_first": 3,
+      "decision_seconds": {
+        "n": 3,
+        "minimum": 7.761,
+        "median": 10.282,
+        "maximum": 11.994,
+        "mean": 10.012333333333334
+      }
+    },
+    "receipt/Documents": {
+      "n": 3,
+      "confirmed": 3,
+      "clean": 3,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "retries": 0,
+      "late": 0,
+      "one_record": 3,
+      "exact_receipt_first": 3,
+      "decision_seconds": {
+        "n": 3,
+        "minimum": 6.333,
+        "median": 6.925,
+        "maximum": 10.445,
+        "mean": 7.901
+      }
+    }
+  },
+  "by_runner": {
+    "A": {
+      "n": 16,
+      "confirmed": 16,
+      "clean": 16,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "retries": 0,
+      "late": 0,
+      "one_record": 16,
+      "exact_receipt_first": 16,
+      "decision_seconds": {
+        "n": 16,
+        "minimum": 6.333,
+        "median": 8.109,
+        "maximum": 13.465,
+        "mean": 8.53625
+      }
+    },
+    "B": {
+      "n": 14,
+      "confirmed": 14,
+      "clean": 14,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "retries": 0,
+      "late": 0,
+      "one_record": 14,
+      "exact_receipt_first": 14,
+      "decision_seconds": {
+        "n": 14,
+        "minimum": 6.562,
+        "median": 7.7225,
+        "maximum": 15.028,
+        "mean": 8.835357142857143
+      }
+    }
+  },
+  "hypotheses": {
+    "H-A1_directional_criterion_met": false,
+    "H-A2_directional_criterion_met": false,
+    "H-A3_criterion_met": true,
+    "stable_hidden_view_established": false,
+    "interpretation": "The assigned Documents condition was not maintained or not visible at all first decisions. Observed directional criteria remain descriptive. A causal comparison of retry rules under a stable hidden view is not identified."
+  },
+  "core_pair_count": 24,
+  "all_core_control_successes": 12,
+  "all_core_control_trials": 12,
+  "browser_connector_agreement": 30,
+  "rows_despite_assigned_documents": 15,
+  "verified_assigned_baselines": 28,
+  "unverified_assigned_baselines": [
+    "D02",
+    "D06"
+  ],
+  "missing_original_images": [
+    "D11",
+    "D12",
+    "D13"
+  ],
+  "decision_tool_errors": 0,
+  "audit_tool_errors": 2,
+  "scored_action_records": 195,
+  "scored_observation_records": 274,
+  "audit_utc": "2026-10-15T18:02:19.961Z",
+  "inputs_sha256": {
+    "account_assignments.csv": "49804ad55b37a4d10d2749737d8747a247fb4b3f2b6b109e37721bc8b5da7581",
+    "account_plan_manifest.json": "6e73fb2a21ab448587a87ce75b1cf20745d37a2062bb4876262684d1cc6a9e6f",
+    "account_plan.md": "fc1a526efa9c4d6ad5b35a57ee862e54e527eee9917a1976bc9edc9d1341fe38",
+    "account_runner_A_actions.jsonl": "eb6c763646ea74ff11c4ff71baefbf26327c49060c64c9bc6f79619bf7e04787",
+    "account_runner_A_results.json": "f332d3bc8596593025b2c5764c57aaa8d3de179d8c6f451d060823b2f1e9c670",
+    "account_runner_B_actions.jsonl": "7122b36e75836a9a954f314c49f3b8104dd6c687c10db74a57555d04f8e673dc",
+    "account_runner_B_corrections.json": "893db248cfdd712b61d8fbe04a4d7350e374d7524d8551627f9139af431264a1",
+    "account_runner_B_results.json": "efdc98a11fff924656bc80beaab2a5d30ec0168612a00d934de126fbb4c14274",
+    "account_connector_audit.json": "0ada181e55218d237c6f48c677219b10151b04d3313cb16bb6a4f824ec5635f4"
+  },
+  "limitations": [
+    "One authenticated service and one folder-creation workflow.",
+    "Two contexts share the same account, browser service, and host.",
+    "Fixed, dependent trials are not a random sample. No population p-values or confidence intervals.",
+    "Rules are prescribed procedures, not unconstrained model behavior.",
+    "Assigned filter is not proof that the filter remained in effect after creation.",
+    "A hidden filter chip is recorded as not_shown, not inferred as All.",
+    "Finite connector evidence does not prove indefinite durability or execution closure.",
+    "Wall time includes tool and model overhead; it is not service latency.",
+    "Receipt has six trials; core rules have eight each. Earlier studies are not pooled."
+  ]
+}

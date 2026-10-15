@@ -1,0 +1,95 @@
+{
+  "created_utc": "2026-10-15T18:05:03.733308+00:00",
+  "text_files": [
+    {
+      "public_file": "account_runner_A_actions.jsonl",
+      "private_source": "runner_A/actions.jsonl",
+      "private_sha256": "064d147dbe304060b6096026a3d249751af05f019bca59685665972c63ffa1cf",
+      "public_sha256": "eb6c763646ea74ff11c4ff71baefbf26327c49060c64c9bc6f79619bf7e04787",
+      "private_bytes": 1180111,
+      "public_bytes": 1178362
+    },
+    {
+      "public_file": "account_runner_A_results.json",
+      "private_source": "runner_A/results.json",
+      "private_sha256": "350ca86efe466ed044d36b78095d7b74e48d70ab374c4b2a81bd401b6e92a54a",
+      "public_sha256": "f332d3bc8596593025b2c5764c57aaa8d3de179d8c6f451d060823b2f1e9c670",
+      "private_bytes": 9732,
+      "public_bytes": 9733
+    },
+    {
+      "public_file": "account_runner_A_runner_notes.md",
+      "private_source": "runner_A/runner_notes.md",
+      "private_sha256": "d4aefe51d38c8da5aeda38aa71d670432cac51a2449b5f016d79cdb9dd982aa0",
+      "public_sha256": "d4aefe51d38c8da5aeda38aa71d670432cac51a2449b5f016d79cdb9dd982aa0",
+      "private_bytes": 1231,
+      "public_bytes": 1231
+    },
+    {
+      "public_file": "account_runner_B_actions.jsonl",
+      "private_source": "runner_B/actions.jsonl",
+      "private_sha256": "13c09a3dd211f134d381a8ce946918d67380ce69a96c543332cb3a4aa4f17f3e",
+      "public_sha256": "7122b36e75836a9a954f314c49f3b8104dd6c687c10db74a57555d04f8e673dc",
+      "private_bytes": 1077310,
+      "public_bytes": 1074804
+    },
+    {
+      "public_file": "account_runner_B_results.json",
+      "private_source": "runner_B/results.json",
+      "private_sha256": "df6cd94c163ddb4ab52d8510930db5bcef3d3109a8d20db99240698c581c79c4",
+      "public_sha256": "efdc98a11fff924656bc80beaab2a5d30ec0168612a00d934de126fbb4c14274",
+      "private_bytes": 9335,
+      "public_bytes": 9336
+    },
+    {
+      "public_file": "account_runner_B_corrections.json",
+      "private_source": "runner_B/corrections.json",
+      "private_sha256": "890c4e18948faabb8a1c5a269d1d7e8b52c01696485cb9472bab1a68c543793e",
+      "public_sha256": "893db248cfdd712b61d8fbe04a4d7350e374d7524d8551627f9139af431264a1",
+      "private_bytes": 2583,
+      "public_bytes": 2584
+    },
+    {
+      "public_file": "account_runner_B_logging_error.md",
+      "private_source": "runner_B/logging_error.md",
+      "private_sha256": "11f59b0054cb396dd0ca25e0310412b29b9c4a085a905d6d366d8a410e8640f5",
+      "public_sha256": "11f59b0054cb396dd0ca25e0310412b29b9c4a085a905d6d366d8a410e8640f5",
+      "private_bytes": 935,
+      "public_bytes": 935
+    },
+    {
+      "public_file": "account_runner_B_results_original_logging_error.json",
+      "private_source": "runner_B/results_original_logging_error.json",
+      "private_sha256": "71b04fed0c1dfe745662503ed11597537c533a6ea032d20c5830e19c20596397",
+      "public_sha256": "ad8370fbaa3c348fd21baadbd22e1cc74f0036cc8fab85734f52975a928f1417",
+      "private_bytes": 3830,
+      "public_bytes": 3831
+    },
+    {
+      "public_file": "account_runner_B_results-before-correction.json",
+      "private_source": "runner_B/results-before-correction.json",
+      "private_sha256": "71b04fed0c1dfe745662503ed11597537c533a6ea032d20c5830e19c20596397",
+      "public_sha256": "ad8370fbaa3c348fd21baadbd22e1cc74f0036cc8fab85734f52975a928f1417",
+      "private_bytes": 3830,
+      "public_bytes": 3831
+    },
+    {
+      "public_file": "account_later_block_audits.json",
+      "private_source": "private/later_block_audits.json",
+      "private_sha256": "6f32a44da46f55dcdeaaceb53753035706d42eea1793c46e721d91fd3480d574",
+      "public_sha256": "8aa39607261a1750e2389a9bd7af3a24a70daf18594ba63ebcd9c66185ad5395",
+      "private_bytes": 48994,
+      "public_bytes": 48907
+    },
+    {
+      "public_file": "account_cleanup_state.json",
+      "private_source": "private/cleanup_verified.json",
+      "private_sha256": "87fe7c91bfff62ad882062a8e28ac744c4e0609a070af3c7764593624ffc9d0b",
+      "public_sha256": "a0e945b8aa4f99b051a7120f4c3dde6dc9ae96c2ed6addf7bc303ce34f1d54ba",
+      "private_bytes": 6088,
+      "public_bytes": 6075
+    }
+  ],
+  "method": "Deterministic replacement of private folder IDs, account name/email/handle, storage usage, local absolute paths, and an unrelated contact-hovercard URL. Parsed JSON is serialized again. Original action, trial labels, counts, times, and corrections are retained.",
+  "source_access": "Unredacted originals are local private evidence, not public repository files."
+}

@@ -1,0 +1,65 @@
+{
+  "scope": "Later lead audit images, not original per-trial images. Source: Google Drive UI.",
+  "files": [
+    {
+      "file": "account_block_1_audit.jpg",
+      "sha256": "fbbcd0fb2b4d8a1b63f327e0d9f2fa9dee27b6d691534eab34b3bfcc6d408b0a",
+      "bytes": 58482,
+      "format": "JPEG",
+      "clip": {
+        "x": 260,
+        "y": 70,
+        "width": 1190,
+        "height": 550
+      }
+    },
+    {
+      "file": "account_block_2_audit.jpg",
+      "sha256": "f1810b3aeab8870db88cdba3df3a783b950238ab285da65a2331cd1a4a535104",
+      "bytes": 58214,
+      "format": "JPEG",
+      "clip": {
+        "x": 260,
+        "y": 70,
+        "width": 1190,
+        "height": 550
+      }
+    },
+    {
+      "file": "account_block_3_audit.jpg",
+      "sha256": "4b29ad44ce452ff34eacb620214a98a605905bd57c9738e2c3daba158da48974",
+      "bytes": 58459,
+      "format": "JPEG",
+      "clip": {
+        "x": 260,
+        "y": 70,
+        "width": 1190,
+        "height": 550
+      }
+    },
+    {
+      "file": "account_block_4_audit.jpg",
+      "sha256": "6d1d647935867cf7c893fb2dce5f19c9abe91dc6ab78babcf01c6a203067ed66",
+      "bytes": 50273,
+      "format": "JPEG",
+      "clip": {
+        "x": 260,
+        "y": 70,
+        "width": 1190,
+        "height": 550
+      }
+    },
+    {
+      "file": "account_cleanup.jpg",
+      "sha256": "98ab25120d9e10a48c8882008b908275d79cb58e5c69ca134fab894361fd2763",
+      "bytes": 27886,
+      "format": "JPEG",
+      "clip": {
+        "x": 260,
+        "y": 70,
+        "width": 1190,
+        "height": 550
+      }
+    }
+  ]
+}

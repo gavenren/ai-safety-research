@@ -1,0 +1,90 @@
+[
+  {
+    "target_trial_id": "D09",
+    "source_trial_id": [
+      "D09",
+      "setup"
+    ],
+    "line_start": 1,
+    "line_end": 20,
+    "before_utc_min": "2026-10-15T17:51:45.186Z",
+    "after_utc_max": "2026-10-15T17:52:35.058Z",
+    "reason": "REPL helper captured stale primitive bindings; UI token identifies actual trial. Original JSONL retained."
+  },
+  {
+    "target_trial_id": "D10",
+    "source_trial_id": [
+      "D10",
+      "setup"
+    ],
+    "line_start": 21,
+    "line_end": 35,
+    "before_utc_min": "2026-10-15T17:52:46.403Z",
+    "after_utc_max": "2026-10-15T17:53:12.533Z",
+    "reason": "REPL helper captured stale primitive bindings; UI token identifies actual trial. Original JSONL retained."
+  },
+  {
+    "target_trial_id": "D11",
+    "source_trial_id": [
+      "D10",
+      "D11",
+      "setup"
+    ],
+    "line_start": 36,
+    "line_end": 50,
+    "before_utc_min": "2026-10-15T17:53:12.744Z",
+    "after_utc_max": "2026-10-15T17:53:35.340Z",
+    "reason": "REPL helper captured stale primitive bindings; UI token identifies actual trial. Original JSONL retained."
+  },
+  {
+    "target_trial_id": "D12",
+    "source_trial_id": [
+      "D10",
+      "D12",
+      "setup"
+    ],
+    "line_start": 51,
+    "line_end": 69,
+    "before_utc_min": "2026-10-15T17:53:35.893Z",
+    "after_utc_max": "2026-10-15T17:54:05.165Z",
+    "reason": "REPL helper captured stale primitive bindings; UI token identifies actual trial. Original JSONL retained."
+  },
+  {
+    "target_trial_id": "D13",
+    "source_trial_id": [
+      "D10",
+      "D13",
+      "setup"
+    ],
+    "line_start": 70,
+    "line_end": 88,
+    "before_utc_min": "2026-10-15T17:54:05.318Z",
+    "after_utc_max": "2026-10-15T17:54:32.272Z",
+    "reason": "REPL helper captured stale primitive bindings; UI token identifies actual trial. Original JSONL retained."
+  },
+  {
+    "target_trial_id": "D14",
+    "source_trial_id": [
+      "D10",
+      "D14",
+      "setup"
+    ],
+    "line_start": 89,
+    "line_end": 103,
+    "before_utc_min": "2026-10-15T17:54:32.444Z",
+    "after_utc_max": "2026-10-15T17:54:58.145Z",
+    "reason": "REPL helper captured stale primitive bindings; UI token identifies actual trial. Original JSONL retained."
+  },
+  {
+    "target_trial_id": "D15",
+    "source_trial_id": [
+      "D14",
+      "setup"
+    ],
+    "line_start": 104,
+    "line_end": 110,
+    "before_utc_min": "2026-10-15T17:54:58.303Z",
+    "after_utc_max": "2026-10-15T17:55:14.872Z",
+    "reason": "REPL helper captured stale primitive bindings; UI token identifies actual trial. Original JSONL retained."
+  }
+]

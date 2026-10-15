@@ -1,0 +1,294 @@
+{
+  "review_date": "2026-10-15",
+  "reviewer": "Separate Codex agent. No human review.",
+  "status": "PASS_WITH_DISCLOSED_IMAGE_GAPS",
+  "retained_trial_images_inspected": 27,
+  "missing_original_trial_images": [
+    "D11",
+    "D12",
+    "D13"
+  ],
+  "originals": [
+    {
+      "trial_id": "D01",
+      "runner": "A",
+      "private_source_file": "D01.jpg",
+      "sha256": "a49e7c6668391ad344e8e5631f58ad47afb11ab444e3d74383dd7205968710c6",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D02",
+      "runner": "A",
+      "private_source_file": "D02.jpg",
+      "sha256": "b4d7d74c4c8c4ce7270c1138e22fee1ce8fda36c6cd9436012e8ca6e840382fb",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D03",
+      "runner": "A",
+      "private_source_file": "D03.jpg",
+      "sha256": "cc84d93bc5e3026c191eabfa15b9a8c320e4ef0395efcc17bbc4942cb0d3e214",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D04",
+      "runner": "A",
+      "private_source_file": "D04.jpg",
+      "sha256": "e0b65987a2e2436df74064bba2c5981897fa701bdae491078bf11665d93d44cd",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D05",
+      "runner": "A",
+      "private_source_file": "D05.jpg",
+      "sha256": "b8a40d4f05d3c1e1170001af0fa15a106d2391840a1fc9285e4cf6f644257322",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D06",
+      "runner": "A",
+      "private_source_file": "D06.jpg",
+      "sha256": "590d45f5d239e942285a26a540d4cc8a6d8675e202899f8317eb885b8dd7c2d6",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D07",
+      "runner": "A",
+      "private_source_file": "D07.jpg",
+      "sha256": "9ef9d76fa7efa9336b7b7e9a28cd2d4039f96a64d322e8be96a56b8459ea966b",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D08",
+      "runner": "A",
+      "private_source_file": "D08.jpg",
+      "sha256": "3c8de0398c6566ec695cc13a13510aa54d8ffcda8492a128fbda43e818f24d36",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D17",
+      "runner": "A",
+      "private_source_file": "D17.jpg",
+      "sha256": "20feee0328c4b71d7ae9ce7928548081ea7932ddad2d0a33ba924b3ea2cf9326",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D18",
+      "runner": "A",
+      "private_source_file": "D18.jpg",
+      "sha256": "21f172fdca181983ba6a9221ad99ac3d8a6d5f3c3d26532aa68d38ac28d4a465",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D19",
+      "runner": "A",
+      "private_source_file": "D19.jpg",
+      "sha256": "b5bc23b46e631ccdbf97ff267c125af1717286e27cfd9300d9d844ae49fa394a",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D20",
+      "runner": "A",
+      "private_source_file": "D20.jpg",
+      "sha256": "2fd2810c9fb119ea6dbd3020320c7e6c69e78518b259cb7efb74559efd4fd0e0",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D21",
+      "runner": "A",
+      "private_source_file": "D21.jpg",
+      "sha256": "44b5c0c668c937a45d484b8e56adbaab037a92683ec84fbbfc6639c8e95bb873",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D22",
+      "runner": "A",
+      "private_source_file": "D22.jpg",
+      "sha256": "474201f0ddc8ccda2b5046c3e9d3af7c8cee84a9b36b125cc987d74b91f9d1f9",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D23",
+      "runner": "A",
+      "private_source_file": "D23.jpg",
+      "sha256": "bbc17498d51e8ae141662036ead9c3370030827bb50894a69334aadba52ddd7b",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D24",
+      "runner": "A",
+      "private_source_file": "D24.jpg",
+      "sha256": "a8a07bcd56ea71bd3eb9a8e5a8686194cbb8325dd9dce053145560e761f2030f",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D09",
+      "runner": "B",
+      "private_source_file": "D09-full.jpg",
+      "sha256": "64c74e28c763543628e7dc4376375c425ed6a2670bd7c726b1923cba2ba7fcd1",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D10",
+      "runner": "B",
+      "private_source_file": "D10-full.jpg",
+      "sha256": "0d1d3d78f16d1b31060ac1d040c8cc9fdc57db1a085ad5fd7710c1e98e577437",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D14",
+      "runner": "B",
+      "private_source_file": "D11-full.jpg",
+      "sha256": "67b2e5d2125f75bbe8e61a61c116a003d310722c527b97fe121337c67d40bdd7",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Filename was overwritten by D14. It does not show D11."
+    },
+    {
+      "trial_id": "D15",
+      "runner": "B",
+      "private_source_file": "D15-full.jpg",
+      "sha256": "2fc0456c1939893534902f90b10117f34ebb589aaebbd6ae700fb37bba7a9a2e",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D16",
+      "runner": "B",
+      "private_source_file": "D16-full.jpg",
+      "sha256": "904b0ef11353da9703402c1c35e5f1f36eb51162e18dac187d7c5e00369472cd",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D25",
+      "runner": "B",
+      "private_source_file": "D25-full.jpg",
+      "sha256": "168a2be3cceaca6ac9a565ce29b69a07f5ace8dab8e5e46f51bc62198b5a4f70",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D26",
+      "runner": "B",
+      "private_source_file": "D26-full.jpg",
+      "sha256": "9fac76b49b1430f2a4f1af1972df768c52370cf9c8e87116aa543f04eba410a9",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D27",
+      "runner": "B",
+      "private_source_file": "D27-full.jpg",
+      "sha256": "80532c6180833deebcdbe00999398af7792e7dbe5d4020fdf0249e0e3dc7aeff",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D28",
+      "runner": "B",
+      "private_source_file": "D28-full.jpg",
+      "sha256": "94e7a7531b59e7b00b6c647b9a64114d1c3deb8a9b79ba26156bf5385dc2c379",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D29",
+      "runner": "B",
+      "private_source_file": "D29-full.jpg",
+      "sha256": "eaaccb41f15d5178c7e1f9c9d272053caf7d522c4985ad155433c8100e2b38c7",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    },
+    {
+      "trial_id": "D30",
+      "runner": "B",
+      "private_source_file": "D30-full.jpg",
+      "sha256": "d33897dd95640f5b9e3fe97cba55aeb77a7f3c06861f594cc1349b33b6e40b00",
+      "matching_folder_rows_visible": 1,
+      "result": "agrees with its post-reload text audit",
+      "note": "Original retained image."
+    }
+  ],
+  "public_images": [
+    {
+      "file": "account_block_1_audit.jpg",
+      "sha256": "fbbcd0fb2b4d8a1b63f327e0d9f2fa9dee27b6d691534eab34b3bfcc6d408b0a",
+      "observed": "8 distinct planned test rows",
+      "privacy": "No account name, email, private folder ID, or storage usage is visible. Test row owner avatar letter and me label remain.",
+      "role": "Later audit only. Not earlier decision evidence."
+    },
+    {
+      "file": "account_block_2_audit.jpg",
+      "sha256": "f1810b3aeab8870db88cdba3df3a783b950238ab285da65a2331cd1a4a535104",
+      "observed": "8 distinct planned test rows",
+      "privacy": "No account name, email, private folder ID, or storage usage is visible. Test row owner avatar letter and me label remain.",
+      "role": "Later audit only. Not earlier decision evidence."
+    },
+    {
+      "file": "account_block_3_audit.jpg",
+      "sha256": "4b29ad44ce452ff34eacb620214a98a605905bd57c9738e2c3daba158da48974",
+      "observed": "8 distinct planned test rows",
+      "privacy": "No account name, email, private folder ID, or storage usage is visible. Test row owner avatar letter and me label remain.",
+      "role": "Later audit only. Not earlier decision evidence."
+    },
+    {
+      "file": "account_block_4_audit.jpg",
+      "sha256": "6d1d647935867cf7c893fb2dce5f19c9abe91dc6ab78babcf01c6a203067ed66",
+      "observed": "6 distinct planned test rows",
+      "privacy": "No account name, email, private folder ID, or storage usage is visible. Test row owner avatar letter and me label remain.",
+      "role": "Later audit only. Not earlier decision evidence."
+    },
+    {
+      "file": "account_cleanup.jpg",
+      "sha256": "98ab25120d9e10a48c8882008b908275d79cb58e5c69ca134fab894361fd2763",
+      "observed": "Trash path followed by the exact temporary test parent name",
+      "privacy": "No account name, email, private folder ID, or storage usage is visible. Test row owner avatar letter and me label remain.",
+      "role": "Recoverable cleanup evidence; not proof of permanent deletion."
+    }
+  ],
+  "method": "The reviewer opened every retained original trial image and all five public audit images with the image-view tool. No image was generated, repaired, or changed during review."
+}

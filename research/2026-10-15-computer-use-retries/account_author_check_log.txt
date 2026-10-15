@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "focused_row_not_counted_twice",
+      "passed": true
+    },
+    {
+      "check": "other_token_not_counted",
+      "passed": true
+    },
+    {
+      "check": "exact_receipt_matches",
+      "passed": true
+    },
+    {
+      "check": "other_token_receipt_does_not_match",
+      "passed": true
+    },
+    {
+      "check": "modal_only_is_unknown",
+      "passed": true
+    },
+    {
+      "check": "toast_only_is_unknown",
+      "passed": true
+    },
+    {
+      "check": "two_distinct_rows_are_two",
+      "passed": true
+    },
+    {
+      "check": "prefix_collision_not_counted",
+      "passed": true
+    },
+    {
+      "check": "nonfolder_row_not_counted",
+      "passed": true
+    },
+    {
+      "check": "rows_outside_item_list_not_counted",
+      "passed": true
+    },
+    {
+      "check": "incomplete_ui_not_empty",
+      "passed": true
+    },
+    {
+      "check": "ready_empty_view_is_zero",
+      "passed": true
+    },
+    {
+      "check": "missing_filter_not_all",
+      "passed": true
+    },
+    {
+      "check": "documents_filter_read",
+      "passed": true
+    },
+    {
+      "check": "explicit_all_filter_read",
+      "passed": true
+    },
+    {
+      "check": "generic_working_not_receipt",
+      "passed": true
+    },
+    {
+      "check": "analysis_one_completed",
+      "passed": true
+    },
+    {
+      "check": "analysis_two_completed",
+      "passed": true
+    },
+    {
+      "check": "two_replays_byte_identical",
+      "passed": true
+    },
+    {
+      "check": "published_outputs_match_replay",
+      "passed": true
+    },
+    {
+      "check": "input_files_unchanged",
+      "passed": true
+    }
+  ],
+  "count": 21,
+  "replay_output_sha256": {
+    "one": {
+      "account_results.csv": "daf9604b2cc50e0f54cba6669b5d327a169bb830d207a20e12e5b191a236c973",
+      "account_summary.json": "d04b22348b50c741cb73b37d0b8ea138ecf88445727d45dae6740ae6620eb9be",
+      "account_pairs.csv": "6d42c0319e478fb659549ebdc0a37f5a6c50214134e176491737a08c56f8d277"
+    },
+    "two": {
+      "account_results.csv": "daf9604b2cc50e0f54cba6669b5d327a169bb830d207a20e12e5b191a236c973",
+      "account_summary.json": "d04b22348b50c741cb73b37d0b8ea138ecf88445727d45dae6740ae6620eb9be",
+      "account_pairs.csv": "6d42c0319e478fb659549ebdc0a37f5a6c50214134e176491737a08c56f8d277"
+    }
+  },
+  "review_status": "Checks by the analyzer author; separate review required."
+}

@@ -1,0 +1,12 @@
+{
+  "reviewer": "Separate Codex agent; no human review",
+  "status": "PASS_WITH_DISCLOSED_LIMITS",
+  "report_sha256": "12ec0ebb939219b01338084b92aefc40099200d2d256ae4015e84ea950ae42ba",
+  "review_sha256": "6fc9f4a4299bddd73f2cd8cf13f4b1d30b7b1541de6428c2a34a939666613ba9",
+  "validator_sha256": "4e6c4a25a2d8dd4f00f518ea11350f582198e55316c4f74b8bb5584c1e4a6380",
+  "validation_sha256": "bbabfa715d53fff847e4cb802752fc740f6e90a6b397e96738dbd0f0102d00c4",
+  "python_version": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "command": "python3 account_validate.py --fresh-copy",
+  "fresh_validator_replay_byte_identical": true,
+  "layout_and_remote_publication_scope": "Not checked by this account evidence review; separate lead release checks required."
+}

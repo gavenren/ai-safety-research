@@ -1,0 +1,46 @@
+{
+  "study_date": "2026-10-15",
+  "timezone": "America/Toronto",
+  "offline_analysis": {
+    "implementation": "CPython",
+    "python_version": "3.14.7",
+    "python_full_version": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+    "dependencies": "Python standard library only",
+    "command": "python3 account_analyze.py",
+    "checks_command": "python3 account_analyzer_checks.py"
+  },
+  "host": {
+    "operating_system": "Darwin",
+    "macos_version": "26.7.2",
+    "machine_architecture": "arm64",
+    "evidence": "Python runtime and local operating-system metadata read after the experiment."
+  },
+  "browser": {
+    "name": "Google Chrome",
+    "installed_version": "155.0.8059.40",
+    "installed_bundle_version": "8059.40",
+    "evidence": "Local Chrome application metadata read after the experiment. This is not a remote service version.",
+    "automation_interface": "Codex computer-use browser interface",
+    "automation_interface_build": "Not exposed in the saved trial evidence."
+  },
+  "service": {
+    "name": "Google Drive",
+    "public_service_url": "https://drive.google.com/",
+    "web_application_build": "Not exposed in the visible UI evidence.",
+    "connector_build": "Not exposed in the connector evidence.",
+    "audit_utc": "2026-10-15T18:02:19.961Z"
+  },
+  "agent": {
+    "interface": "Codex",
+    "immutable_model_build": "Not available. No exact model-version claim is made.",
+    "contexts": 2,
+    "shared_resources": "The two runner contexts shared an authenticated account, host, browser service, and network connection.",
+    "training": "No model training was done for this study.",
+    "provider_compute_and_token_counts": "Not available in the saved evidence."
+  },
+  "randomness": {
+    "assignment": "Fixed order saved before scored actions.",
+    "random_seed": "Not applicable; no random assignment or simulation was used."
+  },
+  "privacy": "No local absolute paths, account names, account addresses, or private record IDs are included in this environment file."
+}

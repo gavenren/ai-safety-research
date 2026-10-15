@@ -1,0 +1,20 @@
+{
+  "status": "moved_to_trash",
+  "test_parent": "RETRY-STUDY-20261015-ACCOUNT-TEST",
+  "action_requested_utc": "2026-10-15T18:03:32.476Z",
+  "action_observed_utc": "2026-10-15T18:03:38.971Z",
+  "verified_utc": "2026-10-15T18:03:49.678Z",
+  "visible_action_receipt": "Folder moved to trash",
+  "verified_path": [
+    "Trash",
+    "RETRY-STUDY-20261015-ACCOUNT-TEST"
+  ],
+  "permanent_delete": false,
+  "trash_emptied": false,
+  "evidence": [
+    "account_cleanup_state.json",
+    "account_cleanup.jpg"
+  ],
+  "source_action_sha256": "712706492f2835d508658cb9cc388ec0205aa4dc5073b4456584c80c707fc334",
+  "limit": "Only the test parent was moved. The private post-action page contained unrelated My Drive rows, which are not published. Recovery is subject to Drive retention rules."
+}

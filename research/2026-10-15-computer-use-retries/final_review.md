@@ -1,27 +1,21 @@
-# Review and release summary for the live website extension
+# Review and release summary for the account extension
 
-Date: 2026-10-15. Prepared by the lead Codex agent. The fresh independent review is [live_review.md](live_review.md). This summary is not another independent review. No human or external peer review occurred.
+Date: 2026-10-15. This summary is prepared by the lead Codex agent. The independent review is [account_review.md](account_review.md). This summary is not an additional independent review. No human or external peer review occurred.
 
-## Evidence and results
+## Result and scope
 
-All 60 assigned trials have a decision and two audits. The test used two live public TodoMVC apps, five supplied procedures, two views, and three repeats per cell. The saved plan was amended after feasibility checks and before scored actions. Both versions and all failures remain.
+The extension adds 30 authenticated Drive trials to the same paper. The earlier 60 public-site trials and all earlier raw evidence remain unchanged. Every account trial has one folder at the first decision and at both browser audits. A later connector read returns one distinct record per trial. No retry ran. The experiment therefore does not establish comparative retry safety. The paper records the difference between assigned and visible view state.
 
-The trial evidence gives 29 clean confirmations and 31 unresolved decisions. Final outcomes include 40 single tasks, 10 duplicates, and 10 missing tasks. All ten duplicates have unresolved decisions. Counts agree before and after reload in all 60 trials. Reload survival is browser retention, not proof of server storage.
+D02 and D06 have unknown pre-write absence baselines. Three original trial images are missing. Explicit correction ranges resolve stale logger labels with action times and unique UI tokens. Two browser read errors occurred after decisions. No failed check or trial was replaced. These limits remain in the report and saved evidence.
 
-In Completed view, Absence and Wait24 each produce five duplicates in six trials. Scope produces none and confirms four tasks in six trials. Nine of 30 All controls fail their direct-success requirement. Ten trials have no task before or after reload. The cause of the failed input actions is unknown. The paper keeps these negative results and makes no general performance claim.
+## Independent checks
 
-## Separate checks and reproduction
+The author analyzer passes 1,738 checks with 23 warning records. The separate validator passes 1,831 checks and repeats the analysis in fresh temporary folders with identical result bytes. See [account_validation.json](account_validation.json). The independent agent also compares the private originals with public redacted copies and the original connector records with their aliases. That local check does not give public access to private fields. See [account_private_evidence_review.json](account_private_evidence_review.json).
 
-[live_validate.py](live_validate.py) uses a separate parser. It passes 7,199 checks of all 302 scored UI observations, 428 action records, 60 trial rows, 20 cells, and 120 pairs. It also checks plan and evidence hashes, timings, active state, and unchanged earlier study evidence. A fresh analysis in a temporary copy matches all three saved result files. See [live_validation.json](live_validation.json).
+The independent image review checks all 27 retained original trial images against their correct trials. It treats the mislabeled D11 image as D14 and does not invent the three missing images. Four later public block images show 8, 8, 8, and 6 records. They are later audit evidence, not replacements for the original trial images. The fifth public image shows the named test folder under Trash. See [account_public_image_review.md](account_public_image_review.md).
 
-Four metadata warnings remain in [live_summary.json](live_summary.json): three one-millisecond start-time differences and one corrected clock-only diagnostic label. They do not change any outcome, deadline, or wait classification. Setup errors remain in the raw logs. Failed controls are study results, not reasons to remove trials.
+All 17 PDF pages are checked visually. The text coverage check and two builds of unchanged source pass. See [account_pdf_image_review.json](account_pdf_image_review.json) and [pdf_check.json](pdf_check.json). Source references and read limits are in [account_source_search.md](account_source_search.md).
 
-A separate image reviewer checked all 60 final screenshots. Counts agree with the saved results. The images show final All-view audits; they cannot prove earlier decision views or timing. See [live_image_review.md](live_image_review.md). All 15 PDF pages pass visual review. The build covers every source text chunk and repeats with identical bytes. Font notices are unchanged. See [pdf_check.json](pdf_check.json) and [live_pdf_image_review.json](live_pdf_image_review.json).
+## Release limits
 
-## Sources, rights, and release limits
-
-[live_source_search.md](live_source_search.md) gives current primary sources, exact searches, and read limits. The report states the relation to earlier work. A limited search does not prove novelty. The study adds evidence about filtered views; it does not claim a new retry protocol.
-
-The package uses original prose, original analysis code, synthetic task names, and attributed public test-app screenshots. It does not redistribute app source code, source papers, or private task data. No new license is assigned. Earlier simulation and local pilot evidence remain unchanged.
-
-[review.md](review.md) records the relevant checklist items. [release_checks.json](release_checks.json) records local link, secret-pattern, privacy, hash, and history checks. These bounded checks do not establish the absence of every defect. A separate receipt must verify remote file hashes before publication is reported complete.
+[review.md](review.md) records the checklist. [release_checks.json](release_checks.json) checks local file hashes, prior evidence, relative links, secret patterns, private identifiers, and the root index change. These bounded checks cannot establish the absence of every defect. Publication is complete only after a separate remote commit and file-hash check.

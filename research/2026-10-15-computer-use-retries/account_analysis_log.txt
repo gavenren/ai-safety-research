@@ -1,0 +1,28 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "trials": 30,
+  "checks": 1738,
+  "issue_counts": {
+    "warning": 23
+  },
+  "total": {
+    "n": 30,
+    "confirmed": 30,
+    "clean": 30,
+    "unresolved": 0,
+    "false_confirmations": 0,
+    "duplicates": 0,
+    "zero": 0,
+    "retries": 0,
+    "late": 0,
+    "one_record": 30,
+    "exact_receipt_first": 30,
+    "decision_seconds": {
+      "n": 30,
+      "minimum": 6.333,
+      "median": 7.8095,
+      "maximum": 15.028,
+      "mean": 8.675833333333333
+    }
+  }
+}

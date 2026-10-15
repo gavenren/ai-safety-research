@@ -1,17 +1,20 @@
-# Review checklist for the live website extension
+# Checklist for the authenticated account extension
 
-The NeurIPS Paper Checklist was used as a review aid. This is not a claim of conference approval, submission compliance, or certification. The original reviews and evidence remain in this folder.
+The NeurIPS Paper Checklist was used as a review aid. This is not conference approval, submission compliance, or certification. The earlier review records remain in this folder.
 
-| Review item | Evidence and limit |
+| Item | Evidence and limit |
 | --- | --- |
-| Claims and contribution | The report separates 13,440 simulation runs, an 18-trial local pilot, and 60 live-site trials. The new contribution is a bounded empirical check of observation scope. No new retry protocol, priority, general speed gain, or field failure rate is claimed. |
-| Method and assumptions | Both plan versions, feasibility checks, assigned rules, views, order, stopping criteria, logs, and failures are saved. The amended plan preceded scored actions. Local hashes are not external preregistration. |
-| Reproduction | live_analyze.py uses frozen UI evidence. The separate live_validate.py passes 7,199 checks. A fresh analysis gives identical output. Exact future browser trajectories can differ. |
-| Uncertainty and selection | All 60 trials remain. The report states 10 duplicate outcomes, 10 zero-task outcomes, and nine failed All controls. Fixed repeated tests on two related apps do not support population error intervals. |
-| Access and leakage | Runners were instructed to use visible UI. This was not secure isolation. Logs do not prove every model-turn boundary or absence of hidden access. |
-| Time and versions | Wall time includes model and tool delays. The 24-second rule is a heuristic. Four metadata warnings remain and do not change classifications. Browser and Python versions are recorded. Exact model build is unavailable. |
-| Resources | The test used existing Codex and browser services. No separate paid API or new paid compute service was started. Provider compute and token counts were not available. |
-| Ethics and rights | Unique test tasks were created on public demo apps. No production account transaction was used. No source app code or paper was copied into the package. Public UI evidence is attributed. No new license is assigned. Font notices remain. |
-| Provenance and review | Codex generated the work and ran the browser trials. Separate AI agents checked the analysis, images, and PDF. No human or external peer review occurred. |
-| Presentation | All 60 final images agree with the result counts. All 15 PDF pages pass visual review. Text coverage and a deterministic PDF rebuild pass. |
-| Publication | Local checks do not prove publication. Verify remote main-branch file hashes after upload. |
+| Claims | The report keeps the simulation, 18 local trials, 60 public trials, and 30 account trials separate. No new retry protocol, general speed gain, or field failure rate is claimed. |
+| Question and plan | The plan and assignments were saved before scored actions. They followed feasibility checks. Hashes are local records, not external preregistration. |
+| Negative result | All account decisions saw one folder. No retry condition occurred. The result does not compare safety under a stable hidden view. H-A1/H-A2 fail their directional criteria; H-A3 passes 12 controls. |
+| Missing evidence | D02/D06 lack usable pre-write absence baselines. D11-D13 original images are missing. All trials remain. Label corrections and two later audit read errors are explicit. |
+| Reproduction | Public logs, correction rules, assignments, connector counts, code, versions, output tables, and commands are included. Both author checks and a separate validator repeat the analysis. |
+| Sampling and uncertainty | One account, one service, one folder task, two shared contexts, and fixed order do not justify population intervals or p-values. No general zero-error claim is made. |
+| Scope and leakage | Runners used the supplied visible-UI procedures. The instruction boundary is not secure isolation. Full model-turn internals are not independently captured. |
+| Timing | Time includes model and tool delay. The 24-second heuristic was never reached. No retry speed claim is made. |
+| Access and privacy | Only new private test folders were created. Public copies remove private IDs, account details, usage totals, and unrelated navigation data. Private/public comparison is recorded. |
+| Cleanup | Only the test parent was moved to Trash after all audits. The named folder's Trash path is saved. Trash was not emptied. |
+| Rights | New test names and original prose/code; attributed Google UI evidence; no source application code or source paper is redistributed. No new license is assigned. Font notices remain. |
+| Review and resources | Codex generated and checked the work. Separate agents checked evidence and images. No human or external peer review occurred. No separate paid API or new paid compute was used. |
+| Presentation | Text coverage, every-page visual review, repeat PDF build, and five public audit images are checked separately. See the PDF and image reviews. |
+| Publication | A local check does not prove upload. Verify the main-branch commit and every file after publication. |

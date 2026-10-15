@@ -1,0 +1,71 @@
+{
+  "review_utc": "2026-10-15T18:08:53.833412+00:00",
+  "reviewer": "Separate Codex visual review agent",
+  "human_review": false,
+  "scope": "Visual layout and rendered image content only; not a new source or data validation.",
+  "pdf": "paper.pdf",
+  "pdf_sha256": "6758098f7c82d4d9914bee364a291bd90c33a73c45fbf46ba2d674970ecd7767",
+  "page_count": 17,
+  "render_dpi": 110,
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "page_image_sha256": {
+    "page-01.png": "56c9ab259e36b5078ed24e18fea07b53d430f858319111e7fccda6e774fb349a",
+    "page-02.png": "a5bcf4dbccac778a57187c92978846303925536a93e404fd1ae65b52af81e1af",
+    "page-03.png": "e74044c0def404633eced26df8f240a0d693aef5c54388a19b181e1cdaacbf80",
+    "page-04.png": "c42ef1dd72157b6886a8dc036467a6ede9f7e559f72a3b420f094745bf6a814a",
+    "page-05.png": "534cf3a47e04d142945d1e314e502a5b3555dde6b20d35b8991a322e970162b8",
+    "page-06.png": "adbe25a90f3f1bc2b9d9427106d4239443a92c12b5a8bd9170a0d663e7402cae",
+    "page-07.png": "c5d1b24a8e7a3c21d0619f05e95d2c77cff25669e048caa3654dd707957a2cfe",
+    "page-08.png": "dbbbee54d01df76c781d2159dc6e68acd42fcdda35c1cbe916cba8b1b7e7f6eb",
+    "page-09.png": "4bb0b5977a79d6b448080cc9a6cf25a2eec32d88b732db188d9f52dd8d8544cc",
+    "page-10.png": "36452f9dbb07530e43e41a66fc9b8ae1bf68bc4cbe10674491344523c69cc1b2",
+    "page-11.png": "1022f6124b1371e91b50510c1d01d3ea8f419b68e033ab1a5115051698b7a450",
+    "page-12.png": "a2d0c841f5b8f7b8aae3a2611a7bc25d3f958bff2191e4fac9a18e8ba6fc6395",
+    "page-13.png": "cb094fb37e3921995a467464500860cb4c3a1aa0c5b459c6fac63994ca5b06f5",
+    "page-14.png": "1cac59a8ef07df7dd73351d0f82ebee5c7fcd6643bf77deb39e4c06081dec65f",
+    "page-15.png": "973924609831b27eddc00338a66eba1fd5253f407b0cd51ccf4e25995807592e",
+    "page-16.png": "490c89bfc859fa5f1cdf0d4bfeb62f836885baec4840f8b7ee929f3085502f2f",
+    "page-17.png": "76b231cfbefa9da6cd02752d79d1aa6071b03d324b18f0ebfa79a38abc401238"
+  },
+  "status": "pass",
+  "checks": {
+    "all_pages_visually_inspected": true,
+    "text_clipping_found": false,
+    "table_clipping_found": false,
+    "text_overlap_found": false,
+    "isolated_heading_found": false,
+    "reference_entries_1_through_14_visible": true,
+    "new_account_results_table_complete": true,
+    "updated_plan_and_audit_method_visible": true
+  },
+  "material_issues": [],
+  "minor_layout_notes": [
+    "Page 5 has blank space before the full-page figure on page 6.",
+    "Section 5.4 starts on page 6 with one introductory line; its table follows on page 7. The heading is not alone.",
+    "Several paragraphs continue on the next page. No text is cut off."
+  ],
+  "limits": [
+    "This check uses 110 dpi page images and does not test print output or accessibility tags.",
+    "The reference check confirms visible entries, not source truth or working external links.",
+    "The public audit clips are later block checks. They cannot replace missing original trial images.",
+    "The review does not claim human or external peer review."
+  ]
+}
