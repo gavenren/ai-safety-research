@@ -1,0 +1,1621 @@
+{
+  "method": "Independent parse of public saved states and native IDs. No main analyzer import or result input. Unknown identity agreement or task fields remain null.",
+  "inputs": {
+    "production_calendar_actions.jsonl": "e6aae0b19a55fb093078aa4b8528e931a94ae00f6361791ecdc098566b419cba",
+    "production_notion_actions.jsonl": "8d9900e7dc71c93c3cb3c509050199185345dc0282ecd0925b12cf895921f7b1",
+    "production_assignments.csv": "e35acb8791c431322dba35e607ba25a6c579d1d98a8b1c6cf47eefa8f3c38f1e",
+    "production_plan.md": "8c01c8fe4daf731126c8a31625cf9d5b406b9b600262ac9f038d8a52fa18c68a",
+    "production_plan_manifest.json": "97d183b8f94013b43a8edbb95271c20f898cbe15af3d08862bfac6b56433f5fb",
+    "production_runner_instructions.md": "6b031471304fd4d291aa187752d8a176ae101d6664a0f3858ef05d0cc618467f"
+  },
+  "assignments": 24,
+  "complete": 24,
+  "trials": [
+    {
+      "trial_id": "C01",
+      "site": "Google Calendar",
+      "rule": "Scope",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "CAL-00050",
+      "retry_request": null,
+      "first": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00055"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00055"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 20.565,
+      "on_time": true,
+      "branch": "one",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00060"
+      },
+      "audit_ids": [
+        "record-8555b5edb6799d70f9f6"
+      ],
+      "identity_evidence": [
+        "CAL-00061"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": null,
+      "clean_confirmation": null,
+      "false_confirmation": null,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-00073",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C02",
+      "site": "Google Calendar",
+      "rule": "Wait24",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "CAL-00129",
+      "retry_request": null,
+      "first": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00134"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00134"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 22.393,
+      "on_time": true,
+      "branch": "one",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00140"
+      },
+      "audit_ids": [
+        "record-f464eb919c57cdca5b85"
+      ],
+      "identity_evidence": [
+        "CAL-00141"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": null,
+      "clean_confirmation": null,
+      "false_confirmation": null,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-00153",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C03",
+      "site": "Google Calendar",
+      "rule": "Absence",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "CAL-00206",
+      "retry_request": null,
+      "first": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00210"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00210"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 8.399,
+      "on_time": true,
+      "branch": "one",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00215"
+      },
+      "audit_ids": [
+        "record-67bab98713ff999aaabf"
+      ],
+      "identity_evidence": [
+        "CAL-00216"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": null,
+      "clean_confirmation": null,
+      "false_confirmation": null,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-00227",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C04",
+      "site": "Google Calendar",
+      "rule": "Absence",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 2,
+      "status": "complete",
+      "initial_request": "CAL-00280",
+      "retry_request": "CAL-00307",
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "CAL-00284"
+      },
+      "final": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "CAL-00312"
+      },
+      "decision": "unresolved",
+      "decision_seconds": 36.575,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 2,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00328"
+      },
+      "audit_ids": [
+        "record-33143a79c871bbad3c0d",
+        "record-3a102e7e4dd0976dc44c"
+      ],
+      "identity_evidence": [
+        "CAL-00330"
+      ],
+      "identity_agrees": true,
+      "audit_count": 2,
+      "duplicate": true,
+      "count_confirmation": false,
+      "task_fields_correct": null,
+      "clean_confirmation": false,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-00353",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C05",
+      "site": "Google Calendar",
+      "rule": "Scope",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "CAL-00406",
+      "retry_request": null,
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "CAL-00410"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00426"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 14.372,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00432"
+      },
+      "audit_ids": [
+        "record-a2220f24d7ab162adc28"
+      ],
+      "identity_evidence": [
+        "CAL-00433"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": null,
+      "clean_confirmation": null,
+      "false_confirmation": null,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-00445",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C06",
+      "site": "Google Calendar",
+      "rule": "Wait24",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 2,
+      "status": "complete",
+      "initial_request": "CAL-00498",
+      "retry_request": "CAL-00530",
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "CAL-00502"
+      },
+      "final": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "CAL-00534"
+      },
+      "decision": "unresolved",
+      "decision_seconds": 63.554,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": 34.352,
+      "audit_ui": {
+        "count": 2,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00551"
+      },
+      "audit_ids": [
+        "record-045d83cb3b66843e42ba",
+        "record-b401fd120bcf927ac8ed"
+      ],
+      "identity_evidence": [
+        "CAL-00552"
+      ],
+      "identity_agrees": true,
+      "audit_count": 2,
+      "duplicate": true,
+      "count_confirmation": false,
+      "task_fields_correct": null,
+      "clean_confirmation": false,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-00573",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C07",
+      "site": "Google Calendar",
+      "rule": "Absence",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "CAL-00625",
+      "retry_request": null,
+      "first": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00629"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00629"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 6.865,
+      "on_time": true,
+      "branch": "one",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00635"
+      },
+      "audit_ids": [
+        "record-1435487e036e98f9454a"
+      ],
+      "identity_evidence": [
+        "CAL-00636"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": null,
+      "clean_confirmation": null,
+      "false_confirmation": null,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": false,
+      "cleanup_later_cross_trial_evidence": "CAL-00665",
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-00644",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C08",
+      "site": "Google Calendar",
+      "rule": "Absence",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 2,
+      "status": "complete",
+      "initial_request": "CAL-00699",
+      "retry_request": "CAL-00727",
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "CAL-00703"
+      },
+      "final": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "CAL-00732"
+      },
+      "decision": "unresolved",
+      "decision_seconds": 48.014,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 2,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00749"
+      },
+      "audit_ids": [
+        "record-24bc8bab8ffe6c167b60",
+        "record-d71d06beedb12db1eb08"
+      ],
+      "identity_evidence": [
+        "CAL-00750"
+      ],
+      "identity_agrees": true,
+      "audit_count": 2,
+      "duplicate": true,
+      "count_confirmation": false,
+      "task_fields_correct": null,
+      "clean_confirmation": false,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-00771",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C09",
+      "site": "Google Calendar",
+      "rule": "Wait24",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "CAL-00824",
+      "retry_request": null,
+      "first": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00828"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00828"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 8.212,
+      "on_time": true,
+      "branch": "one",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00834"
+      },
+      "audit_ids": [
+        "record-ec6df87f9d454ab00ce9"
+      ],
+      "identity_evidence": [
+        "CAL-00835"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": null,
+      "clean_confirmation": null,
+      "false_confirmation": null,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-00847",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C10",
+      "site": "Google Calendar",
+      "rule": "Scope",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "CAL-00900",
+      "retry_request": null,
+      "first": null,
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00919"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 14.674,
+      "on_time": true,
+      "branch": null,
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00925"
+      },
+      "audit_ids": [
+        "record-9c5662cb5f0c1d70d4c2"
+      ],
+      "identity_evidence": [
+        "CAL-00926"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": null,
+      "clean_confirmation": null,
+      "false_confirmation": null,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": false,
+      "cleanup_later_cross_trial_evidence": "CAL-00955",
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-00934",
+      "policy_errors": [
+        "missing_ready_decision_input"
+      ],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C11",
+      "site": "Google Calendar",
+      "rule": "Scope",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "CAL-00990",
+      "retry_request": null,
+      "first": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00994"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-00994"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 8.367,
+      "on_time": true,
+      "branch": "one",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-01000"
+      },
+      "audit_ids": [
+        "record-fc9ae376226c90923b7a"
+      ],
+      "identity_evidence": [
+        "CAL-01001"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": null,
+      "clean_confirmation": null,
+      "false_confirmation": null,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-01013",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "C12",
+      "site": "Google Calendar",
+      "rule": "Wait24",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 2,
+      "status": "complete",
+      "initial_request": "CAL-01066",
+      "retry_request": "CAL-01099",
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "CAL-01070"
+      },
+      "final": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "CAL-01104"
+      },
+      "decision": "unresolved",
+      "decision_seconds": 64.98,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": 32.932,
+      "audit_ui": {
+        "count": 2,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "CAL-01121"
+      },
+      "audit_ids": [
+        "record-c6363a8d6b90becaf7f4",
+        "record-cbf304e47cd0fad99030"
+      ],
+      "identity_evidence": [
+        "CAL-01122"
+      ],
+      "identity_agrees": true,
+      "audit_count": 2,
+      "duplicate": true,
+      "count_confirmation": false,
+      "task_fields_correct": null,
+      "clean_confirmation": false,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": true,
+      "cleanup_evidence": "CAL-01144",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "N01",
+      "site": "Notion",
+      "rule": "Absence",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "N-00005",
+      "retry_request": null,
+      "first": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00013"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00013"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 12.658,
+      "on_time": true,
+      "branch": "one",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00019"
+      },
+      "audit_ids": [
+        "record-54de10056b3b7486aa49"
+      ],
+      "identity_evidence": [
+        "N-00032",
+        "N-00036"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": true,
+      "clean_confirmation": true,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00056",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "N02",
+      "site": "Notion",
+      "rule": "Wait24",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "N-00061",
+      "retry_request": null,
+      "first": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00069"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00069"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 8.838,
+      "on_time": true,
+      "branch": "one",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00075"
+      },
+      "audit_ids": [
+        "record-bded04862c6e1a686733"
+      ],
+      "identity_evidence": [
+        "N-00081",
+        "N-00084"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": true,
+      "clean_confirmation": true,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00095",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "N03",
+      "site": "Notion",
+      "rule": "Scope",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "N-00100",
+      "retry_request": null,
+      "first": {
+        "count": 0,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00108"
+      },
+      "final": {
+        "count": 0,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00108"
+      },
+      "decision": "unresolved",
+      "decision_seconds": 7.916,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00114"
+      },
+      "audit_ids": [
+        "record-82a704a832576a9d789f"
+      ],
+      "identity_evidence": [
+        "N-00120",
+        "N-00122"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": false,
+      "task_fields_correct": true,
+      "clean_confirmation": false,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00134",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "N04",
+      "site": "Notion",
+      "rule": "Wait24",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 2,
+      "status": "complete",
+      "initial_request": "N-00141",
+      "retry_request": "N-00156",
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "N-00150"
+      },
+      "final": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "N-00164"
+      },
+      "decision": "unresolved",
+      "decision_seconds": 43.944,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": 28.785,
+      "audit_ui": {
+        "count": 2,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00172"
+      },
+      "audit_ids": [
+        "record-31a1d2b05639a2ec20eb",
+        "record-cfb915e992aafc48cf76"
+      ],
+      "identity_evidence": [
+        "N-00178",
+        "N-00180",
+        "N-00186",
+        "N-00188"
+      ],
+      "identity_agrees": true,
+      "audit_count": 2,
+      "duplicate": true,
+      "count_confirmation": false,
+      "task_fields_correct": true,
+      "clean_confirmation": false,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00205",
+      "policy_errors": [],
+      "writer_view_departures": [
+        "N-00141: Hidden selected in first state after create",
+        "N-00156: ready All writer not established immediately before create",
+        "N-00156: Hidden selected in first state after create"
+      ]
+    },
+    {
+      "trial_id": "N05",
+      "site": "Notion",
+      "rule": "Scope",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "N-00212",
+      "retry_request": null,
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "N-00220"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00228"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 23.752,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00234"
+      },
+      "audit_ids": [
+        "record-012768ca83082a1cbf99"
+      ],
+      "identity_evidence": [
+        "N-00240",
+        "N-00242"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": true,
+      "clean_confirmation": true,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00254",
+      "policy_errors": [],
+      "writer_view_departures": [
+        "N-00212: ready All writer not established immediately before create",
+        "N-00212: Hidden selected in first state after create"
+      ]
+    },
+    {
+      "trial_id": "N06",
+      "site": "Notion",
+      "rule": "Absence",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 2,
+      "status": "complete",
+      "initial_request": "N-00264",
+      "retry_request": "N-00278",
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "N-00272"
+      },
+      "final": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "N-00286"
+      },
+      "decision": "unresolved",
+      "decision_seconds": 23.811,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 2,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00294"
+      },
+      "audit_ids": [
+        "record-0c1b52d162752677b94d",
+        "record-ee3c62ebf32bbc578933"
+      ],
+      "identity_evidence": [
+        "N-00300",
+        "N-00302",
+        "N-00308",
+        "N-00310"
+      ],
+      "identity_agrees": true,
+      "audit_count": 2,
+      "duplicate": true,
+      "count_confirmation": false,
+      "task_fields_correct": true,
+      "clean_confirmation": false,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00328",
+      "policy_errors": [],
+      "writer_view_departures": [
+        "N-00264: Hidden selected in first state after create"
+      ]
+    },
+    {
+      "trial_id": "N07",
+      "site": "Notion",
+      "rule": "Wait24",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 2,
+      "status": "complete",
+      "initial_request": "N-00337",
+      "retry_request": "N-00356",
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "N-00345"
+      },
+      "final": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "N-00364"
+      },
+      "decision": "unresolved",
+      "decision_seconds": 46.726,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": 28.275,
+      "audit_ui": {
+        "count": 2,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00372"
+      },
+      "audit_ids": [
+        "record-66599f86ce71e9234b04",
+        "record-ed1399afd157b298e7a2"
+      ],
+      "identity_evidence": [
+        "N-00378",
+        "N-00380",
+        "N-00386",
+        "N-00388"
+      ],
+      "identity_agrees": true,
+      "audit_count": 2,
+      "duplicate": true,
+      "count_confirmation": false,
+      "task_fields_correct": true,
+      "clean_confirmation": false,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00406",
+      "policy_errors": [],
+      "writer_view_departures": [
+        "N-00337: Hidden selected in first state after create"
+      ]
+    },
+    {
+      "trial_id": "N08",
+      "site": "Notion",
+      "rule": "Scope",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "N-00415",
+      "retry_request": null,
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "N-00424"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00431"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 20.823,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00443"
+      },
+      "audit_ids": [
+        "record-068d7cda8d1df1f55006"
+      ],
+      "identity_evidence": [
+        "N-00449",
+        "N-00451"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": true,
+      "clean_confirmation": true,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00464",
+      "policy_errors": [],
+      "writer_view_departures": [
+        "N-00415: Hidden selected in first state after create"
+      ]
+    },
+    {
+      "trial_id": "N09",
+      "site": "Notion",
+      "rule": "Absence",
+      "assigned_view": "Hidden",
+      "started": true,
+      "decision_records": 1,
+      "writes": 2,
+      "status": "complete",
+      "initial_request": "N-00475",
+      "retry_request": "N-00487",
+      "first": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "N-00483"
+      },
+      "final": {
+        "count": 0,
+        "view": "Hidden",
+        "other_rows": 0,
+        "record_id": "N-00495"
+      },
+      "decision": "unresolved",
+      "decision_seconds": 17.831,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 2,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00503"
+      },
+      "audit_ids": [
+        "record-7974344ae5cb5975af99",
+        "record-97a9f52d52ff731096a4"
+      ],
+      "identity_evidence": [
+        "N-00509",
+        "N-00511",
+        "N-00517",
+        "N-00519"
+      ],
+      "identity_agrees": true,
+      "audit_count": 2,
+      "duplicate": true,
+      "count_confirmation": false,
+      "task_fields_correct": true,
+      "clean_confirmation": false,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00536",
+      "policy_errors": [],
+      "writer_view_departures": [
+        "N-00487: Hidden selected in first state after create"
+      ]
+    },
+    {
+      "trial_id": "N10",
+      "site": "Notion",
+      "rule": "Scope",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "N-00545",
+      "retry_request": null,
+      "first": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00559"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00559"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 29.593,
+      "on_time": true,
+      "branch": "one",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00565"
+      },
+      "audit_ids": [
+        "record-ed473465b56b71b8f3fc"
+      ],
+      "identity_evidence": [
+        "N-00571",
+        "N-00573"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": true,
+      "clean_confirmation": true,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00586",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "N11",
+      "site": "Notion",
+      "rule": "Wait24",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 1,
+      "status": "complete",
+      "initial_request": "N-00592",
+      "retry_request": null,
+      "first": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00601"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00601"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 12.188,
+      "on_time": true,
+      "branch": "one",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00608"
+      },
+      "audit_ids": [
+        "record-c36038358564640b4d4c"
+      ],
+      "identity_evidence": [
+        "N-00614",
+        "N-00616"
+      ],
+      "identity_agrees": true,
+      "audit_count": 1,
+      "duplicate": false,
+      "count_confirmation": true,
+      "task_fields_correct": true,
+      "clean_confirmation": true,
+      "false_confirmation": false,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00628",
+      "policy_errors": [],
+      "writer_view_departures": []
+    },
+    {
+      "trial_id": "N12",
+      "site": "Notion",
+      "rule": "Absence",
+      "assigned_view": "All",
+      "started": true,
+      "decision_records": 1,
+      "writes": 2,
+      "status": "complete",
+      "initial_request": "N-00634",
+      "retry_request": "N-00648",
+      "first": {
+        "count": 0,
+        "view": "All",
+        "other_rows": 1,
+        "record_id": "N-00643"
+      },
+      "final": {
+        "count": 1,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00656"
+      },
+      "decision": "confirmed",
+      "decision_seconds": 36.318,
+      "on_time": true,
+      "branch": "zero",
+      "wait24_reload_seconds": null,
+      "audit_ui": {
+        "count": 2,
+        "view": "All",
+        "other_rows": 0,
+        "record_id": "N-00662"
+      },
+      "audit_ids": [
+        "record-2ff6a27d0ce4e3888370",
+        "record-94e9994bb49f53a16560"
+      ],
+      "identity_evidence": [
+        "N-00668",
+        "N-00670",
+        "N-00676"
+      ],
+      "identity_agrees": true,
+      "audit_count": 2,
+      "duplicate": true,
+      "count_confirmation": false,
+      "task_fields_correct": true,
+      "clean_confirmation": false,
+      "false_confirmation": true,
+      "partial_rows": 0,
+      "cleanup": true,
+      "cleanup_in_named_phase": true,
+      "cleanup_later_cross_trial_evidence": null,
+      "cleanup_connector_zero": null,
+      "cleanup_evidence": "N-00695",
+      "policy_errors": [],
+      "writer_view_departures": []
+    }
+  ],
+  "integrity_checks": {
+    "assignment_order_from_seed": true,
+    "record_ids_unique": true,
+    "one_decision_per_complete_trial": true,
+    "started_order_matches_assignment": {
+      "Google Calendar": true,
+      "Notion": true
+    },
+    "all_complete": true,
+    "all_complete_policy_inputs_match": false,
+    "frozen_hashes_match": true,
+    "writes_after_freeze": true
+  },
+  "input_sha256": {
+    "production_calendar_actions.jsonl": "e6aae0b19a55fb093078aa4b8528e931a94ae00f6361791ecdc098566b419cba",
+    "production_notion_actions.jsonl": "8d9900e7dc71c93c3cb3c509050199185345dc0282ecd0925b12cf895921f7b1",
+    "production_assignments.csv": "e35acb8791c431322dba35e607ba25a6c579d1d98a8b1c6cf47eefa8f3c38f1e",
+    "production_plan.md": "8c01c8fe4daf731126c8a31625cf9d5b406b9b600262ac9f038d8a52fa18c68a",
+    "production_plan_manifest.json": "97d183b8f94013b43a8edbb95271c20f898cbe15af3d08862bfac6b56433f5fb",
+    "production_runner_instructions.md": "6b031471304fd4d291aa187752d8a176ae101d6664a0f3858ef05d0cc618467f"
+  },
+  "issues": [],
+  "status": "PASS_WITH_LIMITATIONS",
+  "status_meaning": "The replay inputs and identity evidence pass these checks. Retained procedure failures and unknown field correctness are study results, not passed experimental criteria.",
+  "groups": [
+    {
+      "site": "Google Calendar",
+      "rule": "Absence",
+      "view": "All",
+      "completed": 2,
+      "duplicates": 0,
+      "duplicate_unknown": 0,
+      "count_confirmations": 2,
+      "clean_confirmations": 0,
+      "clean_unknown": 2,
+      "false_confirmations": 0,
+      "false_unknown": 2,
+      "retries": 0,
+      "cleanup": 2
+    },
+    {
+      "site": "Google Calendar",
+      "rule": "Absence",
+      "view": "Hidden",
+      "completed": 2,
+      "duplicates": 2,
+      "duplicate_unknown": 0,
+      "count_confirmations": 0,
+      "clean_confirmations": 0,
+      "clean_unknown": 0,
+      "false_confirmations": 0,
+      "false_unknown": 0,
+      "retries": 2,
+      "cleanup": 2
+    },
+    {
+      "site": "Google Calendar",
+      "rule": "Wait24",
+      "view": "All",
+      "completed": 2,
+      "duplicates": 0,
+      "duplicate_unknown": 0,
+      "count_confirmations": 2,
+      "clean_confirmations": 0,
+      "clean_unknown": 2,
+      "false_confirmations": 0,
+      "false_unknown": 2,
+      "retries": 0,
+      "cleanup": 2
+    },
+    {
+      "site": "Google Calendar",
+      "rule": "Wait24",
+      "view": "Hidden",
+      "completed": 2,
+      "duplicates": 2,
+      "duplicate_unknown": 0,
+      "count_confirmations": 0,
+      "clean_confirmations": 0,
+      "clean_unknown": 0,
+      "false_confirmations": 0,
+      "false_unknown": 0,
+      "retries": 2,
+      "cleanup": 2
+    },
+    {
+      "site": "Google Calendar",
+      "rule": "Scope",
+      "view": "All",
+      "completed": 2,
+      "duplicates": 0,
+      "duplicate_unknown": 0,
+      "count_confirmations": 2,
+      "clean_confirmations": 0,
+      "clean_unknown": 2,
+      "false_confirmations": 0,
+      "false_unknown": 2,
+      "retries": 0,
+      "cleanup": 2
+    },
+    {
+      "site": "Google Calendar",
+      "rule": "Scope",
+      "view": "Hidden",
+      "completed": 2,
+      "duplicates": 0,
+      "duplicate_unknown": 0,
+      "count_confirmations": 2,
+      "clean_confirmations": 0,
+      "clean_unknown": 2,
+      "false_confirmations": 0,
+      "false_unknown": 2,
+      "retries": 0,
+      "cleanup": 2
+    },
+    {
+      "site": "Notion",
+      "rule": "Absence",
+      "view": "All",
+      "completed": 2,
+      "duplicates": 1,
+      "duplicate_unknown": 0,
+      "count_confirmations": 1,
+      "clean_confirmations": 1,
+      "clean_unknown": 0,
+      "false_confirmations": 1,
+      "false_unknown": 0,
+      "retries": 1,
+      "cleanup": 2
+    },
+    {
+      "site": "Notion",
+      "rule": "Absence",
+      "view": "Hidden",
+      "completed": 2,
+      "duplicates": 2,
+      "duplicate_unknown": 0,
+      "count_confirmations": 0,
+      "clean_confirmations": 0,
+      "clean_unknown": 0,
+      "false_confirmations": 0,
+      "false_unknown": 0,
+      "retries": 2,
+      "cleanup": 2
+    },
+    {
+      "site": "Notion",
+      "rule": "Wait24",
+      "view": "All",
+      "completed": 2,
+      "duplicates": 0,
+      "duplicate_unknown": 0,
+      "count_confirmations": 2,
+      "clean_confirmations": 2,
+      "clean_unknown": 0,
+      "false_confirmations": 0,
+      "false_unknown": 0,
+      "retries": 0,
+      "cleanup": 2
+    },
+    {
+      "site": "Notion",
+      "rule": "Wait24",
+      "view": "Hidden",
+      "completed": 2,
+      "duplicates": 2,
+      "duplicate_unknown": 0,
+      "count_confirmations": 0,
+      "clean_confirmations": 0,
+      "clean_unknown": 0,
+      "false_confirmations": 0,
+      "false_unknown": 0,
+      "retries": 2,
+      "cleanup": 2
+    },
+    {
+      "site": "Notion",
+      "rule": "Scope",
+      "view": "All",
+      "completed": 2,
+      "duplicates": 0,
+      "duplicate_unknown": 0,
+      "count_confirmations": 1,
+      "clean_confirmations": 1,
+      "clean_unknown": 0,
+      "false_confirmations": 0,
+      "false_unknown": 0,
+      "retries": 0,
+      "cleanup": 2
+    },
+    {
+      "site": "Notion",
+      "rule": "Scope",
+      "view": "Hidden",
+      "completed": 2,
+      "duplicates": 0,
+      "duplicate_unknown": 0,
+      "count_confirmations": 2,
+      "clean_confirmations": 2,
+      "clean_unknown": 0,
+      "false_confirmations": 0,
+      "false_unknown": 0,
+      "retries": 0,
+      "cleanup": 2
+    }
+  ],
+  "hypotheses": [
+    {
+      "site": "Google Calendar",
+      "H_P1": true,
+      "H_P2": null,
+      "H_P3": null
+    },
+    {
+      "site": "Notion",
+      "H_P1": true,
+      "H_P2": true,
+      "H_P3": false
+    }
+  ]
+}

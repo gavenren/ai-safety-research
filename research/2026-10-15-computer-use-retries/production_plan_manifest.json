@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-10-15T19:36:32.500271+00:00",
+  "scored_trials_started": false,
+  "external_preregistration": false,
+  "sha256": {
+    "production_plan.md": "8c01c8fe4daf731126c8a31625cf9d5b406b9b600262ac9f038d8a52fa18c68a",
+    "production_runner_instructions.md": "6b031471304fd4d291aa187752d8a176ae101d6664a0f3858ef05d0cc618467f",
+    "production_assignments.csv": "e35acb8791c431322dba35e607ba25a6c579d1d98a8b1c6cf47eefa8f3c38f1e"
+  },
+  "preflight_original_sha256": {
+    "calendar_preflight": "33fbbf4f25cd569f6198c503d639627d3b4a1bba4a806d866b4f8554de8dc8b4",
+    "notion_preflight": "24f97394f53867bf01acbfa2017129277a34d7e54e4902c1d59d5db28492dce2"
+  },
+  "status": "FROZEN"
+}

@@ -1,0 +1,71 @@
+{
+  "analysis_return_code": 0,
+  "code_sha256": {
+    "production_analyze.py": "cdce05c5264883f23ec25da0c9745d6ca7eb1a913793c3a76af504fbccd0ceb6",
+    "production_analyzer_tests.py": "ec1be897cd6315e582c7f93293b241d7084dfdc5ac4fa2e7636dab920e186843"
+  },
+  "commands": [
+    "python3 production_analyzer_tests.py",
+    "python3 production_analyze.py --input-dir . --output-dir ."
+  ],
+  "copy_method": "Copy the listed frozen inputs and analysis code into a new temporary directory. Run the copied analysis there. Compare the five output files byte for byte.",
+  "environment": {
+    "dependencies": "Python standard library only",
+    "machine": "arm64",
+    "os": "Darwin",
+    "os_release": "25.6.0",
+    "python_full_version": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+    "python_implementation": "CPython",
+    "python_version": "3.14.7"
+  },
+  "fresh_copy_return_code": 0,
+  "input_sha256": {
+    "production_assignments.csv": "e35acb8791c431322dba35e607ba25a6c579d1d98a8b1c6cf47eefa8f3c38f1e",
+    "production_calendar_actions.jsonl": "e6aae0b19a55fb093078aa4b8528e931a94ae00f6361791ecdc098566b419cba",
+    "production_notion_actions.jsonl": "8d9900e7dc71c93c3cb3c509050199185345dc0282ecd0925b12cf895921f7b1",
+    "production_plan.md": "8c01c8fe4daf731126c8a31625cf9d5b406b9b600262ac9f038d8a52fa18c68a",
+    "production_plan_manifest.json": "97d183b8f94013b43a8edbb95271c20f898cbe15af3d08862bfac6b56433f5fb",
+    "production_runner_instructions.md": "6b031471304fd4d291aa187752d8a176ae101d6664a0f3858ef05d0cc618467f"
+  },
+  "outputs": {
+    "production_analysis_checks.json": {
+      "byte_identical": true,
+      "copy_sha256": "b5891e051c895985b0e4b230c900835cc4ae5b274351e8fcc07fcf0859500dc2",
+      "package_sha256": "b5891e051c895985b0e4b230c900835cc4ae5b274351e8fcc07fcf0859500dc2"
+    },
+    "production_analysis_log.txt": {
+      "byte_identical": true,
+      "copy_sha256": "c222fe84cf7059caa07c5d287a2f38b62804e28a1dbdac026252675044faaad4",
+      "package_sha256": "c222fe84cf7059caa07c5d287a2f38b62804e28a1dbdac026252675044faaad4"
+    },
+    "production_groups.csv": {
+      "byte_identical": true,
+      "copy_sha256": "377747f9201741e8ee513c7eb09fd66c4330ddfd73f84b365655a081fe1e2221",
+      "package_sha256": "377747f9201741e8ee513c7eb09fd66c4330ddfd73f84b365655a081fe1e2221"
+    },
+    "production_summary.json": {
+      "byte_identical": true,
+      "copy_sha256": "83d13f8d182450a85b52cfe23b49c8981b49e6f564cc2e5f2c1433a89f287e29",
+      "package_sha256": "83d13f8d182450a85b52cfe23b49c8981b49e6f564cc2e5f2c1433a89f287e29"
+    },
+    "production_trials.csv": {
+      "byte_identical": true,
+      "copy_sha256": "00e3c21691b50d4a2921845b705c42e1ce7514c3d088d0b4ef9a7cf7af9a958f",
+      "package_sha256": "00e3c21691b50d4a2921845b705c42e1ce7514c3d088d0b4ef9a7cf7af9a958f"
+    }
+  },
+  "source_inputs_unchanged": {
+    "production_assignments.csv": true,
+    "production_calendar_actions.jsonl": true,
+    "production_notion_actions.jsonl": true,
+    "production_plan.md": true,
+    "production_plan_manifest.json": true,
+    "production_runner_instructions.md": true
+  },
+  "status": "PASS",
+  "test_log": "production_analyzer_tests_log.txt",
+  "test_log_sha256": "6d985863abdd48154448aa7ac846670953e0470b613aae35a5f7c6b164e6bf37",
+  "test_return_code": 0,
+  "tests_run": 23,
+  "verified_utc": "2026-10-15T20:14:04.600036+00:00"
+}

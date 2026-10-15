@@ -1,0 +1,829 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "issues": [],
+  "archive_sha256": "606f7d5d3f8c6615f79f1c3072e662da2e995fe95cc91e9654ede5e45d809be7",
+  "input_sha256": {
+    "production_images.zip": "606f7d5d3f8c6615f79f1c3072e662da2e995fe95cc91e9654ede5e45d809be7",
+    "production_image_manifest.json": "88fcfe4baa6d3dc026c6b7c5d267363745ba47e91a068e38cf0d61a61f1b77f8",
+    "production_calendar_actions.jsonl": "e6aae0b19a55fb093078aa4b8528e931a94ae00f6361791ecdc098566b419cba",
+    "production_notion_actions.jsonl": "8d9900e7dc71c93c3cb3c509050199185345dc0282ecd0925b12cf895921f7b1"
+  },
+  "images_reviewed": 84,
+  "distinct_byte_groups_reviewed": 66,
+  "method": "A separate Codex reviewer viewed all distinct byte groups in contact sheets and inspected the defective N01 capture at original resolution. Byte-identical files were grouped. All 84 archive members were matched to original bytes by the private evidence check.",
+  "limitations": [
+    "N01-decision.jpg and N01-audit.jpg are unusable visual count evidence. Their original bytes are preserved.",
+    "Images are captured after decisions. They do not prove the earlier observation or its readiness.",
+    "The task crops do not show the removed sidebar progressbar. Saved text preserves that marker.",
+    "Preflight Notion target titles are visually truncated.",
+    "Image review is an AI review, not human review."
+  ],
+  "byte_groups": {
+    "7510e1912a3616def9f77f0dd60f5b0589c597091f8de4954d68a37dbeb2c260": [
+      "calendar_preflight__all-persisted.jpg"
+    ],
+    "4f973a0a3136798de1a36778afffb6458da341d9a39a2db1acf7d9e78c8ecd62": [
+      "calendar_preflight__cleanup-zero.jpg",
+      "calendar_preflight__hidden-ready.jpg"
+    ],
+    "40b4ceb521df1da35236c7dca505878bfcf814750f72808d33d5d331bdd310c4": [
+      "notion_preflight__audit.jpg"
+    ],
+    "dda70566f93dab430458ee5c8e5b263571a4d5a90e7467a0423a390683ad59e7": [
+      "notion_preflight__cleanup.jpg"
+    ],
+    "d33dc77a12070bd338635c448c454d9e53395b841727180ad5795aaf96d2addd": [
+      "notion_preflight__cleanup_persisted.jpg"
+    ],
+    "68d21ee4ad254a6cbc071304686afd7c9a9a2570a23833ff94414e0e631d9590": [
+      "notion_preflight__filter.jpg"
+    ],
+    "b5c4e8caac85ba16a560937d52a33b566461ecf3079c6a4dcabdc1d28faf99fd": [
+      "notion_preflight__hidden.jpg"
+    ],
+    "0d6554a2623104ab4a75a382fa0cf7645cec5c409fc27b386b861f263dc0a5f4": [
+      "notion_preflight__persisted.jpg"
+    ],
+    "0ea4e4251bd36417004333bcda694d5a7bb7778e9445752a6ac12b8a6de02691": [
+      "calendar_runner__C01-audit.jpg"
+    ],
+    "15b607553428b416e0ff581366664ec587305ff026241230d76deb512078344b": [
+      "calendar_runner__C01-cleanup.jpg"
+    ],
+    "29057cc2bfb7469ff12255d95f8f407534ef747d8150f64c16ee87dc95e1ece8": [
+      "calendar_runner__C01-decision.jpg"
+    ],
+    "fefd94648c982e7b200a439a1b72615ec2db503fb247b93ab1932c19af021bc5": [
+      "calendar_runner__C02-audit.jpg",
+      "calendar_runner__C02-decision.jpg"
+    ],
+    "d41aa86ff3d745c7be0f56b353a0f38b040b1d1a6a870e0de8f8dc7836f99537": [
+      "calendar_runner__C02-cleanup.jpg"
+    ],
+    "46835a6711a81dc94605680e5193766d59bb4abb164268207457e408646fc653": [
+      "calendar_runner__C03-audit.jpg",
+      "calendar_runner__C03-decision.jpg"
+    ],
+    "976fa1cad391bf036b8985d41c7f7ab769a1e5fca1996987278b51420a51a33b": [
+      "calendar_runner__C03-cleanup.jpg"
+    ],
+    "eb12fbce03b5f2448ca0a38987c19ca2e28f21a3ee342f32a8d463e9ceefb426": [
+      "calendar_runner__C04-audit.jpg"
+    ],
+    "c3011c95a3e72ca4b53fc3755e452a06f1a96aa7bfd07fca93d01ee1d55ea222": [
+      "calendar_runner__C04-cleanup.jpg"
+    ],
+    "20b6b832be948350e2ff5c660bc3ba54d6eb54faabda069267b7059cb3a3570c": [
+      "calendar_runner__C04-decision.jpg"
+    ],
+    "c079fdbc6523eecc174ad03140496f96c33930660e1f8c80dc3f3f4f43b51d20": [
+      "calendar_runner__C05-audit.jpg",
+      "calendar_runner__C05-decision.jpg"
+    ],
+    "4dccd717c65994c9c28e1aa659871d3c2e3fcb010f68993f0284db2e73640228": [
+      "calendar_runner__C05-cleanup.jpg"
+    ],
+    "2e22f1892655da7a667d61beed2ac627a7691bc3afe5704f4887a160efee9409": [
+      "calendar_runner__C06-audit.jpg"
+    ],
+    "2492a87ff22922a5548c224976442d966a8dedf0f7352ad123db840e64995987": [
+      "calendar_runner__C06-cleanup.jpg"
+    ],
+    "f9de22c485af2b3526736b7a255e5417fa77fc5e75480a06d2f3719d4a8129b1": [
+      "calendar_runner__C06-decision.jpg"
+    ],
+    "c0137fcf654bd7e20da39c36c402d02108d1a5d8aa4b0df420daaf7a1f331f09": [
+      "calendar_runner__C07-audit.jpg"
+    ],
+    "7269831672c021588b45a56dccc1890eb670d0ffdf3679e2139aa3b77e1a27cb": [
+      "calendar_runner__C07-cleanup.jpg"
+    ],
+    "b93f0540f691256956ba8090d9568089dba2c6befeae945d4de911703b5a7226": [
+      "calendar_runner__C07-decision.jpg"
+    ],
+    "37229761549e62b3ad36eff3d2c4a3a09cc682fb9871800f8406d0110b670568": [
+      "calendar_runner__C08-audit.jpg"
+    ],
+    "39fce79e303ef1fdfe3adfd2b8c55d9d1a4afc04aec44474599efff766e9a0d6": [
+      "calendar_runner__C08-cleanup.jpg"
+    ],
+    "fd1046669897e89ead5019bca7384f0a12ae35d4a672e7ae539fe2af7d9c9067": [
+      "calendar_runner__C08-decision.jpg"
+    ],
+    "bd2cb2b68a36d0018dec01e1e52261d26affaa7a921c0fd2e41f6c25c1d6cf68": [
+      "calendar_runner__C09-audit.jpg"
+    ],
+    "a206c52b4db2718995278d18a56d5536b2dcf9645cd6eb97d2883f22e8303afa": [
+      "calendar_runner__C09-cleanup.jpg"
+    ],
+    "ad2f68d206685f24bbb025a2413ad881dea8db03d6f4a03155058b66425f9989": [
+      "calendar_runner__C09-decision.jpg"
+    ],
+    "a733dd90f461baa20e352bc6ff88d4f68510e5ae60017626d70277f96240548e": [
+      "calendar_runner__C10-audit.jpg"
+    ],
+    "c5ad6beefff9000c57c61fca35bbb9e5cda0a437e22f83a72ed8cdb62f7c4d60": [
+      "calendar_runner__C10-cleanup.jpg"
+    ],
+    "775515b4fe3674e1b897ba33d8aeb0d3603281940e8d5e397f2100ceef6481d8": [
+      "calendar_runner__C10-decision.jpg"
+    ],
+    "57f4b9788066e10f7dfb76fdedb9b16f869e907982efd4a745d3676bad95b5a8": [
+      "calendar_runner__C11-audit.jpg",
+      "calendar_runner__C11-decision.jpg"
+    ],
+    "68e85036ceb3fa2b75a49cf81df73cc64c6b14e257a2c76cdce2211a01eb2098": [
+      "calendar_runner__C11-cleanup.jpg"
+    ],
+    "715c4fa57f48d88ea61c4e0713b148c9ff636b8ff32f2ce0e8ad9bfeb94f8a86": [
+      "calendar_runner__C12-audit.jpg"
+    ],
+    "246a16e1ec7b9cd01ba0775084df5727a86e3d4a91273fabda33f7d53eb155e9": [
+      "calendar_runner__C12-cleanup.jpg"
+    ],
+    "8ef2df4c11a550d25603f398c510aa7c2c2fa07c74b89d72ae01b9c555acdf79": [
+      "calendar_runner__C12-decision.jpg"
+    ],
+    "5f12bdab00b6677ea4d0b07ebbf34599dae73beb030bdd16b373e32c117dca33": [
+      "notion_trials__N01-audit.jpg",
+      "notion_trials__N01-decision.jpg"
+    ],
+    "36688f4f2ba2e20dba2790aa7954c92d1f0831632f64717beb230fb0840478f4": [
+      "notion_trials__N01-cleanup-final.jpg",
+      "notion_trials__N03-decision.jpg",
+      "notion_trials__N04-cleanup.jpg",
+      "notion_trials__N06-cleanup.jpg",
+      "notion_trials__N07-cleanup.jpg",
+      "notion_trials__N08-cleanup.jpg",
+      "notion_trials__N09-cleanup.jpg",
+      "notion_trials__N11-cleanup.jpg",
+      "notion_trials__N12-cleanup.jpg"
+    ],
+    "b3950634fe2b4c30edade9199ce4763bc5c15a3f8f793e700362067aec92514c": [
+      "notion_trials__N01-cleanup.jpg"
+    ],
+    "1a1398eb3b64783d2d467f8e2f6363d3c84c93916e2de73ad0f10ff22d13a363": [
+      "notion_trials__N02-audit.jpg"
+    ],
+    "260d0ff89ede2ca5cb6500439b5bff798c8c3622d4f526f6793a315eb6d8f571": [
+      "notion_trials__N02-cleanup.jpg",
+      "notion_trials__N03-cleanup.jpg",
+      "notion_trials__N05-cleanup.jpg",
+      "notion_trials__N10-cleanup.jpg"
+    ],
+    "ddc33d304802e3d29c59285a110b0afd13fa85c218df9330fa909a2b3fc05b69": [
+      "notion_trials__N02-decision.jpg"
+    ],
+    "ccb4d765ad3b1ae5226366aa0660f00640e7beef19457b916c9370b23b0d3f48": [
+      "notion_trials__N03-audit.jpg"
+    ],
+    "8b062511a44b404ab21152f743e5aa6a5d4dbb949337c0cac76218ae8d0e8ee6": [
+      "notion_trials__N04-audit.jpg"
+    ],
+    "71c27ecfb00a2d356aa0a200740620c7302bb866e805ee70c14a996f046a759b": [
+      "notion_trials__N04-decision.jpg"
+    ],
+    "98763e99b118175136806e4dd2dd3401a07109aae24125708f5f8712cd4579ae": [
+      "notion_trials__N05-audit.jpg"
+    ],
+    "c13b74d936fbe356d4bcbdc6be19f0395741ec4e21a34a3ad54213b5b2ae7f61": [
+      "notion_trials__N05-decision.jpg"
+    ],
+    "842c42a910c8cc8dbed135a9e2b06983a0afb31681039fa76b4c4048de31be03": [
+      "notion_trials__N06-audit.jpg"
+    ],
+    "dc26a017e421f76f9975dc09e2ebd1f6ad7e8ad24858f3660b9703d268c1755c": [
+      "notion_trials__N06-decision.jpg"
+    ],
+    "d51c93712dd14d878c3cdbf2fe8f92f828dd982ac876ab82e4f62ca4c4ffedf6": [
+      "notion_trials__N07-audit.jpg"
+    ],
+    "a35ca1b37403061816438d4fd6f7b26033e6b729c4d95b1af688a5309f365c88": [
+      "notion_trials__N07-decision.jpg"
+    ],
+    "4f99bbab02eebe2b5abf4660b89757c0518a0c3217cd209ba67578c75285650c": [
+      "notion_trials__N08-audit.jpg"
+    ],
+    "a03a475255a2b55ff2fa37355705c0a3bd7b56f5e8631878e3f6c395d1643c96": [
+      "notion_trials__N08-decision.jpg"
+    ],
+    "2335e2e6b46df1b26effdcfd18ce320c8302c2035de9468f014e6a5803beafc0": [
+      "notion_trials__N09-audit.jpg"
+    ],
+    "d39dbee5bfb768a37e7646cce8c49c93333b61cf8ec099f889eb64a99a84cbfd": [
+      "notion_trials__N09-decision.jpg"
+    ],
+    "8cd9a4cd10d3d02837385f40f376a3a5f6b72518036a2bd61cee92010ff25001": [
+      "notion_trials__N10-audit.jpg",
+      "notion_trials__N10-decision.jpg"
+    ],
+    "16cf6df0bd1b252b67bfebe19cee8a8560ee0bdd8d4474bdb366c0b020c964b3": [
+      "notion_trials__N11-audit.jpg"
+    ],
+    "04123473ff31c12774d12c5184af0dbe5d45c364e0e779559cacab6fb9ba5492": [
+      "notion_trials__N11-decision.jpg"
+    ],
+    "3e4e293bb9dde137276b04389f326aa6e55dccf02d98e0dc874ae65695963457": [
+      "notion_trials__N12-audit.jpg"
+    ],
+    "ba7ee4114f1799772e28465efe30c7330d74d6a4b75aa73789df2e05ec8ff81e": [
+      "notion_trials__N12-decision.jpg"
+    ],
+    "8597a7b3920e160fd2f318179e8162ec12a7a19b49de3c1a5c865a54510eda7e": [
+      "notion_trials__parent-trash-restore.jpg"
+    ],
+    "733f4e62f6e8b4c16132d817fded020e94d1137f3634dabf3ae6b9c89e4ffb2b": [
+      "notion_trials__parent-trash-title.jpg"
+    ]
+  },
+  "reviews": [
+    {
+      "filename": "calendar_preflight__all-persisted.jpg",
+      "sha256": "7510e1912a3616def9f77f0dd60f5b0589c597091f8de4954d68a37dbeb2c260",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_preflight__cleanup-zero.jpg",
+      "sha256": "4f973a0a3136798de1a36778afffb6458da341d9a39a2db1acf7d9e78c8ecd62",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_preflight__hidden-ready.jpg",
+      "sha256": "4f973a0a3136798de1a36778afffb6458da341d9a39a2db1acf7d9e78c8ecd62",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_preflight__audit.jpg",
+      "sha256": "40b4ceb521df1da35236c7dca505878bfcf814750f72808d33d5d331bdd310c4",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record. The long preflight title is visibly truncated. The saved text has its full value."
+    },
+    {
+      "filename": "notion_preflight__cleanup.jpg",
+      "sha256": "dda70566f93dab430458ee5c8e5b263571a4d5a90e7467a0423a390683ad59e7",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_preflight__cleanup_persisted.jpg",
+      "sha256": "d33dc77a12070bd338635c448c454d9e53395b841727180ad5795aaf96d2addd",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_preflight__filter.jpg",
+      "sha256": "68d21ee4ad254a6cbc071304686afd7c9a9a2570a23833ff94414e0e631d9590",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_preflight__hidden.jpg",
+      "sha256": "b5c4e8caac85ba16a560937d52a33b566461ecf3079c6a4dcabdc1d28faf99fd",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_preflight__persisted.jpg",
+      "sha256": "0d6554a2623104ab4a75a382fa0cf7645cec5c409fc27b386b861f263dc0a5f4",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record. The long preflight title is visibly truncated. The saved text has its full value."
+    },
+    {
+      "filename": "calendar_runner__C01-audit.jpg",
+      "sha256": "0ea4e4251bd36417004333bcda694d5a7bb7778e9445752a6ac12b8a6de02691",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C01-cleanup.jpg",
+      "sha256": "15b607553428b416e0ff581366664ec587305ff026241230d76deb512078344b",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C01-decision.jpg",
+      "sha256": "29057cc2bfb7469ff12255d95f8f407534ef747d8150f64c16ee87dc95e1ece8",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C02-audit.jpg",
+      "sha256": "fefd94648c982e7b200a439a1b72615ec2db503fb247b93ab1932c19af021bc5",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C02-cleanup.jpg",
+      "sha256": "d41aa86ff3d745c7be0f56b353a0f38b040b1d1a6a870e0de8f8dc7836f99537",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C02-decision.jpg",
+      "sha256": "fefd94648c982e7b200a439a1b72615ec2db503fb247b93ab1932c19af021bc5",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C03-audit.jpg",
+      "sha256": "46835a6711a81dc94605680e5193766d59bb4abb164268207457e408646fc653",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C03-cleanup.jpg",
+      "sha256": "976fa1cad391bf036b8985d41c7f7ab769a1e5fca1996987278b51420a51a33b",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C03-decision.jpg",
+      "sha256": "46835a6711a81dc94605680e5193766d59bb4abb164268207457e408646fc653",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C04-audit.jpg",
+      "sha256": "eb12fbce03b5f2448ca0a38987c19ca2e28f21a3ee342f32a8d463e9ceefb426",
+      "visible_task_count": 2,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C04-cleanup.jpg",
+      "sha256": "c3011c95a3e72ca4b53fc3755e452a06f1a96aa7bfd07fca93d01ee1d55ea222",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C04-decision.jpg",
+      "sha256": "20b6b832be948350e2ff5c660bc3ba54d6eb54faabda069267b7059cb3a3570c",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C05-audit.jpg",
+      "sha256": "c079fdbc6523eecc174ad03140496f96c33930660e1f8c80dc3f3f4f43b51d20",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C05-cleanup.jpg",
+      "sha256": "4dccd717c65994c9c28e1aa659871d3c2e3fcb010f68993f0284db2e73640228",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C05-decision.jpg",
+      "sha256": "c079fdbc6523eecc174ad03140496f96c33930660e1f8c80dc3f3f4f43b51d20",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C06-audit.jpg",
+      "sha256": "2e22f1892655da7a667d61beed2ac627a7691bc3afe5704f4887a160efee9409",
+      "visible_task_count": 2,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C06-cleanup.jpg",
+      "sha256": "2492a87ff22922a5548c224976442d966a8dedf0f7352ad123db840e64995987",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C06-decision.jpg",
+      "sha256": "f9de22c485af2b3526736b7a255e5417fa77fc5e75480a06d2f3719d4a8129b1",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C07-audit.jpg",
+      "sha256": "c0137fcf654bd7e20da39c36c402d02108d1a5d8aa4b0df420daaf7a1f331f09",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C07-cleanup.jpg",
+      "sha256": "7269831672c021588b45a56dccc1890eb670d0ffdf3679e2139aa3b77e1a27cb",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C07-decision.jpg",
+      "sha256": "b93f0540f691256956ba8090d9568089dba2c6befeae945d4de911703b5a7226",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C08-audit.jpg",
+      "sha256": "37229761549e62b3ad36eff3d2c4a3a09cc682fb9871800f8406d0110b670568",
+      "visible_task_count": 2,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C08-cleanup.jpg",
+      "sha256": "39fce79e303ef1fdfe3adfd2b8c55d9d1a4afc04aec44474599efff766e9a0d6",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C08-decision.jpg",
+      "sha256": "fd1046669897e89ead5019bca7384f0a12ae35d4a672e7ae539fe2af7d9c9067",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C09-audit.jpg",
+      "sha256": "bd2cb2b68a36d0018dec01e1e52261d26affaa7a921c0fd2e41f6c25c1d6cf68",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C09-cleanup.jpg",
+      "sha256": "a206c52b4db2718995278d18a56d5536b2dcf9645cd6eb97d2883f22e8303afa",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C09-decision.jpg",
+      "sha256": "ad2f68d206685f24bbb025a2413ad881dea8db03d6f4a03155058b66425f9989",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C10-audit.jpg",
+      "sha256": "a733dd90f461baa20e352bc6ff88d4f68510e5ae60017626d70277f96240548e",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C10-cleanup.jpg",
+      "sha256": "c5ad6beefff9000c57c61fca35bbb9e5cda0a437e22f83a72ed8cdb62f7c4d60",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C10-decision.jpg",
+      "sha256": "775515b4fe3674e1b897ba33d8aeb0d3603281940e8d5e397f2100ceef6481d8",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C11-audit.jpg",
+      "sha256": "57f4b9788066e10f7dfb76fdedb9b16f869e907982efd4a745d3676bad95b5a8",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C11-cleanup.jpg",
+      "sha256": "68e85036ceb3fa2b75a49cf81df73cc64c6b14e257a2c76cdce2211a01eb2098",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C11-decision.jpg",
+      "sha256": "57f4b9788066e10f7dfb76fdedb9b16f869e907982efd4a745d3676bad95b5a8",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C12-audit.jpg",
+      "sha256": "715c4fa57f48d88ea61c4e0713b148c9ff636b8ff32f2ce0e8ad9bfeb94f8a86",
+      "visible_task_count": 2,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C12-cleanup.jpg",
+      "sha256": "246a16e1ec7b9cd01ba0775084df5727a86e3d4a91273fabda33f7d53eb155e9",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "calendar_runner__C12-decision.jpg",
+      "sha256": "8ef2df4c11a550d25603f398c510aa7c2c2fa07c74b89d72ae01b9c555acdf79",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N01-audit.jpg",
+      "sha256": "5f12bdab00b6677ea4d0b07ebbf34599dae73beb030bdd16b373e32c117dca33",
+      "visible_task_count": null,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record. Repeated partial regions and cut text make this image unusable for a count."
+    },
+    {
+      "filename": "notion_trials__N01-cleanup-final.jpg",
+      "sha256": "36688f4f2ba2e20dba2790aa7954c92d1f0831632f64717beb230fb0840478f4",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N01-cleanup.jpg",
+      "sha256": "b3950634fe2b4c30edade9199ce4763bc5c15a3f8f793e700362067aec92514c",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N01-decision.jpg",
+      "sha256": "5f12bdab00b6677ea4d0b07ebbf34599dae73beb030bdd16b373e32c117dca33",
+      "visible_task_count": null,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record. Repeated partial regions and cut text make this image unusable for a count."
+    },
+    {
+      "filename": "notion_trials__N02-audit.jpg",
+      "sha256": "1a1398eb3b64783d2d467f8e2f6363d3c84c93916e2de73ad0f10ff22d13a363",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N02-cleanup.jpg",
+      "sha256": "260d0ff89ede2ca5cb6500439b5bff798c8c3622d4f526f6793a315eb6d8f571",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N02-decision.jpg",
+      "sha256": "ddc33d304802e3d29c59285a110b0afd13fa85c218df9330fa909a2b3fc05b69",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N03-audit.jpg",
+      "sha256": "ccb4d765ad3b1ae5226366aa0660f00640e7beef19457b916c9370b23b0d3f48",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N03-cleanup.jpg",
+      "sha256": "260d0ff89ede2ca5cb6500439b5bff798c8c3622d4f526f6793a315eb6d8f571",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N03-decision.jpg",
+      "sha256": "36688f4f2ba2e20dba2790aa7954c92d1f0831632f64717beb230fb0840478f4",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N04-audit.jpg",
+      "sha256": "8b062511a44b404ab21152f743e5aa6a5d4dbb949337c0cac76218ae8d0e8ee6",
+      "visible_task_count": 2,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N04-cleanup.jpg",
+      "sha256": "36688f4f2ba2e20dba2790aa7954c92d1f0831632f64717beb230fb0840478f4",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N04-decision.jpg",
+      "sha256": "71c27ecfb00a2d356aa0a200740620c7302bb866e805ee70c14a996f046a759b",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N05-audit.jpg",
+      "sha256": "98763e99b118175136806e4dd2dd3401a07109aae24125708f5f8712cd4579ae",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N05-cleanup.jpg",
+      "sha256": "260d0ff89ede2ca5cb6500439b5bff798c8c3622d4f526f6793a315eb6d8f571",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N05-decision.jpg",
+      "sha256": "c13b74d936fbe356d4bcbdc6be19f0395741ec4e21a34a3ad54213b5b2ae7f61",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N06-audit.jpg",
+      "sha256": "842c42a910c8cc8dbed135a9e2b06983a0afb31681039fa76b4c4048de31be03",
+      "visible_task_count": 2,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N06-cleanup.jpg",
+      "sha256": "36688f4f2ba2e20dba2790aa7954c92d1f0831632f64717beb230fb0840478f4",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N06-decision.jpg",
+      "sha256": "dc26a017e421f76f9975dc09e2ebd1f6ad7e8ad24858f3660b9703d268c1755c",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N07-audit.jpg",
+      "sha256": "d51c93712dd14d878c3cdbf2fe8f92f828dd982ac876ab82e4f62ca4c4ffedf6",
+      "visible_task_count": 2,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N07-cleanup.jpg",
+      "sha256": "36688f4f2ba2e20dba2790aa7954c92d1f0831632f64717beb230fb0840478f4",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N07-decision.jpg",
+      "sha256": "a35ca1b37403061816438d4fd6f7b26033e6b729c4d95b1af688a5309f365c88",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N08-audit.jpg",
+      "sha256": "4f99bbab02eebe2b5abf4660b89757c0518a0c3217cd209ba67578c75285650c",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N08-cleanup.jpg",
+      "sha256": "36688f4f2ba2e20dba2790aa7954c92d1f0831632f64717beb230fb0840478f4",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N08-decision.jpg",
+      "sha256": "a03a475255a2b55ff2fa37355705c0a3bd7b56f5e8631878e3f6c395d1643c96",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N09-audit.jpg",
+      "sha256": "2335e2e6b46df1b26effdcfd18ce320c8302c2035de9468f014e6a5803beafc0",
+      "visible_task_count": 2,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N09-cleanup.jpg",
+      "sha256": "36688f4f2ba2e20dba2790aa7954c92d1f0831632f64717beb230fb0840478f4",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N09-decision.jpg",
+      "sha256": "d39dbee5bfb768a37e7646cce8c49c93333b61cf8ec099f889eb64a99a84cbfd",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N10-audit.jpg",
+      "sha256": "8cd9a4cd10d3d02837385f40f376a3a5f6b72518036a2bd61cee92010ff25001",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N10-cleanup.jpg",
+      "sha256": "260d0ff89ede2ca5cb6500439b5bff798c8c3622d4f526f6793a315eb6d8f571",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N10-decision.jpg",
+      "sha256": "8cd9a4cd10d3d02837385f40f376a3a5f6b72518036a2bd61cee92010ff25001",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N11-audit.jpg",
+      "sha256": "16cf6df0bd1b252b67bfebe19cee8a8560ee0bdd8d4474bdb366c0b020c964b3",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N11-cleanup.jpg",
+      "sha256": "36688f4f2ba2e20dba2790aa7954c92d1f0831632f64717beb230fb0840478f4",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N11-decision.jpg",
+      "sha256": "04123473ff31c12774d12c5184af0dbe5d45c364e0e779559cacab6fb9ba5492",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N12-audit.jpg",
+      "sha256": "3e4e293bb9dde137276b04389f326aa6e55dccf02d98e0dc874ae65695963457",
+      "visible_task_count": 2,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N12-cleanup.jpg",
+      "sha256": "36688f4f2ba2e20dba2790aa7954c92d1f0831632f64717beb230fb0840478f4",
+      "visible_task_count": 0,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__N12-decision.jpg",
+      "sha256": "ba7ee4114f1799772e28465efe30c7330d74d6a4b75aa73789df2e05ec8ff81e",
+      "visible_task_count": 1,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record."
+    },
+    {
+      "filename": "notion_trials__parent-trash-restore.jpg",
+      "sha256": "8597a7b3920e160fd2f318179e8162ec12a7a19b49de3c1a5c865a54510eda7e",
+      "visible_task_count": null,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record. This is parent Trash context. Use the text log for identity and timing."
+    },
+    {
+      "filename": "notion_trials__parent-trash-title.jpg",
+      "sha256": "733f4e62f6e8b4c16132d817fded020e94d1137f3634dabf3ae6b9c89e4ffb2b",
+      "visible_task_count": null,
+      "privacy_check": "PASS",
+      "note": "Task crop contains no visible private account name, email, or unrelated record. This is parent Trash context. Use the text log for identity and timing."
+    }
+  ]
+}

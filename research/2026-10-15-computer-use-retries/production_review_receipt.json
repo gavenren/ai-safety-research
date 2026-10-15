@@ -1,0 +1,87 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "issues": [],
+  "reviewer_role": "Separate Codex review context; no role in design, website trials, or main analysis implementation.",
+  "human_review": false,
+  "report_sha256": "c3d17a728e6877d9b52db11553d849c2af966ed6a9b57b4f3c0595daae6cb49d",
+  "archive_sha256": "606f7d5d3f8c6615f79f1c3072e662da2e995fe95cc91e9654ede5e45d809be7",
+  "input_sha256": {
+    "report.md": "c3d17a728e6877d9b52db11553d849c2af966ed6a9b57b4f3c0595daae6cb49d",
+    "references.bib": "d306eeb7d8159b993a93b58816c20aac79bc0b7101b47eda7b6d2f1e15c91a7d",
+    "production_plan.md": "8c01c8fe4daf731126c8a31625cf9d5b406b9b600262ac9f038d8a52fa18c68a",
+    "production_assignments.csv": "e35acb8791c431322dba35e607ba25a6c579d1d98a8b1c6cf47eefa8f3c38f1e",
+    "production_runner_instructions.md": "6b031471304fd4d291aa187752d8a176ae101d6664a0f3858ef05d0cc618467f",
+    "production_plan_manifest.json": "97d183b8f94013b43a8edbb95271c20f898cbe15af3d08862bfac6b56433f5fb",
+    "production_calendar_preflight.jsonl": "98b5e633cd8d89024ba909567ab61216fad1b168d07cce56941a58a8de76ee94",
+    "production_notion_preflight.jsonl": "d9704c17e1475bdbdbc0b056148018b9911afeb2c49773ce722a8da492fef6fb",
+    "production_notion_setup.jsonl": "813ab691b89cd5ce6c6a31312cc68f605dae7587377b878f196b4a2a31ea9523",
+    "production_calendar_actions.jsonl": "e6aae0b19a55fb093078aa4b8528e931a94ae00f6361791ecdc098566b419cba",
+    "production_notion_actions.jsonl": "8d9900e7dc71c93c3cb3c509050199185345dc0282ecd0925b12cf895921f7b1",
+    "production_evidence_manifest.json": "44b0706e7fb30a5d040c5f3c6793a6ef7e692ce9f04378fc91397afb06e58eb3",
+    "production_image_manifest.json": "88fcfe4baa6d3dc026c6b7c5d267363745ba47e91a068e38cf0d61a61f1b77f8",
+    "production_images.zip": "606f7d5d3f8c6615f79f1c3072e662da2e995fe95cc91e9654ede5e45d809be7",
+    "production_analyze.py": "cdce05c5264883f23ec25da0c9745d6ca7eb1a913793c3a76af504fbccd0ceb6",
+    "production_analyzer_tests.py": "ec1be897cd6315e582c7f93293b241d7084dfdc5ac4fa2e7636dab920e186843",
+    "production_analysis_method.md": "12ecaa393956374f654dc44db3e08c54c81db64d8b8df396a5941e5395f6ddba",
+    "production_trials.csv": "00e3c21691b50d4a2921845b705c42e1ce7514c3d088d0b4ef9a7cf7af9a958f",
+    "production_groups.csv": "377747f9201741e8ee513c7eb09fd66c4330ddfd73f84b365655a081fe1e2221",
+    "production_summary.json": "83d13f8d182450a85b52cfe23b49c8981b49e6f564cc2e5f2c1433a89f287e29",
+    "production_analysis_checks.json": "b5891e051c895985b0e4b230c900835cc4ae5b274351e8fcc07fcf0859500dc2",
+    "production_reproduction_check.json": "41ab237df5a37581b1040eb95d37369fc872e88273e98324e0ece7bdbc0ed8d5",
+    "production_independent_replay.py": "4a6c9c10b052512c6102ab806fa2010a9384cc70541142573bdeb156243556d0",
+    "production_independent_replay.json": "a2dc0edaad7893cf34981e63f80b9d8a9f64afda42b6ae415cf436d1742d1023",
+    "production_independent_reproduction.json": "78468fe325b94f544ce63355cc01554c1c69783d4f945be77be7825a0edc6ca3",
+    "production_private_review.json": "b7198c1124f5de166b15f64019a755ae9d5b8bcd1f77b3cfa5b33d6f0ba596bd",
+    "production_image_review.json": "da241c9a0c32f8b291f729a22ab7fcf1efcd1ccc36c38ed4323e1597de93cf44",
+    "production_review.md": "ba6a47fa088db172dc00e075ac823dd9c799332e13008bf7f250a618da053489",
+    "production_cleanup.json": "6f459c9dbef77e3db98468838e0f16ab4ab3d7931d1c6787182eb2f436896f92",
+    "production_changes.md": "837542e1bbc320cb785e0d470d3a16ccdb7db6635e960e30735d668a1fb74429"
+  },
+  "independent_comparison": {
+    "trial_fields_compared": 264,
+    "mismatches": 0,
+    "distinct_ids_match_all_audits": true,
+    "fresh_copy_byte_identical": true
+  },
+  "privacy_checks": {
+    "logs": 5,
+    "records": 1965,
+    "original_state_hashes": 1099,
+    "independent_state_parses": 1032,
+    "stable_private_identity_aliases": 37,
+    "issues": 0
+  },
+  "image_checks": {
+    "images": 84,
+    "distinct_byte_groups": 66,
+    "unusable_count_images": [
+      "notion_trials__N01-decision.jpg",
+      "notion_trials__N01-audit.jpg"
+    ],
+    "all_original_bytes_preserved": true
+  },
+  "retained_limits": [
+    "Failed Notion All controls N03 and N12; N12 is a false confirmation.",
+    "Notion writer-view departures N04 and N05; other observed view changes remain separate.",
+    "Calendar C10 scope action lacks a strict ready-zero trigger.",
+    "Calendar C07 and C10 cleanup use later exact-token evidence before the next writes.",
+    "Calendar time-field correctness is unknown; equivalent UTC times do not establish date-aware editor semantics.",
+    "Calendar audit coverage is bounded by exact title and January 2000.",
+    "Notion has no separate connector audit.",
+    "Two N01 screenshots are unusable count evidence.",
+    "Selected tasks, small sample, supplied rules, shared context, and no natural-error or model-improvement claim."
+  ],
+  "source_review": [
+    "https://www.notion.com/help/views-filters-and-sorts",
+    "https://www.notion.com/help/duplicate-delete-and-restore-content",
+    "https://support.google.com/calendar/answer/6101541?hl=en",
+    "https://support.google.com/calendar/answer/37113?hl=en",
+    "https://neurips.cc/public/guides/PaperChecklist"
+  ],
+  "remaining_release_work": [
+    "Final PDF visual review",
+    "Protected old-file and root-index check",
+    "Verified remote publication"
+  ],
+  "reviewed_utc": "2026-10-15T20:15:57.065289+00:00"
+}

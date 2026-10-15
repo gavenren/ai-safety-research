@@ -1,0 +1,13 @@
+site,rule,view,assigned,complete,creation_requests,retry_requests,creation_request_errors,action_errors,flagged_policy_deviations,activated,duplicates,count_confirmations,clean_confirmations,unknown_clean_confirmations,field_consistency_unknown,false_confirmations,late_confirmations,unresolved,unknown_audits,cleanup_verified,partial_records
+Google Calendar,Absence,All,2,2,2,0,0,0,1,0,0,2,0,2,2,0,0,0,0,2,0
+Google Calendar,Absence,Hidden,2,2,4,2,0,1,0,2,2,0,0,0,2,0,0,2,0,2,0
+Google Calendar,Wait24,All,2,2,2,0,0,0,0,0,0,2,0,2,2,0,0,0,0,2,0
+Google Calendar,Wait24,Hidden,2,2,4,2,0,0,0,2,2,0,0,0,2,0,0,2,0,2,0
+Google Calendar,Scope,All,2,2,2,0,0,1,0,0,0,2,0,2,2,0,0,0,0,2,0
+Google Calendar,Scope,Hidden,2,2,2,0,0,0,1,1,0,2,0,2,2,0,0,0,0,2,0
+Notion,Absence,All,2,2,3,1,0,2,0,0,1,1,1,0,0,1,0,0,0,2,0
+Notion,Absence,Hidden,2,2,4,2,0,0,0,2,2,0,0,0,0,0,0,2,0,2,0
+Notion,Wait24,All,2,2,2,0,0,0,0,0,0,2,2,0,0,0,0,0,0,2,0
+Notion,Wait24,Hidden,2,2,4,2,0,0,1,2,2,0,0,0,0,0,0,2,0,2,0
+Notion,Scope,All,2,2,2,0,0,1,0,0,0,1,1,0,0,0,0,1,0,2,0
+Notion,Scope,Hidden,2,2,2,0,0,0,1,2,0,2,2,0,0,0,0,0,0,2,0

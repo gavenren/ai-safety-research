@@ -1,0 +1,42 @@
+{
+  "extraction": "Task-region UI text. Notion sidebar removed; banner and main retained, with pre-banner loading flag. Calendar keeps Search banner, task search or event editor main, dialogs, and task status. Other calendar main views are explicitly unavailable. Any Calendar progressbar outside the retained regions is kept as an explicit loading flag. Account names/emails are replaced; private record IDs have stable SHA256-derived aliases. Exact original state and file hashes retained. No public content is fabricated.",
+  "files": [
+    {
+      "source_group": "calendar_preflight",
+      "public_file": "production_calendar_preflight.jsonl",
+      "records": 44,
+      "original_sha256": "33fbbf4f25cd569f6198c503d639627d3b4a1bba4a806d866b4f8554de8dc8b4",
+      "public_sha256": "98b5e633cd8d89024ba909567ab61216fad1b168d07cce56941a58a8de76ee94"
+    },
+    {
+      "source_group": "notion_preflight",
+      "public_file": "production_notion_preflight.jsonl",
+      "records": 50,
+      "original_sha256": "24f97394f53867bf01acbfa2017129277a34d7e54e4902c1d59d5db28492dce2",
+      "public_sha256": "d9704c17e1475bdbdbc0b056148018b9911afeb2c49773ce722a8da492fef6fb"
+    },
+    {
+      "source_group": "private",
+      "public_file": "production_notion_setup.jsonl",
+      "records": 12,
+      "original_sha256": "87aa1aa56f8166d1c536e3484053ff1173041572b0faeda5d8b0d36daf4e2e74",
+      "public_sha256": "813ab691b89cd5ce6c6a31312cc68f605dae7587377b878f196b4a2a31ea9523"
+    },
+    {
+      "source_group": "calendar_runner",
+      "public_file": "production_calendar_actions.jsonl",
+      "records": 1151,
+      "original_sha256": "de542e36a771ab5e32e73678fce1815eca43e6686e3f3f51360596b76961d5ad",
+      "public_sha256": "e6aae0b19a55fb093078aa4b8528e931a94ae00f6361791ecdc098566b419cba"
+    },
+    {
+      "source_group": "notion_trials",
+      "public_file": "production_notion_actions.jsonl",
+      "records": 708,
+      "original_sha256": "c32efec3d48f00d18a490a336db6c4dce30b246a533b7d3512f960469f1606bc",
+      "public_sha256": "8d9900e7dc71c93c3cb3c509050199185345dc0282ecd0925b12cf895921f7b1"
+    }
+  ],
+  "images": 84,
+  "identity_aliases": 37
+}

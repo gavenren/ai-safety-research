@@ -2,9 +2,27 @@
 
 This is a separate user-requested paper dated October 15, 2026. It is not a second daily automation study.
 
-Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, a later 30-trial experiment in one authenticated Google Drive account, a 32-trial two-tab extension in that account, and a 48-trial extension on two additional public table websites. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
+Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, a later 30-trial experiment in one authenticated Google Drive account, a 32-trial two-tab extension in that account, a 48-trial extension on two additional public table websites, and a 24-trial extension in production Notion and Google Calendar accounts. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
 
 Codex generated this work. Separate agents checked the design, sources, calculations, reproduction, and PDF. No human or external peer review occurred. No new reuse license is assigned.
+
+## Analyze the saved production account evidence
+
+Use a separate copy of this folder. Python standard library is sufficient. These commands make no browser, model, connector, or network calls.
+
+```sh
+python3 production_analyzer_tests.py
+python3 production_analyze.py --input-dir . --output-dir .
+python3 production_independent_replay.py
+```
+
+The main command reads all 24 assignments, the frozen plan, and task-region action logs. It derives ready row counts, actual view scope, request and decision times, distinct audit identities, partial records, field checks, rule paths, and cleanup. Its five outputs are production_trials.csv, production_groups.csv, production_summary.json, production_analysis_checks.json, and production_analysis_log.txt. The separate replay is an independent agent's implementation. See [production_analysis_method.md](production_analysis_method.md), [production_review.md](production_review.md), and [production_reproduction_check.json](production_reproduction_check.json).
+
+Read [production_plan.md](production_plan.md), [production_runner_instructions.md](production_runner_instructions.md), and [production_assignments.csv](production_assignments.csv) before a new run. Use an authorized private Notion test database and nonrecurring events with new unique titles in an authorized Calendar account. Never use existing user records as test data. Record full task state before each action and after each read. Start the clock at Notion New or Calendar Save. A complete empty view is different from a loading view. Preserve failed controls, changed views, partial records, missed timing gates, and procedure departures. Do not replace trials.
+
+The 180-second deadline and one-retry limit apply to this extension only. Calendar All search covers the selected task month; it is not all-time coverage. Both rules that retry use observer rows and exclude writer receipts by instruction. This is a test of supplied procedures on selected production services. It does not measure natural service error rates or unrestricted agent behavior. Strict clean completion requires correct task fields, not just one matching title. Calendar's editor and later reads differ by one hour; this remains unresolved.
+
+The public logs omit private account content and use stable aliases for record identities. The originals remain local. [production_evidence_manifest.json](production_evidence_manifest.json) records extraction rules and hashes. The image archive retains original task-region crop bytes. Notion has browser reload and native page-link audits; its connector was unavailable. Calendar also has a bounded read-only service audit after each decision. Neither finite audit proves indefinite persistence. Move only test records to recoverable Trash after the audit and verify cleanup. Do not empty Trash. Live timing and outcomes can differ on a new run.
 
 ## Analyze the saved additional website evidence
 
@@ -151,3 +169,5 @@ The account extension preserves all simulation, local-pilot, and public-demo evi
 The two-tab extension preserves the earlier 30-trial evidence. account_version_final_review.md, account_version_checklist.md, account_version_release_checks.json, account_version_pdf_check.json, and account_review.md describe the previous paper. Their report/PDF hashes are historical. The trigger files describe the new 32-trial extension. Current final_review.md, release_checks.json, pdf_check.json, and package_manifest.json apply to the latest release.
 
 The additional website extension preserves all earlier evidence. trigger_version_final_review.md, trigger_version_checklist.md, trigger_version_release_checks.json, and trigger_version_pdf_check.json preserve the preceding two-tab release. Their hashes are historical. The cross files describe the new 48-trial extension. Current final_review.md, release_checks.json, pdf_check.json, and package_manifest.json apply to the latest release.
+
+The production account extension preserves all prior experimental evidence. cross_version_final_review.md, cross_version_checklist.md, cross_version_release_checks.json, and cross_version_pdf_check.json preserve the preceding 48-trial release. Their document hashes are historical. The production files describe the new 24-trial extension. Current final_review.md, release_checks.json, pdf_check.json, and package_manifest.json apply to this release.

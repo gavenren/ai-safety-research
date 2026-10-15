@@ -1,10 +1,10 @@
 {
   "status": "PASS",
-  "completed_utc": "2026-10-15T19:21:39.236745+00:00",
-  "scope": "48-trial extension on two additional public table sites",
-  "report_sha256": "3767dd6fa0f23cd1715ed44e71b7d0c9e9e63af346007e41b6f8e54598e1cbec",
-  "prior_package_files_unchanged": 197,
-  "review": "cross_review.md",
+  "completed_utc": "2026-10-15T20:17:29.230992+00:00",
+  "scope": "24-trial extension on production Notion and Google Calendar accounts",
+  "report_sha256": "c3d17a728e6877d9b52db11553d849c2af966ed6a9b57b4f3c0595daae6cb49d",
+  "prior_package_files_unchanged": 239,
+  "review": "production_review.md",
   "pdf": "Text coverage, every-page visual review, deterministic rebuild and font notices checked.",
   "relative_links": [
     {
@@ -15,6 +15,41 @@
     {
       "file": "research/2026-10-15-computer-use-retries/README.md",
       "target": "paper.pdf",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "production_analysis_method.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "production_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "production_reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "production_plan.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "production_runner_instructions.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "production_assignments.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "production_evidence_manifest.json",
       "exists": true
     },
     {
@@ -644,6 +679,61 @@
     },
     {
       "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_assignments.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_plan.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_runner_instructions.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_plan_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_source_notes.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_cleanup.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_trials.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_groups.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_summary.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_changes.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_image_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
       "target": "account_cleanup.json",
       "exists": true
     },
@@ -765,6 +855,36 @@
     {
       "file": "research/2026-10-15-computer-use-retries/report.md",
       "target": "cross_image_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_analysis_method.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_independent_replay.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_evidence_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "production_environment.json",
       "exists": true
     },
     {
@@ -901,6 +1021,6 @@
   },
   "rights_and_claims": "Original prose; attributed provider UI; task regions only; no application source redistributed; no new license or priority claim.",
   "root_index": "Only the existing paper row changed.",
-  "cleanup": "All48temporary table baselines restored by reload after primary audits.",
+  "cleanup": "All 24 active trial record lists returned zero after recoverable Trash cleanup; Notion test parent cleanup reviewed separately.",
   "publication_status": "Not proved by this local check. Verify remote commit after upload."
 }

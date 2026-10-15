@@ -1,0 +1,28 @@
+test_alias_keeps_identity_after_title_change (__main__.ParserTests.test_alias_keeps_identity_after_title_change) ... ok
+test_audit_cannot_repair_unresolved_decision (__main__.ParserTests.test_audit_cannot_repair_unresolved_decision) ... ok
+test_calendar_basic_search_loses_scope (__main__.ParserTests.test_calendar_basic_search_loses_scope) ... ok
+test_calendar_clock_remains_unknown (__main__.ParserTests.test_calendar_clock_remains_unknown) ... ok
+test_calendar_heading_does_not_prove_empty (__main__.ParserTests.test_calendar_heading_does_not_prove_empty) ... ok
+test_calendar_loading_negative_unknown (__main__.ParserTests.test_calendar_loading_negative_unknown) ... ok
+test_calendar_loading_positive_unknown (__main__.ParserTests.test_calendar_loading_positive_unknown) ... ok
+test_calendar_row_is_counted_once (__main__.ParserTests.test_calendar_row_is_counted_once) ... ok
+test_calendar_sidebar_progressbar_keeps_strict_gate (__main__.ParserTests.test_calendar_sidebar_progressbar_keeps_strict_gate) ... ok
+test_calendar_wrong_token_unknown (__main__.ParserTests.test_calendar_wrong_token_unknown) ... ok
+test_creation_link_cannot_replace_post_decision_identity (__main__.ParserTests.test_creation_link_cannot_replace_post_decision_identity) ... ok
+test_identity_conflict_is_unknown_not_proven_duplicate (__main__.ParserTests.test_identity_conflict_is_unknown_not_proven_duplicate) ... ok
+test_later_cleanup_read_keeps_query_time_and_gate_boundaries (__main__.ParserTests.test_later_cleanup_read_keeps_query_time_and_gate_boundaries) ... ok
+test_native_id_keeps_identity_after_title_change (__main__.ParserTests.test_native_id_keeps_identity_after_title_change) ... ok
+test_notion_blank_is_partial (__main__.ParserTests.test_notion_blank_is_partial) ... ok
+test_notion_exact_rows_not_echoes (__main__.ParserTests.test_notion_exact_rows_not_echoes) ... ok
+test_notion_input_mention_is_not_a_row (__main__.ParserTests.test_notion_input_mention_is_not_a_row) ... ok
+test_notion_loading_positive_unknown (__main__.ParserTests.test_notion_loading_positive_unknown) ... ok
+test_notion_missing_empty_marker_unknown (__main__.ParserTests.test_notion_missing_empty_marker_unknown) ... ok
+test_notion_peek_is_not_ready (__main__.ParserTests.test_notion_peek_is_not_ready) ... ok
+test_post_delete_identity_cannot_complete_audit (__main__.ParserTests.test_post_delete_identity_cannot_complete_audit) ... ok
+test_raw_event_search_not_declared_count (__main__.ParserTests.test_raw_event_search_not_declared_count) ... ok
+test_read_only_cleanup_menu_does_not_cut_off_identity (__main__.ParserTests.test_read_only_cleanup_menu_does_not_cut_off_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.003s
+
+OK

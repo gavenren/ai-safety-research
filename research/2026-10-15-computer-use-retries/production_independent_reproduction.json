@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "command": "python3 production_independent_replay.py",
+  "method": "Copy only the independent script and its six declared inputs into a new temporary directory. Run it there and compare the JSON result byte for byte.",
+  "return_code": 0,
+  "byte_identical": true,
+  "output_sha256": "a2dc0edaad7893cf34981e63f80b9d8a9f64afda42b6ae415cf436d1742d1023",
+  "input_sha256": {
+    "production_calendar_actions.jsonl": "e6aae0b19a55fb093078aa4b8528e931a94ae00f6361791ecdc098566b419cba",
+    "production_notion_actions.jsonl": "8d9900e7dc71c93c3cb3c509050199185345dc0282ecd0925b12cf895921f7b1",
+    "production_assignments.csv": "e35acb8791c431322dba35e607ba25a6c579d1d98a8b1c6cf47eefa8f3c38f1e",
+    "production_plan.md": "8c01c8fe4daf731126c8a31625cf9d5b406b9b600262ac9f038d8a52fa18c68a",
+    "production_plan_manifest.json": "97d183b8f94013b43a8edbb95271c20f898cbe15af3d08862bfac6b56433f5fb",
+    "production_runner_instructions.md": "6b031471304fd4d291aa187752d8a176ae101d6664a0f3858ef05d0cc618467f",
+    "production_independent_replay.py": "4a6c9c10b052512c6102ab806fa2010a9384cc70541142573bdeb156243556d0"
+  },
+  "python_version": "3.14.7",
+  "dependencies": "Python standard library only"
+}

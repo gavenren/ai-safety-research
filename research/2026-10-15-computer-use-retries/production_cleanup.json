@@ -1,0 +1,259 @@
+{
+  "status": "VERIFIED_RECOVERABLE_CLEANUP",
+  "trial_count": 24,
+  "trials": [
+    {
+      "trial_id": "C01",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-00073",
+      "cleanup_evidence_trial_id": "C01",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "C02",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-00153",
+      "cleanup_evidence_trial_id": "C02",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "C03",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-00227",
+      "cleanup_evidence_trial_id": "C03",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "C04",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-00353",
+      "cleanup_evidence_trial_id": "C04",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "C05",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-00445",
+      "cleanup_evidence_trial_id": "C05",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "C06",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-00573",
+      "cleanup_evidence_trial_id": "C06",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "C07",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-00665",
+      "cleanup_evidence_trial_id": "C08",
+      "cleanup_in_trial_zero": "False",
+      "cleanup_verified_later": "True"
+    },
+    {
+      "trial_id": "C08",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-00771",
+      "cleanup_evidence_trial_id": "C08",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "C09",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-00847",
+      "cleanup_evidence_trial_id": "C09",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "C10",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-00955",
+      "cleanup_evidence_trial_id": "C11",
+      "cleanup_in_trial_zero": "False",
+      "cleanup_verified_later": "True"
+    },
+    {
+      "trial_id": "C11",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-01013",
+      "cleanup_evidence_trial_id": "C11",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "C12",
+      "site": "Google Calendar",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "True",
+      "cleanup_evidence_id": "CAL-01144",
+      "cleanup_evidence_trial_id": "C12",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N01",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00056",
+      "cleanup_evidence_trial_id": "N01",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N02",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00095",
+      "cleanup_evidence_trial_id": "N02",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N03",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00134",
+      "cleanup_evidence_trial_id": "N03",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N04",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00205",
+      "cleanup_evidence_trial_id": "N04",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N05",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00254",
+      "cleanup_evidence_trial_id": "N05",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N06",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00328",
+      "cleanup_evidence_trial_id": "N06",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N07",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00406",
+      "cleanup_evidence_trial_id": "N07",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N08",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00464",
+      "cleanup_evidence_trial_id": "N08",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N09",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00536",
+      "cleanup_evidence_trial_id": "N09",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N10",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00586",
+      "cleanup_evidence_trial_id": "N10",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N11",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00628",
+      "cleanup_evidence_trial_id": "N11",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    },
+    {
+      "trial_id": "N12",
+      "site": "Notion",
+      "cleanup_verified": "True",
+      "cleanup_connector_zero": "",
+      "cleanup_evidence_id": "N-00695",
+      "cleanup_evidence_trial_id": "N12",
+      "cleanup_in_trial_zero": "True",
+      "cleanup_verified_later": "False"
+    }
+  ],
+  "notion_parent": {
+    "status": "Trash with Restore page after reload",
+    "evidence_record_id": "N-00708",
+    "evidence_end_utc": "2026-10-15T20:07:37.954Z",
+    "image": "notion_trials__parent-trash-restore.jpg",
+    "permanent_delete_clicked": false
+  },
+  "limits": "Only active test records and their new Notion parent were moved to recoverable Trash. No Trash was emptied. Service retention rules still apply. C07 and C10 use later same-token ready reads, before the next writes, because the first phase-labeled cleanup reads had a sidebar loading marker.",
+  "input_sha256": {
+    "production_trials.csv": "00e3c21691b50d4a2921845b705c42e1ce7514c3d088d0b4ef9a7cf7af9a958f",
+    "production_notion_actions.jsonl": "8d9900e7dc71c93c3cb3c509050199185345dc0282ecd0925b12cf895921f7b1",
+    "production_calendar_actions.jsonl": "e6aae0b19a55fb093078aa4b8528e931a94ae00f6361791ecdc098566b419cba"
+  }
+}

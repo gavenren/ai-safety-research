@@ -1,0 +1,78 @@
+{
+  "decision_seconds": {
+    "maximum": 64.98,
+    "median": 20.694000000000003,
+    "minimum": 6.865,
+    "n": 24
+  },
+  "hypotheses": [
+    {
+      "H_P1": true,
+      "H_P2": null,
+      "H_P3": null,
+      "activation_gate": true,
+      "all_count_outcomes_known": true,
+      "field_consistency_known": false,
+      "flagged_policy_deviation_trials": [
+        "C07",
+        "C10"
+      ],
+      "site": "Google Calendar"
+    },
+    {
+      "H_P1": true,
+      "H_P2": true,
+      "H_P3": false,
+      "activation_gate": true,
+      "all_count_outcomes_known": true,
+      "field_consistency_known": true,
+      "flagged_policy_deviation_trials": [
+        "N04",
+        "N05"
+      ],
+      "site": "Notion"
+    }
+  ],
+  "input_sha256": {
+    "production_assignments.csv": "e35acb8791c431322dba35e607ba25a6c579d1d98a8b1c6cf47eefa8f3c38f1e",
+    "production_calendar_actions.jsonl": "e6aae0b19a55fb093078aa4b8528e931a94ae00f6361791ecdc098566b419cba",
+    "production_notion_actions.jsonl": "8d9900e7dc71c93c3cb3c509050199185345dc0282ecd0925b12cf895921f7b1",
+    "production_plan_manifest.json": "97d183b8f94013b43a8edbb95271c20f898cbe15af3d08862bfac6b56433f5fb"
+  },
+  "limitations": [
+    "Selected tasks and fixed procedures, not natural errors.",
+    "Two repeats per cell share contexts; no population intervals.",
+    "Notion connector unavailable; browser-only persistence audit.",
+    "Calendar editor/search time display difference retained.",
+    "Time includes model, tool, and host overhead."
+  ],
+  "method": "State-derived counts; distinct native page IDs for Notion; raw post-decision connector events for Calendar.",
+  "status": "COMPLETE",
+  "totals": {
+    "action_errors": 5,
+    "activated": 11,
+    "assigned": 24,
+    "clean_confirmations": 6,
+    "cleanup_verified": 24,
+    "complete": 24,
+    "count_confirmations": 14,
+    "creation_request_errors": 0,
+    "creation_requests": 33,
+    "duplicates": 9,
+    "false_confirmations": 1,
+    "field_consistency_unknown": 12,
+    "flagged_policy_deviations": 4,
+    "late_confirmations": 0,
+    "partial_records": 0,
+    "retry_requests": 9,
+    "unknown_audits": 0,
+    "unknown_clean_confirmations": 8,
+    "unresolved": 9
+  },
+  "wait24_reload_seconds": [
+    34.352,
+    32.932,
+    28.785,
+    28.275
+  ]
+}

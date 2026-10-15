@@ -1,0 +1,25 @@
+trial_id,site,site_order,block,block_order,rule,view,token
+C01,Google Calendar,1,1,1,Scope,All,PROD-RETRY-20261015-C01
+C02,Google Calendar,2,1,2,Wait24,All,PROD-RETRY-20261015-C02
+C03,Google Calendar,3,1,3,Absence,All,PROD-RETRY-20261015-C03
+C04,Google Calendar,4,1,4,Absence,Hidden,PROD-RETRY-20261015-C04
+C05,Google Calendar,5,1,5,Scope,Hidden,PROD-RETRY-20261015-C05
+C06,Google Calendar,6,1,6,Wait24,Hidden,PROD-RETRY-20261015-C06
+C07,Google Calendar,7,2,1,Absence,All,PROD-RETRY-20261015-C07
+C08,Google Calendar,8,2,2,Absence,Hidden,PROD-RETRY-20261015-C08
+C09,Google Calendar,9,2,3,Wait24,All,PROD-RETRY-20261015-C09
+C10,Google Calendar,10,2,4,Scope,Hidden,PROD-RETRY-20261015-C10
+C11,Google Calendar,11,2,5,Scope,All,PROD-RETRY-20261015-C11
+C12,Google Calendar,12,2,6,Wait24,Hidden,PROD-RETRY-20261015-C12
+N01,Notion,1,1,1,Absence,All,PROD-RETRY-20261015-N01
+N02,Notion,2,1,2,Wait24,All,PROD-RETRY-20261015-N02
+N03,Notion,3,1,3,Scope,All,PROD-RETRY-20261015-N03
+N04,Notion,4,1,4,Wait24,Hidden,PROD-RETRY-20261015-N04
+N05,Notion,5,1,5,Scope,Hidden,PROD-RETRY-20261015-N05
+N06,Notion,6,1,6,Absence,Hidden,PROD-RETRY-20261015-N06
+N07,Notion,7,2,1,Wait24,Hidden,PROD-RETRY-20261015-N07
+N08,Notion,8,2,2,Scope,Hidden,PROD-RETRY-20261015-N08
+N09,Notion,9,2,3,Absence,Hidden,PROD-RETRY-20261015-N09
+N10,Notion,10,2,4,Scope,All,PROD-RETRY-20261015-N10
+N11,Notion,11,2,5,Wait24,All,PROD-RETRY-20261015-N11
+N12,Notion,12,2,6,Absence,All,PROD-RETRY-20261015-N12

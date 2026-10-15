@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-10-15T20:03:53.039454+00:00",
+  "analysis_python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "operating_system": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "agent": "Codex through existing service; exact model build and inference hardware unavailable",
+  "agent_roles": [
+    "one separate Calendar runner",
+    "one separate Notion runner",
+    "design and main analysis agent",
+    "lead evidence extraction and report editing",
+    "separate result and artifact reviewers, recorded in their reviews"
+  ],
+  "browser": "Chrome through the supported computer-use interface; exact installed browser version not recorded",
+  "browser_interaction": "Visible DOM controls and task-region screenshots. No injected website code or direct experiment write APIs. Post-decision Calendar audit uses a read-only connector.",
+  "live_timing": "Timestamped wall-clock observations. Model/tool delay and website delay are not separated.",
+  "viewport": "Normal browser viewport. Shared browser width changed from 1512 to 1920 during the run without a viewport override.",
+  "training": "None",
+  "additional_paid_api_or_compute": "None",
+  "offline_analysis_dependencies": "Python standard library only",
+  "assignment_seed": 2026101507,
+  "seed_scope": "Assignment order only, not model or website timing."
+}

@@ -1,0 +1,4 @@
+Production analysis
+Status: COMPLETE
+{"action_errors": 5, "activated": 11, "assigned": 24, "clean_confirmations": 6, "cleanup_verified": 24, "complete": 24, "count_confirmations": 14, "creation_request_errors": 0, "creation_requests": 33, "duplicates": 9, "false_confirmations": 1, "field_consistency_unknown": 12, "flagged_policy_deviations": 4, "late_confirmations": 0, "partial_records": 0, "retry_requests": 9, "unknown_audits": 0, "unknown_clean_confirmations": 8, "unresolved": 9}
+Check counts: {"FAIL": 7, "PASS": 5030, "UNKNOWN": 12}
