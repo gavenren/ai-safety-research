@@ -1,0 +1,4 @@
+# Saved PDF build: CPython 3.12.14. DejaVu fonts are supplied separately.
+reportlab==4.4.9
+pypdf==6.10.0
+Pillow==12.3.0

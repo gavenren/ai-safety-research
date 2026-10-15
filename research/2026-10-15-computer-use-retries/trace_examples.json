@@ -1,0 +1,547 @@
+[
+  {
+    "run": {
+      "case_id": "main-192",
+      "suite": "main",
+      "d1": 8,
+      "outcome1": "commit",
+      "d2": 1,
+      "outcome2": "commit",
+      "lag": 0,
+      "schedule": "every1",
+      "policy": "no_retry",
+      "server_mode": "append",
+      "retry_tick": "",
+      "stop_tick": 8,
+      "stop_reason": "confirmed",
+      "declared": 1,
+      "observed_count_at_stop": 1,
+      "effects_at_stop": 1,
+      "final_effects": 1,
+      "audit_tick": 8,
+      "duplicate": 0,
+      "clean_confirmed": 1,
+      "unsafe_completion": 0,
+      "detected_duplicate": 0,
+      "deadline_stop": 0,
+      "no_claim": 0,
+      "zero_effect": 0,
+      "one_effect_unconfirmed": 0,
+      "submit_calls": 1,
+      "query_calls": 8,
+      "capped_clean_time": 8
+    },
+    "events": [
+      {
+        "tick": 0,
+        "event": "submit",
+        "attempt": 1
+      },
+      {
+        "tick": 1,
+        "event": "query",
+        "as_of": 1,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 2,
+        "event": "query",
+        "as_of": 2,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 3,
+        "event": "query",
+        "as_of": 3,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 4,
+        "event": "query",
+        "as_of": 4,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 5,
+        "event": "query",
+        "as_of": 5,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 6,
+        "event": "query",
+        "as_of": 6,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 7,
+        "event": "query",
+        "as_of": 7,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 8,
+        "event": "resolve",
+        "attempt": 1,
+        "outcome": "commit",
+        "effects": 1
+      },
+      {
+        "tick": 8,
+        "event": "query",
+        "as_of": 8,
+        "observed_count": 1,
+        "first_attempt_state": "commit"
+      },
+      {
+        "tick": 8,
+        "event": "stop",
+        "reason": "confirmed",
+        "declared": 1,
+        "effects": 1
+      },
+      {
+        "tick": 8,
+        "event": "final_audit",
+        "final_effects": 1
+      }
+    ]
+  },
+  {
+    "run": {
+      "case_id": "main-192",
+      "suite": "main",
+      "d1": 8,
+      "outcome1": "commit",
+      "d2": 1,
+      "outcome2": "commit",
+      "lag": 0,
+      "schedule": "every1",
+      "policy": "absence_retry",
+      "server_mode": "append",
+      "retry_tick": 1,
+      "stop_tick": 2,
+      "stop_reason": "confirmed",
+      "declared": 1,
+      "observed_count_at_stop": 1,
+      "effects_at_stop": 1,
+      "final_effects": 2,
+      "audit_tick": 8,
+      "duplicate": 1,
+      "clean_confirmed": 0,
+      "unsafe_completion": 1,
+      "detected_duplicate": 0,
+      "deadline_stop": 0,
+      "no_claim": 0,
+      "zero_effect": 0,
+      "one_effect_unconfirmed": 0,
+      "submit_calls": 2,
+      "query_calls": 2,
+      "capped_clean_time": 24
+    },
+    "events": [
+      {
+        "tick": 0,
+        "event": "submit",
+        "attempt": 1
+      },
+      {
+        "tick": 1,
+        "event": "query",
+        "as_of": 1,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 1,
+        "event": "submit",
+        "attempt": 2
+      },
+      {
+        "tick": 2,
+        "event": "resolve",
+        "attempt": 2,
+        "outcome": "commit",
+        "effects": 1
+      },
+      {
+        "tick": 2,
+        "event": "query",
+        "as_of": 2,
+        "observed_count": 1,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 2,
+        "event": "stop",
+        "reason": "confirmed",
+        "declared": 1,
+        "effects": 1
+      },
+      {
+        "tick": 8,
+        "event": "resolve",
+        "attempt": 1,
+        "outcome": "commit",
+        "effects": 2
+      },
+      {
+        "tick": 8,
+        "event": "final_audit",
+        "final_effects": 2
+      }
+    ]
+  },
+  {
+    "run": {
+      "case_id": "main-192",
+      "suite": "main",
+      "d1": 8,
+      "outcome1": "commit",
+      "d2": 1,
+      "outcome2": "commit",
+      "lag": 0,
+      "schedule": "every1",
+      "policy": "timeout8",
+      "server_mode": "append",
+      "retry_tick": "",
+      "stop_tick": 8,
+      "stop_reason": "confirmed",
+      "declared": 1,
+      "observed_count_at_stop": 1,
+      "effects_at_stop": 1,
+      "final_effects": 1,
+      "audit_tick": 8,
+      "duplicate": 0,
+      "clean_confirmed": 1,
+      "unsafe_completion": 0,
+      "detected_duplicate": 0,
+      "deadline_stop": 0,
+      "no_claim": 0,
+      "zero_effect": 0,
+      "one_effect_unconfirmed": 0,
+      "submit_calls": 1,
+      "query_calls": 8,
+      "capped_clean_time": 8
+    },
+    "events": [
+      {
+        "tick": 0,
+        "event": "submit",
+        "attempt": 1
+      },
+      {
+        "tick": 1,
+        "event": "query",
+        "as_of": 1,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 2,
+        "event": "query",
+        "as_of": 2,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 3,
+        "event": "query",
+        "as_of": 3,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 4,
+        "event": "query",
+        "as_of": 4,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 5,
+        "event": "query",
+        "as_of": 5,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 6,
+        "event": "query",
+        "as_of": 6,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 7,
+        "event": "query",
+        "as_of": 7,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 8,
+        "event": "resolve",
+        "attempt": 1,
+        "outcome": "commit",
+        "effects": 1
+      },
+      {
+        "tick": 8,
+        "event": "query",
+        "as_of": 8,
+        "observed_count": 1,
+        "first_attempt_state": "commit"
+      },
+      {
+        "tick": 8,
+        "event": "stop",
+        "reason": "confirmed",
+        "declared": 1,
+        "effects": 1
+      },
+      {
+        "tick": 8,
+        "event": "final_audit",
+        "final_effects": 1
+      }
+    ]
+  },
+  {
+    "run": {
+      "case_id": "main-192",
+      "suite": "main",
+      "d1": 8,
+      "outcome1": "commit",
+      "d2": 1,
+      "outcome2": "commit",
+      "lag": 0,
+      "schedule": "every1",
+      "policy": "bound12",
+      "server_mode": "append",
+      "retry_tick": "",
+      "stop_tick": 8,
+      "stop_reason": "confirmed",
+      "declared": 1,
+      "observed_count_at_stop": 1,
+      "effects_at_stop": 1,
+      "final_effects": 1,
+      "audit_tick": 8,
+      "duplicate": 0,
+      "clean_confirmed": 1,
+      "unsafe_completion": 0,
+      "detected_duplicate": 0,
+      "deadline_stop": 0,
+      "no_claim": 0,
+      "zero_effect": 0,
+      "one_effect_unconfirmed": 0,
+      "submit_calls": 1,
+      "query_calls": 8,
+      "capped_clean_time": 8
+    },
+    "events": [
+      {
+        "tick": 0,
+        "event": "submit",
+        "attempt": 1
+      },
+      {
+        "tick": 1,
+        "event": "query",
+        "as_of": 1,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 2,
+        "event": "query",
+        "as_of": 2,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 3,
+        "event": "query",
+        "as_of": 3,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 4,
+        "event": "query",
+        "as_of": 4,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 5,
+        "event": "query",
+        "as_of": 5,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 6,
+        "event": "query",
+        "as_of": 6,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 7,
+        "event": "query",
+        "as_of": 7,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 8,
+        "event": "resolve",
+        "attempt": 1,
+        "outcome": "commit",
+        "effects": 1
+      },
+      {
+        "tick": 8,
+        "event": "query",
+        "as_of": 8,
+        "observed_count": 1,
+        "first_attempt_state": "commit"
+      },
+      {
+        "tick": 8,
+        "event": "stop",
+        "reason": "confirmed",
+        "declared": 1,
+        "effects": 1
+      },
+      {
+        "tick": 8,
+        "event": "final_audit",
+        "final_effects": 1
+      }
+    ]
+  },
+  {
+    "run": {
+      "case_id": "main-192",
+      "suite": "main",
+      "d1": 8,
+      "outcome1": "commit",
+      "d2": 1,
+      "outcome2": "commit",
+      "lag": 0,
+      "schedule": "every1",
+      "policy": "terminal_retry",
+      "server_mode": "append",
+      "retry_tick": "",
+      "stop_tick": 8,
+      "stop_reason": "confirmed",
+      "declared": 1,
+      "observed_count_at_stop": 1,
+      "effects_at_stop": 1,
+      "final_effects": 1,
+      "audit_tick": 8,
+      "duplicate": 0,
+      "clean_confirmed": 1,
+      "unsafe_completion": 0,
+      "detected_duplicate": 0,
+      "deadline_stop": 0,
+      "no_claim": 0,
+      "zero_effect": 0,
+      "one_effect_unconfirmed": 0,
+      "submit_calls": 1,
+      "query_calls": 8,
+      "capped_clean_time": 8
+    },
+    "events": [
+      {
+        "tick": 0,
+        "event": "submit",
+        "attempt": 1
+      },
+      {
+        "tick": 1,
+        "event": "query",
+        "as_of": 1,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 2,
+        "event": "query",
+        "as_of": 2,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 3,
+        "event": "query",
+        "as_of": 3,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 4,
+        "event": "query",
+        "as_of": 4,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 5,
+        "event": "query",
+        "as_of": 5,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 6,
+        "event": "query",
+        "as_of": 6,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 7,
+        "event": "query",
+        "as_of": 7,
+        "observed_count": 0,
+        "first_attempt_state": "pending"
+      },
+      {
+        "tick": 8,
+        "event": "resolve",
+        "attempt": 1,
+        "outcome": "commit",
+        "effects": 1
+      },
+      {
+        "tick": 8,
+        "event": "query",
+        "as_of": 8,
+        "observed_count": 1,
+        "first_attempt_state": "commit"
+      },
+      {
+        "tick": 8,
+        "event": "stop",
+        "reason": "confirmed",
+        "declared": 1,
+        "effects": 1
+      },
+      {
+        "tick": 8,
+        "event": "final_audit",
+        "final_effects": 1
+      }
+    ]
+  }
+]

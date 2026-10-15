@@ -1,0 +1,86 @@
+{
+  "main_cases": 256,
+  "all_cases": 336,
+  "all_runs": 13440,
+  "main_runs": 10240,
+  "summary_rows": 120,
+  "H1_fresh_absence_duplicates_by_schedule": {
+    "every1": 12,
+    "every2": 8,
+    "every4": 4,
+    "backoff": 12
+  },
+  "H2_terminal_and_bound_duplicates": {
+    "terminal_retry": 0,
+    "bound12": 0
+  },
+  "H2_paired_main": [
+    {
+      "suite": "main",
+      "schedule": "every1",
+      "comparison": "terminal_retry minus bound12",
+      "cases": 256,
+      "jointly_clean": 192,
+      "clean_gain": 0,
+      "duplicate_delta": 0,
+      "paired_time_delta_sum": -416,
+      "paired_time_delta_mean": "-2.166666667"
+    },
+    {
+      "suite": "main",
+      "schedule": "every2",
+      "comparison": "terminal_retry minus bound12",
+      "cases": 256,
+      "jointly_clean": 192,
+      "clean_gain": 0,
+      "duplicate_delta": 0,
+      "paired_time_delta_sum": -392,
+      "paired_time_delta_mean": "-2.041666667"
+    },
+    {
+      "suite": "main",
+      "schedule": "every4",
+      "comparison": "terminal_retry minus bound12",
+      "cases": 256,
+      "jointly_clean": 192,
+      "clean_gain": 0,
+      "duplicate_delta": 0,
+      "paired_time_delta_sum": -320,
+      "paired_time_delta_mean": "-1.666666667"
+    },
+    {
+      "suite": "main",
+      "schedule": "backoff",
+      "comparison": "terminal_retry minus bound12",
+      "cases": 256,
+      "jointly_clean": 192,
+      "clean_gain": 0,
+      "duplicate_delta": 0,
+      "paired_time_delta_sum": -350,
+      "paired_time_delta_mean": "-1.822916667"
+    }
+  ],
+  "H3_absence_duplicates": {
+    "every1": 60,
+    "every2": 52,
+    "every4": 36,
+    "backoff": 60
+  },
+  "H4_stress_duplicates": {
+    "late_execution": {
+      "no_retry": 0,
+      "absence_retry": 16,
+      "timeout8": 16,
+      "bound12": 12,
+      "terminal_retry": 0
+    },
+    "stale_read": {
+      "no_retry": 0,
+      "absence_retry": 64,
+      "timeout8": 64,
+      "bound12": 16,
+      "terminal_retry": 0
+    }
+  },
+  "deduplication_duplicates_all_suites": 0
+}

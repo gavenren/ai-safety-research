@@ -1,0 +1,10 @@
+{
+  "saved_utc": "2026-10-15T16:20:00.770285+00:00",
+  "files": {
+    "analysis_plan.md": "a9e4107a17b0d823ee4dae9277c2c3ebc78654eb36673c94fa6a773f34c8cb4a",
+    "config.json": "6ccee517b9c5298ce5df50a4c889fcbf132582524c59c6454904e2f87f36cfcb"
+  },
+  "initial_plan_sha256": "8ecd34f28c40ad3fff0300f45b04736218a69121db18eda4d749bc6dbb06a1d7",
+  "amended_utc": "2026-10-15T16:20:52.836737+00:00",
+  "amendment": "Before implementation or analysis: observing count two stops with a detected duplicate and no completion claim. This avoids credit for an already visible duplicate. All input cases and hypotheses stay unchanged."
+}

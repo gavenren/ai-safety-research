@@ -1,0 +1,220 @@
+{
+  "status": "PASS",
+  "reviewer": "Separate Codex final-review agent; no human review",
+  "environment": {
+    "python": "3.13.7",
+    "system": "Darwin"
+  },
+  "commands": [
+    "python3 analyze.py > run_log.txt",
+    "python3 validate.py --input-dir . --output-dir . > validation_log.txt"
+  ],
+  "reproduction_scope": "Fresh directory with only the five listed inputs. No saved output was copied before the run. The commands used Python 3.13.7 from the saved local environment.",
+  "input_sha256": {
+    "analyze.py": "c1cfc01af9dbf019aaa41f06b6120ec4471e9b96b3e1bd129162bc597cd5bbad",
+    "validate.py": "bbebc6c6779753dbdda1375c55e676978ffa2459507e9f9da767ccbafb30d835",
+    "analysis_plan.md": "a9e4107a17b0d823ee4dae9277c2c3ebc78654eb36673c94fa6a773f34c8cb4a",
+    "config.json": "6ccee517b9c5298ce5df50a4c889fcbf132582524c59c6454904e2f87f36cfcb",
+    "input_manifest.json": "fd78c93b98b5738cc3fb5f3c5646d5c8e462bf0f56e60b36d8aac36d733f2981"
+  },
+  "report_sha256": "cd9407e6ded1f851c2545c98f6dd2d3e5cca3951d140abff35759b9efb7ae47c",
+  "files_compared": [
+    {
+      "file": "cases.csv",
+      "saved_sha256": "a55f86b11863263ff162feb183adb9f232057bc0639851fdeb962c9f8cde444f",
+      "rerun_sha256": "a55f86b11863263ff162feb183adb9f232057bc0639851fdeb962c9f8cde444f",
+      "exact_match": true
+    },
+    {
+      "file": "results_runs.csv",
+      "saved_sha256": "cab140b2f8c7559b700c29e101e0538c602eb977ea560f2484379b333c1b484e",
+      "rerun_sha256": "cab140b2f8c7559b700c29e101e0538c602eb977ea560f2484379b333c1b484e",
+      "exact_match": true
+    },
+    {
+      "file": "results_summary.csv",
+      "saved_sha256": "ecf4f407ee4a0d4cc646c77a6605557a271c0155967f2d754953983ce821a1ba",
+      "rerun_sha256": "ecf4f407ee4a0d4cc646c77a6605557a271c0155967f2d754953983ce821a1ba",
+      "exact_match": true
+    },
+    {
+      "file": "results_by_outcome.csv",
+      "saved_sha256": "cf55bac3df7b2370f495c521743228ac1cc2e2db8245f7bb76ed1ae0ab3758ef",
+      "rerun_sha256": "cf55bac3df7b2370f495c521743228ac1cc2e2db8245f7bb76ed1ae0ab3758ef",
+      "exact_match": true
+    },
+    {
+      "file": "results_by_lag.csv",
+      "saved_sha256": "9b887b8415453de9bdc353919a3865e9705562cd89ff7a6c07e891d1d06270cc",
+      "rerun_sha256": "9b887b8415453de9bdc353919a3865e9705562cd89ff7a6c07e891d1d06270cc",
+      "exact_match": true
+    },
+    {
+      "file": "results_paired.csv",
+      "saved_sha256": "0e710076f2dcb170d1d08c1b62ead9cfa258c9866a684accdbc00e71613d1fbb",
+      "rerun_sha256": "0e710076f2dcb170d1d08c1b62ead9cfa258c9866a684accdbc00e71613d1fbb",
+      "exact_match": true
+    },
+    {
+      "file": "traces.jsonl.gz",
+      "saved_sha256": "15ab625efed03aa8ccda76a35538384b95cd34d7a42f85879140ee49e6860603",
+      "rerun_sha256": "15ab625efed03aa8ccda76a35538384b95cd34d7a42f85879140ee49e6860603",
+      "exact_match": true
+    },
+    {
+      "file": "trace_examples.json",
+      "saved_sha256": "391e9afe4a8a8912a3219c2d4a7bfb7492e7ee7617af78adfdbdbf6d2573365b",
+      "rerun_sha256": "391e9afe4a8a8912a3219c2d4a7bfb7492e7ee7617af78adfdbdbf6d2573365b",
+      "exact_match": true
+    },
+    {
+      "file": "hypothesis_checks.json",
+      "saved_sha256": "4d75fcc6eb918b16b0940824fb93bbb97664f164cd75659f8395a432615c03e0",
+      "rerun_sha256": "4d75fcc6eb918b16b0940824fb93bbb97664f164cd75659f8395a432615c03e0",
+      "exact_match": true
+    },
+    {
+      "file": "environment.json",
+      "saved_sha256": "31e37a22652cc7d676e282f7e6691e73fc70535c86900fd8623c191b2a0b90a6",
+      "rerun_sha256": "31e37a22652cc7d676e282f7e6691e73fc70535c86900fd8623c191b2a0b90a6",
+      "exact_match": true
+    },
+    {
+      "file": "validation_results.json",
+      "saved_sha256": "ba8781cb20b18f45e7d03210c42f71f567aa3d806487f5c3219bb3f8b06c3daa",
+      "rerun_sha256": "ba8781cb20b18f45e7d03210c42f71f567aa3d806487f5c3219bb3f8b06c3daa",
+      "exact_match": true
+    },
+    {
+      "file": "run_log.txt",
+      "saved_sha256": "4d75fcc6eb918b16b0940824fb93bbb97664f164cd75659f8395a432615c03e0",
+      "rerun_sha256": "4d75fcc6eb918b16b0940824fb93bbb97664f164cd75659f8395a432615c03e0",
+      "exact_match": true
+    },
+    {
+      "file": "validation_log.txt",
+      "saved_sha256": "ba8781cb20b18f45e7d03210c42f71f567aa3d806487f5c3219bb3f8b06c3daa",
+      "rerun_sha256": "ba8781cb20b18f45e7d03210c42f71f567aa3d806487f5c3219bb3f8b06c3daa",
+      "exact_match": true
+    }
+  ],
+  "additional_version_check": {
+    "python": "3.14.7",
+    "system": "Darwin",
+    "status": "PASS",
+    "files_compared": [
+      {
+        "file": "cases.csv",
+        "saved_sha256": "a55f86b11863263ff162feb183adb9f232057bc0639851fdeb962c9f8cde444f",
+        "rerun_sha256": "a55f86b11863263ff162feb183adb9f232057bc0639851fdeb962c9f8cde444f",
+        "exact_match": true,
+        "json_field_differences": {}
+      },
+      {
+        "file": "results_runs.csv",
+        "saved_sha256": "cab140b2f8c7559b700c29e101e0538c602eb977ea560f2484379b333c1b484e",
+        "rerun_sha256": "cab140b2f8c7559b700c29e101e0538c602eb977ea560f2484379b333c1b484e",
+        "exact_match": true,
+        "json_field_differences": {}
+      },
+      {
+        "file": "results_summary.csv",
+        "saved_sha256": "ecf4f407ee4a0d4cc646c77a6605557a271c0155967f2d754953983ce821a1ba",
+        "rerun_sha256": "ecf4f407ee4a0d4cc646c77a6605557a271c0155967f2d754953983ce821a1ba",
+        "exact_match": true,
+        "json_field_differences": {}
+      },
+      {
+        "file": "results_by_outcome.csv",
+        "saved_sha256": "cf55bac3df7b2370f495c521743228ac1cc2e2db8245f7bb76ed1ae0ab3758ef",
+        "rerun_sha256": "cf55bac3df7b2370f495c521743228ac1cc2e2db8245f7bb76ed1ae0ab3758ef",
+        "exact_match": true,
+        "json_field_differences": {}
+      },
+      {
+        "file": "results_by_lag.csv",
+        "saved_sha256": "9b887b8415453de9bdc353919a3865e9705562cd89ff7a6c07e891d1d06270cc",
+        "rerun_sha256": "9b887b8415453de9bdc353919a3865e9705562cd89ff7a6c07e891d1d06270cc",
+        "exact_match": true,
+        "json_field_differences": {}
+      },
+      {
+        "file": "results_paired.csv",
+        "saved_sha256": "0e710076f2dcb170d1d08c1b62ead9cfa258c9866a684accdbc00e71613d1fbb",
+        "rerun_sha256": "0e710076f2dcb170d1d08c1b62ead9cfa258c9866a684accdbc00e71613d1fbb",
+        "exact_match": true,
+        "json_field_differences": {}
+      },
+      {
+        "file": "traces.jsonl.gz",
+        "saved_sha256": "15ab625efed03aa8ccda76a35538384b95cd34d7a42f85879140ee49e6860603",
+        "rerun_sha256": "15ab625efed03aa8ccda76a35538384b95cd34d7a42f85879140ee49e6860603",
+        "exact_match": true,
+        "json_field_differences": {}
+      },
+      {
+        "file": "trace_examples.json",
+        "saved_sha256": "391e9afe4a8a8912a3219c2d4a7bfb7492e7ee7617af78adfdbdbf6d2573365b",
+        "rerun_sha256": "391e9afe4a8a8912a3219c2d4a7bfb7492e7ee7617af78adfdbdbf6d2573365b",
+        "exact_match": true,
+        "json_field_differences": {}
+      },
+      {
+        "file": "hypothesis_checks.json",
+        "saved_sha256": "4d75fcc6eb918b16b0940824fb93bbb97664f164cd75659f8395a432615c03e0",
+        "rerun_sha256": "4d75fcc6eb918b16b0940824fb93bbb97664f164cd75659f8395a432615c03e0",
+        "exact_match": true,
+        "json_field_differences": {}
+      },
+      {
+        "file": "environment.json",
+        "saved_sha256": "31e37a22652cc7d676e282f7e6691e73fc70535c86900fd8623c191b2a0b90a6",
+        "rerun_sha256": "e64bfaf42ef6edb0d17b6ef073ebc1ff92906a19314f886d851b4b55a373cf76",
+        "exact_match": false,
+        "json_field_differences": {
+          "python": {
+            "saved": "3.13.7",
+            "rerun": "3.14.7"
+          }
+        }
+      },
+      {
+        "file": "validation_results.json",
+        "saved_sha256": "ba8781cb20b18f45e7d03210c42f71f567aa3d806487f5c3219bb3f8b06c3daa",
+        "rerun_sha256": "affdf85603b8c9a3a88cb2c31501204086324bd6f9fa5a6d462dd682e0902b3b",
+        "exact_match": false,
+        "json_field_differences": {
+          "python_version": {
+            "saved": "3.13.7",
+            "rerun": "3.14.7"
+          }
+        }
+      },
+      {
+        "file": "run_log.txt",
+        "saved_sha256": "4d75fcc6eb918b16b0940824fb93bbb97664f164cd75659f8395a432615c03e0",
+        "rerun_sha256": "4d75fcc6eb918b16b0940824fb93bbb97664f164cd75659f8395a432615c03e0",
+        "exact_match": true,
+        "json_field_differences": {}
+      },
+      {
+        "file": "validation_log.txt",
+        "saved_sha256": "ba8781cb20b18f45e7d03210c42f71f567aa3d806487f5c3219bb3f8b06c3daa",
+        "rerun_sha256": "affdf85603b8c9a3a88cb2c31501204086324bd6f9fa5a6d462dd682e0902b3b",
+        "exact_match": false,
+        "json_field_differences": {
+          "python_version": {
+            "saved": "3.13.7",
+            "rerun": "3.14.7"
+          }
+        }
+      }
+    ],
+    "interpretation": "All numerical output bytes match. Only three version-bearing files differ; each difference is the Python version field."
+  },
+  "limitations": [
+    "This check repeats the constructed finite model. It does not test a browser, AI model, or real service.",
+    "Environment bytes can change with another Python version or operating system.",
+    "Figure and PDF presentation checks are separate."
+  ]
+}

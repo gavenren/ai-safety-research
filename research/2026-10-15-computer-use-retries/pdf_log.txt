@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "source_sha256": "cd9407e6ded1f851c2545c98f6dd2d3e5cca3951d140abff35759b9efb7ae47c",
+  "pdf_sha256": "1cdbf9c33991d7d1a3c5d184dba8ba342d2b2b700a1aeeb58d7eb37cd5aaa4de",
+  "pages": 8,
+  "source_text_chunks_checked": 192,
+  "missing_text_chunks": [],
+  "table_count": 4,
+  "figure_count": 1,
+  "external_link_annotations": 15,
+  "visual_review": "PENDING: render and inspect every page before release",
+  "deterministic_rebuild": "PENDING: compare two builds before release",
+  "privacy": "Public build records omit local absolute paths."
+}
+
+Final review: PASS. All 8 rendered pages inspected by a separate Codex agent. No human review.
+Text coverage: all 192 source chunks passed.
+Deterministic rebuild: PASS. PDF SHA-256 1cdbf9c33991d7d1a3c5d184dba8ba342d2b2b700a1aeeb58d7eb37cd5aaa4de
+Font license check: PASS. All 5 embedded font subsets retain copyright and license text. FONT_LICENSE.txt preserves the installed font license notice. No PDF change was needed.

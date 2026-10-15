@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-15",
+  "attempt_delays": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "outcomes": [
+    "commit",
+    "drop"
+  ],
+  "read_lags": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "deadline": 24,
+  "execution_bound": 8,
+  "lag_bound": 4,
+  "policies": [
+    "no_retry",
+    "absence_retry",
+    "timeout8",
+    "bound12",
+    "terminal_retry"
+  ],
+  "server_modes": [
+    "append",
+    "deduplicate"
+  ],
+  "schedules": {
+    "every1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "every2": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "every4": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+    ],
+    "backoff": [
+      1,
+      2,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+    ]
+  },
+  "stress_suites": {
+    "late_execution": {
+      "attempt_delays": [
+        12
+      ],
+      "read_lags": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    "stale_read": {
+      "attempt_delays": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "read_lags": [
+        8
+      ]
+    }
+  },
+  "created_utc": "2026-10-15T16:20:00.681153+00:00"
+}

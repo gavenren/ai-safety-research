@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "validator_method": "Direct event-time thresholds; no import of analyze.py",
+  "python_version": "3.13.7",
+  "rows_checked": 13440,
+  "scenario_count": 336,
+  "field_comparisons": 255360,
+  "rows_by_suite": {
+    "late_execution": 640,
+    "main": 10240,
+    "stale_read": 2560
+  },
+  "matched_server_pairs": 6720,
+  "traces_checked": 13440,
+  "trace_events_checked": 167520,
+  "post_stop_resolution_events_checked": 676,
+  "trace_examples_checked": 5,
+  "summary_tables_checked": {
+    "results_summary.csv": {
+      "rows": 120,
+      "field_comparisons": 3000
+    },
+    "results_by_outcome.csv": {
+      "rows": 240,
+      "field_comparisons": 6000
+    },
+    "results_by_lag.csv": {
+      "rows": 360,
+      "field_comparisons": 9000
+    }
+  },
+  "paired_rows_checked": 48,
+  "hypothesis_checks": {
+    "hypothesis_fields_checked": 11,
+    "H3_every1_vs_every4": {
+      "neither_duplicate": 196,
+      "both_duplicate": 36,
+      "every1_only_duplicate": 24,
+      "every4_only_duplicate": 0,
+      "total_paired_cases": 256
+    }
+  },
+  "policy_checks": {
+    "bounded_rule_safe_inside_contract": 2048,
+    "no_retry_or_terminal_safe_all_suites": 5376,
+    "resolution_at_timeout_is_seen_before_retry": 256,
+    "terminal_retry_requires_visible_drop": 1344
+  },
+  "exact_local_ambiguity_cases": 21,
+  "input_sha256": {
+    "config.json": "6ccee517b9c5298ce5df50a4c889fcbf132582524c59c6454904e2f87f36cfcb",
+    "results_runs.csv": "cab140b2f8c7559b700c29e101e0538c602eb977ea560f2484379b333c1b484e",
+    "traces.jsonl.gz": "15ab625efed03aa8ccda76a35538384b95cd34d7a42f85879140ee49e6860603",
+    "results_summary.csv": "ecf4f407ee4a0d4cc646c77a6605557a271c0155967f2d754953983ce821a1ba",
+    "results_by_outcome.csv": "cf55bac3df7b2370f495c521743228ac1cc2e2db8245f7bb76ed1ae0ab3758ef",
+    "results_by_lag.csv": "9b887b8415453de9bdc353919a3865e9705562cd89ff7a6c07e891d1d06270cc",
+    "results_paired.csv": "0e710076f2dcb170d1d08c1b62ead9cfa258c9866a684accdbc00e71613d1fbb",
+    "trace_examples.json": "391e9afe4a8a8912a3219c2d4a7bfb7492e7ee7617af78adfdbdbf6d2573365b",
+    "cases.csv": "a55f86b11863263ff162feb183adb9f232057bc0639851fdeb962c9f8cde444f",
+    "hypothesis_checks.json": "4d75fcc6eb918b16b0940824fb93bbb97664f164cd75659f8395a432615c03e0"
+  },
+  "numeric_tolerance": "None. All checked row fields are exact integers or labels.",
+  "limits": "This check validates the synthetic model. It does not validate a real service contract or a population error rate."
+}

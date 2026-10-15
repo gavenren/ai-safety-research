@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "source_sha256": "cd9407e6ded1f851c2545c98f6dd2d3e5cca3951d140abff35759b9efb7ae47c",
+  "pdf_sha256": "1cdbf9c33991d7d1a3c5d184dba8ba342d2b2b700a1aeeb58d7eb37cd5aaa4de",
+  "pages": 8,
+  "source_text_chunks_checked": 192,
+  "missing_text_chunks": [],
+  "table_count": 4,
+  "figure_count": 1,
+  "external_link_annotations": 15,
+  "link_targets": [
+    "https://arxiv.org/html/2608.01710v1",
+    "https://arxiv.org/html/2609.40284v1",
+    "https://exzilcalanza.info/wp-content/uploads/2026/08/rstackbench-browser-agent-reliability-preprint.pdf",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/README.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/derivations.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/final_review.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/input_manifest.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/method_review.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/references.bib",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/source_search.md",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/trace_examples.json",
+    "https://github.com/gavenren/ai-safety-research/blob/main/research/2026-10-15-computer-use-retries/validation_results.json",
+    "https://neurips.cc/public/guides/PaperChecklist",
+    "https://web.stanford.edu/~ouster/cgi-bin/papers/rifl.pdf",
+    "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2"
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "reviewer": "Separate Codex PDF agent",
+    "human_review": false,
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "render_engine": "Poppler pdftoppm 26.05.0",
+    "resolution_dpi": 120,
+    "findings": "All eight pages were inspected. No clipped text, overlapping content, missing glyphs, table overflow, or hidden chart labels were found. Short tables stay intact. The full-size figure and caption stay together."
+  },
+  "deterministic_rebuild": {
+    "status": "PASS",
+    "first_sha256": "1cdbf9c33991d7d1a3c5d184dba8ba342d2b2b700a1aeeb58d7eb37cd5aaa4de",
+    "second_sha256": "1cdbf9c33991d7d1a3c5d184dba8ba342d2b2b700a1aeeb58d7eb37cd5aaa4de",
+    "scope": "Same runtime, fonts, report, and figure"
+  },
+  "privacy": "Public build records omit local absolute paths.",
+  "source_figure_sha256": "8dfc26bca2d1a871bcd3a6f48bd30bc9a014cd7ebee92a8291f0c7ea9ef2a0a5",
+  "build_script_sha256": "634b0101c9292a56c4fee4c774cf02fa71f1aa93e3c4968a81d8006152ad5c56",
+  "repairs": [
+    "The first text check treated a running page header as part of a paragraph that crossed a page break. The extractor now removes only the known running header and footer before the comparison. No source text changed.",
+    "Short tables are kept intact to avoid a table continuation with one row."
+  ],
+  "font_license_check": {
+    "status": "PASS",
+    "source": "Installed DejaVu font name tables and bundled LibreOffice LICENSE, section Deja Vu",
+    "font_version": "2.37",
+    "font_subsets_checked": 5,
+    "embedded_name_records": "All five subsets retain copyright, version, and license text.",
+    "notice": "FONT_LICENSE.txt",
+    "notice_sha256": "f5ce292c50ebcc57a0337215f0d8c378dcd4d8bb41d8a88e38ad639500f06fe8",
+    "pdf_changed": false
+  }
+}

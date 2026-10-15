@@ -1,0 +1,9 @@
+{
+  "python": "3.13.7",
+  "implementation": "CPython",
+  "system": "Darwin",
+  "dependencies": "Python standard library",
+  "random_sampling": false,
+  "model_experiments": false,
+  "timing_unit": "synthetic integer tick"
+}
