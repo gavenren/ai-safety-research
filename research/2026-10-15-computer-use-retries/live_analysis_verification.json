@@ -1,0 +1,28 @@
+{
+  "assigned_rows_checked": 60,
+  "independent_all_view_controls_passed": 21,
+  "independent_snapshot_counts_checked": 302,
+  "independent_totals": {
+    "clean_confirmed": 29,
+    "duplicate": 10,
+    "late_decisions": 0,
+    "lost_on_reload": 0,
+    "post_reload_zero": 10,
+    "retries": 16,
+    "unresolved_decisions": 31
+  },
+  "output_sha256": {
+    "live_analysis_environment.json": "bbb6ea2556e0b32de83f0da77b17aa6d063ef30916a8627a31732a3d81ad361f",
+    "live_analysis_log.txt": "b35e546d78a6a225f156864413d99f8e22c01e4d3a8a3b3c2ca811f2ca3d576d",
+    "live_pairs.csv": "cea868c9f08696b5520fcc1d68f2bdebc7d5ded0fcdb6620ff637bf3547920a0",
+    "live_results.csv": "011a822de72d2504e4efc319042aef85f29f8daf49c12d80fcedd91740b121ab",
+    "live_summary.json": "4d1cd293b5e3b594217315de2131aa0ea144de7191f58b407114969e0d71273b"
+  },
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "raw_trial_reconstructions_checked": 60,
+  "reproduction": "All five output files are byte-identical on a fresh rerun.",
+  "rule_pairs_checked": 120,
+  "scope": "Saved live inputs only. No new browser experiment or synthetic trial result was made.",
+  "status": "PASS",
+  "validator_sha256": "b2d0ae36dafcb017b0f889d35a66a494b5932d6911f36ade0a0bf233f7d72179"
+}

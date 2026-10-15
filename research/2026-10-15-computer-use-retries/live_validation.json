@@ -1,0 +1,446 @@
+{
+  "cells": [
+    {
+      "clean": 3,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "absence",
+      "runner": "P",
+      "trials": [
+        "P03",
+        "P12",
+        "P29"
+      ],
+      "view": "All",
+      "zero": 0
+    },
+    {
+      "clean": 3,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "closure",
+      "runner": "P",
+      "trials": [
+        "P07",
+        "P16",
+        "P23"
+      ],
+      "view": "All",
+      "zero": 0
+    },
+    {
+      "clean": 3,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "no_retry",
+      "runner": "P",
+      "trials": [
+        "P01",
+        "P20",
+        "P27"
+      ],
+      "view": "All",
+      "zero": 0
+    },
+    {
+      "clean": 3,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "scope",
+      "runner": "P",
+      "trials": [
+        "P09",
+        "P18",
+        "P25"
+      ],
+      "view": "All",
+      "zero": 0
+    },
+    {
+      "clean": 3,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "timeout24",
+      "runner": "P",
+      "trials": [
+        "P05",
+        "P14",
+        "P21"
+      ],
+      "view": "All",
+      "zero": 0
+    },
+    {
+      "clean": 0,
+      "duplicate": 3,
+      "retries": 3,
+      "rule": "absence",
+      "runner": "P",
+      "trials": [
+        "P04",
+        "P11",
+        "P30"
+      ],
+      "view": "Completed",
+      "zero": 0
+    },
+    {
+      "clean": 0,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "closure",
+      "runner": "P",
+      "trials": [
+        "P08",
+        "P15",
+        "P24"
+      ],
+      "view": "Completed",
+      "zero": 0
+    },
+    {
+      "clean": 0,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "no_retry",
+      "runner": "P",
+      "trials": [
+        "P02",
+        "P19",
+        "P28"
+      ],
+      "view": "Completed",
+      "zero": 0
+    },
+    {
+      "clean": 3,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "scope",
+      "runner": "P",
+      "trials": [
+        "P10",
+        "P17",
+        "P26"
+      ],
+      "view": "Completed",
+      "zero": 0
+    },
+    {
+      "clean": 0,
+      "duplicate": 3,
+      "retries": 3,
+      "rule": "timeout24",
+      "runner": "P",
+      "trials": [
+        "P06",
+        "P13",
+        "P22"
+      ],
+      "view": "Completed",
+      "zero": 0
+    },
+    {
+      "clean": 3,
+      "duplicate": 0,
+      "retries": 2,
+      "rule": "absence",
+      "runner": "T",
+      "trials": [
+        "T03",
+        "T12",
+        "T29"
+      ],
+      "view": "All",
+      "zero": 0
+    },
+    {
+      "clean": 2,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "closure",
+      "runner": "T",
+      "trials": [
+        "T07",
+        "T16",
+        "T23"
+      ],
+      "view": "All",
+      "zero": 1
+    },
+    {
+      "clean": 1,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "no_retry",
+      "runner": "T",
+      "trials": [
+        "T01",
+        "T20",
+        "T27"
+      ],
+      "view": "All",
+      "zero": 2
+    },
+    {
+      "clean": 1,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "scope",
+      "runner": "T",
+      "trials": [
+        "T09",
+        "T18",
+        "T25"
+      ],
+      "view": "All",
+      "zero": 2
+    },
+    {
+      "clean": 3,
+      "duplicate": 0,
+      "retries": 2,
+      "rule": "timeout24",
+      "runner": "T",
+      "trials": [
+        "T05",
+        "T14",
+        "T21"
+      ],
+      "view": "All",
+      "zero": 0
+    },
+    {
+      "clean": 0,
+      "duplicate": 2,
+      "retries": 3,
+      "rule": "absence",
+      "runner": "T",
+      "trials": [
+        "T04",
+        "T11",
+        "T30"
+      ],
+      "view": "Completed",
+      "zero": 0
+    },
+    {
+      "clean": 0,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "closure",
+      "runner": "T",
+      "trials": [
+        "T08",
+        "T15",
+        "T24"
+      ],
+      "view": "Completed",
+      "zero": 2
+    },
+    {
+      "clean": 0,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "no_retry",
+      "runner": "T",
+      "trials": [
+        "T02",
+        "T19",
+        "T28"
+      ],
+      "view": "Completed",
+      "zero": 1
+    },
+    {
+      "clean": 1,
+      "duplicate": 0,
+      "retries": 0,
+      "rule": "scope",
+      "runner": "T",
+      "trials": [
+        "T10",
+        "T17",
+        "T26"
+      ],
+      "view": "Completed",
+      "zero": 2
+    },
+    {
+      "clean": 0,
+      "duplicate": 2,
+      "retries": 3,
+      "rule": "timeout24",
+      "runner": "T",
+      "trials": [
+        "T06",
+        "T13",
+        "T22"
+      ],
+      "view": "Completed",
+      "zero": 0
+    }
+  ],
+  "checked_records": {
+    "P": {
+      "events": 234,
+      "results": 30,
+      "scored_actions": 228
+    },
+    "T": {
+      "events": 207,
+      "results": 30,
+      "scored_actions": 200
+    }
+  },
+  "checks_passed": 7199,
+  "checks_total": 7199,
+  "errors": [],
+  "event_types": {
+    "P": {
+      "audit_all": 30,
+      "audit_reload": 30,
+      "audit_screenshot": 30,
+      "initial_submit": 30,
+      "model_decision": 30,
+      "model_retry_choice": 6,
+      "path_metadata_normalization": 1,
+      "prepare_reload": 31,
+      "prepare_view_All": 16,
+      "prepare_view_Completed": 15,
+      "retry_submit": 6,
+      "scope_all": 3,
+      "startup_failure_record": 1,
+      "startup_log_context_correction": 1,
+      "startup_ready": 1,
+      "timeout_observe": 3
+    },
+    "T": {
+      "audit_all": 30,
+      "audit_reload": 30,
+      "audit_screenshot": 30,
+      "clock_check": 1,
+      "decision": 30,
+      "diagnostic_correction": 1,
+      "initial_submit": 30,
+      "prepare_reload_select_view": 30,
+      "retry_submit": 10,
+      "runner_complete": 1,
+      "scope_all": 5,
+      "setup_error": 2,
+      "setup_error_retrospective": 1,
+      "startup_warmup_check": 1,
+      "timeout24_observe": 5
+    }
+  },
+  "fresh_copy_comparison": {
+    "output_files_equal": {
+      "live_pairs.csv": true,
+      "live_results.csv": true,
+      "live_summary.json": true
+    },
+    "requested": true,
+    "returncode": 0,
+    "status": "PASS"
+  },
+  "independent_code": true,
+  "initial_input_retains_token_trials": [
+    "T02",
+    "T03",
+    "T08",
+    "T09",
+    "T11",
+    "T12",
+    "T13",
+    "T14",
+    "T15",
+    "T16",
+    "T17",
+    "T18",
+    "T20",
+    "T21",
+    "T26",
+    "T27"
+  ],
+  "input_sha256": {
+    "live_assignments.csv": "47e8a02d2c47a69f257383720c3d76c84084ba6e5ed6dd2ecec4cd781e60aedf",
+    "live_pairs.csv": "cea868c9f08696b5520fcc1d68f2bdebc7d5ded0fcdb6620ff637bf3547920a0",
+    "live_plan.md": "4dcda5aefdab781f57c994c7d8865ad289fbd6e5d69cd1b8d7cc77d1a792fe43",
+    "live_results.csv": "011a822de72d2504e4efc319042aef85f29f8daf49c12d80fcedd91740b121ab",
+    "live_runner_P_actions.jsonl": "1c5abeaaa61c5fef31ee01029eb3482169c5960d2a9bc5dc2e8091eaaba78192",
+    "live_runner_P_results.json": "dc44e5bce2bcc567262a806e914a64ffbe44187bac237f5d19ae8ad2e671bbc4",
+    "live_runner_T_actions.jsonl": "bdaaa490126c99dc7ec8988e63d5a27f3723ed8eed9cdb824d55a28b897cfeae",
+    "live_runner_T_results.json": "3539005b924d560484ddd36afb716a2d2916744bb74e9f610c73992fd10ff9cd",
+    "live_summary.json": "4d1cd293b5e3b594217315de2131aa0ea144de7191f58b407114969e0d71273b"
+  },
+  "metadata_notes": [
+    {
+      "initial_clock_gap_ms": 1,
+      "trial_id": "T02"
+    },
+    {
+      "initial_clock_gap_ms": 1,
+      "trial_id": "T05"
+    },
+    {
+      "initial_clock_gap_ms": 1,
+      "trial_id": "T11"
+    }
+  ],
+  "observations_recounted": 302,
+  "paired_comparisons_checked": 120,
+  "status": "PASS",
+  "summary": {
+    "P": {
+      "All_controls_pass": 15,
+      "clean_confirmed": 18,
+      "count_changed_on_reload": 0,
+      "duplicates": 6,
+      "late": 0,
+      "max_admission_seconds": 351.92,
+      "max_decision_seconds": 36.514,
+      "one_after_reload": 24,
+      "retries": 6,
+      "trials": 30,
+      "unresolved": 12,
+      "zero_after_reload": 0
+    },
+    "T": {
+      "All_controls_pass": 6,
+      "clean_confirmed": 11,
+      "count_changed_on_reload": 0,
+      "duplicates": 4,
+      "late": 0,
+      "max_admission_seconds": 436.044,
+      "max_decision_seconds": 44.431,
+      "one_after_reload": 16,
+      "retries": 10,
+      "trials": 30,
+      "unresolved": 19,
+      "zero_after_reload": 10
+    },
+    "both": {
+      "All_controls_pass": 21,
+      "clean_confirmed": 29,
+      "count_changed_on_reload": 0,
+      "duplicates": 10,
+      "late": 0,
+      "max_admission_seconds": 436.044,
+      "max_decision_seconds": 44.431,
+      "one_after_reload": 40,
+      "retries": 16,
+      "trials": 60,
+      "unresolved": 31,
+      "zero_after_reload": 10
+    }
+  },
+  "validator_python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "validator_sha256": "2ea74123cd5f0a37cc113562e052abbfd5b6d85113095631f66ce5026599b9e5",
+  "warnings": [
+    "The saved records show rendered UI observations. They are not a complete tool transcript, so they cannot prove the absence of hidden reads.",
+    "The T clock_check record uses T01 while its correction identifies T06. It is a diagnostic, not a browser action.",
+    "The saved preflight file is a manual summary. Its raw preliminary observations are not in this package.",
+    "Final screenshots show the All audit view. All 60 full task lists were checked in a separate AI image review. They do not prove the earlier decision view or action order.",
+    "PASS means the saved data checks passed. Failed control trials remain study results. This file does not certify final paper text or human review."
+  ]
+}

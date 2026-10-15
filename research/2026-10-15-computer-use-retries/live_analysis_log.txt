@@ -1,0 +1,10 @@
+Live evidence analysis
+Assigned rows: 60
+Pair comparisons: 120
+Validation: PASS_WITH_WARNINGS
+No browser or network access occurred. All missing trials remain in the results.
+All time measures include model and tool work. They are not website latency.
+{"code": "diagnostic_clock_record_excluded", "detail": "live_runner_T_actions.jsonl:38: clock-only record; a later correction identifies its stale trial label.", "severity": "warning"}
+{"code": "initial_submit_clock_read_difference", "detail": "Raw action start minus result start: 0.001 seconds.", "severity": "warning", "trial_id": "T02"}
+{"code": "initial_submit_clock_read_difference", "detail": "Raw action start minus result start: 0.001 seconds.", "severity": "warning", "trial_id": "T05"}
+{"code": "initial_submit_clock_read_difference", "detail": "Raw action start minus result start: 0.001 seconds.", "severity": "warning", "trial_id": "T11"}

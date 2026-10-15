@@ -1,0 +1,19 @@
+{
+  "analyzer_sha256": "3792913be28a7ca3f4bad9cd34f81c8cd1c91a83dd0316c82ba4f476e695d986",
+  "command": "python3 live_analyze.py",
+  "dependencies": "Python standard library only",
+  "implementation": "CPython",
+  "input_hashes": {
+    "live_assignments.csv": "47e8a02d2c47a69f257383720c3d76c84084ba6e5ed6dd2ecec4cd781e60aedf",
+    "live_plan.md": "4dcda5aefdab781f57c994c7d8865ad289fbd6e5d69cd1b8d7cc77d1a792fe43",
+    "live_plan_manifest.json": "fe73c266e983368d8fa2a2463b27fcc84c2616a04b7c831f9daba309cf599c89",
+    "live_preflight.md": "97150290b9a405d470430579376608c5885c74f511bf93360f5703ddc62a9b86",
+    "live_runner_P_actions.jsonl": "1c5abeaaa61c5fef31ee01029eb3482169c5960d2a9bc5dc2e8091eaaba78192",
+    "live_runner_P_results.json": "dc44e5bce2bcc567262a806e914a64ffbe44187bac237f5d19ae8ad2e671bbc4",
+    "live_runner_T_actions.jsonl": "bdaaa490126c99dc7ec8988e63d5a27f3723ed8eed9cdb824d55a28b897cfeae",
+    "live_runner_T_results.json": "3539005b924d560484ddd36afb716a2d2916744bb74e9f610c73992fd10ff9cd"
+  },
+  "network_or_browser_access": false,
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]"
+}

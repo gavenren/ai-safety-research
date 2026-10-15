@@ -2,9 +2,24 @@
 
 This is a separate user-requested paper dated October 15, 2026. It is not a second daily automation study.
 
-Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark and a later real-agent browser pilot. The local task tests instructed retry rules with real browser actions and stored writes. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
+Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, and a later 60-trial experiment on two live public test sites. The local task tests instructed retry rules with real browser actions and stored writes. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
 
 Codex generated this work. Separate agents checked the design, sources, calculations, reproduction, and PDF. No human or external peer review occurred. No new reuse license is assigned.
+
+## Analyze the saved live-site evidence
+
+Use a separate copy of this folder. The analyzer uses Python's standard library and does not make model or browser calls.
+
+```sh
+python3 live_analyze.py --input-dir . --output-dir live-output
+python3 live_validate.py --fresh-copy
+```
+
+It reads all 60 assignments and the two runner logs. It writes a full trial table, grouped counts, matched comparisons, and analysis checks. See live_summary.json and live_review.md for the saved result and independent review. A final count means a task was retained in this browser at the reload audit. It does not mean server durability.
+
+To repeat the browser test, read live_plan.md and live_runner_instructions.md. Use the same two hosted implementations and a new unique token prefix. Use one browser tab and model context per origin. Keep each model decision outside any scripted loop. Save the full observations, action times, decisions, errors, and screenshots. Do not replace failures. The live apps, service timing, and exact model version can change, so a new run need not reproduce the same trajectories. The saved action evidence permits analysis without a new run.
+
+The fixed procedures use All and Completed views. Only Scope changes to All before its decision. Thus this is a comparison of supplied procedures, not a free-choice agent benchmark. Two related public test apps do not establish production safety. The live plan was amended after failed feasibility checks and before scored actions. Both plan versions and the failures remain in the package. No external preregistration is claimed.
 
 ## Analyze the saved browser evidence
 
@@ -86,3 +101,5 @@ This command reads report.md and the PNG figure. It writes paper.pdf and checks 
 The first published version was a synthetic study. Its numerical evidence remains unchanged. simulation_final_review.md, simulation_release_checks.json, simulation_pdf_check.json, and reproduction_check.json refer to that version. Their old report or PDF hashes are historical records. final_review.md and the browser review files describe the extension. package_manifest.json lists current package hashes.
 
 The pilot tests a real agent in a constructed local browser application. It is not a public-web or pixel-only benchmark. Two contexts share one host and browser service. The rules are supplied by prompt, so these are not natural error rates. Truthful terminal status is a constructed app capability. The finite case counts are not field error rates. Synthetic and browser results must remain separate.
+
+The live-site extension keeps all original simulation and local browser data unchanged. local_browser_final_review.md, local_browser_release_checks.json, local_browser_pdf_check.json, browser_review.md, and browser_reproduction_check.json refer to the earlier 18-trial paper. Their report/PDF/index hashes are historical. live_review.md, live_validation.json, release_checks.json, pdf_check.json, and package_manifest.json apply to the current version.

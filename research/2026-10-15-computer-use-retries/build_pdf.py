@@ -276,7 +276,7 @@ def main():
     rl_config.invariant = 1
     doc = PaperDoc(str(BASE / "paper.pdf"), pagesize=A4, leftMargin=MARGIN, rightMargin=MARGIN,
                    topMargin=47, bottomMargin=49, title=source_title, author="Codex (AI-generated study)",
-                   subject="A reproducible formal event-model study and controlled real-agent browser pilot. No human review.",
+                   subject="A formal event-model study, local browser pilot, and live test-site retry experiment. No human review.",
                    creator="build_pdf.py with ReportLab", pageCompression=1)
     story, checks, table_count, figure_count = build_story(source, style_set())
     doc.build(story, onFirstPage=page_marks, onLaterPages=page_marks)

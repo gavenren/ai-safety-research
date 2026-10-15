@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-10-15T17:32:20.026709+00:00",
+  "raw_source_sha256": {
+    "runner_T/actions.jsonl": "bdaaa490126c99dc7ec8988e63d5a27f3723ed8eed9cdb824d55a28b897cfeae",
+    "runner_T/results.json": "3539005b924d560484ddd36afb716a2d2916744bb74e9f610c73992fd10ff9cd",
+    "runner_P/actions.jsonl": "1c5abeaaa61c5fef31ee01029eb3482169c5960d2a9bc5dc2e8091eaaba78192",
+    "runner_P/results.json": "dc44e5bce2bcc567262a806e914a64ffbe44187bac237f5d19ae8ad2e671bbc4"
+  },
+  "sha256": {
+    "live_runner_T_actions.jsonl": "bdaaa490126c99dc7ec8988e63d5a27f3723ed8eed9cdb824d55a28b897cfeae",
+    "live_runner_T_results.json": "3539005b924d560484ddd36afb716a2d2916744bb74e9f610c73992fd10ff9cd",
+    "live_runner_P_actions.jsonl": "1c5abeaaa61c5fef31ee01029eb3482169c5960d2a9bc5dc2e8091eaaba78192",
+    "live_runner_P_results.json": "dc44e5bce2bcc567262a806e914a64ffbe44187bac237f5d19ae8ad2e671bbc4",
+    "live_screenshots.zip": "9abffd479a80f0f935e7aae356cbf2bc73e1af66ef04103718d435cf37bfa865"
+  },
+  "screenshots": 60,
+  "scope": "Actual UI records and audit screenshots; no hidden app state or server audit. Preliminary warm-up record is a manual summary."
+}

@@ -1,20 +1,19 @@
-# When a fresh screen is not enough: safe retry timing for computer-use agents
+# When a fresh screen is not enough: retry timing and view scope for computer-use agents
 
 Date: 2026-10-15 (America/Toronto).  
-Research type: formal analysis, exhaustive synthetic event study, and controlled real-agent browser pilot.  
-Codex generated this paper, code, and analysis. No human or external peer review occurred. The added pilot tests real agent decisions in a local browser task.
+Research type: formal analysis, exhaustive synthetic event study, controlled local browser pilot, and live test-site experiment.  
+Codex generated this paper, code, and analysis. No human or external peer review occurred. The browser studies test real agent actions under supplied rules. The latest extension uses two external public test sites.
 
 ## Abstract
 
-Computer-use systems can repeat an action when its result is not visible. A current empty read does not show that an earlier action can no longer take effect. We compare retry rules in two separate studies. The finite synthetic study covers 336 constructed cases and 13,440 runs. In its main 256-case append grid, first-empty retry creates 60 duplicates with checks every tick, versus 36 with checks every four ticks. Truthful terminal status and a conservative timing bound both produce zero duplicates and 192 clean confirmations. The terminal rule reduces matched synthetic mean time from 9.500 to 7.333 ticks. A later pilot uses two real Codex agent contexts in Chrome for 18 controlled local trials. Absence retry creates four duplicates in six trials. Terminal and a 24-second timeout each create zero duplicates and five clean on-time claims in six trials. One terminal claim is late. The four clean timing pairs include two faster and two slower terminal trials; they do not establish a general browser speed gain. All four browser duplicate claims occur after two records already exist. No browser effect occurs after stopping. The contribution is a repeatable comparison that separates read freshness, execution closure, claim timing, and final effects. It applies established systems principles. The browser task is constructed, and its counts are not field error rates.
-
+Computer-use agents can repeat an action when its result is not visible. We compare supplied retry rules in three separate studies. An exhaustive event model covers 336 cases and 13,440 runs. In its main append grid, first-empty retry creates 60 duplicates with checks every tick. Truthful terminal status and an adequate timing bound each create none. An 18-trial local browser pilot then produces four duplicates under absence retry and none under terminal status or a 24-second bound. It does not show a general browser speed gain. The new extension runs 60 trials on two live public TodoMVC test sites. A Completed view hides active tasks by design. In that view, immediate absence retry and a 24-second wait each produce duplicates in five of six trials. A rule that checks the All view produces no duplicates and four clean confirmations in six trials; Closure confirms none in that view. The All-view control fails in nine of 30 trials, and ten trials finish with no task after reload. These failures prevent a general task-success claim. The contribution is reproducible evidence that read freshness, view scope, execution closure, and confirmed completion are separate properties. The live sites use browser storage and supplied procedures. These results are not production error rates or a new general retry protocol.
 ## 1. Research question and contribution
 
 An agent clicks a button. The next observation shows no new item. Should the agent click again? This question applies to any action that creates an additional record when repeated. A **non-idempotent action** can change the intended result when it is repeated. An **idempotent action** has the same intended effect when repeated [5].
 
 We ask how the completion delay of an earlier action and the delay of an observation affect retry safety, confirmed completion, and observation cost. **Execution closure** means that an earlier attempt can no longer create a future effect. A current read and execution closure are different properties.
 
-The contribution of this paper is its specific test design and full comparison. We combine pending writes, delayed negative reads, observation schedules, and post-stop effect checks. We include a conservative no-retry control, an adequate fixed-bound baseline, and a matched server-deduplication control. We publish every event trace, including writes that finish after the controller stops. This contribution is a small synthetic benchmark, interface audit, and controlled browser pilot. It is not a new exactly-once protocol, learned agent, or general theorem. The limited source search cannot prove that this is the first such comparison.
+The contribution of this paper is its specific test design and full comparison. We combine pending writes, delayed negative reads, observation schedules, and post-stop effect checks. We include a conservative no-retry control, an adequate fixed-bound baseline, and a matched server-deduplication control. We publish every event trace, including writes that finish after the controller stops. This contribution is a small synthetic benchmark, interface audit, local browser pilot, and live test-site comparison. It is not a new exactly-once protocol, learned agent, or general theorem. The limited source search cannot prove that this is the first such comparison.
 
 Reliable completion matters because an extra record can be harmful even when the original task eventually succeeds. Faster tools are useful only if the controller interprets their observations correctly. We therefore keep duplicate prevention, useful completion, delay, and call count separate.
 
@@ -29,6 +28,8 @@ CapLease studies repeated agent proposals after uncertain execution. It uses dur
 RIFL already treats lost results and duplicate execution as systems problems. Its browser example discusses uncertain outcomes and recognition of prior effects. HTTP Semantics also limits automatic retries of non-idempotent requests. These sources establish that absence of a visible result is not a general retry guarantee [4,5].
 
 The original source record contains 15 exact queries, read sections, versions, access limits, and additional related work. The browser extension adds two queries and a new check of the closest sources. RStackBench already reports a small model planning pilot; real-agent execution alone is not a new research idea [7]. See [source_search.md](source_search.md), [browser_source_search.md](browser_source_search.md), and [references.bib](references.bib). The study does not claim that waiting, verification, durable status, or duplicate suppression is new.
+
+WebVoyager already evaluates agents on live websites [8]. WAREX tests infrastructure faults on browser benchmarks [9]. The new experiment uses normal list filters on two hosted versions of TodoMVC. It tests the scope of the evidence used by a supplied retry rule. It does not reproduce either benchmark. The TodoMVC specification defines task creation, filters, and browser storage [10]. Microsoft uses its hosted TodoMVC demo in its test generator guide [11]. See [live_source_search.md](live_source_search.md) for the added search and source limits.
 
 ## 3. Method
 
@@ -215,15 +216,92 @@ The full trial table, all six pairs, and evidence checks are in [browser_results
 
 
 
-## 7. Computer-use interface implications
+## 7. Live test-site experiment: check the scope of a view
+
+### 7.1 Question, plan, and site selection
+
+A **view scope** is the set of records that a page can show under its current filters. A Completed task view excludes active tasks by design. Its empty result can be current and correct even after an active task was created. This cause differs from the delayed writes and old snapshots in Sections 3 and 6.
+
+The question is whether a fresh check or a 24-second wait prevents duplicate entries under an incomplete view. A second question asks whether changing to the All view can confirm one task without a retry. The contribution is a saved small comparison of supplied procedures. Checking filters and reconciling records are established ideas; the experiment is not a new general retry protocol.
+
+The fixed design assigns 60 trials: two hosted implementations, two starting views, five rules, and three repeat blocks. The sites are [official KnockoutJS TodoMVC](https://todomvc.com/examples/knockoutjs/) and [Microsoft's TodoMVC demo](https://demo.playwright.dev/todomvc/). They are external live websites built for tests. They implement one related workflow. They are not two independent production application domains.
+
+The initial plan was saved before warm-up. The final plan was amended before all scored trials. UI Testing Playground failed a certificate check and was excluded. The official React and Vue apps each showed a warm-up item that disappeared after reload. KnockoutJS had an initial input action with no created row, then passed a separate warm-up. The Microsoft demo also passed its reload check. These failed setup checks remain in [live_preflight.md](live_preflight.md). Site selection therefore favors apps that passed a small feasibility check. The amended plan and hash record are [live_plan.md](live_plan.md) and [live_plan_manifest.json](live_plan_manifest.json). These are local records, not external preregistration.
+
+### 7.2 Procedures and measures
+
+Each task requests exactly one active item with a unique token. One agent context uses each origin in one active write tab. The browser is reloaded before each trial, and the view is set to All or Completed. The token must have no visible match before submission. The fixed assignment file uses a cyclic rule order and alternating view order across three blocks. There is no random sampling. The two contexts share the host and browser service.
+
+| Rule | Procedure after a fresh zero-match view |
+| --- | --- |
+| No retry | Stop unresolved without another submission. |
+| Absence | Submit the same token once more, inspect, and stop. |
+| Wait24 | Inspect at or after 24 seconds; retry once only if still zero. |
+| Closure | Retry only after an attempt-specific guarantee of no future effect; otherwise stop unresolved. |
+| Scope | Select All and inspect again. Confirm one match. Without a match or a closure signal, stop unresolved. |
+
+The 24 seconds are a chosen heuristic. They are not a proved bound for either website. Neither app provides the required terminal-failure signal. Closure and No retry therefore have the same permitted retry behavior here. This is not a test of successful terminal-failure recovery.
+
+Only Scope can change the filter during its decision phase. All controls are visible to every rule. This tests prescribed procedures with different evidence use. An unconstrained agent could already inspect the filter, and need not make the mistakes that Absence is instructed to make. The 60-second decision deadline starts with the initial submit request. At most one retry is allowed. Each runner has a 20-minute trial admission budget. No failed or late trial is replaced.
+
+The runner stops with success only when it observes exactly one matching visible task. The later audit selects All, counts exact token matches, reloads, and counts again. It checks that the task remains active. An audit cannot repair the earlier decision. A **clean confirmed success** requires an on-time success decision and exactly one active task after reload. A **duplicate** means two or more matching task entries after reload. Pre-reload duplicates, reload loss, unresolved decisions, errors, and rule deviations are separate measures.
+
+The observations come from rendered page content and accessibility information through the supported browser tool. The test is not pixel-only. The audit uses the same UI and browser service; it is not an independent server audit. Reload survival means retention in this browser at that check. It does not prove server storage or indefinite durability. The runners were instructed not to read app source, storage APIs, or hidden browser state. This was an instruction boundary, not a secure access boundary. Source inspection by a separate design reviewer did not supply task outcomes.
+
+The saved plan defines three directional checks: more duplicates for Absence and Wait24 in Completed view; more clean confirmations for Scope than Closure on both sites; and All-view success without retries as a positive control. Report all cells rather than a population significance claim. Repeated tasks in two related apps do not justify field error rates or independent-trial confidence intervals. Measured time includes model, tool, and host delay. Timing comparisons are descriptive and exploratory.
+
+### 7.3 Results
+
+All 60 assigned trials started, stopped, and received both audits. There were 29 clean confirmed successes and 31 unresolved decisions. The final audits found 40 single-task outcomes, 10 duplicate outcomes, and 10 zero-task outcomes. All matching tasks were active. The counts before and after reload agreed in every scored trial. Thus the ten zero outcomes were not observed losses across reload: each was already zero in the full-list audit before reload.
+
+| Rule | View | Trials | Clean confirmed | Duplicates | No task | Retries |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| No retry | All | 6 | 4 | 0 | 2 | 0 |
+| No retry | Completed | 6 | 0 | 0 | 1 | 0 |
+| Absence | All | 6 | 6 | 0 | 0 | 2 |
+| Absence | Completed | 6 | 0 | 5 | 0 | 6 |
+| Wait24 | All | 6 | 6 | 0 | 0 | 2 |
+| Wait24 | Completed | 6 | 0 | 5 | 0 | 6 |
+| Closure | All | 6 | 5 | 0 | 1 | 0 |
+| Closure | Completed | 6 | 0 | 0 | 2 | 0 |
+| Scope | All | 6 | 4 | 0 | 2 | 0 |
+| Scope | Completed | 6 | 4 | 0 | 2 | 0 |
+
+No task means zero matching task entries after reload. A single item found only by the audit does not count as a clean confirmation. Of the 31 unresolved decisions, 11 had one task, 10 had two tasks, and 10 had no task. All ten duplicate trials stopped unresolved while the Completed view still hid both active items. No success decision had a duplicate or zero final audit count.
+
+The Microsoft demo had 18 clean confirmations, six duplicate outcomes, and no zero-task outcomes in 30 trials. KnockoutJS had 11 clean confirmations, four duplicate outcomes, and ten zero-task outcomes in 30 trials. Its input still contained the token after 16 initial submission actions. Six of these trials later had one task after their permitted retry; ten had none. The logs show input text retention and missing task rows. They do not isolate a cause in the application, input event path, or tool. No claim of a lost server write follows from this observation.
+
+H1 met its saved direction on both sites. In Completed view, Absence and Wait24 each created three duplicates in three Microsoft trials and two in three KnockoutJS trials. Closure and Scope created none. A 24-second wait did not remove the effect of the filter.
+
+H2 also met its direction on both sites. In Completed view, Scope made three clean confirmations in three Microsoft trials and one in three KnockoutJS trials. Closure made none on either site. The two remaining Scope trials had no task before or after reload and stopped unresolved. The scope check confirmed an existing task; it did not recover those missing submissions.
+
+H3 did not meet its criterion. Only 21 of 30 All-view trials confirmed a new task without a retry. All nine failures of this control occurred on KnockoutJS. Four later recovered with their permitted retry, so the All-view group had 25 clean confirmations in total. The other five ended with no task. This failed control limits a causal comparison of overall success counts across rules and sites.
+
+There were 16 retries: eight under Absence and eight under Wait24. Every retry had an eligible empty observation. The analyzer found no scored tool error, policy deviation, or late decision. The largest decision interval was 44.431 seconds. These are wall times through the model and browser service, not website latency. The study does not claim that Scope is faster or that Wait24 is an efficient timeout.
+
+Both runners had setup errors when they tried to use tabs owned by the parent session. They then opened their own tabs before scoring. Three T result records have a start time one millisecond before the action log's start time, from two clock reads. A diagnostic clock record during T06 had a stale T01 label; its later correction remains in the raw log. The analyzer excludes that clock-only record from trial actions. It keeps both start times and obtains the same result for all 60 deadline checks and all eight Wait24 checks under either time. No raw record was removed or rewritten to hide a failed test.
+
+The package retains 302 scored UI observations, 428 scored action records, and 60 audit screenshots. An action record can contain several deterministic tool operations; it is not a token count or model-call count. The installed Chrome app version was 155.0.8059.40 on macOS. The exact immutable model build and provider inference hardware were unavailable. See [live_results.csv](live_results.csv), [live_summary.json](live_summary.json), [live_pairs.csv](live_pairs.csv), and [live_environment.json](live_environment.json).
+
+
+### 7.4 Interpretation
+
+The live test adds a distinct boundary to the earlier timing result. A current empty list does not prove absence if its filter excludes the requested record. Waiting longer does not change that scope. In the tested Completed view, a full-list check confirmed four existing tasks without a repeat submission. This is the supported improvement.
+
+The scope rule was not uniformly successful: it had four zero-task outcomes across both views. The failed All controls show why a reliable create action must also be checked. The experiment does not identify the cause of the input failures. A future study can separate input delivery, page readiness, and task creation, with the checks fixed before data collection.
+
+These results concern two related hosted test apps and instructed procedures. They do not show that a free-choice agent would ignore an obvious Completed filter. They do not test a server transaction, an uncertain network commit, or a production terminal-status service. Closure and No retry have the same available retry actions here, so their small difference in clean counts cannot establish a benefit of terminal status. Keep these results separate from the local delayed-write pilot and the synthetic event model.
+
+
+## 8. Computer-use interface implications
 
 The results support a concrete interface requirement: distinguish an unresolved attempt from a terminal failure with no future effect. A timeout, unchanged screen, or current empty record list is not that failure signal. Where the application supports it, bind status to the specific attempt and keep that identity across recovery.
 
 A controller should retain pending actions after its own wait ends. It should use a documented terminal signal, a valid execution-and-visibility bound, or a server-enforced idempotency contract before a repeat action. If none is available, the outcome remains unresolved. Waiting or asking for review has an availability cost; it does not prove failure.
 
-An evaluator should also let admitted actions finish after the agent stops. In this grid, that step exposes 56 unsafe early claims for every-tick absence retry. A test that checks only the visible count at stop can award success before a duplicate appears. The browser late claim also shows why a deadline should be checked at claim receipt. A snapshot timestamp can be valid while the later claim is too late. These recommendations apply known systems reasoning to computer-use interfaces. The controlled browser pilot tests the same distinction with real requests and writes. Public-web tasks and broader model comparisons remain future work.
+An evaluator should also let admitted actions finish after the agent stops. In this grid, that step exposes 56 unsafe early claims for every-tick absence retry. A test that checks only the visible count at stop can award success before a duplicate appears. The browser late claim also shows why a deadline should be checked at claim receipt. A snapshot timestamp can be valid while the later claim is too late. These recommendations apply known systems reasoning to computer-use interfaces. The controlled browser pilot tests the same distinction with real requests and writes. The live test-site extension adds view scope as a separate requirement. Before an absence check can support a decision, the controller must check record identity, filters, and search coverage. A full-list match can confirm an existing effect; it still cannot prove closure of an absent pending write. Production workflows and broader model comparisons remain future work.
 
-## 8. Limitations
+## 9. Limitations
 
 The main grid runs a finite event model. Its tick values are chosen; its call costs and delays are not measured on a service. The browser extension uses real model decisions, requests, timers, and stored writes, but its task and fault conditions are constructed. The grid weights are artificial. Real applications can have unbounded delays, rollback, partial writes, status loss, incorrect status, changing caches, and multiple writers.
 
@@ -231,23 +309,25 @@ The terminal rule assumes a truthful, durable, attempt-specific drop record. Som
 
 Only one retry and one logical item are modeled. There is no crash recovery, concurrent controller, permission change, authentication failure, or imperfect action identity. Ideal deduplication is a control, not a tested implementation. The deadline is fixed, query duration is zero, and the schedules are not learned or optimized. Neither the finite cases nor the proof justify a safety certification or field error estimate.
 
-The same cases are disclosed to the policy designers. The browser runners did not receive the condition configuration, but each received a prescribed policy. This does not measure natural retry behavior. There are only two contexts, one machine, one browser service, and one simple local task. Repeated trials share context within each runner. Tool and model delay can remove an intended negative-state exposure before a check occurs. The exact model build and service timing are not available. No held-out public-web task supports general transfer. Further work should test more agents, richer applications, and permitted real workflows.
+The same cases are disclosed to the policy designers. The browser runners did not receive the condition configuration, but each received a prescribed policy. This does not measure natural retry behavior. There are only two contexts, one machine, one browser service, and one simple local task. Repeated trials share context within each runner. Tool and model delay can remove an intended negative-state exposure before a check occurs. The exact model build and service timing are not available. The live extension adds two public test sites, with one shared task design and prescribed filters. The apps were selected after feasibility checks. It does not supply a held-out production benchmark. Further work should test more agents, richer applications, and permitted production workflows.
 
-## 9. Ethics, rights, and AI use
+## 10. Ethics, rights, and AI use
 
-The study can help prevent duplicate records and premature completion claims. It contains no harmful prompts, exploit steps, private records, account data, or real transactions. None of the experiment sends messages or changes an external account. GitHub publication is a separate authorized action, not experimental evidence.
+The study can help prevent duplicate records and premature completion claims. It contains no harmful prompts, exploit steps, private records, account data, or real transactions. No experiment sends messages or changes a private external account. The live tests create small synthetic task entries in browser storage on public test apps. They do not make purchases or create server account records. GitHub publication is a separate authorized action, not experimental evidence.
 
-Codex generated the plan, implementations, calculations, figure, and paper. Two separate Codex contexts performed the browser trials. Other Codex agents checked sources, design, calculations, and reproduction. AI review is not human or external peer review. No human review, university affiliation, endorsement, or certification is claimed. The browser pilot used real model inference through the existing Codex service. No model training, separate paid API, or new paid compute service was used.
+Codex generated the plan, implementations, calculations, figure, and paper. Two separate Codex contexts performed the local browser pilot, and two later contexts performed the live test-site trials. Other Codex agents checked sources, design, calculations, and reproduction. AI review is not human or external peer review. No human review, university affiliation, endorsement, or certification is claimed. The browser pilot used real model inference through the existing Codex service. No model training, separate paid API, or new paid compute service was used.
 
-All input cases and local browser tasks are newly constructed. No source paper, benchmark task, dataset, code, or figure is redistributed. Sources retain their rights. No new license is assigned to this work. The paper uses original prose and cites the related methods.
+All synthetic input cases and local browser tasks are newly constructed. The live extension uses existing TodoMVC test apps and new synthetic task tokens. Its screenshots and rendered UI logs retain source attribution. No third-party application code, paper, dataset, or figure is redistributed. Sources retain their rights. No new license is assigned to this work. The paper uses original prose and cites the related methods.
 
-## 10. Checks and reproduction
+## 11. Checks and reproduction
 
 The main implementation advances the environment one tick at a time. The independent validator uses direct event-time thresholds and does not import the analyzer. It checked all 13,440 run rows, 167,520 trace events, 676 post-stop resolutions, 6,720 matched server pairs, all grouped result tables, and 48 paired comparisons. All checked integer and label fields match exactly. See [method_review.md](method_review.md) and [validation_results.json](validation_results.json).
 
 The browser analyzer reads the frozen SQLite database and audit independently of the application code. It checks event, snapshot, stop, and stored-row identities before it computes outcomes. Its author also reviewed the design, so a fresh reviewer separately checks the final evidence. See [browser_review.md](browser_review.md) and [browser_reproduction_check.json](browser_reproduction_check.json). The action logs and screenshots support the observed interaction sequence; they do not reveal internal model reasoning.
 
 Run the documented commands in [README.md](README.md). The package includes the saved plan, cases, complete compressed traces, readable examples, summaries, code, dependency versions, logs, proofs, source record, and agent reviews. Relevant parts of the NeurIPS checklist were used to review claims, assumptions, reproduction, limits, rights, and AI use [6]. This is not a conference submission or approval claim. See [final_review.md](final_review.md) for the final reproduction outcome.
+
+The live analysis reads the saved action logs and assignment file. A separate reviewer checks its output against the recorded UI states. See [live_review.md](live_review.md) and [live_validation.json](live_validation.json). Exact trajectories cannot be repeated because the hosted apps and model/tool timing can change. Saved evidence permits a local result check without a new browser run.
 
 ## References
 
@@ -259,3 +339,8 @@ Run the documented commands in [README.md](README.md). The package includes the 
 6. NeurIPS. *Paper Checklist Guidelines*. Accessed October 15, 2026. [Review aid](https://neurips.cc/public/guides/PaperChecklist).
 
 7. Calanza, E. (2026). *Measuring the Gap Between Visible UI Success and Persisted State in Browser Agents*. Author report, August 14. [Source](https://exzilcalanza.info/rstackbench-browser-agent-reliability/).
+
+8. He, H., Yao, W., Ma, K., Yu, W., Dai, Y., Zhang, H., Lan, Z., and Yu, D. (2024). *WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models*. ACL 2024, pages 6864-6890. [Paper](https://aclanthology.org/2024.acl-long.371/).
+9. Kara, S., Faisal, F., and Nath, S. (2025). *WAREX: Web Agent Reliability Evaluation on Existing Benchmarks*. arXiv:2510.03285v1, September 28. Preprint. [Paper](https://arxiv.org/html/2510.03285v1).
+10. TodoMVC contributors. *Application Specification*. Accessed October 15, 2026. [Specification](https://github.com/tastejs/todomvc/blob/master/app-spec.md).
+11. Microsoft. *Test generator*. Playwright documentation. Accessed October 15, 2026. [Guide](https://playwright.dev/docs/codegen).

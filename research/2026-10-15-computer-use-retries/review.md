@@ -1,15 +1,17 @@
-# Review checklist for the browser extension
+# Review checklist for the live website extension
 
-The NeurIPS Paper Checklist was used as a review aid. This is not a claim of conference approval, submission compliance, or certification. The original synthetic review is preserved in simulation_review.md.
+The NeurIPS Paper Checklist was used as a review aid. This is not a claim of conference approval, submission compliance, or certification. The original reviews and evidence remain in this folder.
 
 | Review item | Evidence and limit |
 | --- | --- |
-| Claims and contribution | The report separates a finite event model from an 18-trial real-agent browser pilot. It does not claim a new retry principle, first priority, a general speed gain, or field failure rates. |
-| Method and assumptions | Saved browser plan, configuration, application hash, assigned policies, order, limits, and actual timer data are retained. Structured truthful status is a constructed application capability. |
-| Reproduction | Original numerical outputs keep their prior hashes. The browser analyzer reads frozen SQLite and JSON evidence. A new model trajectory need not repeat byte for byte. |
-| Uncertainty and selection | All 18 assigned trials remain. Two unresolved stops, one late claim, four duplicates, and zero post-stop effects are reported. Two repetitions per cell do not justify population confidence intervals. All six timing pairs are shown. |
-| Data access and leakage | Runner prompts withhold condition values and forbid hidden-state access. Logs contain task actions and visible states, not tool code or model-turn boundaries. Instruction-based separation is not secure isolation. |
-| Resources and versions | The server, browser-reported version, Python versions, and available agent identity are recorded. Exact model snapshot and service latency parts are unavailable. Existing Codex inference was used; no separate paid API or new paid compute service was started. |
-| Ethics and rights | Only a local constructed task creates records. No external transaction is an experiment outcome. No private task record or copied source asset is included. No new license is assigned. |
-| Provenance and review | Codex generated the work and performed the browser trials. Agent review is stated. No human or external peer review is claimed. |
-| Presentation and checks | Current PDF layout and text checks are in pdf_check.json. Independent evidence checks are in browser_review.md and browser_reproduction_check.json. Release checks and remote verification are separate. |
+| Claims and contribution | The report separates 13,440 simulation runs, an 18-trial local pilot, and 60 live-site trials. The new contribution is a bounded empirical check of observation scope. No new retry protocol, priority, general speed gain, or field failure rate is claimed. |
+| Method and assumptions | Both plan versions, feasibility checks, assigned rules, views, order, stopping criteria, logs, and failures are saved. The amended plan preceded scored actions. Local hashes are not external preregistration. |
+| Reproduction | live_analyze.py uses frozen UI evidence. The separate live_validate.py passes 7,199 checks. A fresh analysis gives identical output. Exact future browser trajectories can differ. |
+| Uncertainty and selection | All 60 trials remain. The report states 10 duplicate outcomes, 10 zero-task outcomes, and nine failed All controls. Fixed repeated tests on two related apps do not support population error intervals. |
+| Access and leakage | Runners were instructed to use visible UI. This was not secure isolation. Logs do not prove every model-turn boundary or absence of hidden access. |
+| Time and versions | Wall time includes model and tool delays. The 24-second rule is a heuristic. Four metadata warnings remain and do not change classifications. Browser and Python versions are recorded. Exact model build is unavailable. |
+| Resources | The test used existing Codex and browser services. No separate paid API or new paid compute service was started. Provider compute and token counts were not available. |
+| Ethics and rights | Unique test tasks were created on public demo apps. No production account transaction was used. No source app code or paper was copied into the package. Public UI evidence is attributed. No new license is assigned. Font notices remain. |
+| Provenance and review | Codex generated the work and ran the browser trials. Separate AI agents checked the analysis, images, and PDF. No human or external peer review occurred. |
+| Presentation | All 60 final images agree with the result counts. All 15 PDF pages pass visual review. Text coverage and a deterministic PDF rebuild pass. |
+| Publication | Local checks do not prove publication. Verify remote main-branch file hashes after upload. |

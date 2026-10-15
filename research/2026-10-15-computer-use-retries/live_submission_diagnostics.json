@@ -1,0 +1,402 @@
+[
+  {
+    "trial_id": "T01",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:23:33.828Z",
+    "after_utc": "2026-10-15T17:23:33.888Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T02",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:23:45.667Z",
+    "after_utc": "2026-10-15T17:23:45.709Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T02"
+    ]
+  },
+  {
+    "trial_id": "T03",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:24:01.606Z",
+    "after_utc": "2026-10-15T17:24:01.660Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T03"
+    ]
+  },
+  {
+    "trial_id": "T03",
+    "action": "retry_submit",
+    "before_utc": "2026-10-15T17:24:05.421Z",
+    "after_utc": "2026-10-15T17:24:05.467Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T04",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:24:19.342Z",
+    "after_utc": "2026-10-15T17:24:19.396Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T04",
+    "action": "retry_submit",
+    "before_utc": "2026-10-15T17:24:21.313Z",
+    "after_utc": "2026-10-15T17:24:21.358Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T05",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:24:27.357Z",
+    "after_utc": "2026-10-15T17:24:27.420Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T06",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:24:34.310Z",
+    "after_utc": "2026-10-15T17:24:34.364Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T06",
+    "action": "retry_submit",
+    "before_utc": "2026-10-15T17:25:03.699Z",
+    "after_utc": "2026-10-15T17:25:03.757Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T07",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:25:17.895Z",
+    "after_utc": "2026-10-15T17:25:17.955Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T08",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:25:22.992Z",
+    "after_utc": "2026-10-15T17:25:23.050Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T08"
+    ]
+  },
+  {
+    "trial_id": "T09",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:25:32.737Z",
+    "after_utc": "2026-10-15T17:25:32.793Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T09"
+    ]
+  },
+  {
+    "trial_id": "T10",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:25:43.709Z",
+    "after_utc": "2026-10-15T17:25:43.759Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T11",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:25:57.194Z",
+    "after_utc": "2026-10-15T17:25:57.246Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T11"
+    ]
+  },
+  {
+    "trial_id": "T11",
+    "action": "retry_submit",
+    "before_utc": "2026-10-15T17:25:59.391Z",
+    "after_utc": "2026-10-15T17:25:59.432Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T12",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:26:05.141Z",
+    "after_utc": "2026-10-15T17:26:05.200Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T12"
+    ]
+  },
+  {
+    "trial_id": "T12",
+    "action": "retry_submit",
+    "before_utc": "2026-10-15T17:26:06.907Z",
+    "after_utc": "2026-10-15T17:26:06.967Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T13",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:26:14.071Z",
+    "after_utc": "2026-10-15T17:26:14.124Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T13"
+    ]
+  },
+  {
+    "trial_id": "T13",
+    "action": "retry_submit",
+    "before_utc": "2026-10-15T17:26:45.608Z",
+    "after_utc": "2026-10-15T17:26:45.658Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T14",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:27:03.477Z",
+    "after_utc": "2026-10-15T17:27:03.540Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T14"
+    ]
+  },
+  {
+    "trial_id": "T14",
+    "action": "retry_submit",
+    "before_utc": "2026-10-15T17:27:35.557Z",
+    "after_utc": "2026-10-15T17:27:35.616Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T15",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:27:40.813Z",
+    "after_utc": "2026-10-15T17:27:40.863Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T15"
+    ]
+  },
+  {
+    "trial_id": "T16",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:27:47.781Z",
+    "after_utc": "2026-10-15T17:27:47.841Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T16"
+    ]
+  },
+  {
+    "trial_id": "T17",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:27:54.160Z",
+    "after_utc": "2026-10-15T17:27:54.201Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T17"
+    ]
+  },
+  {
+    "trial_id": "T18",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:28:05.978Z",
+    "after_utc": "2026-10-15T17:28:06.031Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T18"
+    ]
+  },
+  {
+    "trial_id": "T19",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:28:14.481Z",
+    "after_utc": "2026-10-15T17:28:14.533Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T20",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:28:22.589Z",
+    "after_utc": "2026-10-15T17:28:22.633Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T20"
+    ]
+  },
+  {
+    "trial_id": "T21",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:28:34.493Z",
+    "after_utc": "2026-10-15T17:28:34.547Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T21"
+    ]
+  },
+  {
+    "trial_id": "T21",
+    "action": "retry_submit",
+    "before_utc": "2026-10-15T17:29:03.702Z",
+    "after_utc": "2026-10-15T17:29:03.760Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T22",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:29:15.893Z",
+    "after_utc": "2026-10-15T17:29:15.945Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T22",
+    "action": "retry_submit",
+    "before_utc": "2026-10-15T17:29:48.783Z",
+    "after_utc": "2026-10-15T17:29:48.860Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T23",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:29:56.274Z",
+    "after_utc": "2026-10-15T17:29:56.337Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T24",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:30:03.884Z",
+    "after_utc": "2026-10-15T17:30:03.945Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T25",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:30:10.890Z",
+    "after_utc": "2026-10-15T17:30:10.947Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T26",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:30:18.031Z",
+    "after_utc": "2026-10-15T17:30:18.080Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T26"
+    ]
+  },
+  {
+    "trial_id": "T27",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:30:27.762Z",
+    "after_utc": "2026-10-15T17:30:27.821Z",
+    "input_retains_token": true,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]: RETRY-20261015-T27"
+    ]
+  },
+  {
+    "trial_id": "T28",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:30:33.922Z",
+    "after_utc": "2026-10-15T17:30:33.974Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T29",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:30:40.921Z",
+    "after_utc": "2026-10-15T17:30:40.980Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T30",
+    "action": "initial_submit",
+    "before_utc": "2026-10-15T17:30:48.347Z",
+    "after_utc": "2026-10-15T17:30:48.400Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  },
+  {
+    "trial_id": "T30",
+    "action": "retry_submit",
+    "before_utc": "2026-10-15T17:30:52.814Z",
+    "after_utc": "2026-10-15T17:30:52.865Z",
+    "input_retains_token": false,
+    "input_lines": [
+      "- textbox \"What needs to be done?\" [active]"
+    ]
+  }
+]

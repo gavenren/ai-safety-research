@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-10-15T17:30:10.381501+00:00",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "chrome_installed_version": "155.0.8059.40",
+  "chrome_version_source": "Installed app Info.plist; browser trial UI used Chrome ID 1",
+  "agent": "Codex GPT-6-family contexts; exact immutable build unavailable",
+  "runner_contexts": 2,
+  "browser_service_shared": true,
+  "trial_interface": "Supported CUA browser actions and rendered DOM/accessibility observations",
+  "model_training": false,
+  "separate_paid_API_calls": false,
+  "random_sampling": false,
+  "site_storage": "Visible task retention after reload; hidden browser storage never read by trial procedure",
+  "compute_limits": "Local browser and existing Codex service. Provider inference hardware, tokens and exact compute not exposed."
+}

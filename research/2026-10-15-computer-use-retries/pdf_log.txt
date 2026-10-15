@@ -1,56 +1,14 @@
 {
   "status": "PASS",
-  "source_sha256": "dfac57c142a8379363610e036b362798b70515e0d2bbdf07720e86a327562d75",
-  "pdf_sha256": "cfdd43fe92c9f1b05e60bc1550acfad73849b2d153d3cd9fd0d741301cffbdf6",
-  "pages": 11,
-  "source_text_chunks_checked": 296,
+  "source_sha256": "19140e255cf75751d0f77ea0dafe2626bd7582ba5816bb6f5f231bb30ff0845c",
+  "pdf_sha256": "982db46171211bc69ce0cf9f73645b9263ed27feae31e7202806510e28788b53",
+  "pages": 15,
+  "source_text_chunks_checked": 418,
   "missing_text_chunks": [],
-  "table_count": 7,
+  "table_count": 9,
   "figure_count": 1,
-  "external_link_annotations": 26,
-  "visual_review": {
-    "status": "PASS",
-    "reviewer": "Separate Codex PDF agent",
-    "human_review": false,
-    "pages_inspected": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11
-    ],
-    "render_engine": "Poppler pdftoppm 26.05.0",
-    "resolution_dpi": 120,
-    "findings": "All 11 pages were inspected. No clipped text, overlapping content, missing glyphs, table overflow, or hidden chart labels were found. All seven tables stay intact. The full-size figure and caption stay together. All seven references are present."
-  },
-  "deterministic_rebuild": {
-    "status": "PASS",
-    "first_sha256": "cfdd43fe92c9f1b05e60bc1550acfad73849b2d153d3cd9fd0d741301cffbdf6",
-    "second_sha256": "cfdd43fe92c9f1b05e60bc1550acfad73849b2d153d3cd9fd0d741301cffbdf6",
-    "scope": "Same runtime, fonts, report, figure, and build script"
-  },
-  "privacy": "PASS: Extracted text, metadata, and link targets contain no local absolute paths or secret patterns. Public build records omit local absolute paths.",
-  "source_figure_sha256": "8dfc26bca2d1a871bcd3a6f48bd30bc9a014cd7ebee92a8291f0c7ea9ef2a0a5",
-  "build_script_sha256": "6b147cbf21722658bce20da3c649fbc150727c854064a34cd50950c7a401c616",
-  "repairs": [
-    "The extractor removes the known running header and footer before it checks source text. No source text changed.",
-    "Short tables are kept intact to prevent a table continuation with one row.",
-    "The PDF subject metadata now identifies the formal event-model study and controlled real-agent browser pilot."
-  ],
-  "font_license_check": {
-    "status": "PASS",
-    "source": "Installed DejaVu font name tables and bundled LibreOffice LICENSE, section Deja Vu",
-    "font_version": "2.37",
-    "font_subsets_checked": 5,
-    "embedded_name_records": "All five subsets retain copyright, version, and license text.",
-    "notice": "FONT_LICENSE.txt",
-    "notice_sha256": "f5ce292c50ebcc57a0337215f0d8c378dcd4d8bb41d8a88e38ad639500f06fe8",
-    "pdf_changed": false
-  }
+  "external_link_annotations": 42,
+  "visual_review": "PENDING: render and inspect every page before release",
+  "deterministic_rebuild": "PENDING: compare two builds before release",
+  "privacy": "Public build records omit local absolute paths."
 }

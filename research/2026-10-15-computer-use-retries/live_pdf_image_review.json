@@ -1,0 +1,45 @@
+{
+  "review_date": "2026-10-15",
+  "status": "passed_visual_review",
+  "pdf_path": "outputs/2026-10-15-computer-use-real-web/paper.pdf",
+  "pdf_sha256": "982db46171211bc69ce0cf9f73645b9263ed27feae31e7202806510e28788b53",
+  "page_count": 15,
+  "page_list": [
+    "work/2026-10-15-real-web/pdf_pages/page-01.png",
+    "work/2026-10-15-real-web/pdf_pages/page-02.png",
+    "work/2026-10-15-real-web/pdf_pages/page-03.png",
+    "work/2026-10-15-real-web/pdf_pages/page-04.png",
+    "work/2026-10-15-real-web/pdf_pages/page-05.png",
+    "work/2026-10-15-real-web/pdf_pages/page-06.png",
+    "work/2026-10-15-real-web/pdf_pages/page-07.png",
+    "work/2026-10-15-real-web/pdf_pages/page-08.png",
+    "work/2026-10-15-real-web/pdf_pages/page-09.png",
+    "work/2026-10-15-real-web/pdf_pages/page-10.png",
+    "work/2026-10-15-real-web/pdf_pages/page-11.png",
+    "work/2026-10-15-real-web/pdf_pages/page-12.png",
+    "work/2026-10-15-real-web/pdf_pages/page-13.png",
+    "work/2026-10-15-real-web/pdf_pages/page-14.png",
+    "work/2026-10-15-real-web/pdf_pages/page-15.png"
+  ],
+  "issues": [],
+  "checks": {
+    "clipped_text": "none found",
+    "overlap": "none found",
+    "tables": "headers and rows are visible and readable",
+    "page_breaks": "no visible text gap or isolated heading",
+    "font_characters": "no unreadable characters found",
+    "figure_labels": "axes, legends, values, and caption are readable",
+    "page_numbers": "1 through 15 are present",
+    "references": "continue from page 14 to page 15 and end at reference 11"
+  },
+  "notes": [
+    "Page 5 has a large blank area before the figure on page 6. No content is hidden.",
+    "Section 5.4 starts with one explanatory sentence on page 6. Its table starts on page 7."
+  ],
+  "limits": [
+    "This review checks rendered appearance only.",
+    "The review did not compare every word with the source report or verify scientific claims.",
+    "The reviewer did not build, edit, or change the PDF."
+  ],
+  "reviewer_type": "AI"
+}
