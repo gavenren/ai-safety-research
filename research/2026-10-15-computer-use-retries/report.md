@@ -1,19 +1,19 @@
 # When a fresh screen is not enough: retry timing and view scope for computer-use agents
 
 Date: 2026-10-15 (America/Toronto).  
-Research type: formal analysis, exhaustive synthetic event study, controlled local browser pilot, live test-site experiment, and authenticated account experiment.  
-Codex generated this paper, code, and analysis. No human or external peer review occurred. The browser studies test real agent actions under supplied rules. The latest extension uses one authenticated Google Drive account after the public test-site experiment.
+Research type: formal analysis, exhaustive synthetic event study, controlled local browser pilot, live test-site experiment, and two authenticated account experiments.  
+Codex generated this paper, code, and analysis. No human or external peer review occurred. The browser studies test real agent actions under supplied rules. The latest extension uses separate writer and observer tabs in the same authenticated Google Drive account.
 
 ## Abstract
 
-Computer-use agents can repeat an action when its result is not visible. We compare supplied retry rules in four separate studies. An exhaustive event model covers 336 cases and 13,440 runs. In its main append grid, first-empty retry creates 60 duplicates with checks every tick. Truthful terminal status and an adequate timing bound each create none. An 18-trial local browser pilot then produces four duplicates under absence retry and none under terminal status or a 24-second bound. It does not show a general browser speed gain. The new extension runs 60 trials on two live public TodoMVC test sites. A Completed view hides active tasks by design. In that view, immediate absence retry and a 24-second wait each produce duplicates in five of six trials. A rule that checks the All view produces no duplicates and four clean confirmations in six trials; Closure confirms none in that view. The All-view control fails in nine of 30 trials, and ten trials finish with no task after reload. These failures prevent a general task-success claim. A later 30-trial Google Drive experiment confirms one folder per trial through both browser and connector reads. All 15 assigned Documents trials show the folder at the first decision. No retry condition occurs. This transfer test therefore does not compare retry safety. Two pre-write absence checks remain unverified, and three original audit images are missing. The contribution is reproducible evidence that read freshness, view scope, execution closure, and confirmed completion are separate properties. The live sites use browser storage and supplied procedures. These results are not production error rates or a new general retry protocol.
+Computer-use agents can repeat an action when its result is not visible. We compare supplied retry rules in five separate studies. An exhaustive event model covers 336 cases and 13,440 runs. In its main append grid, first-empty retry creates 60 duplicates with checks every tick. Truthful terminal status and an adequate timing bound each create none. An 18-trial local browser pilot then produces four duplicates under absence retry and none under terminal status or a 24-second bound. It does not show a general browser speed gain. A live-site extension runs 60 trials on two live public TodoMVC test sites. A Completed view hides active tasks by design. In that view, immediate absence retry and a 24-second wait each produce duplicates in five of six trials. A rule that checks the All view produces no duplicates and four clean confirmations in six trials; Closure confirms none in that view. The All-view control fails in nine of 30 trials, and ten trials finish with no task after reload. These failures prevent a general task-success claim. A later 30-trial Google Drive experiment confirms one folder per trial through both browser and connector reads. All 15 assigned Documents trials show the folder at the first decision. No retry condition occurs. This transfer test therefore does not compare retry safety. Two pre-write absence checks remain unverified, and three original audit images are missing. A new 32-trial two-tab Drive test activates all four rule paths. Its final service audit finds 10 duplicate cases, one zero-record case, 19 clean confirmations, 12 unresolved decisions, and one false confirmation. In Documents, Absence duplicates four of four cases and Wait24 duplicates three of four. Scope confirms four of four without a duplicate. Receipt confirms three of four; one failed workflow creates no record. Mixed All-view results prevent a filter-only causal claim. The contribution is reproducible evidence that read freshness, view scope, execution closure, and confirmed completion are separate properties. The live sites use browser storage and supplied procedures. These results are not production error rates or a new general retry protocol.
 ## 1. Research question and contribution
 
 An agent clicks a button. The next observation shows no new item. Should the agent click again? This question applies to any action that creates an additional record when repeated. A **non-idempotent action** can change the intended result when it is repeated. An **idempotent action** has the same intended effect when repeated [5].
 
 We ask how the completion delay of an earlier action and the delay of an observation affect retry safety, confirmed completion, and observation cost. **Execution closure** means that an earlier attempt can no longer create a future effect. A current read and execution closure are different properties.
 
-The contribution of this paper is its specific test design and full comparison. We combine pending writes, delayed negative reads, observation schedules, and post-stop effect checks. We include a conservative no-retry control, an adequate fixed-bound baseline, and a matched server-deduplication control. We publish every event trace, including writes that finish after the controller stops. This contribution is a small synthetic benchmark, interface audit, local browser pilot, live test-site comparison, and authenticated service transfer test. It is not a new exactly-once protocol, learned agent, or general theorem. The limited source search cannot prove that this is the first such comparison.
+The contribution of this paper is its specific test design and full comparison. We combine pending writes, delayed negative reads, observation schedules, and post-stop effect checks. We include a conservative no-retry control, an adequate fixed-bound baseline, and a matched server-deduplication control. We publish every event trace, including writes that finish after the controller stops. This contribution is a small synthetic benchmark, interface audit, local browser pilot, live test-site comparison, authenticated service transfer test, and a selected two-tab service test. It is not a new exactly-once protocol, learned agent, or general theorem. The limited source search cannot prove that this is the first such comparison.
 
 Reliable completion matters because an extra record can be harmful even when the original task eventually succeeds. Faster tools are useful only if the controller interprets their observations correctly. We therefore keep duplicate prevention, useful completion, delay, and call count separate.
 
@@ -352,7 +352,88 @@ The method uses visible browser state and accessibility text, not pixels alone. 
 
 Public logs retain test rows, filters, notifications, actions, and timing. Private account identifiers and navigation details are removed through the documented redaction process. Original logs and full images remain local. Stable pseudonyms preserve distinct connector IDs. Other accounts and workflows may behave differently. A new run can change because service code, account settings, model behavior, and tool timing can change.
 
-## 9. Computer-use interface implications
+## 9. Two-tab account experiment: test rules when the result stays hidden
+
+### 9.1 Question, selection, and saved plan
+
+The earlier account experiment did not activate retry rules. This extension asks a narrower question: can a separate observer tab keep a real folder outside its list and cause the supplied rules to take different actions? The writer creates one folder in All. The observer checks the same block with either All or Documents. The task uses normal Google Drive controls. No fault or delay is injected into the service. No hidden state change or false status is introduced.
+
+Three excluded feasibility cases established the workflow. P01 kept the Documents view empty after creation and reload at 17.099 seconds. A progress message had incorrectly called this a 24-second check; the saved clock record corrected it before scored trials. P02 showed its folder in a ready All view after reload. P03 kept Documents empty at 9.389 and 72.973 seconds, then showed one folder in All at 88.967 seconds. These times include other task work, so they are not service-delay measurements. The [preflight record](trigger_preflight.md) preserves all three cases and the correction.
+
+The workflow was selected because it exposes the stated condition. It is not a random sample of websites or ordinary user tasks. The [plan](trigger_plan.md), [assignments](trigger_assignments.csv), [runner instructions](trigger_runner_instructions.md), and [manifest](trigger_plan_manifest.json) were frozen before scored writes. Local hashes are not external preregistration. The first incorrect draft remains available. The [source search](trigger_source_search.md) distinguishes this addition from prior reliability work and limits the novelty claim.
+
+There are 32 assignments: four rules, two observer views, and four repeats per cell. Four blocks each contain every rule-view pair once. Two separate Codex contexts each run two blocks. A fixed seed of 20261015 controls assignment order only. The contexts share one account, host, and browser service. The same two-tab arrangement and first reload procedure apply to all rules. All trials remain in the primary table, including errors or absent triggers. No replacement or extra trial is allowed to meet an outcome target.
+
+### 9.2 Procedure and decision evidence
+
+Both tabs start in the same block. The writer is in All. The observer has its assigned view. A usable baseline must show an enabled New control, an explicit filter state, and a readable list or explicit empty view. Loading is unknown, not zero. Each trial has a unique exact folder name. The writer submits this name through New, New folder, and Create. The first Create request starts a 120-second decision deadline.
+
+The runner saves the writer feedback, reloads the observer, and reads until the view is ready. It counts only exact-name folder rows. The three core rules are deliberately restricted to observer rows. The model can see writer feedback while it operates the tab, but cannot use that feedback to confirm under these rules. This is a supplied information rule, not a test of an agent acting without such limits.
+
+| Rule | Action after a ready zero in the observer |
+| --- | --- |
+| Absence | Create the same folder name once more; reload and check the observer. |
+| Wait24 | At or after 24 seconds from the first request, reload and check again. Repeat the write once only if that new ready count is zero. |
+| Scope | If Documents is active, remove it, reload All, and check. Never repeat the write. |
+| Receipt | Use the exact current-name writer success message, with one fresh writer read if needed. Never repeat the write or change the observer filter. |
+
+One observer row can confirm completion. Two or more require an unresolved stop. A post-retry zero remains unresolved. Receipt can confirm from its exact-name success message while the observer is zero; a generic message is insufficient. No rule may write after the deadline. The 24-second wait is a chosen heuristic, not a service completion bound. Scope preserves the earlier no-retry rule. Receipt has one optional fresh writer check, which differs from the earlier same-tab control's 8/16/24-second schedule. These experiments are not pooled.
+
+The runner saves its decision before any audit. Then it removes the observer filter, reloads All, and records matching rows and a separate image. After every trial ends, the lead lists each block through a separate Drive connector. A duplicate requires at least two distinct returned record IDs for one token. A clean confirmation requires an on-time confirmation and exactly one audited record. A later audit cannot turn an unresolved decision into a confirmation. This audit is a finite record read; it cannot establish indefinite durability or execution closure.
+
+H-T1 requires more Documents duplicate outcomes under each retry rule than Scope. H-T2 requires more clean Documents confirmations under Scope than each retry rule, with no extra duplicates. H-T3 requires all 16 All controls to confirm one record without a retry. The activation check is separate: actual Absence and Wait24 retries, a Scope change to All, and a Receipt confirmation from its message while the observer is zero must each occur at least once in Documents. This check cannot change the sample size. Counts and full paths are used without population confidence intervals or significance tests.
+
+### 9.3 Results
+
+All 32 assignments were retained. The logs contain 42 Create tool requests: 41 returned without a tool error and one failed. A successful tool call is not itself proof of a stored record. The later connector audit returned 41 distinct records across the four blocks, with 10, 11, 10, and 10 records. Exact-name counts agreed with all 32 final browser audits. No unexpected token or shared test record was found.
+
+A **duplicate case** has two or more audited records for its one assigned token. A **false confirmation** is a completion claim with a final count other than one. These outcome columns can overlap: T31 is both a duplicate case and a false confirmation.
+
+| Rule | Observer view | Trials | Retries | Duplicate cases | Clean confirmations | Unresolved | False confirmations |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Absence | All | 4 | 3 | 3 | 1 | 2 | 1 |
+| Absence | Documents | 4 | 4 | 4 | 0 | 4 | 0 |
+| Wait24 | All | 4 | 0 | 0 | 4 | 0 | 0 |
+| Wait24 | Documents | 4 | 3 | 3 | 0 | 4 | 0 |
+| Scope | All | 4 | 0 | 0 | 3 | 1 | 0 |
+| Scope | Documents | 4 | 0 | 0 | 4 | 0 | 0 |
+| Receipt | All | 4 | 0 | 0 | 4 | 0 | 0 |
+| Receipt | Documents | 4 | 0 | 0 | 3 | 1 | 0 |
+| Total | Both | 32 | 10 | 10 | 19 | 12 | 1 |
+
+All four required Documents branches occurred: four Absence retries, three Wait24 retries, four Scope changes, and three Receipt confirmations from the exact writer message while the observer showed zero. Each of the ten actual retries was followed by a two-record audit. The observations satisfy H-T1 and H-T2 within this selected set. They fail H-T3: only 12 of 16 All controls cleanly confirmed without retry. Nine All controls had a first ready zero. Thus, All did not provide immediate complete visibility in this run.
+
+T31 is the false confirmation. Absence saw zero, repeated Create, then confirmed from a one-row text observation. The later image and both final audits showed two. The evidence establishes a wrong completion claim relative to the later audit. It does not establish the exact order of server completion and list updates.
+
+T07, a Wait24/Documents assignment, included an extra reload at 22.302 seconds. This was too early and was excluded from retry permission. The eligible reload started at 34.053 seconds. Its ready zero arrived at 108.478 seconds. The runner prepared a retry dialog, checked the deadline at 121.567 seconds, and did not press Create again. It saved an unresolved decision at 131.539 seconds, after the deadline, then closed the dialog. The final audit found one record. This case is retained as an activation failure and a late unresolved decision.
+
+T29, a Receipt/Documents assignment, started with a valid baseline. After the New folder action, the writer was on an unrelated Storage view. The later input and Create calls failed. There was no success receipt, and the observer and final audits showed zero. This is one failed Create request, not a successful write with a lost result. The cause of the navigation is unknown. The next trial, T30, restored its exact block URL and verified both baselines before its first write. No scored trial was replaced.
+
+T13 had a menu-action timeout even though the menu opened, plus an observer read error followed by a fresh read. These errors remain in the logs. The median recorded decision time was 19.771 seconds, with a range of 8.820 to 131.539 seconds. Timing includes model, tool, browser, and shared-host work; it does not measure service latency or establish a speed advantage.
+
+The saved text decision and later decision image differ in T04, T24, and T27 (zero then one), and T31 (one then two). T10's later decision image is blank in the task area and is unknown evidence. Images were captured after the decisions. They cannot replace the earlier text or change its score. All final audit images support their recorded counts.
+
+See [trial results](trigger_results.csv), [cell totals](trigger_cells.csv), [analysis record](trigger_summary.json), and [service audit](trigger_connector_audit.json). The [image archive](trigger_images.zip) contains 64 original clipped images. Its original `.png` filenames contain JPEG bytes; the [manifest](trigger_image_manifest.json) records this format. One separate full-screen diagnostic image is excluded to protect account details.
+
+![T18 observer after the retry: Documents shows no matching results](trigger_example_hidden.png)
+
+![T18 later All-view audit: two rows have the same trial name](trigger_example_duplicate.png)
+
+These two images show the T18 decision view and its later audit. They are Google Drive UI evidence. The clipped area keeps the test path, filter, and result rows. It excludes account details and unrelated navigation. The audit image cannot support the earlier decision.
+
+### 9.4 Interpretation and limits
+
+The supplied immediate and timed retry rules took their repeat-action branches on a real service. All ten repeat actions were associated with duplicate records at audit. This shows that these branch conditions were insufficient in this selected workflow. It does not estimate how often an unrestricted agent would repeat an action or how often a normal user task would fail.
+
+Scope and Receipt each avoided repeats. Scope had seven clean confirmations in eight assignments; Receipt also had seven. Their different unresolved cases matter: Scope/All T27 stopped on a zero that later became one, while Receipt/Documents T29 failed before a record was created. These are not equivalent successful outcomes. No rule achieved all clean confirmations.
+
+The All controls limit causal interpretation. A ready unfiltered list sometimes showed zero, so the Documents filter alone cannot explain every negative read or duplicate. A browser reload did not guarantee that all effects were visible at once. The design changes view scope under a shared two-tab workflow, but it does not isolate cache delay, service delay, rendering delay, scheduling, or other host activity. T29 and T30 also show an unresolved workflow-state failure. We do not attribute that failure to a particular service or tool defect.
+
+The contribution is a complete, reproducible record of this selected branch test, including unsuccessful triggers, a false confirmation, and audit disagreement with earlier observations. It does not introduce a new retry rule. Both runner contexts knew the supplied procedures and could see feedback that three rules were instructed to ignore. This is not blind evaluation, a held-out task set, or an estimate of model ability. Four trials per cell, one account, one folder task, and shared execution context do not support population confidence intervals or a claim of general reliability.
+
+The final connector audit is separate from the browser decision path, but it is still a finite service read. It cannot establish that a record will persist indefinitely or that no future effect is possible. An exact success message was useful in the completed Receipt cases; these results do not prove that every success message is durable or correctly tied to an attempt. The [change record](trigger_changes.md) and [redaction record](trigger_redaction.md) preserve the limits of the public evidence.
+
+## 10. Computer-use interface implications
 
 The results support a concrete interface requirement: distinguish an unresolved attempt from a terminal failure with no future effect. A timeout, unchanged screen, or current empty record list is not that failure signal. Where the application supports it, bind status to the specific attempt and keep that identity across recovery.
 
@@ -360,7 +441,7 @@ A controller should retain pending actions after its own wait ends. It should us
 
 An evaluator should also let admitted actions finish after the agent stops. In this grid, that step exposes 56 unsafe early claims for every-tick absence retry. A test that checks only the visible count at stop can award success before a duplicate appears. The browser late claim also shows why a deadline should be checked at claim receipt. A snapshot timestamp can be valid while the later claim is too late. These recommendations apply known systems reasoning to computer-use interfaces. The controlled browser pilot tests the same distinction with real requests and writes. The live test-site extension adds view scope as a separate requirement. Before an absence check can support a decision, the controller must check record identity, filters, and search coverage. A full-list match can confirm an existing effect; it still cannot prove closure of an absent pending write. Broader production workflows and model comparisons remain future work. The account extension also checks whether the service itself changes the view after a write. An evaluator must record that change before attributing an outcome to the retry rule.
 
-## 10. Limitations
+## 11. Limitations
 
 The main grid runs a finite event model. Its tick values are chosen; its call costs and delays are not measured on a service. The browser extension uses real model decisions, requests, timers, and stored writes, but its task and fault conditions are constructed. The grid weights are artificial. Real applications can have unbounded delays, rollback, partial writes, status loss, incorrect status, changing caches, and multiple writers.
 
@@ -370,15 +451,15 @@ Only one retry and one logical item are modeled. There is no crash recovery, con
 
 The same cases are disclosed to the policy designers. The browser runners did not receive the condition configuration, but each received a prescribed policy. This does not measure natural retry behavior. There are only two contexts, one machine, one browser service, and one simple local task. Repeated trials share context within each runner. Tool and model delay can remove an intended negative-state exposure before a check occurs. The exact model build and service timing are not available. The live extension adds two public test sites, with one shared task design and prescribed filters. The apps were selected after feasibility checks. It does not supply a held-out production benchmark. Further work should test more agents, richer applications, and permitted production workflows.
 
-## 11. Ethics, rights, and AI use
+## 12. Ethics, rights, and AI use
 
-The study can help prevent duplicate records and premature completion claims. It contains no harmful prompts or exploit steps. The public test-site trials create synthetic entries in browser storage. The later authorized account experiment creates empty folders in a new private Google Drive test collection. No experiment sends messages, makes purchases, or edits existing user files. Published evidence excludes private account identifiers and unrelated account content. After all audits, the test parent was moved to Trash. The browser showed its name under the Trash path. Trash was not emptied. This cleanup is recoverable through Drive, subject to its retention rules [14]. See [account_cleanup.json](account_cleanup.json). GitHub publication is a separate authorized action, not experimental evidence.
+The study can help prevent duplicate records and premature completion claims. It contains no harmful prompts or exploit steps. The public test-site trials create synthetic entries in browser storage. The later authorized account experiment creates empty folders in a new private Google Drive test collection. No experiment sends messages, makes purchases, or edits existing user files. Published evidence excludes private account identifiers and unrelated account content. After all audits, the test parent was moved to Trash. The browser showed its name under the Trash path. Trash was not emptied. This cleanup is recoverable through Drive, subject to its retention rules [14]. See [account_cleanup.json](account_cleanup.json). The new two-tab collection was also moved to Trash after its final connector audit. Its name was verified under the Trash path in [trigger_cleanup.json](trigger_cleanup.json) and [the cleanup image](trigger_cleanup.png). GitHub publication is a separate authorized action, not experimental evidence.
 
-Codex generated the plan, implementations, calculations, figure, and paper. Two separate Codex contexts performed the local browser pilot, and two later contexts performed the live test-site trials. Two additional contexts performed the authenticated account trials. Other Codex agents checked sources, design, calculations, and reproduction. AI review is not human or external peer review. No human review, university affiliation, endorsement, or certification is claimed. The browser pilot used real model inference through the existing Codex service. No model training, separate paid API, or new paid compute service was used.
+Codex generated the plan, implementations, calculations, figure, and paper. Two separate Codex contexts performed the local browser pilot, and two later contexts performed the live test-site trials. Two additional contexts performed the first authenticated account trials. Two further contexts performed the separate two-tab trials. Other Codex agents checked sources, design, calculations, and reproduction. AI review is not human or external peer review. No human review, university affiliation, endorsement, or certification is claimed. The browser pilot used real model inference through the existing Codex service. No model training, separate paid API, or new paid compute service was used.
 
-All synthetic input cases and local browser tasks are newly constructed. The live extension uses existing TodoMVC test apps and new synthetic task tokens. The account extension uses Google Drive with new synthetic folder names and attributed UI evidence. Its screenshots and rendered UI logs retain source attribution. No third-party application code, paper, dataset, or figure is redistributed. Sources retain their rights. No new license is assigned to this work. The paper uses original prose and cites the related methods.
+All synthetic input cases and local browser tasks are newly constructed. The live extension uses existing TodoMVC test apps and new synthetic task tokens. The account extension uses Google Drive with new synthetic folder names and attributed UI evidence. Its screenshots and rendered UI logs retain source attribution. No third-party application code, paper, dataset, or research figure is redistributed. Sources retain their rights. No new license is assigned to this work. The paper uses original prose and cites the related methods.
 
-## 12. Checks and reproduction
+## 13. Checks and reproduction
 
 The main implementation advances the environment one tick at a time. The independent validator uses direct event-time thresholds and does not import the analyzer. It checked all 13,440 run rows, 167,520 trace events, 676 post-stop resolutions, 6,720 matched server pairs, all grouped result tables, and 48 paired comparisons. All checked integer and label fields match exactly. See [method_review.md](method_review.md) and [validation_results.json](validation_results.json).
 
@@ -389,6 +470,8 @@ Run the documented commands in [README.md](README.md). The package includes the 
 The live analysis reads the saved action logs and assignment file. A separate reviewer checks its output against the recorded UI states. See [live_review.md](live_review.md) and [live_validation.json](live_validation.json). Exact trajectories cannot be repeated because the hosted apps and model/tool timing can change. Saved evidence permits a local result check without a new browser run.
 
 The account analyzer passes 1,738 checks with 23 retained warning records, including repeated metadata and error annotations. Its 21 author checks cover parser cases and repeat analysis. The separate account validator and review report their own checks; they are not the same review. The authenticated account checks and reproduction commands are in [account_review.md](account_review.md), [account_validation.json](account_validation.json), and [README.md](README.md). The original public-site report hashes remain in the historical review files.
+
+The two-tab analyzer reconstructs all 32 paths from saved action logs. Its author also wrote a second parser and validator; this is a second code path, not an independent agent review. A separate reviewer wrote [an independent policy replay](trigger_independent_replay.py), checked private and public evidence, and reviewed all 64 trial images. The [review](trigger_review.md), [validation](trigger_validation.json), [independent replay](trigger_independent_replay.json), [privacy review](trigger_private_review.json), and [image review](trigger_image_review.json) record the results. Failed actions and timing deviations remain in the primary analysis. Exact live timing cannot be reproduced, but every reported count can be checked from the archived evidence.
 
 ## References
 

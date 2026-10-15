@@ -1,0 +1,5086 @@
+{
+  "status": "PASS",
+  "reviewer": "Separate Codex review context; not human review.",
+  "checks": 1264,
+  "passed": 1264,
+  "errors": [],
+  "text_files": 13,
+  "storage_snapshot_fields_redacted": [
+    "trigger_runner_B_actions.jsonl:359/state",
+    "trigger_runner_B_actions.jsonl:360/before_state",
+    "trigger_runner_B_actions.jsonl:361/state",
+    "trigger_runner_B_actions.jsonl:362/before_state",
+    "trigger_runner_B_actions.jsonl:363/state",
+    "trigger_runner_B_actions.jsonl:367/state",
+    "trigger_runner_B_actions.jsonl:376/before_state",
+    "trigger_runner_B_actions.jsonl:379/state",
+    "trigger_runner_B_actions.jsonl:380/state",
+    "trigger_runner_B_actions.jsonl:382/before_state"
+  ],
+  "private_id_aliases": 49,
+  "distinct_service_records": 41,
+  "missing_parent_id_fields": 41,
+  "parent_id_limit": "The connector returns null parent_ids. The initial review expectation of explicit IDs failed for all 41 records. No parent ID is inferred from those null fields. Per-block counts use the folder-list calls and matching browser block audits.",
+  "archive_images": 64,
+  "private_public_replay_agreement": true,
+  "cleanup": "Visible move-to-Trash success and exact named Trash path checked.",
+  "limits": "Original private files remain local. Public hashes do not let an external reader inspect those originals. The service audit is finite.",
+  "tests": [
+    {
+      "check": "trigger_runner_A_actions.jsonl private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl line count",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 1 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 2 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 3 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 4 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 5 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 6 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 7 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 8 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 9 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 10 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 11 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 12 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 13 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 14 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 15 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 16 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 17 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 18 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 19 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 20 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 21 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 22 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 23 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 24 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 25 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 26 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 27 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 28 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 29 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 30 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 31 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 32 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 33 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 34 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 35 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 36 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 37 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 38 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 39 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 40 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 41 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 42 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 43 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 44 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 45 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 46 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 47 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 48 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 49 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 50 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 51 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 52 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 53 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 54 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 55 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 56 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 57 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 58 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 59 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 60 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 61 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 62 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 63 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 64 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 65 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 66 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 67 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 68 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 69 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 70 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 71 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 72 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 73 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 74 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 75 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 76 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 77 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 78 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 79 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 80 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 81 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 82 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 83 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 84 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 85 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 86 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 87 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 88 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 89 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 90 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 91 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 92 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 93 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 94 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 95 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 96 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 97 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 98 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 99 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 100 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 101 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 102 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 103 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 104 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 105 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 106 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 107 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 108 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 109 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 110 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 111 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 112 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 113 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 114 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 115 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 116 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 117 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 118 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 119 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 120 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 121 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 122 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 123 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 124 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 125 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 126 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 127 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 128 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 129 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 130 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 131 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 132 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 133 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 134 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 135 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 136 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 137 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 138 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 139 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 140 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 141 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 142 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 143 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 144 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 145 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 146 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 147 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 148 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 149 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 150 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 151 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 152 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 153 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 154 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 155 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 156 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 157 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 158 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 159 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 160 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 161 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 162 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 163 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 164 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 165 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 166 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 167 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 168 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 169 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 170 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 171 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 172 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 173 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 174 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 175 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 176 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 177 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 178 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 179 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 180 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 181 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 182 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 183 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 184 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 185 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 186 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 187 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 188 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 189 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 190 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 191 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 192 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 193 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 194 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 195 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 196 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 197 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 198 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 199 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 200 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 201 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 202 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 203 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 204 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 205 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 206 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 207 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 208 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 209 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 210 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 211 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 212 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 213 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 214 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 215 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 216 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 217 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 218 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 219 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 220 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 221 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 222 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 223 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 224 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 225 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 226 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 227 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 228 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 229 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 230 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 231 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 232 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 233 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 234 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 235 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 236 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 237 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 238 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 239 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 240 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 241 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 242 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 243 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 244 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 245 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 246 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 247 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 248 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 249 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 250 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 251 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 252 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 253 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 254 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 255 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 256 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 257 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 258 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 259 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 260 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 261 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 262 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 263 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 264 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 265 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 266 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 267 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 268 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 269 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 270 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 271 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 272 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 273 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 274 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 275 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 276 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 277 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 278 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 279 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 280 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 281 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 282 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 283 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 284 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 285 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 286 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 287 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 288 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 289 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 290 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 291 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 292 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 293 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 294 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 295 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 296 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 297 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 298 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 299 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 300 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 301 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 302 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 303 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 304 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 305 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 306 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 307 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 308 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 309 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 310 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 311 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 312 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 313 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 314 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 315 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 316 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 317 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 318 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 319 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 320 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 321 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 322 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 323 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 324 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 325 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 326 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 327 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 328 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 329 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 330 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 331 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 332 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 333 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 334 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 335 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 336 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 337 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 338 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 339 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 340 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 341 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 342 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 343 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 344 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 345 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 346 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 347 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 348 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 349 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 350 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 351 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 352 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 353 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 354 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 355 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 356 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 357 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 358 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 359 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 360 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 361 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 362 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 363 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 364 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 365 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 366 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 367 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 368 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 369 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 370 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 371 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 372 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 373 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 374 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 375 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 376 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 377 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 378 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 379 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 380 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 381 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 382 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 383 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 384 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 385 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 386 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 387 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 388 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 389 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 390 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 391 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 392 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 393 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 394 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 395 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 396 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 397 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 398 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 399 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 400 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 401 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 402 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 403 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 404 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 405 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 406 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 407 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 408 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 409 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 410 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 411 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 412 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 413 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 414 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 415 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 416 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 417 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 418 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 419 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 420 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 421 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 422 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 423 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 424 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 425 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 426 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 427 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 428 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 429 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 430 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 431 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 432 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 433 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 434 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 435 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 436 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 437 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 438 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 439 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 440 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 441 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 442 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 443 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 444 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 445 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 446 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 447 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 448 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 449 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 450 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 451 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 452 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 453 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 454 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 455 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 456 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 457 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 458 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 459 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 460 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 461 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 462 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 463 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 464 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 465 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 466 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 467 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 468 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 469 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 470 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 471 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 472 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 473 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 474 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 475 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 476 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 477 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 478 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 479 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 480 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 481 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 482 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 483 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_actions.jsonl record 484 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_audit_summary.json private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_audit_summary.json public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_audit_summary.json only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_completion.md private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_completion.md public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_completion.md only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_results.json private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_results.json public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_A_results.json only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_README.md private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_README.md public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_README.md only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl line count",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 1 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 2 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 3 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 4 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 5 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 6 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 7 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 8 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 9 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 10 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 11 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 12 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 13 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 14 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 15 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 16 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 17 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 18 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 19 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 20 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 21 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 22 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 23 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 24 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 25 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 26 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 27 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 28 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 29 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 30 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 31 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 32 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 33 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 34 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 35 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 36 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 37 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 38 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 39 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 40 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 41 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 42 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 43 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 44 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 45 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 46 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 47 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 48 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 49 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 50 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 51 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 52 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 53 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 54 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 55 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 56 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 57 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 58 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 59 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 60 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 61 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 62 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 63 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 64 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 65 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 66 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 67 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 68 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 69 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 70 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 71 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 72 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 73 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 74 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 75 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 76 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 77 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 78 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 79 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 80 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 81 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 82 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 83 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 84 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 85 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 86 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 87 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 88 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 89 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 90 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 91 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 92 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 93 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 94 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 95 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 96 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 97 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 98 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 99 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 100 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 101 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 102 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 103 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 104 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 105 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 106 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 107 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 108 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 109 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 110 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 111 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 112 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 113 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 114 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 115 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 116 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 117 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 118 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 119 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 120 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 121 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 122 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 123 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 124 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 125 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 126 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 127 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 128 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 129 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 130 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 131 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 132 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 133 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 134 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 135 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 136 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 137 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 138 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 139 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 140 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 141 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 142 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 143 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 144 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 145 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 146 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 147 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 148 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 149 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 150 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 151 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 152 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 153 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 154 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 155 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 156 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 157 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 158 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 159 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 160 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 161 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 162 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 163 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 164 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 165 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 166 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 167 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 168 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 169 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 170 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 171 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 172 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 173 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 174 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 175 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 176 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 177 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 178 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 179 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 180 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 181 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 182 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 183 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 184 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 185 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 186 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 187 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 188 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 189 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 190 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 191 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 192 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 193 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 194 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 195 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 196 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 197 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 198 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 199 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 200 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 201 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 202 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 203 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 204 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 205 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 206 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 207 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 208 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 209 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 210 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 211 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 212 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 213 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 214 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 215 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 216 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 217 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 218 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 219 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 220 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 221 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 222 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 223 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 224 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 225 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 226 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 227 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 228 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 229 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 230 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 231 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 232 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 233 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 234 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 235 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 236 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 237 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 238 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 239 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 240 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 241 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 242 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 243 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 244 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 245 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 246 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 247 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 248 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 249 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 250 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 251 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 252 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 253 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 254 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 255 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 256 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 257 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 258 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 259 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 260 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 261 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 262 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 263 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 264 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 265 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 266 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 267 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 268 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 269 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 270 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 271 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 272 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 273 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 274 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 275 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 276 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 277 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 278 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 279 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 280 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 281 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 282 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 283 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 284 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 285 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 286 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 287 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 288 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 289 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 290 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 291 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 292 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 293 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 294 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 295 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 296 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 297 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 298 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 299 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 300 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 301 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 302 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 303 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 304 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 305 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 306 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 307 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 308 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 309 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 310 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 311 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 312 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 313 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 314 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 315 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 316 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 317 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 318 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 319 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 320 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 321 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 322 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 323 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 324 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 325 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 326 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 327 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 328 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 329 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 330 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 331 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 332 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 333 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 334 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 335 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 336 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 337 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 338 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 339 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 340 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 341 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 342 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 343 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 344 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 345 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 346 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 347 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 348 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 349 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 350 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 351 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 352 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 353 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 354 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 355 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 356 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 357 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 358 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 359 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 360 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 361 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 362 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 363 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 364 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 365 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 366 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 367 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 368 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 369 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 370 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 371 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 372 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 373 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 374 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 375 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 376 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 377 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 378 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 379 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 380 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 381 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 382 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 383 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 384 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 385 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 386 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 387 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 388 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 389 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 390 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 391 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 392 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 393 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 394 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 395 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 396 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 397 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 398 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 399 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 400 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 401 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 402 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 403 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 404 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 405 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 406 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 407 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 408 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 409 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 410 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 411 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 412 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 413 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 414 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 415 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 416 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 417 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 418 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 419 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 420 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 421 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 422 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 423 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 424 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 425 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 426 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 427 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 428 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 429 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 430 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 431 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 432 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 433 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 434 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 435 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 436 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 437 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 438 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 439 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 440 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 441 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 442 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 443 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 444 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 445 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 446 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 447 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 448 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 449 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 450 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 451 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 452 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 453 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 454 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 455 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 456 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 457 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 458 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 459 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 460 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 461 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 462 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 463 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 464 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 465 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 466 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 467 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 468 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 469 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 470 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 471 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 472 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 473 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_actions.jsonl record 474 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_manifest.json private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_manifest.json public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_manifest.json only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_results.json private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_results.json public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_results.json only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_runner_summary.json private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_runner_summary.json public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_runner_B_runner_summary.json only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl line count",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 1 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 2 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 3 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 4 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 5 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 6 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 7 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 8 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 9 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 10 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 11 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 12 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 13 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 14 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 15 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 16 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 17 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 18 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 19 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 20 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 21 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 22 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 23 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 24 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 25 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 26 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 27 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 28 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 29 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight.jsonl record 30 only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight_connector.json private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight_connector.json public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_preflight_connector.json only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_connector_audit.json private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_connector_audit.json public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_connector_audit.json only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "trigger_cleanup.json private hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_cleanup.json public hash",
+      "pass": true
+    },
+    {
+      "check": "trigger_cleanup.json only declared redactions",
+      "pass": true
+    },
+    {
+      "check": "Wrong-page redaction field list exactly matches originals",
+      "pass": true
+    },
+    {
+      "check": "Exactly ten unrelated Storage fields removed",
+      "pass": true
+    },
+    {
+      "check": "Private IDs have one-to-one aliases",
+      "pass": true
+    },
+    {
+      "check": "Raw connector call 1 succeeded",
+      "pass": true
+    },
+    {
+      "check": "Raw connector count block 1",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Raw connector call 2 succeeded",
+      "pass": true
+    },
+    {
+      "check": "Raw connector count block 2",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Raw connector call 3 succeeded",
+      "pass": true
+    },
+    {
+      "check": "Raw connector count block 3",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Raw connector call 4 succeeded",
+      "pass": true
+    },
+    {
+      "check": "Raw connector count block 4",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record ID exists in raw reply",
+      "pass": true
+    },
+    {
+      "check": "Record metadata matches raw reply",
+      "pass": true
+    },
+    {
+      "check": "Forty-one distinct private service IDs",
+      "pass": true
+    },
+    {
+      "check": "Public audit exactly preserves raw normalized metadata with aliases",
+      "pass": true
+    },
+    {
+      "check": "Private/public independent replay agreement: rows",
+      "pass": true
+    },
+    {
+      "check": "Private/public independent replay agreement: deviations",
+      "pass": true
+    },
+    {
+      "check": "Private/public independent replay agreement: outcome",
+      "pass": true
+    },
+    {
+      "check": "Private/public independent replay agreement: completed",
+      "pass": true
+    },
+    {
+      "check": "Private/public independent replay agreement: errors",
+      "pass": true
+    },
+    {
+      "check": "Private/public independent replay agreement: checks",
+      "pass": true
+    },
+    {
+      "check": "Private/public independent replay agreement: passed",
+      "pass": true
+    },
+    {
+      "check": "Archive has exactly 64 assigned trial images",
+      "pass": true
+    },
+    {
+      "check": "Image manifest covers all 64",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T01-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T01-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T01-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T01-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T02-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T02-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T02-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T02-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T03-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T03-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T03-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T03-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T04-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T04-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T04-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T04-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T05-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T05-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T05-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T05-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T06-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T06-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T06-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T06-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T07-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T07-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T07-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T07-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T08-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T08-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T08-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T08-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T09-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T09-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T09-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T09-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T10-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T10-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T10-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T10-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T11-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T11-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T11-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T11-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T12-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T12-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T12-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T12-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T13-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T13-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T13-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T13-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T14-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T14-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T14-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T14-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T15-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T15-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T15-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T15-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T16-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T16-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T16-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T16-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T17-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T17-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T17-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T17-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T18-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T18-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T18-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T18-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T19-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T19-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T19-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T19-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T20-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T20-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T20-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T20-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T21-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T21-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T21-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T21-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T22-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T22-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T22-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T22-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T23-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T23-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T23-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T23-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T24-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T24-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T24-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T24-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T25-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T25-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T25-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T25-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T26-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T26-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T26-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T26-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T27-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T27-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T27-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T27-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T28-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T28-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T28-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T28-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T29-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T29-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T29-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T29-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T30-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T30-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T30-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T30-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T31-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T31-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T31-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T31-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T32-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T32-audit.png",
+      "pass": true
+    },
+    {
+      "check": "Unchanged image bytes T32-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Actual JPEG format documented T32-decision.png",
+      "pass": true
+    },
+    {
+      "check": "Hidden example is exact T18 capture",
+      "pass": true
+    },
+    {
+      "check": "Duplicate example is exact T18 capture",
+      "pass": true
+    },
+    {
+      "check": "Cleanup action has visible success",
+      "pass": true
+    },
+    {
+      "check": "Cleanup has named Trash-path verification",
+      "pass": true
+    },
+    {
+      "check": "Cleanup is recoverable and not empty Trash",
+      "pass": true
+    }
+  ]
+}

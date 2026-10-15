@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "saved_utc": "2026-10-15T18:21:46.177235+00:00",
+  "stage": "frozen before scored actions",
+  "external_preregistration": false,
+  "trials": 32,
+  "assignment_seed": 20261015,
+  "assignment_seed_role": "order only",
+  "initial_shuffled_rules": [
+    "Scope",
+    "Receipt",
+    "Absence",
+    "Wait24"
+  ],
+  "assignment_python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "files": {
+    "trigger_plan.md": {
+      "sha256": "423b0fb5387aed8991560228a8599504ed4fbb668f593207ff43467ee9664fba",
+      "bytes": 12852
+    },
+    "trigger_assignments.csv": {
+      "sha256": "54998fd4faad6ef4927b741c3f9307cff0ae8f7ef7ba5ec2feee7baf28ff64cb",
+      "bytes": 1564
+    },
+    "trigger_runner_instructions.md": {
+      "sha256": "3a8f9e506b931d558a1c57d48b752189a1ad37afcd31fc8eadfd96f58fb6fa36",
+      "bytes": 5439
+    }
+  }
+}

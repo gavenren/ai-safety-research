@@ -1,0 +1,189 @@
+{
+  "status": "pass",
+  "reviewed_utc": "2026-10-15T18:47:54.296234+00:00",
+  "reviewer": "Separate Codex agent trigger_pdf_review",
+  "review_type": "AI visual review; no human review",
+  "pdf_file": "paper.pdf",
+  "pdf_sha256": "d3227aa182a153c6c565648e400a082200d741798509cc5f8e66c03a086f7a2e",
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "page_count": 22,
+  "method": "Inspect each of the initial 22 rendered pages as a separate image through view_image. After the wording fixes, inspect pages 15, 17, and 20 again. Verify that the other 19 rendered page hashes are unchanged. Confirm the final PDF hash.",
+  "issues": [],
+  "notes": [
+    "All 22 pages were inspected. No clipped text, overlap, broken table, missing glyph, or blank content page was found.",
+    "Headings, margins, running headers, and page numbers are consistent. Paragraph and table breaks keep the content readable.",
+    "The eight-column results table on page 17 fits within the page margins. Its labels and values are readable.",
+    "The two browser figures on page 18 are clear. The Documents filter, empty-result message, target folder rows, and caption are visible. The figures show only the clipped test area.",
+    "The chart on page 6 has readable axes, legends, values, and caption.",
+    "The final page contains the last two references and a large blank area. This is a normal reference continuation and does not hide content.",
+    "This review checks rendered layout. The main review checks scientific claims and evidence."
+  ],
+  "rendered_pages": [
+    {
+      "page": 1,
+      "image": "page-01.png",
+      "sha256": "5a6e188d41f1591ad5bdf482c7f7cc8fd5a4a1901cb2890cc6f3788c71f61b9b",
+      "status": "pass"
+    },
+    {
+      "page": 2,
+      "image": "page-02.png",
+      "sha256": "1a3b0098ea6b1efcceddac7c8b3adc06a813d07a4f3e16ad7e98dafadcbd8edc",
+      "status": "pass"
+    },
+    {
+      "page": 3,
+      "image": "page-03.png",
+      "sha256": "c4ecb977bbccf42e8d41d3c7ab699ab84fd91a3c490ab4abe6194ca3457c8a9a",
+      "status": "pass"
+    },
+    {
+      "page": 4,
+      "image": "page-04.png",
+      "sha256": "f63de9ed85dba5d876a060546a8162f35a5401cc986ff12361efc63b16d47d7f",
+      "status": "pass"
+    },
+    {
+      "page": 5,
+      "image": "page-05.png",
+      "sha256": "644b88c3c5d2c64a40881fbdc193eb38e971ef062f5b1e10015f1431de85b9ec",
+      "status": "pass"
+    },
+    {
+      "page": 6,
+      "image": "page-06.png",
+      "sha256": "bd4378103cb1a7c26f72aa17a144828d5e0780529df8e8cad7e982d9ae024fc6",
+      "status": "pass"
+    },
+    {
+      "page": 7,
+      "image": "page-07.png",
+      "sha256": "48573996aba12f10dbccdb8f4429eeeb8ebec9b3d5037226cb87857f7f82d32d",
+      "status": "pass"
+    },
+    {
+      "page": 8,
+      "image": "page-08.png",
+      "sha256": "dcd58f39f862434276b3349a90c31bc883330f22b07a0cbaf4b154a324c6d26d",
+      "status": "pass"
+    },
+    {
+      "page": 9,
+      "image": "page-09.png",
+      "sha256": "bbcb57d9e74ebb946f93468be1d2740cf02bda6a670a7cbeaf737b0b4ca80200",
+      "status": "pass"
+    },
+    {
+      "page": 10,
+      "image": "page-10.png",
+      "sha256": "9e05b730e7b80a2aaad0766f5b094d7badad78fb671b27fc0e214737eea6db38",
+      "status": "pass"
+    },
+    {
+      "page": 11,
+      "image": "page-11.png",
+      "sha256": "eced42c65bed723f5517754bf1e7a1e0d85b3860e2ff25444d9079e8ca5369a0",
+      "status": "pass"
+    },
+    {
+      "page": 12,
+      "image": "page-12.png",
+      "sha256": "4a2335442cbdeeb0b97f13c1addf3defc50b088b8f35867f6c908bb8b20ad998",
+      "status": "pass"
+    },
+    {
+      "page": 13,
+      "image": "page-13.png",
+      "sha256": "4283fac354313c46839f43ceb9c0e63a623025da026b2fa937185042e55ac81b",
+      "status": "pass"
+    },
+    {
+      "page": 14,
+      "image": "page-14.png",
+      "sha256": "58af889cdadad521697c9af7bc0642f63ec7f4e98ee3c6a0f1e88b705b3e0170",
+      "status": "pass"
+    },
+    {
+      "page": 15,
+      "image": "page-15.png",
+      "sha256": "22c8d44b26453fa741fd60f432f953858b224adb29255ba99a6affbd72d6f7ec",
+      "status": "pass"
+    },
+    {
+      "page": 16,
+      "image": "page-16.png",
+      "sha256": "602a4666f2d54c732d56922a3b8ce62da70ee17ffe98a7b9b62c8f70cd9b86a1",
+      "status": "pass"
+    },
+    {
+      "page": 17,
+      "image": "page-17.png",
+      "sha256": "c11a0996eb2aae33b9b17257f4eede7d3696d296fec7e18d3729cc2ed1205ea0",
+      "status": "pass"
+    },
+    {
+      "page": 18,
+      "image": "page-18.png",
+      "sha256": "4a7c47ea8e7de1d001be64407ce826989e57489fd8d98966ba21eaa6cd5166ee",
+      "status": "pass"
+    },
+    {
+      "page": 19,
+      "image": "page-19.png",
+      "sha256": "ba7e118b72b8c242709e6edfbf45a0ece64eb1a31238240690e7a42f98b230a6",
+      "status": "pass"
+    },
+    {
+      "page": 20,
+      "image": "page-20.png",
+      "sha256": "6a60a3d4e57eb9e23adf94fc32dd802d65bc3d1712bce6f165364f73dac4cd42",
+      "status": "pass"
+    },
+    {
+      "page": 21,
+      "image": "page-21.png",
+      "sha256": "9bd3699beb03886169add6ac69d1e6356bab0a5e9729fddfc74c640135185e72",
+      "status": "pass"
+    },
+    {
+      "page": 22,
+      "image": "page-22.png",
+      "sha256": "8efdbc6f4c7c863ec05eb97dc8011528eabbbd04d693bda1876e4646a0011776",
+      "status": "pass"
+    }
+  ],
+  "revision_check": {
+    "previous_pdf_sha256": "ef134eaf901bb0d5ec3eb99ae1cb35dc1ef5d02eacd4ba4d2f2bf720fddc154f",
+    "visually_rechecked_pages": [
+      15,
+      17,
+      20
+    ],
+    "unchanged_page_hashes_verified": 19,
+    "status": "pass",
+    "note": "Reinspect all three changed pages after the wording fixes. Verify that the other 19 rendered page hashes match the prior visual review. No new layout defect was found."
+  }
+}

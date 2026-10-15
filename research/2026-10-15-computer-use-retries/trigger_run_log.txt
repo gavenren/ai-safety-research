@@ -1,0 +1,39 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "checks": 5417,
+  "issue_counts": {
+    "warning": 19
+  },
+  "total": {
+    "n": 32,
+    "first_zero": 25,
+    "retries": 10,
+    "retry_activated_trials": 10,
+    "wait_activated_trials": 6,
+    "scope_activated_trials": 4,
+    "receipt_activated_trials": 6,
+    "clean": 19,
+    "unresolved": 12,
+    "false_confirmations": 1,
+    "duplicates": 10,
+    "zero": 1,
+    "single": 21,
+    "service_records": 41,
+    "create_tool_requests": 42,
+    "successful_create_tool_calls": 41,
+    "errored_create_tool_calls": 1,
+    "late_or_missing_decisions": 1,
+    "decision_seconds": {
+      "n": 32,
+      "minimum": 8.82,
+      "median": 19.771,
+      "maximum": 131.539
+    }
+  },
+  "mechanism_criteria": {
+    "absence_retry_after_zero": true,
+    "wait24_retry_after_eligible_zero": true,
+    "scope_zero_to_broader_view": true,
+    "receipt_while_observer_zero": true
+  }
+}

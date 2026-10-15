@@ -1,0 +1,1305 @@
+{
+  "status": "PASS",
+  "reviewer": "Separate Codex context; no human review.",
+  "method": "All 64 trial captures viewed individually at readable size. Exact archive bytes checked against originals. No generated, reconstructed, or edited evidence.",
+  "count": 64,
+  "archive_sha256": "02142baec155c8b2bf0d47b086298906e884f5a5b8fd858794240a4f73c15179",
+  "exceptions": {
+    "T04": "Later image has one row after recorded zero.",
+    "T10": "Later image has a blank main area; image count is unknown.",
+    "T24": "Later image has one row after recorded zero.",
+    "T27": "Later image has one row after recorded zero and unresolved decision.",
+    "T31": "Later image has two rows after recorded final count of one and confirmation."
+  },
+  "privacy": "No email, full account name, private URL, storage usage, or unrelated file title visible. Owner initial G and me remain as disclosed.",
+  "format_note": "Original .png filenames contain JPEG bytes. This is disclosed in the image manifest; bytes are unchanged.",
+  "cropping_limit": "Some older test rows touch the lower clip edge. Each current target is complete. Images do not establish all records in a block.",
+  "extra_images": {
+    "trigger_example_hidden.png": "Exact copy of reviewed T18 decision capture.",
+    "trigger_example_duplicate.png": "Exact copy of reviewed T18 audit capture.",
+    "trigger_cleanup.png": "Viewed separately. It shows Trash then the exact dedicated test parent. No private account details visible."
+  },
+  "excluded": "T07-loading-private.png remains private and is not in the archive. No preflight image is in this public package.",
+  "images": [
+    {
+      "trial_id": "T01",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T01-audit.png",
+      "sha256": "2c3239ffe97facc359235aa83b28c4fb108de43c610b7fe4b23ef8d0f06f08f6",
+      "capture_start_utc": "2026-10-15T18:24:52.177Z",
+      "capture_end_utc": "2026-10-15T18:24:52.318Z",
+      "saved_decision_utc": "2026-10-15T18:24:35.849Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T01",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T01-decision.png",
+      "sha256": "2c3239ffe97facc359235aa83b28c4fb108de43c610b7fe4b23ef8d0f06f08f6",
+      "capture_start_utc": "2026-10-15T18:24:35.853Z",
+      "capture_end_utc": "2026-10-15T18:24:36.053Z",
+      "saved_decision_utc": "2026-10-15T18:24:35.849Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T02",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T02-audit.png",
+      "sha256": "8218347360c52c3b650232c1f92d47fe6c6aad28778fd0c22b6077c07b1a4ca2",
+      "capture_start_utc": "2026-10-15T18:25:46.135Z",
+      "capture_end_utc": "2026-10-15T18:25:46.358Z",
+      "saved_decision_utc": "2026-10-15T18:25:38.677Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T02",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T02-decision.png",
+      "sha256": "8218347360c52c3b650232c1f92d47fe6c6aad28778fd0c22b6077c07b1a4ca2",
+      "capture_start_utc": "2026-10-15T18:25:38.680Z",
+      "capture_end_utc": "2026-10-15T18:25:38.855Z",
+      "saved_decision_utc": "2026-10-15T18:25:38.677Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T03",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T03-audit.png",
+      "sha256": "56d1cf78f99fea91cbaabfeaf0526d38259bc39e869b055a6fc0d0021d2539e2",
+      "capture_start_utc": "2026-10-15T18:26:15.589Z",
+      "capture_end_utc": "2026-10-15T18:26:15.733Z",
+      "saved_decision_utc": "2026-10-15T18:26:10.192Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T03",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T03-decision.png",
+      "sha256": "6fe1c3d1d1e66e380e4c08d22e9058c22d6c5fa4c57e946a7cb2f08e770c6f51",
+      "capture_start_utc": "2026-10-15T18:26:10.196Z",
+      "capture_end_utc": "2026-10-15T18:26:10.313Z",
+      "saved_decision_utc": "2026-10-15T18:26:10.192Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T04",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T04-audit.png",
+      "sha256": "5a7da84653a88a6a3c943ce344b7a847be90fb5e871a667d8fff3b0e7f686f38",
+      "capture_start_utc": "2026-10-15T18:26:55.161Z",
+      "capture_end_utc": "2026-10-15T18:26:55.316Z",
+      "saved_decision_utc": "2026-10-15T18:26:45.644Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T04",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Image shows one target row after the saved first observer zero. Image is not decision evidence.",
+      "file": "T04-decision.png",
+      "sha256": "5a7da84653a88a6a3c943ce344b7a847be90fb5e871a667d8fff3b0e7f686f38",
+      "capture_start_utc": "2026-10-15T18:26:45.646Z",
+      "capture_end_utc": "2026-10-15T18:26:45.869Z",
+      "saved_decision_utc": "2026-10-15T18:26:45.644Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T05",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T05-audit.png",
+      "sha256": "43684bf253abc6141bdbe66d45b4c503dbad41ad5e8e0b2aeb9e08017242a3a0",
+      "capture_start_utc": "2026-10-15T18:27:30.114Z",
+      "capture_end_utc": "2026-10-15T18:27:30.347Z",
+      "saved_decision_utc": "2026-10-15T18:27:24.301Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T05",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T05-decision.png",
+      "sha256": "43684bf253abc6141bdbe66d45b4c503dbad41ad5e8e0b2aeb9e08017242a3a0",
+      "capture_start_utc": "2026-10-15T18:27:24.306Z",
+      "capture_end_utc": "2026-10-15T18:27:24.442Z",
+      "saved_decision_utc": "2026-10-15T18:27:24.301Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T06",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T06-audit.png",
+      "sha256": "22f1d2ce1a88e4a849988a6b16d701762493d2f32d449a1802dcc00f1a12d560",
+      "capture_start_utc": "2026-10-15T18:28:09.583Z",
+      "capture_end_utc": "2026-10-15T18:28:09.757Z",
+      "saved_decision_utc": "2026-10-15T18:27:59.619Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T06",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T06-decision.png",
+      "sha256": "6fe1c3d1d1e66e380e4c08d22e9058c22d6c5fa4c57e946a7cb2f08e770c6f51",
+      "capture_start_utc": "2026-10-15T18:27:59.626Z",
+      "capture_end_utc": "2026-10-15T18:27:59.757Z",
+      "saved_decision_utc": "2026-10-15T18:27:59.619Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T07",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T07-audit.png",
+      "sha256": "9fa2e6647735c49ad372aecac7a0f6407b24883330d2dd51be638477f7eaee11",
+      "capture_start_utc": "2026-10-15T18:30:45.698Z",
+      "capture_end_utc": "2026-10-15T18:30:45.894Z",
+      "saved_decision_utc": "2026-10-15T18:30:32.223Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T07",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T07-decision.png",
+      "sha256": "6fe1c3d1d1e66e380e4c08d22e9058c22d6c5fa4c57e946a7cb2f08e770c6f51",
+      "capture_start_utc": "2026-10-15T18:30:32.228Z",
+      "capture_end_utc": "2026-10-15T18:30:32.454Z",
+      "saved_decision_utc": "2026-10-15T18:30:32.223Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T08",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible. An older unrelated test row reaches the lower clip edge; target row is complete.",
+      "file": "T08-audit.png",
+      "sha256": "d0d953a4eaabf44cf7a2798d24503c7af9923ac006d54e848153c5cded554a36",
+      "capture_start_utc": "2026-10-15T18:31:19.390Z",
+      "capture_end_utc": "2026-10-15T18:31:19.514Z",
+      "saved_decision_utc": "2026-10-15T18:31:10.295Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T08",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T08-decision.png",
+      "sha256": "d0d953a4eaabf44cf7a2798d24503c7af9923ac006d54e848153c5cded554a36",
+      "capture_start_utc": "2026-10-15T18:31:10.302Z",
+      "capture_end_utc": "2026-10-15T18:31:10.512Z",
+      "saved_decision_utc": "2026-10-15T18:31:10.295Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T09",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T09-audit.png",
+      "sha256": "2bb6b00803c5cc683e14e969bd0626c95fdabd1b507fa61a76b2091d8c50e0a6",
+      "capture_start_utc": "2026-10-15T18:31:54.622Z",
+      "capture_end_utc": "2026-10-15T18:31:54.737Z",
+      "saved_decision_utc": "2026-10-15T18:31:48.627Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T09",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T09-decision.png",
+      "sha256": "f825bc25f44d61642d593ef91b3766b5171615e6b2e1d5e878c7cbf5b1eeb918",
+      "capture_start_utc": "2026-10-15T18:31:48.635Z",
+      "capture_end_utc": "2026-10-15T18:31:48.825Z",
+      "saved_decision_utc": "2026-10-15T18:31:48.627Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T10",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T10-audit.png",
+      "sha256": "3fd30447b624b5b41167f37199fb72453fdba4becbf3b686db1c39d63d38f76d",
+      "capture_start_utc": "2026-10-15T18:32:20.051Z",
+      "capture_end_utc": "2026-10-15T18:32:20.455Z",
+      "saved_decision_utc": "2026-10-15T18:32:13.431Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T10",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": null,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "All controls visible but main area is blank. The image cannot establish a zero count.",
+      "file": "T10-decision.png",
+      "sha256": "6f5c6adb05e5452d6fc3c15a72cd37abfeb404ad73df11233dc1c6c7824fb811",
+      "capture_start_utc": "2026-10-15T18:32:13.435Z",
+      "capture_end_utc": "2026-10-15T18:32:13.653Z",
+      "saved_decision_utc": "2026-10-15T18:32:13.431Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T11",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T11-audit.png",
+      "sha256": "aaa0f7bac07b3d78b501f8566620f8b6054965632c31eac73a064bc8f84515c3",
+      "capture_start_utc": "2026-10-15T18:33:02.372Z",
+      "capture_end_utc": "2026-10-15T18:33:02.497Z",
+      "saved_decision_utc": "2026-10-15T18:32:55.679Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T11",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T11-decision.png",
+      "sha256": "aaa0f7bac07b3d78b501f8566620f8b6054965632c31eac73a064bc8f84515c3",
+      "capture_start_utc": "2026-10-15T18:32:55.682Z",
+      "capture_end_utc": "2026-10-15T18:32:55.885Z",
+      "saved_decision_utc": "2026-10-15T18:32:55.679Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T12",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T12-audit.png",
+      "sha256": "444115c297f0f45a95021bc066a5a92e04e44974627f6aa4004fb7b0516ef13d",
+      "capture_start_utc": "2026-10-15T18:33:46.001Z",
+      "capture_end_utc": "2026-10-15T18:33:46.234Z",
+      "saved_decision_utc": "2026-10-15T18:33:33.709Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T12",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T12-decision.png",
+      "sha256": "f825bc25f44d61642d593ef91b3766b5171615e6b2e1d5e878c7cbf5b1eeb918",
+      "capture_start_utc": "2026-10-15T18:33:33.717Z",
+      "capture_end_utc": "2026-10-15T18:33:33.879Z",
+      "saved_decision_utc": "2026-10-15T18:33:33.709Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T13",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T13-audit.png",
+      "sha256": "30f4cb304bef5147d06d608998d9de9ef88df261f28ae8251afa8b83d8b19b00",
+      "capture_start_utc": "2026-10-15T18:35:37.123Z",
+      "capture_end_utc": "2026-10-15T18:35:37.370Z",
+      "saved_decision_utc": "2026-10-15T18:35:26.077Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T13",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T13-decision.png",
+      "sha256": "f825bc25f44d61642d593ef91b3766b5171615e6b2e1d5e878c7cbf5b1eeb918",
+      "capture_start_utc": "2026-10-15T18:35:26.082Z",
+      "capture_end_utc": "2026-10-15T18:35:26.235Z",
+      "saved_decision_utc": "2026-10-15T18:35:26.077Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T14",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T14-audit.png",
+      "sha256": "bf4501520df2809c74ad6be2d48d48a6414debe7cb1b59d240fb9f0bdc1e0686",
+      "capture_start_utc": "2026-10-15T18:36:36.536Z",
+      "capture_end_utc": "2026-10-15T18:36:36.692Z",
+      "saved_decision_utc": "2026-10-15T18:36:30.851Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T14",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T14-decision.png",
+      "sha256": "bf4501520df2809c74ad6be2d48d48a6414debe7cb1b59d240fb9f0bdc1e0686",
+      "capture_start_utc": "2026-10-15T18:36:30.862Z",
+      "capture_end_utc": "2026-10-15T18:36:31.013Z",
+      "saved_decision_utc": "2026-10-15T18:36:30.851Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T15",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected. Target row is complete; older test rows can reach the lower clip edge.",
+      "file": "T15-audit.png",
+      "sha256": "2b5b12e15adf17e4928ad0ad88968dd2955ac17e3af78522850fbcdcea61b03c",
+      "capture_start_utc": "2026-10-15T18:37:02.596Z",
+      "capture_end_utc": "2026-10-15T18:37:02.726Z",
+      "saved_decision_utc": "2026-10-15T18:36:55.626Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T15",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected. Target row is complete; older test rows can reach the lower clip edge.",
+      "file": "T15-decision.png",
+      "sha256": "2b5b12e15adf17e4928ad0ad88968dd2955ac17e3af78522850fbcdcea61b03c",
+      "capture_start_utc": "2026-10-15T18:36:55.634Z",
+      "capture_end_utc": "2026-10-15T18:36:55.832Z",
+      "saved_decision_utc": "2026-10-15T18:36:55.626Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T16",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected. Target row is complete; older test rows can reach the lower clip edge.",
+      "file": "T16-audit.png",
+      "sha256": "d6d060dcccdeac6791bd6c202abc47073af923f132d47b479f51a5ce4ac8b513",
+      "capture_start_utc": "2026-10-15T18:37:32.802Z",
+      "capture_end_utc": "2026-10-15T18:37:32.949Z",
+      "saved_decision_utc": "2026-10-15T18:37:27.324Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T16",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected. Target row is complete; older test rows can reach the lower clip edge.",
+      "file": "T16-decision.png",
+      "sha256": "d6d060dcccdeac6791bd6c202abc47073af923f132d47b479f51a5ce4ac8b513",
+      "capture_start_utc": "2026-10-15T18:37:27.333Z",
+      "capture_end_utc": "2026-10-15T18:37:27.493Z",
+      "saved_decision_utc": "2026-10-15T18:37:27.324Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T17",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T17-audit.png",
+      "sha256": "c63c099da2b0e58c1f19e6de1fbe27f66019a27608d09d6c60847f174a458e9c",
+      "capture_start_utc": "2026-10-15T18:25:13.478Z",
+      "capture_end_utc": "2026-10-15T18:25:13.637Z",
+      "saved_decision_utc": "2026-10-15T18:25:02.974Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T17",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T17-decision.png",
+      "sha256": "c63c099da2b0e58c1f19e6de1fbe27f66019a27608d09d6c60847f174a458e9c",
+      "capture_start_utc": "2026-10-15T18:25:02.977Z",
+      "capture_end_utc": "2026-10-15T18:25:03.218Z",
+      "saved_decision_utc": "2026-10-15T18:25:02.974Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T18",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T18-audit.png",
+      "sha256": "687b2ca53c8f267a28bc81eaa665f81870815263e38daddebdfb96ab7e9290b5",
+      "capture_start_utc": "2026-10-15T18:26:11.890Z",
+      "capture_end_utc": "2026-10-15T18:26:12.046Z",
+      "saved_decision_utc": "2026-10-15T18:26:01.088Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T18",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T18-decision.png",
+      "sha256": "7bdea65aeacb7bfaeae4bd0b978b3001bb84584185c21afae0ee75e8beef4c26",
+      "capture_start_utc": "2026-10-15T18:26:01.091Z",
+      "capture_end_utc": "2026-10-15T18:26:01.243Z",
+      "saved_decision_utc": "2026-10-15T18:26:01.088Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T19",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T19-audit.png",
+      "sha256": "3d6996c28d5668dc3ae460255529af7fce0929e54e09f7cf3d68e892ab752913",
+      "capture_start_utc": "2026-10-15T18:27:20.461Z",
+      "capture_end_utc": "2026-10-15T18:27:20.590Z",
+      "saved_decision_utc": "2026-10-15T18:27:14.235Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T19",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T19-decision.png",
+      "sha256": "7bdea65aeacb7bfaeae4bd0b978b3001bb84584185c21afae0ee75e8beef4c26",
+      "capture_start_utc": "2026-10-15T18:27:14.239Z",
+      "capture_end_utc": "2026-10-15T18:27:14.440Z",
+      "saved_decision_utc": "2026-10-15T18:27:14.235Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T20",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T20-audit.png",
+      "sha256": "d40f331c6606f82a20378e4139654e570135f07a8680113fcc41814a28b2d88b",
+      "capture_start_utc": "2026-10-15T18:28:19.750Z",
+      "capture_end_utc": "2026-10-15T18:28:19.901Z",
+      "saved_decision_utc": "2026-10-15T18:28:13.242Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T20",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T20-decision.png",
+      "sha256": "d40f331c6606f82a20378e4139654e570135f07a8680113fcc41814a28b2d88b",
+      "capture_start_utc": "2026-10-15T18:28:13.246Z",
+      "capture_end_utc": "2026-10-15T18:28:13.452Z",
+      "saved_decision_utc": "2026-10-15T18:28:13.242Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T21",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T21-audit.png",
+      "sha256": "7b2e2f7fe5fe9ac11a04d30fcd288393e1b7a9b3fc850305cf53634c58ad9c29",
+      "capture_start_utc": "2026-10-15T18:28:45.112Z",
+      "capture_end_utc": "2026-10-15T18:28:45.260Z",
+      "saved_decision_utc": "2026-10-15T18:28:38.043Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T21",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T21-decision.png",
+      "sha256": "7b2e2f7fe5fe9ac11a04d30fcd288393e1b7a9b3fc850305cf53634c58ad9c29",
+      "capture_start_utc": "2026-10-15T18:28:38.048Z",
+      "capture_end_utc": "2026-10-15T18:28:38.260Z",
+      "saved_decision_utc": "2026-10-15T18:28:38.043Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T22",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T22-audit.png",
+      "sha256": "f0c93ad9e683cb9ec48c7c31dd8aac686a2b9b0e6e95e8c55812734a1ce74047",
+      "capture_start_utc": "2026-10-15T18:29:25.701Z",
+      "capture_end_utc": "2026-10-15T18:29:25.918Z",
+      "saved_decision_utc": "2026-10-15T18:29:13.452Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T22",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T22-decision.png",
+      "sha256": "f0c93ad9e683cb9ec48c7c31dd8aac686a2b9b0e6e95e8c55812734a1ce74047",
+      "capture_start_utc": "2026-10-15T18:29:13.457Z",
+      "capture_end_utc": "2026-10-15T18:29:13.616Z",
+      "saved_decision_utc": "2026-10-15T18:29:13.452Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T23",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible.",
+      "file": "T23-audit.png",
+      "sha256": "cc13ffb5d6a25a607f476a3cea1a573746d9d79d9e87f33b7dea038f979f823e",
+      "capture_start_utc": "2026-10-15T18:29:52.670Z",
+      "capture_end_utc": "2026-10-15T18:29:52.794Z",
+      "saved_decision_utc": "2026-10-15T18:29:47.040Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T23",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T23-decision.png",
+      "sha256": "7bdea65aeacb7bfaeae4bd0b978b3001bb84584185c21afae0ee75e8beef4c26",
+      "capture_start_utc": "2026-10-15T18:29:47.046Z",
+      "capture_end_utc": "2026-10-15T18:29:47.213Z",
+      "saved_decision_utc": "2026-10-15T18:29:47.040Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T24",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable clipped page. Target rows visible. An older unrelated test row reaches the lower clip edge; target row is complete.",
+      "file": "T24-audit.png",
+      "sha256": "fce02ac0b3608cd2f2cc0778f553fe76faec6d1608a931dc59518b82b329eed0",
+      "capture_start_utc": "2026-10-15T18:30:28.767Z",
+      "capture_end_utc": "2026-10-15T18:30:29.044Z",
+      "saved_decision_utc": "2026-10-15T18:30:16.996Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T24",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Image shows one target row after the saved first observer zero. Image is not decision evidence.",
+      "file": "T24-decision.png",
+      "sha256": "fce02ac0b3608cd2f2cc0778f553fe76faec6d1608a931dc59518b82b329eed0",
+      "capture_start_utc": "2026-10-15T18:30:17.000Z",
+      "capture_end_utc": "2026-10-15T18:30:17.211Z",
+      "saved_decision_utc": "2026-10-15T18:30:16.996Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T25",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T25-audit.png",
+      "sha256": "5b24a6a9f92d58558c43fea713023d3aaa4dc80d2b944fd28ba85418b990511d",
+      "capture_start_utc": "2026-10-15T18:32:01.082Z",
+      "capture_end_utc": "2026-10-15T18:32:01.218Z",
+      "saved_decision_utc": "2026-10-15T18:31:54.459Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T25",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T25-decision.png",
+      "sha256": "063e594dc01436168aff08c1867383189dc301a7ae08500cf60798fa489cb484",
+      "capture_start_utc": "2026-10-15T18:31:54.466Z",
+      "capture_end_utc": "2026-10-15T18:31:54.635Z",
+      "saved_decision_utc": "2026-10-15T18:31:54.459Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T26",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T26-audit.png",
+      "sha256": "4baf2c841f73eb5d5af895f8c59a0065d6174c73770a842d4e0dfa659a96ecb1",
+      "capture_start_utc": "2026-10-15T18:32:32.435Z",
+      "capture_end_utc": "2026-10-15T18:32:32.793Z",
+      "saved_decision_utc": "2026-10-15T18:32:24.379Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T26",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T26-decision.png",
+      "sha256": "4baf2c841f73eb5d5af895f8c59a0065d6174c73770a842d4e0dfa659a96ecb1",
+      "capture_start_utc": "2026-10-15T18:32:24.387Z",
+      "capture_end_utc": "2026-10-15T18:32:24.550Z",
+      "saved_decision_utc": "2026-10-15T18:32:24.379Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T27",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T27-audit.png",
+      "sha256": "65b1312b556cd43f5dc14bb0557704e9ef427b50224291775ca302491f530cdc",
+      "capture_start_utc": "2026-10-15T18:33:06.689Z",
+      "capture_end_utc": "2026-10-15T18:33:06.830Z",
+      "saved_decision_utc": "2026-10-15T18:32:57.015Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T27",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Image shows one target row after the saved first observer count of zero and unresolved decision. Image is not decision evidence.",
+      "file": "T27-decision.png",
+      "sha256": "65b1312b556cd43f5dc14bb0557704e9ef427b50224291775ca302491f530cdc",
+      "capture_start_utc": "2026-10-15T18:32:57.019Z",
+      "capture_end_utc": "2026-10-15T18:32:57.507Z",
+      "saved_decision_utc": "2026-10-15T18:32:57.015Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T28",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T28-audit.png",
+      "sha256": "452cc1d85c33cefd73210906e17f955b222221782e2035214ecd6791590cba6b",
+      "capture_start_utc": "2026-10-15T18:33:55.859Z",
+      "capture_end_utc": "2026-10-15T18:33:56.025Z",
+      "saved_decision_utc": "2026-10-15T18:33:40.874Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T28",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T28-decision.png",
+      "sha256": "452cc1d85c33cefd73210906e17f955b222221782e2035214ecd6791590cba6b",
+      "capture_start_utc": "2026-10-15T18:33:40.881Z",
+      "capture_end_utc": "2026-10-15T18:33:41.187Z",
+      "saved_decision_utc": "2026-10-15T18:33:40.874Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T29",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T29-audit.png",
+      "sha256": "452cc1d85c33cefd73210906e17f955b222221782e2035214ecd6791590cba6b",
+      "capture_start_utc": "2026-10-15T18:34:54.411Z",
+      "capture_end_utc": "2026-10-15T18:34:54.599Z",
+      "saved_decision_utc": "2026-10-15T18:34:33.943Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T29",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible.",
+      "file": "T29-decision.png",
+      "sha256": "063e594dc01436168aff08c1867383189dc301a7ae08500cf60798fa489cb484",
+      "capture_start_utc": "2026-10-15T18:34:33.954Z",
+      "capture_end_utc": "2026-10-15T18:34:34.139Z",
+      "saved_decision_utc": "2026-10-15T18:34:33.943Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T30",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T30-audit.png",
+      "sha256": "0b71b132d3e73ace2eb7f8bec61892369bc8b735638b39e5d1b1fe09889769d9",
+      "capture_start_utc": "2026-10-15T18:36:34.148Z",
+      "capture_end_utc": "2026-10-15T18:36:34.279Z",
+      "saved_decision_utc": "2026-10-15T18:36:25.234Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T30",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 1,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T30-decision.png",
+      "sha256": "0b71b132d3e73ace2eb7f8bec61892369bc8b735638b39e5d1b1fe09889769d9",
+      "capture_start_utc": "2026-10-15T18:36:25.243Z",
+      "capture_end_utc": "2026-10-15T18:36:25.435Z",
+      "saved_decision_utc": "2026-10-15T18:36:25.234Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T31",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected.",
+      "file": "T31-audit.png",
+      "sha256": "34df8568eb1a8598cd7d3afe9c153bd95e20bed30f468ab53cc1cb0481359c63",
+      "capture_start_utc": "2026-10-15T18:37:44.502Z",
+      "capture_end_utc": "2026-10-15T18:37:44.680Z",
+      "saved_decision_utc": "2026-10-15T18:37:29.453Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T31",
+      "phase": "decision",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Image shows two target rows after the saved final observer count of one. Image is not decision evidence.",
+      "file": "T31-decision.png",
+      "sha256": "34df8568eb1a8598cd7d3afe9c153bd95e20bed30f468ab53cc1cb0481359c63",
+      "capture_start_utc": "2026-10-15T18:37:29.462Z",
+      "capture_end_utc": "2026-10-15T18:37:29.676Z",
+      "saved_decision_utc": "2026-10-15T18:37:29.453Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T32",
+      "phase": "audit",
+      "visible_view": "All",
+      "visible_target_count": 2,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Readable All list; exact target count inspected. Target row is complete; older test rows can reach the lower clip edge.",
+      "file": "T32-audit.png",
+      "sha256": "f1aa10cdfe2550803b1cbb59d2c86c448fad5d7b864e6c410e7c1be52ab9ae1b",
+      "capture_start_utc": "2026-10-15T18:38:49.371Z",
+      "capture_end_utc": "2026-10-15T18:38:49.539Z",
+      "saved_decision_utc": "2026-10-15T18:38:42.889Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    },
+    {
+      "trial_id": "T32",
+      "phase": "decision",
+      "visible_view": "Documents",
+      "visible_target_count": 0,
+      "manual_review": true,
+      "privacy": "Only test names, app UI, and owner G/me. No email, full name, account avatar, or private URL.",
+      "note": "Explicit Documents filter and No matching results are visible. Target row is complete; older test rows can reach the lower clip edge.",
+      "file": "T32-decision.png",
+      "sha256": "063e594dc01436168aff08c1867383189dc301a7ae08500cf60798fa489cb484",
+      "capture_start_utc": "2026-10-15T18:38:42.899Z",
+      "capture_end_utc": "2026-10-15T18:38:43.011Z",
+      "saved_decision_utc": "2026-10-15T18:38:42.889Z",
+      "dimensions": [
+        1190,
+        620
+      ],
+      "detected_format": "JPEG",
+      "exif_fields": 0
+    }
+  ]
+}

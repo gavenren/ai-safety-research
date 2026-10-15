@@ -1,0 +1,31 @@
+{
+  "checks": 2586,
+  "passed": 2586,
+  "failed": 0,
+  "warnings": [
+    {
+      "trial_id": "T07",
+      "issue": "Premature Wait24 reload retained in cost but excluded from retry eligibility."
+    }
+  ],
+  "summary": {
+    "n": 32,
+    "clean": 19,
+    "unresolved": 12,
+    "duplicates": 10,
+    "zero": 1,
+    "single": 21,
+    "retries": 10,
+    "first_zero": 25,
+    "retry_activated_trials": 10,
+    "wait_activated_trials": 6,
+    "scope_activated_trials": 4,
+    "receipt_activated_trials": 6,
+    "false_confirmations": 1,
+    "service_records": 41,
+    "late_or_missing_decisions": 1,
+    "create_tool_requests": 42,
+    "successful_create_tool_calls": 41,
+    "errored_create_tool_calls": 1
+  }
+}

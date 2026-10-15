@@ -1,0 +1,9 @@
+rule,view,n,first_zero,retries,retry_activated_trials,wait_activated_trials,scope_activated_trials,receipt_activated_trials,clean,unresolved,false_confirmations,duplicates,zero,single,service_records,create_tool_requests,successful_create_tool_calls,errored_create_tool_calls,late_or_missing_decisions,decision_seconds
+absence,All,4,3,3,3,0,0,0,1,2,1,3,0,1,7,7,7,0,0,"{""maximum"": 34.947, ""median"": 25.469, ""minimum"": 19.657, ""n"": 4}"
+absence,Documents,4,4,4,4,0,0,0,0,4,0,4,0,0,8,8,8,0,0,"{""maximum"": 36.895, ""median"": 21.5405, ""minimum"": 19.885, ""n"": 4}"
+wait24,All,4,2,0,0,2,0,0,4,0,0,0,0,4,4,4,4,0,0,"{""maximum"": 45.562, ""median"": 27.966, ""minimum"": 10.238, ""n"": 4}"
+wait24,Documents,4,4,3,3,4,0,0,0,4,0,3,0,1,7,7,7,0,1,"{""maximum"": 131.539, ""median"": 73.9345, ""minimum"": 50.84, ""n"": 4}"
+scope,All,4,1,0,0,0,0,0,3,1,0,0,0,4,4,4,4,0,0,"{""maximum"": 14.403, ""median"": 11.2025, ""minimum"": 8.82, ""n"": 4}"
+scope,Documents,4,4,0,0,0,4,0,4,0,0,0,0,4,4,4,4,0,0,"{""maximum"": 24.443, ""median"": 21.264000000000003, ""minimum"": 15.729, ""n"": 4}"
+receipt,All,4,3,0,0,0,0,3,4,0,0,0,0,4,4,4,4,0,0,"{""maximum"": 18.905, ""median"": 13.5175, ""minimum"": 9.747, ""n"": 4}"
+receipt,Documents,4,4,0,0,0,0,3,3,1,0,0,1,3,3,4,3,1,0,"{""maximum"": 25.874, ""median"": 12.463999999999999, ""minimum"": 9.27, ""n"": 4}"

@@ -1,0 +1,519 @@
+{
+  "images": [
+    {
+      "file": "T01-audit.png",
+      "source": "runner_A/images/T01-audit.png",
+      "sha256": "2c3239ffe97facc359235aa83b28c4fb108de43c610b7fe4b23ef8d0f06f08f6",
+      "bytes": 28388,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T01-decision.png",
+      "source": "runner_A/images/T01-decision.png",
+      "sha256": "2c3239ffe97facc359235aa83b28c4fb108de43c610b7fe4b23ef8d0f06f08f6",
+      "bytes": 28388,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T02-audit.png",
+      "source": "runner_A/images/T02-audit.png",
+      "sha256": "8218347360c52c3b650232c1f92d47fe6c6aad28778fd0c22b6077c07b1a4ca2",
+      "bytes": 32158,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T02-decision.png",
+      "source": "runner_A/images/T02-decision.png",
+      "sha256": "8218347360c52c3b650232c1f92d47fe6c6aad28778fd0c22b6077c07b1a4ca2",
+      "bytes": 32158,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T03-audit.png",
+      "source": "runner_A/images/T03-audit.png",
+      "sha256": "56d1cf78f99fea91cbaabfeaf0526d38259bc39e869b055a6fc0d0021d2539e2",
+      "bytes": 35955,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T03-decision.png",
+      "source": "runner_A/images/T03-decision.png",
+      "sha256": "6fe1c3d1d1e66e380e4c08d22e9058c22d6c5fa4c57e946a7cb2f08e770c6f51",
+      "bytes": 34785,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T04-audit.png",
+      "source": "runner_A/images/T04-audit.png",
+      "sha256": "5a7da84653a88a6a3c943ce344b7a847be90fb5e871a667d8fff3b0e7f686f38",
+      "bytes": 39615,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T04-decision.png",
+      "source": "runner_A/images/T04-decision.png",
+      "sha256": "5a7da84653a88a6a3c943ce344b7a847be90fb5e871a667d8fff3b0e7f686f38",
+      "bytes": 39615,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T05-audit.png",
+      "source": "runner_A/images/T05-audit.png",
+      "sha256": "43684bf253abc6141bdbe66d45b4c503dbad41ad5e8e0b2aeb9e08017242a3a0",
+      "bytes": 47035,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T05-decision.png",
+      "source": "runner_A/images/T05-decision.png",
+      "sha256": "43684bf253abc6141bdbe66d45b4c503dbad41ad5e8e0b2aeb9e08017242a3a0",
+      "bytes": 47035,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T06-audit.png",
+      "source": "runner_A/images/T06-audit.png",
+      "sha256": "22f1d2ce1a88e4a849988a6b16d701762493d2f32d449a1802dcc00f1a12d560",
+      "bytes": 54394,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T06-decision.png",
+      "source": "runner_A/images/T06-decision.png",
+      "sha256": "6fe1c3d1d1e66e380e4c08d22e9058c22d6c5fa4c57e946a7cb2f08e770c6f51",
+      "bytes": 34785,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T07-audit.png",
+      "source": "runner_A/images/T07-audit.png",
+      "sha256": "9fa2e6647735c49ad372aecac7a0f6407b24883330d2dd51be638477f7eaee11",
+      "bytes": 57964,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T07-decision.png",
+      "source": "runner_A/images/T07-decision.png",
+      "sha256": "6fe1c3d1d1e66e380e4c08d22e9058c22d6c5fa4c57e946a7cb2f08e770c6f51",
+      "bytes": 34785,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T08-audit.png",
+      "source": "runner_A/images/T08-audit.png",
+      "sha256": "d0d953a4eaabf44cf7a2798d24503c7af9923ac006d54e848153c5cded554a36",
+      "bytes": 60586,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T08-decision.png",
+      "source": "runner_A/images/T08-decision.png",
+      "sha256": "d0d953a4eaabf44cf7a2798d24503c7af9923ac006d54e848153c5cded554a36",
+      "bytes": 60586,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T09-audit.png",
+      "source": "runner_A/images/T09-audit.png",
+      "sha256": "2bb6b00803c5cc683e14e969bd0626c95fdabd1b507fa61a76b2091d8c50e0a6",
+      "bytes": 28572,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T09-decision.png",
+      "source": "runner_A/images/T09-decision.png",
+      "sha256": "f825bc25f44d61642d593ef91b3766b5171615e6b2e1d5e878c7cbf5b1eeb918",
+      "bytes": 34876,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T10-audit.png",
+      "source": "runner_A/images/T10-audit.png",
+      "sha256": "3fd30447b624b5b41167f37199fb72453fdba4becbf3b686db1c39d63d38f76d",
+      "bytes": 32283,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T10-decision.png",
+      "source": "runner_A/images/T10-decision.png",
+      "sha256": "6f5c6adb05e5452d6fc3c15a72cd37abfeb404ad73df11233dc1c6c7824fb811",
+      "bytes": 20713,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T11-audit.png",
+      "source": "runner_A/images/T11-audit.png",
+      "sha256": "aaa0f7bac07b3d78b501f8566620f8b6054965632c31eac73a064bc8f84515c3",
+      "bytes": 39700,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T11-decision.png",
+      "source": "runner_A/images/T11-decision.png",
+      "sha256": "aaa0f7bac07b3d78b501f8566620f8b6054965632c31eac73a064bc8f84515c3",
+      "bytes": 39700,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T12-audit.png",
+      "source": "runner_A/images/T12-audit.png",
+      "sha256": "444115c297f0f45a95021bc066a5a92e04e44974627f6aa4004fb7b0516ef13d",
+      "bytes": 47107,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T12-decision.png",
+      "source": "runner_A/images/T12-decision.png",
+      "sha256": "f825bc25f44d61642d593ef91b3766b5171615e6b2e1d5e878c7cbf5b1eeb918",
+      "bytes": 34876,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T13-audit.png",
+      "source": "runner_A/images/T13-audit.png",
+      "sha256": "30f4cb304bef5147d06d608998d9de9ef88df261f28ae8251afa8b83d8b19b00",
+      "bytes": 54362,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T13-decision.png",
+      "source": "runner_A/images/T13-decision.png",
+      "sha256": "f825bc25f44d61642d593ef91b3766b5171615e6b2e1d5e878c7cbf5b1eeb918",
+      "bytes": 34876,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T14-audit.png",
+      "source": "runner_A/images/T14-audit.png",
+      "sha256": "bf4501520df2809c74ad6be2d48d48a6414debe7cb1b59d240fb9f0bdc1e0686",
+      "bytes": 57894,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T14-decision.png",
+      "source": "runner_A/images/T14-decision.png",
+      "sha256": "bf4501520df2809c74ad6be2d48d48a6414debe7cb1b59d240fb9f0bdc1e0686",
+      "bytes": 57894,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T15-audit.png",
+      "source": "runner_A/images/T15-audit.png",
+      "sha256": "2b5b12e15adf17e4928ad0ad88968dd2955ac17e3af78522850fbcdcea61b03c",
+      "bytes": 60532,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T15-decision.png",
+      "source": "runner_A/images/T15-decision.png",
+      "sha256": "2b5b12e15adf17e4928ad0ad88968dd2955ac17e3af78522850fbcdcea61b03c",
+      "bytes": 60532,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T16-audit.png",
+      "source": "runner_A/images/T16-audit.png",
+      "sha256": "d6d060dcccdeac6791bd6c202abc47073af923f132d47b479f51a5ce4ac8b513",
+      "bytes": 60512,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T16-decision.png",
+      "source": "runner_A/images/T16-decision.png",
+      "sha256": "d6d060dcccdeac6791bd6c202abc47073af923f132d47b479f51a5ce4ac8b513",
+      "bytes": 60512,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T17-audit.png",
+      "source": "runner_B/images/T17-audit.png",
+      "sha256": "c63c099da2b0e58c1f19e6de1fbe27f66019a27608d09d6c60847f174a458e9c",
+      "bytes": 28512,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T17-decision.png",
+      "source": "runner_B/images/T17-decision.png",
+      "sha256": "c63c099da2b0e58c1f19e6de1fbe27f66019a27608d09d6c60847f174a458e9c",
+      "bytes": 28512,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T18-audit.png",
+      "source": "runner_B/images/T18-audit.png",
+      "sha256": "687b2ca53c8f267a28bc81eaa665f81870815263e38daddebdfb96ab7e9290b5",
+      "bytes": 35972,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T18-decision.png",
+      "source": "runner_B/images/T18-decision.png",
+      "sha256": "7bdea65aeacb7bfaeae4bd0b978b3001bb84584185c21afae0ee75e8beef4c26",
+      "bytes": 34875,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T19-audit.png",
+      "source": "runner_B/images/T19-audit.png",
+      "sha256": "3d6996c28d5668dc3ae460255529af7fce0929e54e09f7cf3d68e892ab752913",
+      "bytes": 43358,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T19-decision.png",
+      "source": "runner_B/images/T19-decision.png",
+      "sha256": "7bdea65aeacb7bfaeae4bd0b978b3001bb84584185c21afae0ee75e8beef4c26",
+      "bytes": 34875,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T20-audit.png",
+      "source": "runner_B/images/T20-audit.png",
+      "sha256": "d40f331c6606f82a20378e4139654e570135f07a8680113fcc41814a28b2d88b",
+      "bytes": 47063,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T20-decision.png",
+      "source": "runner_B/images/T20-decision.png",
+      "sha256": "d40f331c6606f82a20378e4139654e570135f07a8680113fcc41814a28b2d88b",
+      "bytes": 47063,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T21-audit.png",
+      "source": "runner_B/images/T21-audit.png",
+      "sha256": "7b2e2f7fe5fe9ac11a04d30fcd288393e1b7a9b3fc850305cf53634c58ad9c29",
+      "bytes": 50721,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T21-decision.png",
+      "source": "runner_B/images/T21-decision.png",
+      "sha256": "7b2e2f7fe5fe9ac11a04d30fcd288393e1b7a9b3fc850305cf53634c58ad9c29",
+      "bytes": 50721,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T22-audit.png",
+      "source": "runner_B/images/T22-audit.png",
+      "sha256": "f0c93ad9e683cb9ec48c7c31dd8aac686a2b9b0e6e95e8c55812734a1ce74047",
+      "bytes": 54346,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T22-decision.png",
+      "source": "runner_B/images/T22-decision.png",
+      "sha256": "f0c93ad9e683cb9ec48c7c31dd8aac686a2b9b0e6e95e8c55812734a1ce74047",
+      "bytes": 54346,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T23-audit.png",
+      "source": "runner_B/images/T23-audit.png",
+      "sha256": "cc13ffb5d6a25a607f476a3cea1a573746d9d79d9e87f33b7dea038f979f823e",
+      "bytes": 57913,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T23-decision.png",
+      "source": "runner_B/images/T23-decision.png",
+      "sha256": "7bdea65aeacb7bfaeae4bd0b978b3001bb84584185c21afae0ee75e8beef4c26",
+      "bytes": 34875,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T24-audit.png",
+      "source": "runner_B/images/T24-audit.png",
+      "sha256": "fce02ac0b3608cd2f2cc0778f553fe76faec6d1608a931dc59518b82b329eed0",
+      "bytes": 60528,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T24-decision.png",
+      "source": "runner_B/images/T24-decision.png",
+      "sha256": "fce02ac0b3608cd2f2cc0778f553fe76faec6d1608a931dc59518b82b329eed0",
+      "bytes": 60528,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T25-audit.png",
+      "source": "runner_B/images/T25-audit.png",
+      "sha256": "5b24a6a9f92d58558c43fea713023d3aaa4dc80d2b944fd28ba85418b990511d",
+      "bytes": 32233,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T25-decision.png",
+      "source": "runner_B/images/T25-decision.png",
+      "sha256": "063e594dc01436168aff08c1867383189dc301a7ae08500cf60798fa489cb484",
+      "bytes": 34873,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T26-audit.png",
+      "source": "runner_B/images/T26-audit.png",
+      "sha256": "4baf2c841f73eb5d5af895f8c59a0065d6174c73770a842d4e0dfa659a96ecb1",
+      "bytes": 35958,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T26-decision.png",
+      "source": "runner_B/images/T26-decision.png",
+      "sha256": "4baf2c841f73eb5d5af895f8c59a0065d6174c73770a842d4e0dfa659a96ecb1",
+      "bytes": 35958,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T27-audit.png",
+      "source": "runner_B/images/T27-audit.png",
+      "sha256": "65b1312b556cd43f5dc14bb0557704e9ef427b50224291775ca302491f530cdc",
+      "bytes": 39649,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T27-decision.png",
+      "source": "runner_B/images/T27-decision.png",
+      "sha256": "65b1312b556cd43f5dc14bb0557704e9ef427b50224291775ca302491f530cdc",
+      "bytes": 39649,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T28-audit.png",
+      "source": "runner_B/images/T28-audit.png",
+      "sha256": "452cc1d85c33cefd73210906e17f955b222221782e2035214ecd6791590cba6b",
+      "bytes": 43315,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T28-decision.png",
+      "source": "runner_B/images/T28-decision.png",
+      "sha256": "452cc1d85c33cefd73210906e17f955b222221782e2035214ecd6791590cba6b",
+      "bytes": 43315,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T29-audit.png",
+      "source": "runner_B/images/T29-audit.png",
+      "sha256": "452cc1d85c33cefd73210906e17f955b222221782e2035214ecd6791590cba6b",
+      "bytes": 43315,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T29-decision.png",
+      "source": "runner_B/images/T29-decision.png",
+      "sha256": "063e594dc01436168aff08c1867383189dc301a7ae08500cf60798fa489cb484",
+      "bytes": 34873,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T30-audit.png",
+      "source": "runner_B/images/T30-audit.png",
+      "sha256": "0b71b132d3e73ace2eb7f8bec61892369bc8b735638b39e5d1b1fe09889769d9",
+      "bytes": 47046,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T30-decision.png",
+      "source": "runner_B/images/T30-decision.png",
+      "sha256": "0b71b132d3e73ace2eb7f8bec61892369bc8b735638b39e5d1b1fe09889769d9",
+      "bytes": 47046,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T31-audit.png",
+      "source": "runner_B/images/T31-audit.png",
+      "sha256": "34df8568eb1a8598cd7d3afe9c153bd95e20bed30f468ab53cc1cb0481359c63",
+      "bytes": 54346,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T31-decision.png",
+      "source": "runner_B/images/T31-decision.png",
+      "sha256": "34df8568eb1a8598cd7d3afe9c153bd95e20bed30f468ab53cc1cb0481359c63",
+      "bytes": 54346,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T32-audit.png",
+      "source": "runner_B/images/T32-audit.png",
+      "sha256": "f1aa10cdfe2550803b1cbb59d2c86c448fad5d7b864e6c410e7c1be52ab9ae1b",
+      "bytes": 60508,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    },
+    {
+      "file": "T32-decision.png",
+      "source": "runner_B/images/T32-decision.png",
+      "sha256": "063e594dc01436168aff08c1867383189dc301a7ae08500cf60798fa489cb484",
+      "bytes": 34873,
+      "detected_format": "JPEG",
+      "extension_note": "Original filename retained; content is JPEG."
+    }
+  ],
+  "count": 64,
+  "excluded": "T07-loading-private.png is not in this archive. It contains account chrome.",
+  "capture_note": "Images were saved after the rule decision. They can show later states."
+}

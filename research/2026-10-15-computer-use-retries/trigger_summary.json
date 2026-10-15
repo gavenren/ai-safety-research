@@ -1,0 +1,484 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "study": "32 selected two-tab Drive trials; descriptive counts only",
+  "checks": 5417,
+  "issue_counts": {
+    "warning": 19
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "repeated_record_id_line_order_used",
+      "trial_id": "T01",
+      "detail": [
+        "trigger_runner_A_actions.jsonl",
+        14,
+        3
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "repeated_record_id_line_order_used",
+      "trial_id": "T01",
+      "detail": [
+        "trigger_runner_A_actions.jsonl",
+        15,
+        4
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "raw_metadata_correction_retained",
+      "trial_id": "T01",
+      "detail": [
+        "trigger_runner_A_actions.jsonl",
+        18,
+        "Early record_id counter used a primitive closure and repeats. Line order is authoritative. Later counter uses mutable object starting 1000. T01 setup steps were phase initial_create; only click args name Create submission1 was actual submission."
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "repeated_record_id_line_order_used",
+      "trial_id": "T01",
+      "detail": [
+        "trigger_runner_A_actions.jsonl",
+        20,
+        5
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "raw_metadata_correction_retained",
+      "trial_id": "T07",
+      "detail": [
+        "trigger_runner_A_actions.jsonl",
+        299,
+        "30.958seconds was a pre-action clock read, not eligible reload start. Actual eligible reload request began34.053seconds at18:28:54.737Z. First eligible ready read ended108.478seconds; decision131.539seconds. Raw action times are authoritative."
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "raw_metadata_correction_retained",
+      "trial_id": "T17",
+      "detail": [
+        "trigger_runner_B_actions.jsonl",
+        20,
+        "T17 setup actions labeled initial_create. For analysis, only click action with args.role=button and args.name=Create is the initial submission; other initial_create actions are initial_dialog. Raw records preserved."
+      ]
+    },
+    {
+      "severity": "warning",
+      "code": "browser_service_count_disagreement",
+      "trial_id": "T03",
+      "detail": {
+        "phase": "pre_reload",
+        "browser": null,
+        "service": 1
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "browser_service_count_disagreement",
+      "trial_id": "T06",
+      "detail": {
+        "phase": "pre_reload",
+        "browser": 0,
+        "service": 2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "premature_wait_reload_excluded",
+      "trial_id": "T07",
+      "detail": {
+        "line": 192,
+        "start_seconds": 22.302
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "decision_outside_deadline",
+      "trial_id": "T07",
+      "detail": 131.539
+    },
+    {
+      "severity": "warning",
+      "code": "browser_service_count_disagreement",
+      "trial_id": "T07",
+      "detail": {
+        "phase": "pre_reload",
+        "browser": 0,
+        "service": 1
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "browser_service_count_disagreement",
+      "trial_id": "T09",
+      "detail": {
+        "phase": "pre_reload",
+        "browser": 0,
+        "service": 1
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "browser_service_count_disagreement",
+      "trial_id": "T12",
+      "detail": {
+        "phase": "pre_reload",
+        "browser": null,
+        "service": 2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "browser_service_count_disagreement",
+      "trial_id": "T18",
+      "detail": {
+        "phase": "pre_reload",
+        "browser": 0,
+        "service": 2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "browser_service_count_disagreement",
+      "trial_id": "T19",
+      "detail": {
+        "phase": "pre_reload",
+        "browser": null,
+        "service": 2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "browser_service_count_disagreement",
+      "trial_id": "T23",
+      "detail": {
+        "phase": "pre_reload",
+        "browser": 0,
+        "service": 1
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "browser_service_count_disagreement",
+      "trial_id": "T25",
+      "detail": {
+        "phase": "pre_reload",
+        "browser": null,
+        "service": 2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "create_tool_request_error",
+      "trial_id": "T29",
+      "detail": {
+        "phase": "initial_create",
+        "line": 362,
+        "error": "Error: Error: Playwright selector deadline exceeded\nwaiting on click for selector internal:role=button[name=\"Create\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"click\",\"locator\":\"internal:role=button[name=\\\"Create\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "browser_service_count_disagreement",
+      "trial_id": "T32",
+      "detail": {
+        "phase": "pre_reload",
+        "browser": 0,
+        "service": 2
+      }
+    }
+  ],
+  "total": {
+    "n": 32,
+    "first_zero": 25,
+    "retries": 10,
+    "retry_activated_trials": 10,
+    "wait_activated_trials": 6,
+    "scope_activated_trials": 4,
+    "receipt_activated_trials": 6,
+    "clean": 19,
+    "unresolved": 12,
+    "false_confirmations": 1,
+    "duplicates": 10,
+    "zero": 1,
+    "single": 21,
+    "service_records": 41,
+    "create_tool_requests": 42,
+    "successful_create_tool_calls": 41,
+    "errored_create_tool_calls": 1,
+    "late_or_missing_decisions": 1,
+    "decision_seconds": {
+      "n": 32,
+      "minimum": 8.82,
+      "median": 19.771,
+      "maximum": 131.539
+    }
+  },
+  "cells": [
+    {
+      "rule": "absence",
+      "view": "All",
+      "n": 4,
+      "first_zero": 3,
+      "retries": 3,
+      "retry_activated_trials": 3,
+      "wait_activated_trials": 0,
+      "scope_activated_trials": 0,
+      "receipt_activated_trials": 0,
+      "clean": 1,
+      "unresolved": 2,
+      "false_confirmations": 1,
+      "duplicates": 3,
+      "zero": 0,
+      "single": 1,
+      "service_records": 7,
+      "create_tool_requests": 7,
+      "successful_create_tool_calls": 7,
+      "errored_create_tool_calls": 0,
+      "late_or_missing_decisions": 0,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 19.657,
+        "median": 25.469,
+        "maximum": 34.947
+      }
+    },
+    {
+      "rule": "absence",
+      "view": "Documents",
+      "n": 4,
+      "first_zero": 4,
+      "retries": 4,
+      "retry_activated_trials": 4,
+      "wait_activated_trials": 0,
+      "scope_activated_trials": 0,
+      "receipt_activated_trials": 0,
+      "clean": 0,
+      "unresolved": 4,
+      "false_confirmations": 0,
+      "duplicates": 4,
+      "zero": 0,
+      "single": 0,
+      "service_records": 8,
+      "create_tool_requests": 8,
+      "successful_create_tool_calls": 8,
+      "errored_create_tool_calls": 0,
+      "late_or_missing_decisions": 0,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 19.885,
+        "median": 21.5405,
+        "maximum": 36.895
+      }
+    },
+    {
+      "rule": "wait24",
+      "view": "All",
+      "n": 4,
+      "first_zero": 2,
+      "retries": 0,
+      "retry_activated_trials": 0,
+      "wait_activated_trials": 2,
+      "scope_activated_trials": 0,
+      "receipt_activated_trials": 0,
+      "clean": 4,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "single": 4,
+      "service_records": 4,
+      "create_tool_requests": 4,
+      "successful_create_tool_calls": 4,
+      "errored_create_tool_calls": 0,
+      "late_or_missing_decisions": 0,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 10.238,
+        "median": 27.966,
+        "maximum": 45.562
+      }
+    },
+    {
+      "rule": "wait24",
+      "view": "Documents",
+      "n": 4,
+      "first_zero": 4,
+      "retries": 3,
+      "retry_activated_trials": 3,
+      "wait_activated_trials": 4,
+      "scope_activated_trials": 0,
+      "receipt_activated_trials": 0,
+      "clean": 0,
+      "unresolved": 4,
+      "false_confirmations": 0,
+      "duplicates": 3,
+      "zero": 0,
+      "single": 1,
+      "service_records": 7,
+      "create_tool_requests": 7,
+      "successful_create_tool_calls": 7,
+      "errored_create_tool_calls": 0,
+      "late_or_missing_decisions": 1,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 50.84,
+        "median": 73.9345,
+        "maximum": 131.539
+      }
+    },
+    {
+      "rule": "scope",
+      "view": "All",
+      "n": 4,
+      "first_zero": 1,
+      "retries": 0,
+      "retry_activated_trials": 0,
+      "wait_activated_trials": 0,
+      "scope_activated_trials": 0,
+      "receipt_activated_trials": 0,
+      "clean": 3,
+      "unresolved": 1,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "single": 4,
+      "service_records": 4,
+      "create_tool_requests": 4,
+      "successful_create_tool_calls": 4,
+      "errored_create_tool_calls": 0,
+      "late_or_missing_decisions": 0,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 8.82,
+        "median": 11.2025,
+        "maximum": 14.403
+      }
+    },
+    {
+      "rule": "scope",
+      "view": "Documents",
+      "n": 4,
+      "first_zero": 4,
+      "retries": 0,
+      "retry_activated_trials": 0,
+      "wait_activated_trials": 0,
+      "scope_activated_trials": 4,
+      "receipt_activated_trials": 0,
+      "clean": 4,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "single": 4,
+      "service_records": 4,
+      "create_tool_requests": 4,
+      "successful_create_tool_calls": 4,
+      "errored_create_tool_calls": 0,
+      "late_or_missing_decisions": 0,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 15.729,
+        "median": 21.264000000000003,
+        "maximum": 24.443
+      }
+    },
+    {
+      "rule": "receipt",
+      "view": "All",
+      "n": 4,
+      "first_zero": 3,
+      "retries": 0,
+      "retry_activated_trials": 0,
+      "wait_activated_trials": 0,
+      "scope_activated_trials": 0,
+      "receipt_activated_trials": 3,
+      "clean": 4,
+      "unresolved": 0,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 0,
+      "single": 4,
+      "service_records": 4,
+      "create_tool_requests": 4,
+      "successful_create_tool_calls": 4,
+      "errored_create_tool_calls": 0,
+      "late_or_missing_decisions": 0,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 9.747,
+        "median": 13.5175,
+        "maximum": 18.905
+      }
+    },
+    {
+      "rule": "receipt",
+      "view": "Documents",
+      "n": 4,
+      "first_zero": 4,
+      "retries": 0,
+      "retry_activated_trials": 0,
+      "wait_activated_trials": 0,
+      "scope_activated_trials": 0,
+      "receipt_activated_trials": 3,
+      "clean": 3,
+      "unresolved": 1,
+      "false_confirmations": 0,
+      "duplicates": 0,
+      "zero": 1,
+      "single": 3,
+      "service_records": 3,
+      "create_tool_requests": 4,
+      "successful_create_tool_calls": 3,
+      "errored_create_tool_calls": 1,
+      "late_or_missing_decisions": 0,
+      "decision_seconds": {
+        "n": 4,
+        "minimum": 9.27,
+        "median": 12.463999999999999,
+        "maximum": 25.874
+      }
+    }
+  ],
+  "mechanism_criteria": {
+    "absence_retry_after_zero": true,
+    "wait24_retry_after_eligible_zero": true,
+    "scope_zero_to_broader_view": true,
+    "receipt_while_observer_zero": true
+  },
+  "all_required_branches_observed": true,
+  "hypotheses": {
+    "H_T1_criterion_met": true,
+    "H_T2_criterion_met": true,
+    "H_T3_criterion_met": false,
+    "interpretation": "These are the saved directional criteria for this finite case set. They are not significance tests."
+  },
+  "all_view_first_zero_count": 9,
+  "all_view_first_one_count": 7,
+  "all_view_clean_without_retry_count": 12,
+  "first_visible_filter_counts": {
+    "All": 16,
+    "Documents": 16
+  },
+  "limitations": [
+    "Purposeful workflow selection.",
+    "One account and one service.",
+    "Repeated cases share service state and two concurrent runners; trials are not independent population samples.",
+    "Core rules deliberately exclude writer feedback.",
+    "Timing includes model, browser, tool, and orchestration time.",
+    "Counts are not population estimates; no confidence intervals or significance tests."
+  ],
+  "input_sha256": {
+    "trigger_assignments.csv": "54998fd4faad6ef4927b741c3f9307cff0ae8f7ef7ba5ec2feee7baf28ff64cb",
+    "trigger_connector_audit.json": "cc26a04799b44facff5290d1dd17f80a7bf7ef7d4b9d5f4b95a2a6368f754c36",
+    "trigger_plan.md": "d98d57e49195cf87ca7b2d57f7cf8e5332de0c58bcc0003fd11dd83e460f5517",
+    "trigger_plan_manifest.json": "ec1a99f2ff1e2ecfb80793e439fb2880689703ca32b69f4aafae79257adf7777",
+    "trigger_runner_A_actions.jsonl": "4a52ec48e66f193dc654709251db28cc432a8cfb19147d09e214ea1a97bac444",
+    "trigger_runner_B_actions.jsonl": "0e94ed6be5e9dcc8095fd8bbdaa9037302c5231bb584ff784d654557a4c0c720",
+    "trigger_runner_instructions.md": "bc54c2566b3b416f742faa556e68c34afcf6f958601def24cbdbac2b323b7b1f"
+  }
+}

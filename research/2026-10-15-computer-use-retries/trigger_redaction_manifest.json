@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-10-15T18:43:18.649356+00:00",
+  "text_files": [
+    {
+      "public_file": "trigger_runner_A_actions.jsonl",
+      "private_source": "runner_A/actions.jsonl",
+      "private_sha256": "50dcd98019b8814a065cee71fb17b858ee7b049d2fb202ccdf40f48ebdd91efb",
+      "public_sha256": "4a52ec48e66f193dc654709251db28cc432a8cfb19147d09e214ea1a97bac444"
+    },
+    {
+      "public_file": "trigger_runner_A_audit_summary.json",
+      "private_source": "runner_A/audit_summary.json",
+      "private_sha256": "32624e3c7bb2c9c46f066bc37d30f825c639b80ee2ada73cfbe6bdfbaa0ad910",
+      "public_sha256": "32624e3c7bb2c9c46f066bc37d30f825c639b80ee2ada73cfbe6bdfbaa0ad910"
+    },
+    {
+      "public_file": "trigger_runner_A_completion.md",
+      "private_source": "runner_A/completion.md",
+      "private_sha256": "ae981f56d2a5aca391fde2d63534a7593ebe6b43cb85a0741bf20ceb2bb0beb6",
+      "public_sha256": "ae981f56d2a5aca391fde2d63534a7593ebe6b43cb85a0741bf20ceb2bb0beb6"
+    },
+    {
+      "public_file": "trigger_runner_A_results.json",
+      "private_source": "runner_A/results.json",
+      "private_sha256": "dc4af50d2db4eeb6d65bb9aee162e5a09bf8c0853e5fc912109a488cd8d94e08",
+      "public_sha256": "61defa492b92077301f159de4abcd6b8d9a98b159c113c92ed1c5a69fc5b2558"
+    },
+    {
+      "public_file": "trigger_runner_B_README.md",
+      "private_source": "runner_B/README.md",
+      "private_sha256": "e2233e7b6fdd2825bcd7f63b6c84c8a02c245eb4fb5f45da757178be1bb94318",
+      "public_sha256": "e2233e7b6fdd2825bcd7f63b6c84c8a02c245eb4fb5f45da757178be1bb94318"
+    },
+    {
+      "public_file": "trigger_runner_B_actions.jsonl",
+      "private_source": "runner_B/actions.jsonl",
+      "private_sha256": "d9253d72ae819b70cb5df8172cfb3f429d8bd72000c9319c08519edbe77de069",
+      "public_sha256": "0e94ed6be5e9dcc8095fd8bbdaa9037302c5231bb584ff784d654557a4c0c720"
+    },
+    {
+      "public_file": "trigger_runner_B_manifest.json",
+      "private_source": "runner_B/manifest.json",
+      "private_sha256": "b562d684d0d44fc02d0f42acf652f82fbf60f81d265f69a332db858d37b06880",
+      "public_sha256": "b562d684d0d44fc02d0f42acf652f82fbf60f81d265f69a332db858d37b06880"
+    },
+    {
+      "public_file": "trigger_runner_B_results.json",
+      "private_source": "runner_B/results.json",
+      "private_sha256": "82f2e4f3c61ccb177aab2dac4a42e87e37847be0deb71bbfe14c700b1b4ce1b6",
+      "public_sha256": "c9e33c033ce5b136214717a4b9276290bf3688710980650b1b6fca847d0e81e0"
+    },
+    {
+      "public_file": "trigger_runner_B_runner_summary.json",
+      "private_source": "runner_B/runner_summary.json",
+      "private_sha256": "a9807459af017a02592ed08a1852cc0947db94be402804bd0cc00f2e53e0dd0d",
+      "public_sha256": "a9807459af017a02592ed08a1852cc0947db94be402804bd0cc00f2e53e0dd0d"
+    },
+    {
+      "public_file": "trigger_preflight.jsonl",
+      "private_source": "private/preflight.jsonl",
+      "private_sha256": "ab4cb76f49c0ceef8623ff15067637fa27158ab1e8e96a89e804c6193902ebba",
+      "public_sha256": "427d4a2d260da47e7e626a298537c4acb15acf9b9d37900cece363677219f6f6"
+    },
+    {
+      "public_file": "trigger_preflight_connector.json",
+      "private_source": "private/preflight_connector.json",
+      "private_sha256": "7022d831c822d8c9b924cc1667efbfac8eb10ae3e13a5aa4fd7cc26064379520",
+      "public_sha256": "17901bab3a62d663173a8bb327fda1f0c9538aede7e3b7f9cfeffde8121f3de7"
+    },
+    {
+      "public_file": "trigger_connector_audit.json",
+      "private_source": "private/connector_audit.json",
+      "private_sha256": "692e48e11590f37c3c1cc54af48eb69da052c7f878317f9ece793fdceb0e21ae",
+      "public_sha256": "cc26a04799b44facff5290d1dd17f80a7bf7ef7d4b9d5f4b95a2a6368f754c36"
+    },
+    {
+      "public_file": "trigger_cleanup.json",
+      "private_source": "private/cleanup.json",
+      "private_sha256": "acac62d82de07d32df1344ce7617cb964aa578074d9165023b56b473f00597b3",
+      "public_sha256": "472e7a4cf621cfa96add9de8464d8441a73035f36aa3d3dc9d1579c8e612e634"
+    }
+  ],
+  "unrelated_storage_snapshot_fields_redacted": [
+    "trigger_runner_B_actions.jsonl:359/state",
+    "trigger_runner_B_actions.jsonl:360/before_state",
+    "trigger_runner_B_actions.jsonl:361/state",
+    "trigger_runner_B_actions.jsonl:362/before_state",
+    "trigger_runner_B_actions.jsonl:363/state",
+    "trigger_runner_B_actions.jsonl:367/state",
+    "trigger_runner_B_actions.jsonl:376/before_state",
+    "trigger_runner_B_actions.jsonl:379/state",
+    "trigger_runner_B_actions.jsonl:380/state",
+    "trigger_runner_B_actions.jsonl:382/before_state"
+  ],
+  "method": "Stable private-ID replacement, account name/email/handle, storage usage, hovercard URL and workspace path removal. Wrong-page Storage snapshots are replaced by an explicit placeholder to protect unrelated file names. Task names, counts, actions, errors, times and labels are retained elsewhere. JSON is reserialized.",
+  "originals": "Private local files are not in the public repository."
+}

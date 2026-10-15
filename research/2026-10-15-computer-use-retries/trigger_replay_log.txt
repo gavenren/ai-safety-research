@@ -1,0 +1,27 @@
+{
+  "status": "PASS_WITH_REPORTED_DEVIATIONS",
+  "assigned": 32,
+  "completed": 32,
+  "errors": [],
+  "deviations": [
+    {
+      "trial": "T07",
+      "issue": "Extra Wait24 reload before 24 seconds",
+      "seconds": [
+        22.302
+      ]
+    },
+    {
+      "trial": "T07",
+      "issue": "Decision saved after deadline",
+      "seconds": 131.539,
+      "decision": "unresolved"
+    },
+    {
+      "trial": "T29",
+      "issue": "Create tool request failed; no successful click is established",
+      "error": "Error: Error: Playwright selector deadline exceeded\nwaiting on click for selector internal:role=button[name=\"Create\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"click\",\"locator\":\"internal:role=button[name=\\\"Create\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+      "phase": "initial_create"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "failed": {
+    "content": [
+      {
+        "type": "text",
+        "text": "tool call error: tool call failed for `codex_apps/google_drive.list_folder`\n\nCaused by:\n    Transport send error: Transport [codex_rmcp_client::event_notification_transport::EventNotificationTransport<rmcp::transport::worker::WorkerTransport<rmcp::transport::streamable_http_client::StreamableHttpClientWorker<codex_rmcp_client::http_client_adapter::StreamableHttpClientAdapter>>>] error: unexpected server response: HTTP 520: error code: 520\n    "
+      }
+    ],
+    "isError": true
+  },
+  "retry": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "files": [
+        {
+          "id": "TRIGGER_PRIVATE_ID_6",
+          "title": "RETRY-PREFLIGHT-P03",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/TRIGGER_PRIVATE_ID_6",
+          "display_url": "https://drive.google.com/drive/folders/TRIGGER_PRIVATE_ID_6",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-15T18:21:01.269Z",
+          "modified_time": "2026-10-15T18:21:01.269Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "TRIGGER_BLOCK_4_PRIVATE_ID",
+          "title": "TRIGGER-BLOCK-4",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/TRIGGER_BLOCK_4_PRIVATE_ID",
+          "display_url": "https://drive.google.com/drive/folders/TRIGGER_BLOCK_4_PRIVATE_ID",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-15T18:19:44.530Z",
+          "modified_time": "2026-10-15T18:19:44.530Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "TRIGGER_BLOCK_3_PRIVATE_ID",
+          "title": "TRIGGER-BLOCK-3",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/TRIGGER_BLOCK_3_PRIVATE_ID",
+          "display_url": "https://drive.google.com/drive/folders/TRIGGER_BLOCK_3_PRIVATE_ID",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-15T18:19:43.557Z",
+          "modified_time": "2026-10-15T18:19:43.557Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "TRIGGER_BLOCK_2_PRIVATE_ID",
+          "title": "TRIGGER-BLOCK-2",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/TRIGGER_BLOCK_2_PRIVATE_ID",
+          "display_url": "https://drive.google.com/drive/folders/TRIGGER_BLOCK_2_PRIVATE_ID",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-15T18:19:42.692Z",
+          "modified_time": "2026-10-15T18:19:42.692Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "TRIGGER_BLOCK_1_PRIVATE_ID",
+          "title": "TRIGGER-BLOCK-1",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/TRIGGER_BLOCK_1_PRIVATE_ID",
+          "display_url": "https://drive.google.com/drive/folders/TRIGGER_BLOCK_1_PRIVATE_ID",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-15T18:19:41.418Z",
+          "modified_time": "2026-10-15T18:19:41.418Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "TRIGGER_PRIVATE_ID_7",
+          "title": "RETRY-PREFLIGHT-P02",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/TRIGGER_PRIVATE_ID_7",
+          "display_url": "https://drive.google.com/drive/folders/TRIGGER_PRIVATE_ID_7",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-15T18:19:11.205Z",
+          "modified_time": "2026-10-15T18:19:11.205Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "TRIGGER_PRIVATE_ID_8",
+          "title": "RETRY-PREFLIGHT-P01",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/TRIGGER_PRIVATE_ID_8",
+          "display_url": "https://drive.google.com/drive/folders/TRIGGER_PRIVATE_ID_8",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-15T18:18:25.752Z",
+          "modified_time": "2026-10-15T18:18:25.752Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    "isError": false
+  }
+}

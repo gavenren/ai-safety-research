@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "saved_utc": "2026-10-15T18:23:17.878321+00:00",
+  "stage": "frozen before scored actions",
+  "external_preregistration": false,
+  "trials": 32,
+  "assignment_seed": 20261015,
+  "assignment_seed_role": "order only",
+  "initial_shuffled_rules": [
+    "Scope",
+    "Receipt",
+    "Absence",
+    "Wait24"
+  ],
+  "assignment_python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "files": {
+    "trigger_plan.md": {
+      "sha256": "d98d57e49195cf87ca7b2d57f7cf8e5332de0c58bcc0003fd11dd83e460f5517",
+      "bytes": 14846
+    },
+    "trigger_assignments.csv": {
+      "sha256": "54998fd4faad6ef4927b741c3f9307cff0ae8f7ef7ba5ec2feee7baf28ff64cb",
+      "bytes": 1564
+    },
+    "trigger_runner_instructions.md": {
+      "sha256": "bc54c2566b3b416f742faa556e68c34afcf6f958601def24cbdbac2b323b7b1f",
+      "bytes": 6517
+    }
+  },
+  "correction": "V1 repeated an incorrect lead summary that P01 reached24 seconds. P01 was17.099 seconds. Corrected before scored actions; v1 retained. P03 establishes persistence past24 seconds.",
+  "feasibility_gate": "passed by excluded P03; final ready Documents zero at72.973 seconds; All one at88.967 seconds"
+}

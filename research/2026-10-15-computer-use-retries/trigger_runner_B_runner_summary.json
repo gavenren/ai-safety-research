@@ -1,0 +1,49 @@
+{
+  "assigned_trials": 16,
+  "decisions": 16,
+  "raw_records": 474,
+  "images": 32,
+  "browser_final_counts": {
+    "T17": 1,
+    "T18": 2,
+    "T19": 2,
+    "T20": 1,
+    "T21": 1,
+    "T22": 1,
+    "T23": 1,
+    "T24": 1,
+    "T25": 2,
+    "T26": 1,
+    "T27": 1,
+    "T28": 1,
+    "T29": 0,
+    "T30": 1,
+    "T31": 2,
+    "T32": 2
+  },
+  "connector_audit_pending": true,
+  "privacy_record_ids": [
+    361,
+    362,
+    363,
+    367,
+    376,
+    379,
+    380,
+    382
+  ],
+  "private_images": false,
+  "image_clip": {
+    "x": 260,
+    "y": 70,
+    "width": 1190,
+    "height": 620
+  },
+  "notes": [
+    "All images show the current trial rows or explicit empty view and required filter toolbar. Some older unrelated test rows at bottom may be cropped; raw text preserves all test rows.",
+    "T24,T27,T31 decision images differ from the earlier saved observer count because the view changed before image capture. Preserve decision text and image time separately.",
+    "T29 initial dialog did not open. Fill and Create calls returned no match. Zero final browser rows. No repair or replacement.",
+    "T29/T30 unexpected Storage navigation, cause unknown; exact assigned path restored before T30 first write.",
+    "T17 dialog actions use initial_create phase but only button Create is a submit. Correction record preserved."
+  ]
+}

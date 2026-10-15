@@ -2,9 +2,23 @@
 
 This is a separate user-requested paper dated October 15, 2026. It is not a second daily automation study.
 
-Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, and a later 30-trial experiment in one authenticated Google Drive account. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
+Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, a later 30-trial experiment in one authenticated Google Drive account, and a 32-trial two-tab extension in that account. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
 
 Codex generated this work. Separate agents checked the design, sources, calculations, reproduction, and PDF. No human or external peer review occurred. No new reuse license is assigned.
+
+## Analyze the saved two-tab evidence
+
+Use a separate copy of this folder. The analysis uses Python standard library and saved evidence. It makes no browser, model, or connector call.
+
+```sh
+python3 trigger_analyze.py --input-dir . --output-dir .
+python3 trigger_validate.py --input-dir . --fresh-copy
+python3 trigger_independent_replay.py --input-dir .
+```
+
+Read [trigger_plan.md](trigger_plan.md), [trigger_runner_instructions.md](trigger_runner_instructions.md), and [trigger_assignments.csv](trigger_assignments.csv) before a new run. Use a new private collection and new test names. Two independent tabs must refer to the same test block. The observer reload is part of the procedure. Do not treat loading as zero or reapply a filter to force an outcome after a write. Keep every assigned trial. The later connector audit must occur after all decisions stop.
+
+The two-tab workflow was selected for stable filtered absence. The core rules ignore writer receipts by instruction; Receipt can use them. This is a controlled comparison of supplied procedures. It is not a natural error rate, new retry protocol, or test of uncertain network execution. Service changes and model/tool timing can change a new run. Offline analysis can reproduce the saved counts without private account access.
 
 ## Analyze the saved account evidence
 
@@ -95,7 +109,7 @@ python3 -m pip install -r requirements-pdf.txt
 python3 build_pdf.py --font-dir /path/to/dejavu-fonts > pdf_log.txt
 ```
 
-This command reads report.md and the PNG figure. It writes paper.pdf and checks text coverage. The PDF has fixed metadata. Standalone font files are not included. The PDF embeds font subsets. See [FONT_LICENSE.txt](FONT_LICENSE.txt) for their license notices and [pdf_check.json](pdf_check.json) for the saved build checks. Visual review is a separate step; do not assume that a successful build proves a sound page layout.
+This command reads report.md and its figures. It writes paper.pdf and checks text coverage. The PDF has fixed metadata. Standalone font files are not included. The PDF embeds font subsets. See [FONT_LICENSE.txt](FONT_LICENSE.txt) for their license notices and [pdf_check.json](pdf_check.json) for the saved build checks. Visual review is a separate step; do not assume that a successful build proves a sound page layout.
 
 ## Files and evidence
 
@@ -117,4 +131,6 @@ The pilot tests a real agent in a constructed local browser application. It is n
 
 The live-site extension keeps all original simulation and local browser data unchanged. local_browser_final_review.md, local_browser_release_checks.json, local_browser_pdf_check.json, browser_review.md, and browser_reproduction_check.json refer to the earlier 18-trial paper. Their report/PDF/index hashes are historical. live_review.md and live_validation.json apply to the 60-trial evidence. The current release_checks.json, pdf_check.json, and package_manifest.json apply to the latest account extension.
 
-The account extension preserves all simulation, local-pilot, and public-demo evidence. public_site_final_review.md, public_site_checklist.md, public_site_release_checks.json, public_site_pdf_check.json, and live_review.md describe the preceding 60-trial version. Their old report and PDF hashes are historical. account_review.md, account_validation.json, final_review.md, release_checks.json, pdf_check.json, and package_manifest.json describe the current version.
+The account extension preserves all simulation, local-pilot, and public-demo evidence. public_site_final_review.md, public_site_checklist.md, public_site_release_checks.json, public_site_pdf_check.json, and live_review.md describe the preceding 60-trial version. Their old report and PDF hashes are historical. account_review.md and account_validation.json describe that 30-trial evidence. The historical account_version files preserve the release checks for that version.
+
+The two-tab extension preserves the earlier 30-trial evidence. account_version_final_review.md, account_version_checklist.md, account_version_release_checks.json, account_version_pdf_check.json, and account_review.md describe the previous paper. Their report/PDF hashes are historical. The trigger files describe the new 32-trial extension. Current final_review.md, release_checks.json, pdf_check.json, and package_manifest.json apply to the latest release.

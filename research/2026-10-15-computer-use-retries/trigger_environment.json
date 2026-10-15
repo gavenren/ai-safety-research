@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-10-15T18:27:18.699989+00:00",
+  "os": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python_setup": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "chrome_app_version": "155.0.8059.40",
+  "agent": "Codex, GPT-6 family; two delegated browser contexts under supplied rules",
+  "exact_immutable_model_build": "Not exposed to the experiment",
+  "inference_hardware": "Not exposed",
+  "tools": "Supported CUA browser interface; accessibility/DOM text and screenshot observations. Drive connector only for collection setup and later audit.",
+  "temperature_or_sampling_seed": "Not exposed; assignment seed does not control model sampling",
+  "assignment_seed": 20261015,
+  "agent_contexts_share": "One host, browser service and authenticated account",
+  "new_paid_api_or_compute": "None started",
+  "model_training": "None",
+  "execution_boundary": "Policy actions selected by the model; browser controls used to execute them. No application code, storage or network inspection permitted during decisions."
+}
