@@ -1,0 +1,13 @@
+test_exact_small_counts (tests.SemanticControls.test_exact_small_counts) ... ok
+test_final_gap_changes_truth (tests.SemanticControls.test_final_gap_changes_truth) ... ok
+test_intermediate_target_is_not_lost (tests.SemanticControls.test_intermediate_target_is_not_lost) ... ok
+test_invalid_configuration (tests.SemanticControls.test_invalid_configuration) ... ok
+test_partial_counter_three_fields (tests.SemanticControls.test_partial_counter_three_fields) ... ok
+test_repeated_flip_counts_as_two_writes (tests.SemanticControls.test_repeated_flip_counts_as_two_writes) ... ok
+test_two_field_mixed_read (tests.SemanticControls.test_two_field_mixed_read) ... ok
+test_zero_write_controls (tests.SemanticControls.test_zero_write_controls) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.004s
+
+OK

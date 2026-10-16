@@ -1,0 +1,111 @@
+{
+  "brute_force_settings": [
+    {
+      "all_lexical_paths_equal": true,
+      "b": 0,
+      "d": 2,
+      "full_distribution_equal": true,
+      "histories": 4,
+      "permutation_and_target_relabel_checks": 16,
+      "r": 1
+    },
+    {
+      "all_lexical_paths_equal": true,
+      "b": 1,
+      "d": 2,
+      "full_distribution_equal": true,
+      "histories": 108,
+      "permutation_and_target_relabel_checks": 432,
+      "r": 1
+    },
+    {
+      "all_lexical_paths_equal": true,
+      "b": 2,
+      "d": 2,
+      "full_distribution_equal": true,
+      "histories": 1372,
+      "permutation_and_target_relabel_checks": 5488,
+      "r": 1
+    },
+    {
+      "all_lexical_paths_equal": true,
+      "b": 0,
+      "d": 2,
+      "full_distribution_equal": true,
+      "histories": 4,
+      "permutation_and_target_relabel_checks": 16,
+      "r": 2
+    },
+    {
+      "all_lexical_paths_equal": true,
+      "b": 1,
+      "d": 2,
+      "full_distribution_equal": true,
+      "histories": 972,
+      "permutation_and_target_relabel_checks": 3888,
+      "r": 2
+    },
+    {
+      "all_lexical_paths_equal": true,
+      "b": 0,
+      "d": 2,
+      "full_distribution_equal": true,
+      "histories": 4,
+      "permutation_and_target_relabel_checks": 16,
+      "r": 3
+    },
+    {
+      "all_lexical_paths_equal": true,
+      "b": 0,
+      "d": 3,
+      "full_distribution_equal": true,
+      "histories": 8,
+      "permutation_and_target_relabel_checks": 96,
+      "r": 1
+    },
+    {
+      "all_lexical_paths_equal": true,
+      "b": 1,
+      "d": 3,
+      "full_distribution_equal": true,
+      "histories": 2048,
+      "permutation_and_target_relabel_checks": 24576,
+      "r": 1
+    },
+    {
+      "all_lexical_paths_equal": true,
+      "b": 0,
+      "d": 3,
+      "full_distribution_equal": true,
+      "histories": 8,
+      "permutation_and_target_relabel_checks": 96,
+      "r": 2
+    },
+    {
+      "all_lexical_paths_equal": true,
+      "b": 0,
+      "d": 3,
+      "full_distribution_equal": true,
+      "histories": 8,
+      "permutation_and_target_relabel_checks": 96,
+      "r": 3
+    }
+  ],
+  "checks": [
+    "stage_conservation",
+    "full_revision_zero_false",
+    "full_revision_accepts_one",
+    "atomic_final_uniform_count",
+    "atomic_final_zero_false",
+    "no_common_implies_wrong",
+    "two_field_minimum_writes",
+    "two_field_partial_no_common_zero"
+  ],
+  "malformed_inputs_rejected": 28,
+  "permutation_and_target_relabel_checks": 34720,
+  "policy_rows": 108,
+  "scope": "Independent synthetic computation. No website or account was used.",
+  "settings": 18,
+  "status": "PASS",
+  "witnesses_replayed": 71
+}

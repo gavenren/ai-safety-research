@@ -1,0 +1,28 @@
+{
+  "command": "python3 independent_audit.py --config config.json --output-dir FRESH_DIRECTORY",
+  "files": {
+    "independent_policy_results.json": {
+      "byte_equal": true,
+      "sha256": "d7aa5ab7c04a1f14b33746666b2cd308286dcc1672f4671dbfced9d919eddd39"
+    },
+    "independent_self_checks.json": {
+      "byte_equal": true,
+      "sha256": "478a2bd06557ef04c626ecf328f1464bce95f8744f944c693d1a46168f8fefaf"
+    },
+    "independent_stage_totals.json": {
+      "byte_equal": true,
+      "sha256": "c78db76fd89860d619b95b18e546c834e9575f2702b9dcaa11c7e22e8c237474"
+    },
+    "independent_terminal_distribution.json": {
+      "byte_equal": true,
+      "sha256": "ab3b728093abb8fd8856c83662ad53bccb3a48d8f8fdde0875463c11ed14b0e0"
+    },
+    "independent_witnesses.json": {
+      "byte_equal": true,
+      "sha256": "3d3ae9c792ac5d14d2ebd50c8de30ace8e5495175687ae7e3dee7bdae1ca0d13"
+    }
+  },
+  "method": "Run the independent audit in a fresh temporary output directory. Compare all five deterministic output files byte for byte.",
+  "status": "PASS",
+  "stdout": "{\"status\": \"PASS\", \"policy_rows\": 108, \"witnesses\": 71, \"malformed_inputs_rejected\": 28, \"brute_force_settings\": 10}"
+}

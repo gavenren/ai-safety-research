@@ -1,0 +1,35 @@
+{
+  "frozen_files_unchanged": true,
+  "limits": [
+    "Synthetic finite model only.",
+    "The independent programs ran after the input freeze.",
+    "The independent calculation was complete before main data comparison.",
+    "Both implementations use the declared state recurrence.",
+    "The small-case brute force uses no state merging.",
+    "A separate Codex agent review is not human or peer review."
+  ],
+  "main_code_imported": false,
+  "policy_rows_compared": 108,
+  "scalar_policy_values_compared": 756,
+  "settings": 18,
+  "sha256": {
+    "analysis_plan.md": "4624ae4b04f9d3d26682e5b08d88ad1f0ee47d6bdc79e4b7b46c4f374ca3279d",
+    "config.json": "936494f659fa4a21b174fba0fab08b0a793978a92ce8c759a1e95c3103f6a616",
+    "independent_audit.py": "7d4f6d0756cf04193675cb8463155c0d91f9418a93ef3fce4b28d989cc5097f5",
+    "independent_compare.py": "89b9d21efcfa44009fe4d29bbd88059e498e3944d9f28cd3bad751778319683f",
+    "independent_policy_results.json": "d7aa5ab7c04a1f14b33746666b2cd308286dcc1672f4671dbfced9d919eddd39",
+    "independent_self_checks.json": "478a2bd06557ef04c626ecf328f1464bce95f8744f944c693d1a46168f8fefaf",
+    "independent_stage_totals.json": "c78db76fd89860d619b95b18e546c834e9575f2702b9dcaa11c7e22e8c237474",
+    "independent_terminal_distribution.json": "ab3b728093abb8fd8856c83662ad53bccb3a48d8f8fdde0875463c11ed14b0e0",
+    "independent_witnesses.json": "3d3ae9c792ac5d14d2ebd50c8de30ace8e5495175687ae7e3dee7bdae1ca0d13",
+    "input_manifest.json": "a8f1149beb8e613dc96a896400ea593f42e0122d4cf361b392724478d544e8c8",
+    "results.csv": "fdb43a553c4d4fb996b75790ac621f60b4b991b6aa976c57fdcf8bb9b6faaacb",
+    "stage_totals.json": "03b8e041c65a0e6677e24653729bfe5f519aba8ef30ccf8df65da179c19f1cfc",
+    "terminal_counts.jsonl.gz": "5f87dca4127678d273003e7ccf690b7cde18dd508c7810bb2d6743e8cd657665",
+    "witnesses.json": "a5f9e8ff8784f878d884a4b47c2a34146438c6350b2c6b1093f5bab89f65c3ff"
+  },
+  "stage_rows_compared": 108,
+  "status": "PASS",
+  "terminal_rows_compared": 13744,
+  "witness_paths_minima_ties_and_all_event_states_compared": 71
+}

@@ -1,0 +1,54 @@
+{
+  "claims": "Exact synthetic counts only. No empirical probability or provider result.",
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true
+  },
+  "input_sha256": {
+    "analysis_plan.md": "4624ae4b04f9d3d26682e5b08d88ad1f0ee47d6bdc79e4b7b46c4f374ca3279d",
+    "config.json": "936494f659fa4a21b174fba0fab08b0a793978a92ce8c759a1e95c3103f6a616",
+    "input_manifest.json": "a8f1149beb8e613dc96a896400ea593f42e0122d4cf361b392724478d544e8c8",
+    "source_search.md": "060f01e58cdee980f083eaf6031d1f892226b770156e4a20ae3bc5993a9dfd62"
+  },
+  "largest_history_set": 1102867934792,
+  "policies": {
+    "atomic_final": {
+      "settings": 18,
+      "settings_with_no_common_target": 0,
+      "settings_with_wrong_at_decision": 0
+    },
+    "full_revision": {
+      "settings": 18,
+      "settings_with_no_common_target": 0,
+      "settings_with_wrong_at_decision": 0
+    },
+    "modulo_2": {
+      "settings": 18,
+      "settings_with_no_common_target": 7,
+      "settings_with_wrong_at_decision": 12
+    },
+    "modulo_4": {
+      "settings": 18,
+      "settings_with_no_common_target": 7,
+      "settings_with_wrong_at_decision": 11
+    },
+    "partial_revision": {
+      "settings": 18,
+      "settings_with_no_common_target": 3,
+      "settings_with_wrong_at_decision": 12
+    },
+    "values": {
+      "settings": 18,
+      "settings_with_no_common_target": 7,
+      "settings_with_wrong_at_decision": 12
+    }
+  },
+  "policy_rows": 108,
+  "settings": 18,
+  "stage_rows": 108,
+  "status": "COMPLETE",
+  "terminal_count_rows": 13744,
+  "witness_count": 71
+}

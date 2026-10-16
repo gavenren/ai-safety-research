@@ -1,0 +1,10 @@
+{
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "dependencies": "Python standard library only",
+  "random_sampling": false,
+  "model": "Codex agents; exact immutable model build unavailable",
+  "roles": "Main design and code; source review agent; separate mathematical and code review agent",
+  "external_compute": "No paid API or compute service",
+  "data": "Synthetic inputs; no account or model experiment"
+}

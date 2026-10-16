@@ -1,0 +1,13 @@
+{
+  "fields": [2, 3],
+  "passes": [1, 2, 3],
+  "writes_per_gap": [0, 1, 2],
+  "policies": ["values", "full_revision", "modulo_2", "modulo_4", "partial_revision", "atomic_final"],
+  "partial_revision_field": "last",
+  "read_order": "ascending",
+  "target": "all_ones",
+  "writes": "atomic_single_bit_flip",
+  "initial_revision": 0,
+  "seed": null,
+  "random_sampling": false
+}

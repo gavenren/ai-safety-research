@@ -1,0 +1,7557 @@
+[
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "values",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "01"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "01",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "modulo_2",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "partial_revision",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": "10",
+    "minimum_writes": 2,
+    "outcome": "no_common_target",
+    "passes": 1,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": "10",
+    "minimum_writes": 2,
+    "outcome": "no_common_target",
+    "passes": 1,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "01"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "01",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": "00",
+    "minimum_writes": 4,
+    "outcome": "no_common_target",
+    "passes": 1,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": "00",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "partial_revision",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "values",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "01"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "01",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "modulo_2",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": "00",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "modulo_4",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "partial_revision",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 3,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 5,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 3,
+        "revision": 6,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 3,
+        "revision": 6,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 3,
+        "revision": 6,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": "10",
+    "minimum_writes": 6,
+    "outcome": "no_common_target",
+    "passes": 2,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 3,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 5,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 3,
+        "revision": 6,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 3,
+        "revision": 6,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 3,
+        "revision": 6,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": "10",
+    "minimum_writes": 6,
+    "outcome": "no_common_target",
+    "passes": 2,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "01"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "01",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 5,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 5,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 3,
+        "revision": 7,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 3,
+        "revision": 7,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 4,
+        "revision": 8,
+        "state": "00"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 4,
+        "revision": 8,
+        "state": "00"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": "00",
+    "minimum_writes": 8,
+    "outcome": "no_common_target",
+    "passes": 2,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [],
+      [],
+      [
+        0,
+        1
+      ]
+    ],
+    "initial": "00",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "partial_revision",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "values",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "01"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "01",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "modulo_2",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [],
+      [],
+      [],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": "00",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "modulo_4",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "partial_revision",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 3,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 5,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 3,
+        "revision": 6,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 3,
+        "revision": 6,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 4,
+        "revision": 7,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 4,
+        "revision": 8,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 4,
+        "revision": 8,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 4,
+        "revision": 9,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 5,
+        "revision": 10,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 5,
+        "revision": 10,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 5,
+        "revision": 10,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": "10",
+    "minimum_writes": 10,
+    "outcome": "no_common_target",
+    "passes": 3,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 3,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 5,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 3,
+        "revision": 6,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 3,
+        "revision": 6,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 4,
+        "revision": 7,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 4,
+        "revision": 8,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 4,
+        "revision": 8,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 4,
+        "revision": 9,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 5,
+        "revision": 10,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 5,
+        "revision": 10,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 5,
+        "revision": 10,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": "10",
+    "minimum_writes": 10,
+    "outcome": "no_common_target",
+    "passes": 3,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "01"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "01",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 5,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 5,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 3,
+        "revision": 7,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 3,
+        "revision": 7,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 4,
+        "revision": 8,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 4,
+        "revision": 9,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 4,
+        "revision": 9,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 4,
+        "revision": 10,
+        "state": "00"
+      },
+      {
+        "field": 1,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 5,
+        "revision": 11,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 5,
+        "revision": 11,
+        "state": "01",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 6,
+        "revision": 12,
+        "state": "00"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 6,
+        "revision": 12,
+        "state": "00"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": "00",
+    "minimum_writes": 12,
+    "outcome": "no_common_target",
+    "passes": 3,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "00"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "10",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "01"
+      },
+      {
+        "field": 1,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4,
+        "state": "00"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        0,
+        1
+      ]
+    ],
+    "initial": "00",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "11",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "01"
+      }
+    ],
+    "fields": 2,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "11",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "partial_revision",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "010"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "010",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [
+        0
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "initial": "110",
+    "minimum_writes": 2,
+    "outcome": "no_common_target",
+    "passes": 1,
+    "policy": "values",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "values",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "010"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "010",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [
+        0
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "initial": "110",
+    "minimum_writes": 2,
+    "outcome": "no_common_target",
+    "passes": 1,
+    "policy": "modulo_2",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "011"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "011",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "modulo_2",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "010"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "110"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "010"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "010",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "011"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "001"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "001"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": "010",
+    "minimum_writes": 4,
+    "outcome": "no_common_target",
+    "passes": 1,
+    "policy": "modulo_4",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "000"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "110"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0
+      ]
+    ],
+    "initial": "000",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "modulo_4",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "partial_revision",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "101",
+    "minimum_writes": 2,
+    "outcome": "no_common_target",
+    "passes": 1,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "101",
+    "minimum_writes": 2,
+    "outcome": "no_common_target",
+    "passes": 1,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "011"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "011",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "000"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "000"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 3,
+        "state": "010"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 3,
+        "state": "010",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "initial": "000",
+    "minimum_writes": 4,
+    "outcome": "no_common_target",
+    "passes": 1,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "000"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "000"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 3,
+        "state": "010"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 3,
+        "state": "010",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "initial": "000",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "101",
+    "minimum_writes": 2,
+    "outcome": "no_common_target",
+    "passes": 1,
+    "policy": "partial_revision",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 1,
+    "policy": "partial_revision",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "values",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "011"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "011",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "modulo_2",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "000"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "110"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "000",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "modulo_4",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "partial_revision",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100"
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "101"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "110",
+    "minimum_writes": 4,
+    "outcome": "no_common_target",
+    "passes": 2,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100"
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "101"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "110",
+    "minimum_writes": 4,
+    "outcome": "no_common_target",
+    "passes": 2,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "011"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "011",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100"
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "101"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 2,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "110",
+    "minimum_writes": 4,
+    "outcome": "no_common_target",
+    "passes": 2,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "000"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "110"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "000",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 3,
+        "state": "001"
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 4,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 4,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 5,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 6,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 6,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 6,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 6,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "101",
+    "minimum_writes": 6,
+    "outcome": "no_common_target",
+    "passes": 2,
+    "policy": "partial_revision",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 2,
+    "policy": "partial_revision",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 9,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "values",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "011"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 9,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "011",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "modulo_2",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "000"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "110"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 9,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "000",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "modulo_4",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 9,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "partial_revision",
+    "writes_per_gap": 1
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "010"
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "110"
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 5,
+        "state": "100"
+      },
+      {
+        "field": 2,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "101"
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 7,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 7,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 7,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        2,
+        0
+      ],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "101",
+    "minimum_writes": 8,
+    "outcome": "no_common_target",
+    "passes": 3,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 9,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "values",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "010"
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "110"
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 5,
+        "state": "100"
+      },
+      {
+        "field": 2,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "101"
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 7,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 7,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 7,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        2,
+        0
+      ],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "101",
+    "minimum_writes": 8,
+    "outcome": "no_common_target",
+    "passes": 3,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "011"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 9,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "011",
+    "minimum_writes": 2,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "modulo_2",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "010"
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "110"
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 5,
+        "state": "100"
+      },
+      {
+        "field": 2,
+        "gap": 5,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "101"
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 6,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 7,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 7,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 7,
+        "operation": "write",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 8,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        2,
+        0
+      ],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "101",
+    "minimum_writes": 8,
+    "outcome": "no_common_target",
+    "passes": 3,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "000"
+      },
+      {
+        "field": 0,
+        "gap": 0,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "100",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "110"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "110",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "gap": 2,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111"
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 1,
+        "revision": 3,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 9,
+        "operation": "write",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "000",
+    "minimum_writes": 4,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "modulo_4",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 1,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 2,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 3,
+        "state": "001"
+      },
+      {
+        "field": 0,
+        "gap": 3,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 4,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 4,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 5,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 4,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 6,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 6,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 6,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 7,
+        "state": "001"
+      },
+      {
+        "field": 0,
+        "gap": 6,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 8,
+        "state": "101"
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 8,
+        "state": "101",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 7,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 9,
+        "state": "001"
+      },
+      {
+        "field": 1,
+        "gap": 7,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 10,
+        "state": "011"
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 10,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 10,
+        "state": "011",
+        "value": 1
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 10,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": "101",
+    "minimum_writes": 10,
+    "outcome": "no_common_target",
+    "passes": 3,
+    "policy": "partial_revision",
+    "writes_per_gap": 2
+  },
+  {
+    "events": [
+      {
+        "operation": "initial_revision",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111"
+      },
+      {
+        "field": 0,
+        "index": 0,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 1,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 2,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 3,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 4,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 5,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "index": 6,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 1,
+        "index": 7,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 2,
+        "index": 8,
+        "operation": "field_read",
+        "partial_revision": 0,
+        "revision": 0,
+        "state": "111",
+        "value": 1
+      },
+      {
+        "field": 0,
+        "gap": 9,
+        "operation": "write",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      },
+      {
+        "operation": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1,
+        "state": "011"
+      }
+    ],
+    "fields": 3,
+    "gap_words": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": "111",
+    "minimum_writes": 1,
+    "outcome": "wrong_at_decision",
+    "passes": 3,
+    "policy": "partial_revision",
+    "writes_per_gap": 2
+  }
+]

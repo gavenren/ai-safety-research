@@ -1,0 +1,776 @@
+[
+  {
+    "b": 0,
+    "d": 2,
+    "r": 1,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 4,
+        "read_done": 0,
+        "state_count": 4
+      },
+      {
+        "gap_done": 1,
+        "histories": 4,
+        "read_done": 1,
+        "state_count": 4
+      },
+      {
+        "gap_done": 2,
+        "histories": 4,
+        "read_done": null,
+        "state_count": 4
+      }
+    ]
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "r": 1,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 12,
+        "read_done": 0,
+        "state_count": 12
+      },
+      {
+        "gap_done": 1,
+        "histories": 36,
+        "read_done": 1,
+        "state_count": 29
+      },
+      {
+        "gap_done": 2,
+        "histories": 108,
+        "read_done": null,
+        "state_count": 63
+      }
+    ]
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "r": 1,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 28,
+        "read_done": 0,
+        "state_count": 26
+      },
+      {
+        "gap_done": 1,
+        "histories": 196,
+        "read_done": 1,
+        "state_count": 93
+      },
+      {
+        "gap_done": 2,
+        "histories": 1372,
+        "read_done": null,
+        "state_count": 239
+      }
+    ]
+  },
+  {
+    "b": 0,
+    "d": 2,
+    "r": 2,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 4,
+        "read_done": 0,
+        "state_count": 4
+      },
+      {
+        "gap_done": 1,
+        "histories": 4,
+        "read_done": 1,
+        "state_count": 4
+      },
+      {
+        "gap_done": 2,
+        "histories": 4,
+        "read_done": 2,
+        "state_count": 4
+      },
+      {
+        "gap_done": 3,
+        "histories": 4,
+        "read_done": 3,
+        "state_count": 4
+      },
+      {
+        "gap_done": 4,
+        "histories": 4,
+        "read_done": null,
+        "state_count": 4
+      }
+    ]
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "r": 2,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 12,
+        "read_done": 0,
+        "state_count": 12
+      },
+      {
+        "gap_done": 1,
+        "histories": 36,
+        "read_done": 1,
+        "state_count": 29
+      },
+      {
+        "gap_done": 2,
+        "histories": 108,
+        "read_done": 2,
+        "state_count": 56
+      },
+      {
+        "gap_done": 3,
+        "histories": 324,
+        "read_done": 3,
+        "state_count": 90
+      },
+      {
+        "gap_done": 4,
+        "histories": 972,
+        "read_done": null,
+        "state_count": 151
+      }
+    ]
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "r": 2,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 28,
+        "read_done": 0,
+        "state_count": 26
+      },
+      {
+        "gap_done": 1,
+        "histories": 196,
+        "read_done": 1,
+        "state_count": 93
+      },
+      {
+        "gap_done": 2,
+        "histories": 1372,
+        "read_done": 2,
+        "state_count": 192
+      },
+      {
+        "gap_done": 3,
+        "histories": 9604,
+        "read_done": 3,
+        "state_count": 319
+      },
+      {
+        "gap_done": 4,
+        "histories": 67228,
+        "read_done": null,
+        "state_count": 586
+      }
+    ]
+  },
+  {
+    "b": 0,
+    "d": 2,
+    "r": 3,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 4,
+        "read_done": 0,
+        "state_count": 4
+      },
+      {
+        "gap_done": 1,
+        "histories": 4,
+        "read_done": 1,
+        "state_count": 4
+      },
+      {
+        "gap_done": 2,
+        "histories": 4,
+        "read_done": 2,
+        "state_count": 4
+      },
+      {
+        "gap_done": 3,
+        "histories": 4,
+        "read_done": 3,
+        "state_count": 4
+      },
+      {
+        "gap_done": 4,
+        "histories": 4,
+        "read_done": 4,
+        "state_count": 4
+      },
+      {
+        "gap_done": 5,
+        "histories": 4,
+        "read_done": 5,
+        "state_count": 4
+      },
+      {
+        "gap_done": 6,
+        "histories": 4,
+        "read_done": null,
+        "state_count": 4
+      }
+    ]
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "r": 3,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 12,
+        "read_done": 0,
+        "state_count": 12
+      },
+      {
+        "gap_done": 1,
+        "histories": 36,
+        "read_done": 1,
+        "state_count": 29
+      },
+      {
+        "gap_done": 2,
+        "histories": 108,
+        "read_done": 2,
+        "state_count": 56
+      },
+      {
+        "gap_done": 3,
+        "histories": 324,
+        "read_done": 3,
+        "state_count": 90
+      },
+      {
+        "gap_done": 4,
+        "histories": 972,
+        "read_done": 4,
+        "state_count": 131
+      },
+      {
+        "gap_done": 5,
+        "histories": 2916,
+        "read_done": 5,
+        "state_count": 182
+      },
+      {
+        "gap_done": 6,
+        "histories": 8748,
+        "read_done": null,
+        "state_count": 279
+      }
+    ]
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "r": 3,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 28,
+        "read_done": 0,
+        "state_count": 26
+      },
+      {
+        "gap_done": 1,
+        "histories": 196,
+        "read_done": 1,
+        "state_count": 93
+      },
+      {
+        "gap_done": 2,
+        "histories": 1372,
+        "read_done": 2,
+        "state_count": 192
+      },
+      {
+        "gap_done": 3,
+        "histories": 9604,
+        "read_done": 3,
+        "state_count": 319
+      },
+      {
+        "gap_done": 4,
+        "histories": 67228,
+        "read_done": 4,
+        "state_count": 479
+      },
+      {
+        "gap_done": 5,
+        "histories": 470596,
+        "read_done": 5,
+        "state_count": 672
+      },
+      {
+        "gap_done": 6,
+        "histories": 3294172,
+        "read_done": null,
+        "state_count": 1097
+      }
+    ]
+  },
+  {
+    "b": 0,
+    "d": 3,
+    "r": 1,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 8,
+        "read_done": 0,
+        "state_count": 8
+      },
+      {
+        "gap_done": 1,
+        "histories": 8,
+        "read_done": 1,
+        "state_count": 8
+      },
+      {
+        "gap_done": 2,
+        "histories": 8,
+        "read_done": 2,
+        "state_count": 8
+      },
+      {
+        "gap_done": 3,
+        "histories": 8,
+        "read_done": null,
+        "state_count": 8
+      }
+    ]
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "r": 1,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 32,
+        "read_done": 0,
+        "state_count": 26
+      },
+      {
+        "gap_done": 1,
+        "histories": 128,
+        "read_done": 1,
+        "state_count": 68
+      },
+      {
+        "gap_done": 2,
+        "histories": 512,
+        "read_done": 2,
+        "state_count": 127
+      },
+      {
+        "gap_done": 3,
+        "histories": 2048,
+        "read_done": null,
+        "state_count": 234
+      }
+    ]
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "r": 1,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 104,
+        "read_done": 0,
+        "state_count": 58
+      },
+      {
+        "gap_done": 1,
+        "histories": 1352,
+        "read_done": 1,
+        "state_count": 222
+      },
+      {
+        "gap_done": 2,
+        "histories": 17576,
+        "read_done": 2,
+        "state_count": 455
+      },
+      {
+        "gap_done": 3,
+        "histories": 228488,
+        "read_done": null,
+        "state_count": 971
+      }
+    ]
+  },
+  {
+    "b": 0,
+    "d": 3,
+    "r": 2,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 8,
+        "read_done": 0,
+        "state_count": 8
+      },
+      {
+        "gap_done": 1,
+        "histories": 8,
+        "read_done": 1,
+        "state_count": 8
+      },
+      {
+        "gap_done": 2,
+        "histories": 8,
+        "read_done": 2,
+        "state_count": 8
+      },
+      {
+        "gap_done": 3,
+        "histories": 8,
+        "read_done": 3,
+        "state_count": 8
+      },
+      {
+        "gap_done": 4,
+        "histories": 8,
+        "read_done": 4,
+        "state_count": 8
+      },
+      {
+        "gap_done": 5,
+        "histories": 8,
+        "read_done": 5,
+        "state_count": 8
+      },
+      {
+        "gap_done": 6,
+        "histories": 8,
+        "read_done": null,
+        "state_count": 8
+      }
+    ]
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "r": 2,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 32,
+        "read_done": 0,
+        "state_count": 26
+      },
+      {
+        "gap_done": 1,
+        "histories": 128,
+        "read_done": 1,
+        "state_count": 68
+      },
+      {
+        "gap_done": 2,
+        "histories": 512,
+        "read_done": 2,
+        "state_count": 127
+      },
+      {
+        "gap_done": 3,
+        "histories": 2048,
+        "read_done": 3,
+        "state_count": 204
+      },
+      {
+        "gap_done": 4,
+        "histories": 8192,
+        "read_done": 4,
+        "state_count": 299
+      },
+      {
+        "gap_done": 5,
+        "histories": 32768,
+        "read_done": 5,
+        "state_count": 416
+      },
+      {
+        "gap_done": 6,
+        "histories": 131072,
+        "read_done": null,
+        "state_count": 628
+      }
+    ]
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "r": 2,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 104,
+        "read_done": 0,
+        "state_count": 58
+      },
+      {
+        "gap_done": 1,
+        "histories": 1352,
+        "read_done": 1,
+        "state_count": 222
+      },
+      {
+        "gap_done": 2,
+        "histories": 17576,
+        "read_done": 2,
+        "state_count": 455
+      },
+      {
+        "gap_done": 3,
+        "histories": 228488,
+        "read_done": 3,
+        "state_count": 768
+      },
+      {
+        "gap_done": 4,
+        "histories": 2970344,
+        "read_done": 4,
+        "state_count": 1148
+      },
+      {
+        "gap_done": 5,
+        "histories": 38614472,
+        "read_done": 5,
+        "state_count": 1631
+      },
+      {
+        "gap_done": 6,
+        "histories": 501988136,
+        "read_done": null,
+        "state_count": 2760
+      }
+    ]
+  },
+  {
+    "b": 0,
+    "d": 3,
+    "r": 3,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 8,
+        "read_done": 0,
+        "state_count": 8
+      },
+      {
+        "gap_done": 1,
+        "histories": 8,
+        "read_done": 1,
+        "state_count": 8
+      },
+      {
+        "gap_done": 2,
+        "histories": 8,
+        "read_done": 2,
+        "state_count": 8
+      },
+      {
+        "gap_done": 3,
+        "histories": 8,
+        "read_done": 3,
+        "state_count": 8
+      },
+      {
+        "gap_done": 4,
+        "histories": 8,
+        "read_done": 4,
+        "state_count": 8
+      },
+      {
+        "gap_done": 5,
+        "histories": 8,
+        "read_done": 5,
+        "state_count": 8
+      },
+      {
+        "gap_done": 6,
+        "histories": 8,
+        "read_done": 6,
+        "state_count": 8
+      },
+      {
+        "gap_done": 7,
+        "histories": 8,
+        "read_done": 7,
+        "state_count": 8
+      },
+      {
+        "gap_done": 8,
+        "histories": 8,
+        "read_done": 8,
+        "state_count": 8
+      },
+      {
+        "gap_done": 9,
+        "histories": 8,
+        "read_done": null,
+        "state_count": 8
+      }
+    ]
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "r": 3,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 32,
+        "read_done": 0,
+        "state_count": 26
+      },
+      {
+        "gap_done": 1,
+        "histories": 128,
+        "read_done": 1,
+        "state_count": 68
+      },
+      {
+        "gap_done": 2,
+        "histories": 512,
+        "read_done": 2,
+        "state_count": 127
+      },
+      {
+        "gap_done": 3,
+        "histories": 2048,
+        "read_done": 3,
+        "state_count": 204
+      },
+      {
+        "gap_done": 4,
+        "histories": 8192,
+        "read_done": 4,
+        "state_count": 299
+      },
+      {
+        "gap_done": 5,
+        "histories": 32768,
+        "read_done": 5,
+        "state_count": 416
+      },
+      {
+        "gap_done": 6,
+        "histories": 131072,
+        "read_done": 6,
+        "state_count": 547
+      },
+      {
+        "gap_done": 7,
+        "histories": 524288,
+        "read_done": 7,
+        "state_count": 697
+      },
+      {
+        "gap_done": 8,
+        "histories": 2097152,
+        "read_done": 8,
+        "state_count": 870
+      },
+      {
+        "gap_done": 9,
+        "histories": 8388608,
+        "read_done": null,
+        "state_count": 1225
+      }
+    ]
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "r": 3,
+    "stages": [
+      {
+        "gap_done": 0,
+        "histories": 104,
+        "read_done": 0,
+        "state_count": 58
+      },
+      {
+        "gap_done": 1,
+        "histories": 1352,
+        "read_done": 1,
+        "state_count": 222
+      },
+      {
+        "gap_done": 2,
+        "histories": 17576,
+        "read_done": 2,
+        "state_count": 455
+      },
+      {
+        "gap_done": 3,
+        "histories": 228488,
+        "read_done": 3,
+        "state_count": 768
+      },
+      {
+        "gap_done": 4,
+        "histories": 2970344,
+        "read_done": 4,
+        "state_count": 1148
+      },
+      {
+        "gap_done": 5,
+        "histories": 38614472,
+        "read_done": 5,
+        "state_count": 1631
+      },
+      {
+        "gap_done": 6,
+        "histories": 501988136,
+        "read_done": 6,
+        "state_count": 2181
+      },
+      {
+        "gap_done": 7,
+        "histories": 6525845768,
+        "read_done": 7,
+        "state_count": 2799
+      },
+      {
+        "gap_done": 8,
+        "histories": 84835994984,
+        "read_done": 8,
+        "state_count": 3528
+      },
+      {
+        "gap_done": 9,
+        "histories": 1102867934792,
+        "read_done": null,
+        "state_count": 5475
+      }
+    ]
+  }
+]

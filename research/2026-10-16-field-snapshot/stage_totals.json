@@ -1,0 +1,866 @@
+[
+  {
+    "fields": 2,
+    "gaps_done": 1,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 1,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 2,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 1,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 3,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 1,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 1,
+    "histories": 12,
+    "merged_states": 12,
+    "passes": 1,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 2,
+    "histories": 36,
+    "merged_states": 29,
+    "passes": 1,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 3,
+    "histories": 108,
+    "merged_states": 63,
+    "passes": 1,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 1,
+    "histories": 28,
+    "merged_states": 26,
+    "passes": 1,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 2,
+    "histories": 196,
+    "merged_states": 93,
+    "passes": 1,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 3,
+    "histories": 1372,
+    "merged_states": 239,
+    "passes": 1,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 1,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 2,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 3,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 4,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 5,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 1,
+    "histories": 12,
+    "merged_states": 12,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 2,
+    "histories": 36,
+    "merged_states": 29,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 3,
+    "histories": 108,
+    "merged_states": 56,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 4,
+    "histories": 324,
+    "merged_states": 90,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 5,
+    "histories": 972,
+    "merged_states": 151,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 1,
+    "histories": 28,
+    "merged_states": 26,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 2,
+    "histories": 196,
+    "merged_states": 93,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 3,
+    "histories": 1372,
+    "merged_states": 192,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 4,
+    "histories": 9604,
+    "merged_states": 319,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 5,
+    "histories": 67228,
+    "merged_states": 586,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 1,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 2,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 3,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 4,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 5,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 6,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 7,
+    "histories": 4,
+    "merged_states": 4,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 2,
+    "gaps_done": 1,
+    "histories": 12,
+    "merged_states": 12,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 2,
+    "histories": 36,
+    "merged_states": 29,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 3,
+    "histories": 108,
+    "merged_states": 56,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 4,
+    "histories": 324,
+    "merged_states": 90,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 5,
+    "histories": 972,
+    "merged_states": 131,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 6,
+    "histories": 2916,
+    "merged_states": 182,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 7,
+    "histories": 8748,
+    "merged_states": 279,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 2,
+    "gaps_done": 1,
+    "histories": 28,
+    "merged_states": 26,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 2,
+    "histories": 196,
+    "merged_states": 93,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 3,
+    "histories": 1372,
+    "merged_states": 192,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 4,
+    "histories": 9604,
+    "merged_states": 319,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 5,
+    "histories": 67228,
+    "merged_states": 479,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 6,
+    "histories": 470596,
+    "merged_states": 672,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 2,
+    "gaps_done": 7,
+    "histories": 3294172,
+    "merged_states": 1097,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 1,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 1,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 2,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 1,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 3,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 1,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 4,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 1,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 1,
+    "histories": 32,
+    "merged_states": 26,
+    "passes": 1,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 2,
+    "histories": 128,
+    "merged_states": 68,
+    "passes": 1,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 3,
+    "histories": 512,
+    "merged_states": 127,
+    "passes": 1,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 4,
+    "histories": 2048,
+    "merged_states": 234,
+    "passes": 1,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 1,
+    "histories": 104,
+    "merged_states": 58,
+    "passes": 1,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 2,
+    "histories": 1352,
+    "merged_states": 222,
+    "passes": 1,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 3,
+    "histories": 17576,
+    "merged_states": 455,
+    "passes": 1,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 4,
+    "histories": 228488,
+    "merged_states": 971,
+    "passes": 1,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 1,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 2,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 3,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 4,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 5,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 6,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 7,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 2,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 1,
+    "histories": 32,
+    "merged_states": 26,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 2,
+    "histories": 128,
+    "merged_states": 68,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 3,
+    "histories": 512,
+    "merged_states": 127,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 4,
+    "histories": 2048,
+    "merged_states": 204,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 5,
+    "histories": 8192,
+    "merged_states": 299,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 6,
+    "histories": 32768,
+    "merged_states": 416,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 7,
+    "histories": 131072,
+    "merged_states": 628,
+    "passes": 2,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 1,
+    "histories": 104,
+    "merged_states": 58,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 2,
+    "histories": 1352,
+    "merged_states": 222,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 3,
+    "histories": 17576,
+    "merged_states": 455,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 4,
+    "histories": 228488,
+    "merged_states": 768,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 5,
+    "histories": 2970344,
+    "merged_states": 1148,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 6,
+    "histories": 38614472,
+    "merged_states": 1631,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 7,
+    "histories": 501988136,
+    "merged_states": 2760,
+    "passes": 2,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 1,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 2,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 3,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 4,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 5,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 6,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 7,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 8,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 9,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 10,
+    "histories": 8,
+    "merged_states": 8,
+    "passes": 3,
+    "writes_per_gap": 0
+  },
+  {
+    "fields": 3,
+    "gaps_done": 1,
+    "histories": 32,
+    "merged_states": 26,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 2,
+    "histories": 128,
+    "merged_states": 68,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 3,
+    "histories": 512,
+    "merged_states": 127,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 4,
+    "histories": 2048,
+    "merged_states": 204,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 5,
+    "histories": 8192,
+    "merged_states": 299,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 6,
+    "histories": 32768,
+    "merged_states": 416,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 7,
+    "histories": 131072,
+    "merged_states": 547,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 8,
+    "histories": 524288,
+    "merged_states": 697,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 9,
+    "histories": 2097152,
+    "merged_states": 870,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 10,
+    "histories": 8388608,
+    "merged_states": 1225,
+    "passes": 3,
+    "writes_per_gap": 1
+  },
+  {
+    "fields": 3,
+    "gaps_done": 1,
+    "histories": 104,
+    "merged_states": 58,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 2,
+    "histories": 1352,
+    "merged_states": 222,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 3,
+    "histories": 17576,
+    "merged_states": 455,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 4,
+    "histories": 228488,
+    "merged_states": 768,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 5,
+    "histories": 2970344,
+    "merged_states": 1148,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 6,
+    "histories": 38614472,
+    "merged_states": 1631,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 7,
+    "histories": 501988136,
+    "merged_states": 2181,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 8,
+    "histories": 6525845768,
+    "merged_states": 2799,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 9,
+    "histories": 84835994984,
+    "merged_states": 3528,
+    "passes": 3,
+    "writes_per_gap": 2
+  },
+  {
+    "fields": 3,
+    "gaps_done": 10,
+    "histories": 1102867934792,
+    "merged_states": 5475,
+    "passes": 3,
+    "writes_per_gap": 2
+  }
+]

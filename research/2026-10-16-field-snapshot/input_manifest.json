@@ -1,0 +1,10 @@
+{
+  "frozen_utc": "2026-10-16T14:46:13.750750+00:00",
+  "run_date": "2026-10-16",
+  "sha256": {
+    "analysis_plan.md": "4624ae4b04f9d3d26682e5b08d88ad1f0ee47d6bdc79e4b7b46c4f374ca3279d",
+    "config.json": "936494f659fa4a21b174fba0fab08b0a793978a92ce8c759a1e95c3103f6a616",
+    "source_search.md": "060f01e58cdee980f083eaf6031d1f892226b770156e4a20ae3bc5993a9dfd62"
+  },
+  "status": "FROZEN_BEFORE_CALCULATION"
+}

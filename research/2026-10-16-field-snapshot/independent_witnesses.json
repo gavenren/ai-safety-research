@@ -1,0 +1,9606 @@
+[
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": [
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "values",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": [
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_2",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_4",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": [
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "values",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 2,
+        "revision": 5
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 3,
+        "partial_revision": 3,
+        "revision": 6
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 3,
+        "revision": 6
+      }
+    ],
+    "writes": 6
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": [
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_2",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 2,
+        "revision": 5
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 3,
+        "partial_revision": 3,
+        "revision": 6
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 3,
+        "revision": 6
+      }
+    ],
+    "writes": 6
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_4",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 5
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 2,
+        "revision": 6
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 3,
+        "partial_revision": 3,
+        "revision": 7
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 4,
+        "revision": 8
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 4,
+        "revision": 8
+      }
+    ],
+    "writes": 8
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [],
+      [],
+      [
+        0,
+        1
+      ]
+    ],
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [],
+      [],
+      [],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 5,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 6,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 1,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": [
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "values",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 2,
+        "revision": 5
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 3,
+        "partial_revision": 3,
+        "revision": 6
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 4,
+        "revision": 7
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 4,
+        "revision": 8
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 5,
+        "partial_revision": 4,
+        "revision": 9
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 5,
+        "partial_revision": 5,
+        "revision": 10
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 5,
+        "revision": 10
+      }
+    ],
+    "writes": 10
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      []
+    ],
+    "initial": [
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_2",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 2,
+        "revision": 5
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 3,
+        "partial_revision": 3,
+        "revision": 6
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 4,
+        "revision": 7
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 4,
+        "revision": 8
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 5,
+        "partial_revision": 4,
+        "revision": 9
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 5,
+        "partial_revision": 5,
+        "revision": 10
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 5,
+        "revision": 10
+      }
+    ],
+    "writes": 10
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_4",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 2,
+        "partial_revision": 2,
+        "revision": 5
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 2,
+        "revision": 6
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 3,
+        "partial_revision": 3,
+        "revision": 7
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 4,
+        "revision": 8
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 4,
+        "revision": 9
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 5,
+        "partial_revision": 4,
+        "revision": 10
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 5,
+        "partial_revision": 5,
+        "revision": 11
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 6,
+        "partial_revision": 6,
+        "revision": 12
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 6,
+        "revision": 12
+      }
+    ],
+    "writes": 12
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        0,
+        1
+      ]
+    ],
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 6,
+        "partial_revision": 2,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          0
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 2,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [],
+      [
+        0
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "initial": [
+      1,
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "values",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [],
+      [
+        0
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "initial": [
+      1,
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_2",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "initial": [
+      0,
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_4",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 3,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      0,
+      1
+    ],
+    "outcome": "no_common_target",
+    "policy": "values",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      0,
+      1
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_2",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "initial": [
+      0,
+      0,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_4",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "initial": [
+      0,
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      0,
+      1
+    ],
+    "outcome": "no_common_target",
+    "policy": "partial_revision",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 1,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "values",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_2",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      1,
+      0
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_4",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 2,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      0,
+      1
+    ],
+    "outcome": "no_common_target",
+    "policy": "partial_revision",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 3,
+        "partial_revision": 0,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 0,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 0,
+        "revision": 5
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 0,
+        "revision": 6
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 6
+      }
+    ],
+    "writes": 6
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 2,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 9,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 9,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 9,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 1,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 9,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        2,
+        0
+      ],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      0,
+      1
+    ],
+    "outcome": "no_common_target",
+    "policy": "values",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 3,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 5,
+        "partial_revision": 1,
+        "revision": 5
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 5,
+        "partial_revision": 2,
+        "revision": 6
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 7,
+        "partial_revision": 2,
+        "revision": 7
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 7,
+        "partial_revision": 2,
+        "revision": 8
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 8
+      }
+    ],
+    "writes": 8
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "values",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 9,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        2,
+        0
+      ],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      0,
+      1
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_2",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 3,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 5,
+        "partial_revision": 1,
+        "revision": 5
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 5,
+        "partial_revision": 2,
+        "revision": 6
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 7,
+        "partial_revision": 2,
+        "revision": 7
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 7,
+        "partial_revision": 2,
+        "revision": 8
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 8
+      }
+    ],
+    "writes": 8
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_2",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 9,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 2
+      }
+    ],
+    "writes": 2
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        2,
+        0
+      ],
+      [],
+      [
+        1,
+        2
+      ],
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      0,
+      1
+    ],
+    "outcome": "no_common_target",
+    "policy": "modulo_4",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 3,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 5,
+        "partial_revision": 1,
+        "revision": 5
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 5,
+        "partial_revision": 2,
+        "revision": 6
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 7,
+        "partial_revision": 2,
+        "revision": 7
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 7,
+        "partial_revision": 2,
+        "revision": 8
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 2,
+        "revision": 8
+      }
+    ],
+    "writes": 8
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      0,
+      0,
+      0
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "modulo_4",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 0,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 2,
+        "gap": 2,
+        "partial_revision": 1,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 9,
+        "partial_revision": 1,
+        "revision": 4
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 1,
+        "revision": 4
+      }
+    ],
+    "writes": 4
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [],
+      []
+    ],
+    "initial": [
+      1,
+      0,
+      1
+    ],
+    "outcome": "no_common_target",
+    "policy": "partial_revision",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 1,
+        "partial_revision": 0,
+        "revision": 2
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 3,
+        "partial_revision": 0,
+        "revision": 3
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 3,
+        "partial_revision": 0,
+        "revision": 4
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 4,
+        "partial_revision": 0,
+        "revision": 5
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 4,
+        "partial_revision": 0,
+        "revision": 6
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 7
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 6,
+        "partial_revision": 0,
+        "revision": 8
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 7,
+        "partial_revision": 0,
+        "revision": 9
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 1,
+        "gap": 7,
+        "partial_revision": 0,
+        "revision": 10
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 10
+      }
+    ],
+    "writes": 10
+  },
+  {
+    "b": 2,
+    "d": 3,
+    "gaps": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ]
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "outcome": "wrong_at_decision",
+    "policy": "partial_revision",
+    "r": 3,
+    "trace": [
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "initial_revision",
+        "revision": 0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 0,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 1,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 2,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 3,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 4,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 5,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 0,
+        "read": 6,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 1,
+        "read": 7,
+        "value": 1
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "event": "read",
+        "field": 2,
+        "read": 8,
+        "value": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "write",
+        "field": 0,
+        "gap": 9,
+        "partial_revision": 0,
+        "revision": 1
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "event": "final_revision_and_decision",
+        "partial_revision": 0,
+        "revision": 1
+      }
+    ],
+    "writes": 1
+  }
+]
