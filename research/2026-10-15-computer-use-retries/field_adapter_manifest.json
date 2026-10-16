@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "source_file": "calendar_preflight/browser_helpers.js",
+      "original_sha256": "3b8451094b1ea8a7b999a38b9b35ca16dccf09ec1a3acfa6335bb38b781dba3f",
+      "public_sha256": "3b8451094b1ea8a7b999a38b9b35ca16dccf09ec1a3acfa6335bb38b781dba3f"
+    },
+    {
+      "source_file": "calendar_runner/browser_helpers.js",
+      "original_sha256": "1239fdf75f226ed879887b844357cd663ff4711026b32dd3c2cf622ce756982f",
+      "public_sha256": "1239fdf75f226ed879887b844357cd663ff4711026b32dd3c2cf622ce756982f"
+    },
+    {
+      "source_file": "calendar_runner/browser_helpers_effective.js",
+      "original_sha256": "7d488eb6414049f8ef841614acb4ce08ec563271022fd01b78ba53dc55eada41",
+      "public_sha256": "7d488eb6414049f8ef841614acb4ce08ec563271022fd01b78ba53dc55eada41"
+    },
+    {
+      "source_file": "calendar_runner/finish_trial.py",
+      "original_sha256": "b8a2b4a26a76b0e5dfc1adee18b607ae283f542da057864f6a9e75169c9f9b57",
+      "public_sha256": "b8a2b4a26a76b0e5dfc1adee18b607ae283f542da057864f6a9e75169c9f9b57"
+    },
+    {
+      "source_file": "calendar_runner/run_checkpoint.py",
+      "original_sha256": "15639daf34c2a06ce3303ade22ae1bfb077a8bdc80395debbd4ad7c90acd1a02",
+      "public_sha256": "15639daf34c2a06ce3303ade22ae1bfb077a8bdc80395debbd4ad7c90acd1a02"
+    },
+    {
+      "source_file": "calendar_runner/run_checkpoint_v1.py",
+      "original_sha256": "6fbdf26dde542db431dc6f2c55895f2195d35cfb5104bde11fa79c5cc6238f50",
+      "public_sha256": "6fbdf26dde542db431dc6f2c55895f2195d35cfb5104bde11fa79c5cc6238f50"
+    },
+    {
+      "source_file": "calendar_runner/run_checkpoint_v2.py",
+      "original_sha256": "b3373371e34753396cc7b241e20e8b582f98a29317375f440a9fc6dd895a8420",
+      "public_sha256": "b3373371e34753396cc7b241e20e8b582f98a29317375f440a9fc6dd895a8420"
+    },
+    {
+      "source_file": "notion_runner/actual_helpers.js",
+      "original_sha256": "627e13b900433020396e9d0dc078d3cd2119dc11e45b1489cbbc15633e8a4a8d",
+      "public_sha256": "627e13b900433020396e9d0dc078d3cd2119dc11e45b1489cbbc15633e8a4a8d"
+    },
+    {
+      "source_file": "notion_runner/actual_helpers_anonymous.txt",
+      "original_sha256": "6dbd2f824befee9932f515a9f2704c7bbb70993b444670ce9d4cfa3ca2105c48",
+      "public_sha256": "6dbd2f824befee9932f515a9f2704c7bbb70993b444670ce9d4cfa3ca2105c48"
+    }
+  ],
+  "archive_sha256": "a8df66daa2cf582eb0cee78c186b96d4d94efefd73b9e57f4f5caa278f73564f",
+  "scope": "Final and retained earlier helper code. Private paths and identities are aliases. Configure a new authorized live run before use. These helpers are not an unattended browser controller."
+}

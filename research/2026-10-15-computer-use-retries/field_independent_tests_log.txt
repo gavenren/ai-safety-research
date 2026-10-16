@@ -1,0 +1,17 @@
+test_empty_table_disabled_header_is_zero (field_independent_tests.EvidenceTests.test_empty_table_disabled_header_is_zero) ... ok
+test_label_is_not_value (field_independent_tests.EvidenceTests.test_label_is_not_value) ... ok
+test_loading_native_read_unknown (field_independent_tests.EvidenceTests.test_loading_native_read_unknown) ... ok
+test_missing_connector_description_unknown (field_independent_tests.EvidenceTests.test_missing_connector_description_unknown) ... ok
+test_missing_copy_action_breaks_identity_witness (field_independent_tests.EvidenceTests.test_missing_copy_action_breaks_identity_witness) ... ok
+test_missing_first_record_not_false_match (field_independent_tests.EvidenceTests.test_missing_first_record_not_false_match) ... ok
+test_multi_day_one_record (field_independent_tests.EvidenceTests.test_multi_day_one_record) ... ok
+test_native_title_is_not_column_header (field_independent_tests.EvidenceTests.test_native_title_is_not_column_header) ... ok
+test_saved_wrong_description_fails (field_independent_tests.EvidenceTests.test_saved_wrong_description_fails) ... ok
+test_stale_native_source_unknown (field_independent_tests.EvidenceTests.test_stale_native_source_unknown) ... ok
+test_unbounded_search_unknown (field_independent_tests.EvidenceTests.test_unbounded_search_unknown) ... ok
+test_wrong_native_identity_does_not_confirm (field_independent_tests.EvidenceTests.test_wrong_native_identity_does_not_confirm) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.157s
+
+OK

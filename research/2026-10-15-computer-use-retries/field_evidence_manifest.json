@@ -1,0 +1,1824 @@
+{
+  "files": [
+    {
+      "group": "calendar_preflight",
+      "source_file": "actions.jsonl",
+      "public_file": "field_calendar_preflight_actions.jsonl",
+      "records": 80,
+      "original_sha256": "db0575ab47f6f6c9db88b09c7f414fb722a5b67ecb0d8c8eae2ae9a9c0f8d9d8",
+      "public_sha256": "564bdf1eac9df66b923b3f8dfa6434722ad80bfc0b4943237921ad9af40d2c31"
+    },
+    {
+      "group": "calendar_preflight",
+      "source_file": "cleanup-search.json",
+      "public_file": "field_calendar_preflight_records.json",
+      "member": "cleanup-search.json",
+      "records": 1,
+      "original_sha256": "6ccbcdea54b9ff0ec5f71a64fc9bdad8dc23f99ff8edcdf916ba730978ab8514",
+      "public_member_sha256": "10ca39be414440981bcb69890a13aab4f7ee9f6a5a0e6491c15eddfe60a829cb"
+    },
+    {
+      "group": "calendar_preflight",
+      "source_file": "connector_schemas.json",
+      "public_file": "field_calendar_preflight_records.json",
+      "member": "connector_schemas.json",
+      "records": 1,
+      "original_sha256": "614bcac2fb1d1b825d1606fd62bafd8f28f93e2ef2207b9bbc3eef97d7745b75",
+      "public_member_sha256": "29bd40e87f95500cf2c33f40d99173a34712eb4a100ed698cfccb66dd3cf96a5"
+    },
+    {
+      "group": "calendar_preflight",
+      "source_file": "initial-read-event.json",
+      "public_file": "field_calendar_preflight_records.json",
+      "member": "initial-read-event.json",
+      "records": 1,
+      "original_sha256": "ba7bc895ef530e8449ffaa487815a9fb07834058f439764dd5a4882e58e6e6cf",
+      "public_member_sha256": "bb05abf1ae2ee022be86bdaeddbed6b8e9a2e7c9418d14e54b86704cb65f9d8f"
+    },
+    {
+      "group": "calendar_preflight",
+      "source_file": "initial-search.json",
+      "public_file": "field_calendar_preflight_records.json",
+      "member": "initial-search.json",
+      "records": 1,
+      "original_sha256": "f7bdfcdbb4dde34307ef91e20dd90e15e0535a3a406a6914ab5bb842e93f93a1",
+      "public_member_sha256": "9921d25efa98fce5ce165d2ef06c1ecf27fcaa19a6081549097e96d2152c2cd4"
+    },
+    {
+      "group": "calendar_preflight",
+      "source_file": "manifest.json",
+      "public_file": "field_calendar_preflight_records.json",
+      "member": "manifest.json",
+      "records": 1,
+      "original_sha256": "485662dcca819a16d8c78f02c8c4e1527eff7d4b75811345501f33ca77dd349b",
+      "public_member_sha256": "8e9ec5722b1837eede2b4690e32a503fae31807e9223f69f0fab25223b600471"
+    },
+    {
+      "group": "calendar_preflight",
+      "source_file": "replacement-read-event.json",
+      "public_file": "field_calendar_preflight_records.json",
+      "member": "replacement-read-event.json",
+      "records": 1,
+      "original_sha256": "d3ee08db0f35552ccafa8e12306d151ccaa6111533a1f8ea927ff55eeefc2664",
+      "public_member_sha256": "ac71240bd9f06924e7a22ed2f60c455b04f332dedf378b2a0db8962106c01db0"
+    },
+    {
+      "group": "calendar_preflight",
+      "source_file": "summary.json",
+      "public_file": "field_calendar_preflight_records.json",
+      "member": "summary.json",
+      "records": 1,
+      "original_sha256": "15e2797943f89b6a95bd4ded77f672c72ec04d2161c51ff6047911eac0a0cd2c",
+      "public_member_sha256": "283142291275081c074ffc1fdb74d564c9bec05ef60cd960ce2b9d9145aa9545"
+    },
+    {
+      "group": "calendar_preflight",
+      "source_file": "README.md",
+      "public_file": "field_calendar_preflight_README.md",
+      "records": 1,
+      "original_sha256": "c978a23654b088d95d71eeae2271aad33017ea0c21eff2e33abbf6ae49fb18d9",
+      "public_sha256": "c978a23654b088d95d71eeae2271aad33017ea0c21eff2e33abbf6ae49fb18d9"
+    },
+    {
+      "group": "calendar_preflight",
+      "source_file": "plan.md",
+      "public_file": "field_calendar_preflight_plan.md",
+      "records": 1,
+      "original_sha256": "2dccf57e6c7562d72fb385a20f20c870f18f7aeb316367e57c1bceed38d54ba8",
+      "public_sha256": "2dccf57e6c7562d72fb385a20f20c870f18f7aeb316367e57c1bceed38d54ba8"
+    },
+    {
+      "group": "notion_preflight",
+      "source_file": "actions.jsonl",
+      "public_file": "field_notion_preflight_actions.jsonl",
+      "records": 163,
+      "original_sha256": "59fd4a3878021a45dd5d235833f998610688e41a607ec32a97911539eab0e794",
+      "public_sha256": "6b83e2c999331445518af84fb99119a553e255bd6ca20a6ebd795755e36bc353"
+    },
+    {
+      "group": "notion_preflight",
+      "source_file": "manifest.json",
+      "public_file": "field_notion_preflight_records.json",
+      "member": "manifest.json",
+      "records": 1,
+      "original_sha256": "97be2a630eb6cf62df21a1451951a8650bc10b0e43d1605d709b0111ea433395",
+      "public_member_sha256": "ccf8535dcb956068ca1933d5a8eac9b8d07dc2d6ee8f57a6bba09d26b19f9b48"
+    },
+    {
+      "group": "notion_preflight",
+      "source_file": "summary.json",
+      "public_file": "field_notion_preflight_records.json",
+      "member": "summary.json",
+      "records": 1,
+      "original_sha256": "0c543db24409ee619129ea6affb495981f9188c79d845f74969bb6dd711d6dd4",
+      "public_member_sha256": "13e87c8439241f1dfae1fabc9afe08bf1f5312a1af13fa0317165e4c35aa5634"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "actions.jsonl",
+      "public_file": "field_calendar_runner_actions.jsonl",
+      "records": 1285,
+      "original_sha256": "012cd335dec698e980bec36a6ca0de3e2640e745db757016f58cbcc51c17ea33",
+      "public_sha256": "42789548d118308eef40ac2c2231011f8696b61d9d6c99e68eb010071f2f7a5a"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-audit-check.json",
+      "records": 1,
+      "original_sha256": "16f30a51766074c635a3ce87e1673b8590736d65293ef107726083f02df601fa",
+      "public_member_sha256": "059d2a6dac24ec7c9cbbce97f7801e0b128ea95d18c7300a541f7e68fb5710f4"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-audit-read.json",
+      "records": 1,
+      "original_sha256": "b0a492c717c865c331ab74b551648b0432c6e07cf387738bc907717d85da2e4a",
+      "public_member_sha256": "605ffc1e4477cfe7066ba21165d48ab65804ffcbc146f33fd2a4b54842dad935"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-audit-search.json",
+      "records": 1,
+      "original_sha256": "f33d9fb50fc7e68e482223b6c46b58f6a4bd2ca8dd3f6b306798c8aebdc2219d",
+      "public_member_sha256": "2a7b5fc6e5c16303473ffe182a0d94d978bfaeca88dea52f706da0457e2ebdf9"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-audit-sources.json",
+      "records": 1,
+      "original_sha256": "a4d5d6db3c5d7ea203654415cfc480467a954139bc689ebe5ccd6c499b37d5ee",
+      "public_member_sha256": "464c2efeb0f1160eb63b1ad5d5845fbefc10266c4a5faf47a8ee29b9b3295239"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "ab319a24cffc06e0e7c8d718ed356b28b4f04ab772cd84621b7782bba2903eed",
+      "public_member_sha256": "e3753fc450bd0db77968d082375fb9b2d47ad56b79f402a08fb0274a7fbc4840"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-final-check.json",
+      "records": 1,
+      "original_sha256": "008203c2e7e0624fd521f395c8fbcd923781fab9a283d1151bc5a03f44e235d0",
+      "public_member_sha256": "c65a1cd5d7acb7992ea208ba1444435b0ab176b2fb195a0c42fac0c8e347cd6f"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-final-read.json",
+      "records": 1,
+      "original_sha256": "33d201a4053acc9962adbb49f16819c8a2429d81d0a611bfe6e94c943849f9f6",
+      "public_member_sha256": "50bb5231259b33cdad5dd42701665f90d12aa230dd90dc037ac79fc19483f39c"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-final-search.json",
+      "records": 1,
+      "original_sha256": "c24db60df169f97ec062e3165bd4647560b2152607c924660fb39adf7d857657",
+      "public_member_sha256": "52492fe7799d023b29483c9f8250b838d4b85bdc3701cd075080619eca49ca50"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-final-sources.json",
+      "records": 1,
+      "original_sha256": "43f111ef748b1e2047486105c781efd903a0ac16f77927b06cd3c8ccac655760",
+      "public_member_sha256": "5db8b087296cbc7cd49c0bfad02431a85e283a2b4eea644b496047f325360b2a"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-initial-check.json",
+      "records": 1,
+      "original_sha256": "cd2eba1f36d715a3d4af4c16d17a7b785fa1abc50fe2d55d563aebad6cb7530c",
+      "public_member_sha256": "fec8f63ce0acaaaa4fffcb2283a6b5ab8068f8c3a3a4eb48e78c0ac7e5890f72"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-initial-read.json",
+      "records": 1,
+      "original_sha256": "434b56a54bef1b37afb7f629b5975eef78713e79cf95315d8738df3f6927905a",
+      "public_member_sha256": "8564f6e76837f154064f141571c804b91019db7c78909a44585ff35362f9c630"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-initial-search.json",
+      "records": 1,
+      "original_sha256": "81acdc2911a1bbbd22517f8292c1ecfc35cca6e3595f7f82472ade886d93a53e",
+      "public_member_sha256": "59a5fa1a86ce2f76eac70e73bc0d2e40aceeac37f7a2b4f5025dc5420f9ac6b5"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-initial-sources.json",
+      "records": 1,
+      "original_sha256": "3b58b3d73e5fe845b1d9b5fe2052565dee3569c9cf6d255470ce2b67039baa20",
+      "public_member_sha256": "865911c39292b94cad24490599b5d28390c2e13c9b4f560abf84f38c827ea64a"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C01-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C01-packet.json",
+      "records": 1,
+      "original_sha256": "981092d204d696fd4a2e7112290584f8c4cfd60ec7e89aa03e4868cb2bcfc87b",
+      "public_member_sha256": "ec6381640ad648c7e0d859fc1b76f5ae0b7028462ca45065e6ecfaa32b2459c5"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-audit-check.json",
+      "records": 1,
+      "original_sha256": "6664c7eb8a6a4bd583205c90400183e1165b589d8f751c0c6d31ca3f9cf2f5d6",
+      "public_member_sha256": "693dfbdd74f045b3c76d18e29704b9228e9c0e9a1efc4324866098b9a7380236"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-audit-read.json",
+      "records": 1,
+      "original_sha256": "a8b21cb241c90374066f545b053bae3bdcca8f91f5d70d7d67ef32c3826f1499",
+      "public_member_sha256": "7a0eb72a2f9df6315b372d1f81f3b67ed641c894f6b212839ff8234932ebd08a"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-audit-search.json",
+      "records": 1,
+      "original_sha256": "197888202b342b5689a082ca2e52d3ef02a786ce4357c99c42cc68904a95ab15",
+      "public_member_sha256": "65d463e0befe057f3a4877584adc06a64703e180772a616aa0f4e9459252a9f3"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-audit-sources.json",
+      "records": 1,
+      "original_sha256": "047a51705db7bae31818545f8e1f5b3574f3696e2c2f8711f88ed5e2a23cd04e",
+      "public_member_sha256": "7e5c4f58442004ff3d60f1825c89f8f6d564c038a1ed630f2e5f867e4d0040ca"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "2b5e1e1c4d886bdfa5c53058deb0991f5a2f196da70b2caad7b4f8443b4640e1",
+      "public_member_sha256": "d628f0aa511afa20eaa19a78f8b701a1b2917958861068a557cc9d3a33c8d570"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-final-check.json",
+      "records": 1,
+      "original_sha256": "372c23c63b8a21a695c9cf3920a4cd90ef1224c6beb6bf7ca1cd61544362d88c",
+      "public_member_sha256": "b1f63dcdd7599a345ca4a27b084a358b42d50b9e9bfd7faa4c4656f2cbd163c3"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-final-read.json",
+      "records": 1,
+      "original_sha256": "37b8bc02c934a7490281bf5bbdcc3e246d03a69abf5e95b6480e61c111dbadfb",
+      "public_member_sha256": "db701fc53aaab58cfbbca7ad56875b9f42f639f73573218337237f83f3d2daa7"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-final-search.json",
+      "records": 1,
+      "original_sha256": "34c2f9234c22583977b6d26b9a1259709847d3021b6df48c2b1b94000b9567db",
+      "public_member_sha256": "412d226c4c6731eec0f654adf3ac607df74678b7ae4e2962a078bf5d426ae1ee"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-final-sources.json",
+      "records": 1,
+      "original_sha256": "2d385714233ebcbb8ad9f64ce0dcb51e4b8bc4d259fefb95d16f8148cd3df260",
+      "public_member_sha256": "baaef982463b7c080857f365874f33eaee986c00d4ddbdf8df8e3eddb918741d"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-initial-check.json",
+      "records": 1,
+      "original_sha256": "3fcc235a350039399708a3b268a9ac1ad1d2579b39964ea6c5cfb99bd05df49d",
+      "public_member_sha256": "aa3627759f219b138d21bbdd9a1611a1e85c13ea9be089f5820ecdb75dde49f0"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-initial-read.json",
+      "records": 1,
+      "original_sha256": "60362e664cbda8feaa598096631361cdef2cfea00f952db678e0ab8c58e11137",
+      "public_member_sha256": "0c09024519ec4816045b298b3661d930042ff4175ab3e3a568d1214d85caa200"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-initial-search.json",
+      "records": 1,
+      "original_sha256": "554d374316ec9899715a8f237bba496ad17350b7e1bc3b7c7de6ff047da7d181",
+      "public_member_sha256": "a8195221e3a145b230b959815aa94cd5d7c5c9a11b62aee8510d3fdc85bcd2f4"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-initial-sources.json",
+      "records": 1,
+      "original_sha256": "46421ffafad4f8d6c851c4071aa596166c88f45b17f6e69640d49a38682ec4d8",
+      "public_member_sha256": "e953db195a176ae5518fac40b28c7eed51414603f2a15a78302fe77ca3bef2a3"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C02-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C02-packet.json",
+      "records": 1,
+      "original_sha256": "dacd434cc6e63c5d3167e0697a66969297bc377191732f8ecc8fa2ed0655c22f",
+      "public_member_sha256": "8ea5906fb0bc0024875db5a64e42300768ca48ce25c41c31db9ba5198b09e67b"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-audit-check.json",
+      "records": 1,
+      "original_sha256": "9c5fddbc34738cedb92daaa2a726c874e8ab1eff191993cb600a3aeba16f12a7",
+      "public_member_sha256": "a97ee066a07f030efd49f3873e20bcf1267e70ac4c44d5ca544f2ad97fc675a7"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-audit-read.json",
+      "records": 1,
+      "original_sha256": "78e033732243e6a24da9ba7b77f4fc131e85510007a481910d3baa5afd394ecf",
+      "public_member_sha256": "8a97a3b2133bde0433c4cfbf0afa49231617795f972b9b6a87c1ad22a82ce04d"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-audit-search.json",
+      "records": 1,
+      "original_sha256": "cfa87239c48e0af7e0fc922befb7f8befca5d4bee6c296c8cd6f0a89ca4a1463",
+      "public_member_sha256": "a453d5ec797e2f5030f28905c9905b916d1f50c9fe78d09067ca594ccfa8e345"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-audit-sources.json",
+      "records": 1,
+      "original_sha256": "526656aedebcf75c5a2782416c4dbd1a5a3011af17670afe6196f7d016795c02",
+      "public_member_sha256": "14be775fda5b0be383eefe2c519b9b5b1bf1ace911e64bcd952ac2900e82472e"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "941b116b359b11cf7fb91bd57c77f2415e5bce3390a4187ff97162dd1006099d",
+      "public_member_sha256": "5003211f1251afa17f296f8c8caa66a917eb15efe3975088e446ef8586a5d0e2"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-final-check.json",
+      "records": 1,
+      "original_sha256": "68909bb6db66bf02bae8f041e08bcca0d0aca32954a7d94a96bc266820490c4f",
+      "public_member_sha256": "982d19ba176657aa0bc797ce3d4af7308ec1c5068dd9fa3e3b8338e4fbfb6c0e"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-final-read.json",
+      "records": 1,
+      "original_sha256": "a96d2031a1b2c09d13c87b7f152e6c36d9cf0194455d24a1dc82cc3b309eb987",
+      "public_member_sha256": "14e1dce3b73b91a795bea714e13b82f7b06ae50ca686bb62183e843242e3420a"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-final-search.json",
+      "records": 1,
+      "original_sha256": "de3efe245e7d230a159c745785857064443637b104d260da28fafb84046ee4e8",
+      "public_member_sha256": "9ec63fc591957f84408b14759ceb98d0980c0a479150e368dc75a5d6e259f11f"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-final-sources.json",
+      "records": 1,
+      "original_sha256": "324e840ab86d72c2a2fd3f5b3d77d69d6cf61b92624390fffcf3c9d1216e1e87",
+      "public_member_sha256": "10969a8db07cbac636bf62fb0b503b2f99bffb155ce07c4bf7e8741981f21713"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-initial-check.json",
+      "records": 1,
+      "original_sha256": "0136f0a9fcabaf5c9373efed28d9c7a83d4c977c561a1e2640473e9f1526a963",
+      "public_member_sha256": "5cac9d9cf4c19e399913f27c0b9878436630dc5d48e0f99d501e8df600bc716e"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-initial-read.json",
+      "records": 1,
+      "original_sha256": "d1fb78ed85b2a0d256787cd1b9aa16f998ad202abf76934e7fffe2456a06a7f4",
+      "public_member_sha256": "198102b82b25acea065a644d0b49581534b087495d49ff80bc00b94265d6c19e"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-initial-search.json",
+      "records": 1,
+      "original_sha256": "d1a9163c75a875b53ddc36107fdefb8dc571ac5d66925e494bcb597090cf039a",
+      "public_member_sha256": "8e1665889175a38d05ef3346f3764371a568ef7d1907d242f499d66d7add4ca8"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-initial-sources.json",
+      "records": 1,
+      "original_sha256": "84728033df1d32cfe084bd19c3056f2e7e62701e7b684142bfae14b43b010904",
+      "public_member_sha256": "40288489a216e03638659c2e83408f6e6cd56ee2234bfe2c3bc4df939e6cb671"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C03-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C03-packet.json",
+      "records": 1,
+      "original_sha256": "28286b6678c425f6e92c120c40cbe3a308b142ba1ebeb4a5cb7d23ad9215d6b3",
+      "public_member_sha256": "408fd7374fff3d5b3a6ae80261dd727bb3907b3c6b9434b2f09e67fb46466db2"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-audit-check.json",
+      "records": 1,
+      "original_sha256": "c6f5111e326b3c8b3a459665c6d242ecefcaf5be9d27d9737669994351a7ca9b",
+      "public_member_sha256": "93f8123ad7325b5e7b0fd9ac5d85f6c6fb64969d198cce7611abf0e8f099cc57"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-audit-read.json",
+      "records": 1,
+      "original_sha256": "0e4e9b0066c0c2f37980ff94dc7afb7a6ac6111f14a776e0d66324e3185c0962",
+      "public_member_sha256": "1f134c6674135ab5e06e795994badef1cd450542ba68c00858f1d5f4caa9f42e"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-audit-search.json",
+      "records": 1,
+      "original_sha256": "a69229c9c476ffeb3080a041a7a2d2b33e2d98cc85f0887c78508f48b61ba348",
+      "public_member_sha256": "25b2c4b7458886994f31c917a3c1d70f24ab30c5436716e646dbafb90a866f21"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-audit-sources.json",
+      "records": 1,
+      "original_sha256": "dc807e28344d960209c9d69efba3b96936b2d13fcf6ed3e3e98de163f25a0df7",
+      "public_member_sha256": "b1beba7839549ab7f982da636c8cd39e1eb7d7f1faedcce5ccaf27866333c8cc"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "a387920f6e7e29c22ebaa7cf3bddbfe5ada653da2e5ad32f98c063fb274a3409",
+      "public_member_sha256": "83eae9569599441f64a0cfd50cd18955f78509cf1b028db0eb69863ff5f2a4a0"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-final-check.json",
+      "records": 1,
+      "original_sha256": "eecf1afdb4319ff8905bd72a0ed521f777303d8d7d41937f8c084412011a32f7",
+      "public_member_sha256": "3396cd857c1e8e3ae00d0e1761f8a9cddb9a5b5c6f2f93dcaaf4d8b7ecee7fed"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-final-read.json",
+      "records": 1,
+      "original_sha256": "1e547abb5d949ce2b97e46cc7d437abf5ad4278f1b009403a87884552f68d0c8",
+      "public_member_sha256": "bce7525cd9ee12fbc234f4a464b20187e5d7df7aa28a3cfc20d421b3642a2957"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-final-search.json",
+      "records": 1,
+      "original_sha256": "f55be0af1d1f8035989e723d374c964033c800d92acc61944bb383a9c84f10e7",
+      "public_member_sha256": "24b0828488940e91250b2957e8cae8fd3eb503624e192908a3c71d8fcdfc6b21"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-final-sources.json",
+      "records": 1,
+      "original_sha256": "0f40b72cee36f6713da541e9bc14f9d86675c0a2895bb0689b0d1f577044520b",
+      "public_member_sha256": "6b2307c54ac61206b119fe276b50bec9bd3a53e6f3580ca366937e0c0d5455b9"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-initial-check.json",
+      "records": 1,
+      "original_sha256": "08e9b48678c7cbf24effff7715cfc5edb955aa75eeac975e9d50ddb9f766d722",
+      "public_member_sha256": "542e3b1641d94d4cc843f5b0c5ba2c9596aeaba636dc666b2a181054234bc238"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-initial-read.json",
+      "records": 1,
+      "original_sha256": "794e02ad72a9f6b5f880fb64a083ba4bbbba27535228522e5d9b48ae8dcf1151",
+      "public_member_sha256": "37e445936e297cd842b15f0a975594bf56a26bf78c7d93c909664efe6cc6dba6"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-initial-search.json",
+      "records": 1,
+      "original_sha256": "dab606523acbf54b0c4de526d90615b2ab2399b9fd0df162121b18bec1b87720",
+      "public_member_sha256": "8ca78eee2ff1ab403baaf9eaf242809a3377f325d26dcf81498bb27a490d1b00"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-initial-sources.json",
+      "records": 1,
+      "original_sha256": "4494a8fffd8d30650d14cf49a24258cebac6ffe8ef915280f7e59cfa40364bff",
+      "public_member_sha256": "826895fdd758a116b6e8e334aae2a3b81ee065f4e2cc61437aeae603ab4f3de3"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C04-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C04-packet.json",
+      "records": 1,
+      "original_sha256": "3a44e7cb66b0d2e6f1d7f37e641d935d5c6ec8557a3810b1da0220485ae3d64d",
+      "public_member_sha256": "5e595c3a0eb3182799f41bd90535b43343664009992f6c2b3ec65632b22c5267"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-audit-check.json",
+      "records": 1,
+      "original_sha256": "ca3e76efa6ee23a0d64b9e924f6cbea4991cd94e8891502ee7e6c91e9f429cbb",
+      "public_member_sha256": "299273743d1a973c33b997870e2fe1d8abfb1e785cc5a9fad3d6f562b6cd1a29"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-audit-read.json",
+      "records": 1,
+      "original_sha256": "7937b1124f33fe84642d7e0f7e8dad35b08285e44254b69783d75e37f8af74ef",
+      "public_member_sha256": "8e66547f1b12e45f68ff845e667744c6891a46e98e297d72ddaf7e1472776ea4"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-audit-search.json",
+      "records": 1,
+      "original_sha256": "5e96f778459e56ff30224335e419a84887045197c0aa8ce852b7998f42597d3b",
+      "public_member_sha256": "db751ab228133a2550bdc62409ef8367401d66f7115445c825638f656843d87f"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-audit-sources.json",
+      "records": 1,
+      "original_sha256": "d8e1e5ca2d31cc4336e4398438058eefa5ce6a60da38f946efae2583d5a1b6de",
+      "public_member_sha256": "c325c8481f35c4a21aba015b95ba926aa8d66198246ea47471deecfa9392ffc0"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "46ecf22791586e7a38d58dda5275402037aca60a1e5c21eb1fe6a5b89f430cd2",
+      "public_member_sha256": "e1153525668dd21ea545af86c961ad01d3dafeb9a4343b78daa182d218d07407"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-final-check.json",
+      "records": 1,
+      "original_sha256": "2ecc2677ef50fe83c530c6d38c1e609170f9a12f580569b9edfae82be44d0ee3",
+      "public_member_sha256": "0ac445b715b055de54a10949d98ce6f96137f583fa3a9d5ec4e447f04fd6feaf"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-final-read.json",
+      "records": 1,
+      "original_sha256": "f787fe7d52d7e25c08611dffcd006ca318d795b127d6c39d0b01b56972ffe57b",
+      "public_member_sha256": "99055b0bc683719667418d23a3508b1bac0045d35daaea0c55aeb83316f72ddd"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-final-search.json",
+      "records": 1,
+      "original_sha256": "35b5c0920ffdb3e522a5a3aaac6415bb07eb06b74a10488b1898553c2ce07f63",
+      "public_member_sha256": "3ca3871fd8b869514efd1a9414fd285153d76c180b063179c08ff7a2ceee2537"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-final-sources.json",
+      "records": 1,
+      "original_sha256": "b1e5ed43c68c9f723ed5ae150765090eb6083e5aa09fcbc52013470f8dc03954",
+      "public_member_sha256": "5778dacf67209d2c68b7572eee39fe6fa8730d77c6da1562781ea528dc1af607"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-initial-check.json",
+      "records": 1,
+      "original_sha256": "8f4f44da0f3b11647ef2f5f51ce95c942d3681688dfde43b7a053f8ff80255a9",
+      "public_member_sha256": "b000c891c7c6472bea9e82dfe757737a973ea404fe0f48e89ea086d055ed030c"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-initial-read.json",
+      "records": 1,
+      "original_sha256": "045bfe0339ca5dc9b2a383836336be5bbb06cfc5ec5166c526f9263fec33c7c5",
+      "public_member_sha256": "c0f33e10d7bf4f4db86e36282f9d6623c0d397347c142a55fad14c4a43ecb3df"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-initial-search.json",
+      "records": 1,
+      "original_sha256": "e84acfffcd7157f8458688817d767e22a17b99f9ea48ebaa51fc232aeec96c5e",
+      "public_member_sha256": "d62fa3e62caee831bb4c6bc39eab84d116296bbe9c68b3937faf41dba08058c5"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-initial-sources.json",
+      "records": 1,
+      "original_sha256": "292fa6bdb13fcbe6f3e1b22a10b91ff0f2686840a0e83dd84662904b4f7f0a32",
+      "public_member_sha256": "8a268e6de9904b85ba26ab5ad5895143f3e40c92013aaa3467b6b8781a08eb92"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C05-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C05-packet.json",
+      "records": 1,
+      "original_sha256": "e9c5247dcb992785544fe49d2eab784844f0b848404d7a882fee6f8a4124c686",
+      "public_member_sha256": "089df06427939fb2cebba4755b1897e8fed75bc1ced48f4c162b7f81fde37d31"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-audit-check.json",
+      "records": 1,
+      "original_sha256": "0dce3b2440f681091f265beef884fa105bb4806a0e77ac2351be76be42cedf41",
+      "public_member_sha256": "9e7fa94aaab376f1925ba4fac74ee2f991d0c066bfff521903509d5bc71085d4"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-audit-read.json",
+      "records": 1,
+      "original_sha256": "28e31cb25994de76b9fe4862afe48411af7b9c733bcf9950cca56f2121ea8ec8",
+      "public_member_sha256": "d171f12c5605c7b8a7fb511cb3c3c1607fe2424a05e702fe2d084f32acde51a2"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-audit-search.json",
+      "records": 1,
+      "original_sha256": "266f473993e95bd45ae8d7c724ff189e43b0f64e001d475b9ea0daeb3419c652",
+      "public_member_sha256": "8956fb53498a33ad7556d595707b9fc802004a5808e96181c078ebac446d98b6"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-audit-sources.json",
+      "records": 1,
+      "original_sha256": "3c98079d9b55d474e02292e618cd4713e7c0f7c39779170af1bbeb3f527817f4",
+      "public_member_sha256": "093fbf7d5069df2690c53c89ec3d537be6bac046df00af71b21c2ab7f0b18579"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "167c3a95fe71522f08f1d5f984c774f7027956596d586f232e3b719cb26b6901",
+      "public_member_sha256": "97dd13d660a7c1f579c3b74d998d8da661ac4db49bd9228f00c6a87273913e4b"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-final-check.json",
+      "records": 1,
+      "original_sha256": "db4f501f980f5a1bba1a36b544a6e6a5208754238cbc2e670a9a3305a09ffe18",
+      "public_member_sha256": "8951b4ee5a786885409ff27a988a9a0ff103094fd74af7a3b78530d007b3c83d"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-final-read.json",
+      "records": 1,
+      "original_sha256": "37531324ceeba8be1fb80d527f57bb9a4eca7e5c1833bc2376e9b17237a1ca77",
+      "public_member_sha256": "d78f6fe4f6f69c04d0f04fcc33528a50a1a27d97a6b8a57fc16b5ecf53317cce"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-final-search.json",
+      "records": 1,
+      "original_sha256": "ca310cdd56f7ba1c0f5af9cb078193074039c89e43a6f2a0fd510294e67127af",
+      "public_member_sha256": "ce86abac88efa9c2becd5f9f90e692605cee78c0812a5ff77560f430be2e6612"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-final-sources.json",
+      "records": 1,
+      "original_sha256": "2ac1591acd5fd33df20b9b80b37f98882a09942ec10ddcfd34f29ceca4209026",
+      "public_member_sha256": "f0bfabc825eaa6ff383bdf4c7a14f3a56c03d92d226d65752f0b36f874342014"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-initial-check.json",
+      "records": 1,
+      "original_sha256": "252e68ccf9407714dfab99440b3de30b22e0d84af66505ea4398f87807e57934",
+      "public_member_sha256": "f87728e01a9445b381c8d8c304f60503283ad4eedac01ec8af9e85f29217e632"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-initial-read.json",
+      "records": 1,
+      "original_sha256": "99914f77770044bbca01ca9c811c9e84a65e5b59be4565edfd3e6bff3d267212",
+      "public_member_sha256": "590d5296f27bba1176c4f0d460737e5bcaa32d621d861106bfccffb12e7fbad6"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-initial-search.json",
+      "records": 1,
+      "original_sha256": "196c29205bf7c88215c5791a96bc9635946cddf8b88420982e7ef26058308215",
+      "public_member_sha256": "4f7187c8e5b3432a329195cb5f62f03d10d0254d8170d65d98708b6d82f28852"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-initial-sources.json",
+      "records": 1,
+      "original_sha256": "546ef15f56e6fdb1710a956d4030f3a4f585cd5a7dd00718935966a9c69ac87d",
+      "public_member_sha256": "d647f8658754d150b5c476f57dce42b183e1267672924e408b3cc6777e60db23"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C06-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C06-packet.json",
+      "records": 1,
+      "original_sha256": "34246707c9bb13bf680a502104f8ae0384ec48bfcf110d4e843395d1ced8b8d1",
+      "public_member_sha256": "d515713d965ca5a436762ee85f6e53aea67d1bb67f73d9a17a5bc5386bb2c17f"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-audit-check.json",
+      "records": 1,
+      "original_sha256": "63bd09717d603117713a6cc10fabc117796cb097e2f89a0133027832db4f5d96",
+      "public_member_sha256": "f19fb9984379cc888236e38ee448b27cf15cbed86605b9eb63d31dc8352e4634"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-audit-read.json",
+      "records": 1,
+      "original_sha256": "9964dd1475c9fdc59c8f4440d29993be7ed0a527d17ed51dbb4cd3c2ade42882",
+      "public_member_sha256": "a98bdb3f48acea778ae35906bb8a6c7207d4091af9efe63bd28eb9a0826a0d07"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-audit-search.json",
+      "records": 1,
+      "original_sha256": "a47b2007e0b8b9ea114979c8400482cbc58e4b88d13ee5a56cf770820f3376a5",
+      "public_member_sha256": "928ad2c7183acf3c1f8df1abd7f2b04435d51b4697c4a67708dc5c4d92f714db"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-audit-sources.json",
+      "records": 1,
+      "original_sha256": "766a33bcf8362a9f10ae27c01fab28778850f5385593098b7c23d0430d35535a",
+      "public_member_sha256": "69236b080ba11940eec77d85fe373b323f3950a13b10ac2544c710f793c36e3c"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "b42552a85a786732fc65629210160cec123e26da9838ab7a47c535984d0e01a9",
+      "public_member_sha256": "4ecfb8fd0e657d98eb1e1f0a456a822b3eb05140c66dfc97e96b08f69ed67a07"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-final-check.json",
+      "records": 1,
+      "original_sha256": "557743e0189dfb1388ba7fb07d670b4518735cb38d53300a6a641e18a8ca42b5",
+      "public_member_sha256": "b98b1b7d33a551ffb48baa3c27a0f5b30919bc7537737961384db5e5a10eda30"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-final-read.json",
+      "records": 1,
+      "original_sha256": "08df39125bdc1d5a7146d8b843dc1cd8da94ee3eb4b0c6a96e46bf48b58aadfc",
+      "public_member_sha256": "dfcd6820def3d5056953c801c71e3bfe282a136ec7ca43bb3b1ff1c96f950222"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-final-search.json",
+      "records": 1,
+      "original_sha256": "1af8eb2d9e68720323f23a77098389db062e9295db390ff2b19b98220fc6d21a",
+      "public_member_sha256": "810b2db10674bac9c135c63f8bb7d9fbb3abffa538aa6eaee8c889e6cd61dc86"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-final-sources.json",
+      "records": 1,
+      "original_sha256": "cd3dfc5555033ed2c9712f54d5777342c46cbd4cc4973c4f1fceea455fb93d39",
+      "public_member_sha256": "e57e02c65f8e7f110cd2cbc68a9e81fde745e4dbee7ca94bb0469bf6da601fc7"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-initial-check.json",
+      "records": 1,
+      "original_sha256": "23361661926d60b2cf8ea7be3927a37d0800ada2b77d2e3416edbf75de25b895",
+      "public_member_sha256": "9b52421ad6bde78c57ecb42560b7ab802580f4e7a3b9bae23f3c4e3e3f96f17f"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-initial-read.json",
+      "records": 1,
+      "original_sha256": "67e0f86056494be41346160a3ba7fa07ee55cc41dcfca93328fe14065dcefd0a",
+      "public_member_sha256": "2be0790ea01fa1e3e514087348fad215da2018774e4f9df62d1dc5b3dcafc0e6"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-initial-row-identity-mapping.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-initial-row-identity-mapping.json",
+      "records": 1,
+      "original_sha256": "99906404744edb86406366026c3caa4daf3f40966b398fb2aaeece7f61b9eaf4",
+      "public_member_sha256": "4a3ade8418831161940235fbab6138a5616ea3f1f4632d86805cf24443a478b7"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-initial-search.json",
+      "records": 1,
+      "original_sha256": "9151ef300d52bded6b2d90c4fc8fff1b18e421cc0f163349de27d5cd6e050446",
+      "public_member_sha256": "9dbed25ff73a29e476d89271c119edf32766a77b18761bec28f68d37d28082f0"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-initial-sources.json",
+      "records": 1,
+      "original_sha256": "082d7c2846a8678b853919d2f2c5a2af1484e1efecc3326b3c2d0feae031395c",
+      "public_member_sha256": "a94c3099c11ae54e27acd91c68389e6eadd67c0fa92fe5ba746c394e427c8764"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C07-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C07-packet.json",
+      "records": 1,
+      "original_sha256": "d9eda0515c081c2821351dbcfebb337c8445273e0bb539f914b5f7d206cce527",
+      "public_member_sha256": "1c33163b6efe1082e489e3136525c917f30f22dbf66f67aefef5aa4a1cba7957"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-audit-check.json",
+      "records": 1,
+      "original_sha256": "ac6c438eb8f3d4f79d930d3ab5dcdfe54d8b9c534a148e04bcbc395cec8fd627",
+      "public_member_sha256": "18d4841d9efb0463e9d1604edc2db08c1e97fe31cc7d22cbeb54bf3e63b4e7dc"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-audit-read.json",
+      "records": 1,
+      "original_sha256": "027ca4c9d0513f21adb70bb62aa9e57c3615107a19f7d0947d8bea052cdf1847",
+      "public_member_sha256": "60ffac013a1103ba1185a4348ec52d23a266fc49577239ab8afbfbe0a6fd8d11"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-audit-search.json",
+      "records": 1,
+      "original_sha256": "da87d231e46d375144f2044a74b7478e38d578773c58e6b44cae69f956d3b924",
+      "public_member_sha256": "a09cf2eb7142c3bd011121f054362058cae06e402426863ac9723adc0f790e2d"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-audit-sources.json",
+      "records": 1,
+      "original_sha256": "c2e4b9612e2dfa89b04438b2878efb2203c4a891519225ffad3ddb39c063844b",
+      "public_member_sha256": "bbbacdcb1b24051d569a7d33d49d2f128fbb507bd055c1c2a21831879eb3c8ff"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "2842670a9b5be6288fb1a92df213b68c9cffb00136a8d23c47e09ba3fc92b27d",
+      "public_member_sha256": "620ae36426cb76097b333e841baacea7fe18543c67d7e92958f967d301e07b0e"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-final-check.json",
+      "records": 1,
+      "original_sha256": "302a7028e9a0bbfc817604bd909f5d7082b1c1e5538cb9dd003ed62b62894a06",
+      "public_member_sha256": "d00f4ff12e50447737f6fb8d951ebdbf60b48d592a31f72dc2fcf3046a377b24"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-final-read.json",
+      "records": 1,
+      "original_sha256": "0a57857f2fbe13f6a4f40b21349cb5f72469194ce3978670c6e62b93f2e4776b",
+      "public_member_sha256": "ab4466901973dcdfdd12356614bf9bfeaedac63d232956e49309616fc4a763d6"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-final-search.json",
+      "records": 1,
+      "original_sha256": "1f683ead5d54b2688e44459a2f72690ae049168e707d1838331c73f3a25d3762",
+      "public_member_sha256": "7f92c7033081c4d75cfe52b9fd81f3acaf93c53f58073bf70e5cd147f73782c6"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-final-sources.json",
+      "records": 1,
+      "original_sha256": "c0fd8f452f7c02d9004e0eaf2d1c97bc0c96b14729d21b2313b841d2399048e1",
+      "public_member_sha256": "db45ced8377d414260a90ff91bc03d007be04ccd663c892d3dc7158f0260ebf2"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-initial-check.json",
+      "records": 1,
+      "original_sha256": "6025d48660c42f1c6c51159a985da2bc854a83bd7a1ad8b8dd9f531dd4475400",
+      "public_member_sha256": "ca39e375400e100151657e2d16346563d6887266df35207a290e5998c3f137c6"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-initial-read.json",
+      "records": 1,
+      "original_sha256": "a5007d3b42837c2a1153ef8f5c823cca35e43a999336d91861976cf47d166859",
+      "public_member_sha256": "c723aef13d6283a77aa115a0614b4a1dedeb06f227c107f333511db8cd7628c7"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-initial-search.json",
+      "records": 1,
+      "original_sha256": "15d7368f1af86f549b7bac2b8ca02ead809039e951d108f6e31d572ccd53c048",
+      "public_member_sha256": "879e26a89f5333fd140746f6d884d5bc1d0bde583822aacafd8dfacdbdd9d967"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-initial-sources.json",
+      "records": 1,
+      "original_sha256": "8a0fce38ff56ddc9e8d3c731c83c0b4cff4fd16547485f54944cefbdb1171498",
+      "public_member_sha256": "50b29ce16f3815f63cccde8d15e74d3a111ce89df076f41268c116f1153f3a59"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C08-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C08-packet.json",
+      "records": 1,
+      "original_sha256": "ef6eedd00f892a82e299e0fe2bcc271f1e8c25dc1ade4652517d50d24890fddc",
+      "public_member_sha256": "3c6698b0ce0f6295f5ea1bbad63c15b5a5cffbfb22e52c9e6f655b0044fc48eb"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-audit-check.json",
+      "records": 1,
+      "original_sha256": "fd613e509ee38f8fdb06081e7db20a9018a5d12906a9e3b0b4e619e6978c7cbc",
+      "public_member_sha256": "232ee73459f104a60d9709e4d5ab33f7703ebc00bf696f51c6b0dae4756e0029"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-audit-read.json",
+      "records": 1,
+      "original_sha256": "27bd81f951a8588b2940ef1d0bd97f5ae03ff481f4fa902881ed339446e69701",
+      "public_member_sha256": "54a3b2634648f7127970c70b549a6991515c05f4d119912bd0cad4677daa2c1f"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-audit-search.json",
+      "records": 1,
+      "original_sha256": "47e63ca743639de9f52938eb46158527740e975f99cdc81e81e8306b8ce28980",
+      "public_member_sha256": "8e294718222d5010c878ac8d83df7d48ce84e58950e94c4d6a7b8663c609ab65"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-audit-sources.json",
+      "records": 1,
+      "original_sha256": "8b01b90348f2426d527b6f1b20ffbea3165f4ff3a5d08224d00355254baf691e",
+      "public_member_sha256": "d225e72b0534ab4897a9b3f6e9a79d6599515a87c919cefa00438054142e4440"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "ce70ae51a4554bf59606d8ab82509a6d3f5d02661167bc489231b1d3364f453f",
+      "public_member_sha256": "decf83545efdfaf19644dee04a7b486ca431ccede1197827742c6a800d013fa1"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-final-check.json",
+      "records": 1,
+      "original_sha256": "bf5337144465b4bcf4f830796c51c3a0b3b68e185c0472a20e92ebe261b8c20c",
+      "public_member_sha256": "886fa696e81c95e36cfb0a4a74183855cf516aa863dac22b72112663d582e761"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-final-read.json",
+      "records": 1,
+      "original_sha256": "11d7db89102d8056a34f1e6ee1915f770cec13f21c98f1f5800990bd1a62c543",
+      "public_member_sha256": "41be5898f24b1f400e41a82069850bb1170c54d334164dc8520837bfdb3ed08a"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-final-search.json",
+      "records": 1,
+      "original_sha256": "56a7248ce8518f48ce7ce7d0ff34957ece22af321678862a178f0bbee460ad0e",
+      "public_member_sha256": "c265c55e0c6c5e197361c0d95c3a0624d4cdbcce8584bea7cd9dbfd5777659ec"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-final-sources.json",
+      "records": 1,
+      "original_sha256": "5ce8cfae314922f761a380a098b22d8fca4920e92fea9a2268f5ec489d4a40d1",
+      "public_member_sha256": "0f8750f22dc4bfd0a0dd4637b5c718a71b107fe04f875f5b234071b9e1eb4133"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-initial-check.json",
+      "records": 1,
+      "original_sha256": "d6c25056d756ee0c0fa57e5c1eed38a02207b294b719d4d668c03299695e8906",
+      "public_member_sha256": "afd735db4de691c47ab0ed206a8ac126cf77fb2732660ba490fc748d9f58b57a"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-initial-read.json",
+      "records": 1,
+      "original_sha256": "879a0f89a81b18b0c6e0b8d032fd0af454b514a978878fc69775a26e9b32ffdb",
+      "public_member_sha256": "9b3503421f8d8f945d9d4e522e075c65834d700c7d1cddd761c6d3a372d3ea52"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-initial-search.json",
+      "records": 1,
+      "original_sha256": "6f1ac4aa580f84eb37bc42d25d74c9c4a5ed99316d4d226cf924e7856e52cca6",
+      "public_member_sha256": "56111e089642ecb382f4ead5b21b308c5202f9e8138ddc712a49afe1c20cd6ec"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-initial-sources.json",
+      "records": 1,
+      "original_sha256": "0b4883e73e81fe0161ad84734831782c8f29113c677b8c619593d2369e410386",
+      "public_member_sha256": "fc480214a80cadf0fdae499654ecbe04a88ee4544dc9499a1184e60512ca0dd8"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C09-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C09-packet.json",
+      "records": 1,
+      "original_sha256": "00ea0a763c5200cfd3a9991a52b31e851aec4dc403ceeadb8ea5c56d8b169a2a",
+      "public_member_sha256": "c1a8745088fb5c588f68fe10785fa174996299d0adf4f3d7e0afe7448f31a844"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-audit-check.json",
+      "records": 1,
+      "original_sha256": "094735b92a3e863f86e23871d57d35891ba5c352fb041465e88a630e25a191bc",
+      "public_member_sha256": "7eadaa637d5043777ece19d6f2ea91b3de6d6cf878689194d650380b712d0bcc"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-audit-read.json",
+      "records": 1,
+      "original_sha256": "e39bb879e460e861897c62c850379dd7244823ddf7bb81faf1efc86ac6b3ca8d",
+      "public_member_sha256": "8d363c80af71ed0e7cee77a418b8141dd908acac5aa481f3227a81bd31d88bb5"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-audit-search.json",
+      "records": 1,
+      "original_sha256": "c5892b56e9c4732116f7cd4142f850257d46eb7fffbc0cbdc9f00e9c1f5a3871",
+      "public_member_sha256": "d2acddf9d1456caf324b9c77d7e30724ce46b142f9be8c2ba3c9c277a9e2c2a9"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-audit-sources.json",
+      "records": 1,
+      "original_sha256": "048bdbdce4016345b8af11b4b254b8eca8a4bac0ee40d77e925e11d740d80d07",
+      "public_member_sha256": "4a30497f1544b274d44090b2eee0fc232f21f42b07c130d55acce08dff2e271a"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "cbd83598799305cbb0c34d916e9423f013d2fb4afbbac053b4155af1e1cf06c0",
+      "public_member_sha256": "4709a8b040b9f72ddae2b48a9bfe73f04e9828ad611ddbfc6163cee0e6fa12d2"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-final-check.json",
+      "records": 1,
+      "original_sha256": "3921960297327626be86c48b7d9a5baadbb7bba35a3370f312684835937d1dde",
+      "public_member_sha256": "18227483f19fd7fe087774b69671e9f421ef0896e08fc8522c90509936271b9b"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-final-read.json",
+      "records": 1,
+      "original_sha256": "3cb76ca28679224a545d8feeedef61e6ec738c5c87f62999b7464a26ad35d9df",
+      "public_member_sha256": "c79742bde500c818d5713115be30ad6736ce4bcd793c5419d13f8f10ad3583b3"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-final-search.json",
+      "records": 1,
+      "original_sha256": "dac4b77ddb79c14084c7765fac7ab8cfd97ea4534c7682e52b7632a8d359ce9f",
+      "public_member_sha256": "bb665894c89ab24e894c00c7dba629e66c5095939022780e03ce8ae0c36074b9"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-final-sources.json",
+      "records": 1,
+      "original_sha256": "ec377ae9f579bda9d9b90f58f8129bf6c2bbe0a3714aca455de21d552fb4cd80",
+      "public_member_sha256": "fb87d1c3443695dc26149b29ecced597040bc837d3f90464135d0808ad6190ed"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-initial-check.json",
+      "records": 1,
+      "original_sha256": "5599016782a576bb1cf65bea257dc3294f2bf0988d21e12f890254a55d8e7c1d",
+      "public_member_sha256": "adefc51267f2d6708d1597325e17358ea5150a7c813d58f53b1e789b31fdf21e"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-initial-read.json",
+      "records": 1,
+      "original_sha256": "33efbb03aa7b8eabe1b585f70a85b0214d95789a8a4429da13af53762a7847ca",
+      "public_member_sha256": "5aab2cb8dc533fc90d4a12d5565e8851b52796d7f944d74f25df62095dfcad4f"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-initial-search.json",
+      "records": 1,
+      "original_sha256": "a070c898dc785877b804972fc1a5337aa8598dce8179159e5345759b6ca767b9",
+      "public_member_sha256": "71c6f4a7fbdfc998aaa676bc1dbd978409be3a1054a0f145a2df43bbe8ab5fba"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-initial-sources.json",
+      "records": 1,
+      "original_sha256": "c24f597d0a6126f619d7fa8e36bf697b9f1e6fd1c387de442ca659e5847eadce",
+      "public_member_sha256": "c8378e8f540eaab29c289458e7a1dbf3a6c30be847f3e063987a495dbae80bae"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C10-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C10-packet.json",
+      "records": 1,
+      "original_sha256": "5ead0713ccfafe07e4fd954ab147c558c043f4acb7ebec38a8907dbe31f8f764",
+      "public_member_sha256": "090f70a2414d02c453185206640a1532123fc53a1caf1fecd94270f6f33615dd"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-audit-check.json",
+      "records": 1,
+      "original_sha256": "cff3a0532d237df968ced063857899d9af4551a59778370646ae6e1dc55ed833",
+      "public_member_sha256": "a5bcd4747ff387e205ce7b969a8c589a13a5796723e42811f0313e9283a7182f"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-audit-read.json",
+      "records": 1,
+      "original_sha256": "b03ed9b1576483c29742904ef2f80c171f5fa32cf44907b375feb17bdc5bf67e",
+      "public_member_sha256": "43779095fdb2be693e8083d9d05b74cb5341c930e976c70b5f0f866736526ccd"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-audit-search.json",
+      "records": 1,
+      "original_sha256": "4d5a4f133ed4b64da62ec2c27750ef7712d9788f987c95b09f29ee85e8c58604",
+      "public_member_sha256": "64fc8782de4591068ac3d8345e2bbe1d6d2ebacd92376105292d8d53983077ac"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-audit-sources.json",
+      "records": 1,
+      "original_sha256": "795ad515f5c9c72211105d2ccc315d90c0b18db0698fb988a795696d90599fdd",
+      "public_member_sha256": "00aa418baca7d083a2893ed581c40f3555e312cfb9a2b9e38b4973fcb5b408bd"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "7388dce396baaeccc106bbdab64f7ce00b4fb8b40dfe2d7be30560c3ad116842",
+      "public_member_sha256": "1ee40a5505e32831266d213b37d6b281edf8afeb417f1a798be096ac395eb179"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-final-check.json",
+      "records": 1,
+      "original_sha256": "5aeecadbe7830a665c743ad97dcf54bfe2a87f0d0927c455a2546e557242ccad",
+      "public_member_sha256": "0dde9b7554a7724a93d873f9250e293d4d88befeec6fc00cda2457dec24e3a46"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-final-read.json",
+      "records": 1,
+      "original_sha256": "c4bc07d0e38c0c233735a965512201f38be24595d76d98cdb707c7e55f4eeab3",
+      "public_member_sha256": "fd4dab2fc6011e7dd156978137e1133589e0b3f6839ce9d072ec1649c32610bc"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-final-search.json",
+      "records": 1,
+      "original_sha256": "9dffd81b93a284e65c9c34e39044685d1135ba82e83f09aabdb6ff0e2fc1c5bf",
+      "public_member_sha256": "171dea1aad32d25cd19b72c3369d4237bd9dd4fa7204a29e17ab9fca5cc957c4"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-final-sources.json",
+      "records": 1,
+      "original_sha256": "227bdb036142e7e1afea7dc3448367911d01a68aeb2e71342e0bdde2fa2bf831",
+      "public_member_sha256": "2016f4ee8d1f3542a4ad66a42f15501729b1c3e0cd366511a1dd2499f5bcdede"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-initial-check.json",
+      "records": 1,
+      "original_sha256": "29d882511da7ab6434932c5e1ffacde00e9b37ceb0366f9999cc71991506baf6",
+      "public_member_sha256": "889f1251dfb84d13aa02abc34a994d17bef5b1947f63973b1a68e7942f2c8f1a"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-initial-read.json",
+      "records": 1,
+      "original_sha256": "c7dbd4f4c691749d1395be663f8152d3a07f7c9fa04fab7b2570f739b7d19428",
+      "public_member_sha256": "f51d7de6bd4134feed3d69fc5ab52e12c614a463cd500587b55efcfdcf82fccf"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-initial-row-identity-mapping.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-initial-row-identity-mapping.json",
+      "records": 1,
+      "original_sha256": "8071bba229da820fad001f7e5adbac3278990aa7b0fa3600ad0165c09facff0d",
+      "public_member_sha256": "7e9a6f8526f22c4f92c608fb29530e7a66c018d86cd0783875fe40edd89edc6b"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-initial-search.json",
+      "records": 1,
+      "original_sha256": "02c275320aff45a485f72aa30f386600ffe27346a7e9118840b9ab7f1d6a64b6",
+      "public_member_sha256": "3020ea47d43138c23a2aa6563dfd15d6d1200229be0aba2e5039ec20fc633861"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-initial-sources.json",
+      "records": 1,
+      "original_sha256": "04ed8230c5deb04092159c86a6a758c4fac621fbc00466f60e32323181eb7012",
+      "public_member_sha256": "5ef033684c54ecdaeddfe510e4e860835eb64c2389ff006a8de44613f4957694"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C11-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C11-packet.json",
+      "records": 1,
+      "original_sha256": "62ee77c04181d8e44adb2314fdfb630bff1ac8c558f9436cce56f728f00a22a8",
+      "public_member_sha256": "18e8bd6ff0082486433dcbddd540ca6516283019aa7b6d535fe49f770f33e163"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-audit-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-audit-check.json",
+      "records": 1,
+      "original_sha256": "488b85e0549ab744300e7df87c0636a1694fdb63ac327e8d343ead636d36eef5",
+      "public_member_sha256": "77299f142b2fef9e0c50a6d0203ae6ae067738bf10dbd545a1bdcb248b4362a4"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-audit-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-audit-read.json",
+      "records": 1,
+      "original_sha256": "bce61d3d08dc47612ea2df5cf22491eb54900b715ff20f1366cf751269670450",
+      "public_member_sha256": "99f83ae0698adb030f52c6141d7a1413e64b704dc3b0dc65c1fad7f231b511de"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-audit-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-audit-search.json",
+      "records": 1,
+      "original_sha256": "0d7c3d3a82c00c2cecd41c88116781a2257c2a8dd896201de679603a6a4ae57f",
+      "public_member_sha256": "59484263324a5ec1471e9584acedb7c98245155960c6a25627e617b55fd2be71"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-audit-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-audit-sources.json",
+      "records": 1,
+      "original_sha256": "0ff4d40a8546909ad23fc249fb2e1fd1b9adf6b64598dfe40c411ecbb5bced18",
+      "public_member_sha256": "84e7f7fa1a5bdbf3a889394d8c64700d3eb78848ccb561cdff6b8f6b054ae02c"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-cleanup-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-cleanup-search.json",
+      "records": 1,
+      "original_sha256": "60b668fc6114d147d35b9d1d6bf4cdd33ffa923d590ac8f4cc042e726e6b0223",
+      "public_member_sha256": "933b5df36be90c3070d26a4a7b4edc377649f1934cf70e2579d367c2e00fc18d"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-final-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-final-check.json",
+      "records": 1,
+      "original_sha256": "86f8633d91a58a64ff1486f1fe49b7e57dd10aff7e20c14db99eb93d9fec5c26",
+      "public_member_sha256": "a7ec010e853cc880badcbddc05bf5ca1838cae6f7607f29151a1a14a0bcba5e4"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-final-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-final-read.json",
+      "records": 1,
+      "original_sha256": "5c8176751b05ca7a88071633d11e468c31845df2597eb1e9ea9cb8990f607970",
+      "public_member_sha256": "eb88ca2649a55b423698f0713741990a7e293b4a3d1ae85b69f1cfc09fa9ff93"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-final-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-final-search.json",
+      "records": 1,
+      "original_sha256": "91049098a4108c8d8cbfbe3b752a4910baf861f897dc4db396479ee66c07d935",
+      "public_member_sha256": "50384d8e41f65f98191858a148707aff9a3610833cb96565a208e7c6be6b10c7"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-final-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-final-sources.json",
+      "records": 1,
+      "original_sha256": "3e1de2707db117d1010117775d56ba66eee4deb7919c8241c76b81bc028bf69a",
+      "public_member_sha256": "4ae8bd0e48cea856d217120d5755b7ae67a9e35c41f0e27ac3a23f7caa515a52"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-initial-check.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-initial-check.json",
+      "records": 1,
+      "original_sha256": "52b8ac7ab6b77cadff8698ed38f1cf52799e56e4c39e9b4004dd1bbf54db3788",
+      "public_member_sha256": "a8d304551593cfc8717249730ae3b420eb02769f6533d54ad97ac26e167db63e"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-initial-read.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-initial-read.json",
+      "records": 1,
+      "original_sha256": "7f3c0af4c3a8c44dc80480cb876fb7987408a470c794bcfb8bda8704c30c26ae",
+      "public_member_sha256": "3687a5b1c513e6466d11b95bff503067689cb0d78c8c618807d6c1962e600d59"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-initial-search.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-initial-search.json",
+      "records": 1,
+      "original_sha256": "6a1b7246381e0b1d5fd2e47c7e91826708de8f25f02ec1cdae743579d2733788",
+      "public_member_sha256": "8d41cb831c44035d3c1b462080f18a5836909da907b582391556b9e037b39bb4"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-initial-sources.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-initial-sources.json",
+      "records": 1,
+      "original_sha256": "c65ecc56e7c402593f529b7ba3d8ad703d2b12e21d657a9a150ab5492b181336",
+      "public_member_sha256": "ccf12a85b7280ddf3cfeacb516e0e6306b806cb7f8b7a2bbbb983f09607288ce"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "C12-packet.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "C12-packet.json",
+      "records": 1,
+      "original_sha256": "d6ba4bd6e3cd5a9dd5fc36bcef93922044a84b4f5374c84f6602e3ab1c0cb76b",
+      "public_member_sha256": "ee76bd80308977c049eaed36d525b452a6b425f94cbaede86b01a0eed9e386c1"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "final-prefix-cleanup.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "final-prefix-cleanup.json",
+      "records": 1,
+      "original_sha256": "973595c7fc21b77c7be2f52a93cbc1ec95f2a13bea443127c97e93e7643619e6",
+      "public_member_sha256": "5d51e113e125a03c172d1a47b5b400aa7c3f1e926e33e56cc27a39bd4e15bf9e"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "freeze_verification.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "freeze_verification.json",
+      "records": 1,
+      "original_sha256": "1cc6252a02080ba36646a74e108b96cef51e2da6e70ba690c600349fa45e5f21",
+      "public_member_sha256": "2f0da0922d7aaef7b618645c049c39043e72c16074cda76d1a926b54f1c2f616"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "manifest.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "manifest.json",
+      "records": 1,
+      "original_sha256": "c1c6f4154f347edc97cb3b422fdb01522807a61fadcf7d3c1ff7fb8c33d6cf86",
+      "public_member_sha256": "9a425540a64e4bd53c107230217dce8ad3deb1aae398d0c363f9cf61737dfa4e"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "run_summary.json",
+      "public_file": "field_calendar_runner_records.json",
+      "member": "run_summary.json",
+      "records": 1,
+      "original_sha256": "773307bbcf0c43381cd58987a99c05892b222df90c1461e6d55ebedb8d75b0c9",
+      "public_member_sha256": "9983701b158914628a2d7a982b2110f581ab2ae669a18549aeef4c0d6ecb2da6"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "error_transcripts.md",
+      "public_file": "field_calendar_runner_error_transcripts.md",
+      "records": 1,
+      "original_sha256": "ae6822bf3157665daee4977c9a407749da4a90d018a8eb83dc1e1fe20ac7da1f",
+      "public_sha256": "ae6822bf3157665daee4977c9a407749da4a90d018a8eb83dc1e1fe20ac7da1f"
+    },
+    {
+      "group": "calendar_runner",
+      "source_file": "run_summary.md",
+      "public_file": "field_calendar_runner_run_summary.md",
+      "records": 1,
+      "original_sha256": "ef98aa2c65209d3d74f49b3d4839c60f990c1e17d09825dc3a829d34027bcadc",
+      "public_sha256": "ef98aa2c65209d3d74f49b3d4839c60f990c1e17d09825dc3a829d34027bcadc"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "actions.jsonl",
+      "public_file": "field_notion_runner_actions.jsonl",
+      "records": 1161,
+      "original_sha256": "e97909549c9242dde7b160f3a104d29883e8ce0e2f4f4b663dc4f68ef11da87e",
+      "public_sha256": "459bfe1627a2a860ad6ce4fcc87082d019ecebc7c1cb3b9d44f15f830c1d5edf"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "manifest.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "manifest.json",
+      "records": 1,
+      "original_sha256": "bcbf2bb7d341b68609a9c467b1199da547d8c0b3dfc52e0ccd2683b4abf38c5f",
+      "public_member_sha256": "2c21159068f276b3a07b16ea067e4931b9de6d8aaad9203b679d61bc5be7a328"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "packets/N01.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "packets/N01.json",
+      "records": 1,
+      "original_sha256": "61d7842824356f694a652d6801215a2549ed1f860bb5b72010108ea5aa11f40d",
+      "public_member_sha256": "0dbe04c1c78fb7c59db2a26a90bc668e077f325b1bb6ad073df44bc6b85b438d"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "packets/N02.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "packets/N02.json",
+      "records": 1,
+      "original_sha256": "940f4e46249d7bcccb00a5f7d062c82bbfa30bf069476c72b44229ad4296b285",
+      "public_member_sha256": "cc0146123cc638685df459cbeefd85824dec9062071dc2d51c7a9b2cedf0a64e"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "packets/N03.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "packets/N03.json",
+      "records": 1,
+      "original_sha256": "939df159ac4428bf30a67e135300610af158f6926acb1ccedcb3aa21f10f8321",
+      "public_member_sha256": "752d6da9e71abcfaa2174cf3c1aff831cb1d841c535ac3ed990975138e4ab09e"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "packets/N04.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "packets/N04.json",
+      "records": 1,
+      "original_sha256": "f2a4734cdfd956410e56006ec9a4ca28ea02ad4ecc49834ef0acc6bde797a078",
+      "public_member_sha256": "4bc86aa71088e67a5ab1c8193e418c69ad3796a2540b016c3490fdc8ad9bb608"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "packets/N05.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "packets/N05.json",
+      "records": 1,
+      "original_sha256": "6b638f259a6c44017c7db24018407958fa5079dfe3c162ff21529044cbfbd03b",
+      "public_member_sha256": "e3e37e8ad2c34c65873ef5eb06441d079979a7d1eec9b909a827d506e01599a2"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "packets/N06.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "packets/N06.json",
+      "records": 1,
+      "original_sha256": "8be1dd2ec9a63c8ece8464d8bd3cbc1babc2e29b2c931e4be9766ed5150d42f4",
+      "public_member_sha256": "8892d77cb14703a92860552b6a9da7d99cc4088d35289f7b46d9cc63467fac73"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "packets/N07.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "packets/N07.json",
+      "records": 1,
+      "original_sha256": "b30493b40f92f0d5cf87c1812c8544e25b860f7708619a9b95f4e52f8c85efa5",
+      "public_member_sha256": "4c29b005d0b05840c71f6defb5df2b7ab5f2c87002129a6242dbaa227c542fd4"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "packets/N08.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "packets/N08.json",
+      "records": 1,
+      "original_sha256": "5054b6d32c29e36d79bde3ce97b999a97d110f9db120da0abc22220fa48b8d64",
+      "public_member_sha256": "b6665dcfeb0e60f1e3265562e052b5130de1408649412dd55675ef4e966078b7"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "parent_cleanup.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "parent_cleanup.json",
+      "records": 1,
+      "original_sha256": "f95c41ecdb9e29d783f76fa4264dcbdf8504f0384d1785efa9f2fdace8a4a398",
+      "public_member_sha256": "a26e593d6e977408c08a360229254d5641b78c73af81a4dc07a4cedf1271309e"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "run_summary.json",
+      "public_file": "field_notion_runner_records.json",
+      "member": "run_summary.json",
+      "records": 1,
+      "original_sha256": "15785ed4a4639a65b69a3b605780504119029476871d101060b316e9f5d2ed5a",
+      "public_member_sha256": "f5959576a5d2cbdbf385313aa5885e711ef033f7701282451abf53ef450cd6f9"
+    },
+    {
+      "group": "notion_runner",
+      "source_file": "run_summary.md",
+      "public_file": "field_notion_runner_run_summary.md",
+      "records": 1,
+      "original_sha256": "a52f085e34bb29ceda842e5d62bc3d8f49b7d95d01be3c60fa6e709a872c515f",
+      "public_sha256": "a52f085e34bb29ceda842e5d62bc3d8f49b7d95d01be3c60fa6e709a872c515f"
+    }
+  ],
+  "identity_aliases": 38,
+  "extraction": "Task regions only. Names, emails and local paths removed. Stable native ID aliases retain equality. Original state/file hashes retained. Outside-task loading markers retained. JSON member bundles preserve original filenames and explicit source references. Private originals remain local."
+}

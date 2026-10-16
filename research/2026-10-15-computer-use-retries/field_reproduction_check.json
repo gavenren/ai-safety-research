@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-16T01:33:05.592870+00:00",
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "scope": "Fresh directory; saved evidence only; no live website calls. All seven outputs byte-equal.",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "fieldcheck_tests",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "field_analyzer_tests.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "field_independent_tests",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "field_analyze.py",
+        "--input-dir",
+        ".",
+        "--output-dir",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "field_independent_replay.py",
+        "--input-dir",
+        ".",
+        "--output",
+        "field_independent_replay.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "files": [
+    {
+      "file": "field_trials.csv",
+      "matches": true,
+      "sha256": "4029cc78d6210f1a201bba4b1b8551396e70f270091e8e282e0b760fd4fd174d"
+    },
+    {
+      "file": "field_groups.csv",
+      "matches": true,
+      "sha256": "03cc9f7579659626d239c59e3b789c28c2bc19725f4d10f94954d40a28e0a00f"
+    },
+    {
+      "file": "field_summary.json",
+      "matches": true,
+      "sha256": "24ee750125054c466e5745f40b6dbf8d25ab79f6a9247705328c2b84a827995f"
+    },
+    {
+      "file": "field_details.json",
+      "matches": true,
+      "sha256": "fa34dc7b874dcf86d856d0ad925e6fefabe14754795bb78201bd945b716d8eec"
+    },
+    {
+      "file": "field_analysis_checks.json",
+      "matches": true,
+      "sha256": "e361fb89079c311cfa4f798b7994ccc86333023db6423eb1fb8f017347975ab9"
+    },
+    {
+      "file": "field_analysis_log.txt",
+      "matches": true,
+      "sha256": "24ee750125054c466e5745f40b6dbf8d25ab79f6a9247705328c2b84a827995f"
+    },
+    {
+      "file": "field_independent_replay.json",
+      "matches": true,
+      "sha256": "2d551ee6aeba82051a2e901bcb1c854b50045de4a6780707e441e7521b5f4b84"
+    }
+  ]
+}

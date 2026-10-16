@@ -1,0 +1,1272 @@
+{
+  "manifest.json": {
+    "created_at_utc": "2026-10-16T01:20:59.664907+00:00",
+    "files": {
+      "actions.jsonl": "e97909549c9242dde7b160f3a104d29883e8ce0e2f4f4b663dc4f68ef11da87e",
+      "actual_helpers.js": "627e13b900433020396e9d0dc078d3cd2119dc11e45b1489cbbc15633e8a4a8d",
+      "actual_helpers_anonymous.txt": "6dbd2f824befee9932f515a9f2704c7bbb70993b444670ce9d4cfa3ca2105c48",
+      "images/N01-audit-zero.png": "e9bc0305e9c7d6d87b2220fd58230d2762f98fc2d7202037ec6b350acd338e6e",
+      "images/N02-audit-native.png": "60d76aef43209a5321a1150a7e657efa93f6de5faf348918b39df4e61af36e54",
+      "images/N02-cleanup-zero.png": "e20cb6593ce725d0c233b6b9daeac8b6a971a524788e1183ca208cbfea10bdeb",
+      "images/N02-final-native.png": "a47e7ade9be6a0b1ff7e3b51aa052a84fc8cd422372fe7c75288720c97d9cb93",
+      "images/N02-initial-native.png": "6766cfb04b923a7a349b02674f20aee86f2807f720c4be5f938a9ff74b2f2728",
+      "images/N03-audit-native.png": "bb12c9943878e9818cdcc230c6208adc74aad7d2156f76c37240c88a4ba511da",
+      "images/N03-cleanup-zero.png": "d2e9cf14f32aec283d3569d9f1f2b78cf4de21438a0d90de67a097341f5c217e",
+      "images/N03-final-native.png": "da51fe104a09eab62064515de490a2194977a88a3a420a92929c6100fa115750",
+      "images/N03-initial-native.png": "09fe929964cb165f09cee7d2b2f072aed679bc29e40a1b637094a6d86e2849c9",
+      "images/N04-audit-native.png": "b980bf1169ac5f3cc5a867c2636b00161f24b10206dfc91d7c2e3f32c16aa0bd",
+      "images/N04-cleanup-zero-confirmed.png": "e27e68a260058647c6cbe1b53c4b43de922e8f14ada70f4104e154b6fa6f0bb6",
+      "images/N04-cleanup-zero.png": "1019765845545990a46dd6464990b99086280c5127b592557f4f66fe4736a649",
+      "images/N04-final-native.png": "0e3d87caa27998c042e82bca3fecf30ec3743b2d628af6664edf02d365e24f04",
+      "images/N04-initial-native.png": "bed18b57d08efa5820859772ad03940f4d452e51849bec7b67580097223f832d",
+      "images/N05-audit-native.png": "0d43ef4bc83e15ac0a67c8f250ff0b17e41375355d85af8a9ca9d04a7538dd96",
+      "images/N05-cleanup-zero.png": "d376266ac28abf192b48dcf44241bf71ac5585185c91115b7f4a2fd21cefe56d",
+      "images/N05-final-native.png": "0d43ef4bc83e15ac0a67c8f250ff0b17e41375355d85af8a9ca9d04a7538dd96",
+      "images/N05-initial-native.png": "57e7278cd1c476f38cd2564f0caf4ae33b0737c235051f98576e7e59e7d0dbd9",
+      "images/N06-audit-native.png": "1813c5216930ef31afbaed3607ac4e6751fbcf983f5c6d67ccb0d21d0b776c6b",
+      "images/N06-cleanup-zero.png": "d376266ac28abf192b48dcf44241bf71ac5585185c91115b7f4a2fd21cefe56d",
+      "images/N06-final-native.png": "1813c5216930ef31afbaed3607ac4e6751fbcf983f5c6d67ccb0d21d0b776c6b",
+      "images/N06-initial-native.png": "1d312a638201a94a1e03d33448773aa871fa08f32bb941380557e6490fa96cb6",
+      "images/N07-audit-native.png": "f228d702e40e3c021d46bef231dbee7ea011334efeea71767691e60eb987d798",
+      "images/N07-cleanup-zero.png": "d376266ac28abf192b48dcf44241bf71ac5585185c91115b7f4a2fd21cefe56d",
+      "images/N07-final-native.png": "824ab9beddfed3c63cf8ec7b50579adc904e5124c7c647d05bb846b7a81baf48",
+      "images/N07-initial-native.png": "72b3e088c85fe378af2b77f00659a952ab696df12146a99f664d2402e9c453d2",
+      "images/N08-audit-native.png": "79fc138dbbc2c21835c96ebde2bf809431f25c04b8481106f2e73e148aafd94e",
+      "images/N08-cleanup-zero.png": "d376266ac28abf192b48dcf44241bf71ac5585185c91115b7f4a2fd21cefe56d",
+      "images/N08-final-native.png": "9008da598b0baa4313923e7e4962d4ab9368fa52f07ad8d6f2102a93d8745136",
+      "images/N08-initial-native.png": "bb58693b4b396e4b6e14288dce3efa466620851f453d5a95f305b113080c8260",
+      "images/all-trials-parent-empty.png": "d376266ac28abf192b48dcf44241bf71ac5585185c91115b7f4a2fd21cefe56d",
+      "images/parent-in-trash.png": "d8a881669ddebbba327f36319c5516b5194d827d2c65200134eb8228bb485925",
+      "packets/N01.json": "61d7842824356f694a652d6801215a2549ed1f860bb5b72010108ea5aa11f40d",
+      "packets/N02.json": "940f4e46249d7bcccb00a5f7d062c82bbfa30bf069476c72b44229ad4296b285",
+      "packets/N03.json": "939df159ac4428bf30a67e135300610af158f6926acb1ccedcb3aa21f10f8321",
+      "packets/N04.json": "f2a4734cdfd956410e56006ec9a4ca28ea02ad4ecc49834ef0acc6bde797a078",
+      "packets/N05.json": "6b638f259a6c44017c7db24018407958fa5079dfe3c162ff21529044cbfbd03b",
+      "packets/N06.json": "8be1dd2ec9a63c8ece8464d8bd3cbc1babc2e29b2c931e4be9766ed5150d42f4",
+      "packets/N07.json": "b30493b40f92f0d5cf87c1812c8544e25b860f7708619a9b95f4e52f8c85efa5",
+      "packets/N08.json": "5054b6d32c29e36d79bde3ce97b999a97d110f9db120da0abc22220fa48b8d64",
+      "parent_cleanup.json": "f95c41ecdb9e29d783f76fa4264dcbdf8504f0384d1785efa9f2fdace8a4a398",
+      "run_summary.json": "15785ed4a4639a65b69a3b605780504119029476871d101060b316e9f5d2ed5a",
+      "run_summary.md": "a52f085e34bb29ceda842e5d62bc3d8f49b7d95d01be3c60fa6e709a872c515f"
+    }
+  },
+  "packets/N01.json": {
+    "trial_id": "N01",
+    "condition": "wrong_checkbox",
+    "repeat": 2,
+    "token": "FIELD-CHECK-20261015-N01",
+    "deadline_seconds": 300,
+    "service": "Notion",
+    "first_native_id": null,
+    "create_admission_ids": [
+      "NF-00009"
+    ],
+    "create_action_ids": [
+      "NF-00011"
+    ],
+    "repair_admission_ids": [],
+    "repair_action_ids": [],
+    "final_decision_record_id": "NF-00032",
+    "cleanup_record_ids": [
+      "NF-00043"
+    ],
+    "checkpoints": {
+      "initial": {
+        "native_state_id": null,
+        "native_value_read_id": null,
+        "covered_state_id": "NF-00022",
+        "covered_identity_record_ids": [],
+        "connector_files": [],
+        "field_check_record_id": "NF-00023",
+        "native_id": null,
+        "missing_reason": "No native record available"
+      },
+      "final": {
+        "native_state_id": null,
+        "native_value_read_id": null,
+        "covered_state_id": "NF-00030",
+        "covered_identity_record_ids": [],
+        "connector_files": [],
+        "field_check_record_id": "NF-00031",
+        "native_id": null,
+        "missing_reason": "No native record available"
+      },
+      "audit": {
+        "native_state_id": null,
+        "native_value_read_id": null,
+        "covered_state_id": "NF-00040",
+        "covered_identity_record_ids": [],
+        "connector_files": [],
+        "field_check_record_id": "NF-00041",
+        "native_id": null,
+        "missing_reason": "No native record available"
+      }
+    }
+  },
+  "packets/N02.json": {
+    "trial_id": "N02",
+    "condition": "correct",
+    "repeat": 2,
+    "token": "FIELD-CHECK-20261015-N02",
+    "deadline_seconds": 300,
+    "service": "Notion",
+    "first_native_id": "record-3f8017071d49c923506d",
+    "create_admission_ids": [
+      "NF-00052"
+    ],
+    "create_action_ids": [
+      "NF-00054"
+    ],
+    "repair_admission_ids": [],
+    "repair_action_ids": [],
+    "final_decision_record_id": "NF-00160",
+    "cleanup_record_ids": [
+      "NF-00193",
+      "NF-00209"
+    ],
+    "checkpoints": {
+      "initial": {
+        "native_state_id": "NF-00085",
+        "native_value_read_id": "NF-00086",
+        "covered_state_id": "NF-00094",
+        "covered_identity_record_ids": [
+          "NF-00130"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00131",
+        "native_id": "record-3f8017071d49c923506d"
+      },
+      "final": {
+        "native_state_id": "NF-00141",
+        "native_value_read_id": "NF-00142",
+        "covered_state_id": "NF-00150",
+        "covered_identity_record_ids": [
+          "NF-00158"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00159",
+        "native_id": "record-3f8017071d49c923506d"
+      },
+      "audit": {
+        "native_state_id": "NF-00170",
+        "native_value_read_id": "NF-00171",
+        "covered_state_id": "NF-00179",
+        "covered_identity_record_ids": [
+          "NF-00187"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00188",
+        "native_id": "record-3f8017071d49c923506d"
+      }
+    }
+  },
+  "packets/N03.json": {
+    "trial_id": "N03",
+    "condition": "empty_marker",
+    "repeat": 1,
+    "token": "FIELD-CHECK-20261015-N03",
+    "deadline_seconds": 300,
+    "service": "Notion",
+    "first_native_id": "record-af8382239f65cdd645b2",
+    "create_admission_ids": [
+      "NF-00222"
+    ],
+    "create_action_ids": [
+      "NF-00224"
+    ],
+    "repair_admission_ids": [
+      "NF-00272"
+    ],
+    "repair_action_ids": [
+      "NF-00274"
+    ],
+    "final_decision_record_id": "NF-00308",
+    "cleanup_record_ids": [
+      "NF-00350",
+      "NF-00367"
+    ],
+    "checkpoints": {
+      "initial": {
+        "native_state_id": "NF-00244",
+        "native_value_read_id": "NF-00245",
+        "covered_state_id": "NF-00253",
+        "covered_identity_record_ids": [
+          "NF-00261"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00262",
+        "native_id": "record-af8382239f65cdd645b2"
+      },
+      "final": {
+        "native_state_id": "NF-00289",
+        "native_value_read_id": "NF-00290",
+        "covered_state_id": "NF-00298",
+        "covered_identity_record_ids": [
+          "NF-00306"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00307",
+        "native_id": "record-af8382239f65cdd645b2"
+      },
+      "audit": {
+        "native_state_id": "NF-00318",
+        "native_value_read_id": "NF-00319",
+        "covered_state_id": "NF-00336",
+        "covered_identity_record_ids": [
+          "NF-00344"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00345",
+        "native_id": "record-af8382239f65cdd645b2"
+      }
+    }
+  },
+  "packets/N04.json": {
+    "trial_id": "N04",
+    "condition": "wrong_marker",
+    "repeat": 1,
+    "token": "FIELD-CHECK-20261015-N04",
+    "deadline_seconds": 300,
+    "service": "Notion",
+    "first_native_id": "record-0f89740f22cf1b798662",
+    "create_admission_ids": [
+      "NF-00380"
+    ],
+    "create_action_ids": [
+      "NF-00382"
+    ],
+    "repair_admission_ids": [
+      "NF-00439"
+    ],
+    "repair_action_ids": [
+      "NF-00441"
+    ],
+    "final_decision_record_id": "NF-00475",
+    "cleanup_record_ids": [
+      "NF-00505",
+      "NF-00538"
+    ],
+    "checkpoints": {
+      "initial": {
+        "native_state_id": "NF-00411",
+        "native_value_read_id": "NF-00412",
+        "covered_state_id": "NF-00420",
+        "covered_identity_record_ids": [
+          "NF-00428"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00429",
+        "native_id": "record-0f89740f22cf1b798662"
+      },
+      "final": {
+        "native_state_id": "NF-00456",
+        "native_value_read_id": "NF-00457",
+        "covered_state_id": "NF-00465",
+        "covered_identity_record_ids": [
+          "NF-00473"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00474",
+        "native_id": "record-0f89740f22cf1b798662"
+      },
+      "audit": {
+        "native_state_id": "NF-00485",
+        "native_value_read_id": "NF-00486",
+        "covered_state_id": "NF-00494",
+        "covered_identity_record_ids": [
+          "NF-00502"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00503",
+        "native_id": "record-0f89740f22cf1b798662"
+      }
+    }
+  },
+  "packets/N05.json": {
+    "trial_id": "N05",
+    "condition": "empty_marker",
+    "repeat": 2,
+    "token": "FIELD-CHECK-20261015-N05",
+    "deadline_seconds": 300,
+    "service": "Notion",
+    "first_native_id": "record-dbd140218a10bf8c79a7",
+    "create_admission_ids": [
+      "NF-00548"
+    ],
+    "create_action_ids": [
+      "NF-00550"
+    ],
+    "repair_admission_ids": [
+      "NF-00598"
+    ],
+    "repair_action_ids": [
+      "NF-00600"
+    ],
+    "final_decision_record_id": "NF-00634",
+    "cleanup_record_ids": [
+      "NF-00664",
+      "NF-00682"
+    ],
+    "checkpoints": {
+      "initial": {
+        "native_state_id": "NF-00570",
+        "native_value_read_id": "NF-00571",
+        "covered_state_id": "NF-00579",
+        "covered_identity_record_ids": [
+          "NF-00587"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00588",
+        "native_id": "record-dbd140218a10bf8c79a7"
+      },
+      "final": {
+        "native_state_id": "NF-00615",
+        "native_value_read_id": "NF-00616",
+        "covered_state_id": "NF-00624",
+        "covered_identity_record_ids": [
+          "NF-00632"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00633",
+        "native_id": "record-dbd140218a10bf8c79a7"
+      },
+      "audit": {
+        "native_state_id": "NF-00644",
+        "native_value_read_id": "NF-00645",
+        "covered_state_id": "NF-00653",
+        "covered_identity_record_ids": [
+          "NF-00661"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00662",
+        "native_id": "record-dbd140218a10bf8c79a7"
+      }
+    }
+  },
+  "packets/N06.json": {
+    "trial_id": "N06",
+    "condition": "correct",
+    "repeat": 1,
+    "token": "FIELD-CHECK-20261015-N06",
+    "deadline_seconds": 300,
+    "service": "Notion",
+    "first_native_id": "record-64d56d63ffab1e593a06",
+    "create_admission_ids": [
+      "NF-00695"
+    ],
+    "create_action_ids": [
+      "NF-00697"
+    ],
+    "repair_admission_ids": [],
+    "repair_action_ids": [],
+    "final_decision_record_id": "NF-00773",
+    "cleanup_record_ids": [
+      "NF-00803",
+      "NF-00821"
+    ],
+    "checkpoints": {
+      "initial": {
+        "native_state_id": "NF-00726",
+        "native_value_read_id": "NF-00727",
+        "covered_state_id": "NF-00735",
+        "covered_identity_record_ids": [
+          "NF-00743"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00744",
+        "native_id": "record-64d56d63ffab1e593a06"
+      },
+      "final": {
+        "native_state_id": "NF-00754",
+        "native_value_read_id": "NF-00755",
+        "covered_state_id": "NF-00763",
+        "covered_identity_record_ids": [
+          "NF-00771"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00772",
+        "native_id": "record-64d56d63ffab1e593a06"
+      },
+      "audit": {
+        "native_state_id": "NF-00783",
+        "native_value_read_id": "NF-00784",
+        "covered_state_id": "NF-00792",
+        "covered_identity_record_ids": [
+          "NF-00800"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00801",
+        "native_id": "record-64d56d63ffab1e593a06"
+      }
+    }
+  },
+  "packets/N07.json": {
+    "trial_id": "N07",
+    "condition": "wrong_checkbox",
+    "repeat": 1,
+    "token": "FIELD-CHECK-20261015-N07",
+    "deadline_seconds": 300,
+    "service": "Notion",
+    "first_native_id": "record-42d26561bd80bea0b394",
+    "create_admission_ids": [
+      "NF-00834"
+    ],
+    "create_action_ids": [
+      "NF-00836"
+    ],
+    "repair_admission_ids": [
+      "NF-00893"
+    ],
+    "repair_action_ids": [
+      "NF-00895"
+    ],
+    "final_decision_record_id": "NF-00926",
+    "cleanup_record_ids": [
+      "NF-00956",
+      "NF-00974"
+    ],
+    "checkpoints": {
+      "initial": {
+        "native_state_id": "NF-00868",
+        "native_value_read_id": "NF-00869",
+        "covered_state_id": "NF-00877",
+        "covered_identity_record_ids": [
+          "NF-00885"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00886",
+        "native_id": "record-42d26561bd80bea0b394"
+      },
+      "final": {
+        "native_state_id": "NF-00907",
+        "native_value_read_id": "NF-00908",
+        "covered_state_id": "NF-00916",
+        "covered_identity_record_ids": [
+          "NF-00924"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00925",
+        "native_id": "record-42d26561bd80bea0b394"
+      },
+      "audit": {
+        "native_state_id": "NF-00936",
+        "native_value_read_id": "NF-00937",
+        "covered_state_id": "NF-00945",
+        "covered_identity_record_ids": [
+          "NF-00953"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-00954",
+        "native_id": "record-42d26561bd80bea0b394"
+      }
+    }
+  },
+  "packets/N08.json": {
+    "trial_id": "N08",
+    "condition": "wrong_marker",
+    "repeat": 2,
+    "token": "FIELD-CHECK-20261015-N08",
+    "deadline_seconds": 300,
+    "service": "Notion",
+    "first_native_id": "record-03e9b8941d33462ec892",
+    "create_admission_ids": [
+      "NF-00987"
+    ],
+    "create_action_ids": [
+      "NF-00989"
+    ],
+    "repair_admission_ids": [
+      "NF-01046"
+    ],
+    "repair_action_ids": [
+      "NF-01048"
+    ],
+    "final_decision_record_id": "NF-01082",
+    "cleanup_record_ids": [
+      "NF-01112",
+      "NF-01130"
+    ],
+    "checkpoints": {
+      "initial": {
+        "native_state_id": "NF-01018",
+        "native_value_read_id": "NF-01019",
+        "covered_state_id": "NF-01027",
+        "covered_identity_record_ids": [
+          "NF-01035"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-01036",
+        "native_id": "record-03e9b8941d33462ec892"
+      },
+      "final": {
+        "native_state_id": "NF-01063",
+        "native_value_read_id": "NF-01064",
+        "covered_state_id": "NF-01072",
+        "covered_identity_record_ids": [
+          "NF-01080"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-01081",
+        "native_id": "record-03e9b8941d33462ec892"
+      },
+      "audit": {
+        "native_state_id": "NF-01092",
+        "native_value_read_id": "NF-01093",
+        "covered_state_id": "NF-01101",
+        "covered_identity_record_ids": [
+          "NF-01109"
+        ],
+        "connector_files": [],
+        "field_check_record_id": "NF-01110",
+        "native_id": "record-03e9b8941d33462ec892"
+      }
+    }
+  },
+  "parent_cleanup.json": {
+    "record_id": "NF-01159",
+    "trial_id": "N08",
+    "token": "FIELD-CHECK-20261015-N08",
+    "service": "Notion",
+    "phase": "parent_cleanup",
+    "kind": "parent_cleanup",
+    "label": "Empty parent recoverable Trash verified",
+    "at_utc": "2026-10-16T01:20:11.087Z",
+    "native_id": "record-39a5a4243ab92b0c7318",
+    "parent_zero_source_id": "NF-01137",
+    "trash_source_id": "NF-01157",
+    "trash_action_ids": [
+      "NF-01144",
+      "NF-01148"
+    ],
+    "active_records_before_trash": 0,
+    "note": "Trash view shows Restore page. No permanent delete was used."
+  },
+  "run_summary.json": {
+    "service": "Notion",
+    "run_date_toronto": "2026-10-15",
+    "freeze_manifest_sha256": "4f01b82cc1f104d12077f31b7b8829f937f300f922323b38288831b062224999",
+    "raw_record_count": 1161,
+    "trial_count": 8,
+    "final_confirm_count": 7,
+    "unresolved_count": 1,
+    "saved_mismatch_count": 5,
+    "repair_count": 5,
+    "parent_cleanup": {
+      "record_id": "NF-01159",
+      "trial_id": "N08",
+      "token": "FIELD-CHECK-20261015-N08",
+      "service": "Notion",
+      "phase": "parent_cleanup",
+      "kind": "parent_cleanup",
+      "label": "Empty parent recoverable Trash verified",
+      "at_utc": "2026-10-16T01:20:11.087Z",
+      "native_id": "record-39a5a4243ab92b0c7318",
+      "parent_zero_source_id": "NF-01137",
+      "trash_source_id": "NF-01157",
+      "trash_action_ids": [
+        "NF-01144",
+        "NF-01148"
+      ],
+      "active_records_before_trash": 0,
+      "note": "Trash view shows Restore page. No permanent delete was used."
+    },
+    "rows": [
+      {
+        "trial_id": "N01",
+        "condition": "wrong_checkbox",
+        "repeat": 2,
+        "first_native_id": null,
+        "create_admission_ids": [
+          "NF-00009"
+        ],
+        "create_action_ids": [
+          "NF-00011"
+        ],
+        "repair_admission_ids": [],
+        "repair_action_ids": [],
+        "cleanup_record_ids": [
+          "NF-00043"
+        ],
+        "decision": "UNRESOLVED",
+        "decision_record_id": "NF-00032",
+        "elapsed_seconds": 28.887,
+        "elapsed_correction_record": "NF-00033",
+        "checkpoints": {
+          "initial": {
+            "overall": "UNKNOWN",
+            "field_check_record_id": "NF-00023",
+            "source_ids": {
+              "native_state_id": null,
+              "native_value_read_id": null,
+              "covered_state_id": "NF-00022",
+              "covered_identity_record_ids": [],
+              "connector_files": [],
+              "field_check_record_id": "NF-00023",
+              "native_id": null,
+              "missing_reason": "No native record available"
+            }
+          },
+          "final": {
+            "overall": "UNKNOWN",
+            "field_check_record_id": "NF-00031",
+            "source_ids": {
+              "native_state_id": null,
+              "native_value_read_id": null,
+              "covered_state_id": "NF-00030",
+              "covered_identity_record_ids": [],
+              "connector_files": [],
+              "field_check_record_id": "NF-00031",
+              "native_id": null,
+              "missing_reason": "No native record available"
+            }
+          },
+          "audit": {
+            "overall": "UNKNOWN",
+            "field_check_record_id": "NF-00041",
+            "source_ids": {
+              "native_state_id": null,
+              "native_value_read_id": null,
+              "covered_state_id": "NF-00040",
+              "covered_identity_record_ids": [],
+              "connector_files": [],
+              "field_check_record_id": "NF-00041",
+              "native_id": null,
+              "missing_reason": "No native record available"
+            }
+          }
+        }
+      },
+      {
+        "trial_id": "N02",
+        "condition": "correct",
+        "repeat": 2,
+        "first_native_id": "record-3f8017071d49c923506d",
+        "create_admission_ids": [
+          "NF-00052"
+        ],
+        "create_action_ids": [
+          "NF-00054"
+        ],
+        "repair_admission_ids": [],
+        "repair_action_ids": [],
+        "cleanup_record_ids": [
+          "NF-00193",
+          "NF-00209"
+        ],
+        "decision": "CONFIRM",
+        "decision_record_id": "NF-00160",
+        "elapsed_seconds": 126.775,
+        "checkpoints": {
+          "initial": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00131",
+            "source_ids": {
+              "native_state_id": "NF-00085",
+              "native_value_read_id": "NF-00086",
+              "covered_state_id": "NF-00094",
+              "covered_identity_record_ids": [
+                "NF-00130"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00131",
+              "native_id": "record-3f8017071d49c923506d"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N02",
+              "marker": "FIELD-CHECK-20261015-N02",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "final": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00159",
+            "source_ids": {
+              "native_state_id": "NF-00141",
+              "native_value_read_id": "NF-00142",
+              "covered_state_id": "NF-00150",
+              "covered_identity_record_ids": [
+                "NF-00158"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00159",
+              "native_id": "record-3f8017071d49c923506d"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N02",
+              "marker": "FIELD-CHECK-20261015-N02",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "audit": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00188",
+            "source_ids": {
+              "native_state_id": "NF-00170",
+              "native_value_read_id": "NF-00171",
+              "covered_state_id": "NF-00179",
+              "covered_identity_record_ids": [
+                "NF-00187"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00188",
+              "native_id": "record-3f8017071d49c923506d"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N02",
+              "marker": "FIELD-CHECK-20261015-N02",
+              "verified": false,
+              "body_empty": true
+            }
+          }
+        }
+      },
+      {
+        "trial_id": "N03",
+        "condition": "empty_marker",
+        "repeat": 1,
+        "first_native_id": "record-af8382239f65cdd645b2",
+        "create_admission_ids": [
+          "NF-00222"
+        ],
+        "create_action_ids": [
+          "NF-00224"
+        ],
+        "repair_admission_ids": [
+          "NF-00272"
+        ],
+        "repair_action_ids": [
+          "NF-00274"
+        ],
+        "cleanup_record_ids": [
+          "NF-00350",
+          "NF-00367"
+        ],
+        "decision": "CONFIRM",
+        "decision_record_id": "NF-00308",
+        "elapsed_seconds": 37.048,
+        "checkpoints": {
+          "initial": {
+            "overall": "MISMATCH",
+            "field_check_record_id": "NF-00262",
+            "source_ids": {
+              "native_state_id": "NF-00244",
+              "native_value_read_id": "NF-00245",
+              "covered_state_id": "NF-00253",
+              "covered_identity_record_ids": [
+                "NF-00261"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00262",
+              "native_id": "record-af8382239f65cdd645b2"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N03",
+              "marker": "",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "final": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00307",
+            "source_ids": {
+              "native_state_id": "NF-00289",
+              "native_value_read_id": "NF-00290",
+              "covered_state_id": "NF-00298",
+              "covered_identity_record_ids": [
+                "NF-00306"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00307",
+              "native_id": "record-af8382239f65cdd645b2"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N03",
+              "marker": "FIELD-CHECK-20261015-N03",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "audit": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00345",
+            "source_ids": {
+              "native_state_id": "NF-00318",
+              "native_value_read_id": "NF-00319",
+              "covered_state_id": "NF-00336",
+              "covered_identity_record_ids": [
+                "NF-00344"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00345",
+              "native_id": "record-af8382239f65cdd645b2"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N03",
+              "marker": "FIELD-CHECK-20261015-N03",
+              "verified": false,
+              "body_empty": true
+            }
+          }
+        }
+      },
+      {
+        "trial_id": "N04",
+        "condition": "wrong_marker",
+        "repeat": 1,
+        "first_native_id": "record-0f89740f22cf1b798662",
+        "create_admission_ids": [
+          "NF-00380"
+        ],
+        "create_action_ids": [
+          "NF-00382"
+        ],
+        "repair_admission_ids": [
+          "NF-00439"
+        ],
+        "repair_action_ids": [
+          "NF-00441"
+        ],
+        "cleanup_record_ids": [
+          "NF-00505",
+          "NF-00538"
+        ],
+        "decision": "CONFIRM",
+        "decision_record_id": "NF-00475",
+        "elapsed_seconds": 30.294,
+        "checkpoints": {
+          "initial": {
+            "overall": "MISMATCH",
+            "field_check_record_id": "NF-00429",
+            "source_ids": {
+              "native_state_id": "NF-00411",
+              "native_value_read_id": "NF-00412",
+              "covered_state_id": "NF-00420",
+              "covered_identity_record_ids": [
+                "NF-00428"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00429",
+              "native_id": "record-0f89740f22cf1b798662"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N04",
+              "marker": "FIELD-CHECK-20261015-N04-WRONG",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "final": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00474",
+            "source_ids": {
+              "native_state_id": "NF-00456",
+              "native_value_read_id": "NF-00457",
+              "covered_state_id": "NF-00465",
+              "covered_identity_record_ids": [
+                "NF-00473"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00474",
+              "native_id": "record-0f89740f22cf1b798662"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N04",
+              "marker": "FIELD-CHECK-20261015-N04",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "audit": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00503",
+            "source_ids": {
+              "native_state_id": "NF-00485",
+              "native_value_read_id": "NF-00486",
+              "covered_state_id": "NF-00494",
+              "covered_identity_record_ids": [
+                "NF-00502"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00503",
+              "native_id": "record-0f89740f22cf1b798662"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N04",
+              "marker": "FIELD-CHECK-20261015-N04",
+              "verified": false,
+              "body_empty": true
+            }
+          }
+        }
+      },
+      {
+        "trial_id": "N05",
+        "condition": "empty_marker",
+        "repeat": 2,
+        "first_native_id": "record-dbd140218a10bf8c79a7",
+        "create_admission_ids": [
+          "NF-00548"
+        ],
+        "create_action_ids": [
+          "NF-00550"
+        ],
+        "repair_admission_ids": [
+          "NF-00598"
+        ],
+        "repair_action_ids": [
+          "NF-00600"
+        ],
+        "cleanup_record_ids": [
+          "NF-00664",
+          "NF-00682"
+        ],
+        "decision": "CONFIRM",
+        "decision_record_id": "NF-00634",
+        "elapsed_seconds": 27.967,
+        "checkpoints": {
+          "initial": {
+            "overall": "MISMATCH",
+            "field_check_record_id": "NF-00588",
+            "source_ids": {
+              "native_state_id": "NF-00570",
+              "native_value_read_id": "NF-00571",
+              "covered_state_id": "NF-00579",
+              "covered_identity_record_ids": [
+                "NF-00587"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00588",
+              "native_id": "record-dbd140218a10bf8c79a7"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N05",
+              "marker": "",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "final": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00633",
+            "source_ids": {
+              "native_state_id": "NF-00615",
+              "native_value_read_id": "NF-00616",
+              "covered_state_id": "NF-00624",
+              "covered_identity_record_ids": [
+                "NF-00632"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00633",
+              "native_id": "record-dbd140218a10bf8c79a7"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N05",
+              "marker": "FIELD-CHECK-20261015-N05",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "audit": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00662",
+            "source_ids": {
+              "native_state_id": "NF-00644",
+              "native_value_read_id": "NF-00645",
+              "covered_state_id": "NF-00653",
+              "covered_identity_record_ids": [
+                "NF-00661"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00662",
+              "native_id": "record-dbd140218a10bf8c79a7"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N05",
+              "marker": "FIELD-CHECK-20261015-N05",
+              "verified": false,
+              "body_empty": true
+            }
+          }
+        }
+      },
+      {
+        "trial_id": "N06",
+        "condition": "correct",
+        "repeat": 1,
+        "first_native_id": "record-64d56d63ffab1e593a06",
+        "create_admission_ids": [
+          "NF-00695"
+        ],
+        "create_action_ids": [
+          "NF-00697"
+        ],
+        "repair_admission_ids": [],
+        "repair_action_ids": [],
+        "cleanup_record_ids": [
+          "NF-00803",
+          "NF-00821"
+        ],
+        "decision": "CONFIRM",
+        "decision_record_id": "NF-00773",
+        "elapsed_seconds": 19.464,
+        "checkpoints": {
+          "initial": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00744",
+            "source_ids": {
+              "native_state_id": "NF-00726",
+              "native_value_read_id": "NF-00727",
+              "covered_state_id": "NF-00735",
+              "covered_identity_record_ids": [
+                "NF-00743"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00744",
+              "native_id": "record-64d56d63ffab1e593a06"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N06",
+              "marker": "FIELD-CHECK-20261015-N06",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "final": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00772",
+            "source_ids": {
+              "native_state_id": "NF-00754",
+              "native_value_read_id": "NF-00755",
+              "covered_state_id": "NF-00763",
+              "covered_identity_record_ids": [
+                "NF-00771"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00772",
+              "native_id": "record-64d56d63ffab1e593a06"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N06",
+              "marker": "FIELD-CHECK-20261015-N06",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "audit": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00801",
+            "source_ids": {
+              "native_state_id": "NF-00783",
+              "native_value_read_id": "NF-00784",
+              "covered_state_id": "NF-00792",
+              "covered_identity_record_ids": [
+                "NF-00800"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00801",
+              "native_id": "record-64d56d63ffab1e593a06"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N06",
+              "marker": "FIELD-CHECK-20261015-N06",
+              "verified": false,
+              "body_empty": true
+            }
+          }
+        }
+      },
+      {
+        "trial_id": "N07",
+        "condition": "wrong_checkbox",
+        "repeat": 1,
+        "first_native_id": "record-42d26561bd80bea0b394",
+        "create_admission_ids": [
+          "NF-00834"
+        ],
+        "create_action_ids": [
+          "NF-00836"
+        ],
+        "repair_admission_ids": [
+          "NF-00893"
+        ],
+        "repair_action_ids": [
+          "NF-00895"
+        ],
+        "cleanup_record_ids": [
+          "NF-00956",
+          "NF-00974"
+        ],
+        "decision": "CONFIRM",
+        "decision_record_id": "NF-00926",
+        "elapsed_seconds": 26.513,
+        "checkpoints": {
+          "initial": {
+            "overall": "MISMATCH",
+            "field_check_record_id": "NF-00886",
+            "source_ids": {
+              "native_state_id": "NF-00868",
+              "native_value_read_id": "NF-00869",
+              "covered_state_id": "NF-00877",
+              "covered_identity_record_ids": [
+                "NF-00885"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00886",
+              "native_id": "record-42d26561bd80bea0b394"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N07",
+              "marker": "FIELD-CHECK-20261015-N07",
+              "verified": true,
+              "body_empty": true
+            }
+          },
+          "final": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00925",
+            "source_ids": {
+              "native_state_id": "NF-00907",
+              "native_value_read_id": "NF-00908",
+              "covered_state_id": "NF-00916",
+              "covered_identity_record_ids": [
+                "NF-00924"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00925",
+              "native_id": "record-42d26561bd80bea0b394"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N07",
+              "marker": "FIELD-CHECK-20261015-N07",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "audit": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-00954",
+            "source_ids": {
+              "native_state_id": "NF-00936",
+              "native_value_read_id": "NF-00937",
+              "covered_state_id": "NF-00945",
+              "covered_identity_record_ids": [
+                "NF-00953"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-00954",
+              "native_id": "record-42d26561bd80bea0b394"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N07",
+              "marker": "FIELD-CHECK-20261015-N07",
+              "verified": false,
+              "body_empty": true
+            }
+          }
+        }
+      },
+      {
+        "trial_id": "N08",
+        "condition": "wrong_marker",
+        "repeat": 2,
+        "first_native_id": "record-03e9b8941d33462ec892",
+        "create_admission_ids": [
+          "NF-00987"
+        ],
+        "create_action_ids": [
+          "NF-00989"
+        ],
+        "repair_admission_ids": [
+          "NF-01046"
+        ],
+        "repair_action_ids": [
+          "NF-01048"
+        ],
+        "cleanup_record_ids": [
+          "NF-01112",
+          "NF-01130"
+        ],
+        "decision": "CONFIRM",
+        "decision_record_id": "NF-01082",
+        "elapsed_seconds": 26.218,
+        "checkpoints": {
+          "initial": {
+            "overall": "MISMATCH",
+            "field_check_record_id": "NF-01036",
+            "source_ids": {
+              "native_state_id": "NF-01018",
+              "native_value_read_id": "NF-01019",
+              "covered_state_id": "NF-01027",
+              "covered_identity_record_ids": [
+                "NF-01035"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-01036",
+              "native_id": "record-03e9b8941d33462ec892"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N08",
+              "marker": "FIELD-CHECK-20261015-N08-WRONG",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "final": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-01081",
+            "source_ids": {
+              "native_state_id": "NF-01063",
+              "native_value_read_id": "NF-01064",
+              "covered_state_id": "NF-01072",
+              "covered_identity_record_ids": [
+                "NF-01080"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-01081",
+              "native_id": "record-03e9b8941d33462ec892"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N08",
+              "marker": "FIELD-CHECK-20261015-N08",
+              "verified": false,
+              "body_empty": true
+            }
+          },
+          "audit": {
+            "overall": "MATCH",
+            "field_check_record_id": "NF-01110",
+            "source_ids": {
+              "native_state_id": "NF-01092",
+              "native_value_read_id": "NF-01093",
+              "covered_state_id": "NF-01101",
+              "covered_identity_record_ids": [
+                "NF-01109"
+              ],
+              "connector_files": [],
+              "field_check_record_id": "NF-01110",
+              "native_id": "record-03e9b8941d33462ec892"
+            },
+            "values": {
+              "title": "FIELD-CHECK-20261015-N08",
+              "marker": "FIELD-CHECK-20261015-N08",
+              "verified": false,
+              "body_empty": true
+            }
+          }
+        }
+      }
+    ],
+    "limits": [
+      "One account, one private temporary database, eight assigned trials.",
+      "N01 Create was admitted but no page identity appeared. No retry occurred. Absence at read times does not disprove a later effect.",
+      "All parent baselines included unnamed rows. No carryover row was seen before later Creates.",
+      "Five saved mismatches were observed and repaired once. The other assigned wrong-checkbox trial (N01) was unresolved.",
+      "The comparison based on title and count is offline. No separate control policy made live writes.",
+      "These checks are agent-led. Raw values and IDs support independent recomputation.",
+      "No broad reliability or general product performance claim is supported."
+    ]
+  }
+}

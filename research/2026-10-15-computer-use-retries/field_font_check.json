@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "scope": "Extract of the separate visual reviewer font checks; not a second review.",
+  "source": "field_pdf_review.json",
+  "source_sha256": "067c3f0bdf730f67f66fa22e5bd20dadab178bb8abb4765a78a12a23d5765537",
+  "pdf_sha256": "875049711911750608440729d4fe5be8530d56073d47ead9e419190995848277",
+  "checks": {
+    "font_embedding": "PASS: All six fonts used for painted text are embedded DejaVu subsets, version 2.37. A Helvetica resource has no painted text operations.",
+    "font_notices": "PASS: Each embedded font retains copyright, version, and license name records. FONT_LICENSE.txt matches the installed license notice after whitespace normalization.",
+    "font_source_hashes": "PASS: All seven registered source font hashes match pdf_environment.json."
+  },
+  "font_license_notice_sha256": "d75eccf88ee7e0030311eb95fa4216806250c45b5ccf1922a6dd79ca41ea3a37",
+  "embedded_fonts": [
+    {
+      "name": "/AAAAAA+DejaVuSans",
+      "sha256": "ce17d44b8409d14d6141d8c2ea7ee56a93798aebbecd363e249d9b6240e18a5d",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    },
+    {
+      "name": "/AAAAAA+DejaVuSans-Bold",
+      "sha256": "faa12550a4e461987665b7a90500df4e7ab4e1e66016d68d7415dc4543a16240",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    },
+    {
+      "name": "/AAAAAA+DejaVuSansMono",
+      "sha256": "f5469035201f6d2ea5cf242913f101a6eedfb1398174c341507029dc2d61cc12",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    },
+    {
+      "name": "/AAAAAA+DejaVuSerif",
+      "sha256": "d76412fee67d27ca8c752aff38bf11ada8b77eb59d8c23470a1dca1c68fafd08",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    },
+    {
+      "name": "/AAAAAA+DejaVuSerif-Bold",
+      "sha256": "93c874bf8902ea7eee8c1fdc3812bc9c81f4b7d8b392dac623ad0f6bce33ddf1",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    },
+    {
+      "name": "/AAAAAA+DejaVuSerif-Italic",
+      "sha256": "12c6256132f677403982393fa6641e5c3ceb286439f55dd54d9875ad19ea93f1",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    }
+  ]
+}

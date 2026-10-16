@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "method": "Copy only required public inputs into a fresh temporary folder; run the separate parser, its 12 source-perturbation tests, and the 480-field comparison. No browser, connector, or model calls.",
+  "created_utc": "2026-10-16T01:33:27.657066+00:00",
+  "python": "3.14.7",
+  "system": "Darwin",
+  "commands": [
+    {
+      "name": "replay",
+      "command": [
+        "python3",
+        "field_independent_replay.py",
+        "--input-dir",
+        ".",
+        "--output",
+        "field_independent_replay.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "tests",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "field_independent_tests",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "comparison",
+      "command": [
+        "python3",
+        "field_independent_compare.py",
+        "--independent",
+        "field_independent_replay.json",
+        "--main",
+        "field_trials.csv",
+        "--output",
+        "field_independent_comparison.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "checks": {
+    "replay_exit_zero": true,
+    "tests_exit_zero": true,
+    "comparison_exit_zero": true,
+    "field_independent_replay.json_byte_equal": true,
+    "field_independent_comparison.json_byte_equal": true
+  },
+  "input_sha256": {
+    "field_assignments.csv": "51fc0d6f8403efb6d9b020615529c5e1e5ad0b6cc675cbec09d0df247e1027f9",
+    "field_calendar_runner_actions.jsonl": "42789548d118308eef40ac2c2231011f8696b61d9d6c99e68eb010071f2f7a5a",
+    "field_calendar_runner_records.json": "c43c61c985924bd4a4b0f2078a0d7c448ebfccf53fd0d49ca6a4a7484c252194",
+    "field_checker_prefreeze_log.txt": "c00bcf5a22f2a457ce334949401d201302f0ca1be91963fb3141a914952cbae1",
+    "field_contract.md": "3fa11170c672e61e5be76cee30b9a769fec25507367c336f5aa9b328c4cbb5d7",
+    "field_design_review.md": "de6ae7df62d624ddf8607c7392ce2816e20766dcfab2e80e183d0f96ad9577ad",
+    "field_environment.json": "014c4543ca3b484f4d64249101d58c327cd9f860518daec7040bf927c74efe00",
+    "field_independent_compare.py": "83c84868bca8cf2f83b7de376a0ee181fc44ab6990a2c8d1e530450a560b4c2d",
+    "field_independent_replay.py": "e4c24c36a8927faec42146eb9386705cfcb9864e4abbb467941ceb13c1e88d0c",
+    "field_independent_tests.py": "bc2c7aa99aab8f155eb1675f70eb2d73c13e88953c8d67db1bc733555321a3bd",
+    "field_notion_runner_actions.jsonl": "459bfe1627a2a860ad6ce4fcc87082d019ecebc7c1cb3b9d44f15f830c1d5edf",
+    "field_notion_runner_records.json": "8a05155dd7f6d5133cd6a0c168a2cd691b930e0a5b1abb94bf3005ef26c2b2a6",
+    "field_plan.md": "d6f890a558d66a427574873d7e06c9b3e95ee5a0f0deb58e13f6ec6ed44d44c9",
+    "field_plan_manifest.json": "4f01b82cc1f104d12077f31b7b8829f937f300f922323b38288831b062224999",
+    "field_preflight.md": "f9e1eb8034602cd87ad359935582c93c5654841e358b9d79dad6224388272df2",
+    "field_runner_instructions.md": "717dff2934052f5d3955ba93403aa293c456fb493a3139435d6b549820ba22e0",
+    "field_source_notes.md": "9bf005a672971beedda0115266d938c4055b72323ffc5227bbb8b2bd098da507",
+    "field_trials.csv": "4029cc78d6210f1a201bba4b1b8551396e70f270091e8e282e0b760fd4fd174d",
+    "fieldcheck.py": "e2f300cd9991286b23cc861507b5e4ff851b9eca3774c5b6a231519acb738977",
+    "fieldcheck_tests.py": "711ed0ca4ca8f19b9e52e6d6995f01301213140a0ddae7e6e4821dc42d333e2e"
+  },
+  "output_sha256": {
+    "field_independent_replay.json": "2d551ee6aeba82051a2e901bcb1c854b50045de4a6780707e441e7521b5f4b84",
+    "field_independent_comparison.json": "de050f8bca8b05a05295631f379e89db173907b2037e97a4fdcfc676da07f883"
+  }
+}

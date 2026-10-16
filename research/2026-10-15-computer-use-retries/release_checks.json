@@ -1,11 +1,11 @@
 {
   "status": "PASS",
-  "completed_utc": "2026-10-15T20:59:06.888089+00:00",
-  "scope": "24-trial Guard revision on production Notion and Google Calendar accounts",
-  "report_sha256": "0a7827682d965ab8bec8422042c5099a68ace57ac90f0c2db6ff1b9245d1cedb",
-  "prior_package_files_unchanged": 280,
-  "review": "v2_review.md",
-  "pdf": "Text coverage, every-page visual review, deterministic rebuild and font notices checked.",
+  "completed_utc": "2026-10-16T01:36:51.055512+00:00",
+  "scope": "20-case saved-field correction study on production Calendar and Notion accounts",
+  "report_sha256": "9d8290b5e449abd96afee1738dbe4760ff97e21e664bd65fa70ea518de89f842",
+  "prior_package_files_unchanged": 358,
+  "review": "field_review.md",
+  "pdf": "Text coverage, every-page visual review, same-directory rebuild and font notices checked.",
   "relative_links": [
     {
       "file": "research/2026-10-15-computer-use-retries/README.md",
@@ -15,6 +15,71 @@
     {
       "file": "research/2026-10-15-computer-use-retries/README.md",
       "target": "paper.pdf",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_plan.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_assignments.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_runner_instructions.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_contract.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_plan_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_analysis_method.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_evidence_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_changes.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_adapters.zip",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_adapter_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/README.md",
+      "target": "field_image_review.json",
       "exists": true
     },
     {
@@ -339,17 +404,37 @@
     },
     {
       "file": "research/2026-10-15-computer-use-retries/final_review.md",
-      "target": "v2_review.md",
+      "target": "field_review.md",
       "exists": true
     },
     {
       "file": "research/2026-10-15-computer-use-retries/final_review.md",
-      "target": "v2_reproduction_check.json",
+      "target": "field_calendar_claim_review.md",
       "exists": true
     },
     {
       "file": "research/2026-10-15-computer-use-retries/final_review.md",
-      "target": "v2_test_log.txt",
+      "target": "field_reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/final_review.md",
+      "target": "field_reproduction_log.txt",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/final_review.md",
+      "target": "field_private_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/final_review.md",
+      "target": "field_changes.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/final_review.md",
+      "target": "field_image_review.json",
       "exists": true
     },
     {
@@ -359,22 +444,12 @@
     },
     {
       "file": "research/2026-10-15-computer-use-retries/final_review.md",
-      "target": "v2_pdf_review.json",
+      "target": "field_pdf_review.json",
       "exists": true
     },
     {
       "file": "research/2026-10-15-computer-use-retries/final_review.md",
-      "target": "v2_font_check.json",
-      "exists": true
-    },
-    {
-      "file": "research/2026-10-15-computer-use-retries/final_review.md",
-      "target": "v2_image_review.json",
-      "exists": true
-    },
-    {
-      "file": "research/2026-10-15-computer-use-retries/final_review.md",
-      "target": "v2_private_review.json",
+      "target": "field_font_check.json",
       "exists": true
     },
     {
@@ -889,6 +964,61 @@
     },
     {
       "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_plan_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_assignments.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_contract.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_trials.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_groups.csv",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_details.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_changes.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_evidence_manifest.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_image_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_independent_replay.py",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
       "target": "account_cleanup.json",
       "exists": true
     },
@@ -1083,8 +1213,33 @@
       "exists": true
     },
     {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_private_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_image_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/report.md",
+      "target": "field_changes.md",
+      "exists": true
+    },
+    {
       "file": "research/2026-10-15-computer-use-retries/review.md",
-      "target": "v2_review.md",
+      "target": "field_review.md",
       "exists": true
     },
     {
@@ -1094,22 +1249,32 @@
     },
     {
       "file": "research/2026-10-15-computer-use-retries/review.md",
-      "target": "v2_review_receipt.json",
+      "target": "field_review_receipt.json",
       "exists": true
     },
     {
       "file": "research/2026-10-15-computer-use-retries/review.md",
-      "target": "v2_reproduction_check.json",
+      "target": "field_calendar_claim_review.md",
       "exists": true
     },
     {
       "file": "research/2026-10-15-computer-use-retries/review.md",
-      "target": "v2_image_review.json",
+      "target": "field_reproduction_check.json",
       "exists": true
     },
     {
       "file": "research/2026-10-15-computer-use-retries/review.md",
-      "target": "v2_pdf_review.json",
+      "target": "field_private_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/review.md",
+      "target": "field_image_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/review.md",
+      "target": "field_pdf_review.json",
       "exists": true
     },
     {
@@ -1218,6 +1383,81 @@
       "exists": true
     },
     {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_final_review.md",
+      "target": "v2_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_final_review.md",
+      "target": "v2_reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_final_review.md",
+      "target": "v2_test_log.txt",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_final_review.md",
+      "target": "pdf_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_final_review.md",
+      "target": "v2_pdf_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_final_review.md",
+      "target": "v2_font_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_final_review.md",
+      "target": "v2_image_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_final_review.md",
+      "target": "v2_private_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_final_review.md",
+      "target": "release_checks.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_review.md",
+      "target": "v2_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_review.md",
+      "target": "final_review.md",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_review.md",
+      "target": "v2_review_receipt.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_review.md",
+      "target": "v2_reproduction_check.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_review.md",
+      "target": "v2_image_review.json",
+      "exists": true
+    },
+    {
+      "file": "research/2026-10-15-computer-use-retries/v2_version_review.md",
+      "target": "v2_pdf_review.json",
+      "exists": true
+    },
+    {
       "file": "README.md",
       "target": "RESEARCH_PROTOCOL.md",
       "exists": true
@@ -1271,11 +1511,11 @@
       "non-synthetic email",
       "account markers"
     ],
-    "compressed_traces_and_database_scanned": true,
+    "compressed_traces_database_and_new_adapter_code_scanned": true,
     "findings": []
   },
   "rights_and_claims": "Original prose; attributed provider UI; task regions only; no application source redistributed; no new license or priority claim.",
   "root_index": "Only the existing paper row changed.",
-  "cleanup": "All 24 active trial record lists returned zero after recoverable Trash cleanup; Notion test parent cleanup checked separately.",
+  "cleanup": "All 19 known scored records and the empty Notion parent have recoverable cleanup evidence. One Create produced no observed record. All20 scoped active-zero checks passed.",
   "publication_status": "Not proved by this local check. Verify remote commit after upload."
 }

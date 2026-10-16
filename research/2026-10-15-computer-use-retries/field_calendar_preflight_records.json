@@ -1,0 +1,353 @@
+{
+  "cleanup-search.json": {
+    "tool": "google_calendar_search_events",
+    "start_utc": "2026-10-16T01:01:42.480Z",
+    "end_utc": "2026-10-16T01:01:42.853Z",
+    "args": {
+      "calendar_id": "primary",
+      "query": "FC-PREFLIGHT-20261015-CALENDAR",
+      "time_min": "2026-10-01T00:00:00-04:00",
+      "time_max": "2026-11-01T00:00:00-04:00",
+      "timezone_str": "America/Toronto",
+      "max_results": 100
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "events": [],
+        "next_page_token": null
+      },
+      "isError": false
+    }
+  },
+  "connector_schemas.json": {
+    "observed_utc": "2026-10-16T00:58:14.671Z",
+    "all_fields_search_available": false,
+    "tools": [
+      {
+        "name": "mcp__codex_apps__google_calendar_batch_read_event",
+        "description": "Google Calendar tools for searching/reading events, checking availability before scheduling, reading colors, and explicit calendar changes: create/update/delete events or respond to invitations.\n\nRead multiple Google Calendar events by ID. This tool is part of plugin `Google Calendar`.\n\nexec tool declaration:\n```ts\ndeclare const tools: { mcp__codex_apps__google_calendar_batch_read_event(args: {\n  // Calendar ID to query. Use `primary` for the user's main calendar, or an ID returned by `list_calendars` for a secondary, shared, or resource calendar. Default is `primary`.\n  calendar_id?: string | null;\n  // List of event IDs to read. Results are returned in the same order, up to the connector's batch limit.\n  event_ids: Array<string>;\n}): Promise<CallToolResult>; };\n```"
+      },
+      {
+        "name": "mcp__codex_apps__google_calendar_read_event",
+        "description": "Google Calendar tools for searching/reading events, checking availability before scheduling, reading colors, and explicit calendar changes: create/update/delete events or respond to invitations.\n\nRead a Google Calendar event by ID. Use this after search_events when the task needs full event details. This tool is part of plugin `Google Calendar`.\n\nexec tool declaration:\n```ts\ndeclare const tools: { mcp__codex_apps__google_calendar_read_event(args: {\n  // Calendar ID to query. Use `primary` for the user's main calendar, or an ID returned by `list_calendars` for a secondary, shared, or resource calendar. Default is `primary`.\n  calendar_id?: string | null;\n  // Google Calendar event ID.\n  event_id: string;\n}): Promise<CallToolResult>; };\n```"
+      },
+      {
+        "name": "mcp__codex_apps__google_calendar_search",
+        "description": "Google Calendar tools for searching/reading events, checking availability before scheduling, reading colors, and explicit calendar changes: create/update/delete events or respond to invitations.\n\nSearch Google Calendar events within a time window. To obtain the full information for an event, use read_event. Accepted parameters are only `query`, `max_results`, `time_min`, `time_max`, `calendar_id`, and `next_page_token`. `query` is broad free text, not a structured search language. Prefer passing explicit `time_min` and `time_max` for every search, then page with `next_page_token` inside that bounded window before widening the query. Do not pass unsupported fields like `topn`, `timezone_str`, `user_message`, or `best_effort_fetch`. This tool is part of plugin `Google Calendar`.\n\nexec tool declaration:\n```ts\ndeclare const tools: { mcp__codex_apps__google_calendar_search(args: {\n  // Calendar ID to query. Use `primary` for the user's main calendar, or an ID returned by `list_calendars` for a secondary, shared, or resource calendar. Default is `primary`.\n  calendar_id?: string | null;\n  // Maximum number of events to return. Must be at least 1.\n  max_results?: number;\n  // Non-empty token returned by this search. Omit on the first page; keep all other arguments the same when requesting the next page.\n  next_page_token?: string | null;\n  // Optional broad free-text query passed to Google Calendar's `q` search parameter. Omit to return events within the time window without a text filter. Best for keyword matches in titles and some indexed event text, not precise attendee filtering.\n  query?: string | null;\n  // Optional window end in full ISO-8601/RFC3339 format (e.g. 2026-05-31T23:59:59Z).\n  time_max?: string | null;\n  // Optional window start in full ISO-8601/RFC3339 format (e.g. 2026-05-01T00:00:00Z).\n  time_min?: string | null;\n}): Promise<CallToolResult>; };\n```"
+      },
+      {
+        "name": "mcp__codex_apps__google_calendar_search_events",
+        "description": "Google Calendar tools for searching/reading events, checking availability before scheduling, reading colors, and explicit calendar changes: create/update/delete events or respond to invitations.\n\nLook up Google Calendar events using various filters. Use this to find candidate events before reading or changing a specific event. `query` is broad free text, not a structured search language. Prefer passing explicit `time_min` and `time_max` for every search, then page with `next_page_token` inside that bounded window before widening the query. This tool is part of plugin `Google Calendar`.\n\nexec tool declaration:\n```ts\ndeclare const tools: { mcp__codex_apps__google_calendar_search_events(args: {\n  // Calendar ID to query. Use `primary` for the user's main calendar, or an ID returned by `list_calendars` for a secondary, shared, or resource calendar. Default is `primary`.\n  calendar_id?: string | null;\n  // Maximum number of events to return. Must be at least 1.\n  max_results?: number;\n  // Pagination token returned by a previous search_events/search_events_all_fields call. Use it to continue paging within the same bounded window, and omit it on the first page.\n  next_page_token?: string | null;\n  // Broad free-text query passed to Google Calendar's `q` search parameter. Best for keyword matches in titles and some indexed event text, not precise attendee filtering.\n  query?: string | null;\n  // End of the search window. Prefer passing an explicit full ISO-8601/RFC3339 datetime (for example `2026-05-31T23:59:59Z`) rather than omitting bounds. Use exact `now` only when you intentionally want a current boundary. Do not use relative expressions like `now-7d` or `now+30m`.\n  time_max?: string | null;\n  // Start of the search window. Prefer passing an explicit full ISO-8601/RFC3339 datetime (for example `2026-05-01T00:00:00Z`) rather than omitting bounds. Use exact `now` only when you intentionally want a current boundary. Do not use relative expressions like `now-7d` or `now+30m`.\n  time_min?: string | null;\n  // Timezone for interpreting time_min/time_max. IANA timezone name such as `America/Los_Angeles` or `Europe/Berlin`. Do not pass UTC offsets like `+02:00`. Default is `America/Los_Angeles`.\n  timezone_str?: string | null;\n}): Promise<CallToolResult>; };\n```"
+      }
+    ]
+  },
+  "initial-read-event.json": {
+    "start": "2026-10-16T00:59:45.996Z",
+    "end": "2026-10-16T00:59:46.466Z",
+    "args": {
+      "calendar_id": "primary",
+      "event_id": "record-7092c7aada8613be7300"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "guests_can_modify": null,
+        "locked": null,
+        "id": "record-7092c7aada8613be7300",
+        "summary": "FC-PREFLIGHT-20261015-CALENDAR",
+        "status": "confirmed",
+        "organizer": {
+          "is_self": true,
+          "email": "[account-email]",
+          "display_name": null
+        },
+        "description": "FC-PREFLIGHT-MARKER-A\n\n",
+        "location": null,
+        "color_id": null,
+        "event_label_id": null,
+        "start": "2026-10-14T00:00:00",
+        "end": "2026-10-15T00:00:00",
+        "attendees": [],
+        "url": "https://www.google.com/calendar/event?eid=record-7092c7aada8613be7300",
+        "hangout_link": null,
+        "event_type": "default",
+        "transparency": "transparent",
+        "visibility": "private",
+        "attachments": null,
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "recurring_event_id": null,
+        "original_start_time": null,
+        "display_url": "https://www.google.com/calendar/event?eid=record-7092c7aada8613be7300",
+        "display_title": "FC-PREFLIGHT-20261015-CALENDAR"
+      },
+      "isError": false
+    }
+  },
+  "initial-search.json": {
+    "start": "2026-10-16T00:59:41.475Z",
+    "end": "2026-10-16T00:59:42.293Z",
+    "args": {
+      "calendar_id": "primary",
+      "query": "FC-PREFLIGHT-20261015-CALENDAR",
+      "time_min": "2026-10-01T00:00:00-04:00",
+      "time_max": "2026-11-01T00:00:00-04:00",
+      "timezone_str": "America/Toronto",
+      "max_results": 100
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "events": [
+          {
+            "organizer": {
+              "is_self": true,
+              "email": "[account-email]",
+              "display_name": null
+            },
+            "guests_can_modify": null,
+            "locked": null,
+            "id": "record-7092c7aada8613be7300",
+            "summary": "FC-PREFLIGHT-20261015-CALENDAR",
+            "status": "confirmed",
+            "location": null,
+            "color_id": null,
+            "event_label_id": null,
+            "event_type": "default",
+            "start": "2026-10-14T00:00:00",
+            "end": "2026-10-15T00:00:00",
+            "url": "https://www.google.com/calendar/event?eid=record-7092c7aada8613be7300&ctz=America/Toronto",
+            "description": "FC-PREFLIGHT-MARKER-A\n\n",
+            "my_response_status": null,
+            "transparency": "transparent",
+            "visibility": "private",
+            "attachments": null,
+            "recurring_event_id": null,
+            "original_start_time": null,
+            "display_url": "https://www.google.com/calendar/event?eid=record-7092c7aada8613be7300&ctz=America/Toronto",
+            "display_title": "FC-PREFLIGHT-20261015-CALENDAR"
+          }
+        ],
+        "next_page_token": null
+      },
+      "isError": false
+    }
+  },
+  "manifest.json": {
+    "created_utc": "2026-10-16T01:02:26.989282+00:00",
+    "files": [
+      {
+        "path": "README.md",
+        "bytes": 4463,
+        "sha256": "c978a23654b088d95d71eeae2271aad33017ea0c21eff2e33abbf6ae49fb18d9"
+      },
+      {
+        "path": "actions.jsonl",
+        "bytes": 584971,
+        "sha256": "db0575ab47f6f6c9db88b09c7f414fb722a5b67ecb0d8c8eae2ae9a9c0f8d9d8"
+      },
+      {
+        "path": "browser_helpers.js",
+        "bytes": 2471,
+        "sha256": "3b8451094b1ea8a7b999a38b9b35ca16dccf09ec1a3acfa6335bb38b781dba3f"
+      },
+      {
+        "path": "cleanup-search.json",
+        "bytes": 600,
+        "sha256": "6ccbcdea54b9ff0ec5f71a64fc9bdad8dc23f99ff8edcdf916ba730978ab8514"
+      },
+      {
+        "path": "cleanup-zero.jpg",
+        "bytes": 26679,
+        "sha256": "ac049f193567a75aab876de0f5511e132aee15374100dc3e4085795876243aec"
+      },
+      {
+        "path": "connector_schemas.json",
+        "bytes": 6279,
+        "sha256": "614bcac2fb1d1b825d1606fd62bafd8f28f93e2ef2207b9bbc3eef97d7745b75"
+      },
+      {
+        "path": "initial-read-event.json",
+        "bytes": 1485,
+        "sha256": "ba7bc895ef530e8449ffaa487815a9fb07834058f439764dd5a4882e58e6e6cf"
+      },
+      {
+        "path": "initial-search.json",
+        "bytes": 1733,
+        "sha256": "f7bdfcdbb4dde34307ef91e20dd90e15e0535a3a406a6914ab5bb842e93f93a1"
+      },
+      {
+        "path": "plan.md",
+        "bytes": 1273,
+        "sha256": "2dccf57e6c7562d72fb385a20f20c870f18f7aeb316367e57c1bceed38d54ba8"
+      },
+      {
+        "path": "prepared.jpg",
+        "bytes": 64841,
+        "sha256": "50cb46da483e4dbd11f599af2b4299a457a324665acd5f9d42a6f5b2c4b6124d"
+      },
+      {
+        "path": "replacement-editor.jpg",
+        "bytes": 47240,
+        "sha256": "f379797fcce77afb45afeed30b202ad23905ee89febccd74faaa5a1eaa6c1cc8"
+      },
+      {
+        "path": "replacement-read-event.json",
+        "bytes": 1485,
+        "sha256": "d3ee08db0f35552ccafa8e12306d151ccaa6111533a1f8ea927ff55eeefc2664"
+      },
+      {
+        "path": "saved-editor.jpg",
+        "bytes": 68226,
+        "sha256": "cfb1926eadb4bfc4766c778c5e65f780d275abbf2d0383058139f2deda6e7235"
+      },
+      {
+        "path": "saved-popup.jpg",
+        "bytes": 39076,
+        "sha256": "174bed363f916f61a0c33db3dafa6f083cf1782135c4f50d5f5b11a9dc5e6573"
+      },
+      {
+        "path": "summary.json",
+        "bytes": 2305,
+        "sha256": "15e2797943f89b6a95bd4ded77f672c72ec04d2161c51ff6047911eac0a0cd2c"
+      }
+    ]
+  },
+  "replacement-read-event.json": {
+    "start": "2026-10-16T01:00:15.113Z",
+    "end": "2026-10-16T01:00:15.473Z",
+    "args": {
+      "calendar_id": "primary",
+      "event_id": "record-7092c7aada8613be7300"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "guests_can_modify": null,
+        "locked": null,
+        "id": "record-7092c7aada8613be7300",
+        "summary": "FC-PREFLIGHT-20261015-CALENDAR",
+        "status": "confirmed",
+        "organizer": {
+          "is_self": true,
+          "email": "[account-email]",
+          "display_name": null
+        },
+        "description": "FC-PREFLIGHT-MARKER-B\n\n",
+        "location": null,
+        "color_id": null,
+        "event_label_id": null,
+        "start": "2026-10-14T00:00:00",
+        "end": "2026-10-15T00:00:00",
+        "attendees": [],
+        "url": "https://www.google.com/calendar/event?eid=record-7092c7aada8613be7300",
+        "hangout_link": null,
+        "event_type": "default",
+        "transparency": "transparent",
+        "visibility": "private",
+        "attachments": null,
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "recurring_event_id": null,
+        "original_start_time": null,
+        "display_url": "https://www.google.com/calendar/event?eid=record-7092c7aada8613be7300",
+        "display_title": "FC-PREFLIGHT-20261015-CALENDAR"
+      },
+      "isError": false
+    }
+  },
+  "summary.json": {
+    "date_toronto": "2026-10-15",
+    "status": "preflight_passed_cleanup_complete",
+    "excluded_from_scored_trials": true,
+    "created_records": 1,
+    "same_id_description_replacements": 1,
+    "read_event_observed_field_types": {
+      "guests_can_modify": "null",
+      "locked": "null",
+      "id": "str",
+      "summary": "str",
+      "status": "str",
+      "organizer": "dict",
+      "description": "str",
+      "location": "null",
+      "color_id": "null",
+      "event_label_id": "null",
+      "start": "str",
+      "end": "str",
+      "attendees": "list",
+      "url": "str",
+      "hangout_link": "null",
+      "event_type": "str",
+      "transparency": "str",
+      "visibility": "str",
+      "attachments": "null",
+      "reminders": "dict",
+      "recurrence": "null",
+      "recurring_event_id": "null",
+      "original_start_time": "null",
+      "display_url": "str",
+      "display_title": "str"
+    },
+    "all_fields_search_available": false,
+    "native_all_day": true,
+    "native_start_date": "Oct 14, 2026",
+    "native_end_date": "Oct 14, 2026",
+    "connector_start": "2026-10-14T00:00:00",
+    "connector_end": "2026-10-15T00:00:00",
+    "connector_all_day_flag_available": false,
+    "connector_timezone_available": false,
+    "description_initial_raw": "FC-PREFLIGHT-MARKER-A\n\n",
+    "description_replacement_raw": "FC-PREFLIGHT-MARKER-B\n\n",
+    "description_native_initial": "FC-PREFLIGHT-MARKER-A",
+    "description_native_replacement": "FC-PREFLIGHT-MARKER-B",
+    "same_native_id": true,
+    "evidence": {
+      "initial_native_state": "FCP-0051",
+      "initial_description_dom": "FCP-0052",
+      "replacement_native_state": "FCP-0064",
+      "replacement_description_dom": "FCP-0065",
+      "replacement_covered_state": "FCP-0071",
+      "replacement_popup": "FCP-0074",
+      "cleanup_delete_action": "FCP-0076",
+      "cleanup_ready_zero": "FCP-0079",
+      "cleanup_connector": "cleanup-search.json"
+    },
+    "errors": [
+      {
+        "record": "FCP-0014",
+        "kind": "Create menu open deadline before command dispatch",
+        "resolution": "Fresh state FCP-0015 showed no menu/editor. Repeated menu open only. No effective Create or Save repeated."
+      }
+    ],
+    "raw_private": true,
+    "scored_contract_note": "Root draft adopts trailing CR/LF removal only. Earlier excluded preflight plan proposed both boundary ends. Raw strings retained. No scored decision made."
+  }
+}

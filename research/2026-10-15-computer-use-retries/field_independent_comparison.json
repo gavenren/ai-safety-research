@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "trials": 20,
+  "compared_fields": 480,
+  "mismatches": [],
+  "missing_from_independent": []
+}

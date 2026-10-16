@@ -1,0 +1,2082 @@
+[
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C01"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C02"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C03"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C04"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C05"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C06"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C07"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C08"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C09"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C10"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C11"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "C12"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "UNKNOWN",
+    "online": "UNKNOWN",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "UNKNOWN",
+    "online": "UNKNOWN",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "UNKNOWN",
+    "online": "UNKNOWN",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "N01"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "N02"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "N03"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "N04"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "N05"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "N06"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "N07"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MISMATCH",
+    "online": "MISMATCH",
+    "phase": "initial",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "final",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "online_reconstruction",
+    "derived": "MATCH",
+    "online": "MATCH",
+    "phase": "audit",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "mutation_budget",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "baseline_zero_before_create",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "all_admissions_listed",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "freeze_before_create",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "create_admission_before_action",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "repair_admission_before_action",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "initial_before_repair",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "final_before_decision",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "audit_after_decision",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "repair_only_after_mismatch",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "confirm_only_after_match",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "cleanup_active_zero",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "initial_sources_before_check",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "final_sources_before_check",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "audit_sources_before_check",
+    "status": "PASS",
+    "trial": "N08"
+  },
+  {
+    "check": "audit_sources_after_decision",
+    "status": "PASS",
+    "trial": "N08"
+  }
+]

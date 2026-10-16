@@ -1,0 +1,24 @@
+{
+  "frozen_utc": "2026-10-16T01:04:50.301036+00:00",
+  "run_date": "2026-10-15",
+  "seed": 2026101509,
+  "assigned": 20,
+  "sha256": {
+    "field_plan.md": "d6f890a558d66a427574873d7e06c9b3e95ee5a0f0deb58e13f6ec6ed44d44c9",
+    "field_assignments.csv": "51fc0d6f8403efb6d9b020615529c5e1e5ad0b6cc675cbec09d0df247e1027f9",
+    "field_runner_instructions.md": "717dff2934052f5d3955ba93403aa293c456fb493a3139435d6b549820ba22e0",
+    "field_contract.md": "3fa11170c672e61e5be76cee30b9a769fec25507367c336f5aa9b328c4cbb5d7",
+    "fieldcheck.py": "e2f300cd9991286b23cc861507b5e4ff851b9eca3774c5b6a231519acb738977",
+    "fieldcheck_tests.py": "711ed0ca4ca8f19b9e52e6d6995f01301213140a0ddae7e6e4821dc42d333e2e",
+    "field_source_notes.md": "9bf005a672971beedda0115266d938c4055b72323ffc5227bbb8b2bd098da507",
+    "field_design_review.md": "de6ae7df62d624ddf8607c7392ce2816e20766dcfab2e80e183d0f96ad9577ad",
+    "field_preflight.md": "f9e1eb8034602cd87ad359935582c93c5654841e358b9d79dad6224388272df2",
+    "field_environment.json": "014c4543ca3b484f4d64249101d58c327cd9f860518daec7040bf927c74efe00",
+    "field_checker_prefreeze_log.txt": "c00bcf5a22f2a457ce334949401d201302f0ca1be91963fb3141a914952cbae1"
+  },
+  "preflight_log_sha256": {
+    "calendar_preflight": "db0575ab47f6f6c9db88b09c7f414fb722a5b67ecb0d8c8eae2ae9a9c0f8d9d8",
+    "notion_preflight": "d1eae48d3c8e32d8cea9584d2749b78f461219622d6080470a9ff6cf6803c43a"
+  },
+  "checks": "24 checker tests pass. Root review added fail-closed freshness gates and UNKNOWN for empty native IDs before scored execution. A first local manifest was replaced before any runner was authorized; its hash remains in the local change record."
+}

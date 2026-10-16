@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "method": "Independent raw/public structural comparison and source-line checks; no import of publication extractor or main analyzer.",
+  "counts": {
+    "files": 203,
+    "json_members": 194,
+    "action_records": 2689,
+    "state_blocks": 1459,
+    "scalar_values": 59646,
+    "retained_state_lines": 80117
+  },
+  "alias_entries": 38,
+  "public_files_checked": 13,
+  "findings": [],
+  "raw_public_independent_results_equal_after_aliases": true,
+  "adapter_checks": [
+    {
+      "source_file": "calendar_preflight/browser_helpers.js",
+      "source_and_public_hashes_match": true,
+      "python_syntax": null
+    },
+    {
+      "source_file": "calendar_runner/browser_helpers.js",
+      "source_and_public_hashes_match": true,
+      "python_syntax": null
+    },
+    {
+      "source_file": "calendar_runner/browser_helpers_effective.js",
+      "source_and_public_hashes_match": true,
+      "python_syntax": null
+    },
+    {
+      "source_file": "calendar_runner/finish_trial.py",
+      "source_and_public_hashes_match": true,
+      "python_syntax": true
+    },
+    {
+      "source_file": "calendar_runner/run_checkpoint.py",
+      "source_and_public_hashes_match": true,
+      "python_syntax": true
+    },
+    {
+      "source_file": "calendar_runner/run_checkpoint_v1.py",
+      "source_and_public_hashes_match": true,
+      "python_syntax": true
+    },
+    {
+      "source_file": "calendar_runner/run_checkpoint_v2.py",
+      "source_and_public_hashes_match": true,
+      "python_syntax": true
+    },
+    {
+      "source_file": "notion_runner/actual_helpers.js",
+      "source_and_public_hashes_match": true,
+      "python_syntax": null
+    },
+    {
+      "source_file": "notion_runner/actual_helpers_anonymous.txt",
+      "source_and_public_hashes_match": true,
+      "python_syntax": null
+    }
+  ],
+  "preflight_checks": {
+    "calendar_preflight": {
+      "frozen_prefix_match": true,
+      "current_records": 80,
+      "frozen_records": 80,
+      "source_sha256": "db0575ab47f6f6c9db88b09c7f414fb722a5b67ecb0d8c8eae2ae9a9c0f8d9d8"
+    },
+    "notion_preflight": {
+      "frozen_prefix_match": true,
+      "current_records": 163,
+      "frozen_records": 162,
+      "source_sha256": "59fd4a3878021a45dd5d235833f998610688e41a607ec32a97911539eab0e794"
+    }
+  },
+  "image_review": "Separate visual review required.",
+  "raw_files_remain_private": true,
+  "adapter_syntax": [
+    {
+      "source_file": "calendar_preflight/browser_helpers.js",
+      "source_public_bytes_equal": true,
+      "raw_and_public_syntax_exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "source_file": "calendar_runner/browser_helpers.js",
+      "source_public_bytes_equal": true,
+      "raw_and_public_syntax_exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "source_file": "calendar_runner/browser_helpers_effective.js",
+      "source_public_bytes_equal": true,
+      "raw_and_public_syntax_exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "source_file": "calendar_runner/finish_trial.py",
+      "source_public_bytes_equal": true
+    },
+    {
+      "source_file": "calendar_runner/run_checkpoint.py",
+      "source_public_bytes_equal": true
+    },
+    {
+      "source_file": "calendar_runner/run_checkpoint_v1.py",
+      "source_public_bytes_equal": true
+    },
+    {
+      "source_file": "calendar_runner/run_checkpoint_v2.py",
+      "source_public_bytes_equal": true
+    },
+    {
+      "source_file": "notion_runner/actual_helpers.js",
+      "source_public_bytes_equal": true,
+      "raw_and_public_syntax_exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "source_file": "notion_runner/actual_helpers_anonymous.txt",
+      "source_public_bytes_equal": true,
+      "raw_and_public_syntax_exit_codes": [
+        1,
+        1
+      ],
+      "individual_function_expression_count": 11,
+      "individual_function_syntax_exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scope": "Archive is a list of function expressions, not a standalone script; each expression is checked separately."
+    }
+  ],
+  "resolved_before_publication": [
+    {
+      "issue": "33 intermediate Notion loading states lost a progress marker in the task-token-absent fallback.",
+      "fix": "The fallback now preserves a progress marker when it occurs anywhere in the original state. All source checks were repeated.",
+      "outcomes_changed": false
+    },
+    {
+      "issue": "The schema word str was wrongly included in a private-identity alias map. The broad replacement corrupted helper code in an unpublished archive.",
+      "fix": "Identity discovery now requires a sufficiently long identity-shaped value. All nine archived helpers match the original source bytes.",
+      "outcomes_changed": false
+    }
+  ],
+  "private_review_helper_sha256": "caf7ca366c9989584ccfb1a0bc6dd3f9e67a19a77dbf5c4d50a0ba5f7d0225d8",
+  "public_input_sha256": {
+    "field_adapter_manifest.json": "061c11e4283354b6e41afd6905f0914c53f7a137b1c3bf46fb92f9b433f5f47e",
+    "field_adapters.zip": "a8df66daa2cf582eb0cee78c186b96d4d94efefd73b9e57f4f5caa278f73564f",
+    "field_calendar_preflight_README.md": "c978a23654b088d95d71eeae2271aad33017ea0c21eff2e33abbf6ae49fb18d9",
+    "field_calendar_preflight_actions.jsonl": "564bdf1eac9df66b923b3f8dfa6434722ad80bfc0b4943237921ad9af40d2c31",
+    "field_calendar_preflight_plan.md": "2dccf57e6c7562d72fb385a20f20c870f18f7aeb316367e57c1bceed38d54ba8",
+    "field_calendar_preflight_records.json": "3c9f932d32cc0d94b8b9ecbc3f1106fb3f7e10cc11a713c9c1b860091c35db58",
+    "field_calendar_runner_actions.jsonl": "42789548d118308eef40ac2c2231011f8696b61d9d6c99e68eb010071f2f7a5a",
+    "field_calendar_runner_error_transcripts.md": "ae6822bf3157665daee4977c9a407749da4a90d018a8eb83dc1e1fe20ac7da1f",
+    "field_calendar_runner_records.json": "c43c61c985924bd4a4b0f2078a0d7c448ebfccf53fd0d49ca6a4a7484c252194",
+    "field_calendar_runner_run_summary.md": "ef98aa2c65209d3d74f49b3d4839c60f990c1e17d09825dc3a829d34027bcadc",
+    "field_evidence_manifest.json": "070cf4e2e7b4c71f795d687b85a440fc5c441d3286668c49f17897d749af5cdb",
+    "field_notion_preflight_actions.jsonl": "6b83e2c999331445518af84fb99119a553e255bd6ca20a6ebd795755e36bc353",
+    "field_notion_preflight_records.json": "7946f8b8310eb208fb444e95933718952afa8e3d9c0725ef551c376d62e01162",
+    "field_notion_runner_actions.jsonl": "459bfe1627a2a860ad6ce4fcc87082d019ecebc7c1cb3b9d44f15f830c1d5edf",
+    "field_notion_runner_records.json": "8a05155dd7f6d5133cd6a0c168a2cd691b930e0a5b1abb94bf3005ef26c2b2a6",
+    "field_notion_runner_run_summary.md": "a52f085e34bb29ceda842e5d62bc3d8f49b7d95d01be3c60fa6e709a872c515f"
+  }
+}

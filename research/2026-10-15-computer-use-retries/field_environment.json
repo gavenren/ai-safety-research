@@ -1,0 +1,7 @@
+{
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "browser_control": "Supported CUA tool, live connected Chrome accounts",
+  "model": "Codex agent; exact immutable model build unavailable",
+  "cost": "No new paid API or compute service"
+}

@@ -1,0 +1,29 @@
+test_admitted_never_recreates (fieldcheck_tests.ActionTests.test_admitted_never_recreates) ... ok
+test_bad_types (fieldcheck_tests.ActionTests.test_bad_types) ... ok
+test_first_create (fieldcheck_tests.ActionTests.test_first_create) ... ok
+test_repair (fieldcheck_tests.ActionTests.test_repair) ... ok
+test_correct (fieldcheck_tests.FieldTests.test_correct) ... ok
+test_date_types_and_exclusive_end (fieldcheck_tests.FieldTests.test_date_types_and_exclusive_end) ... ok
+test_deliberate_wrong_fields (fieldcheck_tests.FieldTests.test_deliberate_wrong_fields) ... ok
+test_empty_identity_is_unknown (fieldcheck_tests.FieldTests.test_empty_identity_is_unknown) ... ok
+test_identity_and_count (fieldcheck_tests.FieldTests.test_identity_and_count) ... ok
+test_marker_suffix_only (fieldcheck_tests.FieldTests.test_marker_suffix_only) ... ok
+test_midnight_does_not_prove_all_day (fieldcheck_tests.FieldTests.test_midnight_does_not_prove_all_day) ... ok
+test_missing_is_not_empty (fieldcheck_tests.FieldTests.test_missing_is_not_empty) ... ok
+test_notion (fieldcheck_tests.FieldTests.test_notion) ... ok
+test_offline_baseline (fieldcheck_tests.FieldTests.test_offline_baseline) ... ok
+test_other_wrong_fields (fieldcheck_tests.FieldTests.test_other_wrong_fields) ... ok
+test_outer_label_is_not_evidence (fieldcheck_tests.FieldTests.test_outer_label_is_not_evidence) ... ok
+test_pending_draft_cannot_prove_saved_mismatch (fieldcheck_tests.FieldTests.test_pending_draft_cannot_prove_saved_mismatch) ... ok
+test_readiness_fails_closed (fieldcheck_tests.FieldTests.test_readiness_fails_closed) ... ok
+test_reminder_bool_type (fieldcheck_tests.FieldTests.test_reminder_bool_type) ... ok
+test_stale_service_or_incomplete_scope_cannot_authorize_repair (fieldcheck_tests.FieldTests.test_stale_service_or_incomplete_scope_cannot_authorize_repair) ... ok
+test_unsupported_marker (fieldcheck_tests.FieldTests.test_unsupported_marker) ... ok
+test_visible_marker_is_exact (fieldcheck_tests.FieldTests.test_visible_marker_is_exact) ... ok
+test_wrong_channel_wins (fieldcheck_tests.FieldTests.test_wrong_channel_wins) ... ok
+test_wrong_wins_missing (fieldcheck_tests.FieldTests.test_wrong_wins_missing) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.006s
+
+OK

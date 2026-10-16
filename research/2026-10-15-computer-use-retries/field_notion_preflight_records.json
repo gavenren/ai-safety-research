@@ -1,0 +1,85 @@
+{
+  "manifest.json": {
+    "summary.json": "0c543db24409ee619129ea6affb495981f9188c79d845f74969bb6dd711d6dd4",
+    "actions.jsonl": "d1eae48d3c8e32d8cea9584d2749b78f461219622d6080470a9ff6cf6803c43a",
+    "images/final-ready-empty-parent.png": "bda32d4cb7e02e948078973638b78d0d55dfbde287492f29e924e5a05f108589",
+    "images/repair-submitted.png": "229a88e36913c4a56a85ebf8c24716d0a6f634b4e45965a2f7e98a767c46018e",
+    "images/initial-native-match.png": "bad3e4f77076b5d565e2f8b7fb325882e8a34f58fed16a324531cfe20979d302",
+    "images/saved-repaired-match.png": "e4bb2fca78d6234648e11345b52a377c44bad86efb7ef5eda65e199beaca4f7c",
+    "images/saved-marker-mismatch.png": "29661a4285d4be41321eede50accb9d1ed22660d8d6d8d256e20dbc91e28dbb7",
+    "images/parent-empty.png": "db6251fe5265b22238a8481471024a1467e09eb18cd3f7a3d7323d9374daab5f",
+    "images/saved-two-field-mismatch.png": "07ef16ab2aa2013b9bbb7061107ef0968d9fd0e21d62635fe785881d0881c088"
+  },
+  "summary.json": {
+    "status": "PREFLIGHT_COMPLETE",
+    "scored_trials_started": false,
+    "parent": {
+      "title": "FIELD-CHECK-20261015",
+      "native_id": "record-39a5a4243ab92b0c7318",
+      "view_id": "record-fd291963e25a628b8e60",
+      "url": "https://app.notion.com/p/record-39a5a4243ab92b0c7318?v=record-fd291963e25a628b8e60",
+      "visibility": "Private",
+      "remaining_records": 0,
+      "source_state": "NFP-00161"
+    },
+    "preflight_record": {
+      "title": "FIELD-CHECK-20261015-PREFLIGHT",
+      "native_id": "record-076a254154178c673adb",
+      "href": "/p/record-076a254154178c673adb?pvs=23",
+      "cleanup": "recoverable Trash",
+      "cleanup_state": "NFP-00153"
+    },
+    "fields": {
+      "Marker": {
+        "type": "Text",
+        "read_schema": "table Page properties > row Marker > value cell > button accessible name",
+        "expected": "unique ASCII token",
+        "empty": "button Empty"
+      },
+      "Verified": {
+        "type": "Checkbox",
+        "read_schema": "table Page properties > row Verified > checkbox checked or unchecked",
+        "expected": false
+      },
+      "title": {
+        "read_schema": "banner native title button or read-only DOM textbox textContent"
+      },
+      "body": {
+        "read_schema": "empty-page prompt; no body text"
+      }
+    },
+    "initial_match_source": "NFP-00066",
+    "wrong_saved_source": "NFP-00104",
+    "repair_saved_source": "NFP-00127",
+    "repair": {
+      "same_native_id": true,
+      "Marker": "target token restored",
+      "Verified": false
+    },
+    "failures": [
+      {
+        "kind": "setup persistence",
+        "source": "NFP-00085",
+        "note": "Immediate reload after Enter returned original Marker, although prior UI showed WRONG. Retain mislabeled image saved-marker-mismatch; its contents show MATCH."
+      },
+      {
+        "kind": "action error",
+        "source": "NFP-00117",
+        "note": "setChecked(false) reported failure, but immediate snapshot and later reload showed unchecked. No repeat toggle."
+      },
+      {
+        "kind": "action error",
+        "source": "NFP-00137",
+        "note": "Cleanup menu disappeared before Escape; no mutation repeated."
+      }
+    ],
+    "readiness": "Need native title header, properties table, no loading progress or pending property editor. Initial property visibility alone is insufficient. Writing Replay prompt remains nonmodal and is not changed.",
+    "proposed_cases": [
+      "correct",
+      "wrongMarker",
+      "emptyMarker",
+      "wrongVerified"
+    ],
+    "proposed_repeats": 2
+  }
+}

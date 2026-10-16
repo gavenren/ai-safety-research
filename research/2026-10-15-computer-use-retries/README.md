@@ -2,9 +2,33 @@
 
 This is a separate user-requested paper dated October 15, 2026. It is not a second daily automation study.
 
-Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, a later 30-trial experiment in one authenticated Google Drive account, a 32-trial two-tab extension in that account, a 48-trial extension on two additional public table websites, a 24-trial extension in production Notion and Google Calendar accounts, and a new 24-trial test of revised rules in those accounts. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
+Read [report.md](report.md) or [paper.pdf](paper.pdf). The paper includes a finite synthetic benchmark, an 18-trial local browser pilot, a 60-trial experiment on two live public test sites, a later 30-trial experiment in one authenticated Google Drive account, a 32-trial two-tab extension in that account, a 48-trial extension on two additional public table websites, a 24-trial extension in production Notion and Google Calendar accounts, a 24-trial test of revised rules in those accounts, and a new 20-trial test of saved-field correction. The experiments test instructed retry rules with real browser actions. Storage and audit guarantees differ across the studies. The paper applies known retry and idempotency principles. It does not claim a new protocol or a general improvement in AI agent performance.
 
 Codex generated this work. Separate agents checked the design, sources, calculations, reproduction, and PDF. No human or external peer review occurred. No new reuse license is assigned.
+
+## Analyze the saved-field correction evidence
+
+The latest extension has 20 assigned cases in production Google Calendar and Notion accounts. It defines field equality before the run, then tests wrong saved values and one correction on the same native record. Earlier results remain unchanged.
+
+Use a separate copy of this folder. Python standard library is sufficient. These commands use saved files only. They make no browser, model, connector, or network call.
+
+```sh
+python3 -m unittest fieldcheck_tests -v
+python3 field_analyzer_tests.py
+python3 -m unittest field_independent_tests -v
+python3 field_analyze.py --input-dir . --output-dir . > field_analysis_log.txt
+python3 field_independent_replay.py --input-dir . --output field_independent_replay.json
+```
+
+The [plan](field_plan.md), [assignments](field_assignments.csv), [instructions](field_runner_instructions.md), [field contract](field_contract.md), and [freeze manifest](field_plan_manifest.json) define the test. The checker returns MATCH, MISMATCH, or UNKNOWN. It does not drive the browser. Real agents execute the UI actions and save observations. Calendar calls the frozen checker before the next decision. Notion records the agent’s field judgments; its helper does not enforce the gates. The main and independent analyzers later check the actual Notion values and decision order. The [analysis method](field_analysis_method.md) states how the archived sources become outcomes. Use all 20 assignments for release analysis; the optional subset argument is for development only.
+
+The two runner record bundles contain JSON members keyed by their original filenames, including every trial packet and Calendar connector reply. The task-region action logs retain source references, exact synthetic field values, timestamps, errors, and live decisions. Private identities have stable aliases. [field_evidence_manifest.json](field_evidence_manifest.json) links the public extracts to private source hashes. The [change record](field_changes.md) includes failed injections, source-reference errors, and adapter changes. A record count is a distinct native identity count. A multi-day Calendar event can have more than one visible search row.
+
+The baseline checks title and count offline on the same initial observations. It does not execute another policy or create another record. Its false matches are classification errors, not live false completion claims. The current results do not rescore any earlier strict Calendar UNKNOWN result. [field_adapters.zip](field_adapters.zip) preserves final and retained earlier helper code, with private paths and IDs replaced. [The adapter manifest](field_adapter_manifest.json) states the source hashes and limits. The helpers need the documented browser environment and a new authorized setup; they are not an unattended runner.
+
+For a new live run, use authorized accounts, a new private test database, new unique tokens, and safe past Calendar dates. Recheck the UI and connector representations in a separate preflight. Freeze the new plan and equality contract before scored actions. Reserve one Create before its first possible effect. Never reset that budget after an empty result, timeout, or failed navigation. Permit at most one full-value correction of the assigned field on the first native ID. Missing evidence permits reads or an unresolved stop. It does not permit another Create. Require fresh saved-field and covered-view reads after the last mutation, then a separate audit after the decision. Retain every assigned failure. Move only known test records to recoverable Trash and verify zero active records. Do not send invitations, change access, edit user records, or empty Trash.
+
+Saved evidence can reproduce these counts. A new live run can differ because the services, account state, browser extensions, model inference, and timing can change. No population error rate, general model improvement, or exactly-once service guarantee follows from these selected cases. The [review](field_review.md), [reproduction check](field_reproduction_check.json), and [image review](field_image_review.json) state the completed checks and limits.
 
 ## Analyze the revised rule evidence
 
@@ -194,3 +218,5 @@ The two-tab extension preserves the earlier 30-trial evidence. account_version_f
 The additional website extension preserves all earlier evidence. trigger_version_final_review.md, trigger_version_checklist.md, trigger_version_release_checks.json, and trigger_version_pdf_check.json preserve the preceding two-tab release. Their hashes are historical. The cross files describe the new 48-trial extension. Current final_review.md, release_checks.json, pdf_check.json, and package_manifest.json apply to the latest release.
 
 The production account extension preserves all prior experimental evidence. cross_version_final_review.md, cross_version_checklist.md, cross_version_release_checks.json, and cross_version_pdf_check.json preserve the preceding 48-trial release. Their document hashes are historical. The production files describe the new 24-trial extension. Current final_review.md, release_checks.json, pdf_check.json, and package_manifest.json apply to this release.
+
+The saved-field extension preserves all earlier experimental evidence. The v2_version files preserve the preceding rule-revision release checks and package manifest. Their report and PDF hashes are historical. The field files describe the new 20-trial extension. Current final_review.md, release_checks.json, pdf_check.json, and package_manifest.json apply to this release.

@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "reviewer": "Independent Codex agent",
+  "human_review": "No human review occurred.",
+  "review_date": "2026-10-15",
+  "pdf": "paper.pdf",
+  "pdf_sha256": "875049711911750608440729d4fe5be8530d56073d47ead9e419190995848277",
+  "report_sha256": "9d8290b5e449abd96afee1738dbe4760ff97e21e664bd65fa70ea518de89f842",
+  "page_count": 36,
+  "all_pages_inspected": true,
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+  ],
+  "rendered_pages": [
+    {
+      "page": 1,
+      "file": "page-01.png",
+      "sha256": "b6a2653bee4b3e84bcd79fb7e5bc4b4a08db58d8642039125dda9f121b960655"
+    },
+    {
+      "page": 2,
+      "file": "page-02.png",
+      "sha256": "7d76f6cd415da00cc4dd4c37d58882b59344c406f527273ebd2c3c17f3656ca8"
+    },
+    {
+      "page": 3,
+      "file": "page-03.png",
+      "sha256": "cf25f2159c8bdd611c6960394c179c48021398e92bbb696b95fe89f1af233635"
+    },
+    {
+      "page": 4,
+      "file": "page-04.png",
+      "sha256": "b0214e49dbee4fb0a698e6e1bf063fe63d40286bcd650268d243208b1f75c3b0"
+    },
+    {
+      "page": 5,
+      "file": "page-05.png",
+      "sha256": "80d288db6ab010cc204e70db514305013f22e039991374bc100ab583349a467d"
+    },
+    {
+      "page": 6,
+      "file": "page-06.png",
+      "sha256": "1c0d603afe52951478024028b5d6b9b01819bf468d50c15d3a9ae0597d9bb297"
+    },
+    {
+      "page": 7,
+      "file": "page-07.png",
+      "sha256": "7329028ff307ac26cdc61505583f15aff96398a2c356329cbf6ede198ccf1ffa"
+    },
+    {
+      "page": 8,
+      "file": "page-08.png",
+      "sha256": "a66949b431038075bd1550eba907131ee34e4a2043ceee9f3f292ba86305b4b6"
+    },
+    {
+      "page": 9,
+      "file": "page-09.png",
+      "sha256": "3e89f75ca6f264e353c031889d8c2d9446f8ffdd6786f75065a987cc9fd23f0f"
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "sha256": "03344cb40aaeb9a5e7c28d29afe538fdaed11d3e78f4043d72bd08a49a05844f"
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "sha256": "b3ea134fd201b3c0238fe7129628609a6ea1cb31456b60de9ea33388d12e1270"
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "sha256": "91db34ad6d769610652d94024c980ee1b961ae1fd55d1e1f92112babeefb9b71"
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "sha256": "beca290b07e7dfeeb8af5b44d1e6abc12e9f6a014fc06c7de0252fc66fca8c54"
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "sha256": "05c6de6e8dee0bec691b01ed27a248717eb67ccf2fd6f50d9dc49360aa02e55f"
+    },
+    {
+      "page": 15,
+      "file": "page-15.png",
+      "sha256": "f92a2c659d954156a55db64bd2d2c2cdbb4a58b8859f317c4626440295fd4369"
+    },
+    {
+      "page": 16,
+      "file": "page-16.png",
+      "sha256": "8b26f7d77cd57d69a52ff7efe2e667005264eaa7e50f605008c0f671059c2fc8"
+    },
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "sha256": "3b305a4be22a8059a71a686d27d2e7bcdf82a02180d4ec7deb8745697e6d6639"
+    },
+    {
+      "page": 18,
+      "file": "page-18.png",
+      "sha256": "329a773eba3d0175dcfe1f77f19af9888946d3a179d1db2f71e1031439aa58f0"
+    },
+    {
+      "page": 19,
+      "file": "page-19.png",
+      "sha256": "b88cb0dcaaba4702a160efd5b3931039f48a6446ce34cd994a6cadbfe448192c"
+    },
+    {
+      "page": 20,
+      "file": "page-20.png",
+      "sha256": "152312cde6a6f42333759038aa434840ed5a2578883f3e1dce883be8f01c64ab"
+    },
+    {
+      "page": 21,
+      "file": "page-21.png",
+      "sha256": "472363b9c9a03c37299eeaab1701384a2966451f2404a8822e538ea759bad39e"
+    },
+    {
+      "page": 22,
+      "file": "page-22.png",
+      "sha256": "d4f951a2dae2cdf550a6f06615f5937a5464d4c6499cc8d834f02064a03c3bd6"
+    },
+    {
+      "page": 23,
+      "file": "page-23.png",
+      "sha256": "8fd9a48b4c6e4a3417e91311d207eeb670d471991d82e61b86645e7a4873c660"
+    },
+    {
+      "page": 24,
+      "file": "page-24.png",
+      "sha256": "f4b50446b77e1863146246dfdee368bacdb50b4cd9fb3d7eb4d943c92dd16623"
+    },
+    {
+      "page": 25,
+      "file": "page-25.png",
+      "sha256": "42a26ff0994e9841795de69e093bb5c4a548cd27bc541d4b756f5a69d7b72f07"
+    },
+    {
+      "page": 26,
+      "file": "page-26.png",
+      "sha256": "376d91d363837c605040bcce72f192da1a0426352543af316070635db0d91219"
+    },
+    {
+      "page": 27,
+      "file": "page-27.png",
+      "sha256": "c4a6d898f92b9ae88d4a78dcb3b49f59e67b3f2a4a301827dfc19d30a5166566"
+    },
+    {
+      "page": 28,
+      "file": "page-28.png",
+      "sha256": "6096bd641e7e2a5825484aea9f8c5aca1b5725ee826542839e6c70fde8618372"
+    },
+    {
+      "page": 29,
+      "file": "page-29.png",
+      "sha256": "2878ebdd1aa0bc65e617f2b8c7acc167194b80f3b4da1c28f5fa0e70185c1f4b"
+    },
+    {
+      "page": 30,
+      "file": "page-30.png",
+      "sha256": "95823b48a27644726ade0d589a5a19e12e49adb9525d7496de95f0d68f047872"
+    },
+    {
+      "page": 31,
+      "file": "page-31.png",
+      "sha256": "c8b3867d3f7c071e914b313d3541ec34b70ac0dd8a5f9fe53e5eb899547dc3cd"
+    },
+    {
+      "page": 32,
+      "file": "page-32.png",
+      "sha256": "c144ac87ca943f4b645fe0f1ebc1e0fc8ae5af8a75fc4f9d101654ced2e45aa5"
+    },
+    {
+      "page": 33,
+      "file": "page-33.png",
+      "sha256": "fc82a00327b3935b17934268da138c1f35e939e19fbc425b2857fdef15a9c34c"
+    },
+    {
+      "page": 34,
+      "file": "page-34.png",
+      "sha256": "526a0ea738ad144215388497c3a238ba4f023f8394998949223e3ad07a50180d"
+    },
+    {
+      "page": 35,
+      "file": "page-35.png",
+      "sha256": "569021a3bc643216ad9faadefd49fe0bfb6e29542e22c6cf80be62e4b0e8323a"
+    },
+    {
+      "page": 36,
+      "file": "page-36.png",
+      "sha256": "140a36008ab9dd7a251706067feee09d519a135a47463344fd71d7edbc8b86c5"
+    }
+  ],
+  "scope": "Visual layout review of all page renders and a read-only font check. This review does not independently verify every research claim or link destination.",
+  "checks": {
+    "text_legibility": "PASS",
+    "page_bounds_and_clipping": "PASS",
+    "tables_and_headers": "PASS",
+    "figures_and_captions": "PASS",
+    "references_and_visible_link_layout": "PASS",
+    "new_abstract": "PASS",
+    "section_13_and_two_service_result_table": "PASS",
+    "font_embedding": "PASS: All six fonts used for painted text are embedded DejaVu subsets, version 2.37. A Helvetica resource has no painted text operations.",
+    "font_notices": "PASS: Each embedded font retains copyright, version, and license name records. FONT_LICENSE.txt matches the installed license notice after whitespace normalization.",
+    "font_source_hashes": "PASS: All seven registered source font hashes match pdf_environment.json."
+  },
+  "font_license_notice": "FONT_LICENSE.txt",
+  "font_license_notice_sha256": "d75eccf88ee7e0030311eb95fa4216806250c45b5ccf1922a6dd79ca41ea3a37",
+  "embedded_fonts": [
+    {
+      "name": "/AAAAAA+DejaVuSans",
+      "sha256": "ce17d44b8409d14d6141d8c2ea7ee56a93798aebbecd363e249d9b6240e18a5d",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    },
+    {
+      "name": "/AAAAAA+DejaVuSans-Bold",
+      "sha256": "faa12550a4e461987665b7a90500df4e7ab4e1e66016d68d7415dc4543a16240",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    },
+    {
+      "name": "/AAAAAA+DejaVuSansMono",
+      "sha256": "f5469035201f6d2ea5cf242913f101a6eedfb1398174c341507029dc2d61cc12",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    },
+    {
+      "name": "/AAAAAA+DejaVuSerif",
+      "sha256": "d76412fee67d27ca8c752aff38bf11ada8b77eb59d8c23470a1dca1c68fafd08",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    },
+    {
+      "name": "/AAAAAA+DejaVuSerif-Bold",
+      "sha256": "93c874bf8902ea7eee8c1fdc3812bc9c81f4b7d8b392dac623ad0f6bce33ddf1",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    },
+    {
+      "name": "/AAAAAA+DejaVuSerif-Italic",
+      "sha256": "12c6256132f677403982393fa6641e5c3ceb286439f55dd54d9875ad19ea93f1",
+      "version": [
+        "Version 2.37"
+      ],
+      "copyright_record_present": true,
+      "license_record_present": true
+    }
+  ],
+  "notes": [
+    "The evidence screenshot on page 22 has a cut source edge. This is part of the original capture and is described in the text; it is not a PDF page layout defect.",
+    "The review did not change the PDF, source text, fonts, or image bytes."
+  ],
+  "issues": []
+}

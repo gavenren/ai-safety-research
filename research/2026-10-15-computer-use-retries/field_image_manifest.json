@@ -1,0 +1,1297 @@
+{
+  "schema_version": 1,
+  "study": "2026-10-15-computer-use-field-checks",
+  "archive": "field_images.zip",
+  "archive_sha256": "0231a739061788f5516d94166e8f8c8feb37217c32a434c6c53b57a235a38153",
+  "original_count": 111,
+  "public_count": 52,
+  "excluded_private_count": 59,
+  "method": "An independent agent viewed every original image. The ZIP contains safe original bytes only. No image was altered during review or packaging. Full Calendar views and one Notion Trash image remain private because they show the account display name.",
+  "scope": "These are the four study image folders. PDF page renders are not study evidence and are outside this archive.",
+  "capture_notes": "Public Calendar images are native task clips. Public Notion images are full content viewports with the sidebar closed. A clip cannot prove facts outside its visible area. Logs supply identity, time, readiness, and hidden fields. Native prompts and image filenames alone are not proof of a saved state.",
+  "images": [
+    {
+      "path": "calendar_preflight/cleanup-zero.jpg",
+      "group": "calendar_preflight",
+      "sha256": "ac049f193567a75aab876de0f5511e132aee15374100dc3e4085795876243aec",
+      "bytes": 26679,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_preflight/prepared.jpg",
+      "group": "calendar_preflight",
+      "sha256": "50cb46da483e4dbd11f599af2b4299a457a324665acd5f9d42a6f5b2c4b6124d",
+      "bytes": 64841,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": [
+        "The capture has four tiled copies of the same view."
+      ]
+    },
+    {
+      "path": "calendar_preflight/replacement-editor.jpg",
+      "group": "calendar_preflight",
+      "sha256": "f379797fcce77afb45afeed30b202ad23905ee89febccd74faaa5a1eaa6c1cc8",
+      "bytes": 47240,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_preflight/saved-editor.jpg",
+      "group": "calendar_preflight",
+      "sha256": "cfb1926eadb4bfc4766c778c5e65f780d275abbf2d0383058139f2deda6e7235",
+      "bytes": 68226,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": [
+        "The capture has four tiled copies of the same view."
+      ]
+    },
+    {
+      "path": "calendar_preflight/saved-popup.jpg",
+      "group": "calendar_preflight",
+      "sha256": "174bed363f916f61a0c33db3dafa6f083cf1782135c4f50d5f5b11a9dc5e6573",
+      "bytes": 39076,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C01-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "2f370ff085bec98488973018e9fad5f78e6ec1f3e47a6a617b51b10e1801920f",
+      "bytes": 46551,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C01",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C01-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "89e7bdac668a190a646b3b86a1bd31ccf7a06f18ea321d3ec9b5db140e490b03",
+      "bytes": 26152,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C01",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C01-final-ready.jpg",
+      "group": "calendar_runner",
+      "sha256": "9671356c302c97c51f670699a196c1bd8a944048cf961e065d3c667b09e98a21",
+      "bytes": 65788,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C01",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": [
+        "The capture has four tiled copies of the same view."
+      ]
+    },
+    {
+      "path": "calendar_runner/C01-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "607a823d9a88854bc406258bf9ccefc090a5d6b35c1e37bf60b56cc974e246a5",
+      "bytes": 45546,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C01",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C01-initial-ready.jpg",
+      "group": "calendar_runner",
+      "sha256": "365d9ad03ba22fd38fad5910b651ef077c4ff5cdddec469a0d3f5b18ca3a816c",
+      "bytes": 46598,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C01",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C01-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "e954be8fa7a29c2f323c9b16b54b1a486e9485c689dac323545b3ce48604855f",
+      "bytes": 66147,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C01",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": [
+        "The capture has four tiled copies of the same view.",
+        "The source accessibility snapshot contains a progressbar. This image must not be used as completed-state evidence. Use the later ready or settled source."
+      ]
+    },
+    {
+      "path": "calendar_runner/C02-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "29d07a367aad6d0d47b6f0242af897a867a4897ccddef46cd5b0d9264a114b57",
+      "bytes": 45575,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C02",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C02-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "6832050a447f560690c0d4f35148d604a0d024c294b4074e5c9b0641505ac886",
+      "bytes": 26181,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C02",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C02-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "ad4cf839ae18e810ffebef4ede7ea0c2e5ec5e462f4415d7c2ce323c211f6c79",
+      "bytes": 45210,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C02",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C02-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "7ffadcb11f7a91b43da327df0e792611a8ed749218bf40fce7c397a25782c9b9",
+      "bytes": 66382,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C02",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": [
+        "The capture has four tiled copies of the same view."
+      ]
+    },
+    {
+      "path": "calendar_runner/C03-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "f520c153ed6845891d83f51ba6e209230e8c0de6a0135e742f297d50ecc0bd38",
+      "bytes": 44504,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C03",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C03-cleanup-settled.jpg",
+      "group": "calendar_runner",
+      "sha256": "bfcc1cf26301a8cc50e8472c44a7ebac88036bc1e6bdecdb993dfd1fb9dcdf3a",
+      "bytes": 26252,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C03",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C03-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "a4cdadd6661320e5ccabc85279de27721edc15dcde3f6e523f5b52af9f0cfda5",
+      "bytes": 26196,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C03",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": [
+        "The capture shows no results. Use the later settled capture and readiness log for the cleanup check.",
+        "The source accessibility snapshot contains a progressbar. This image must not be used as completed-state evidence. Use the later ready or settled source."
+      ]
+    },
+    {
+      "path": "calendar_runner/C03-final-description-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "16ce0d6d4a5ab42281d70b24d43242870565ca1ffe793378e3ea42fcd3ce766f",
+      "bytes": 13600,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C03",
+      "exclusion_reason": null,
+      "notes": [
+        "This is a native task clip. The full record title and identity are outside this clip.",
+        "The description matches the C03 test token."
+      ]
+    },
+    {
+      "path": "calendar_runner/C03-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "7378e07756ebc25e5822ecf3f852183f8b60f090ebe32ca4322cdaa9be1c137d",
+      "bytes": 45672,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C03",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C03-initial-description-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "601e1acb7d8fb63698ba2f292c99cc9a3678771c64810c8de0dd70fb2a02565f",
+      "bytes": 14084,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C03",
+      "exclusion_reason": null,
+      "notes": [
+        "The description has the WRONG suffix. This is a native task clip. The full record title and identity are outside this clip."
+      ]
+    },
+    {
+      "path": "calendar_runner/C03-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "8fa41ac4b24c1df35b4f6450aee9cd956d7a14ff156ba7b52f243a927178c086",
+      "bytes": 45679,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C03",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C04-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "6eaf7f733e2f53cdb22bf4912dc5318adee6d7758c595000a0f42d89aeb6bd52",
+      "bytes": 46793,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C04",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C04-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "93b2c4739e168427b4acd9a4533930594db43b9317ad8a1346b9eadc8a91d592",
+      "bytes": 26222,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C04",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C04-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "1cd1b1e070b89e785f81308e36dca1a44dcd4d5fced36ec56ab518807a88bc56",
+      "bytes": 45749,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C04",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C04-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "c99852ca1375a68abf069874941ce5c0a9d6c63068349aa4dd523e964b65e9de",
+      "bytes": 45620,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C04",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C05-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "4393eab5abfdffdf202aaa22cdfc50452248b0c5fce69404f4b00edf6707df59",
+      "bytes": 47038,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C05",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C05-cleanup-settled.jpg",
+      "group": "calendar_runner",
+      "sha256": "3ac4d3ca15c81ae50ed7fcaa743d924f1e9c0b34c81bb6b2be3a09addf4d87bc",
+      "bytes": 26248,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C05",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C05-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "3a72724fde8c4cb519b63854f53880dc2572400407b5b5ea351047ea1c1f7a40",
+      "bytes": 26188,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C05",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": [
+        "The capture shows no results. Use the later settled capture and readiness log for the cleanup check.",
+        "The source accessibility snapshot contains a progressbar. This image must not be used as completed-state evidence. Use the later ready or settled source."
+      ]
+    },
+    {
+      "path": "calendar_runner/C05-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "b7b09d64a0fb7063004d655a93d8cc87a347123da5a758bd60feae80dbc68e3f",
+      "bytes": 44467,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C05",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C05-initial-description-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "d66fbd36003fb5619a786f1573d9c8978538dd6683603daa8fad5f8111a9e862",
+      "bytes": 12764,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C05",
+      "exclusion_reason": null,
+      "notes": [
+        "This is a native task clip. The full record title and identity are outside this clip.",
+        "The description is empty."
+      ]
+    },
+    {
+      "path": "calendar_runner/C05-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "1c369a4701fd11d7c1c87489a598217ebcca35aa69850d184f68b1e90a1bda2b",
+      "bytes": 46186,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C05",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C06-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "357746f13ce84c4f273a519526c9f7d484a4adbaed5bc47aaa7f7c6b899b140c",
+      "bytes": 45765,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C06",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C06-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "a3e99166e7426074eda719afd2c2d0e1f178d8c850773ae04439c7878577332f",
+      "bytes": 26230,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C06",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C06-final-date-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "ff341a01eb236ca2b0b9e7ca666e98bd6dee23774e592d8c1f8baec3479999d0",
+      "bytes": 10183,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C06",
+      "exclusion_reason": null,
+      "notes": [
+        "This native task clip shows the test title, dates, and all-day field. Other fields and record identity are outside this clip.",
+        "Dates: October 14 to October 14, 2026."
+      ]
+    },
+    {
+      "path": "calendar_runner/C06-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "192426d98fd171ea4d7f325997a1dceae64f6344242bb0460530f0d8ab5f1ad5",
+      "bytes": 45448,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C06",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C06-initial-date-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "d643a91a9f647580ea2d342409a8f55f03d2dad0844405d520157085ed830d48",
+      "bytes": 10157,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C06",
+      "exclusion_reason": null,
+      "notes": [
+        "This native task clip shows the test title, dates, and all-day field. Other fields and record identity are outside this clip.",
+        "Dates: October 13 to October 13, 2026."
+      ]
+    },
+    {
+      "path": "calendar_runner/C06-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "090be0b84df16bc23b879ed2fa86a0ae768914861fe66611e1b42fef4ab6e13c",
+      "bytes": 45504,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C06",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C07-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "cb82538a4d411721918258a311b305a9d1d0a9e4bcd3876c062402833aefbaeb",
+      "bytes": 45948,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C07",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C07-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "93e76c0ed41a7c7a6132bc5b5260af3a64594e586fcb76bdfde3fe743b61fb71",
+      "bytes": 26207,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C07",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C07-final-date-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "250af98a81fb07af11bdb5dcf5d59ec2a0095551a4a8cba2c60b173305aab1f1",
+      "bytes": 10102,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C07",
+      "exclusion_reason": null,
+      "notes": [
+        "This native task clip shows the test title, dates, and all-day field. Other fields and record identity are outside this clip.",
+        "Dates: October 14 to October 14, 2026."
+      ]
+    },
+    {
+      "path": "calendar_runner/C07-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "d34a40f1dc7b1c03865a2bb553f758b2d5a50607a1c3aa1c9132f8078e7b6aa1",
+      "bytes": 45975,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C07",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C07-initial-date-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "5d5000b9cbeeaf11fd21958a3df8509d0c4775f195ad5bbc0d2f7a2fdb6fb4e4",
+      "bytes": 10092,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C07",
+      "exclusion_reason": null,
+      "notes": [
+        "This native task clip shows the test title, dates, and all-day field. Other fields and record identity are outside this clip.",
+        "Dates: October 14 to October 15, 2026."
+      ]
+    },
+    {
+      "path": "calendar_runner/C07-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "5727b36136c304c2c0d109126b897c6be573181738d6e97fd255bc9edaf5c1bc",
+      "bytes": 45937,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C07",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C08-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "4e940df6080b3c4553653ca9a6f4642a26bb53cd18f285bab737bc0fbb689641",
+      "bytes": 45214,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C08",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C08-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "9afce725ad5709a87cce001a7dcdba6b65fe39fb0e166a90cfc15a4da639bd41",
+      "bytes": 26226,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C08",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C08-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "66ceec70e99a4b74920d16d579a11462ae8ab25c27e69234f70d19222677c4fe",
+      "bytes": 45448,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C08",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C08-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "1d687bf876790a294796fb01f02bcc8604dbc072f9e32073d3eb366e6c38e03f",
+      "bytes": 44979,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C08",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C09-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "560d21770bd0c27a00aa4a6816c5d9bfefbd32874dc747da6e6ccfcbeb2df23c",
+      "bytes": 45501,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C09",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C09-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "2d3ab1789203354e208ecb863549ce02058c8d19c79666c1f284b8761abc5047",
+      "bytes": 26258,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C09",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C09-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "69b5a5b83c98c6dbfcf6f21853f209ba1352735c9e4f6d047e0be781cd051474",
+      "bytes": 46044,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C09",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C09-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "4997cb8ade017f1250b6b64cf899acdb66099582f4480bcdabd8c334d55ed0cd",
+      "bytes": 46527,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C09",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C10-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "2c2088089be73f212ada8493b5c1dedf1b58929490e325937b68b90c4aa39361",
+      "bytes": 45950,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C10",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C10-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "1a033dac2ffa1feb142cd54b49fbce1b79703e382b159351935980f675549483",
+      "bytes": 26138,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C10",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C10-final-availability-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "c75a23286cfe17b83a6238bc49c9233d3d2937ed13df9bafd4035da5611af84b",
+      "bytes": 13595,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C10",
+      "exclusion_reason": null,
+      "notes": [
+        "This native task clip shows the availability and test description. The full record title and identity are outside this clip.",
+        "Availability is Free."
+      ]
+    },
+    {
+      "path": "calendar_runner/C10-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "b9f164bd5763a21758e47041dbaf81ffde7d6d8f040448c7b35dbf3d03911a55",
+      "bytes": 45951,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C10",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C10-initial-availability-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "dfe6ad9c6e7026e327928cca72f94845c8c3e637351bf348faa59dbc25b1ec9e",
+      "bytes": 13562,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C10",
+      "exclusion_reason": null,
+      "notes": [
+        "This native task clip shows the availability and test description. The full record title and identity are outside this clip.",
+        "Availability is Busy."
+      ]
+    },
+    {
+      "path": "calendar_runner/C10-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "39e2e755fbacfed7a8bc11369378db721c693f4ea416dcd8b5ffdc0f4551f03a",
+      "bytes": 45425,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C10",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C11-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "d3621826a059931e924586c109a4d76b47fd4929ebc059deef2d0dd31aee368e",
+      "bytes": 45305,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C11",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C11-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "2e2e192c741c16c7c9b3e6bc2e81ac952a8c2223e6b75d06cf2f327450bee532",
+      "bytes": 26158,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C11",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C11-final-date-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "14db261566e383239ce1b9155cbe42bd0ff17b8f9a80f867ccc5d27632433d19",
+      "bytes": 9934,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C11",
+      "exclusion_reason": null,
+      "notes": [
+        "This native task clip shows the C11 test title and dates October 14 to October 14, 2026. Other fields and record identity are outside this clip."
+      ]
+    },
+    {
+      "path": "calendar_runner/C11-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "d5948ee296993f51c960ef35295ea6f16e65b31ebc770523e767430cd9b8f56e",
+      "bytes": 45563,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C11",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C11-initial-date-clip.jpg",
+      "group": "calendar_runner",
+      "sha256": "d2c4973793bff24deaa09b0c96c5f47d9b6076e68fa8b937bc87c9ed4e451c75",
+      "bytes": 9921,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "C11",
+      "exclusion_reason": null,
+      "notes": [
+        "This native task clip shows the C11 test title and dates October 14 to October 15, 2026. Other fields and record identity are outside this clip."
+      ]
+    },
+    {
+      "path": "calendar_runner/C11-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "bafcddc559548b5d074ba320385dc4b9e21921b57a0cf3fe4f0d004104088866",
+      "bytes": 45582,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C11",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C12-audit.jpg",
+      "group": "calendar_runner",
+      "sha256": "83b89240b6a6f1cb0babb799afb132240747bf6f6700dff8e57f78bb1ae35cc4",
+      "bytes": 45879,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C12",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C12-cleanup.jpg",
+      "group": "calendar_runner",
+      "sha256": "b6485d356291311a2f0dbd2bcd074c4a2ff8083f1e82ae17fe70c304de6e7dd0",
+      "bytes": 26106,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C12",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C12-final-settled.jpg",
+      "group": "calendar_runner",
+      "sha256": "8783f1a779a705e1147a7feddc1612082a8fb8b8db1930ced10e4a6a623d9e63",
+      "bytes": 45850,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C12",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/C12-final.jpg",
+      "group": "calendar_runner",
+      "sha256": "b4e61ac2457654e415c87e2c9b534b1d7542b6f99a17ed9b9c39ec8e46750b8a",
+      "bytes": 45564,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C12",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": [
+        "Use the later settled capture and readiness log for the saved-state check."
+      ]
+    },
+    {
+      "path": "calendar_runner/C12-initial.jpg",
+      "group": "calendar_runner",
+      "sha256": "a8fa6c428150a81b31c7769634de79d92f200ab0dde3002f533482ede174099e",
+      "bytes": 45845,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": "C12",
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    },
+    {
+      "path": "calendar_runner/RUN-END-final-prefix-settled-zero.jpg",
+      "group": "calendar_runner",
+      "sha256": "479d9bdff176f59a20b1a8976e8d2756d3233f334a6730a913c85352e33db2d6",
+      "bytes": 8025,
+      "status": "PUBLIC",
+      "evidence_role": "run_cleanup",
+      "trial_id": null,
+      "exclusion_reason": null,
+      "notes": [
+        "This native task clip shows a run-prefix search with no results. It excludes the account sidebar. Use the settled observation and log to check readiness."
+      ]
+    },
+    {
+      "path": "calendar_runner/RUN-END-final-prefix-zero.jpg",
+      "group": "calendar_runner",
+      "sha256": "ed07f9c6395fcdfaffaee426e49fce5fd60bb28deed100df2e42dcde1eb4bac9",
+      "bytes": 7594,
+      "status": "PUBLIC",
+      "evidence_role": "run_cleanup",
+      "trial_id": null,
+      "exclusion_reason": null,
+      "notes": [
+        "This native task clip shows a run-prefix search with no results. It excludes the account sidebar. Use the settled observation and log to check readiness.",
+        "The source accessibility snapshot contains a progressbar. This image must not be used as completed-state evidence. Use the later ready or settled source."
+      ]
+    },
+    {
+      "path": "notion_preflight/images/N01-initial-no-record.png",
+      "group": "notion_preflight",
+      "sha256": "b2a3fc25fff382ee2754565c5c23fee9ee71c422da12029ed25cd5cadc1d2a0d",
+      "bytes": 33881,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N01",
+      "exclusion_reason": null,
+      "notes": [
+        "This is scored trial N01 evidence. It was saved in the preflight folder after the preflight log was frozen."
+      ]
+    },
+    {
+      "path": "notion_preflight/images/final-ready-empty-parent.png",
+      "group": "notion_preflight",
+      "sha256": "bda32d4cb7e02e948078973638b78d0d55dfbde287492f29e924e5a05f108589",
+      "bytes": 33065,
+      "status": "PUBLIC",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_preflight/images/initial-native-match.png",
+      "group": "notion_preflight",
+      "sha256": "bad3e4f77076b5d565e2f8b7fb325882e8a34f58fed16a324531cfe20979d302",
+      "bytes": 57598,
+      "status": "PUBLIC",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_preflight/images/parent-empty.png",
+      "group": "notion_preflight",
+      "sha256": "db6251fe5265b22238a8481471024a1467e09eb18cd3f7a3d7323d9374daab5f",
+      "bytes": 32590,
+      "status": "PUBLIC",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_preflight/images/repair-submitted.png",
+      "group": "notion_preflight",
+      "sha256": "229a88e36913c4a56a85ebf8c24716d0a6f634b4e45965a2f7e98a767c46018e",
+      "bytes": 52434,
+      "status": "PUBLIC",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": null,
+      "notes": [
+        "This is an immediate state. It is not an independent check of the saved state."
+      ]
+    },
+    {
+      "path": "notion_preflight/images/saved-marker-mismatch.png",
+      "group": "notion_preflight",
+      "sha256": "29661a4285d4be41321eede50accb9d1ed22660d8d6d8d256e20dbc91e28dbb7",
+      "bytes": 55130,
+      "status": "PUBLIC",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": null,
+      "notes": [
+        "The image name is wrong. The saved Marker still matches the expected value."
+      ]
+    },
+    {
+      "path": "notion_preflight/images/saved-repaired-match.png",
+      "group": "notion_preflight",
+      "sha256": "e4bb2fca78d6234648e11345b52a377c44bad86efb7ef5eda65e199beaca4f7c",
+      "bytes": 52114,
+      "status": "PUBLIC",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_preflight/images/saved-two-field-mismatch.png",
+      "group": "notion_preflight",
+      "sha256": "07ef16ab2aa2013b9bbb7061107ef0968d9fd0e21d62635fe785881d0881c088",
+      "bytes": 50265,
+      "status": "PUBLIC",
+      "evidence_role": "preflight",
+      "trial_id": null,
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N01-audit-zero.png",
+      "group": "notion_runner",
+      "sha256": "e9bc0305e9c7d6d87b2220fd58230d2762f98fc2d7202037ec6b350acd338e6e",
+      "bytes": 33888,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N01",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N02-audit-native.png",
+      "group": "notion_runner",
+      "sha256": "60d76aef43209a5321a1150a7e657efa93f6de5faf348918b39df4e61af36e54",
+      "bytes": 49412,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N02",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N02-cleanup-zero.png",
+      "group": "notion_runner",
+      "sha256": "e20cb6593ce725d0c233b6b9daeac8b6a971a524788e1183ca208cbfea10bdeb",
+      "bytes": 33711,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N02",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N02-final-native.png",
+      "group": "notion_runner",
+      "sha256": "a47e7ade9be6a0b1ff7e3b51aa052a84fc8cd422372fe7c75288720c97d9cb93",
+      "bytes": 49810,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N02",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N02-initial-native.png",
+      "group": "notion_runner",
+      "sha256": "6766cfb04b923a7a349b02674f20aee86f2807f720c4be5f938a9ff74b2f2728",
+      "bytes": 49717,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N02",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N03-audit-native.png",
+      "group": "notion_runner",
+      "sha256": "bb12c9943878e9818cdcc230c6208adc74aad7d2156f76c37240c88a4ba511da",
+      "bytes": 48968,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N03",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N03-cleanup-zero.png",
+      "group": "notion_runner",
+      "sha256": "d2e9cf14f32aec283d3569d9f1f2b78cf4de21438a0d90de67a097341f5c217e",
+      "bytes": 34128,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N03",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N03-final-native.png",
+      "group": "notion_runner",
+      "sha256": "da51fe104a09eab62064515de490a2194977a88a3a420a92929c6100fa115750",
+      "bytes": 49845,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N03",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N03-initial-native.png",
+      "group": "notion_runner",
+      "sha256": "09fe929964cb165f09cee7d2b2f072aed679bc29e40a1b637094a6d86e2849c9",
+      "bytes": 47631,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N03",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N04-audit-native.png",
+      "group": "notion_runner",
+      "sha256": "b980bf1169ac5f3cc5a867c2636b00161f24b10206dfc91d7c2e3f32c16aa0bd",
+      "bytes": 48589,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N04",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N04-cleanup-zero-confirmed.png",
+      "group": "notion_runner",
+      "sha256": "e27e68a260058647c6cbe1b53c4b43de922e8f14ada70f4104e154b6fa6f0bb6",
+      "bytes": 30729,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N04",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N04-cleanup-zero.png",
+      "group": "notion_runner",
+      "sha256": "1019765845545990a46dd6464990b99086280c5127b592557f4f66fe4736a649",
+      "bytes": 32478,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N04",
+      "exclusion_reason": null,
+      "notes": [
+        "The image name is wrong. One active test row is still present. The later cleanup-zero-confirmed image shows the empty table."
+      ]
+    },
+    {
+      "path": "notion_runner/images/N04-final-native.png",
+      "group": "notion_runner",
+      "sha256": "0e3d87caa27998c042e82bca3fecf30ec3743b2d628af6664edf02d365e24f04",
+      "bytes": 49348,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N04",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N04-initial-native.png",
+      "group": "notion_runner",
+      "sha256": "bed18b57d08efa5820859772ad03940f4d452e51849bec7b67580097223f832d",
+      "bytes": 49248,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N04",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N05-audit-native.png",
+      "group": "notion_runner",
+      "sha256": "0d43ef4bc83e15ac0a67c8f250ff0b17e41375355d85af8a9ca9d04a7538dd96",
+      "bytes": 48660,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N05",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N05-cleanup-zero.png",
+      "group": "notion_runner",
+      "sha256": "d376266ac28abf192b48dcf44241bf71ac5585185c91115b7f4a2fd21cefe56d",
+      "bytes": 30771,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N05",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N05-final-native.png",
+      "group": "notion_runner",
+      "sha256": "0d43ef4bc83e15ac0a67c8f250ff0b17e41375355d85af8a9ca9d04a7538dd96",
+      "bytes": 48660,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N05",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N05-initial-native.png",
+      "group": "notion_runner",
+      "sha256": "57e7278cd1c476f38cd2564f0caf4ae33b0737c235051f98576e7e59e7d0dbd9",
+      "bytes": 46637,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N05",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N06-audit-native.png",
+      "group": "notion_runner",
+      "sha256": "1813c5216930ef31afbaed3607ac4e6751fbcf983f5c6d67ccb0d21d0b776c6b",
+      "bytes": 48724,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N06",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N06-cleanup-zero.png",
+      "group": "notion_runner",
+      "sha256": "d376266ac28abf192b48dcf44241bf71ac5585185c91115b7f4a2fd21cefe56d",
+      "bytes": 30771,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N06",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N06-final-native.png",
+      "group": "notion_runner",
+      "sha256": "1813c5216930ef31afbaed3607ac4e6751fbcf983f5c6d67ccb0d21d0b776c6b",
+      "bytes": 48724,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N06",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N06-initial-native.png",
+      "group": "notion_runner",
+      "sha256": "1d312a638201a94a1e03d33448773aa871fa08f32bb941380557e6490fa96cb6",
+      "bytes": 48754,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N06",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N07-audit-native.png",
+      "group": "notion_runner",
+      "sha256": "f228d702e40e3c021d46bef231dbee7ea011334efeea71767691e60eb987d798",
+      "bytes": 48484,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N07",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N07-cleanup-zero.png",
+      "group": "notion_runner",
+      "sha256": "d376266ac28abf192b48dcf44241bf71ac5585185c91115b7f4a2fd21cefe56d",
+      "bytes": 30771,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N07",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N07-final-native.png",
+      "group": "notion_runner",
+      "sha256": "824ab9beddfed3c63cf8ec7b50579adc904e5124c7c647d05bb846b7a81baf48",
+      "bytes": 48479,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N07",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N07-initial-native.png",
+      "group": "notion_runner",
+      "sha256": "72b3e088c85fe378af2b77f00659a952ab696df12146a99f664d2402e9c453d2",
+      "bytes": 48588,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N07",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N08-audit-native.png",
+      "group": "notion_runner",
+      "sha256": "79fc138dbbc2c21835c96ebde2bf809431f25c04b8481106f2e73e148aafd94e",
+      "bytes": 48714,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N08",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N08-cleanup-zero.png",
+      "group": "notion_runner",
+      "sha256": "d376266ac28abf192b48dcf44241bf71ac5585185c91115b7f4a2fd21cefe56d",
+      "bytes": 30771,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N08",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N08-final-native.png",
+      "group": "notion_runner",
+      "sha256": "9008da598b0baa4313923e7e4962d4ab9368fa52f07ad8d6f2102a93d8745136",
+      "bytes": 48721,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N08",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/N08-initial-native.png",
+      "group": "notion_runner",
+      "sha256": "bb58693b4b396e4b6e14288dce3efa466620851f453d5a95f305b113080c8260",
+      "bytes": 49314,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": "N08",
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/all-trials-parent-empty.png",
+      "group": "notion_runner",
+      "sha256": "d376266ac28abf192b48dcf44241bf71ac5585185c91115b7f4a2fd21cefe56d",
+      "bytes": 30771,
+      "status": "PUBLIC",
+      "evidence_role": "scored",
+      "trial_id": null,
+      "exclusion_reason": null,
+      "notes": []
+    },
+    {
+      "path": "notion_runner/images/parent-in-trash.png",
+      "group": "notion_runner",
+      "sha256": "d8a881669ddebbba327f36319c5516b5194d827d2c65200134eb8228bb485925",
+      "bytes": 35106,
+      "status": "EXCLUDED_PRIVATE",
+      "evidence_role": "scored",
+      "trial_id": null,
+      "exclusion_reason": "The image shows the account display name.",
+      "notes": []
+    }
+  ]
+}
