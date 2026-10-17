@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-10-17T14:10:31.959587+00:00",
+  "scope": "Local plan freeze, not external preregistration. Source review was read before question selection; source notes are not frozen model inputs.",
+  "sha256": {
+    "analysis_plan.md": "7e8a7cf42623c7c04deea810eb8005991223af5e4bcabe97005c65bc00d23544",
+    "config.json": "62796531c052e3d16826d8c8a05ccb31c4bfa98812c3c7b4e2e05b9cd1f356ae"
+  },
+  "status": "FROZEN_BEFORE_EXECUTION"
+}

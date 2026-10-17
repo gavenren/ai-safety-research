@@ -1,0 +1,13 @@
+{
+  "attempt_budgets": [1, 2, 3],
+  "writes_per_gap": [0, 1, 2],
+  "fields": ["A", "X", "Y", "U"],
+  "background_fields": ["A", "X", "U"],
+  "policies": ["replace", "patch", "refresh_cas", "replan_cas", "dependency_guard", "source_only_guard"],
+  "initial_permission": 1,
+  "initial_target": "one_minus_X",
+  "task": "Y_equals_precommit_X_when_precommit_A_is_one",
+  "revision": "atomic_nonreused_integer",
+  "unused_suffix": "not_executed_but_assignment_counted",
+  "random_sampling": false
+}

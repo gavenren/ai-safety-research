@@ -1,0 +1,10 @@
+K,b,assignments,replace_collateral_patch_none,dependency_success_replan_exhausted,unrelated_only,returned_dependency,other_paired
+1,0,4,0,0,0,0,0
+1,1,16,12,4,4,0,0
+1,2,52,36,16,8,8,0
+2,0,4,0,0,0,0,0
+2,1,64,48,16,4,0,12
+2,2,676,468,240,16,32,192
+3,0,4,0,0,0,0,0
+3,1,256,192,40,4,0,36
+3,2,8788,6084,2064,32,128,1904

@@ -1,0 +1,21 @@
+{
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true
+  },
+  "input_sha256": {
+    "analysis_plan.md": "7e8a7cf42623c7c04deea810eb8005991223af5e4bcabe97005c65bc00d23544",
+    "config.json": "62796531c052e3d16826d8c8a05ccb31c4bfa98812c3c7b4e2e05b9cd1f356ae",
+    "input_manifest.json": "07e5afff3bb047a88ec04bd0e1286ae0b628898bf811f972612debb41c4a2b24"
+  },
+  "policy_assignments": 59184,
+  "policy_rows": 54,
+  "scenario_assignments": 9864,
+  "scope": "Exact fixed synthetic corpus; not real website rates or live agent trials",
+  "settings": 9,
+  "status": "COMPLETE",
+  "witnesses": 88
+}

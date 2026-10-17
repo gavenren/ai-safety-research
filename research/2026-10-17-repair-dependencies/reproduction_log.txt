@@ -1,0 +1,56 @@
+$ python3 -m unittest tests -v
+
+test_collateral_uses_pre_effect_state (tests.SemanticTests.test_collateral_uses_pre_effect_state) ... ok
+test_configuration (tests.SemanticTests.test_configuration) ... ok
+test_fresh_token_old_permission (tests.SemanticTests.test_fresh_token_old_permission) ... ok
+test_fresh_token_old_source (tests.SemanticTests.test_fresh_token_old_source) ... ok
+test_missing_permission_dependency (tests.SemanticTests.test_missing_permission_dependency) ... ok
+test_no_changes (tests.SemanticTests.test_no_changes) ... ok
+test_read_denial_consumes_no_gap (tests.SemanticTests.test_read_denial_consumes_no_gap) ... ok
+test_unconsumed_suffix (tests.SemanticTests.test_unconsumed_suffix) ... ok
+test_unrelated_and_return (tests.SemanticTests.test_unrelated_and_return) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK
+
+$ python3 analyze.py --input-dir . --output-dir .
+{
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true
+  },
+  "input_sha256": {
+    "analysis_plan.md": "7e8a7cf42623c7c04deea810eb8005991223af5e4bcabe97005c65bc00d23544",
+    "config.json": "62796531c052e3d16826d8c8a05ccb31c4bfa98812c3c7b4e2e05b9cd1f356ae",
+    "input_manifest.json": "07e5afff3bb047a88ec04bd0e1286ae0b628898bf811f972612debb41c4a2b24"
+  },
+  "policy_assignments": 59184,
+  "policy_rows": 54,
+  "scenario_assignments": 9864,
+  "scope": "Exact fixed synthetic corpus; not real website rates or live agent trials",
+  "settings": 9,
+  "status": "COMPLETE",
+  "witnesses": 88
+}
+
+
+$ python3 independent_audit.py --input-dir . --output-dir . --compare-main .
+{
+  "status": "independent_enumeration_complete",
+  "policy_scenario_rows": 59184,
+  "aggregate_rows": 54,
+  "paired_rows": 9,
+  "minimal_witnesses": 88,
+  "handcrafted_controls": 10,
+  "malformed_configurations_rejected": 27,
+  "symmetry_rows_checked": 118368,
+  "main_code_read_or_imported": false,
+  "frozen_inputs_match": true,
+  "main_comparison": "PASS"
+}
+

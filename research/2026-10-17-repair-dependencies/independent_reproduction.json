@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "command": "python3 independent_audit.py --input-dir . --output-dir . --compare-main .",
+  "method": "Copied the independent program, frozen inputs, and main result data into a new empty directory. Ran the independent command there. Compared all five generated independent data files byte for byte.",
+  "exit_code": 0,
+  "outputs": [
+    {
+      "file": "independent_results.csv",
+      "sha256": "2c670fecc40fd1fc62b03366f2d98d6f371c37ac71009d1ff020543e10f34c33",
+      "byte_identical": true
+    },
+    {
+      "file": "independent_pairs.csv",
+      "sha256": "4a90f3227372b421284e784db7e58e402d75c407268a9a98ea19fcf97ff85e3a",
+      "byte_identical": true
+    },
+    {
+      "file": "independent_witnesses.json",
+      "sha256": "25e577dc29922141523539406fc148c914861d1926c2e69070d8ab17df9b31dc",
+      "byte_identical": true
+    },
+    {
+      "file": "independent_receipt.json",
+      "sha256": "9f81c6c9cb314479498f1db6899ef51e100ead4b18ec3c466368cf6b83b97fa8",
+      "byte_identical": true
+    },
+    {
+      "file": "independent_comparison.json",
+      "sha256": "5c6ab38c6991c39a79fe7e73b9cdae5ef0494d85f8eaecaabbe533ac8a128181",
+      "byte_identical": true
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "K": 1,
+    "assignments": 4,
+    "b": 0,
+    "dependency_success_cas_exhausted": 0,
+    "replace_collateral_patch_none": 0,
+    "returned_dependency": 0,
+    "unrelated_only": 0
+  },
+  {
+    "K": 1,
+    "assignments": 16,
+    "b": 1,
+    "dependency_success_cas_exhausted": 4,
+    "replace_collateral_patch_none": 12,
+    "returned_dependency": 0,
+    "unrelated_only": 4
+  },
+  {
+    "K": 1,
+    "assignments": 52,
+    "b": 2,
+    "dependency_success_cas_exhausted": 16,
+    "replace_collateral_patch_none": 36,
+    "returned_dependency": 8,
+    "unrelated_only": 8
+  },
+  {
+    "K": 2,
+    "assignments": 4,
+    "b": 0,
+    "dependency_success_cas_exhausted": 0,
+    "replace_collateral_patch_none": 0,
+    "returned_dependency": 0,
+    "unrelated_only": 0
+  },
+  {
+    "K": 2,
+    "assignments": 64,
+    "b": 1,
+    "dependency_success_cas_exhausted": 16,
+    "replace_collateral_patch_none": 48,
+    "returned_dependency": 0,
+    "unrelated_only": 4
+  },
+  {
+    "K": 2,
+    "assignments": 676,
+    "b": 2,
+    "dependency_success_cas_exhausted": 240,
+    "replace_collateral_patch_none": 468,
+    "returned_dependency": 32,
+    "unrelated_only": 16
+  },
+  {
+    "K": 3,
+    "assignments": 4,
+    "b": 0,
+    "dependency_success_cas_exhausted": 0,
+    "replace_collateral_patch_none": 0,
+    "returned_dependency": 0,
+    "unrelated_only": 0
+  },
+  {
+    "K": 3,
+    "assignments": 256,
+    "b": 1,
+    "dependency_success_cas_exhausted": 40,
+    "replace_collateral_patch_none": 192,
+    "returned_dependency": 0,
+    "unrelated_only": 4
+  },
+  {
+    "K": 3,
+    "assignments": 8788,
+    "b": 2,
+    "dependency_success_cas_exhausted": 2064,
+    "replace_collateral_patch_none": 6084,
+    "returned_dependency": 128,
+    "unrelated_only": 32
+  }
+]

@@ -1,0 +1,7634 @@
+[
+  {
+    "outcome": "bad_union",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ]
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "collateral",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ]
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 1,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ]
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "collateral",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ]
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 1,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ]
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "collateral",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 2,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "collateral",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 2,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      [],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      [],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "collateral",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      [],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 3,
+    "b": 1,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      [],
+      []
+    ],
+    "policy": "patch",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      [],
+      []
+    ],
+    "policy": "refresh_cas",
+    "rounds": 2,
+    "attempts": 2,
+    "rejections": 1,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": false,
+        "post_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "post_revision": 1
+      },
+      {
+        "kind": "read",
+        "round": 2,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 2,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "collateral",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "source_violation",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        1
+      ],
+      [],
+      []
+    ],
+    "policy": "replace",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": false,
+    "source_violation": true,
+    "semantic_invalid": true,
+    "collateral": true,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 1,
+        "state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "bad_union",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "permission_violation",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  },
+  {
+    "outcome": "semantic_invalid",
+    "K": 3,
+    "b": 2,
+    "initial": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "program": [
+      [
+        0
+      ],
+      [],
+      []
+    ],
+    "policy": "source_only_guard",
+    "rounds": 1,
+    "attempts": 1,
+    "rejections": 0,
+    "harmless_rejections": 0,
+    "background_writes": 1,
+    "permission_violation": true,
+    "source_violation": false,
+    "semantic_invalid": true,
+    "collateral": false,
+    "bad_union": true,
+    "decision": "success",
+    "events": [
+      {
+        "kind": "read",
+        "round": 1,
+        "state": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "revision": 0
+      },
+      {
+        "kind": "background",
+        "round": 1,
+        "field": 0,
+        "state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "revision": 1
+      },
+      {
+        "kind": "commit",
+        "round": 1,
+        "pre_state": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "pre_revision": 1,
+        "candidate": 0,
+        "accepted": true,
+        "post_state": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "post_revision": 2
+      }
+    ],
+    "finalstate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "revision": 2
+  }
+]

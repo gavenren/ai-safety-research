@@ -1,0 +1,14 @@
+test_collateral_uses_pre_effect_state (tests.SemanticTests.test_collateral_uses_pre_effect_state) ... ok
+test_configuration (tests.SemanticTests.test_configuration) ... ok
+test_fresh_token_old_permission (tests.SemanticTests.test_fresh_token_old_permission) ... ok
+test_fresh_token_old_source (tests.SemanticTests.test_fresh_token_old_source) ... ok
+test_missing_permission_dependency (tests.SemanticTests.test_missing_permission_dependency) ... ok
+test_no_changes (tests.SemanticTests.test_no_changes) ... ok
+test_read_denial_consumes_no_gap (tests.SemanticTests.test_read_denial_consumes_no_gap) ... ok
+test_unconsumed_suffix (tests.SemanticTests.test_unconsumed_suffix) ... ok
+test_unrelated_and_return (tests.SemanticTests.test_unrelated_and_return) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK

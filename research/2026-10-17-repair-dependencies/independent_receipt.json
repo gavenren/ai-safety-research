@@ -1,0 +1,13 @@
+{
+  "status": "independent_enumeration_complete",
+  "policy_scenario_rows": 59184,
+  "aggregate_rows": 54,
+  "paired_rows": 9,
+  "minimal_witnesses": 88,
+  "handcrafted_controls": 10,
+  "malformed_configurations_rejected": 27,
+  "symmetry_rows_checked": 118368,
+  "main_code_read_or_imported": false,
+  "frozen_inputs_match": true,
+  "main_comparison": "PASS"
+}
