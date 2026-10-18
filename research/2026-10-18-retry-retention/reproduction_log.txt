@@ -1,0 +1,46 @@
+$ python3 -m unittest tests -v
+
+test_all_drop_and_immediate_success (tests.Semantics.test_all_drop_and_immediate_success) ... ok
+test_broken_bound (tests.Semantics.test_broken_bound) ... ok
+test_configuration_rejects_missing_and_malformed (tests.Semantics.test_configuration_rejects_missing_and_malformed) ... ok
+test_expiry_boundary (tests.Semantics.test_expiry_boundary) ... ok
+test_hit_does_not_renew (tests.Semantics.test_hit_does_not_renew) ... ok
+test_margin_initial_and_strict_equality (tests.Semantics.test_margin_initial_and_strict_equality) ... ok
+test_permanent_preserves_identity (tests.Semantics.test_permanent_preserves_identity) ... ok
+test_receipt_is_not_global_count (tests.Semantics.test_receipt_is_not_global_count) ... ok
+test_receiver_deadline_equality (tests.Semantics.test_receiver_deadline_equality) ... ok
+test_reordered_delivery_after_receipt (tests.Semantics.test_reordered_delivery_after_receipt) ... ok
+test_same_tick_receipt_then_duplicate (tests.Semantics.test_same_tick_receipt_then_duplicate) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+OK
+
+$ python3 analyze.py --input-dir . --output-dir .
+{
+  "aggregate_rows": 427,
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true
+  },
+  "main_policy_rows": 128520,
+  "main_scenarios": 18360,
+  "main_settings": 60,
+  "paired_rows": 427,
+  "stress_policy_rows": 2401,
+  "stress_scenarios": 343,
+  "stress_settings": 1,
+  "total_events": 575415,
+  "total_policy_rows": 130921,
+  "witnesses": 356
+}
+
+
+$ python3 independent_audit.py --input-dir . --output-dir . --compare-main .
+{"comparison": "PASS", "events": 575415, "scalar_values": 3534867, "trace_rows": 130921}
+{"aggregate_rows": 427, "events": 575415, "invalid_config_controls": 34, "pair_rows": 427, "rows": 130921, "status": "PASS", "witnesses": 356}
+

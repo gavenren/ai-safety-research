@@ -1,0 +1,20 @@
+{
+  "aggregate_rows": 427,
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true
+  },
+  "main_policy_rows": 128520,
+  "main_scenarios": 18360,
+  "main_settings": 60,
+  "paired_rows": 427,
+  "stress_policy_rows": 2401,
+  "stress_scenarios": 343,
+  "stress_settings": 1,
+  "total_events": 575415,
+  "total_policy_rows": 130921,
+  "witnesses": 356
+}

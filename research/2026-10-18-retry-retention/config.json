@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slots": 3,
+  "retention_ticks": [1, 2, 3, 4, 5],
+  "delay_bounds": [0, 1, 2, 3],
+  "spacings": [1, 2, 3],
+  "policies": ["no_retry", "new_key", "stable_key", "send_cutoff", "delay_margin", "receiver_cutoff", "permanent"],
+  "stress": {"retention": 3, "actual_delay_bound": 2, "declared_delay_bound": 1, "spacing": 1},
+  "primary": {"retention": 2, "actual_delay_bound": 3, "spacing": 1},
+  "cost_example": {"retention": 4, "actual_delay_bound": 2, "spacing": 1},
+  "expiry": "arrival_minus_creation_greater_than_or_equal_retention",
+  "cache_hit_renews": false,
+  "tie_order": "prior_arrivals_by_slot_then_send_then_zero_delay_arrival",
+  "first_send_always": true,
+  "drain_after_receipt": true
+}

@@ -1,0 +1,73 @@
+{
+  "commands": [
+    {
+      "command": "python3 -m unittest tests -v",
+      "exit_code": 0,
+      "wall_seconds": 0.0861535840012948
+    },
+    {
+      "command": "python3 analyze.py --input-dir . --output-dir .",
+      "exit_code": 0,
+      "wall_seconds": 4.06724095899699
+    },
+    {
+      "command": "python3 independent_audit.py --input-dir . --output-dir . --compare-main .",
+      "exit_code": 0,
+      "wall_seconds": 5.740204041998368
+    }
+  ],
+  "completed_utc": "2026-10-18T11:12:22.648235+00:00",
+  "files": {
+    "independent_comparison.json": {
+      "byte_equal": true,
+      "sha256": "29cd43c6c3a04eaaf119d877e3f50cbebeefe8a9831f6c70bb1e277d70391232"
+    },
+    "independent_pairs.json": {
+      "byte_equal": true,
+      "sha256": "615372d8ac92a34c1d7bd25301720108d4106acc12645602175e37378fcc9766"
+    },
+    "independent_receipt.json": {
+      "byte_equal": true,
+      "sha256": "64c7782b5d290f54909449f5ac08559ec2092c8fdc483e573a88c426976c90b3"
+    },
+    "independent_results.csv": {
+      "byte_equal": true,
+      "sha256": "7e5c6ebc1c0001e0a89ccb1a77b3f0b2bdf759e0cac3993ddf6ca55a200f78aa"
+    },
+    "independent_witnesses.json": {
+      "byte_equal": true,
+      "sha256": "8d13b4da5da18e47d5920e9ae387ddf0c6f513854a2a0b7327172f1bcc4213c0"
+    },
+    "paired_results.json": {
+      "byte_equal": true,
+      "sha256": "52fb2eac2e06cb847a908bba4b25438123c0111a27700dba0ffaaa703d0387b3"
+    },
+    "results.csv": {
+      "byte_equal": true,
+      "sha256": "c28764dc3f722916968c445b4c62e7266a00a13f4f92718c664065e124c2002f"
+    },
+    "summary.json": {
+      "byte_equal": true,
+      "sha256": "60a2af57065bcd4016c25d1dd61bf1f2251178a5d90be4fb1dbd3771db5b3ea5"
+    },
+    "traces.jsonl.gz": {
+      "byte_equal": true,
+      "sha256": "f8f6f31720185d78fd18759449705e12aeb02473e76d14ca656c302fc8d091d5"
+    },
+    "witnesses.json": {
+      "byte_equal": true,
+      "sha256": "4b5a1bb6c0644d78e6b3b633a4be6003d95226466ccc7eadfab1145ae4417e8c"
+    }
+  },
+  "input_sha256": {
+    "analysis_plan.md": "221e7665b46898382f325fce76779c8e2a91c12051227685bb5a7d3b8e76cf7e",
+    "analyze.py": "fbb2603c3c8fed644bb699fc82903e930aac6d7ce0ca481ad6b634e4cb0796f3",
+    "config.json": "d8160d49b9d68e919903d504df51b8c2d5673658cf5fd734176f23b43200d577",
+    "independent_audit.py": "c3e6aae7aa65d0e033ec818e7e0cf07029260210a13680447288d97dcb0acb5d",
+    "input_manifest.json": "d3635b9d019b3a32dbe0391ef0f3939e300a07c554e2342e1dd47bf6944bb345",
+    "tests.py": "cd7369041a36f73293d5b20065736fcc653328182b687d08fa27552826a05cac"
+  },
+  "method": "Copy only three scripts and three frozen input files to an empty temporary folder. Run the three README commands. Compare ten generated files byte for byte.",
+  "started_utc": "2026-10-18T11:12:12.741625+00:00",
+  "status": "PASS"
+}

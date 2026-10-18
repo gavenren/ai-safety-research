@@ -1,0 +1,19 @@
+{
+  "aggregate_rows": 427,
+  "comparison_scope": "Every main trace key and value, including all event fields, effects, sent/arrived slots, scalar outcomes, and assignment identifiers; exact aggregate rows, paired rows, and minimum witnesses after field-name conversion",
+  "full_trace_events": 575415,
+  "full_trace_rows": 130921,
+  "independence_note": "Only main output data was read after the independent implementation and outputs were complete; no main program or tests were read or imported",
+  "main_output_sha256": {
+    "paired_results.json": "52fb2eac2e06cb847a908bba4b25438123c0111a27700dba0ffaaa703d0387b3",
+    "results.csv": "c28764dc3f722916968c445b4c62e7266a00a13f4f92718c664065e124c2002f",
+    "summary.json": "60a2af57065bcd4016c25d1dd61bf1f2251178a5d90be4fb1dbd3771db5b3ea5",
+    "traces.jsonl.gz": "f8f6f31720185d78fd18759449705e12aeb02473e76d14ca656c302fc8d091d5",
+    "witnesses.json": "4b5a1bb6c0644d78e6b3b633a4be6003d95226466ccc7eadfab1145ae4417e8c"
+  },
+  "minimum_witnesses_with_complete_traces": 356,
+  "paired_rows": 427,
+  "status": "PASS",
+  "summary_and_hypotheses_match": true,
+  "trace_scalar_values_compared": 3534867
+}
