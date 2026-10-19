@@ -4,7 +4,7 @@ Date: October 19, 2026. Status: research note; required checks are recorded in t
 
 ## Abstract
 
-An agent can complete an action and later need to undo it. Restoring old values can remove later work. Applying an inverse can also be wrong if a later assignment has already removed the original effect. We compare six fixed undo rules on 15,624 synthetic histories, with 93,744 rule outcomes. The reference removes one agent increment and replays the same later commands. At the planned length-three setting, Value guard makes 96 false completion claims in 500 histories. Revision guard has no false claims but completes only four times. An ideal control with complete operation-type history completes correctly in all histories. A one-command pair has equal current values and revision counts but different correct undo targets. These are exact results for the stated model, not measured agent error rates. A separate production website extension assigns 48 core tests in Google Calendar and Notion. It has 43 valid results: 26 clean completions, 11 false confirmations and six abstentions. Five tests remain unknown. The history-informed control completes correctly in all seven valid cases; its eighth case is unknown. These selected tests do not estimate production error rates.
+An agent can complete an action and later need to undo it. Restoring old values can remove later work. Applying an inverse can also be wrong if a later assignment has already removed the original effect. We compare six fixed undo rules on 15,624 synthetic histories, with 93,744 rule outcomes. The reference removes one agent increment and replays the same later commands. At the planned length-three setting, Value guard makes 96 false completion claims in 500 histories. Revision guard has no false claims but completes only four times. An ideal control with complete operation-type history completes correctly in all histories. A one-command pair has equal current values and revision counts but different correct undo targets. These are exact results for the stated model, not measured agent error rates. A separate production website extension assigns 48 core tests in Google Calendar and Notion. It has 43 valid results: 26 clean completions, 11 false confirmations and six abstentions. Five tests remain unknown. The history-informed control completes correctly in all seven valid cases; its eighth case is unknown. A second production extension compares the old history rule with a controller that checks current history and two saved reads. Of 32 assignments, 30 are valid and two are unknown. The old rule makes six incorrect claims in 15 valid cases. The new rule makes none in 15 valid cases, completes seven cases correctly, and refuses eight. These selected tests do not estimate production error rates. The new rule still needs trusted history; a local counterexample with a falsely complete log defeats it.
 
 ## Research question and safety relevance
 
@@ -170,6 +170,85 @@ Full private browser records include action arguments, errors, native identities
 
 The two sites share the account owner and a controlled procedure. The cases are small and selected. Do not treat the trial proportions as a production error rate or compare them as independent random samples. The log-assisted control has information that an ordinary field reader does not have. The test demonstrates the selected sequential failure cases; it does not establish a general browser undo service. These are two-field record tests hosted in real products. They do not test a native Undo button, meeting invitations, notification effects, database formulas or cancellation across several records.
 
+## Improved undo controller: second production extension
+
+### Change and prospective comparison
+
+The first production extension showed that a successful field save can implement an incorrect undo. It also left the old history rule's completion status tied to its planned decision. This second extension adds an explicit completion check. The question is whether the new controller can reject unsupported completion claims while retaining supported undo completions.
+
+The [plan](improved_plan.md), [assignments](improved_assignments.json), [controller](improved_rules.mjs) and [manifest](improved_input_manifest.json) were frozen at 2026-10-19T15:43:42.627265+00:00. The seed is 2026101902. The comparison has 32 planned assignments: eight scenarios, two rules, and two sites. Each uses a fresh temporary record. No failed assignment is replaced. The first four scenarios are positive completion controls, so an always-refuse rule cannot satisfy the plan.
+
+The baseline is the previous log-assisted provenance rule. It reports complete when its selected action is defined. Its post-action reads are used for scoring but do not change this fixed status. The new **checked-history rule** has separate decision and completion stages:
+
+1. Check the record identity, field contract, original action and command-log completeness.
+2. Replay the presented commands after the agent action. Refuse if this does not match the fresh current fields.
+3. Replay the same commands from the original record without the agent action. This gives the controller's candidate target.
+4. Make at most one undo attempt with literal field values. If no change is needed, proceed directly to observation.
+5. Reload and read the saved record twice. Report complete only when both observations match the identity, contract and both candidate fields. Require distinct read IDs, reload flags and increasing read times after the pre-read.
+
+The incomplete-history case deliberately violates the old rule's complete-history premise. The actuator faults also violate correct execution of its requested write. This comparison tests a wider controller contract; it does not refute the old rule under its original assumptions. The new controller receives additional evidence and checks. This is a comparison of complete controller designs, not an experiment that isolates the effect of each check.
+
+The controller never receives the evaluator's target, withheld history or fault label. The evaluator separately uses the full executed later history. The log comes from the controlled test procedure; it is not a native provider history. The read metadata comes from the browser runner; it is not an independent server freshness proof. Notion property edits and browser reads are not atomic.
+
+Microsoft's compensation guidance supports preserving sufficient action information and accounting for later work. Google documents resource ETags for conditional API changes, which does not establish a guard on our browser Save. Notion page edit metadata does not establish a complete field-command log. These established ideas motivate this implementation. We claim a reproducible regression extension, not a new compensation method. See the [current source record](improved_source_notes.md) and [separate design review](improved_design_review.md).
+
+### Scenarios and deliberate faults
+
+Both sites use the earlier temporary two-field contract. Calendar uses a private past all-day event with no guests or notifications. Notion uses a private test database with Number X and Checkbox Y. The records start at (0,0), and the agent saves X=1.
+
+| Scenario | Later actions and evidence condition |
+| --- | --- |
+| Control | No later change. |
+| Independent Y | A later change flips Y to 1. |
+| Addition | A later action adds 1 to X. |
+| Assignment return | Later actions separately save X=0, then X=1. |
+| Incomplete history | The same two assignments occur, but the controller receives an empty log explicitly marked incomplete. |
+| Prestate mismatch | An empty log is sealed. A separate later add1 then changes X before the controller's fresh read. |
+| Wrong X save | The actuator deliberately saves requested X+2 during undo. |
+| Wrong Y save | The actuator deliberately saves flipped requested Y during undo. |
+
+An **actuator** is the component that enters and saves fields. The last two faults are intentionally introduced through the real website interface. They are not provider save defects. The planned decision and injected literal are recorded before dispatch. There is no corrective undo attempt after a mismatch. The study tests prevention of an incorrect claim; it does not hide a wrong saved value by repairing it before scoring.
+
+### Results
+
+All 32 assignments have terminal records. Thirty have valid outcome evidence. Calendar05 (baseline, independent Y) and Calendar13 (checked history, addition) are unknown. Calendar05 did not enter the edit form before the agent action. Calendar13 stopped at the fresh pre-read before the rule ran. No failed assignment was replaced. Cleanup does not fill these missing outcomes.
+
+| Rule | Planned | Valid | Correct completion | Incorrect completion claim | Refusal, wrong state | Refusal, correct state | Unknown |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Baseline log-assisted provenance | 16 | 15 | 9 | 6 | 0 | 0 | 1 |
+| Checked history | 16 | 15 | 7 | 0 | 6 | 2 | 1 |
+
+| Site and rule | Correct completion | Incorrect claim | Refusal, wrong state | Refusal, correct state | Unknown |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Calendar, baseline | 4 | 3 | 0 | 0 | 1 |
+| Calendar, checked history | 3 | 0 | 3 | 1 | 1 |
+| Notion, baseline | 5 | 3 | 0 | 0 | 0 |
+| Notion, checked history | 4 | 0 | 3 | 1 | 0 |
+
+Among valid cases, the baseline made 13 undo write attempts and the checked rule made nine. Neither unknown assignment reached an undo write.
+
+The baseline made an incorrect claim for incomplete history, wrong X, and wrong Y on each site. The checked rule refused before a write in all four evidence-limit cases. The two incomplete-history records already equaled the independent target, so these were correct states with refusal. The two prestate-mismatch records did not equal the target, so they remained unresolved. In these last two cases the baseline happened to produce the correct value. Thus refusal has a completion cost.
+
+All eight injected wrong saves were observed in both final reads. The baseline accepted all four of its wrong saves. The checked rule refused all four of its wrong saves. These refusals prevented incorrect claims, but did not repair the saved fields. The checked rule also preserved Y in all its valid cases without an injected Y fault. Each rule has two observed Y mismatches, caused by the two deliberate Y faults.
+
+There are 14 valid site/scenario pairs. Six pairs have correct completion under both rules. In two pairs, a baseline incorrect claim becomes a checked-rule refusal with a correct state. In four pairs, a baseline incorrect claim becomes a refusal with an incorrect state. In two pairs, a baseline correct completion becomes an unresolved refusal. The other two pairs are incomplete because one assignment is unknown. This is a descriptive paired comparison, not a statistical estimate of deployment risk.
+
+H1 is supported in 15 valid checked-rule cases: no incorrect claim was observed. H2 is supported in all seven valid positive controls, with one of eight planned positive controls unknown. H3 is supported by four refusals before a write. H4 is supported by four refusals after a deliberate incorrect save. H5 is supported by six baseline incorrect claims in the designated cases. These statements apply only to the observed controlled cases. See [full results](improved_results.json), [per-trial evidence](improved_trials.jsonl) and [exact independent comparison](improved_independent_comparison.json).
+
+### Verification, cleanup and limits
+
+The actual controller was replayed for all 30 valid cases. A separate evaluator agreed with the primary analysis in 427 result comparisons. The source review checked 186 saved-field links, 60 separate final reloads, 60 controller calls, 30 seals and 30 undo-dispatch limits. The extraction review checked 6,409 raw source lines and 15,847 field and hash values. A separate clean replay ran all seven documented commands. All six generated files matched byte for byte. These checks are recorded in the [independent review](improved_independent_review.md), [source review](improved_source_review.json), [extraction review](improved_extraction_review.json) and [reproduction receipt](improved_reproduction_check.json).
+
+All 32 new saved trial records and the new private Notion parent were moved to recoverable Trash. No Trash was emptied. Each trial has active-absence evidence. The final Calendar prefix search covered October 1–31, which includes every planned trial date. The final Notion parent was empty before its removal. The [cleanup review](improved_cleanup_review.json) and [cleanup summary](improved_cleanup.json) retain these evidence limits.
+
+Browser cleanup is incomplete. The new Calendar13 tab did not close because its browser command timed out. Its saved event is in Trash, and no Save was sent during tab cleanup. The earlier possible unsaved Calendar23 form was not opened or saved during this extension; its earlier uncertainty remains. The new Notion tab and final Calendar search tab closed. Saved-record cleanup does not convert either unknown trial into a valid result.
+
+The plan and frozen rule did not change. Calendar helper changes waited for a ready cleanup view and the actual editor before identity capture. Failed actions, original rows and later cleanup corrections remain in [the change record](improved_changes_and_failures.md). Full private UI and screenshots remain local. Public replay can check the extracted synthetic fields and controller outputs, but cannot reconstruct those omitted private observations.
+
+The controller can still be wrong if an incomplete log is falsely marked complete. A local counterexample hides set0 followed by set1 while the field returns to X=1. The controller sees a complete empty log, chooses X=0 and can confirm that wrong target after two matching reads. The true fixed-command target is X=1. This retained negative control shows why a field check cannot replace trusted action history. See [improved_rule_checks.json](improved_rule_checks.json). This is a local code control, not an extra website trial.
+
+The new case series is small, deliberately selected and paired within one account owner. It is not a measured production error rate. It does not test unrestricted autonomous model behavior, natural concurrency, a native Undo button or real meeting effects. Two agreeing reads do not guarantee that future changes cannot occur. The rule's postcheck is a bounded claim about the observed saved fields.
+
 ## Discussion
 
 Undo needs a target that states which later effects to preserve. Old values alone do not define that target. An inverse is safe only under suitable operation semantics. A set can make the original contribution absent, so an additional inverse creates a new error.
@@ -178,7 +257,7 @@ Revision-based refusal can prevent damage, but refusal and successful undo are d
 
 ## Limitations
 
-The exhaustive result is a simulation of fixed rules. The separate live extension tests prescribed browser actions in two production accounts. The alphabet, initial states and maximum length are small. The proof covers longer words only under the same operation semantics. Counts are not estimates of production risk.
+The exhaustive result is a simulation of fixed rules. The separate live extensions test prescribed browser actions in two production accounts. The alphabet, initial states and maximum length are small. The proof covers longer words only under the same operation semantics. Counts are not estimates of production risk.
 
 The reference fixes later commands. Real actors can read intermediate values, select different branches, copy data, or produce external effects. Removing the earlier action can change those later decisions. Our exact target then need not describe a meaningful real undo.
 
@@ -194,7 +273,7 @@ These results do not authorize automatic rollback of real user work. A system ne
 
 ## AI use and human review
 
-Codex generated the study, code and report. The root agent designed the model and wrote the main analysis. Separate Codex agents checked sources, implemented an independent analysis and reviewed the report. Python computed the results. In the live extension, two Codex browser agents execute the fixed rules and record saved fields. A separate agent checks the evidence and analysis. Browser tools also publish the checked files. The exact immutable Codex model build was not exposed. No human or peer review occurred. No university affiliation, endorsement or certification is claimed.
+Codex generated the study, code and report. The root agent designed the model and wrote the main analysis. Separate Codex agents checked sources, implemented an independent analysis and reviewed the report. Python computed the results. In the live extensions, two Codex browser agents execute the fixed rules and record saved fields. The second extension reviewer inspected the controller during design review, then wrote a separate evaluator before reading the primary analyzer. A separate agent checks the evidence and analysis. Browser tools also publish the checked files. The exact immutable Codex model build was not exposed. No human or peer review occurred. No university affiliation, endorsement or certification is claimed.
 
 ## References
 

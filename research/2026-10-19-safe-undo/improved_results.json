@@ -1,0 +1,1134 @@
+{
+  "by_rule": {
+    "baseline_log_provenance": {
+      "abstain_correct": 0,
+      "clean_completion": 9,
+      "false_confirmation": 6,
+      "planned": 16,
+      "prewrite_refusals": 0,
+      "unknown": 1,
+      "unresolved": 0,
+      "valid": 15,
+      "write_attempts": 13,
+      "y_mismatches": 2
+    },
+    "checked_history": {
+      "abstain_correct": 2,
+      "clean_completion": 7,
+      "false_confirmation": 0,
+      "planned": 16,
+      "prewrite_refusals": 4,
+      "unknown": 1,
+      "unresolved": 6,
+      "valid": 15,
+      "write_attempts": 9,
+      "y_mismatches": 2
+    }
+  },
+  "by_site": {
+    "calendar": {
+      "baseline_log_provenance": {
+        "abstain_correct": 0,
+        "clean_completion": 4,
+        "false_confirmation": 3,
+        "planned": 8,
+        "prewrite_refusals": 0,
+        "unknown": 1,
+        "unresolved": 0,
+        "valid": 7,
+        "write_attempts": 6,
+        "y_mismatches": 1
+      },
+      "checked_history": {
+        "abstain_correct": 1,
+        "clean_completion": 3,
+        "false_confirmation": 0,
+        "planned": 8,
+        "prewrite_refusals": 2,
+        "unknown": 1,
+        "unresolved": 3,
+        "valid": 7,
+        "write_attempts": 4,
+        "y_mismatches": 1
+      }
+    },
+    "notion": {
+      "baseline_log_provenance": {
+        "abstain_correct": 0,
+        "clean_completion": 5,
+        "false_confirmation": 3,
+        "planned": 8,
+        "prewrite_refusals": 0,
+        "unknown": 0,
+        "unresolved": 0,
+        "valid": 8,
+        "write_attempts": 7,
+        "y_mismatches": 1
+      },
+      "checked_history": {
+        "abstain_correct": 1,
+        "clean_completion": 4,
+        "false_confirmation": 0,
+        "planned": 8,
+        "prewrite_refusals": 2,
+        "unknown": 0,
+        "unresolved": 3,
+        "valid": 8,
+        "write_attempts": 5,
+        "y_mismatches": 1
+      }
+    }
+  },
+  "hypotheses": {
+    "H1": {
+      "false_confirmations": 0,
+      "unknown": 1,
+      "valid": 15
+    },
+    "H2": {
+      "clean_positive": 7,
+      "planned_positive": 8,
+      "unknown": 1
+    },
+    "H3": {
+      "observed_prewrite_refusals": 4,
+      "planned": 4
+    },
+    "H4": {
+      "observed_refusals": 4,
+      "planned": 4,
+      "unknown": 0
+    },
+    "H5": {
+      "baseline_incomplete_or_wrong_save_false": 6
+    }
+  },
+  "pairs": [
+    {
+      "baseline": "clean_completion",
+      "improved": "unknown",
+      "scenario": "addition",
+      "site": "calendar",
+      "valid_pair": false
+    },
+    {
+      "baseline": "clean_completion",
+      "improved": "clean_completion",
+      "scenario": "assignment_return",
+      "site": "calendar",
+      "valid_pair": true
+    },
+    {
+      "baseline": "clean_completion",
+      "improved": "clean_completion",
+      "scenario": "control",
+      "site": "calendar",
+      "valid_pair": true
+    },
+    {
+      "baseline": "false_confirmation",
+      "improved": "abstain_correct",
+      "scenario": "incomplete_history",
+      "site": "calendar",
+      "valid_pair": true
+    },
+    {
+      "baseline": "unknown",
+      "improved": "clean_completion",
+      "scenario": "independent_y",
+      "site": "calendar",
+      "valid_pair": false
+    },
+    {
+      "baseline": "clean_completion",
+      "improved": "unresolved",
+      "scenario": "prestate_mismatch",
+      "site": "calendar",
+      "valid_pair": true
+    },
+    {
+      "baseline": "false_confirmation",
+      "improved": "unresolved",
+      "scenario": "wrong_x_save",
+      "site": "calendar",
+      "valid_pair": true
+    },
+    {
+      "baseline": "false_confirmation",
+      "improved": "unresolved",
+      "scenario": "wrong_y_save",
+      "site": "calendar",
+      "valid_pair": true
+    },
+    {
+      "baseline": "clean_completion",
+      "improved": "clean_completion",
+      "scenario": "addition",
+      "site": "notion",
+      "valid_pair": true
+    },
+    {
+      "baseline": "clean_completion",
+      "improved": "clean_completion",
+      "scenario": "assignment_return",
+      "site": "notion",
+      "valid_pair": true
+    },
+    {
+      "baseline": "clean_completion",
+      "improved": "clean_completion",
+      "scenario": "control",
+      "site": "notion",
+      "valid_pair": true
+    },
+    {
+      "baseline": "false_confirmation",
+      "improved": "abstain_correct",
+      "scenario": "incomplete_history",
+      "site": "notion",
+      "valid_pair": true
+    },
+    {
+      "baseline": "clean_completion",
+      "improved": "clean_completion",
+      "scenario": "independent_y",
+      "site": "notion",
+      "valid_pair": true
+    },
+    {
+      "baseline": "clean_completion",
+      "improved": "unresolved",
+      "scenario": "prestate_mismatch",
+      "site": "notion",
+      "valid_pair": true
+    },
+    {
+      "baseline": "false_confirmation",
+      "improved": "unresolved",
+      "scenario": "wrong_x_save",
+      "site": "notion",
+      "valid_pair": true
+    },
+    {
+      "baseline": "false_confirmation",
+      "improved": "unresolved",
+      "scenario": "wrong_y_save",
+      "site": "notion",
+      "valid_pair": true
+    }
+  ],
+  "rows": [
+    {
+      "both_final_match_target": false,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "outcome": "false_confirmation",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "incomplete_history",
+      "site": "calendar",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-01",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "abstain",
+      "deliberate_fault": true,
+      "fault_literal_observed": true,
+      "final": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "outcome": "unresolved",
+      "prewrite_refusal": false,
+      "reason": "saved_target_mismatch",
+      "rule": "checked_history",
+      "scenario": "wrong_x_save",
+      "site": "calendar",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-02",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "two_saved_target_matches",
+      "rule": "checked_history",
+      "scenario": "control",
+      "site": "calendar",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-03",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "two_saved_target_matches",
+      "rule": "checked_history",
+      "scenario": "assignment_return",
+      "site": "calendar",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-04",
+      "write_attempted": false,
+      "y_mismatch": false
+    },
+    {
+      "claim": null,
+      "outcome": "unknown",
+      "reason": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(visible) timed out for selector internal:role=textbox[name=\"Description\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\"internal:role=textbox[name=\\\"Description\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+      "rule": "baseline_log_provenance",
+      "scenario": "independent_y",
+      "site": "calendar",
+      "target": {
+        "x": 0,
+        "y": 1
+      },
+      "trial_id": "calendar-05",
+      "write_attempted": null
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "abstain",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "outcome": "unresolved",
+      "prewrite_refusal": true,
+      "reason": "prestate_mismatch",
+      "rule": "checked_history",
+      "scenario": "prestate_mismatch",
+      "site": "calendar",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-06",
+      "write_attempted": false,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "control",
+      "site": "calendar",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-07",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "complete",
+      "deliberate_fault": true,
+      "fault_literal_observed": true,
+      "final": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "outcome": "false_confirmation",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "wrong_y_save",
+      "site": "calendar",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-08",
+      "write_attempted": true,
+      "y_mismatch": true
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "abstain",
+      "deliberate_fault": true,
+      "fault_literal_observed": true,
+      "final": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "outcome": "unresolved",
+      "prewrite_refusal": false,
+      "reason": "saved_target_mismatch",
+      "rule": "checked_history",
+      "scenario": "wrong_y_save",
+      "site": "calendar",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-09",
+      "write_attempted": true,
+      "y_mismatch": true
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "prestate_mismatch",
+      "site": "calendar",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-10",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "abstain",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "abstain_correct",
+      "prewrite_refusal": true,
+      "reason": "incomplete_history",
+      "rule": "checked_history",
+      "scenario": "incomplete_history",
+      "site": "calendar",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-11",
+      "write_attempted": false,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "two_saved_target_matches",
+      "rule": "checked_history",
+      "scenario": "independent_y",
+      "site": "calendar",
+      "target": {
+        "x": 0,
+        "y": 1
+      },
+      "trial_id": "calendar-12",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "claim": null,
+      "outcome": "unknown",
+      "reason": "Error: Timed out after 3000ms evaluating selector internal:role=textbox[name=\"Title\"s]: CDP operation exceeded its deadline before command dispatch",
+      "rule": "checked_history",
+      "scenario": "addition",
+      "site": "calendar",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-13",
+      "write_attempted": null
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "addition",
+      "site": "calendar",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-14",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "assignment_return",
+      "site": "calendar",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-15",
+      "write_attempted": false,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "complete",
+      "deliberate_fault": true,
+      "fault_literal_observed": true,
+      "final": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "outcome": "false_confirmation",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "wrong_x_save",
+      "site": "calendar",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-16",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "two_saved_target_matches",
+      "rule": "checked_history",
+      "scenario": "independent_y",
+      "site": "notion",
+      "target": {
+        "x": 0,
+        "y": 1
+      },
+      "trial_id": "notion-01",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "complete",
+      "deliberate_fault": true,
+      "fault_literal_observed": true,
+      "final": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "outcome": "false_confirmation",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "wrong_x_save",
+      "site": "notion",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-02",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "independent_y",
+      "site": "notion",
+      "target": {
+        "x": 0,
+        "y": 1
+      },
+      "trial_id": "notion-03",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "complete",
+      "deliberate_fault": true,
+      "fault_literal_observed": true,
+      "final": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "outcome": "false_confirmation",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "wrong_y_save",
+      "site": "notion",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-04",
+      "write_attempted": true,
+      "y_mismatch": true
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "control",
+      "site": "notion",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-05",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "prestate_mismatch",
+      "site": "notion",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-06",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "abstain",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "outcome": "unresolved",
+      "prewrite_refusal": true,
+      "reason": "prestate_mismatch",
+      "rule": "checked_history",
+      "scenario": "prestate_mismatch",
+      "site": "notion",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-07",
+      "write_attempted": false,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "abstain",
+      "deliberate_fault": true,
+      "fault_literal_observed": true,
+      "final": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "outcome": "unresolved",
+      "prewrite_refusal": false,
+      "reason": "saved_target_mismatch",
+      "rule": "checked_history",
+      "scenario": "wrong_x_save",
+      "site": "notion",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-08",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "two_saved_target_matches",
+      "rule": "checked_history",
+      "scenario": "control",
+      "site": "notion",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-09",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "assignment_return",
+      "site": "notion",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-10",
+      "write_attempted": false,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "addition",
+      "site": "notion",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-11",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "abstain",
+      "deliberate_fault": true,
+      "fault_literal_observed": true,
+      "final": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "outcome": "unresolved",
+      "prewrite_refusal": false,
+      "reason": "saved_target_mismatch",
+      "rule": "checked_history",
+      "scenario": "wrong_y_save",
+      "site": "notion",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-12",
+      "write_attempted": true,
+      "y_mismatch": true
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "abstain",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "abstain_correct",
+      "prewrite_refusal": true,
+      "reason": "incomplete_history",
+      "rule": "checked_history",
+      "scenario": "incomplete_history",
+      "site": "notion",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-13",
+      "write_attempted": false,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "two_saved_target_matches",
+      "rule": "checked_history",
+      "scenario": "assignment_return",
+      "site": "notion",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-14",
+      "write_attempted": false,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": false,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "outcome": "false_confirmation",
+      "prewrite_refusal": false,
+      "reason": "legacy_decision",
+      "rule": "baseline_log_provenance",
+      "scenario": "incomplete_history",
+      "site": "notion",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-15",
+      "write_attempted": true,
+      "y_mismatch": false
+    },
+    {
+      "both_final_match_target": true,
+      "claim": "complete",
+      "deliberate_fault": false,
+      "fault_literal_observed": null,
+      "final": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "outcome": "clean_completion",
+      "prewrite_refusal": false,
+      "reason": "two_saved_target_matches",
+      "rule": "checked_history",
+      "scenario": "addition",
+      "site": "notion",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-16",
+      "write_attempted": true,
+      "y_mismatch": false
+    }
+  ],
+  "scope": "Selected controlled production cases; counts are not population rates.",
+  "status": "PASS",
+  "total": {
+    "abstain_correct": 2,
+    "clean_completion": 16,
+    "false_confirmation": 6,
+    "planned": 32,
+    "prewrite_refusals": 4,
+    "unknown": 2,
+    "unresolved": 6,
+    "valid": 30,
+    "write_attempts": 22,
+    "y_mismatches": 4
+  }
+}

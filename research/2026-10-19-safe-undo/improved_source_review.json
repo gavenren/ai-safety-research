@@ -1,0 +1,361 @@
+{
+  "controller_calls": 60,
+  "final_reload_actions": 60,
+  "issues": [],
+  "limits": [
+    "Only available terminal rows are checked; assignment coverage and cleanup need separate checks.",
+    "Calendar Description uses the explicit visible-field read; its text is absent from the DOM snapshot.",
+    "This audit checks saved evidence and read actions, not server atomicity or true history completeness."
+  ],
+  "rows": [
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 8,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-01",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-02",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-03",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 7,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-04",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 0,
+      "final_reload_actions": 0,
+      "issues": [],
+      "saved_field_links": 0,
+      "seal_links": 0,
+      "status": "unknown",
+      "trial_id": "calendar-05",
+      "undo_dispatch_checks": 0
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-06",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-07",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-08",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-09",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 7,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-10",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 7,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-11",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 7,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-12",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 0,
+      "final_reload_actions": 0,
+      "issues": [],
+      "saved_field_links": 0,
+      "seal_links": 0,
+      "status": "unknown",
+      "trial_id": "calendar-13",
+      "undo_dispatch_checks": 0
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 7,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-14",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 7,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-15",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "calendar-16",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-01",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 5,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-02",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-03",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 5,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-04",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 5,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-05",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-06",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-07",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 5,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-08",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 5,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-09",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 7,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-10",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-11",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 5,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-12",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 7,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-13",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 7,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-14",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 7,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-15",
+      "undo_dispatch_checks": 1
+    },
+    {
+      "controller_calls": 2,
+      "final_reload_actions": 2,
+      "issues": [],
+      "saved_field_links": 6,
+      "seal_links": 1,
+      "status": "valid",
+      "trial_id": "notion-16",
+      "undo_dispatch_checks": 1
+    }
+  ],
+  "saved_field_links": 186,
+  "schema_checks": [
+    {
+      "checkbox_type": "native checkbox under each saved Y property",
+      "number_type": "UN2-00079",
+      "private_parent": "UN2-00068",
+      "schema_sha256": "26552e2e99755b32524b5e003ca658fae38aa32ad55ca0de4e1b4222bd16d492",
+      "site": "notion"
+    }
+  ],
+  "seal_links": 30,
+  "source_files": [
+    {
+      "action_rows": 2194,
+      "actions_sha256": "595c5bb56419aa6b62b06ea54208bef997e0ea71652236a473aba051558dac7b",
+      "site": "calendar",
+      "terminal_file": "final_trials.jsonl",
+      "terminal_sha256": "7ab97602b9804d98479cb783a040d1593ff1c18e79b52f962bc9ddf574e9f80b"
+    },
+    {
+      "action_rows": 4215,
+      "actions_sha256": "906892378ff143009b60584a4db5a2dcc2ed07820506d9279e97e7e8ff84aede",
+      "site": "notion",
+      "terminal_file": "trials.jsonl",
+      "terminal_sha256": "26fe14279d9636167074a8263701a5179b50fe5a53cabebf4ef06630dddd4eef"
+    }
+  ],
+  "status": "PASS",
+  "undo_dispatch_checks": 30
+}

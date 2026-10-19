@@ -1,0 +1,36 @@
+{
+  "field_and_hash_checks": 15847,
+  "issues": [],
+  "limitations": [
+    "Full browser UI is private. Public evidence hashes do not let an outside reader inspect the private source.",
+    "An unknown trial before a seal has no seal evidence; exported assignment defaults do not establish a completed seal."
+  ],
+  "privacy_checks": [
+    "Exact native IDs and supplied private strings absent",
+    "No email pattern, native account URL or local home path"
+  ],
+  "public_sha256": {
+    "improved_cleanup.json": "736a8718a8bcfddd83c7e34bf24a7f401e660ad7d15e11686f6cc78fc0d4ae51",
+    "improved_evidence.jsonl": "5d0b4df96736ae790eb5e8f3b63c951929417f543d13cfaad23c552e444bf444",
+    "improved_trials.jsonl": "803c572fa4c5fecdf3ae40fcfb37576cd9ad68301494791d4645e04f4f416775"
+  },
+  "source_files": [
+    {
+      "actions_sha256": "595c5bb56419aa6b62b06ea54208bef997e0ea71652236a473aba051558dac7b",
+      "original_terminal_sha256": "2129d58ccf12cf1ba3f181b02a8fe879d8dacc82fa43d8bcbaaf26ec27e8b739",
+      "site": "calendar",
+      "terminal_file": "final_trials.jsonl",
+      "terminal_sha256": "7ab97602b9804d98479cb783a040d1593ff1c18e79b52f962bc9ddf574e9f80b"
+    },
+    {
+      "actions_sha256": "906892378ff143009b60584a4db5a2dcc2ed07820506d9279e97e7e8ff84aede",
+      "original_terminal_sha256": "26fe14279d9636167074a8263701a5179b50fe5a53cabebf4ef06630dddd4eef",
+      "site": "notion",
+      "terminal_file": "trials.jsonl",
+      "terminal_sha256": "26fe14279d9636167074a8263701a5179b50fe5a53cabebf4ef06630dddd4eef"
+    }
+  ],
+  "source_lines": 6409,
+  "status": "PASS",
+  "terminal_rows": 32
+}

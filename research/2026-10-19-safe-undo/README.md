@@ -104,3 +104,51 @@ python3 live_export_helpers.py --private-dir PRIVATE_RUN_DIRECTORY --output-dir 
 These two commands transform local files only. Inspect every public output before publication. They do not establish that a browser trial occurred; that requires the saved source evidence and review.
 
 The original report, README and bibliography remain in synthetic_report_original.md, synthetic_README_original.md and synthetic_references_original.bib. The original review receipts describe that historical release at commit 699177c2926f94f6fc601d8a10bfcb811d1bc221. In particular, old report, README and bibliography hashes bind those originals. They do not bind the later combined report. Live checks are recorded separately.
+
+
+## Improved controller extension
+
+The second production study uses the same paper and separate improved_* files. Read improved_plan.md for the frozen 32-assignment design. It compares the prior log-assisted history rule with a controller that checks history, current fields and two saved observations before a completion claim. Faulty field saves are deliberately injected. They are not alleged provider defects.
+
+### Repeat the new saved-data analysis
+
+Use Python 3.13.7 and Node v24.14.1. No extra library, account access or paid service is needed. From this folder, run:
+
+```sh
+node improved_rule_tests.mjs improved_rule_checks.json
+python3 -m unittest improved_tests -v
+python3 improved_analyze.py --package . --output improved_results.json
+node improved_rule_replay.mjs . improved_rule_replay.json
+python3 improved_independent_tests.py
+python3 improved_independent_audit.py --package . --trials improved_trials.jsonl --output improved_independent_results.json
+python3 improved_independent_compare.py --package . --output improved_independent_comparison.json
+```
+
+The first two commands check local implementation and grading controls. Their synthetic fixtures are not extra website trials. The retained dishonest-history counterexample shows a limit of the controller. The next two commands grade actual exported observations and replay the actual controller decisions. A missing or incorrect field cannot be replaced by a planned value.
+
+A clean reproduction copies the needed improved files to a new empty directory and runs the same commands. See improved_reproduction_check.json and improved_reproduction_log.json for the actual command outcomes and file comparisons. This replay does not reconstruct the omitted private account UI.
+
+### Evidence and source files
+
+- improved_input_manifest.json binds the prospective plan, controller, assignment order, source record, rule controls and design review.
+- improved_trials.jsonl contains all terminal assignments, observed fields, exact controller inputs and outputs, requested and actual actuator literals, refusal reasons, and cleanup evidence. Native record identities use aliases.
+- improved_evidence.jsonl contains selected raw action metadata and observed synthetic fields, with one-based source line numbers and SHA-256 hashes. Full DOM and private screenshots remain local.
+- improved_extract.py builds these extracts from the private source logs. improved_extraction.json records input hashes and exclusion scope. The independent source review is separate from extraction.
+- improved_rules.mjs, improved_rule_replay.mjs and improved_rule_tests.mjs contain the actual controller, saved-decision replay and local semantic controls. improved_analyze.py and improved_tests.py contain the primary grader and its controls.
+- improved_independent_* files contain the separately implemented model, audit, controls and review. The reviewer saw the controller during design review, but implemented the evaluator before reading the primary analyzer. The source, extraction and cleanup audit scripts require the omitted private logs. They cannot be replayed from this public package alone. The model, evaluator, controls and comparison use public files only.
+- improved_export_helpers.py and improved_helper_manifest.json describe the actual browser helper versions. Published helper filenames have improved_calendar_ or improved_notion_ prefixes. Account-name literals are removed; local helper imports are adjusted to those names.
+- improved_changes_and_failures.md, improved_cleanup.json and improved_environment.json preserve failures, cleanup limits and tool versions. improved_extract_cleanup.py selects cleanup data from private summaries and the public trial extract; it requires the private files.
+- improved_preservation_check.json binds every file of the earlier production release. The prior report, README and bibliography are also saved as live_original_report.md, live_original_README.md and live_original_references.bib. Old review receipts refer to their historical releases, not this combined text.
+- improved_review_checklist.md, improved_content_review.md and improved_release_check.json record later review. A local pass is not proof of remote publication.
+
+### Run new website tests
+
+Use your own authorized temporary accounts and supported browser tools. The plan and actual helper sources specify the data contracts and saved-state checks. Supply a fresh run token and new private parent. Freeze a new plan before action. Do not replay old native IDs or restore old records. Keep source observations private and inspect exports before sharing. No browser client library or credentials are supplied.
+
+```sh
+python3 improved_extract.py --private-dir PRIVATE_RUN_DIRECTORY --output-dir PUBLIC_OUTPUT_DIRECTORY
+python3 improved_export_helpers.py --private-dir PRIVATE_RUN_DIRECTORY --output-dir PUBLIC_OUTPUT_DIRECTORY
+python3 improved_extract_cleanup.py --private-dir PRIVATE_RUN_DIRECTORY --output-dir PUBLIC_OUTPUT_DIRECTORY
+```
+
+These scripts only process local evidence. The private directory must contain calendar/ and notion/ logs and private_redactions.json with account_names. Extraction does not establish that the actions happened. That requires the retained native source evidence and its review.

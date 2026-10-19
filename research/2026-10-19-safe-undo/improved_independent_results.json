@@ -1,0 +1,1714 @@
+{
+  "assignment_count": 32,
+  "counts": {
+    "abstain_correct": 2,
+    "assigned": 32,
+    "clean_completion": 16,
+    "false_confirmation": 6,
+    "fault_assigned_valid": 8,
+    "fault_saved": 8,
+    "prewrite_refusal": 4,
+    "unknown": 2,
+    "unresolved": 6,
+    "valid": 30,
+    "write_attempted": 22
+  },
+  "issues": [],
+  "limits": [
+    "Controller inspected during design review; main analysis not read during this independent implementation.",
+    "Saved observations require separate native-source and extraction checks.",
+    "True log completeness and atomic browser behavior are not established by matching values."
+  ],
+  "manifest_sha256": "aa8a01119e48c503a7b2e396f8b677ba7ce4e0feb91e93b415fb94fd027d30ac",
+  "missing": [],
+  "pairs": [
+    {
+      "outcomes": {
+        "baseline_log_provenance": "clean_completion",
+        "checked_history": "unknown"
+      },
+      "paired_valid": false,
+      "scenario": "addition",
+      "site": "calendar"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "clean_completion",
+        "checked_history": "clean_completion"
+      },
+      "paired_valid": true,
+      "scenario": "assignment_return",
+      "site": "calendar"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "clean_completion",
+        "checked_history": "clean_completion"
+      },
+      "paired_valid": true,
+      "scenario": "control",
+      "site": "calendar"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "false_confirmation",
+        "checked_history": "abstain_correct"
+      },
+      "paired_valid": true,
+      "scenario": "incomplete_history",
+      "site": "calendar"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "unknown",
+        "checked_history": "clean_completion"
+      },
+      "paired_valid": false,
+      "scenario": "independent_y",
+      "site": "calendar"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "clean_completion",
+        "checked_history": "unresolved"
+      },
+      "paired_valid": true,
+      "scenario": "prestate_mismatch",
+      "site": "calendar"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "false_confirmation",
+        "checked_history": "unresolved"
+      },
+      "paired_valid": true,
+      "scenario": "wrong_x_save",
+      "site": "calendar"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "false_confirmation",
+        "checked_history": "unresolved"
+      },
+      "paired_valid": true,
+      "scenario": "wrong_y_save",
+      "site": "calendar"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "clean_completion",
+        "checked_history": "clean_completion"
+      },
+      "paired_valid": true,
+      "scenario": "addition",
+      "site": "notion"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "clean_completion",
+        "checked_history": "clean_completion"
+      },
+      "paired_valid": true,
+      "scenario": "assignment_return",
+      "site": "notion"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "clean_completion",
+        "checked_history": "clean_completion"
+      },
+      "paired_valid": true,
+      "scenario": "control",
+      "site": "notion"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "false_confirmation",
+        "checked_history": "abstain_correct"
+      },
+      "paired_valid": true,
+      "scenario": "incomplete_history",
+      "site": "notion"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "clean_completion",
+        "checked_history": "clean_completion"
+      },
+      "paired_valid": true,
+      "scenario": "independent_y",
+      "site": "notion"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "clean_completion",
+        "checked_history": "unresolved"
+      },
+      "paired_valid": true,
+      "scenario": "prestate_mismatch",
+      "site": "notion"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "false_confirmation",
+        "checked_history": "unresolved"
+      },
+      "paired_valid": true,
+      "scenario": "wrong_x_save",
+      "site": "notion"
+    },
+    {
+      "outcomes": {
+        "baseline_log_provenance": "false_confirmation",
+        "checked_history": "unresolved"
+      },
+      "paired_valid": true,
+      "scenario": "wrong_y_save",
+      "site": "notion"
+    }
+  ],
+  "record_count": 32,
+  "rows": [
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "false_confirmation",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-000058",
+        "CUI-000072",
+        "CUI-000086",
+        "CUI-000100",
+        "CUI-000106",
+        "CUI-000127",
+        "CUI-000132"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "incomplete_history",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-01",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": "x_plus_two",
+      "fault_saved": true,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "finish_reason": "saved_target_mismatch",
+      "finish_status": "abstain",
+      "outcome": "unresolved",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-000217",
+        "CUI-000231",
+        "CUI-000237",
+        "CUI-000258",
+        "CUI-000263"
+      ],
+      "rule": "checked_history",
+      "scenario": "wrong_x_save",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-02",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "finish_reason": "two_saved_target_matches",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-000344",
+        "CUI-000358",
+        "CUI-000364",
+        "CUI-000385",
+        "CUI-000390"
+      ],
+      "rule": "checked_history",
+      "scenario": "control",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-03",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 1,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": null,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "two_saved_target_matches",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-000471",
+        "CUI-000485",
+        "CUI-000499",
+        "CUI-000513",
+        "CUI-000519",
+        "CUI-000526",
+        "CUI-000531"
+      ],
+      "rule": "checked_history",
+      "scenario": "assignment_return",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-04",
+      "write_attempted": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "outcome": "unknown",
+      "rule": "baseline_log_provenance",
+      "scenario": "independent_y",
+      "site": "calendar",
+      "status": "unknown",
+      "target": {
+        "x": 0,
+        "y": 1
+      },
+      "trial_id": "calendar-05",
+      "write_attempted": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "abstain",
+      "decision_target": null,
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": null,
+      "final_reads": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "finish_reason": "prestate_mismatch",
+      "finish_status": "abstain",
+      "outcome": "unresolved",
+      "pre": {
+        "x": 2,
+        "y": 0
+      },
+      "prewrite_refusal": true,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-000691",
+        "CUI-000705",
+        "CUI-000720",
+        "CUI-000725",
+        "CUI-000732",
+        "CUI-000737"
+      ],
+      "rule": "checked_history",
+      "scenario": "prestate_mismatch",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-06",
+      "write_attempted": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-000818",
+        "CUI-000832",
+        "CUI-000838",
+        "CUI-000859",
+        "CUI-000864"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "control",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-07",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": "flip_y",
+      "fault_saved": true,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "false_confirmation",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-000945",
+        "CUI-000959",
+        "CUI-000965",
+        "CUI-000992",
+        "CUI-000997"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "wrong_y_save",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-08",
+      "write_attempted": true,
+      "y_target_mismatch": true
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": "flip_y",
+      "fault_saved": true,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "finish_reason": "saved_target_mismatch",
+      "finish_status": "abstain",
+      "outcome": "unresolved",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-001078",
+        "CUI-001092",
+        "CUI-001098",
+        "CUI-001125",
+        "CUI-001130"
+      ],
+      "rule": "checked_history",
+      "scenario": "wrong_y_save",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-09",
+      "write_attempted": true,
+      "y_target_mismatch": true
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 1,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 2,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-001211",
+        "CUI-001225",
+        "CUI-001240",
+        "CUI-001245",
+        "CUI-001266",
+        "CUI-001271"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "prestate_mismatch",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-10",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "abstain",
+      "decision_target": null,
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": null,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "incomplete_history",
+      "finish_status": "abstain",
+      "outcome": "abstain_correct",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": true,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-001352",
+        "CUI-001366",
+        "CUI-001380",
+        "CUI-001394",
+        "CUI-001400",
+        "CUI-001407",
+        "CUI-001412"
+      ],
+      "rule": "checked_history",
+      "scenario": "incomplete_history",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-11",
+      "write_attempted": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 0,
+        "y": 1
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "finish_reason": "two_saved_target_matches",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 1
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CUI-001493",
+        "CUI-001507",
+        "CUI-001524",
+        "CUI-001530",
+        "CUI-001551",
+        "CUI-001556"
+      ],
+      "rule": "checked_history",
+      "scenario": "independent_y",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 1
+      },
+      "trial_id": "calendar-12",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "outcome": "unknown",
+      "rule": "checked_history",
+      "scenario": "addition",
+      "site": "calendar",
+      "status": "unknown",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-13",
+      "write_attempted": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 1,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 2,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CIF-001758",
+        "CIF-001772",
+        "CIF-001786",
+        "CIF-001792",
+        "CIF-001813",
+        "CIF-001818"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "addition",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-14",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 1,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": null,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CIF-001899",
+        "CIF-001913",
+        "CIF-001927",
+        "CIF-001941",
+        "CIF-001947",
+        "CIF-001954",
+        "CIF-001959"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "assignment_return",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "calendar-15",
+      "write_attempted": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": "x_plus_two",
+      "fault_saved": true,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "false_confirmation",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "CIF-002040",
+        "CIF-002054",
+        "CIF-002060",
+        "CIF-002081",
+        "CIF-002086"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "wrong_x_save",
+      "site": "calendar",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "calendar-16",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 0,
+        "y": 1
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "finish_reason": "two_saved_target_matches",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 1
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-00174",
+        "UN2-00211",
+        "UN2-00239",
+        "UN2-00257",
+        "UN2-00296",
+        "UN2-00313"
+      ],
+      "rule": "checked_history",
+      "scenario": "independent_y",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 1
+      },
+      "trial_id": "notion-01",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": "x_plus_two",
+      "fault_saved": true,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "false_confirmation",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-00428",
+        "UN2-00465",
+        "UN2-00483",
+        "UN2-00522",
+        "UN2-00539"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "wrong_x_save",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-02",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 0,
+        "y": 1
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 1
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-00654",
+        "UN2-00691",
+        "UN2-00719",
+        "UN2-00737",
+        "UN2-00776",
+        "UN2-00793"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "independent_y",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 1
+      },
+      "trial_id": "notion-03",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": "flip_y",
+      "fault_saved": true,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "false_confirmation",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-00908",
+        "UN2-00945",
+        "UN2-00963",
+        "UN2-01012",
+        "UN2-01029"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "wrong_y_save",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-04",
+      "write_attempted": true,
+      "y_target_mismatch": true
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-01144",
+        "UN2-01181",
+        "UN2-01199",
+        "UN2-01238",
+        "UN2-01255"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "control",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-05",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 1,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 2,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-01370",
+        "UN2-01407",
+        "UN2-01446",
+        "UN2-01463",
+        "UN2-01502",
+        "UN2-01519"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "prestate_mismatch",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-06",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "abstain",
+      "decision_target": null,
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": null,
+      "final_reads": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "finish_reason": "prestate_mismatch",
+      "finish_status": "abstain",
+      "outcome": "unresolved",
+      "pre": {
+        "x": 2,
+        "y": 0
+      },
+      "prewrite_refusal": true,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-01634",
+        "UN2-01671",
+        "UN2-01710",
+        "UN2-01727",
+        "UN2-01746",
+        "UN2-01763"
+      ],
+      "rule": "checked_history",
+      "scenario": "prestate_mismatch",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-07",
+      "write_attempted": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": "x_plus_two",
+      "fault_saved": true,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "finish_reason": "saved_target_mismatch",
+      "finish_status": "abstain",
+      "outcome": "unresolved",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-01878",
+        "UN2-01915",
+        "UN2-01933",
+        "UN2-01972",
+        "UN2-01989"
+      ],
+      "rule": "checked_history",
+      "scenario": "wrong_x_save",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-08",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "finish_reason": "two_saved_target_matches",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-02104",
+        "UN2-02141",
+        "UN2-02159",
+        "UN2-02198",
+        "UN2-02215"
+      ],
+      "rule": "checked_history",
+      "scenario": "control",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-09",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 1,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": null,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-02330",
+        "UN2-02367",
+        "UN2-02405",
+        "UN2-02443",
+        "UN2-02461",
+        "UN2-02480",
+        "UN2-02497"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "assignment_return",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-10",
+      "write_attempted": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 1,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 2,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-02612",
+        "UN2-02649",
+        "UN2-02687",
+        "UN2-02705",
+        "UN2-02744",
+        "UN2-02761"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "addition",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-11",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": "flip_y",
+      "fault_saved": true,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "finish_reason": "saved_target_mismatch",
+      "finish_status": "abstain",
+      "outcome": "unresolved",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-02876",
+        "UN2-02913",
+        "UN2-02931",
+        "UN2-02980",
+        "UN2-02997"
+      ],
+      "rule": "checked_history",
+      "scenario": "wrong_y_save",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "trial_id": "notion-12",
+      "write_attempted": true,
+      "y_target_mismatch": true
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "abstain",
+      "decision_target": null,
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": null,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "incomplete_history",
+      "finish_status": "abstain",
+      "outcome": "abstain_correct",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": true,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-03112",
+        "UN2-03149",
+        "UN2-03187",
+        "UN2-03225",
+        "UN2-03243",
+        "UN2-03262",
+        "UN2-03279"
+      ],
+      "rule": "checked_history",
+      "scenario": "incomplete_history",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-13",
+      "write_attempted": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 1,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": null,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "two_saved_target_matches",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-03394",
+        "UN2-03431",
+        "UN2-03469",
+        "UN2-03507",
+        "UN2-03525",
+        "UN2-03544",
+        "UN2-03561"
+      ],
+      "rule": "checked_history",
+      "scenario": "assignment_return",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-14",
+      "write_attempted": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "complete",
+      "decision_target": {
+        "x": 0,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "finish_reason": "legacy_decision",
+      "finish_status": "complete",
+      "outcome": "false_confirmation",
+      "pre": {
+        "x": 1,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-03676",
+        "UN2-03713",
+        "UN2-03751",
+        "UN2-03789",
+        "UN2-03807",
+        "UN2-03846",
+        "UN2-03863"
+      ],
+      "rule": "baseline_log_provenance",
+      "scenario": "incomplete_history",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-15",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_status": "trashed",
+      "decision_status": "pending",
+      "decision_target": {
+        "x": 1,
+        "y": 0
+      },
+      "fault": null,
+      "fault_saved": null,
+      "final_matches_dispatch": true,
+      "final_reads": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "finish_reason": "two_saved_target_matches",
+      "finish_status": "complete",
+      "outcome": "clean_completion",
+      "pre": {
+        "x": 2,
+        "y": 0
+      },
+      "prewrite_refusal": false,
+      "protocol_issues": [],
+      "read_ids": [
+        "UN2-03978",
+        "UN2-04015",
+        "UN2-04053",
+        "UN2-04071",
+        "UN2-04110",
+        "UN2-04127"
+      ],
+      "rule": "checked_history",
+      "scenario": "addition",
+      "site": "notion",
+      "status": "valid",
+      "target": {
+        "x": 1,
+        "y": 0
+      },
+      "trial_id": "notion-16",
+      "write_attempted": true,
+      "y_target_mismatch": false
+    }
+  ],
+  "rules": {
+    "baseline_log_provenance": {
+      "assigned": 16,
+      "clean_completion": 9,
+      "false_confirmation": 6,
+      "fault_assigned_valid": 4,
+      "fault_saved": 4,
+      "prewrite_refusal": 0,
+      "unknown": 1,
+      "valid": 15,
+      "write_attempted": 13
+    },
+    "checked_history": {
+      "abstain_correct": 2,
+      "assigned": 16,
+      "clean_completion": 7,
+      "fault_assigned_valid": 4,
+      "fault_saved": 4,
+      "prewrite_refusal": 4,
+      "unknown": 1,
+      "unresolved": 6,
+      "valid": 15,
+      "write_attempted": 9
+    }
+  },
+  "sites": {
+    "calendar": {
+      "abstain_correct": 1,
+      "assigned": 16,
+      "clean_completion": 7,
+      "false_confirmation": 3,
+      "fault_assigned_valid": 4,
+      "fault_saved": 4,
+      "prewrite_refusal": 2,
+      "unknown": 2,
+      "unresolved": 3,
+      "valid": 14,
+      "write_attempted": 10
+    },
+    "notion": {
+      "abstain_correct": 1,
+      "assigned": 16,
+      "clean_completion": 9,
+      "false_confirmation": 3,
+      "fault_assigned_valid": 4,
+      "fault_saved": 4,
+      "prewrite_refusal": 2,
+      "unresolved": 3,
+      "valid": 16,
+      "write_attempted": 12
+    }
+  },
+  "source_files": [
+    {
+      "name": "improved_trials.jsonl",
+      "sha256": "803c572fa4c5fecdf3ae40fcfb37576cd9ad68301494791d4645e04f4f416775"
+    }
+  ],
+  "status": "PASS"
+}

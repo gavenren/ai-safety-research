@@ -1,0 +1,10 @@
+{
+  "comparisons": 427,
+  "inputs": {
+    "improved_independent_results.json": "a650d76b647d33db02692e37585146cfcbb5f637f90e33de8facea9f1e1947cd",
+    "improved_results.json": "fb8b5b8f10120f627c9ec13c01983f160ccae926993fc091e3d3b9c43d04852b"
+  },
+  "issues": [],
+  "scope": "Exact comparison of measured per-trial results, denominators, site/rule counts, pairs and stated hypothesis measures.",
+  "status": "PASS"
+}

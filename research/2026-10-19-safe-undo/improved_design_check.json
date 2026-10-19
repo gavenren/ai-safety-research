@@ -1,0 +1,22 @@
+{
+  "status": "PASS_BOUNDED_DESIGN",
+  "planned_assignments": 32,
+  "sites": [
+    "calendar",
+    "notion"
+  ],
+  "scenarios": 8,
+  "controllers": 2,
+  "source_hashes": {
+    "improved_plan.md": "67646330ba1dd573b22a2fbba53f37d13704844fdcac3fc494c34542324cd4ba",
+    "improved_rules.mjs": "84831a6297f02502c0551c082f60d72f21be130af68e8742d21dcd5b7164e650"
+  },
+  "conditions": [
+    "Freeze inputs before live changes.",
+    "Preserve complete-log and non-atomic browser limits.",
+    "No evaluator target enters controller input.",
+    "Keep actual final mismatches and unknown assignments."
+  ],
+  "reviewer_saw_controller": true,
+  "live_results_reviewed": false
+}

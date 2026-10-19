@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "checks": 25,
+  "names": [
+    "complete supported history []",
+    "complete supported history [\"flip_y\"]",
+    "complete supported history [\"add1\"]",
+    "complete supported history [\"set0\",\"set1\"]",
+    "complete supported history [\"sub1\"]",
+    "known incomplete history refuses",
+    "changed prestate refuses",
+    "wrong record refuses",
+    "invalid contract refuses",
+    "invalid agent action refuses",
+    "unknown command refuses",
+    "non-integer refuses",
+    "wrong X blocks completion",
+    "wrong Y blocks completion",
+    "first good second wrong blocks completion",
+    "only one read unknown",
+    "wrong saved identity unknown",
+    "invalid saved contract unknown",
+    "refusal remains refusal",
+    "legacy claim does not inspect poststate",
+    "duplicate final read unknown",
+    "missing reload unknown",
+    "pre-read reused unknown",
+    "out of order time unknown",
+    "dishonest-history limit remains observable"
+  ],
+  "trust_limit": {
+    "description": "A falsely complete empty log hides set0,set1. Equal current fields do not detect the omitted commands.",
+    "full_later": [
+      "set0",
+      "set1"
+    ],
+    "presented_later": [],
+    "true_target": {
+      "x": 1,
+      "y": 0
+    },
+    "decision": {
+      "status": "pending",
+      "reason": "verify_saved_target",
+      "write": {
+        "x": 0,
+        "y": 0
+      },
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "expectedIdentity": "temporary-record",
+      "preReadId": "read-27",
+      "preReadAt": "2026-10-19T16:00:27.000Z"
+    },
+    "finish": {
+      "status": "complete",
+      "reason": "two_saved_target_matches"
+    }
+  }
+}

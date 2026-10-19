@@ -1,0 +1,95 @@
+[
+  {
+    "command": [
+      "node",
+      "improved_rule_tests.mjs",
+      "improved_rule_checks.json"
+    ],
+    "exitcode": 0,
+    "stdout": "{\"status\":\"PASS\",\"checks\":25,\"trust_limit\":\"retained\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "improved_tests",
+      "-v"
+    ],
+    "exitcode": 0,
+    "stdout": "",
+    "stderr": "test_abstention_costs_remain_visible (improved_tests.GradingControls.test_abstention_costs_remain_visible) ... ok\ntest_complete_requires_actual_fields (improved_tests.GradingControls.test_complete_requires_actual_fields) ... ok\ntest_presented_history_drift_rejected (improved_tests.GradingControls.test_presented_history_drift_rejected) ... ok\ntest_unknown_does_not_infer_success (improved_tests.GradingControls.test_unknown_does_not_infer_success) ... ok\ntest_wrong_identity_rejected (improved_tests.GradingControls.test_wrong_identity_rejected) ... ok\ntest_wrong_saved_setup_rejected (improved_tests.GradingControls.test_wrong_saved_setup_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "improved_analyze.py",
+      "--package",
+      ".",
+      "--output",
+      "improved_results.json"
+    ],
+    "exitcode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"total\": {\n    \"planned\": 32,\n    \"valid\": 30,\n    \"clean_completion\": 16,\n    \"false_confirmation\": 6,\n    \"unresolved\": 6,\n    \"abstain_correct\": 2,\n    \"unknown\": 2,\n    \"write_attempts\": 22,\n    \"prewrite_refusals\": 4,\n    \"y_mismatches\": 4\n  },\n  \"by_rule\": {\n    \"baseline_log_provenance\": {\n      \"planned\": 16,\n      \"valid\": 15,\n      \"clean_completion\": 9,\n      \"false_confirmation\": 6,\n      \"unresolved\": 0,\n      \"abstain_correct\": 0,\n      \"unknown\": 1,\n      \"write_attempts\": 13,\n      \"prewrite_refusals\": 0,\n      \"y_mismatches\": 2\n    },\n    \"checked_history\": {\n      \"planned\": 16,\n      \"valid\": 15,\n      \"clean_completion\": 7,\n      \"false_confirmation\": 0,\n      \"unresolved\": 6,\n      \"abstain_correct\": 2,\n      \"unknown\": 1,\n      \"write_attempts\": 9,\n      \"prewrite_refusals\": 4,\n      \"y_mismatches\": 2\n    }\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "improved_rule_replay.mjs",
+      ".",
+      "improved_rule_replay.json"
+    ],
+    "exitcode": 0,
+    "stdout": "{\"status\":\"PASS\",\"assignments\":32,\"complete_decision_replays\":30,\"checked\":[\"calendar-01\",\"calendar-02\",\"calendar-03\",\"calendar-04\",\"calendar-06\",\"calendar-07\",\"calendar-08\",\"calendar-09\",\"calendar-10\",\"calendar-11\",\"calendar-12\",\"calendar-14\",\"calendar-15\",\"calendar-16\",\"notion-01\",\"notion-02\",\"notion-03\",\"notion-04\",\"notion-05\",\"notion-06\",\"notion-07\",\"notion-08\",\"notion-09\",\"notion-10\",\"notion-11\",\"notion-12\",\"notion-13\",\"notion-14\",\"notion-15\",\"notion-16\"]}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "improved_independent_tests.py"
+    ],
+    "exitcode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"local_controls\": 30,\n  \"checks\": [\n    \"baseline_log_provenance/control\",\n    \"baseline_log_provenance/independent_y\",\n    \"baseline_log_provenance/addition\",\n    \"baseline_log_provenance/assignment_return\",\n    \"baseline_log_provenance/incomplete_history\",\n    \"baseline_log_provenance/prestate_mismatch\",\n    \"baseline_log_provenance/wrong_x_save\",\n    \"baseline_log_provenance/wrong_y_save\",\n    \"checked_history/control\",\n    \"checked_history/independent_y\",\n    \"checked_history/addition\",\n    \"checked_history/assignment_return\",\n    \"checked_history/incomplete_history\",\n    \"checked_history/prestate_mismatch\",\n    \"checked_history/wrong_x_save\",\n    \"checked_history/wrong_y_save\",\n    \"duplicate ID\",\n    \"pre-read reuse\",\n    \"not reloaded\",\n    \"equal read times\",\n    \"read before prepare\",\n    \"bad time\",\n    \"wrong identity\",\n    \"bad contract\",\n    \"missing second read\",\n    \"wrong final read 0\",\n    \"wrong final read 1\",\n    \"dishonest-log counterexample\",\n    \"unknown is not scored\",\n    \"missing evidence is not complete proof\"\n  ],\n  \"dishonest_log_limit_confirmed\": true,\n  \"scored_website_trials\": 0,\n  \"model_sha256\": \"8bb7b5a59e197cb4bc6fdcf0c2f3149d7488d6c62727ea65670e3fae46a71ea8\",\n  \"reviewer_saw_controller_for_design_review\": true,\n  \"primary_analyzer_read\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "improved_independent_audit.py",
+      "--package",
+      ".",
+      "--trials",
+      "improved_trials.jsonl",
+      "--output",
+      "improved_independent_results.json"
+    ],
+    "exitcode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"record_count\": 32,\n  \"missing\": [],\n  \"issues\": [],\n  \"counts\": {\n    \"assigned\": 32,\n    \"valid\": 30,\n    \"false_confirmation\": 6,\n    \"write_attempted\": 22,\n    \"prewrite_refusal\": 4,\n    \"unresolved\": 6,\n    \"fault_assigned_valid\": 8,\n    \"fault_saved\": 8,\n    \"clean_completion\": 16,\n    \"unknown\": 2,\n    \"abstain_correct\": 2\n  },\n  \"rules\": {\n    \"baseline_log_provenance\": {\n      \"assigned\": 16,\n      \"valid\": 15,\n      \"false_confirmation\": 6,\n      \"write_attempted\": 13,\n      \"prewrite_refusal\": 0,\n      \"unknown\": 1,\n      \"clean_completion\": 9,\n      \"fault_assigned_valid\": 4,\n      \"fault_saved\": 4\n    },\n    \"checked_history\": {\n      \"assigned\": 16,\n      \"valid\": 15,\n      \"unresolved\": 6,\n      \"write_attempted\": 9,\n      \"prewrite_refusal\": 4,\n      \"fault_assigned_valid\": 4,\n      \"fault_saved\": 4,\n      \"clean_completion\": 7,\n      \"abstain_correct\": 2,\n      \"unknown\": 1\n    }\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "improved_independent_compare.py",
+      "--package",
+      ".",
+      "--output",
+      "improved_independent_comparison.json"
+    ],
+    "exitcode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"comparisons\": 427,\n  \"issues\": [],\n  \"inputs\": {\n    \"improved_independent_results.json\": \"a650d76b647d33db02692e37585146cfcbb5f637f90e33de8facea9f1e1947cd\",\n    \"improved_results.json\": \"fb8b5b8f10120f627c9ec13c01983f160ccae926993fc091e3d3b9c43d04852b\"\n  },\n  \"scope\": \"Exact comparison of measured per-trial results, denominators, site/rule counts, pairs and stated hypothesis measures.\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "improved_independent_tests.py"
+    ],
+    "exitcode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"local_controls\": 30,\n  \"checks\": [\n    \"baseline_log_provenance/control\",\n    \"baseline_log_provenance/independent_y\",\n    \"baseline_log_provenance/addition\",\n    \"baseline_log_provenance/assignment_return\",\n    \"baseline_log_provenance/incomplete_history\",\n    \"baseline_log_provenance/prestate_mismatch\",\n    \"baseline_log_provenance/wrong_x_save\",\n    \"baseline_log_provenance/wrong_y_save\",\n    \"checked_history/control\",\n    \"checked_history/independent_y\",\n    \"checked_history/addition\",\n    \"checked_history/assignment_return\",\n    \"checked_history/incomplete_history\",\n    \"checked_history/prestate_mismatch\",\n    \"checked_history/wrong_x_save\",\n    \"checked_history/wrong_y_save\",\n    \"duplicate ID\",\n    \"pre-read reuse\",\n    \"not reloaded\",\n    \"equal read times\",\n    \"read before prepare\",\n    \"bad time\",\n    \"wrong identity\",\n    \"bad contract\",\n    \"missing second read\",\n    \"wrong final read 0\",\n    \"wrong final read 1\",\n    \"dishonest-log counterexample\",\n    \"unknown is not scored\",\n    \"missing evidence is not complete proof\"\n  ],\n  \"dishonest_log_limit_confirmed\": true,\n  \"scored_website_trials\": 0,\n  \"model_sha256\": \"8bb7b5a59e197cb4bc6fdcf0c2f3149d7488d6c62727ea65670e3fae46a71ea8\",\n  \"reviewer_saw_controller_for_design_review\": true,\n  \"primary_analyzer_read_during_model_implementation\": false\n}\n",
+    "stderr": "",
+    "phase": "Metadata refresh only. The self-test receipt now states when the primary analyzer had not been read. The model and controls are unchanged."
+  }
+]

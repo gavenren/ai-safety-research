@@ -1,0 +1,24 @@
+{
+  "public_sha256": {
+    "improved_evidence.jsonl": "5d0b4df96736ae790eb5e8f3b63c951929417f543d13cfaad23c552e444bf444",
+    "improved_trials.jsonl": "803c572fa4c5fecdf3ae40fcfb37576cd9ad68301494791d4645e04f4f416775"
+  },
+  "scope": "Only synthetic selected fields, controller inputs/outputs, action metadata and source hashes. Full private UI remains local.",
+  "source_files": {
+    "calendar": {
+      "actions_sha256": "595c5bb56419aa6b62b06ea54208bef997e0ea71652236a473aba051558dac7b",
+      "original_terminal_sha256": "2129d58ccf12cf1ba3f181b02a8fe879d8dacc82fa43d8bcbaaf26ec27e8b739",
+      "terminal_file": "final_trials.jsonl",
+      "terminal_sha256": "7ab97602b9804d98479cb783a040d1593ff1c18e79b52f962bc9ddf574e9f80b"
+    },
+    "notion": {
+      "actions_sha256": "906892378ff143009b60584a4db5a2dcc2ed07820506d9279e97e7e8ff84aede",
+      "original_terminal_sha256": "26fe14279d9636167074a8263701a5179b50fe5a53cabebf4ef06630dddd4eef",
+      "terminal_file": "trials.jsonl",
+      "terminal_sha256": "26fe14279d9636167074a8263701a5179b50fe5a53cabebf4ef06630dddd4eef"
+    }
+  },
+  "source_lines": 6409,
+  "status": "EXTRACTED_REQUIRES_REVIEW",
+  "terminal_rows": 32
+}

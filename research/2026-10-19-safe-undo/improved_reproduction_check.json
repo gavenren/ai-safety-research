@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-19T16:11:34.387002+00:00",
+  "reviewer": "Separate Codex content reviewer; no human review",
+  "method": "Copied the public package to a fresh directory and ran the seven documented commands in README order. After one independent-test metadata label changed, retained the initial copy and reran only that affected command. No browser or account access. All final inputs match; all six outputs match byte for byte.",
+  "commands": [
+    {
+      "command": [
+        "node",
+        "improved_rule_tests.mjs",
+        "improved_rule_checks.json"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "improved_tests",
+        "-v"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "improved_analyze.py",
+        "--package",
+        ".",
+        "--output",
+        "improved_results.json"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "node",
+        "improved_rule_replay.mjs",
+        ".",
+        "improved_rule_replay.json"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "improved_independent_tests.py"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "improved_independent_audit.py",
+        "--package",
+        ".",
+        "--trials",
+        "improved_trials.jsonl",
+        "--output",
+        "improved_independent_results.json"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "improved_independent_compare.py",
+        "--package",
+        ".",
+        "--output",
+        "improved_independent_comparison.json"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "improved_independent_tests.py"
+      ],
+      "exitcode": 0
+    }
+  ],
+  "input_hashes": [
+    {
+      "file": "improved_analyze.py",
+      "sha256": "fa85e147f80a3731d0b0f1f36bad72d390a30858067f1722361ac6eca49eb3f9"
+    },
+    {
+      "file": "improved_assignments.json",
+      "sha256": "6ece3a72a1ef540f0a20ba5b01d863d3d3c1c3677cb3587faa88474bfd18ccb9"
+    },
+    {
+      "file": "improved_design_review.md",
+      "sha256": "0e66833d7697bd755b4bacc2fc022c269b47a26bfcfd0bb61d62b76504688372"
+    },
+    {
+      "file": "improved_independent_audit.py",
+      "sha256": "2fe7f71011ea28c65f889b9b873379aff4ca90adfb96301468c44603aeea05d5"
+    },
+    {
+      "file": "improved_independent_compare.py",
+      "sha256": "afaddf99783e05ef7ba7504b2b7b9f4afbc200b6f214a501576d4c2ec6e3b884"
+    },
+    {
+      "file": "improved_independent_model.py",
+      "sha256": "8bb7b5a59e197cb4bc6fdcf0c2f3149d7488d6c62727ea65670e3fae46a71ea8"
+    },
+    {
+      "file": "improved_independent_tests.py",
+      "sha256": "924b4e09128acfd78ac47f17c79d1823b82cab1f9ae3a551878d8d47c43c4044"
+    },
+    {
+      "file": "improved_input_manifest.json",
+      "sha256": "aa8a01119e48c503a7b2e396f8b677ba7ce4e0feb91e93b415fb94fd027d30ac"
+    },
+    {
+      "file": "improved_plan.md",
+      "sha256": "67646330ba1dd573b22a2fbba53f37d13704844fdcac3fc494c34542324cd4ba"
+    },
+    {
+      "file": "improved_rule_replay.mjs",
+      "sha256": "025441f8db85280e35595d9ab20af8f4de0c45e9314bbda695ed1a1c1c5c9241"
+    },
+    {
+      "file": "improved_rule_tests.mjs",
+      "sha256": "2e1933f4088ddca0a3e2abc00dce2d9d1b71507a38cba531b4b3bccf3099964f"
+    },
+    {
+      "file": "improved_rules.mjs",
+      "sha256": "84831a6297f02502c0551c082f60d72f21be130af68e8742d21dcd5b7164e650"
+    },
+    {
+      "file": "improved_source_notes.md",
+      "sha256": "5ce6c0d81ede06171fe2e297ab255c28c2aab9925b31183aeb16cadf8c1ee836"
+    },
+    {
+      "file": "improved_tests.py",
+      "sha256": "c7ceb66c329c66056cf9d8a295573863b29def62492b36270a94f33c3f9da516"
+    },
+    {
+      "file": "improved_trials.jsonl",
+      "sha256": "803c572fa4c5fecdf3ae40fcfb37576cd9ad68301494791d4645e04f4f416775"
+    }
+  ],
+  "generated_file_comparisons": [
+    {
+      "file": "improved_rule_checks.json",
+      "sha256": "82dfc7b8b3f48fad1e85cd1389c020a584c5d9d942e57f290e6ab9b6c84c7129",
+      "reproduced_sha256": "82dfc7b8b3f48fad1e85cd1389c020a584c5d9d942e57f290e6ab9b6c84c7129",
+      "byte_equal": true
+    },
+    {
+      "file": "improved_results.json",
+      "sha256": "fb8b5b8f10120f627c9ec13c01983f160ccae926993fc091e3d3b9c43d04852b",
+      "reproduced_sha256": "fb8b5b8f10120f627c9ec13c01983f160ccae926993fc091e3d3b9c43d04852b",
+      "byte_equal": true
+    },
+    {
+      "file": "improved_rule_replay.json",
+      "sha256": "738ca2dcb613f8317cf416acae25f331b85453a8bf847493269c2220e1c9f335",
+      "reproduced_sha256": "738ca2dcb613f8317cf416acae25f331b85453a8bf847493269c2220e1c9f335",
+      "byte_equal": true
+    },
+    {
+      "file": "improved_independent_checks.json",
+      "sha256": "b89203501105313479b9886710f96736c2ff3e9de3f78af0372af8996a1501bb",
+      "reproduced_sha256": "b89203501105313479b9886710f96736c2ff3e9de3f78af0372af8996a1501bb",
+      "byte_equal": true
+    },
+    {
+      "file": "improved_independent_results.json",
+      "sha256": "a650d76b647d33db02692e37585146cfcbb5f637f90e33de8facea9f1e1947cd",
+      "reproduced_sha256": "a650d76b647d33db02692e37585146cfcbb5f637f90e33de8facea9f1e1947cd",
+      "byte_equal": true
+    },
+    {
+      "file": "improved_independent_comparison.json",
+      "sha256": "74386a694e1e5ebb69668228ed9a005db9ab56cb902acb207b21b9c32f186f85",
+      "reproduced_sha256": "74386a694e1e5ebb69668228ed9a005db9ab56cb902acb207b21b9c32f186f85",
+      "byte_equal": true
+    }
+  ],
+  "command_log": "improved_reproduction_log.json",
+  "command_log_sha256": "f81fe8904104d2e55a43c667b80f7605caecd6129b347109c4728aca74ae3432",
+  "failures": [],
+  "limits": [
+    "Replays public saved-field extracts and controller inputs; cannot reconstruct omitted private browser history.",
+    "The controller depends on the stated history and runner-read assumptions."
+  ],
+  "distinct_documented_commands": 7,
+  "metadata_refresh_commands": 1,
+  "refresh_note": "The initial final-hash guard detected the changed independent-test script and stopped before PASS. This was a receipt-label correction, not a model, control or website-result change. The original clean replay is retained privately. All seven initial commands and the one affected refresh command passed."
+}

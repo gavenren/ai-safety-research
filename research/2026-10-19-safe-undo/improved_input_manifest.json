@@ -1,0 +1,12 @@
+{
+  "files": {
+    "improved_assignments.json": "6ece3a72a1ef540f0a20ba5b01d863d3d3c1c3677cb3587faa88474bfd18ccb9",
+    "improved_design_review.md": "0e66833d7697bd755b4bacc2fc022c269b47a26bfcfd0bb61d62b76504688372",
+    "improved_plan.md": "67646330ba1dd573b22a2fbba53f37d13704844fdcac3fc494c34542324cd4ba",
+    "improved_rule_tests.mjs": "2e1933f4088ddca0a3e2abc00dce2d9d1b71507a38cba531b4b3bccf3099964f",
+    "improved_rules.mjs": "84831a6297f02502c0551c082f60d72f21be130af68e8742d21dcd5b7164e650",
+    "improved_source_notes.md": "5ce6c0d81ede06171fe2e297ab255c28c2aab9925b31183aeb16cadf8c1ee836"
+  },
+  "frozen_at_utc": "2026-10-19T15:43:42.627265+00:00",
+  "note": "Frozen before scored website creation. Rule controls ran locally before freeze."
+}

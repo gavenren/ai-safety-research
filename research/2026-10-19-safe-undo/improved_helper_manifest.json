@@ -1,0 +1,67 @@
+{
+  "files": [
+    {
+      "changes": [],
+      "original_sha256": "0b95343b99f53bc5703978b2348c49f15cb2b2fca30799789d8712ac55c452ba",
+      "private_source": "calendar/calendar_improved_runner.mjs",
+      "public_file": "improved_calendar_calendar_improved_runner.mjs",
+      "public_sha256": "0b95343b99f53bc5703978b2348c49f15cb2b2fca30799789d8712ac55c452ba"
+    },
+    {
+      "changes": [],
+      "original_sha256": "94481c5ab923b4aee5a5eb0c7b2ee8f7873503d33b05ea7d4db39126657d04d2",
+      "private_source": "calendar/calendar_improved_runner_v1.mjs",
+      "public_file": "improved_calendar_calendar_improved_runner_v1.mjs",
+      "public_sha256": "94481c5ab923b4aee5a5eb0c7b2ee8f7873503d33b05ea7d4db39126657d04d2"
+    },
+    {
+      "changes": [],
+      "original_sha256": "73e839108e75416babcbd812abbc732e4cb7a3c6b7c05454d1fb716613a32829",
+      "private_source": "calendar/calendar_improved_runner_v2.mjs",
+      "public_file": "improved_calendar_calendar_improved_runner_v2.mjs",
+      "public_sha256": "73e839108e75416babcbd812abbc732e4cb7a3c6b7c05454d1fb716613a32829"
+    },
+    {
+      "changes": [],
+      "original_sha256": "73e839108e75416babcbd812abbc732e4cb7a3c6b7c05454d1fb716613a32829",
+      "private_source": "calendar/calendar_improved_runner_v2_executed.mjs",
+      "public_file": "improved_calendar_calendar_improved_runner_v2_executed.mjs",
+      "public_sha256": "73e839108e75416babcbd812abbc732e4cb7a3c6b7c05454d1fb716613a32829"
+    },
+    {
+      "changes": [],
+      "original_sha256": "0b95343b99f53bc5703978b2348c49f15cb2b2fca30799789d8712ac55c452ba",
+      "private_source": "calendar/calendar_improved_runner_v3.mjs",
+      "public_file": "improved_calendar_calendar_improved_runner_v3.mjs",
+      "public_sha256": "0b95343b99f53bc5703978b2348c49f15cb2b2fca30799789d8712ac55c452ba"
+    },
+    {
+      "changes": [],
+      "original_sha256": "3da5151e7e8224bdb2a6b30151ce33554b6cd4710e3b0953ae5b83b6eca7cd2a",
+      "private_source": "calendar/final_cleanup_helper.js",
+      "public_file": "improved_calendar_final_cleanup_helper.js",
+      "public_sha256": "3da5151e7e8224bdb2a6b30151ce33554b6cd4710e3b0953ae5b83b6eca7cd2a"
+    },
+    {
+      "changes": [],
+      "original_sha256": "84022e1b4b34a459eebefc1f4dca73a1dc0c0b4d37b59dc98599e2c0ae1fcfae",
+      "private_source": "notion/runner_base.mjs",
+      "public_file": "improved_notion_runner_base.mjs",
+      "public_sha256": "84022e1b4b34a459eebefc1f4dca73a1dc0c0b4d37b59dc98599e2c0ae1fcfae"
+    },
+    {
+      "changes": [
+        {
+          "count": 1,
+          "kind": "local_import",
+          "source": "runner_base.mjs"
+        }
+      ],
+      "original_sha256": "489979a78105ae36f361ee6bf8e5d377c71837dad5bb4dad37908186f1b014da",
+      "private_source": "notion/runner_steps.mjs",
+      "public_file": "improved_notion_runner_steps.mjs",
+      "public_sha256": "3b11cd97910746995f5844c5aaa8fe4c7295de2df606bb2764377ca7186dbd2a"
+    }
+  ],
+  "scope": "Actual helper source versions. Account-name literals are removed and relative imports use the published prefixed filenames. The browser client and credentials are not included."
+}

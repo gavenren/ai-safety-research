@@ -1,0 +1,465 @@
+{
+  "counts": {
+    "trashed": 32
+  },
+  "inputs": [
+    {
+      "actions_sha256": "595c5bb56419aa6b62b06ea54208bef997e0ea71652236a473aba051558dac7b",
+      "site": "calendar",
+      "terminal_file": "final_trials.jsonl",
+      "terminal_sha256": "7ab97602b9804d98479cb783a040d1593ff1c18e79b52f962bc9ddf574e9f80b"
+    },
+    {
+      "actions_sha256": "906892378ff143009b60584a4db5a2dcc2ed07820506d9279e97e7e8ff84aede",
+      "site": "notion",
+      "terminal_file": "trials.jsonl",
+      "terminal_sha256": "26fe14279d9636167074a8263701a5179b50fe5a53cabebf4ef06630dddd4eef"
+    }
+  ],
+  "issues": [],
+  "rows": [
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-000140",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CIC-002126",
+      "sources": [
+        "CIC-002126",
+        "CIC-002128"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-01"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-000271",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CUI-000282",
+      "sources": [
+        "CUI-000282"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-02"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-000398",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CUI-000409",
+      "sources": [
+        "CUI-000409"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-03"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-000539",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CUI-000550",
+      "sources": [
+        "CUI-000550"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-04"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-000623",
+      "identity_basis": "exact marker dialog; stable edit ID unavailable",
+      "ready_source": "CIC-002147",
+      "sources": [
+        "CIC-002147",
+        "CIC-002149"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-05"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-000745",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CUI-000756",
+      "sources": [
+        "CUI-000756"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-06"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-000872",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CUI-000883",
+      "sources": [
+        "CUI-000883"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-07"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-001005",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CUI-001016",
+      "sources": [
+        "CUI-001016"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-08"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-001138",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CUI-001149",
+      "sources": [
+        "CUI-001149"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-09"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-001279",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CUI-001290",
+      "sources": [
+        "CUI-001290"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-10"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-001420",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CUI-001431",
+      "sources": [
+        "CUI-001431"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-11"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CUI-001564",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CUI-001575",
+      "sources": [
+        "CUI-001575"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-12"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CIF-001685",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CIC-002168",
+      "sources": [
+        "CIC-002168",
+        "CIC-002170"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-13"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CIF-001826",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CIF-001837",
+      "sources": [
+        "CIF-001837"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-14"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CIF-001967",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CIF-001978",
+      "sources": [
+        "CIF-001978"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-15"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "CIF-002094",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "CIF-002105",
+      "sources": [
+        "CIF-002105"
+      ],
+      "status": "trashed",
+      "trial_id": "calendar-16"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-00329",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-00352",
+      "sources": [
+        "UN2-00353",
+        "UN2-00352"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-00337",
+      "trial_id": "notion-01"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-00555",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-00578",
+      "sources": [
+        "UN2-00579",
+        "UN2-00578"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-00563",
+      "trial_id": "notion-02"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-00809",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-00832",
+      "sources": [
+        "UN2-00833",
+        "UN2-00832"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-00817",
+      "trial_id": "notion-03"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-01045",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-01068",
+      "sources": [
+        "UN2-01069",
+        "UN2-01068"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-01053",
+      "trial_id": "notion-04"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-01271",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-01294",
+      "sources": [
+        "UN2-01295",
+        "UN2-01294"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-01279",
+      "trial_id": "notion-05"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-01535",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-01558",
+      "sources": [
+        "UN2-01559",
+        "UN2-01558"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-01543",
+      "trial_id": "notion-06"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-01779",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-01802",
+      "sources": [
+        "UN2-01803",
+        "UN2-01802"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-01787",
+      "trial_id": "notion-07"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-02005",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-02028",
+      "sources": [
+        "UN2-02029",
+        "UN2-02028"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-02013",
+      "trial_id": "notion-08"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-02231",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-02254",
+      "sources": [
+        "UN2-02255",
+        "UN2-02254"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-02239",
+      "trial_id": "notion-09"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-02513",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-02536",
+      "sources": [
+        "UN2-02537",
+        "UN2-02536"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-02521",
+      "trial_id": "notion-10"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-02777",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-02800",
+      "sources": [
+        "UN2-02801",
+        "UN2-02800"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-02785",
+      "trial_id": "notion-11"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-03013",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-03036",
+      "sources": [
+        "UN2-03037",
+        "UN2-03036"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-03021",
+      "trial_id": "notion-12"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-03295",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-03318",
+      "sources": [
+        "UN2-03319",
+        "UN2-03318"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-03303",
+      "trial_id": "notion-13"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-03577",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-03600",
+      "sources": [
+        "UN2-03601",
+        "UN2-03600"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-03585",
+      "trial_id": "notion-14"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-03879",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-03902",
+      "sources": [
+        "UN2-03903",
+        "UN2-03902"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-03887",
+      "trial_id": "notion-15"
+    },
+    {
+      "active_matches": 0,
+      "checked": true,
+      "delete_source": "UN2-04143",
+      "identity_basis": "stable ID and exact marker",
+      "ready_source": "UN2-04166",
+      "sources": [
+        "UN2-04167",
+        "UN2-04166"
+      ],
+      "status": "trashed",
+      "trash_receipt": "UN2-04151",
+      "trial_id": "notion-16"
+    }
+  ],
+  "scope": "Only saved temporary records in these terminal rows. Final site summaries check parent cleanup, the Calendar date-covered search, and the known remaining Calendar13 editor tab. Recoverable Trash is not permanent deletion.",
+  "status": "PASS",
+  "summary_checks": [
+    {
+      "all_saved_records_absent_source": "CIC-002189",
+      "closure_status": "unresolved",
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-31",
+      "remaining_editor_trial": "calendar-13",
+      "site": "calendar",
+      "status": "PASS",
+      "summary_sha256": "57faf918e238b1ccd1397f53054b4aa89abb6a5dd2d979a25a896f2627aef234",
+      "tab_inventory_source": "CIC-002194"
+    },
+    {
+      "all_children_absent_source": "UN2-04179",
+      "parent_trash_source": "UN2-04212",
+      "site": "notion",
+      "status": "PASS",
+      "summary_sha256": "aa974776237625e0a812307258fd83aea997391ffde40a59e0b2c64cce5dc008",
+      "tab_close_source": "UN2-04215"
+    }
+  ],
+  "verified_rows": 32
+}

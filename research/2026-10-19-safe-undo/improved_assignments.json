@@ -1,0 +1,465 @@
+{
+  "seed": 2026101902,
+  "assignments": [
+    {
+      "site": "calendar",
+      "scenario": "incomplete_history",
+      "rule": "baseline_log_provenance",
+      "full_later": [
+        "set0",
+        "set1"
+      ],
+      "presented_later": [],
+      "history_complete": false,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "calendar-01",
+      "marker": "UNDO2-20261019-CALENDAR-01"
+    },
+    {
+      "site": "calendar",
+      "scenario": "wrong_x_save",
+      "rule": "checked_history",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": "x_plus_two",
+      "seal_before_later": false,
+      "trial_id": "calendar-02",
+      "marker": "UNDO2-20261019-CALENDAR-02"
+    },
+    {
+      "site": "calendar",
+      "scenario": "control",
+      "rule": "checked_history",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "calendar-03",
+      "marker": "UNDO2-20261019-CALENDAR-03"
+    },
+    {
+      "site": "calendar",
+      "scenario": "assignment_return",
+      "rule": "checked_history",
+      "full_later": [
+        "set0",
+        "set1"
+      ],
+      "presented_later": [
+        "set0",
+        "set1"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "calendar-04",
+      "marker": "UNDO2-20261019-CALENDAR-04"
+    },
+    {
+      "site": "calendar",
+      "scenario": "independent_y",
+      "rule": "baseline_log_provenance",
+      "full_later": [
+        "flip_y"
+      ],
+      "presented_later": [
+        "flip_y"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "calendar-05",
+      "marker": "UNDO2-20261019-CALENDAR-05"
+    },
+    {
+      "site": "calendar",
+      "scenario": "prestate_mismatch",
+      "rule": "checked_history",
+      "full_later": [
+        "add1"
+      ],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": true,
+      "trial_id": "calendar-06",
+      "marker": "UNDO2-20261019-CALENDAR-06"
+    },
+    {
+      "site": "calendar",
+      "scenario": "control",
+      "rule": "baseline_log_provenance",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "calendar-07",
+      "marker": "UNDO2-20261019-CALENDAR-07"
+    },
+    {
+      "site": "calendar",
+      "scenario": "wrong_y_save",
+      "rule": "baseline_log_provenance",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": "flip_y",
+      "seal_before_later": false,
+      "trial_id": "calendar-08",
+      "marker": "UNDO2-20261019-CALENDAR-08"
+    },
+    {
+      "site": "calendar",
+      "scenario": "wrong_y_save",
+      "rule": "checked_history",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": "flip_y",
+      "seal_before_later": false,
+      "trial_id": "calendar-09",
+      "marker": "UNDO2-20261019-CALENDAR-09"
+    },
+    {
+      "site": "calendar",
+      "scenario": "prestate_mismatch",
+      "rule": "baseline_log_provenance",
+      "full_later": [
+        "add1"
+      ],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": true,
+      "trial_id": "calendar-10",
+      "marker": "UNDO2-20261019-CALENDAR-10"
+    },
+    {
+      "site": "calendar",
+      "scenario": "incomplete_history",
+      "rule": "checked_history",
+      "full_later": [
+        "set0",
+        "set1"
+      ],
+      "presented_later": [],
+      "history_complete": false,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "calendar-11",
+      "marker": "UNDO2-20261019-CALENDAR-11"
+    },
+    {
+      "site": "calendar",
+      "scenario": "independent_y",
+      "rule": "checked_history",
+      "full_later": [
+        "flip_y"
+      ],
+      "presented_later": [
+        "flip_y"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "calendar-12",
+      "marker": "UNDO2-20261019-CALENDAR-12"
+    },
+    {
+      "site": "calendar",
+      "scenario": "addition",
+      "rule": "checked_history",
+      "full_later": [
+        "add1"
+      ],
+      "presented_later": [
+        "add1"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "calendar-13",
+      "marker": "UNDO2-20261019-CALENDAR-13"
+    },
+    {
+      "site": "calendar",
+      "scenario": "addition",
+      "rule": "baseline_log_provenance",
+      "full_later": [
+        "add1"
+      ],
+      "presented_later": [
+        "add1"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "calendar-14",
+      "marker": "UNDO2-20261019-CALENDAR-14"
+    },
+    {
+      "site": "calendar",
+      "scenario": "assignment_return",
+      "rule": "baseline_log_provenance",
+      "full_later": [
+        "set0",
+        "set1"
+      ],
+      "presented_later": [
+        "set0",
+        "set1"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "calendar-15",
+      "marker": "UNDO2-20261019-CALENDAR-15"
+    },
+    {
+      "site": "calendar",
+      "scenario": "wrong_x_save",
+      "rule": "baseline_log_provenance",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": "x_plus_two",
+      "seal_before_later": false,
+      "trial_id": "calendar-16",
+      "marker": "UNDO2-20261019-CALENDAR-16"
+    },
+    {
+      "site": "notion",
+      "scenario": "independent_y",
+      "rule": "checked_history",
+      "full_later": [
+        "flip_y"
+      ],
+      "presented_later": [
+        "flip_y"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "notion-01",
+      "marker": "UNDO2-20261019-NOTION-01"
+    },
+    {
+      "site": "notion",
+      "scenario": "wrong_x_save",
+      "rule": "baseline_log_provenance",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": "x_plus_two",
+      "seal_before_later": false,
+      "trial_id": "notion-02",
+      "marker": "UNDO2-20261019-NOTION-02"
+    },
+    {
+      "site": "notion",
+      "scenario": "independent_y",
+      "rule": "baseline_log_provenance",
+      "full_later": [
+        "flip_y"
+      ],
+      "presented_later": [
+        "flip_y"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "notion-03",
+      "marker": "UNDO2-20261019-NOTION-03"
+    },
+    {
+      "site": "notion",
+      "scenario": "wrong_y_save",
+      "rule": "baseline_log_provenance",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": "flip_y",
+      "seal_before_later": false,
+      "trial_id": "notion-04",
+      "marker": "UNDO2-20261019-NOTION-04"
+    },
+    {
+      "site": "notion",
+      "scenario": "control",
+      "rule": "baseline_log_provenance",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "notion-05",
+      "marker": "UNDO2-20261019-NOTION-05"
+    },
+    {
+      "site": "notion",
+      "scenario": "prestate_mismatch",
+      "rule": "baseline_log_provenance",
+      "full_later": [
+        "add1"
+      ],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": true,
+      "trial_id": "notion-06",
+      "marker": "UNDO2-20261019-NOTION-06"
+    },
+    {
+      "site": "notion",
+      "scenario": "prestate_mismatch",
+      "rule": "checked_history",
+      "full_later": [
+        "add1"
+      ],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": true,
+      "trial_id": "notion-07",
+      "marker": "UNDO2-20261019-NOTION-07"
+    },
+    {
+      "site": "notion",
+      "scenario": "wrong_x_save",
+      "rule": "checked_history",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": "x_plus_two",
+      "seal_before_later": false,
+      "trial_id": "notion-08",
+      "marker": "UNDO2-20261019-NOTION-08"
+    },
+    {
+      "site": "notion",
+      "scenario": "control",
+      "rule": "checked_history",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "notion-09",
+      "marker": "UNDO2-20261019-NOTION-09"
+    },
+    {
+      "site": "notion",
+      "scenario": "assignment_return",
+      "rule": "baseline_log_provenance",
+      "full_later": [
+        "set0",
+        "set1"
+      ],
+      "presented_later": [
+        "set0",
+        "set1"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "notion-10",
+      "marker": "UNDO2-20261019-NOTION-10"
+    },
+    {
+      "site": "notion",
+      "scenario": "addition",
+      "rule": "baseline_log_provenance",
+      "full_later": [
+        "add1"
+      ],
+      "presented_later": [
+        "add1"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "notion-11",
+      "marker": "UNDO2-20261019-NOTION-11"
+    },
+    {
+      "site": "notion",
+      "scenario": "wrong_y_save",
+      "rule": "checked_history",
+      "full_later": [],
+      "presented_later": [],
+      "history_complete": true,
+      "fault": "flip_y",
+      "seal_before_later": false,
+      "trial_id": "notion-12",
+      "marker": "UNDO2-20261019-NOTION-12"
+    },
+    {
+      "site": "notion",
+      "scenario": "incomplete_history",
+      "rule": "checked_history",
+      "full_later": [
+        "set0",
+        "set1"
+      ],
+      "presented_later": [],
+      "history_complete": false,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "notion-13",
+      "marker": "UNDO2-20261019-NOTION-13"
+    },
+    {
+      "site": "notion",
+      "scenario": "assignment_return",
+      "rule": "checked_history",
+      "full_later": [
+        "set0",
+        "set1"
+      ],
+      "presented_later": [
+        "set0",
+        "set1"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "notion-14",
+      "marker": "UNDO2-20261019-NOTION-14"
+    },
+    {
+      "site": "notion",
+      "scenario": "incomplete_history",
+      "rule": "baseline_log_provenance",
+      "full_later": [
+        "set0",
+        "set1"
+      ],
+      "presented_later": [],
+      "history_complete": false,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "notion-15",
+      "marker": "UNDO2-20261019-NOTION-15"
+    },
+    {
+      "site": "notion",
+      "scenario": "addition",
+      "rule": "checked_history",
+      "full_later": [
+        "add1"
+      ],
+      "presented_later": [
+        "add1"
+      ],
+      "history_complete": true,
+      "fault": null,
+      "seal_before_later": false,
+      "trial_id": "notion-16",
+      "marker": "UNDO2-20261019-NOTION-16"
+    }
+  ]
+}

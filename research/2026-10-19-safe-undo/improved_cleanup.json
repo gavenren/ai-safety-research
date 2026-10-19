@@ -1,0 +1,691 @@
+{
+  "calendar": {
+    "active_saved_records": 0,
+    "browser_tabs": [
+      {
+        "error": "Error: Timed out after 10000ms waiting for CDP command Emulation.setFocusEmulationEnabled.",
+        "id": "CIC-002192",
+        "note": "This is the new improved-study tab, not the earlier trial23 draft. No Save sent during cleanup; record itself is already in Trash.",
+        "status": "closure_unresolved",
+        "trial_id": "calendar-13",
+        "utc": "2026-10-19T16:05:06.553Z"
+      },
+      {
+        "error": null,
+        "id": "CIC-002193",
+        "note": "Final cleanup search tab. Screenshot and raw ready zero evidence saved before closure.",
+        "status": "closed",
+        "trial_id": null,
+        "utc": "2026-10-19T16:05:16.020Z"
+      }
+    ],
+    "created_records": 16,
+    "final_inventory_source": "CIC-002194",
+    "old_trial23_touched": false,
+    "prefix_query": {
+      "active_matches": 0,
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-31",
+      "evidence_ids": [
+        "CIC-002189"
+      ],
+      "id": "CIC-002191",
+      "utc": "2026-10-19T16:04:47.368Z"
+    }
+  },
+  "created_parent_records": 1,
+  "created_trial_records": 32,
+  "limits": [
+    "All 32 new saved trial records and the one new Notion parent were moved to recoverable Trash. No Trash was emptied.",
+    "The new Calendar13 tab failed to close. Its saved record is in Trash. No Save was sent during tab cleanup.",
+    "The earlier possible unsaved Calendar23 form was not opened or saved in this extension. Its earlier browser uncertainty remains.",
+    "Saved-record cleanup is separate from unknown trial outcomes and browser-tab closure."
+  ],
+  "notion": {
+    "browser_draft_remaining": false,
+    "browser_tab_closed": true,
+    "browser_tab_closed_evidence": "UN2-04215",
+    "created_children": 16,
+    "created_parents": 1,
+    "parent": {
+      "active_absence_source": "UN2-04179",
+      "source": "UN2-04212",
+      "status": "trashed"
+    }
+  },
+  "permanent_deletion": false,
+  "preflight_records_created": 0,
+  "private_input_sha256": {
+    "calendar/cleanup_summary.json": "57faf918e238b1ccd1397f53054b4aa89abb6a5dd2d979a25a896f2627aef234",
+    "notion/cleanup_summary.json": "aa974776237625e0a812307258fd83aea997391ffde40a59e0b2c64cce5dc008"
+  },
+  "status": "SAVED_RECORDS_REMOVED_BROWSER_LIMITS_REMAIN",
+  "trial_records": [
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CIC-002126",
+            "line": 2126,
+            "sha256": "508a054b244206cc664f1025b449c6292bdd406f512acb41245ba497ef962a7f",
+            "site": "calendar"
+          },
+          {
+            "id": "CIC-002128",
+            "line": 2128,
+            "sha256": "d6be24566fef675f23277babab27f7e4f997f916c2d26f093cab4b8b329b9266",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-01"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CUI-000282",
+            "line": 282,
+            "sha256": "cfadc733edb391b5f15f92f89109bac2a2082747890bcd40ac53f038c9b97e5b",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-02"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CUI-000409",
+            "line": 409,
+            "sha256": "47b71c749169a81929b94b5dbd63e7b681078be09ac569eab117c0960b3825d3",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-03"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CUI-000550",
+            "line": 550,
+            "sha256": "1a89ba1205d9e1eb43c18ba1ee14fc12bb0f0729e94729545fcd72eb0c3cfff5",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-04"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CIC-002147",
+            "line": 2147,
+            "sha256": "6a803db0e34763c1654fe9f65191005ad0ea7e6aa857dea71abbe542ed6431e6",
+            "site": "calendar"
+          },
+          {
+            "id": "CIC-002149",
+            "line": 2149,
+            "sha256": "12738a10e1562500d8986e86b22beecf6a77e0a3b483ffb37f7b63d5d0ad1ee6",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-05"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CUI-000756",
+            "line": 756,
+            "sha256": "fe0e9a437140d1ba9f52f27c5be1d7d50902acfd71d6a9fc62fd3ba5f2969411",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-06"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CUI-000883",
+            "line": 883,
+            "sha256": "8e4054585d5f15225c4ef44b063f3d7291340b3bdb08f03cc3ec249ce1b2eee9",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-07"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CUI-001016",
+            "line": 1016,
+            "sha256": "bc70ae6f0d87ca7d3598e97e12953687e84eb55b5f6bded880348037cb567ca6",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-08"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CUI-001149",
+            "line": 1149,
+            "sha256": "24e5792ca64aca354e7b833ff4f476055512447f1b0fcbc4f5e1b1e1fcd0f8ae",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-09"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CUI-001290",
+            "line": 1290,
+            "sha256": "16674befde398afcddb563fadaf0d72b748de2619e86aa469eb85a5290cc621a",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-10"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CUI-001431",
+            "line": 1431,
+            "sha256": "2387ad2ee01d12aa748417508ebb001026446588dba489d2b0024f75805eb1b6",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-11"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CUI-001575",
+            "line": 1575,
+            "sha256": "3b2e32fd305b51f5beb924fc10c22451200ee477cd6d9cb178299c5044444b74",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-12"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CIC-002168",
+            "line": 2168,
+            "sha256": "3feda9000a7147aee794e398eeb246ce62615e3c56bec1ada13a39398a9489d2",
+            "site": "calendar"
+          },
+          {
+            "id": "CIC-002170",
+            "line": 2170,
+            "sha256": "b546a839a67ae643f6cba049c9d1d88c468cdc3acb7c8cae3de2e4af95bdfc31",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-13"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CIF-001837",
+            "line": 1837,
+            "sha256": "4e56d9d69a7d1e0e9d15893b66a670552e5bfff08dba989f68e74a8cd218c830",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-14"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CIF-001978",
+            "line": 1978,
+            "sha256": "4c1848f90b4715fd62bae93dfd272b6aa8648c7c2649c98b6a49fcb67f119f5b",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-15"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "CIF-002105",
+            "line": 2105,
+            "sha256": "4ed68f7364c36f6f1a7b5e748cda00bb5a35229ddb2a185ce8b43fcb92a094a7",
+            "site": "calendar"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "calendar-16"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-00353",
+            "line": 353,
+            "sha256": "a476633b91a265aa48218a028b9df22c7ec331b9dbc4ed2cd0ab50a89cc17f51",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-00352",
+            "line": 352,
+            "sha256": "1bed0d691b7d697e62a75270ccf444aadbab69e56ed5e97006aec624f7feb424",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-01"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-00579",
+            "line": 579,
+            "sha256": "0b5362fe58e638d5a8ce1391f8633e3b565c4d6dbaaa6d4e5ef02755ed42d043",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-00578",
+            "line": 578,
+            "sha256": "208d7973607f1d2a9b012820ac25ba9708331c6b2dd96e743f5e0ed06c78c6c0",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-02"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-00833",
+            "line": 833,
+            "sha256": "31c849ca397aa49a3c2e199f26f2f1693b1284ddf6b8995138904c55f9a72271",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-00832",
+            "line": 832,
+            "sha256": "037e0d34afc8eccfb3e1eabc1e34bd43552da5880599732c51019ba550589e76",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-03"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-01069",
+            "line": 1069,
+            "sha256": "9808c7168afc71ab5b144a8f9eff53ce15c1f5f67a29d9b2389cd4f2359c1615",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-01068",
+            "line": 1068,
+            "sha256": "9848b13b082e990ce1560a7da95c2dbf6c7529b8f9b764e74d0dbbc4abd82e77",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-04"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-01295",
+            "line": 1295,
+            "sha256": "9a74276dbc39267f68abb0cad46e37bee609661460212d477e864d8f093b6ed1",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-01294",
+            "line": 1294,
+            "sha256": "6203dda82ea10dbc62e992d048cb79fb33388d96289dca4078a169cd474f1d6b",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-05"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-01559",
+            "line": 1559,
+            "sha256": "e0aa887348784efb50457c4a9a2e66d3ae0cbd34cb116c4948a8224a17449e5a",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-01558",
+            "line": 1558,
+            "sha256": "d80325fca2b3847e7fe6da41132261794e0100e31f8866eb02201f2bf261740e",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-06"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-01803",
+            "line": 1803,
+            "sha256": "0ffd4a346594e3be2b1327e3ecd13dae3b59f748b2ac4d1e31a058117baa89af",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-01802",
+            "line": 1802,
+            "sha256": "a8d5705a3621ceda6798dd82f8c42c805892138b7521acfe99681831e1636a60",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-07"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-02029",
+            "line": 2029,
+            "sha256": "3bda972745e48cd2b72170db7e2d86227eb419dc2c5954bb3a6c0a30f7a3f496",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-02028",
+            "line": 2028,
+            "sha256": "eee63222461320835d28ba3386be1165ffb128b03409f982be7dd1ad15ee8acf",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-08"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-02255",
+            "line": 2255,
+            "sha256": "5a96c69737d2378a58f88974afd7e56ec1450b28498d573b8f0efeaf41f3b910",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-02254",
+            "line": 2254,
+            "sha256": "45b483ccabf6591e6dc1ade3bfe91cad41d5dfe71e4c9063a10c3ff84d562fdc",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-09"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-02537",
+            "line": 2537,
+            "sha256": "35b25dcac0582fc12056edfe18b966004bee996c22c67ff09ea8ad6bf023777a",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-02536",
+            "line": 2536,
+            "sha256": "18a02b493aa912cf28ebbb4fc4ad939103d0e4dd5fd9c65293b081988809c1a3",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-10"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-02801",
+            "line": 2801,
+            "sha256": "2ae7cd3e55ac59793f7a677295bd8c03209ec8533e0062991a82d69390451896",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-02800",
+            "line": 2800,
+            "sha256": "55180aa9712d856d268a45d003c2e44ff22478de6d6f82fab008803166089f66",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-11"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-03037",
+            "line": 3037,
+            "sha256": "0da9a47d68d3040fae8467e69ffa6726b1767279b5dadd6eeb5f9ff8ed57894a",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-03036",
+            "line": 3036,
+            "sha256": "87b498950b67687f47c4504a64c117b02ef7adff306fe9475c0e6a5f7547b651",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-12"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-03319",
+            "line": 3319,
+            "sha256": "076b5732afca5e0d1cf5eba2044698c24b4885b75ae2fbf2145d8bf508b06d71",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-03318",
+            "line": 3318,
+            "sha256": "326fe5a221a28abb65d010f1523761443cd4d86bb71c0bb999aba4ad935cb74b",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-13"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-03601",
+            "line": 3601,
+            "sha256": "bc576a487e4cb531af9b1e629e10a1898177f2244cc7c5c33d2cd749a47a036b",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-03600",
+            "line": 3600,
+            "sha256": "7531d8d71999f0ca8a3e1d3de21be98eb4d8f31b22f4de256844d576e7fb621d",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-14"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-03903",
+            "line": 3903,
+            "sha256": "74738475b64534b51cd45bd6ca2e9f09118d86da4ae8f5f15becbeec5e2d44b8",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-03902",
+            "line": 3902,
+            "sha256": "6800beb853544d97adcc59f0fa0d81d45911c6ee96f8bcfff7bee5b1beb4a023",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-15"
+    },
+    {
+      "cleanup": {
+        "active_matches": 0,
+        "reason": null,
+        "sources": [
+          {
+            "id": "UN2-04167",
+            "line": 4167,
+            "sha256": "9b7377c9a8fb6456299de15d37707e2f6184b848835af792b1c967337e0c1619",
+            "site": "notion"
+          },
+          {
+            "id": "UN2-04166",
+            "line": 4166,
+            "sha256": "28850aee1547259317d5814441fd0b0bb279ed5e70f4cecaaae1d77d47489988",
+            "site": "notion"
+          }
+        ],
+        "status": "trashed"
+      },
+      "trial_id": "notion-16"
+    }
+  ]
+}

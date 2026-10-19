@@ -1,0 +1,482 @@
+{
+  "files": [
+    {
+      "original_path": "README.md",
+      "preserved_path": "live_original_README.md",
+      "sha256": "fc8bc893b9cb64e9d48939508c040258ceb552d54118880698f947542216578c"
+    },
+    {
+      "original_path": "analysis_log.txt",
+      "preserved_path": "analysis_log.txt",
+      "sha256": "34261610da38c8d938b4457073d8b73aa0ddb8e07888cc4f8343d0d9af18c7ad"
+    },
+    {
+      "original_path": "analysis_plan.md",
+      "preserved_path": "analysis_plan.md",
+      "sha256": "5788f497aad1a6c7871ff5ec7feb681ddb818c2fb954c8bb42d23be86b823ea2"
+    },
+    {
+      "original_path": "analyze.py",
+      "preserved_path": "analyze.py",
+      "sha256": "de72ddcbef2b67ed3824cf3179798f5a0d9d569bf80cb260c72b0a2805ea255e"
+    },
+    {
+      "original_path": "compare_results.py",
+      "preserved_path": "compare_results.py",
+      "sha256": "05c55203c5d2c9fdf4eb76ca03bec8265abe0d0487450b991c260dbdaf73777f"
+    },
+    {
+      "original_path": "comparison.json",
+      "preserved_path": "comparison.json",
+      "sha256": "dd9344a626b039137f997d22e55b2960704d103563886b303395827e677e3682"
+    },
+    {
+      "original_path": "config.json",
+      "preserved_path": "config.json",
+      "sha256": "dce226d1f31daa394db044c9a1de34c04073621a7f6d6e9af5e189d68ee21a30"
+    },
+    {
+      "original_path": "derivations.md",
+      "preserved_path": "derivations.md",
+      "sha256": "0632974d0bce623590f30a64a1845dd97743d9aff283b9da0af67087f370b6e5"
+    },
+    {
+      "original_path": "environment.json",
+      "preserved_path": "environment.json",
+      "sha256": "99e59c9224ab2078a200e0caff7d3d7642aba6eee9905897a3fdf76492f63405"
+    },
+    {
+      "original_path": "failed_checks.md",
+      "preserved_path": "failed_checks.md",
+      "sha256": "4d6f6d28c5fc9dfbd49e75d0bacab1f22ca983215b41b83d3221d08d936d379f"
+    },
+    {
+      "original_path": "independent_audit.py",
+      "preserved_path": "independent_audit.py",
+      "sha256": "28163f8205412aec05317938b45e584b7fd855db7d7eced5c8ee9acd775267b4"
+    },
+    {
+      "original_path": "independent_cases.jsonl.gz",
+      "preserved_path": "independent_cases.jsonl.gz",
+      "sha256": "45fb8712a7efeb25255d721343918b4d72107f6f0674bcb5001583ceed8f0614"
+    },
+    {
+      "original_path": "independent_checks.json",
+      "preserved_path": "independent_checks.json",
+      "sha256": "97e228866efb71df67800aa182240ef811e5fc05b012b82915360e70e8cfd239"
+    },
+    {
+      "original_path": "independent_results.json",
+      "preserved_path": "independent_results.json",
+      "sha256": "92b11919749912a0d5000b3c20594fbd7d16f0f6bd87c698acc7e90ccec21171"
+    },
+    {
+      "original_path": "independent_review.md",
+      "preserved_path": "independent_review.md",
+      "sha256": "d66f573c266b164e488767dbdfe7e014ecde37464f61b36c4b14a7f9f4eb0011"
+    },
+    {
+      "original_path": "input_manifest.json",
+      "preserved_path": "input_manifest.json",
+      "sha256": "65ed67ceb18bd231cd6bdd71a8ed689b439c666af99f1fd1a4ae4a7691a704e5"
+    },
+    {
+      "original_path": "live_analyze.py",
+      "preserved_path": "live_analyze.py",
+      "sha256": "00b1e91dd1fc0e92495f1b5d45878dd4552b513ed1e314d1c81a73c20c4a3601"
+    },
+    {
+      "original_path": "live_assignments.json",
+      "preserved_path": "live_assignments.json",
+      "sha256": "a1f15f6fe0d9d9f25d674bba0b9aa8d1a12094228e2397e2a66fdf284ceb3157"
+    },
+    {
+      "original_path": "live_calendar_actual_context_helpers.js",
+      "preserved_path": "live_calendar_actual_context_helpers.js",
+      "sha256": "9087c11aeb32f2161388f7412b1a6a968c56b9595ea1a4912420495ea2430189"
+    },
+    {
+      "original_path": "live_calendar_actual_helpers.js",
+      "preserved_path": "live_calendar_actual_helpers.js",
+      "sha256": "24ebd4b823d63e4bf570ff38c8dbbb60f1fd48d3acb17b3258d4d90a928e9759"
+    },
+    {
+      "original_path": "live_calendar_covered_cleanup_helper.js",
+      "preserved_path": "live_calendar_covered_cleanup_helper.js",
+      "sha256": "b8d815717d71762bb166ce37359fba724aa0664429c49a0a850346fd2033b8b0"
+    },
+    {
+      "original_path": "live_calendar_ready_covered_cleanup_helper.js",
+      "preserved_path": "live_calendar_ready_covered_cleanup_helper.js",
+      "sha256": "2864360dbac6e2077682c88c008ae52883c2355d3482a6cd8654a942c918dcd1"
+    },
+    {
+      "original_path": "live_calendar_scored_audit.mjs",
+      "preserved_path": "live_calendar_scored_audit.mjs",
+      "sha256": "2860c414b90e828a9da4d0f962d18acdf91d98128e9e4d0aa3c948a653e00924"
+    },
+    {
+      "original_path": "live_calendar_scored_audit_fresh_tab.mjs",
+      "preserved_path": "live_calendar_scored_audit_fresh_tab.mjs",
+      "sha256": "53ec80f5a6552fa14735bc0572f7737284d78dfa9cfccc81604ab0f4acac2392"
+    },
+    {
+      "original_path": "live_calendar_scored_audit_recovery.mjs",
+      "preserved_path": "live_calendar_scored_audit_recovery.mjs",
+      "sha256": "96f36a58df29f9a8bdb07fa10480c324963a2d667bfa83000238f574b8695510"
+    },
+    {
+      "original_path": "live_calendar_scored_audit_third_tab.mjs",
+      "preserved_path": "live_calendar_scored_audit_third_tab.mjs",
+      "sha256": "05dc3c2771596e7cb473ef2c53c10e7f538105c9d765072ffab2cb937812d653"
+    },
+    {
+      "original_path": "live_calendar_scored_helpers.mjs",
+      "preserved_path": "live_calendar_scored_helpers.mjs",
+      "sha256": "a49033162c8458df9d55b5b9b8b60fb6dff05849fec43f2b465487d523c321c6"
+    },
+    {
+      "original_path": "live_calendar_scored_helpers_v1.mjs",
+      "preserved_path": "live_calendar_scored_helpers_v1.mjs",
+      "sha256": "b0e48bcb05324bc864840b170986d5e9d032b4fe3f032af08ac97ea38077dedd"
+    },
+    {
+      "original_path": "live_calendar_scored_helpers_v2.mjs",
+      "preserved_path": "live_calendar_scored_helpers_v2.mjs",
+      "sha256": "25c9af36ae2c9f6946e47a9f145f257cfe96f15b652342f0b28bbd8a2e386c22"
+    },
+    {
+      "original_path": "live_calendar_scored_helpers_v3.mjs",
+      "preserved_path": "live_calendar_scored_helpers_v3.mjs",
+      "sha256": "2c46a46394a96879f11337fe7d2e926236d3c8a40b4a33dce1d3c829570ec893"
+    },
+    {
+      "original_path": "live_calendar_scored_helpers_v4.mjs",
+      "preserved_path": "live_calendar_scored_helpers_v4.mjs",
+      "sha256": "c40bb593e925ac2dc30d53642b7d542f2f9b2d695a8c529e58807cb68aa06ba0"
+    },
+    {
+      "original_path": "live_calendar_scored_helpers_v5.mjs",
+      "preserved_path": "live_calendar_scored_helpers_v5.mjs",
+      "sha256": "a49033162c8458df9d55b5b9b8b60fb6dff05849fec43f2b465487d523c321c6"
+    },
+    {
+      "original_path": "live_changes_and_failures.md",
+      "preserved_path": "live_changes_and_failures.md",
+      "sha256": "794de860a5235c1b27014c59ac71ce65f90488e5c9209cd0053ba4eb1d9c8357"
+    },
+    {
+      "original_path": "live_cleanup.json",
+      "preserved_path": "live_cleanup.json",
+      "sha256": "23a5f5e08ffc89e91e18ff0531e6f335fba2247ead443b5b51c9636ada6ff9ac"
+    },
+    {
+      "original_path": "live_cleanup_audit.py",
+      "preserved_path": "live_cleanup_audit.py",
+      "sha256": "400654eb1c021a980c7429bedea4cfe417b3ec7478b9ef231a4ae8c4a666373d"
+    },
+    {
+      "original_path": "live_cleanup_review.json",
+      "preserved_path": "live_cleanup_review.json",
+      "sha256": "6e6041ef7a806af930a53a2ef8e52ea0195420c9fb0f074bb87aa249792e3ce0"
+    },
+    {
+      "original_path": "live_compare.py",
+      "preserved_path": "live_compare.py",
+      "sha256": "38ceacae4f595e6c1b04a8134cb428984a2dd670a203cc80b12264855623f4a6"
+    },
+    {
+      "original_path": "live_comparison.json",
+      "preserved_path": "live_comparison.json",
+      "sha256": "51e2fc3ac60bdb610a54d641ff933944768dd73a018e6fdd92324662d8cf8fb8"
+    },
+    {
+      "original_path": "live_content_review.md",
+      "preserved_path": "live_content_review.md",
+      "sha256": "19565c82f117c0b831d4603e3f1bd1d29b1059a5ee5827eb53692915540f4066"
+    },
+    {
+      "original_path": "live_design_review.md",
+      "preserved_path": "live_design_review.md",
+      "sha256": "b5348131e111a1b7ab75271d783cc41ae2ee16857f04828cb244d450c7207217"
+    },
+    {
+      "original_path": "live_environment.json",
+      "preserved_path": "live_environment.json",
+      "sha256": "c6e30416bc6e0cb4c17346999c04abd14f66ec09eb2871dfe2976091c4f354eb"
+    },
+    {
+      "original_path": "live_evidence.jsonl",
+      "preserved_path": "live_evidence.jsonl",
+      "sha256": "f7e3756e090d7e6b44bf7e43efe559090a9bd7bd0424218cb2517b44bb438af3"
+    },
+    {
+      "original_path": "live_export_helpers.py",
+      "preserved_path": "live_export_helpers.py",
+      "sha256": "24616764216d415e5366ea5ff273adf7d88a6739caf27bf6ce1d5c3af1534977"
+    },
+    {
+      "original_path": "live_extract.py",
+      "preserved_path": "live_extract.py",
+      "sha256": "45a037d43ea5efc00b0aa6b5fa4fc9fcd61a73b0174a45f38f22b619e172821b"
+    },
+    {
+      "original_path": "live_extraction.json",
+      "preserved_path": "live_extraction.json",
+      "sha256": "bf835b5965711ab3a9a9c05cb3044cafd42cf379896267a85f0eae1f17e11264"
+    },
+    {
+      "original_path": "live_extraction_audit.py",
+      "preserved_path": "live_extraction_audit.py",
+      "sha256": "38160221ef396abc7bcf5b2525ed4469c2ee9e1c2c69ea2b8fd579dbe0d02f7a"
+    },
+    {
+      "original_path": "live_extraction_review.json",
+      "preserved_path": "live_extraction_review.json",
+      "sha256": "02ac0633507f5fc52e1cb944d45feff320cdb4b776eb8249670a861ea55f9e8c"
+    },
+    {
+      "original_path": "live_helper_manifest.json",
+      "preserved_path": "live_helper_manifest.json",
+      "sha256": "2d028b99bea1a3cf1164ff5c97591d019439fa09f857b39755d375eb2d42034f"
+    },
+    {
+      "original_path": "live_independent_audit.py",
+      "preserved_path": "live_independent_audit.py",
+      "sha256": "1dd5624d3718f4aa9674cda0bbfac8483f9438aac48835ba23cca798125b417f"
+    },
+    {
+      "original_path": "live_independent_changes.md",
+      "preserved_path": "live_independent_changes.md",
+      "sha256": "af3d302e0e254fdc9b09d5dfa9141c471f18c1b934c9ec766ac4b1eb946e76c1"
+    },
+    {
+      "original_path": "live_independent_results.json",
+      "preserved_path": "live_independent_results.json",
+      "sha256": "7003567464461f047c50cde559d8a364c8f2c08504fc2d54072cd191eba9fb51"
+    },
+    {
+      "original_path": "live_independent_review.md",
+      "preserved_path": "live_independent_review.md",
+      "sha256": "57839a70d3a29764acf5919a98b0fd90e16002ac5dd31eecf4d4e3767bca7a4d"
+    },
+    {
+      "original_path": "live_independent_self_checks.json",
+      "preserved_path": "live_independent_self_checks.json",
+      "sha256": "3196a50e3e4072971f46de3fb80185362752158e119a003ab3805f51d7e1056a"
+    },
+    {
+      "original_path": "live_independent_selftest.py",
+      "preserved_path": "live_independent_selftest.py",
+      "sha256": "37dd808b20fd4ff86c818bb798438e6fdd1402f26984b7574e357161a1aaa02b"
+    },
+    {
+      "original_path": "live_input_manifest.json",
+      "preserved_path": "live_input_manifest.json",
+      "sha256": "a4ef049de3131443ce22008b18f88ecf79fe0f661f96d0ec13966a8b6665f277"
+    },
+    {
+      "original_path": "live_notion_live_helpers.mjs",
+      "preserved_path": "live_notion_live_helpers.mjs",
+      "sha256": "00dc5037292549aa02f1ce6a53573ea40198a9cbacdae6214b75f696f11365ef"
+    },
+    {
+      "original_path": "live_notion_live_helpers_v1.mjs",
+      "preserved_path": "live_notion_live_helpers_v1.mjs",
+      "sha256": "3c8fd23f5472fa7f0b80c007861c6b00cc71bdc518f6f50effe58bde7863cb2c"
+    },
+    {
+      "original_path": "live_notion_live_helpers_v2.mjs",
+      "preserved_path": "live_notion_live_helpers_v2.mjs",
+      "sha256": "00dc5037292549aa02f1ce6a53573ea40198a9cbacdae6214b75f696f11365ef"
+    },
+    {
+      "original_path": "live_notion_preflight_helpers.js",
+      "preserved_path": "live_notion_preflight_helpers.js",
+      "sha256": "688cd7c76e2c34ed3f898df66c204f4730aa67c845c3ec719f4312f6b2573c79"
+    },
+    {
+      "original_path": "live_plan.md",
+      "preserved_path": "live_plan.md",
+      "sha256": "68b8dc2ead77b2dc80675e84933e6d2f73ca0bf5fb390046f21232ae117eaa28"
+    },
+    {
+      "original_path": "live_primary_log.json",
+      "preserved_path": "live_primary_log.json",
+      "sha256": "45064d4656d7f8da8585068039c726cb948694f7de92e25d2f8ac27736c9b939"
+    },
+    {
+      "original_path": "live_release_check.json",
+      "preserved_path": "live_release_check.json",
+      "sha256": "d8cd030f6503586f3376442c9b484a557d9bb941f6970d2584b34194efd4425a"
+    },
+    {
+      "original_path": "live_reproduction_check.json",
+      "preserved_path": "live_reproduction_check.json",
+      "sha256": "eaf744c626662784f86a45d5b728b7153f0ee3c89c166234cdcf87fc7d33ff7c"
+    },
+    {
+      "original_path": "live_reproduction_log.json",
+      "preserved_path": "live_reproduction_log.json",
+      "sha256": "59143855e48254d1584aaca22cf4d8d6c2bc2138ac0ff6dc3f9fbc13c65ad9fd"
+    },
+    {
+      "original_path": "live_results.json",
+      "preserved_path": "live_results.json",
+      "sha256": "d98e7f8acc36619e171da2eb622642410ce0407a44932835acbaa4adf45880c6"
+    },
+    {
+      "original_path": "live_review_checklist.md",
+      "preserved_path": "live_review_checklist.md",
+      "sha256": "491915b63a10b668abbafad4139829dce550e4febb7691816fbe9778f43f20a5"
+    },
+    {
+      "original_path": "live_rule_replay.json",
+      "preserved_path": "live_rule_replay.json",
+      "sha256": "ef82cadcfae431319596e6f964a4d215b2479330c5926560e8b59bd6a1b0feae"
+    },
+    {
+      "original_path": "live_rule_replay.mjs",
+      "preserved_path": "live_rule_replay.mjs",
+      "sha256": "acb09f0ee9e2232571dfe0693d59b9808ec5a242433c97802cefae6604efcc79"
+    },
+    {
+      "original_path": "live_rules.js",
+      "preserved_path": "live_rules.js",
+      "sha256": "a3572b9812d7133748315a679fdddf068e4e7a230f6351b6ce48b3aee080179b"
+    },
+    {
+      "original_path": "live_runner_instructions.md",
+      "preserved_path": "live_runner_instructions.md",
+      "sha256": "053e842e4f6218fef83b7279592c21654abc15d32bfa0d9600745072a0519330"
+    },
+    {
+      "original_path": "live_source_audit.py",
+      "preserved_path": "live_source_audit.py",
+      "sha256": "0f38ae916e4f3e77e89633eb40ee319e05c9f7186c6751b708814378bac9f9dc"
+    },
+    {
+      "original_path": "live_source_notes.md",
+      "preserved_path": "live_source_notes.md",
+      "sha256": "b304121f463d1a9591973fcb5c379bab9e704f73c954f43e2630f6e6fd47333e"
+    },
+    {
+      "original_path": "live_source_review.json",
+      "preserved_path": "live_source_review.json",
+      "sha256": "a2804e7e0aed185c881837c937a6b9907b732a4123dd3091bf57431038275340"
+    },
+    {
+      "original_path": "live_tests.py",
+      "preserved_path": "live_tests.py",
+      "sha256": "8772f7820179586b3d3c464624ce090e1db5f363c84cde59f9df61b850259866"
+    },
+    {
+      "original_path": "live_trials.jsonl",
+      "preserved_path": "live_trials.jsonl",
+      "sha256": "718081250f2a238dc7339ccbf34b498722a915eff4068d87921e892d122ff648"
+    },
+    {
+      "original_path": "observation_groups.json",
+      "preserved_path": "observation_groups.json",
+      "sha256": "9a349514434564a192ddfee7118b834810edffb17547127f7ae0ba15aec8d1cd"
+    },
+    {
+      "original_path": "paired_results.json",
+      "preserved_path": "paired_results.json",
+      "sha256": "e2ff4d86c05d97c8fc37475930d84b5c4ddc485fbb686248bae9a7741fc49474"
+    },
+    {
+      "original_path": "references.bib",
+      "preserved_path": "live_original_references.bib",
+      "sha256": "5007e0dadddca10adb8559ff61e6beab974b75df01b9531c55451cfe5b091053"
+    },
+    {
+      "original_path": "release_check.json",
+      "preserved_path": "release_check.json",
+      "sha256": "01633eb91d469cadd1855187083b09a13cded18d67ce843476f3d6728cf3c31a"
+    },
+    {
+      "original_path": "report.md",
+      "preserved_path": "live_original_report.md",
+      "sha256": "ef03147fc5a3483eab0100f2fb14d469ed54a87efeaa5c0db27092044cac21d3"
+    },
+    {
+      "original_path": "reproduction_check.json",
+      "preserved_path": "reproduction_check.json",
+      "sha256": "4e58641d80f4b0568facbe23f1e49c5796601f56142a8bb8cce75804c75347fa"
+    },
+    {
+      "original_path": "reproduction_log.txt",
+      "preserved_path": "reproduction_log.txt",
+      "sha256": "c25865784d3f11ae3ad48eaa3d683d7acb3ace5d9884550c3ef00c27136ef8ad"
+    },
+    {
+      "original_path": "results.csv",
+      "preserved_path": "results.csv",
+      "sha256": "43c7bdb1b4d240ebd5be2155d88071be5cdf9df94ec67ed71bf3aa45f51a897b"
+    },
+    {
+      "original_path": "review_checklist.md",
+      "preserved_path": "review_checklist.md",
+      "sha256": "5e70bc7c8eec593004adcba26a87fe895fef0c6abdf6790fb6114c282ba22851"
+    },
+    {
+      "original_path": "source_claim_review.md",
+      "preserved_path": "source_claim_review.md",
+      "sha256": "0957662184e4cd28f580b9f2a2b08ab9d89b6decd136c056c1d8c9eafbd043d8"
+    },
+    {
+      "original_path": "source_search.md",
+      "preserved_path": "source_search.md",
+      "sha256": "7db85a3f76cb0672b3b739ecb417d03b96e79594423e0d1bc3a4e574066d0cc5"
+    },
+    {
+      "original_path": "summary.json",
+      "preserved_path": "summary.json",
+      "sha256": "47d035cb78892638e3d6ec378284d54b4ef5f9266d5784b4b18db904b7e7759b"
+    },
+    {
+      "original_path": "synthetic_README_original.md",
+      "preserved_path": "synthetic_README_original.md",
+      "sha256": "f97206e4542167171ee9dc131078e2450fd90412835000c68d18f84feb2a27b5"
+    },
+    {
+      "original_path": "synthetic_preservation_check.json",
+      "preserved_path": "synthetic_preservation_check.json",
+      "sha256": "578284bd222a3f7fcddcfbe2fbc981cfa5ad453dc0fdd104694a70dd1eca7ed9"
+    },
+    {
+      "original_path": "synthetic_references_original.bib",
+      "preserved_path": "synthetic_references_original.bib",
+      "sha256": "b4e301ac89cf6b6408084167f22b809eb54fc9c5182906da5fb07cf1924aeded"
+    },
+    {
+      "original_path": "synthetic_report_original.md",
+      "preserved_path": "synthetic_report_original.md",
+      "sha256": "932067e82ccf33b41afcd1a8c328d5795915addfac0ce18069ff8a4b37c5128e"
+    },
+    {
+      "original_path": "test_log.txt",
+      "preserved_path": "test_log.txt",
+      "sha256": "2fe99d3c871ffa1690f0455afc305a6e6704256604db537dbacf32e85628e67f"
+    },
+    {
+      "original_path": "tests.py",
+      "preserved_path": "tests.py",
+      "sha256": "84874026d18684ec164feee65f70525e2d6c7be6fecf8d0efa0de84ddf798507"
+    },
+    {
+      "original_path": "traces.jsonl.gz",
+      "preserved_path": "traces.jsonl.gz",
+      "sha256": "f715ddf38dd586ec163d82c18a324d94f42f8364c39a36d3c01ee596a9e76649"
+    },
+    {
+      "original_path": "witnesses.json",
+      "preserved_path": "witnesses.json",
+      "sha256": "7719e6556519e97be78e1039374ba70ba852018d529ae66397555dda9abb48a6"
+    }
+  ],
+  "prior_commit": "c32b4b33fb9df35d1206a37c3808c29874a4fbc4",
+  "scope": "Every earlier production package file preserved. The earlier report, README and bibliography are saved under live_original_ names for this combined update.",
+  "status": "PASS"
+}
