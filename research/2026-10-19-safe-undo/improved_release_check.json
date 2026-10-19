@@ -1,6 +1,6 @@
 {
   "base_commit": "c32b4b33fb9df35d1206a37c3808c29874a4fbc4",
-  "checked_at_utc": "2026-10-19T16:12:42.118354+00:00",
+  "checked_at_utc": "2026-10-19T16:18:28.024247+00:00",
   "checks": {
     "clean_replay": true,
     "content_review": "improved_content_review.md",
@@ -9,6 +9,7 @@
     "prior_95_file_preservation": true,
     "private_string_and_secret_scan": true,
     "relative_links": 67,
+    "report_table_column_counts": 7,
     "source_evidence_review": "improved_independent_review.md",
     "three_frozen_manifests": true
   },
@@ -86,8 +87,8 @@
       "sha256": "3da5151e7e8224bdb2a6b30151ce33554b6cd4710e3b0953ae5b83b6eca7cd2a"
     },
     "improved_changes_and_failures.md": {
-      "bytes": 4754,
-      "sha256": "1089290f0b42faa32f1cff967ad8b3dae6281b68c014a5cf34f1bd7a0cd5f02f"
+      "bytes": 5246,
+      "sha256": "26fe807c8e496c8953dde84951f9ab0af5b5cef4a90c1858a6277ee5aaea2b01"
     },
     "improved_cleanup.json": {
       "bytes": 18552,
@@ -98,8 +99,8 @@
       "sha256": "0d24a9eff743b7c1286f558bc4bad12147502bc870489e3cb93e8f1466f2c66d"
     },
     "improved_content_review.md": {
-      "bytes": 5948,
-      "sha256": "1780fb5d2d9edfb3749e48ebb54a9cda62c611d068f4d312f6fd8c918d676d07"
+      "bytes": 6949,
+      "sha256": "db9c3ac6ecbff4c1111c429aae5f81f26756ccd258a251178a395a5f52b3ac64"
     },
     "improved_design_check.json": {
       "bytes": 669,
@@ -558,8 +559,8 @@
       "sha256": "01633eb91d469cadd1855187083b09a13cded18d67ce843476f3d6728cf3c31a"
     },
     "report.md": {
-      "bytes": 39458,
-      "sha256": "20520284d24416802feaa49ec899e971a9d14e213acf87c43b2246f89bd200d3"
+      "bytes": 39451,
+      "sha256": "b679830e061f0ded4c9a47efc7daf6cb2561a704d3a83674cbc21bc7019d58fa"
     },
     "reproduction_check.json": {
       "bytes": 2319,

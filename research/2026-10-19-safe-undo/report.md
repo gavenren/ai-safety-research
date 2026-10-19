@@ -214,7 +214,7 @@ An **actuator** is the component that enters and saves fields. The last two faul
 All 32 assignments have terminal records. Thirty have valid outcome evidence. Calendar05 (baseline, independent Y) and Calendar13 (checked history, addition) are unknown. Calendar05 did not enter the edit form before the agent action. Calendar13 stopped at the fresh pre-read before the rule ran. No failed assignment was replaced. Cleanup does not fill these missing outcomes.
 
 | Rule | Planned | Valid | Correct completion | Incorrect completion claim | Refusal, wrong state | Refusal, correct state | Unknown |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Baseline log-assisted provenance | 16 | 15 | 9 | 6 | 0 | 0 | 1 |
 | Checked history | 16 | 15 | 7 | 0 | 6 | 2 | 1 |
 

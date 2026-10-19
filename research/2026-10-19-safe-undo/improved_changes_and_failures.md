@@ -29,3 +29,7 @@ All 16 Notion assignments have valid evidence. No browser action error, uncertai
 All seven documented analysis commands completed with exit code zero. The independent comparison has 427 exact checks. Source-adapter failures and their repairs are recorded in improved_independent_changes.md. No missing outcome was filled from a prediction.
 
 The independent reviewer clarified a metadata label to state that the primary analyzer was not read during model implementation. The primary analyzer was later read to build the result comparison. The independent model and controls did not change. The documented replay was repeated after this label change.
+
+## Published-page format correction
+
+The first rendered-page check after publication found that the new aggregate table had nine separator cells for eight columns. The rows and measured values were correct. One extra separator cell was removed. Every table in the combined report now has a consistent column count. This format change does not alter any result, input, controller or evidence. The reviewed report hash and release inventory were refreshed before the correction was published.

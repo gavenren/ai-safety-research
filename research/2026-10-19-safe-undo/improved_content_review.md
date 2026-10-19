@@ -28,13 +28,19 @@ All six frozen input hashes match. All 95 files in [improved_preservation_check.
 
 The report states actual Codex roles and no human review. The independent reviewer saw the controller during design review and later read the primary analyzer for comparison; the report does not claim blind controller review. No endorsement, certification or affiliation is claimed. No material content issue remains within the stated scope.
 
+## Format correction after initial publication
+
+The earlier content review did not detect an extra separator cell in the new aggregate results table. A later rendered-page check found the mismatch after the first publication. This limited review confirms that the report change removes exactly one separator cell, from nine to eight, on one line. No text, result or data row changed. All seven Markdown tables now have matching column counts in their headers, separators and rows.
+
+All 15 analysis input hashes and all six generated result hashes still match the clean reproduction receipt. No analysis rerun was needed for this format correction. The earlier report, content review and release receipt remain in the private work record. The change record states the published-page correction. The root agent must still publish the corrected files and check the rendered table and remote hashes.
+
 ## Reviewed file hashes
 
 These hashes bind the final text and key receipts before publication. The full release inventory is separate.
 
 | File | SHA-256 |
 | --- | --- |
-| report.md | 20520284d24416802feaa49ec899e971a9d14e213acf87c43b2246f89bd200d3 |
+| report.md | b679830e061f0ded4c9a47efc7daf6cb2561a704d3a83674cbc21bc7019d58fa |
 | README.md | 65bc623a2c3c02a7b2546afcf752598497ec7979bc7a12285c046bdea3734b35 |
 | references.bib | 9a355637c80222681578652b9f67d258fbac4132d5ddc1f54a0aed180a7dfe41 |
 | improved_review_checklist.md | 1de489da2661e7df673518bb2d94102bbb248692cee6da719f274be5674b885f |
@@ -45,3 +51,4 @@ These hashes bind the final text and key receipts before publication. The full r
 | improved_extraction_review.json | ac4e6806a6550651d03a3b68f3f036b1a627b0b55e4865fc5f32c72dc5fce7f8 |
 | improved_source_review.json | ca82fd53044238a9d757bfefd235cba90ed0e8feca67baadb865c8a10a782631 |
 | improved_cleanup_review.json | 0d24a9eff743b7c1286f558bc4bad12147502bc870489e3cb93e8f1466f2c66d |
+| improved_changes_and_failures.md | 26fe807c8e496c8953dde84951f9ab0af5b5cef4a90c1858a6277ee5aaea2b01 |
