@@ -1,0 +1,34 @@
+{
+  "adapter_sha256": "05c55203c5d2c9fdf4eb76ca03bec8265abe0d0487450b991c260dbdaf73777f",
+  "aggregate_rows_compared": 102,
+  "all_main_summary_fields_compared": true,
+  "case_count": 15624,
+  "independent_extra_subgroup_paired_rows": 60,
+  "independent_zero_count_rows_not_in_main": 6,
+  "input_sha256": {
+    "independent_audit.py": "28163f8205412aec05317938b45e584b7fd855db7d7eced5c8ee9acd775267b4",
+    "independent_cases.jsonl.gz": "45fb8712a7efeb25255d721343918b4d72107f6f0674bcb5001583ceed8f0614",
+    "independent_checks.json": "97e228866efb71df67800aa182240ef811e5fc05b012b82915360e70e8cfd239",
+    "independent_results.json": "92b11919749912a0d5000b3c20594fbd7d16f0f6bd87c698acc7e90ccec21171",
+    "observation_groups.json": "9a349514434564a192ddfee7118b834810edffb17547127f7ae0ba15aec8d1cd",
+    "paired_results.json": "e2ff4d86c05d97c8fc37475930d84b5c4ddc485fbb686248bae9a7741fc49474",
+    "results.csv": "43c7bdb1b4d240ebd5be2155d88071be5cdf9df94ec67ed71bf3aa45f51a897b",
+    "summary.json": "47d035cb78892638e3d6ec378284d54b4ef5f9266d5784b4b18db904b7e7759b",
+    "traces.jsonl.gz": "f715ddf38dd586ec163d82c18a324d94f42f8364c39a36d3c01ee596a9e76649",
+    "witnesses.json": "7719e6556519e97be78e1039374ba70ba852018d529ae66397555dda9abb48a6"
+  },
+  "minimum_ambiguity_pairs_compared": 140,
+  "minimum_failure_examples_compared": 17,
+  "model_logic_changed_after_comparison": false,
+  "observation_groups_compared": 364,
+  "paired_rows_compared": 30,
+  "policy_outcomes": 93744,
+  "recursive_comparison_counts": {
+    "arrays": 399808,
+    "objects": 126186,
+    "scalar_values": 1886271
+  },
+  "scope": "All main saved results, with schema conversion only.",
+  "status": "PASS",
+  "trajectory_state_pairs": 89844
+}

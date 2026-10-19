@@ -1,0 +1,9 @@
+{
+  "initial_x": [0, 1],
+  "initial_y": [0, 1],
+  "lengths": [0, 1, 2, 3, 4, 5],
+  "alphabet": ["add1", "sub1", "set0", "set1", "flip_y"],
+  "rules": ["full_restore", "field_restore", "subtract", "value_guard", "revision_guard", "provenance"],
+  "primary_length": 3,
+  "agent_increment": 1
+}

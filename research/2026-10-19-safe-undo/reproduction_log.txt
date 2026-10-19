@@ -1,0 +1,24 @@
+$ python3 -m unittest tests -v
+test_additive_inverse (tests.Semantics.test_additive_inverse) ... ok
+test_bad_command (tests.Semantics.test_bad_command) ... ok
+test_bad_config (tests.Semantics.test_bad_config) ... ok
+test_each_command_and_partition (tests.Semantics.test_each_command_and_partition) ... ok
+test_independent_y (tests.Semantics.test_independent_y) ... ok
+test_no_background (tests.Semantics.test_no_background) ... ok
+test_overwritten_contribution (tests.Semantics.test_overwritten_contribution) ... ok
+test_same_observation_different_target (tests.Semantics.test_same_observation_different_target) ... ok
+test_same_value_set (tests.Semantics.test_same_value_set) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+OK
+
+$ python3 analyze.py --input-dir . --output-dir .
+{"aggregate_rows": 102, "histories": 15624, "hypotheses": {"H1": true, "H2": true, "H3": true, "H4": true, "H5": true, "H6": true}, "paired_rows": 30, "policy_outcomes": 93744, "witnesses": 17}
+
+$ python3 independent_audit.py --input-dir . --output-dir .
+{"aggregate_rows": 108, "ambiguous_groups": 140, "case_count": 15624, "observation_groups": 364, "paired_rows": 90, "policy_count": 93744, "status": "PASS", "trajectory_state_pairs": 89844}
+
+$ python3 compare_results.py --input-dir . --output-dir .
+{"case_count": 15624, "policy_outcomes": 93744, "recursive_comparison_counts": {"arrays": 399808, "objects": 126186, "scalar_values": 1886271}, "status": "PASS"}

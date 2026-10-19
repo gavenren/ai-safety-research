@@ -1,0 +1,79 @@
+{
+  "byte_equal": {
+    "comparison.json": true,
+    "independent_cases.jsonl.gz": true,
+    "independent_checks.json": true,
+    "independent_results.json": true,
+    "observation_groups.json": true,
+    "paired_results.json": true,
+    "results.csv": true,
+    "summary.json": true,
+    "traces.jsonl.gz": true,
+    "witnesses.json": true
+  },
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.087382
+    },
+    {
+      "command": [
+        "python3",
+        "analyze.py",
+        "--input-dir",
+        ".",
+        "--output-dir",
+        "."
+      ],
+      "exit_code": 0,
+      "wall_seconds": 1.306173
+    },
+    {
+      "command": [
+        "python3",
+        "independent_audit.py",
+        "--input-dir",
+        ".",
+        "--output-dir",
+        "."
+      ],
+      "exit_code": 0,
+      "wall_seconds": 1.911748
+    },
+    {
+      "command": [
+        "python3",
+        "compare_results.py",
+        "--input-dir",
+        ".",
+        "--output-dir",
+        "."
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.610873
+    }
+  ],
+  "human_review": "None",
+  "python": "3.13.7",
+  "scope": "The four README commands ran in a fresh temporary directory with only seven input/code files.",
+  "sha256": {
+    "comparison.json": "dd9344a626b039137f997d22e55b2960704d103563886b303395827e677e3682",
+    "independent_cases.jsonl.gz": "45fb8712a7efeb25255d721343918b4d72107f6f0674bcb5001583ceed8f0614",
+    "independent_checks.json": "97e228866efb71df67800aa182240ef811e5fc05b012b82915360e70e8cfd239",
+    "independent_results.json": "92b11919749912a0d5000b3c20594fbd7d16f0f6bd87c698acc7e90ccec21171",
+    "observation_groups.json": "9a349514434564a192ddfee7118b834810edffb17547127f7ae0ba15aec8d1cd",
+    "paired_results.json": "e2ff4d86c05d97c8fc37475930d84b5c4ddc485fbb686248bae9a7741fc49474",
+    "results.csv": "43c7bdb1b4d240ebd5be2155d88071be5cdf9df94ec67ed71bf3aa45f51a897b",
+    "summary.json": "47d035cb78892638e3d6ec378284d54b4ef5f9266d5784b4b18db904b7e7759b",
+    "traces.jsonl.gz": "f715ddf38dd586ec163d82c18a324d94f42f8364c39a36d3c01ee596a9e76649",
+    "witnesses.json": "7719e6556519e97be78e1039374ba70ba852018d529ae66397555dda9abb48a6"
+  },
+  "status": "PASS"
+}

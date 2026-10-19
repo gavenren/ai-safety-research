@@ -1,0 +1,83 @@
+{
+  "aggregate_rows": 108,
+  "ambiguous_groups": 140,
+  "case_count": 15624,
+  "handcrafted_control_group_count": 10,
+  "handcrafted_control_groups": [
+    "one_command_add1",
+    "one_command_sub1",
+    "one_command_set0",
+    "one_command_set1",
+    "one_command_flip_y",
+    "all_four_no_background_records",
+    "same_value_assignment",
+    "add_sub_cancellation",
+    "set_then_add",
+    "all_y_only_lengths"
+  ],
+  "human_review": "None",
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true,
+    "H6": true
+  },
+  "implementation": "Independent model; no imports from main analysis or tests.",
+  "input": {
+    "frozen_utc": "2026-10-19T14:30:22.004489+00:00",
+    "sha256": {
+      "analysis_plan.md": "5788f497aad1a6c7871ff5ec7feb681ddb818c2fb954c8bb42d23be86b823ea2",
+      "config.json": "dce226d1f31daa394db044c9a1de34c04073621a7f6d6e9af5e189d68ee21a30"
+    }
+  },
+  "malformed_config_cases": [
+    "missing_initial_x",
+    "null_initial_x",
+    "missing_initial_y",
+    "null_initial_y",
+    "missing_lengths",
+    "null_lengths",
+    "missing_alphabet",
+    "null_alphabet",
+    "missing_rules",
+    "null_rules",
+    "missing_primary_length",
+    "null_primary_length",
+    "missing_agent_increment",
+    "null_agent_increment",
+    "bad_value_0_initial_x",
+    "bad_value_1_initial_y",
+    "bad_value_2_initial_x",
+    "bad_value_3_initial_y",
+    "bad_value_4_lengths",
+    "bad_value_5_lengths",
+    "bad_value_6_lengths",
+    "bad_value_7_alphabet",
+    "bad_value_8_alphabet",
+    "bad_value_9_rules",
+    "bad_value_10_rules",
+    "bad_value_11_agent_increment",
+    "bad_value_12_agent_increment",
+    "bad_value_13_agent_increment",
+    "bad_value_14_primary_length",
+    "bad_value_15_primary_length",
+    "extra_key",
+    "top_list",
+    "top_null"
+  ],
+  "malformed_config_count": 33,
+  "observation_groups": 364,
+  "paired_rows": 90,
+  "policy_count": 93744,
+  "python": "3.13.7",
+  "randomness": "None; exact enumeration.",
+  "reference": "Separate tuple transforms; no agent increment.",
+  "sha256": {
+    "independent_cases.jsonl.gz": "45fb8712a7efeb25255d721343918b4d72107f6f0674bcb5001583ceed8f0614",
+    "independent_results.json": "92b11919749912a0d5000b3c20594fbd7d16f0f6bd87c698acc7e90ccec21171"
+  },
+  "status": "PASS",
+  "trajectory_state_pairs": 89844
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 0,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 0,
+    "rule": "field_restore"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 0,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 0,
+    "rule": "full_restore"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 0,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 0,
+    "rule": "revision_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 0,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 0,
+    "rule": "subtract"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 0,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 0,
+    "rule": "value_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 1,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 12,
+    "rule": "field_restore"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 1,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 16,
+    "rule": "full_restore"
+  },
+  {
+    "abstains_before_correct": 8,
+    "abstains_before_wrong": 8,
+    "length": 1,
+    "provenance_clean_rule_abstains": 16,
+    "provenance_clean_rule_false": 0,
+    "rule": "revision_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 1,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 8,
+    "rule": "subtract"
+  },
+  {
+    "abstains_before_correct": 6,
+    "abstains_before_wrong": 8,
+    "length": 1,
+    "provenance_clean_rule_abstains": 14,
+    "provenance_clean_rule_false": 2,
+    "rule": "value_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 2,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 60,
+    "rule": "field_restore"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 2,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 68,
+    "rule": "full_restore"
+  },
+  {
+    "abstains_before_correct": 64,
+    "abstains_before_wrong": 32,
+    "length": 2,
+    "provenance_clean_rule_abstains": 96,
+    "provenance_clean_rule_false": 0,
+    "rule": "revision_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 2,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 64,
+    "rule": "subtract"
+  },
+  {
+    "abstains_before_correct": 48,
+    "abstains_before_wrong": 24,
+    "length": 2,
+    "provenance_clean_rule_abstains": 72,
+    "provenance_clean_rule_false": 16,
+    "rule": "value_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 3,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 312,
+    "rule": "field_restore"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 3,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 400,
+    "rule": "full_restore"
+  },
+  {
+    "abstains_before_correct": 392,
+    "abstains_before_wrong": 104,
+    "length": 3,
+    "provenance_clean_rule_abstains": 496,
+    "provenance_clean_rule_false": 0,
+    "rule": "revision_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 3,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 392,
+    "rule": "subtract"
+  },
+  {
+    "abstains_before_correct": 296,
+    "abstains_before_wrong": 80,
+    "length": 3,
+    "provenance_clean_rule_abstains": 376,
+    "provenance_clean_rule_false": 96,
+    "rule": "value_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 4,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 1572,
+    "rule": "field_restore"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 4,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 1940,
+    "rule": "full_restore"
+  },
+  {
+    "abstains_before_correct": 2176,
+    "abstains_before_wrong": 320,
+    "length": 4,
+    "provenance_clean_rule_abstains": 2496,
+    "provenance_clean_rule_false": 0,
+    "rule": "revision_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 4,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 2176,
+    "rule": "subtract"
+  },
+  {
+    "abstains_before_correct": 1652,
+    "abstains_before_wrong": 248,
+    "length": 4,
+    "provenance_clean_rule_abstains": 1900,
+    "provenance_clean_rule_false": 524,
+    "rule": "value_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 5,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 7896,
+    "rule": "field_restore"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 5,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 10120,
+    "rule": "full_restore"
+  },
+  {
+    "abstains_before_correct": 11528,
+    "abstains_before_wrong": 968,
+    "length": 5,
+    "provenance_clean_rule_abstains": 12496,
+    "provenance_clean_rule_false": 0,
+    "rule": "revision_guard"
+  },
+  {
+    "abstains_before_correct": 0,
+    "abstains_before_wrong": 0,
+    "length": 5,
+    "provenance_clean_rule_abstains": 0,
+    "provenance_clean_rule_false": 11528,
+    "rule": "subtract"
+  },
+  {
+    "abstains_before_correct": 8786,
+    "abstains_before_wrong": 768,
+    "length": 5,
+    "provenance_clean_rule_abstains": 9554,
+    "provenance_clean_rule_false": 2742,
+    "rule": "value_guard"
+  }
+]

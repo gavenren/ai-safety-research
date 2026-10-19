@@ -1,0 +1,580 @@
+{
+  "field_restore:false_confirmation": {
+    "before": [
+      2,
+      0
+    ],
+    "case_id": 4,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        0,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": false,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "add1"
+    ]
+  },
+  "field_restore:new_damage": {
+    "before": [
+      1,
+      0
+    ],
+    "case_id": 7,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        0,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": true,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "set1"
+    ]
+  },
+  "field_restore:wrong_change": {
+    "before": [
+      2,
+      0
+    ],
+    "case_id": 4,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        0,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": false,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "add1"
+    ]
+  },
+  "full_restore:collateral_change": {
+    "before": [
+      1,
+      1
+    ],
+    "case_id": 8,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        0,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": true,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": false,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      0,
+      1
+    ],
+    "word": [
+      "flip_y"
+    ]
+  },
+  "full_restore:false_confirmation": {
+    "before": [
+      2,
+      0
+    ],
+    "case_id": 4,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        0,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": false,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "add1"
+    ]
+  },
+  "full_restore:new_damage": {
+    "before": [
+      1,
+      0
+    ],
+    "case_id": 7,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        0,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": true,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "set1"
+    ]
+  },
+  "full_restore:wrong_change": {
+    "before": [
+      2,
+      0
+    ],
+    "case_id": 4,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        0,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": false,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "add1"
+    ]
+  },
+  "revision_guard:abstain_correct": {
+    "before": [
+      0,
+      0
+    ],
+    "case_id": 6,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": true,
+      "after": [
+        0,
+        0
+      ],
+      "changed": false,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": false,
+      "correct_final": true,
+      "false_confirmation": false,
+      "new_damage": false,
+      "unresolved": false,
+      "wrong_change": false
+    },
+    "target": [
+      0,
+      0
+    ],
+    "word": [
+      "set0"
+    ]
+  },
+  "revision_guard:unresolved": {
+    "before": [
+      2,
+      0
+    ],
+    "case_id": 4,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        2,
+        0
+      ],
+      "changed": false,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": false,
+      "correct_final": false,
+      "false_confirmation": false,
+      "new_damage": false,
+      "unresolved": true,
+      "wrong_change": false
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "add1"
+    ]
+  },
+  "subtract:false_confirmation": {
+    "before": [
+      0,
+      0
+    ],
+    "case_id": 6,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        -1,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": true,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      0,
+      0
+    ],
+    "word": [
+      "set0"
+    ]
+  },
+  "subtract:new_damage": {
+    "before": [
+      0,
+      0
+    ],
+    "case_id": 6,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        -1,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": true,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      0,
+      0
+    ],
+    "word": [
+      "set0"
+    ]
+  },
+  "subtract:wrong_change": {
+    "before": [
+      0,
+      0
+    ],
+    "case_id": 6,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        -1,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": true,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      0,
+      0
+    ],
+    "word": [
+      "set0"
+    ]
+  },
+  "value_guard:abstain_correct": {
+    "before": [
+      0,
+      0
+    ],
+    "case_id": 6,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": true,
+      "after": [
+        0,
+        0
+      ],
+      "changed": false,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": false,
+      "correct_final": true,
+      "false_confirmation": false,
+      "new_damage": false,
+      "unresolved": false,
+      "wrong_change": false
+    },
+    "target": [
+      0,
+      0
+    ],
+    "word": [
+      "set0"
+    ]
+  },
+  "value_guard:false_confirmation": {
+    "before": [
+      1,
+      0
+    ],
+    "case_id": 7,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        0,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": true,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "set1"
+    ]
+  },
+  "value_guard:new_damage": {
+    "before": [
+      1,
+      0
+    ],
+    "case_id": 7,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        0,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": true,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "set1"
+    ]
+  },
+  "value_guard:unresolved": {
+    "before": [
+      2,
+      0
+    ],
+    "case_id": 4,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        2,
+        0
+      ],
+      "changed": false,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": false,
+      "correct_final": false,
+      "false_confirmation": false,
+      "new_damage": false,
+      "unresolved": true,
+      "wrong_change": false
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "add1"
+    ]
+  },
+  "value_guard:wrong_change": {
+    "before": [
+      1,
+      0
+    ],
+    "case_id": 7,
+    "initial": [
+      0,
+      0
+    ],
+    "outcome": {
+      "abstain_correct": false,
+      "after": [
+        0,
+        0
+      ],
+      "changed": true,
+      "clean_completion": false,
+      "collateral_change": false,
+      "complete": true,
+      "correct_final": false,
+      "false_confirmation": true,
+      "new_damage": true,
+      "unresolved": false,
+      "wrong_change": true
+    },
+    "target": [
+      1,
+      0
+    ],
+    "word": [
+      "set1"
+    ]
+  }
+}

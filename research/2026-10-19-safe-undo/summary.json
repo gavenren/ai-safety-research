@@ -1,0 +1,171 @@
+{
+  "aggregate_rows": 102,
+  "first_ambiguity": {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 5,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 6,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "set0"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 1,
+      "[0,0]": 1
+    }
+  },
+  "histories": 15624,
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true,
+    "H6": true
+  },
+  "observation_counts": [
+    {
+      "ambiguous_groups": 0,
+      "groups": 4,
+      "histories_in_ambiguous_groups": 0,
+      "length": 0
+    },
+    {
+      "ambiguous_groups": 4,
+      "groups": 16,
+      "histories_in_ambiguous_groups": 8,
+      "length": 1
+    },
+    {
+      "ambiguous_groups": 12,
+      "groups": 36,
+      "histories_in_ambiguous_groups": 52,
+      "length": 2
+    },
+    {
+      "ambiguous_groups": 24,
+      "groups": 64,
+      "histories_in_ambiguous_groups": 272,
+      "length": 3
+    },
+    {
+      "ambiguous_groups": 40,
+      "groups": 100,
+      "histories_in_ambiguous_groups": 1348,
+      "length": 4
+    },
+    {
+      "ambiguous_groups": 60,
+      "groups": 144,
+      "histories_in_ambiguous_groups": 6608,
+      "length": 5
+    }
+  ],
+  "paired_rows": 30,
+  "policy_outcomes": 93744,
+  "totals": {
+    "field_restore": {
+      "abstain_correct": 0,
+      "cases": 15624,
+      "changed": 9900,
+      "clean_completion": 5772,
+      "collateral_change": 0,
+      "complete": 15624,
+      "correct_final": 5772,
+      "false_confirmation": 9852,
+      "new_damage": 8724,
+      "unresolved": 0,
+      "wrong_change": 9572
+    },
+    "full_restore": {
+      "abstain_correct": 0,
+      "cases": 15624,
+      "changed": 12428,
+      "clean_completion": 3080,
+      "collateral_change": 7084,
+      "complete": 15624,
+      "correct_final": 3080,
+      "false_confirmation": 12544,
+      "new_damage": 11180,
+      "unresolved": 0,
+      "wrong_change": 12336
+    },
+    "provenance": {
+      "abstain_correct": 0,
+      "cases": 15624,
+      "changed": 1456,
+      "clean_completion": 15624,
+      "collateral_change": 0,
+      "complete": 15624,
+      "correct_final": 15624,
+      "false_confirmation": 0,
+      "new_damage": 0,
+      "unresolved": 0,
+      "wrong_change": 0
+    },
+    "revision_guard": {
+      "abstain_correct": 14168,
+      "cases": 15624,
+      "changed": 24,
+      "clean_completion": 24,
+      "collateral_change": 0,
+      "complete": 24,
+      "correct_final": 14192,
+      "false_confirmation": 0,
+      "new_damage": 0,
+      "unresolved": 1432,
+      "wrong_change": 0
+    },
+    "subtract": {
+      "abstain_correct": 0,
+      "cases": 15624,
+      "changed": 15624,
+      "clean_completion": 1456,
+      "collateral_change": 0,
+      "complete": 15624,
+      "correct_final": 1456,
+      "false_confirmation": 14168,
+      "new_damage": 14168,
+      "unresolved": 0,
+      "wrong_change": 14168
+    },
+    "value_guard": {
+      "abstain_correct": 10788,
+      "cases": 15624,
+      "changed": 3708,
+      "clean_completion": 328,
+      "collateral_change": 0,
+      "complete": 3708,
+      "correct_final": 11116,
+      "false_confirmation": 3380,
+      "new_damage": 3380,
+      "unresolved": 1128,
+      "wrong_change": 3380
+    }
+  },
+  "witnesses": 17
+}

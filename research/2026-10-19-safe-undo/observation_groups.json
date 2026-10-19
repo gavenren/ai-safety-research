@@ -1,0 +1,9746 @@
+[
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      0,
+      1,
+      0,
+      2,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      0,
+      1,
+      1,
+      2,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 5,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 6,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "set0"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 1,
+      "[0,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      0,
+      0,
+      2,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 10,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 11,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "set0"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 1,
+      "[0,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      0,
+      1,
+      2,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 15,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 17,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "set1"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 1,
+      "[1,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      1,
+      0,
+      2,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      1,
+      0,
+      3,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 20,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 22,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "set1"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 1,
+      "[1,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      1,
+      1,
+      2,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      1,
+      1,
+      1,
+      3,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      2,
+      0,
+      0,
+      -1,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 30,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 35,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "set0",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 1,
+      "[-2,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 4,
+    "key": [
+      2,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 33,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 38,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "set0",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 2,
+      "[0,1]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 7,
+    "key": [
+      2,
+      0,
+      0,
+      1,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 25,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 27,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "set1"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 2,
+      "[1,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 2,
+    "key": [
+      2,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      0,
+      0,
+      2,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 2,
+    "key": [
+      2,
+      0,
+      0,
+      2,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      0,
+      0,
+      3,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      2,
+      0,
+      1,
+      -1,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 55,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 60,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "set0",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 1,
+      "[-2,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 4,
+    "key": [
+      2,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 58,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 63,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "set0",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 2,
+      "[0,0]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      2,
+      0,
+      1,
+      0,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 2,
+    "key": [
+      2,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 7,
+    "key": [
+      2,
+      0,
+      1,
+      1,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 50,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 52,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "set1"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 2,
+      "[1,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 2,
+    "key": [
+      2,
+      0,
+      1,
+      2,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      0,
+      1,
+      2,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      0,
+      1,
+      3,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      1,
+      0,
+      -1,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 76,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "set0"
+        ]
+      },
+      {
+        "case_id": 80,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 1,
+      "[0,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 2,
+    "key": [
+      2,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      2,
+      1,
+      0,
+      1,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 4,
+    "key": [
+      2,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 83,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 93,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "set1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 2,
+      "[1,1]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      1,
+      0,
+      2,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 3,
+    "key": [
+      2,
+      1,
+      0,
+      2,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 75,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 89,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "set1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,0]": 2,
+      "[2,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 2,
+    "key": [
+      2,
+      1,
+      0,
+      3,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      1,
+      0,
+      4,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      1,
+      1,
+      -1,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 2,
+    "key": [
+      2,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 2
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      2,
+      1,
+      1,
+      0,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 101,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "set0"
+        ]
+      },
+      {
+        "case_id": 105,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 1,
+      "[0,1]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 4,
+    "key": [
+      2,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 108,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 118,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "set1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 2,
+      "[1,0]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      1,
+      1,
+      2,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 3,
+    "key": [
+      2,
+      1,
+      1,
+      2,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 100,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 114,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "set1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,1]": 2,
+      "[2,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 2,
+    "key": [
+      2,
+      1,
+      1,
+      3,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 2
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      2,
+      1,
+      1,
+      4,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      3,
+      0,
+      0,
+      -2,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 155,
+        "target": [
+          -3,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 180,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,0]": 1,
+      "[-3,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      3,
+      0,
+      0,
+      -1,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,0]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      3,
+      0,
+      0,
+      -1,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 158,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 183,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 3,
+      "[-2,1]": 3
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 173,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 198,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "set0",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 3,
+      "[0,0]": 3
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 25,
+    "key": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 126,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0"
+        ]
+      },
+      {
+        "case_id": 130,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 3,
+      "[0,0]": 22
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 15,
+    "key": [
+      3,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 15
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 22,
+    "key": [
+      3,
+      0,
+      0,
+      1,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 22
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 21,
+    "key": [
+      3,
+      0,
+      0,
+      1,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 133,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 143,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 6,
+      "[1,1]": 15
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      0,
+      0,
+      2,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 3
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 8,
+    "key": [
+      3,
+      0,
+      0,
+      2,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 125,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 139,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,0]": 3,
+      "[2,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      0,
+      0,
+      2,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      0,
+      0,
+      3,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      0,
+      0,
+      3,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      0,
+      0,
+      4,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      3,
+      0,
+      1,
+      -2,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 280,
+        "target": [
+          -3,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 305,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,1]": 1,
+      "[-3,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      3,
+      0,
+      1,
+      -1,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 283,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 308,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 3,
+      "[-2,0]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      3,
+      0,
+      1,
+      -1,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 15,
+    "key": [
+      3,
+      0,
+      1,
+      0,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 15
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      3,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 298,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 323,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "set0",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 3,
+      "[0,1]": 3
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 25,
+    "key": [
+      3,
+      0,
+      1,
+      0,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 251,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0"
+        ]
+      },
+      {
+        "case_id": 255,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 3,
+      "[0,1]": 22
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 21,
+    "key": [
+      3,
+      0,
+      1,
+      1,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 258,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 268,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 6,
+      "[1,0]": 15
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 22,
+    "key": [
+      3,
+      0,
+      1,
+      1,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 22
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      0,
+      1,
+      2,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      0,
+      1,
+      2,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 3
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 8,
+    "key": [
+      3,
+      0,
+      1,
+      2,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 250,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 264,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,1]": 3,
+      "[2,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      0,
+      1,
+      3,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      0,
+      1,
+      3,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      0,
+      1,
+      4,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      1,
+      0,
+      -2,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      3,
+      1,
+      0,
+      -1,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 385,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 405,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 5,
+      "[-2,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      1,
+      0,
+      -1,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,1]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 22,
+    "key": [
+      3,
+      1,
+      0,
+      0,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 22
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 18,
+    "key": [
+      3,
+      1,
+      0,
+      0,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 388,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 408,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 3,
+      "[0,1]": 15
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      3,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 423,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 473,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "set1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 3,
+      "[1,0]": 3
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 25,
+    "key": [
+      3,
+      1,
+      0,
+      1,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 377,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1"
+        ]
+      },
+      {
+        "case_id": 380,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 3,
+      "[1,0]": 22
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 15,
+    "key": [
+      3,
+      1,
+      0,
+      1,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 15
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      3,
+      1,
+      0,
+      2,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      1,
+      0,
+      2,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 9,
+    "key": [
+      3,
+      1,
+      0,
+      2,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 383,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 453,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,1]": 6,
+      "[2,1]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      1,
+      0,
+      3,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 3
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 4,
+    "key": [
+      3,
+      1,
+      0,
+      3,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 375,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 449,
+        "target": [
+          3,
+          0
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,0]": 3,
+      "[3,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      1,
+      0,
+      4,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      1,
+      0,
+      5,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      1,
+      1,
+      -2,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      1,
+      1,
+      -1,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,0]": 3
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      3,
+      1,
+      1,
+      -1,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 510,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 530,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 5,
+      "[-2,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 18,
+    "key": [
+      3,
+      1,
+      1,
+      0,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 513,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 533,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 3,
+      "[0,0]": 15
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 22,
+    "key": [
+      3,
+      1,
+      1,
+      0,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 22
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 15,
+    "key": [
+      3,
+      1,
+      1,
+      1,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 15
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      3,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 548,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 598,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "set1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 3,
+      "[1,1]": 3
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 25,
+    "key": [
+      3,
+      1,
+      1,
+      1,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 502,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1"
+        ]
+      },
+      {
+        "case_id": 505,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 3,
+      "[1,1]": 22
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      1,
+      1,
+      2,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 9,
+    "key": [
+      3,
+      1,
+      1,
+      2,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 508,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 578,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,0]": 6,
+      "[2,0]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      3,
+      1,
+      1,
+      2,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      1,
+      1,
+      3,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 3
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 4,
+    "key": [
+      3,
+      1,
+      1,
+      3,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 500,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 574,
+        "target": [
+          3,
+          1
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,1]": 3,
+      "[3,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 3,
+    "key": [
+      3,
+      1,
+      1,
+      4,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 3
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      3,
+      1,
+      1,
+      5,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      4,
+      0,
+      0,
+      -3,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 780,
+        "target": [
+          -4,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 905,
+        "target": [
+          -3,
+          0
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-3,0]": 1,
+      "[-4,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      4,
+      0,
+      0,
+      -2,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,0]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 8,
+    "key": [
+      4,
+      0,
+      0,
+      -2,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 783,
+        "target": [
+          -3,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 908,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,1]": 4,
+      "[-3,1]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 12,
+    "key": [
+      4,
+      0,
+      0,
+      -1,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 798,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 923,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 6,
+      "[-2,0]": 6
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 27,
+    "key": [
+      4,
+      0,
+      0,
+      -1,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 635,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 655,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 23,
+      "[-2,0]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 20,
+    "key": [
+      4,
+      0,
+      0,
+      -1,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,1]": 20
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 30,
+    "key": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 30
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 91,
+    "key": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 91
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 8,
+    "key": [
+      4,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 873,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 998,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "set0",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 4,
+      "[0,1]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 100,
+    "key": [
+      4,
+      0,
+      0,
+      0,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 638,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 658,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 12,
+      "[0,1]": 88
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 42,
+    "key": [
+      4,
+      0,
+      0,
+      1,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 673,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 723,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 12,
+      "[1,0]": 30
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 97,
+    "key": [
+      4,
+      0,
+      0,
+      1,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 627,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set1"
+        ]
+      },
+      {
+        "case_id": 630,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 6,
+      "[1,0]": 91
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 88,
+    "key": [
+      4,
+      0,
+      0,
+      1,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 88
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 6,
+    "key": [
+      4,
+      0,
+      0,
+      2,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 6
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 23,
+    "key": [
+      4,
+      0,
+      0,
+      2,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 23
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      0,
+      0,
+      2,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 32,
+    "key": [
+      4,
+      0,
+      0,
+      2,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 633,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 703,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,1]": 12,
+      "[2,1]": 20
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 6,
+    "key": [
+      4,
+      0,
+      0,
+      3,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 6
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 9,
+    "key": [
+      4,
+      0,
+      0,
+      3,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 625,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 699,
+        "target": [
+          3,
+          0
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,0]": 4,
+      "[3,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      0,
+      0,
+      3,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      0,
+      0,
+      4,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      0,
+      0,
+      4,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      0,
+      0,
+      5,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      4,
+      0,
+      1,
+      -3,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1405,
+        "target": [
+          -4,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 1530,
+        "target": [
+          -3,
+          1
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-3,1]": 1,
+      "[-4,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 8,
+    "key": [
+      4,
+      0,
+      1,
+      -2,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1408,
+        "target": [
+          -3,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 1533,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,0]": 4,
+      "[-3,0]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      4,
+      0,
+      1,
+      -2,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 20,
+    "key": [
+      4,
+      0,
+      1,
+      -1,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,0]": 20
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 12,
+    "key": [
+      4,
+      0,
+      1,
+      -1,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1423,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 1548,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 6,
+      "[-2,1]": 6
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 27,
+    "key": [
+      4,
+      0,
+      1,
+      -1,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1260,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 1280,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 23,
+      "[-2,1]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 8,
+    "key": [
+      4,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1498,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 1623,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "set0",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 4,
+      "[0,0]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 100,
+    "key": [
+      4,
+      0,
+      1,
+      0,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1263,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 1283,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 12,
+      "[0,0]": 88
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 30,
+    "key": [
+      4,
+      0,
+      1,
+      0,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 30
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 91,
+    "key": [
+      4,
+      0,
+      1,
+      0,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 91
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 88,
+    "key": [
+      4,
+      0,
+      1,
+      1,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 88
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 42,
+    "key": [
+      4,
+      0,
+      1,
+      1,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1298,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 1348,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 12,
+      "[1,1]": 30
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 97,
+    "key": [
+      4,
+      0,
+      1,
+      1,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1252,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set1"
+        ]
+      },
+      {
+        "case_id": 1255,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 6,
+      "[1,1]": 91
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      0,
+      1,
+      2,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 32,
+    "key": [
+      4,
+      0,
+      1,
+      2,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1258,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 1328,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,0]": 12,
+      "[2,0]": 20
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 6,
+    "key": [
+      4,
+      0,
+      1,
+      2,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 6
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 23,
+    "key": [
+      4,
+      0,
+      1,
+      2,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 23
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      0,
+      1,
+      3,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 6,
+    "key": [
+      4,
+      0,
+      1,
+      3,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 6
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 9,
+    "key": [
+      4,
+      0,
+      1,
+      3,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1250,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 1324,
+        "target": [
+          3,
+          1
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,1]": 4,
+      "[3,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      0,
+      1,
+      4,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      0,
+      1,
+      4,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      0,
+      1,
+      5,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      1,
+      0,
+      -3,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-3,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      4,
+      1,
+      0,
+      -2,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1930,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 2030,
+        "target": [
+          -3,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,0]": 5,
+      "[-3,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      1,
+      0,
+      -2,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,1]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 6,
+    "key": [
+      4,
+      1,
+      0,
+      -1,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,0]": 6
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 23,
+    "key": [
+      4,
+      1,
+      0,
+      -1,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,0]": 23
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 24,
+    "key": [
+      4,
+      1,
+      0,
+      -1,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1933,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2033,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 20,
+      "[-2,1]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 36,
+    "key": [
+      4,
+      1,
+      0,
+      0,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1948,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2048,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 6,
+      "[0,0]": 30
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 95,
+    "key": [
+      4,
+      1,
+      0,
+      0,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1876,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set0"
+        ]
+      },
+      {
+        "case_id": 1905,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 4,
+      "[0,0]": 91
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 88,
+    "key": [
+      4,
+      1,
+      0,
+      0,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 88
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 30,
+    "key": [
+      4,
+      1,
+      0,
+      1,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 30
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 91,
+    "key": [
+      4,
+      1,
+      0,
+      1,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 91
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 8,
+    "key": [
+      4,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2123,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2373,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "set1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 4,
+      "[1,1]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 100,
+    "key": [
+      4,
+      1,
+      0,
+      1,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1893,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 1908,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 12,
+      "[1,1]": 88
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      1,
+      0,
+      2,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 18,
+    "key": [
+      4,
+      1,
+      0,
+      2,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1923,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2273,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,0]": 12,
+      "[2,0]": 6
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 29,
+    "key": [
+      4,
+      1,
+      0,
+      2,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1880,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 1889,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,0]": 6,
+      "[2,0]": 23
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 20,
+    "key": [
+      4,
+      1,
+      0,
+      2,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 20
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      4,
+      1,
+      0,
+      3,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      1,
+      0,
+      3,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 16,
+    "key": [
+      4,
+      1,
+      0,
+      3,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1883,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2253,
+        "target": [
+          3,
+          1
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,1]": 12,
+      "[3,1]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 6,
+    "key": [
+      4,
+      1,
+      0,
+      4,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 6
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 5,
+    "key": [
+      4,
+      1,
+      0,
+      4,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 1875,
+        "target": [
+          3,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 2249,
+        "target": [
+          4,
+          0
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[3,0]": 4,
+      "[4,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      1,
+      0,
+      5,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,1]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      1,
+      0,
+      6,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[5,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      1,
+      1,
+      -3,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-3,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      1,
+      1,
+      -2,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,0]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      4,
+      1,
+      1,
+      -2,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2555,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 2655,
+        "target": [
+          -3,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,1]": 5,
+      "[-3,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 24,
+    "key": [
+      4,
+      1,
+      1,
+      -1,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2558,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2658,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 20,
+      "[-2,0]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 6,
+    "key": [
+      4,
+      1,
+      1,
+      -1,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,1]": 6
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 23,
+    "key": [
+      4,
+      1,
+      1,
+      -1,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,1]": 23
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 88,
+    "key": [
+      4,
+      1,
+      1,
+      0,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 88
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 36,
+    "key": [
+      4,
+      1,
+      1,
+      0,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2573,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2673,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 6,
+      "[0,1]": 30
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 95,
+    "key": [
+      4,
+      1,
+      1,
+      0,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2501,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set0"
+        ]
+      },
+      {
+        "case_id": 2530,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 4,
+      "[0,1]": 91
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 8,
+    "key": [
+      4,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2748,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2998,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "set1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 4,
+      "[1,0]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 100,
+    "key": [
+      4,
+      1,
+      1,
+      1,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2518,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2533,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 12,
+      "[1,0]": 88
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 30,
+    "key": [
+      4,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 30
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 91,
+    "key": [
+      4,
+      1,
+      1,
+      1,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 91
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 20,
+    "key": [
+      4,
+      1,
+      1,
+      2,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 20
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      1,
+      1,
+      2,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 18,
+    "key": [
+      4,
+      1,
+      1,
+      2,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2548,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2898,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,1]": 12,
+      "[2,1]": 6
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 29,
+    "key": [
+      4,
+      1,
+      1,
+      2,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2505,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 2514,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,1]": 6,
+      "[2,1]": 23
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      1,
+      1,
+      3,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 4
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 16,
+    "key": [
+      4,
+      1,
+      1,
+      3,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2508,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 2878,
+        "target": [
+          3,
+          0
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,0]": 12,
+      "[3,0]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      4,
+      1,
+      1,
+      3,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 6,
+    "key": [
+      4,
+      1,
+      1,
+      4,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 6
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 5,
+    "key": [
+      4,
+      1,
+      1,
+      4,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 2500,
+        "target": [
+          3,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 2874,
+        "target": [
+          4,
+          1
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[3,1]": 4,
+      "[4,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 4,
+    "key": [
+      4,
+      1,
+      1,
+      5,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,0]": 4
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      4,
+      1,
+      1,
+      6,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[5,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      5,
+      0,
+      0,
+      -4,
+      0,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3905,
+        "target": [
+          -5,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 4530,
+        "target": [
+          -4,
+          0
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-4,0]": 1,
+      "[-5,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      0,
+      0,
+      -3,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-3,0]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      0,
+      -3,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3908,
+        "target": [
+          -4,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 4533,
+        "target": [
+          -3,
+          1
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-3,1]": 5,
+      "[-4,1]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 20,
+    "key": [
+      5,
+      0,
+      0,
+      -2,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3923,
+        "target": [
+          -3,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 4548,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,0]": 10,
+      "[-3,0]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 29,
+    "key": [
+      5,
+      0,
+      0,
+      -2,
+      0,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3180,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 3280,
+        "target": [
+          -3,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,0]": 24,
+      "[-3,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 25,
+    "key": [
+      5,
+      0,
+      0,
+      -2,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,1]": 25
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 50,
+    "key": [
+      5,
+      0,
+      0,
+      -1,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,0]": 50
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 96,
+    "key": [
+      5,
+      0,
+      0,
+      -1,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,0]": 96
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 20,
+    "key": [
+      5,
+      0,
+      0,
+      -1,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3998,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 4623,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 10,
+      "[-2,1]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 135,
+    "key": [
+      5,
+      0,
+      0,
+      -1,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3183,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 3283,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 115,
+      "[-2,1]": 20
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 4373,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 4998,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "set0",
+          "flip_y",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 5,
+      "[0,0]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 250,
+    "key": [
+      5,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3198,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 3298,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 30,
+      "[0,0]": 220
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 380,
+    "key": [
+      5,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3126,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "add1",
+          "set0"
+        ]
+      },
+      {
+        "case_id": 3155,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 10,
+      "[0,0]": 370
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 50,
+    "key": [
+      5,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 50
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 455,
+    "key": [
+      5,
+      0,
+      0,
+      0,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 455
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 220,
+    "key": [
+      5,
+      0,
+      0,
+      1,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 220
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 370,
+    "key": [
+      5,
+      0,
+      0,
+      1,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 370
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 70,
+    "key": [
+      5,
+      0,
+      0,
+      1,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3373,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 3623,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 20,
+      "[1,1]": 50
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 485,
+    "key": [
+      5,
+      0,
+      0,
+      1,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3143,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 3158,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 30,
+      "[1,1]": 455
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      0,
+      0,
+      2,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 80,
+    "key": [
+      5,
+      0,
+      0,
+      2,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3173,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 3523,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,0]": 30,
+      "[2,0]": 50
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 106,
+    "key": [
+      5,
+      0,
+      0,
+      2,
+      0,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3130,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 3139,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,0]": 10,
+      "[2,0]": 96
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      0,
+      2,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 10
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 115,
+    "key": [
+      5,
+      0,
+      0,
+      2,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 115
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      0,
+      3,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 10
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 24,
+    "key": [
+      5,
+      0,
+      0,
+      3,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 24
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      0,
+      3,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 45,
+    "key": [
+      5,
+      0,
+      0,
+      3,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3133,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 3503,
+        "target": [
+          3,
+          1
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,1]": 20,
+      "[3,1]": 25
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      0,
+      4,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      0,
+      4,
+      0,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 3125,
+        "target": [
+          3,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 3499,
+        "target": [
+          4,
+          0
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[3,0]": 5,
+      "[4,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      0,
+      0,
+      4,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      0,
+      0,
+      5,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[5,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      0,
+      0,
+      5,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      0,
+      0,
+      6,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[5,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 2,
+    "key": [
+      5,
+      0,
+      1,
+      -4,
+      1,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 7030,
+        "target": [
+          -5,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 7655,
+        "target": [
+          -4,
+          1
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-4,1]": 1,
+      "[-5,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      1,
+      -3,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 7033,
+        "target": [
+          -4,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 7658,
+        "target": [
+          -3,
+          0
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-3,0]": 5,
+      "[-4,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      0,
+      1,
+      -3,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-3,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 25,
+    "key": [
+      5,
+      0,
+      1,
+      -2,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,0]": 25
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 20,
+    "key": [
+      5,
+      0,
+      1,
+      -2,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 7048,
+        "target": [
+          -3,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 7673,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,1]": 10,
+      "[-3,1]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 29,
+    "key": [
+      5,
+      0,
+      1,
+      -2,
+      1,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 6305,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 6405,
+        "target": [
+          -3,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,1]": 24,
+      "[-3,1]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 20,
+    "key": [
+      5,
+      0,
+      1,
+      -1,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 7123,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 7748,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "set0",
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 10,
+      "[-2,0]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 135,
+    "key": [
+      5,
+      0,
+      1,
+      -1,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 6308,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 6408,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 115,
+      "[-2,0]": 20
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 50,
+    "key": [
+      5,
+      0,
+      1,
+      -1,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,1]": 50
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 96,
+    "key": [
+      5,
+      0,
+      1,
+      -1,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,1]": 96
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 50,
+    "key": [
+      5,
+      0,
+      1,
+      0,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 50
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 455,
+    "key": [
+      5,
+      0,
+      1,
+      0,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 455
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 7498,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 8123,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "set0",
+          "flip_y",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 5,
+      "[0,1]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 250,
+    "key": [
+      5,
+      0,
+      1,
+      0,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 6323,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set0",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 6423,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 30,
+      "[0,1]": 220
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 380,
+    "key": [
+      5,
+      0,
+      1,
+      0,
+      1,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 6251,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "add1",
+          "set0"
+        ]
+      },
+      {
+        "case_id": 6280,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 10,
+      "[0,1]": 370
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 70,
+    "key": [
+      5,
+      0,
+      1,
+      1,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 6498,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 6748,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 20,
+      "[1,0]": 50
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 485,
+    "key": [
+      5,
+      0,
+      1,
+      1,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 6268,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 6283,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 30,
+      "[1,0]": 455
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 220,
+    "key": [
+      5,
+      0,
+      1,
+      1,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 220
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 370,
+    "key": [
+      5,
+      0,
+      1,
+      1,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 370
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      1,
+      2,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 10
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 115,
+    "key": [
+      5,
+      0,
+      1,
+      2,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 115
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      0,
+      1,
+      2,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 80,
+    "key": [
+      5,
+      0,
+      1,
+      2,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 6298,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 6648,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,1]": 30,
+      "[2,1]": 50
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 106,
+    "key": [
+      5,
+      0,
+      1,
+      2,
+      1,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 6255,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 6264,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,1]": 10,
+      "[2,1]": 96
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      1,
+      3,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 45,
+    "key": [
+      5,
+      0,
+      1,
+      3,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 6258,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 6628,
+        "target": [
+          3,
+          0
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,0]": 20,
+      "[3,0]": 25
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      1,
+      3,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 10
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 24,
+    "key": [
+      5,
+      0,
+      1,
+      3,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 24
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      0,
+      1,
+      4,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      1,
+      4,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 10,
+    "key": [
+      5,
+      0,
+      1,
+      4,
+      1,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 6250,
+        "target": [
+          3,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 6624,
+        "target": [
+          4,
+          1
+        ],
+        "word": [
+          "add1",
+          "set1",
+          "add1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[3,1]": 5,
+      "[4,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      0,
+      1,
+      5,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      0,
+      1,
+      5,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[5,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      0,
+      1,
+      6,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[5,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      1,
+      0,
+      -4,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-4,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      5,
+      1,
+      0,
+      -3,
+      0,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9655,
+        "target": [
+          -3,
+          0
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 10155,
+        "target": [
+          -4,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-3,0]": 5,
+      "[-4,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      1,
+      0,
+      -3,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-3,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      1,
+      0,
+      -2,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,0]": 10
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 24,
+    "key": [
+      5,
+      1,
+      0,
+      -2,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,0]": 24
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 30,
+    "key": [
+      5,
+      1,
+      0,
+      -2,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9658,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 10158,
+        "target": [
+          -3,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,1]": 25,
+      "[-3,1]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 60,
+    "key": [
+      5,
+      1,
+      0,
+      -1,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9673,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 10173,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 50,
+      "[-2,0]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 101,
+    "key": [
+      5,
+      1,
+      0,
+      -1,
+      0,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9385,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set0",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 9530,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 96,
+      "[-2,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      1,
+      0,
+      -1,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,1]": 10
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 115,
+    "key": [
+      5,
+      1,
+      0,
+      -1,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,1]": 115
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 220,
+    "key": [
+      5,
+      1,
+      0,
+      0,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 220
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 370,
+    "key": [
+      5,
+      1,
+      0,
+      0,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,0]": 370
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 60,
+    "key": [
+      5,
+      1,
+      0,
+      0,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9748,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 10248,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 10,
+      "[0,1]": 50
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 475,
+    "key": [
+      5,
+      1,
+      0,
+      0,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9388,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set0",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 9533,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 20,
+      "[0,1]": 455
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 10,
+    "key": [
+      5,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 10623,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 11873,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "set1",
+          "flip_y",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 5,
+      "[1,0]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 250,
+    "key": [
+      5,
+      1,
+      0,
+      1,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9473,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 9548,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 30,
+      "[1,0]": 220
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 380,
+    "key": [
+      5,
+      1,
+      0,
+      1,
+      0,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9377,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "add1",
+          "set1"
+        ]
+      },
+      {
+        "case_id": 9405,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,0]": 10,
+      "[1,0]": 370
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 50,
+    "key": [
+      5,
+      1,
+      0,
+      1,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 50
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 455,
+    "key": [
+      5,
+      1,
+      0,
+      1,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 455
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 50,
+    "key": [
+      5,
+      1,
+      0,
+      2,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 50
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 96,
+    "key": [
+      5,
+      1,
+      0,
+      2,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 96
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      1,
+      0,
+      2,
+      1,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 30,
+    "key": [
+      5,
+      1,
+      0,
+      2,
+      1,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9623,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 11373,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,1]": 20,
+      "[2,1]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 145,
+    "key": [
+      5,
+      1,
+      0,
+      2,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9408,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 9453,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,1]": 30,
+      "[2,1]": 115
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      1,
+      0,
+      3,
+      0,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,0]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 40,
+    "key": [
+      5,
+      1,
+      0,
+      3,
+      0,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9423,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 11273,
+        "target": [
+          3,
+          0
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,0]": 30,
+      "[3,0]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 34,
+    "key": [
+      5,
+      1,
+      0,
+      3,
+      0,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9380,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 9449,
+        "target": [
+          3,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,0]": 10,
+      "[3,0]": 24
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 25,
+    "key": [
+      5,
+      1,
+      0,
+      3,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 25
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      1,
+      0,
+      4,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      1,
+      0,
+      4,
+      1,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,1]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 25,
+    "key": [
+      5,
+      1,
+      0,
+      4,
+      1,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9383,
+        "target": [
+          3,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 11253,
+        "target": [
+          4,
+          1
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[3,1]": 20,
+      "[4,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      1,
+      0,
+      5,
+      0,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,0]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      5,
+      1,
+      0,
+      5,
+      0,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 9375,
+        "target": [
+          4,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 11249,
+        "target": [
+          5,
+          0
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[4,0]": 5,
+      "[5,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      1,
+      0,
+      6,
+      1,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[5,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      1,
+      0,
+      7,
+      0,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[6,0]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      1,
+      1,
+      -4,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-4,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      1,
+      1,
+      -3,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-3,0]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      5,
+      1,
+      1,
+      -3,
+      1,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12780,
+        "target": [
+          -3,
+          1
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 13280,
+        "target": [
+          -4,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-3,1]": 5,
+      "[-4,1]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 30,
+    "key": [
+      5,
+      1,
+      1,
+      -2,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12783,
+        "target": [
+          -2,
+          0
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 13283,
+        "target": [
+          -3,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-2,0]": 25,
+      "[-3,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      1,
+      1,
+      -2,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,1]": 10
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 24,
+    "key": [
+      5,
+      1,
+      1,
+      -2,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-2,1]": 24
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      1,
+      1,
+      -1,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,0]": 10
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 115,
+    "key": [
+      5,
+      1,
+      1,
+      -1,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[-1,0]": 115
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 60,
+    "key": [
+      5,
+      1,
+      1,
+      -1,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12798,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 13298,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 50,
+      "[-2,1]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 101,
+    "key": [
+      5,
+      1,
+      1,
+      -1,
+      1,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12510,
+        "target": [
+          -1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set0",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 12655,
+        "target": [
+          -2,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,1]": 96,
+      "[-2,1]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 60,
+    "key": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12873,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "set0",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 13373,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 10,
+      "[0,0]": 50
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 475,
+    "key": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12513,
+        "target": [
+          0,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "set0",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 12658,
+        "target": [
+          -1,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[-1,0]": 20,
+      "[0,0]": 455
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 220,
+    "key": [
+      5,
+      1,
+      1,
+      0,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 220
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 370,
+    "key": [
+      5,
+      1,
+      1,
+      0,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[0,1]": 370
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 50,
+    "key": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 50
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 455,
+    "key": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 455
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 10,
+    "key": [
+      5,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 13748,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 14998,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "set1",
+          "flip_y",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 5,
+      "[1,1]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 250,
+    "key": [
+      5,
+      1,
+      1,
+      1,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12598,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 12673,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 30,
+      "[1,1]": 220
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 380,
+    "key": [
+      5,
+      1,
+      1,
+      1,
+      1,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12502,
+        "target": [
+          1,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "add1",
+          "set1"
+        ]
+      },
+      {
+        "case_id": 12530,
+        "target": [
+          0,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1",
+          "sub1"
+        ]
+      }
+    ],
+    "targets": {
+      "[0,1]": 10,
+      "[1,1]": 370
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      1,
+      1,
+      2,
+      0,
+      0
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[1,0]": 1
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 30,
+    "key": [
+      5,
+      1,
+      1,
+      2,
+      0,
+      2
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12748,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 14498,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "flip_y",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,0]": 20,
+      "[2,0]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 145,
+    "key": [
+      5,
+      1,
+      1,
+      2,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12533,
+        "target": [
+          1,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 12578,
+        "target": [
+          2,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[1,0]": 30,
+      "[2,0]": 115
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 50,
+    "key": [
+      5,
+      1,
+      1,
+      2,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 50
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 96,
+    "key": [
+      5,
+      1,
+      1,
+      2,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 96
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 25,
+    "key": [
+      5,
+      1,
+      1,
+      3,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 25
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      1,
+      1,
+      3,
+      1,
+      1
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[2,1]": 5
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 40,
+    "key": [
+      5,
+      1,
+      1,
+      3,
+      1,
+      3
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12548,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 14398,
+        "target": [
+          3,
+          1
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1",
+          "flip_y",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,1]": 30,
+      "[3,1]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 34,
+    "key": [
+      5,
+      1,
+      1,
+      3,
+      1,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12505,
+        "target": [
+          2,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 12574,
+        "target": [
+          3,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "set1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[2,1]": 10,
+      "[3,1]": 24
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      1,
+      1,
+      4,
+      0,
+      2
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[3,0]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 25,
+    "key": [
+      5,
+      1,
+      1,
+      4,
+      0,
+      4
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12508,
+        "target": [
+          3,
+          0
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "sub1",
+          "flip_y"
+        ]
+      },
+      {
+        "case_id": 14378,
+        "target": [
+          4,
+          0
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1",
+          "add1",
+          "flip_y"
+        ]
+      }
+    ],
+    "targets": {
+      "[3,0]": 20,
+      "[4,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      1,
+      1,
+      4,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,1]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 10,
+    "key": [
+      5,
+      1,
+      1,
+      5,
+      1,
+      3
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[4,1]": 10
+    }
+  },
+  {
+    "ambiguous": true,
+    "cases": 6,
+    "key": [
+      5,
+      1,
+      1,
+      5,
+      1,
+      5
+    ],
+    "minimum_pair": [
+      {
+        "case_id": 12500,
+        "target": [
+          4,
+          1
+        ],
+        "word": [
+          "add1",
+          "add1",
+          "add1",
+          "add1",
+          "sub1"
+        ]
+      },
+      {
+        "case_id": 14374,
+        "target": [
+          5,
+          1
+        ],
+        "word": [
+          "set1",
+          "add1",
+          "add1",
+          "add1",
+          "add1"
+        ]
+      }
+    ],
+    "targets": {
+      "[4,1]": 5,
+      "[5,1]": 1
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 5,
+    "key": [
+      5,
+      1,
+      1,
+      6,
+      0,
+      4
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[5,0]": 5
+    }
+  },
+  {
+    "ambiguous": false,
+    "cases": 1,
+    "key": [
+      5,
+      1,
+      1,
+      7,
+      1,
+      5
+    ],
+    "minimum_pair": [],
+    "targets": {
+      "[6,1]": 1
+    }
+  }
+]
