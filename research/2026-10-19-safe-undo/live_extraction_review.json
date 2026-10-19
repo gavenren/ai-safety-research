@@ -1,0 +1,23 @@
+{
+  "known_private_identifiers_checked": 51,
+  "limits": [
+    "Checks exact current extraction snapshot; later rows require a new extraction and audit.",
+    "Public rows omit full private native UI snapshots and screenshots. Independent raw-source audit is separate.",
+    "No scored results are inferred for unknown or missing assignments."
+  ],
+  "private_identifier_hits": 0,
+  "private_name_terms_checked": 2,
+  "public_cleanup_sha256": "23a5f5e08ffc89e91e18ff0531e6f335fba2247ead443b5b51c9636ada6ff9ac",
+  "public_evidence_rows": 7680,
+  "public_evidence_sha256": "f7e3756e090d7e6b44bf7e43efe559090a9bd7bd0424218cb2517b44bb438af3",
+  "public_trial_rows": 52,
+  "public_trial_sha256": "718081250f2a238dc7339ccbf34b498722a915eff4068d87921e892d122ff648",
+  "raw_line_sha256_checks": 7680,
+  "raw_prefix_rows": {
+    "calendar": 2387,
+    "notion": 5293
+  },
+  "saved_phase_checks": 234,
+  "status": "PASS",
+  "structured_field_checks": 3313
+}

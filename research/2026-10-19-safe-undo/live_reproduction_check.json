@@ -1,0 +1,188 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-19T15:25:56.176881+00:00",
+  "reviewer": "Separate Codex content reviewer; no human review",
+  "method": "Copied public inputs and code to a separate directory. Ran all six public replay steps there. Compared each generated result byte for byte with the release package. The copied inputs match the final package. No account access or mutation was used.",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "live_tests",
+        "-v"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "live_analyze.py",
+        "--input-dir",
+        ".",
+        "--output-dir",
+        "."
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "live_independent_audit.py",
+        "--package",
+        ".",
+        "--trials",
+        "live_trials.jsonl",
+        "--output",
+        "live_independent_results.json"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "live_independent_selftest.py",
+        "--package",
+        ".",
+        "--trials",
+        "live_trials.jsonl",
+        "--output",
+        "live_independent_self_checks.json"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "live_compare.py",
+        "--main",
+        "live_results.json",
+        "--independent",
+        "live_independent_results.json",
+        "--output",
+        "live_comparison.json"
+      ],
+      "exitcode": 0
+    },
+    {
+      "command": [
+        "node",
+        "live_rule_replay.mjs",
+        ".",
+        "."
+      ],
+      "exitcode": 0
+    }
+  ],
+  "input_hashes": [
+    {
+      "file": "live_analyze.py",
+      "sha256": "00b1e91dd1fc0e92495f1b5d45878dd4552b513ed1e314d1c81a73c20c4a3601",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_assignments.json",
+      "sha256": "a1f15f6fe0d9d9f25d674bba0b9aa8d1a12094228e2397e2a66fdf284ceb3157",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_compare.py",
+      "sha256": "38ceacae4f595e6c1b04a8134cb428984a2dd670a203cc80b12264855623f4a6",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_design_review.md",
+      "sha256": "b5348131e111a1b7ab75271d783cc41ae2ee16857f04828cb244d450c7207217",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_independent_audit.py",
+      "sha256": "1dd5624d3718f4aa9674cda0bbfac8483f9438aac48835ba23cca798125b417f",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_independent_selftest.py",
+      "sha256": "37dd808b20fd4ff86c818bb798438e6fdd1402f26984b7574e357161a1aaa02b",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_input_manifest.json",
+      "sha256": "a4ef049de3131443ce22008b18f88ecf79fe0f661f96d0ec13966a8b6665f277",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_plan.md",
+      "sha256": "68b8dc2ead77b2dc80675e84933e6d2f73ca0bf5fb390046f21232ae117eaa28",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_rule_replay.mjs",
+      "sha256": "acb09f0ee9e2232571dfe0693d59b9808ec5a242433c97802cefae6604efcc79",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_rules.js",
+      "sha256": "a3572b9812d7133748315a679fdddf068e4e7a230f6351b6ce48b3aee080179b",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_runner_instructions.md",
+      "sha256": "053e842e4f6218fef83b7279592c21654abc15d32bfa0d9600745072a0519330",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_source_notes.md",
+      "sha256": "b304121f463d1a9591973fcb5c379bab9e704f73c954f43e2630f6e6fd47333e",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_tests.py",
+      "sha256": "8772f7820179586b3d3c464624ce090e1db5f363c84cde59f9df61b850259866",
+      "copied_input_matches_release": true
+    },
+    {
+      "file": "live_trials.jsonl",
+      "sha256": "718081250f2a238dc7339ccbf34b498722a915eff4068d87921e892d122ff648",
+      "copied_input_matches_release": true
+    }
+  ],
+  "generated_file_comparisons": [
+    {
+      "file": "live_results.json",
+      "sha256": "d98e7f8acc36619e171da2eb622642410ce0407a44932835acbaa4adf45880c6",
+      "reproduced_sha256": "d98e7f8acc36619e171da2eb622642410ce0407a44932835acbaa4adf45880c6",
+      "byte_equal": true
+    },
+    {
+      "file": "live_rule_replay.json",
+      "sha256": "ef82cadcfae431319596e6f964a4d215b2479330c5926560e8b59bd6a1b0feae",
+      "reproduced_sha256": "ef82cadcfae431319596e6f964a4d215b2479330c5926560e8b59bd6a1b0feae",
+      "byte_equal": true
+    },
+    {
+      "file": "live_independent_results.json",
+      "sha256": "7003567464461f047c50cde559d8a364c8f2c08504fc2d54072cd191eba9fb51",
+      "reproduced_sha256": "7003567464461f047c50cde559d8a364c8f2c08504fc2d54072cd191eba9fb51",
+      "byte_equal": true
+    },
+    {
+      "file": "live_independent_self_checks.json",
+      "sha256": "3196a50e3e4072971f46de3fb80185362752158e119a003ab3805f51d7e1056a",
+      "reproduced_sha256": "3196a50e3e4072971f46de3fb80185362752158e119a003ab3805f51d7e1056a",
+      "byte_equal": true
+    },
+    {
+      "file": "live_comparison.json",
+      "sha256": "51e2fc3ac60bdb610a54d641ff933944768dd73a018e6fdd92324662d8cf8fb8",
+      "reproduced_sha256": "51e2fc3ac60bdb610a54d641ff933944768dd73a018e6fdd92324662d8cf8fb8",
+      "byte_equal": true
+    }
+  ],
+  "command_log": "live_reproduction_log.json",
+  "command_log_sha256": "59143855e48254d1584aaca22cf4d8d6c2bc2138ac0ff6dc3f9fbc13c65ad9fd",
+  "limits": [
+    "Recomputes scores and fixed rule outputs from public saved-field extracts.",
+    "Does not reconstruct private account history or establish native provider atomicity."
+  ]
+}

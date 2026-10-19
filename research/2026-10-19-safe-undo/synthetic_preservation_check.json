@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "base_commit": "699177c2926f94f6fc601d8a10bfcb811d1bc221",
+  "original_receipt": "release_check.json",
+  "files_checked": 31,
+  "files": [
+    {
+      "original_name": "README.md",
+      "current_name": "synthetic_README_original.md",
+      "sha256": "f97206e4542167171ee9dc131078e2450fd90412835000c68d18f84feb2a27b5"
+    },
+    {
+      "original_name": "analysis_log.txt",
+      "current_name": "analysis_log.txt",
+      "sha256": "34261610da38c8d938b4457073d8b73aa0ddb8e07888cc4f8343d0d9af18c7ad"
+    },
+    {
+      "original_name": "analysis_plan.md",
+      "current_name": "analysis_plan.md",
+      "sha256": "5788f497aad1a6c7871ff5ec7feb681ddb818c2fb954c8bb42d23be86b823ea2"
+    },
+    {
+      "original_name": "analyze.py",
+      "current_name": "analyze.py",
+      "sha256": "de72ddcbef2b67ed3824cf3179798f5a0d9d569bf80cb260c72b0a2805ea255e"
+    },
+    {
+      "original_name": "compare_results.py",
+      "current_name": "compare_results.py",
+      "sha256": "05c55203c5d2c9fdf4eb76ca03bec8265abe0d0487450b991c260dbdaf73777f"
+    },
+    {
+      "original_name": "comparison.json",
+      "current_name": "comparison.json",
+      "sha256": "dd9344a626b039137f997d22e55b2960704d103563886b303395827e677e3682"
+    },
+    {
+      "original_name": "config.json",
+      "current_name": "config.json",
+      "sha256": "dce226d1f31daa394db044c9a1de34c04073621a7f6d6e9af5e189d68ee21a30"
+    },
+    {
+      "original_name": "derivations.md",
+      "current_name": "derivations.md",
+      "sha256": "0632974d0bce623590f30a64a1845dd97743d9aff283b9da0af67087f370b6e5"
+    },
+    {
+      "original_name": "environment.json",
+      "current_name": "environment.json",
+      "sha256": "99e59c9224ab2078a200e0caff7d3d7642aba6eee9905897a3fdf76492f63405"
+    },
+    {
+      "original_name": "failed_checks.md",
+      "current_name": "failed_checks.md",
+      "sha256": "4d6f6d28c5fc9dfbd49e75d0bacab1f22ca983215b41b83d3221d08d936d379f"
+    },
+    {
+      "original_name": "independent_audit.py",
+      "current_name": "independent_audit.py",
+      "sha256": "28163f8205412aec05317938b45e584b7fd855db7d7eced5c8ee9acd775267b4"
+    },
+    {
+      "original_name": "independent_cases.jsonl.gz",
+      "current_name": "independent_cases.jsonl.gz",
+      "sha256": "45fb8712a7efeb25255d721343918b4d72107f6f0674bcb5001583ceed8f0614"
+    },
+    {
+      "original_name": "independent_checks.json",
+      "current_name": "independent_checks.json",
+      "sha256": "97e228866efb71df67800aa182240ef811e5fc05b012b82915360e70e8cfd239"
+    },
+    {
+      "original_name": "independent_results.json",
+      "current_name": "independent_results.json",
+      "sha256": "92b11919749912a0d5000b3c20594fbd7d16f0f6bd87c698acc7e90ccec21171"
+    },
+    {
+      "original_name": "independent_review.md",
+      "current_name": "independent_review.md",
+      "sha256": "d66f573c266b164e488767dbdfe7e014ecde37464f61b36c4b14a7f9f4eb0011"
+    },
+    {
+      "original_name": "input_manifest.json",
+      "current_name": "input_manifest.json",
+      "sha256": "65ed67ceb18bd231cd6bdd71a8ed689b439c666af99f1fd1a4ae4a7691a704e5"
+    },
+    {
+      "original_name": "observation_groups.json",
+      "current_name": "observation_groups.json",
+      "sha256": "9a349514434564a192ddfee7118b834810edffb17547127f7ae0ba15aec8d1cd"
+    },
+    {
+      "original_name": "paired_results.json",
+      "current_name": "paired_results.json",
+      "sha256": "e2ff4d86c05d97c8fc37475930d84b5c4ddc485fbb686248bae9a7741fc49474"
+    },
+    {
+      "original_name": "references.bib",
+      "current_name": "synthetic_references_original.bib",
+      "sha256": "b4e301ac89cf6b6408084167f22b809eb54fc9c5182906da5fb07cf1924aeded"
+    },
+    {
+      "original_name": "report.md",
+      "current_name": "synthetic_report_original.md",
+      "sha256": "932067e82ccf33b41afcd1a8c328d5795915addfac0ce18069ff8a4b37c5128e"
+    },
+    {
+      "original_name": "reproduction_check.json",
+      "current_name": "reproduction_check.json",
+      "sha256": "4e58641d80f4b0568facbe23f1e49c5796601f56142a8bb8cce75804c75347fa"
+    },
+    {
+      "original_name": "reproduction_log.txt",
+      "current_name": "reproduction_log.txt",
+      "sha256": "c25865784d3f11ae3ad48eaa3d683d7acb3ace5d9884550c3ef00c27136ef8ad"
+    },
+    {
+      "original_name": "results.csv",
+      "current_name": "results.csv",
+      "sha256": "43c7bdb1b4d240ebd5be2155d88071be5cdf9df94ec67ed71bf3aa45f51a897b"
+    },
+    {
+      "original_name": "review_checklist.md",
+      "current_name": "review_checklist.md",
+      "sha256": "5e70bc7c8eec593004adcba26a87fe895fef0c6abdf6790fb6114c282ba22851"
+    },
+    {
+      "original_name": "source_claim_review.md",
+      "current_name": "source_claim_review.md",
+      "sha256": "0957662184e4cd28f580b9f2a2b08ab9d89b6decd136c056c1d8c9eafbd043d8"
+    },
+    {
+      "original_name": "source_search.md",
+      "current_name": "source_search.md",
+      "sha256": "7db85a3f76cb0672b3b739ecb417d03b96e79594423e0d1bc3a4e574066d0cc5"
+    },
+    {
+      "original_name": "summary.json",
+      "current_name": "summary.json",
+      "sha256": "47d035cb78892638e3d6ec378284d54b4ef5f9266d5784b4b18db904b7e7759b"
+    },
+    {
+      "original_name": "test_log.txt",
+      "current_name": "test_log.txt",
+      "sha256": "2fe99d3c871ffa1690f0455afc305a6e6704256604db537dbacf32e85628e67f"
+    },
+    {
+      "original_name": "tests.py",
+      "current_name": "tests.py",
+      "sha256": "84874026d18684ec164feee65f70525e2d6c7be6fecf8d0efa0de84ddf798507"
+    },
+    {
+      "original_name": "traces.jsonl.gz",
+      "current_name": "traces.jsonl.gz",
+      "sha256": "f715ddf38dd586ec163d82c18a324d94f42f8364c39a36d3c01ee596a9e76649"
+    },
+    {
+      "original_name": "witnesses.json",
+      "current_name": "witnesses.json",
+      "sha256": "7719e6556519e97be78e1039374ba70ba852018d529ae66397555dda9abb48a6"
+    }
+  ]
+}

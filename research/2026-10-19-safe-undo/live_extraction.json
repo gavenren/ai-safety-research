@@ -1,0 +1,72 @@
+{
+  "sources": [
+    {
+      "site": "calendar",
+      "trial_rows": 26,
+      "raw_log_rows": 2387,
+      "raw_log_sha256": "c3932a5ef39f745a48dc28d6c6d0de7a1a112fccc29027b7732bc89446d06c24",
+      "original_trial_file_sha256": "35bdad83e381a2aa23b48f596256313ced5f55f4d8bb4cc6faaace5ff36ac2a9",
+      "terminal_source_file": "final_trials.jsonl",
+      "terminal_source_sha256": "1dfd5072edde13ff0e5f5b72e14f58acd0c937ef2927261bac4f1accb2ce6ab6",
+      "duplicate_ids": {
+        "UC-00004": [
+          4,
+          102
+        ],
+        "UC-00005": [
+          5,
+          103
+        ],
+        "UC-00006": [
+          6,
+          106
+        ],
+        "UC-00007": [
+          7,
+          107
+        ],
+        "UC-00008": [
+          8,
+          109
+        ],
+        "UC-00009": [
+          9,
+          110
+        ],
+        "UC-00010": [
+          10,
+          111
+        ],
+        "UC-00011": [
+          11,
+          147
+        ],
+        "UC-00012": [
+          12,
+          151
+        ],
+        "UC-00013": [
+          13,
+          152
+        ],
+        "UC-00014": [
+          14,
+          164
+        ]
+      }
+    },
+    {
+      "site": "notion",
+      "trial_rows": 26,
+      "raw_log_rows": 5293,
+      "raw_log_sha256": "97e65573d7c4853f62023e229695f810c99b5e981b54a12a0ff9c778c2608c89",
+      "original_trial_file_sha256": "f721d6e438fc83cf77ad73fcdd8400f49672982ee8ab51bde3d3626ed1a304d1",
+      "terminal_source_file": "trials.jsonl",
+      "terminal_source_sha256": "f721d6e438fc83cf77ad73fcdd8400f49672982ee8ab51bde3d3626ed1a304d1",
+      "duplicate_ids": {}
+    }
+  ],
+  "privacy": "Only selected synthetic fields and action metadata are public. Native identities use per-record aliases. Full private DOM and screenshots are omitted. Raw line numbers disambiguate early duplicate Calendar IDs.",
+  "public_trials_sha256": "718081250f2a238dc7339ccbf34b498722a915eff4068d87921e892d122ff648",
+  "public_evidence_sha256": "f7e3756e090d7e6b44bf7e43efe559090a9bd7bd0424218cb2517b44bb438af3"
+}

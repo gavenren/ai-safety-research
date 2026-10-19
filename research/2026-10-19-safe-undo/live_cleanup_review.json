@@ -1,0 +1,363 @@
+{
+  "calendar_23_creation_uncertain": true,
+  "calendar_known_created_trial_records": 23,
+  "calendar_ready_searches": [
+    {
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-31",
+      "evidence_id": "UCT-00379",
+      "marker": "TEMP-UNDO-20261019-CALENDAR-01",
+      "raw_log_line": 2276
+    },
+    {
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-31",
+      "evidence_id": "UCT-00397",
+      "marker": "TEMP-UNDO-20261019-CALENDAR-02",
+      "raw_log_line": 2294
+    },
+    {
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-31",
+      "evidence_id": "UCT-00415",
+      "marker": "TEMP-UNDO-20261019-CALENDAR-12",
+      "raw_log_line": 2312
+    },
+    {
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-31",
+      "evidence_id": "UCT-00433",
+      "marker": "TEMP-UNDO-20261019-CALENDAR-14",
+      "raw_log_line": 2330
+    },
+    {
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-31",
+      "evidence_id": "UCT-00451",
+      "marker": "TEMP-UNDO-20261019-CALENDAR-23",
+      "raw_log_line": 2348
+    },
+    {
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-31",
+      "evidence_id": "UCT-00487",
+      "marker": "TEMP-UNDO-20261019-CALENDAR",
+      "raw_log_line": 2384
+    },
+    {
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-31",
+      "evidence_id": "UCT-00469",
+      "marker": "TEMP-UNDO-CAL-PRE-20261019-1429",
+      "raw_log_line": 2366
+    }
+  ],
+  "calendar_terminal_changes": [
+    {
+      "changed_keys": [
+        "cleanup",
+        "cleanup_adjudication",
+        "cleanup_original"
+      ],
+      "new_cleanup_status": "not_created",
+      "old_cleanup_status": "unresolved",
+      "scored_fields_unchanged": true,
+      "source_ids": [
+        "UCT-00379",
+        "UCT-00381"
+      ],
+      "trial_id": "calendar-01"
+    },
+    {
+      "changed_keys": [
+        "cleanup",
+        "cleanup_adjudication",
+        "cleanup_original"
+      ],
+      "new_cleanup_status": "trashed",
+      "old_cleanup_status": "trashed",
+      "scored_fields_unchanged": true,
+      "source_ids": [
+        "UCT-00397",
+        "UCT-00399"
+      ],
+      "trial_id": "calendar-02"
+    },
+    {
+      "changed_keys": [
+        "cleanup",
+        "cleanup_adjudication",
+        "cleanup_original"
+      ],
+      "new_cleanup_status": "not_created",
+      "old_cleanup_status": "unresolved",
+      "scored_fields_unchanged": true,
+      "source_ids": [
+        "UCT-00415",
+        "UCT-00417"
+      ],
+      "trial_id": "calendar-12"
+    },
+    {
+      "changed_keys": [
+        "cleanup",
+        "cleanup_adjudication",
+        "cleanup_original",
+        "native_id"
+      ],
+      "new_cleanup_status": "trashed",
+      "old_cleanup_status": "unresolved",
+      "scored_fields_unchanged": true,
+      "source_ids": [
+        "UCT-00433",
+        "UCT-00435"
+      ],
+      "trial_id": "calendar-14"
+    },
+    {
+      "changed_keys": [
+        "browser_draft",
+        "cleanup",
+        "cleanup_adjudication",
+        "cleanup_original"
+      ],
+      "new_cleanup_status": "no_saved_record_found",
+      "old_cleanup_status": "unresolved",
+      "scored_fields_unchanged": true,
+      "source_ids": [
+        "UCT-00451",
+        "UCT-00453"
+      ],
+      "trial_id": "calendar-23"
+    }
+  ],
+  "calendar_unresolved_browser_draft": true,
+  "known_saved_record_delete_actions": [
+    {
+      "evidence_id": "UC-00146",
+      "trial_id": "calendar-02"
+    },
+    {
+      "evidence_id": "UCL-00074",
+      "trial_id": "calendar-03"
+    },
+    {
+      "evidence_id": "UCL-00155",
+      "trial_id": "calendar-04"
+    },
+    {
+      "evidence_id": "UCL-00249",
+      "trial_id": "calendar-05"
+    },
+    {
+      "evidence_id": "UCR-00098",
+      "trial_id": "calendar-06"
+    },
+    {
+      "evidence_id": "UCR-00192",
+      "trial_id": "calendar-07"
+    },
+    {
+      "evidence_id": "UCR-00273",
+      "trial_id": "calendar-08"
+    },
+    {
+      "evidence_id": "UCR-00369",
+      "trial_id": "calendar-09"
+    },
+    {
+      "evidence_id": "UCR-00463",
+      "trial_id": "calendar-10"
+    },
+    {
+      "evidence_id": "UCR-00555",
+      "trial_id": "calendar-11"
+    },
+    {
+      "evidence_id": "UCN-00083",
+      "trial_id": "calendar-13"
+    },
+    {
+      "evidence_id": "UCN-00138",
+      "trial_id": "calendar-14"
+    },
+    {
+      "evidence_id": "UCN-00224",
+      "trial_id": "calendar-15"
+    },
+    {
+      "evidence_id": "UCN-00305",
+      "trial_id": "calendar-16"
+    },
+    {
+      "evidence_id": "UCN-00403",
+      "trial_id": "calendar-17"
+    },
+    {
+      "evidence_id": "UCN-00488",
+      "trial_id": "calendar-18"
+    },
+    {
+      "evidence_id": "UCN-00582",
+      "trial_id": "calendar-19"
+    },
+    {
+      "evidence_id": "UCN-00685",
+      "trial_id": "calendar-20"
+    },
+    {
+      "evidence_id": "UCN-00777",
+      "trial_id": "calendar-21"
+    },
+    {
+      "evidence_id": "UCN-00875",
+      "trial_id": "calendar-22"
+    },
+    {
+      "evidence_id": "UCT-00089",
+      "trial_id": "calendar-24"
+    },
+    {
+      "evidence_id": "UCT-00173",
+      "trial_id": "calendar-25"
+    },
+    {
+      "evidence_id": "UCT-00257",
+      "trial_id": "calendar-26"
+    },
+    {
+      "evidence_id": "NU-01209",
+      "trial_id": "notion-01"
+    },
+    {
+      "evidence_id": "NU-01377",
+      "trial_id": "notion-02"
+    },
+    {
+      "evidence_id": "NU-01545",
+      "trial_id": "notion-03"
+    },
+    {
+      "evidence_id": "NU-01736",
+      "trial_id": "notion-04"
+    },
+    {
+      "evidence_id": "NU-01967",
+      "trial_id": "notion-05"
+    },
+    {
+      "evidence_id": "NU-02158",
+      "trial_id": "notion-06"
+    },
+    {
+      "evidence_id": "NU-02326",
+      "trial_id": "notion-07"
+    },
+    {
+      "evidence_id": "NU-02517",
+      "trial_id": "notion-08"
+    },
+    {
+      "evidence_id": "NU-02716",
+      "trial_id": "notion-09"
+    },
+    {
+      "evidence_id": "NU-02930",
+      "trial_id": "notion-10"
+    },
+    {
+      "evidence_id": "NU-03121",
+      "trial_id": "notion-11"
+    },
+    {
+      "evidence_id": "NU-03289",
+      "trial_id": "notion-12"
+    },
+    {
+      "evidence_id": "NU-03457",
+      "trial_id": "notion-13"
+    },
+    {
+      "evidence_id": "NU-03656",
+      "trial_id": "notion-14"
+    },
+    {
+      "evidence_id": "NU-03870",
+      "trial_id": "notion-15"
+    },
+    {
+      "evidence_id": "NU-04069",
+      "trial_id": "notion-16"
+    },
+    {
+      "evidence_id": "NU-04260",
+      "trial_id": "notion-17"
+    },
+    {
+      "evidence_id": "NU-04443",
+      "trial_id": "notion-18"
+    },
+    {
+      "evidence_id": "NU-04642",
+      "trial_id": "notion-19"
+    },
+    {
+      "evidence_id": "NU-04872",
+      "trial_id": "notion-20"
+    },
+    {
+      "evidence_id": "NU-05040",
+      "trial_id": "notion-21"
+    },
+    {
+      "evidence_id": "NU-05223",
+      "trial_id": "notion-22"
+    },
+    {
+      "evidence_id": "NU-05422",
+      "trial_id": "notion-23"
+    },
+    {
+      "evidence_id": "NU-05652",
+      "trial_id": "notion-24"
+    },
+    {
+      "evidence_id": "NU-05835",
+      "trial_id": "notion-25"
+    },
+    {
+      "evidence_id": "NU-06018",
+      "trial_id": "notion-26"
+    }
+  ],
+  "limits": [
+    "The ready searches establish active saved-record absence for the exact markers in the stated date window at the recorded time.",
+    "Calendar23 is not proof of non-creation. Two close calls timed out; an unsaved form remains unresolved.",
+    "Recoverable deletion is not permanent erasure. Calendar Trash inventory was not inspected.",
+    "No unknown outcome was filled from a later cleanup observation."
+  ],
+  "notion_closed_tab_source": "NU-06092",
+  "notion_empty_parent_source": "NU-06040",
+  "notion_final_parent_trash_source": "NU-06089",
+  "notion_private_parent_source": "NU-00014",
+  "retained_corrections": {
+    "calendar_02_transient_zero": "UC-00152",
+    "calendar_14_later_zero": "UCN-00148",
+    "calendar_14_withdrawal": "UCN-00145",
+    "notion_parent_confirmation_pending": "NU-06064"
+  },
+  "source_hashes": {
+    "calendar": {
+      "actions.jsonl": "c3932a5ef39f745a48dc28d6c6d0de7a1a112fccc29027b7732bc89446d06c24",
+      "cleanup_summary.json": "58bacf5736a5d8d213b844d189fe0aba4593f54418adea1ec969b210f5491187",
+      "final_trials.jsonl": "1dfd5072edde13ff0e5f5b72e14f58acd0c937ef2927261bac4f1accb2ce6ab6",
+      "trials.jsonl": "35bdad83e381a2aa23b48f596256313ced5f55f4d8bb4cc6faaace5ff36ac2a9"
+    },
+    "notion": {
+      "actions.jsonl": "97e65573d7c4853f62023e229695f810c99b5e981b54a12a0ff9c778c2608c89",
+      "cleanup_summary.json": "eab7e0146033642abc5bc5c55c778527eba2a09f2237cbc7bea8f9e48f015611",
+      "trials.jsonl": "f721d6e438fc83cf77ad73fcdd8400f49672982ee8ab51bde3d3626ed1a304d1"
+    }
+  },
+  "status": "PASS_BOUNDED_SAVED_RECORD_CHECKS"
+}

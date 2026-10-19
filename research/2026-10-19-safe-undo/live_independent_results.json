@@ -1,0 +1,1903 @@
+{
+  "aggregates": [
+    {
+      "diagnostic": 2,
+      "rule": "diagnostic",
+      "site": "calendar"
+    },
+    {
+      "clean_completion": 2,
+      "false_confirmation": 1,
+      "not_scored": 1,
+      "rule": "field_restore",
+      "site": "calendar"
+    },
+    {
+      "clean_completion": 1,
+      "false_confirmation": 3,
+      "rule": "full_restore",
+      "site": "calendar"
+    },
+    {
+      "clean_completion": 3,
+      "not_scored": 1,
+      "rule": "log_provenance",
+      "site": "calendar"
+    },
+    {
+      "clean_completion": 2,
+      "correct_state_abstention": 1,
+      "rule": "log_revision_guard",
+      "site": "calendar",
+      "unresolved": 1
+    },
+    {
+      "clean_completion": 3,
+      "not_scored": 1,
+      "rule": "subtract",
+      "site": "calendar"
+    },
+    {
+      "clean_completion": 1,
+      "not_scored": 2,
+      "rule": "value_guard",
+      "site": "calendar",
+      "unresolved": 1
+    },
+    {
+      "diagnostic": 2,
+      "rule": "diagnostic",
+      "site": "notion"
+    },
+    {
+      "clean_completion": 2,
+      "false_confirmation": 2,
+      "rule": "field_restore",
+      "site": "notion"
+    },
+    {
+      "clean_completion": 1,
+      "false_confirmation": 3,
+      "rule": "full_restore",
+      "site": "notion"
+    },
+    {
+      "clean_completion": 4,
+      "rule": "log_provenance",
+      "site": "notion"
+    },
+    {
+      "clean_completion": 2,
+      "correct_state_abstention": 1,
+      "rule": "log_revision_guard",
+      "site": "notion",
+      "unresolved": 1
+    },
+    {
+      "clean_completion": 3,
+      "false_confirmation": 1,
+      "rule": "subtract",
+      "site": "notion"
+    },
+    {
+      "clean_completion": 2,
+      "false_confirmation": 1,
+      "rule": "value_guard",
+      "site": "notion",
+      "unresolved": 1
+    }
+  ],
+  "assignment_count": 52,
+  "frozen_files_checked": [
+    "live_plan.md",
+    "live_rules.js",
+    "live_runner_instructions.md",
+    "live_assignments.json",
+    "live_source_notes.md",
+    "live_design_review.md"
+  ],
+  "issues": [],
+  "limits": [
+    "Checks structured records and their evidence references. Raw UI extraction needs a separate review.",
+    "No inference of native field revision, atomicity, or population rates."
+  ],
+  "manifest_sha256": "a4ef049de3131443ce22008b18f88ecf79fe0f661f96d0ec13966a8b6665f277",
+  "missing_assignments": [],
+  "record_count": 52,
+  "rows": [
+    {
+      "cleanup_checked": false,
+      "cleanup_status": "not_created",
+      "history": "addition",
+      "kind": "core",
+      "outcome": "not_scored",
+      "rule": "field_restore",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "unknown",
+      "trial_id": "calendar-01"
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "not_scored",
+      "rule": "value_guard",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "unknown",
+      "trial_id": "calendar-02"
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCL-00042",
+        "UCL-00053",
+        "UCL-00057",
+        "UCL-00069"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-03",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCL-00123",
+        "UCL-00134",
+        "UCL-00138",
+        "UCL-00150"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "value_guard",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-04",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        1
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCL-00204",
+        "UCL-00215",
+        "UCL-00228",
+        "UCL-00232",
+        "UCL-00244"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "log_provenance",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-05",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "assignment_return",
+      "kind": "core",
+      "new_damage": true,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "UCR-00044",
+        "UCR-00055",
+        "UCR-00066",
+        "UCR-00077",
+        "UCR-00081",
+        "UCR-00093"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "field_restore",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-06",
+      "wrong_change": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        1
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCR-00147",
+        "UCR-00158",
+        "UCR-00171",
+        "UCR-00175",
+        "UCR-00187"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "subtract",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-07",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCR-00241",
+        "UCR-00252",
+        "UCR-00256",
+        "UCR-00268"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "field_restore",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-08",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "abstain",
+      "final": [
+        1,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "assignment_return",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "correct_state_abstention",
+      "phase_evidence_ids": [
+        "UCR-00322",
+        "UCR-00333",
+        "UCR-00344",
+        "UCR-00355",
+        "UCR-00359",
+        "UCR-00364"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-09",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        1
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCR-00418",
+        "UCR-00429",
+        "UCR-00442",
+        "UCR-00446",
+        "UCR-00458"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "field_restore",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-10",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "UCR-00512",
+        "UCR-00523",
+        "UCR-00534",
+        "UCR-00538",
+        "UCR-00550"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-11",
+      "wrong_change": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": false,
+      "cleanup_status": "not_created",
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "not_scored",
+      "rule": "subtract",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "unknown",
+      "trial_id": "calendar-12"
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        1,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCN-00040",
+        "UCN-00051",
+        "UCN-00062",
+        "UCN-00066",
+        "UCN-00078"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "log_provenance",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-13",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "not_scored",
+      "rule": "value_guard",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "unknown",
+      "trial_id": "calendar-14"
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCN-00192",
+        "UCN-00203",
+        "UCN-00207",
+        "UCN-00219"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-15",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCN-00273",
+        "UCN-00284",
+        "UCN-00288",
+        "UCN-00300"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "subtract",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-16",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": true,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "UCN-00354",
+        "UCN-00365",
+        "UCN-00378",
+        "UCN-00382",
+        "UCN-00398"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "full_restore",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-17",
+      "wrong_change": true,
+      "y_target_mismatch": true
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "abstain",
+      "final": [
+        2,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "unresolved",
+      "phase_evidence_ids": [
+        "UCN-00452",
+        "UCN-00463",
+        "UCN-00474",
+        "UCN-00478",
+        "UCN-00483"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-18",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        1
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCN-00537",
+        "UCN-00548",
+        "UCN-00561",
+        "UCN-00565",
+        "UCN-00577"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "log_revision_guard",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-19",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "assignment_return",
+      "kind": "core",
+      "new_damage": true,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "UCN-00631",
+        "UCN-00642",
+        "UCN-00653",
+        "UCN-00664",
+        "UCN-00668",
+        "UCN-00680"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-20",
+      "wrong_change": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        1,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCN-00734",
+        "UCN-00745",
+        "UCN-00756",
+        "UCN-00760",
+        "UCN-00772"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "subtract",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-21",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        1,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "assignment_return",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "UCN-00826",
+        "UCN-00837",
+        "UCN-00848",
+        "UCN-00859",
+        "UCN-00863",
+        "UCN-00870"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "log_provenance",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-22",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": false,
+      "cleanup_status": "no_saved_record_found",
+      "history": "control",
+      "kind": "core",
+      "outcome": "not_scored",
+      "rule": "log_provenance",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "unknown",
+      "trial_id": "calendar-23"
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "abstain",
+      "final": [
+        2,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "unresolved",
+      "phase_evidence_ids": [
+        "UCT-00053",
+        "UCT-00064",
+        "UCT-00075",
+        "UCT-00079",
+        "UCT-00084"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "value_guard",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-24",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "final": [
+        0,
+        0
+      ],
+      "history": "sub1",
+      "kind": "diagnostic",
+      "outcome": "diagnostic",
+      "phase_evidence_ids": [
+        "UCT-00138",
+        "UCT-00149",
+        "UCT-00160",
+        "UCT-00164",
+        "UCT-00168"
+      ],
+      "pre": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "calendar",
+      "target": [
+        -1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-25"
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "final": [
+        0,
+        0
+      ],
+      "history": "set0",
+      "kind": "diagnostic",
+      "outcome": "diagnostic",
+      "phase_evidence_ids": [
+        "UCT-00222",
+        "UCT-00233",
+        "UCT-00244",
+        "UCT-00248",
+        "UCT-00252"
+      ],
+      "pre": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-26"
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "assignment_return",
+      "kind": "core",
+      "new_damage": true,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "NU-01060",
+        "NU-01090",
+        "NU-01121",
+        "NU-01152",
+        "NU-01166",
+        "NU-01197"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "field_restore",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-01",
+      "wrong_change": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-01290",
+        "NU-01320",
+        "NU-01334",
+        "NU-01365"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "field_restore",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-02",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-01458",
+        "NU-01488",
+        "NU-01502",
+        "NU-01533"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-03",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        1
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-01626",
+        "NU-01656",
+        "NU-01679",
+        "NU-01693",
+        "NU-01724"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "log_revision_guard",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-04",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "assignment_return",
+      "kind": "core",
+      "new_damage": true,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "NU-01818",
+        "NU-01848",
+        "NU-01879",
+        "NU-01910",
+        "NU-01924",
+        "NU-01955"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "subtract",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-05",
+      "wrong_change": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        1
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-02048",
+        "NU-02078",
+        "NU-02101",
+        "NU-02115",
+        "NU-02146"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "subtract",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-06",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-02239",
+        "NU-02269",
+        "NU-02283",
+        "NU-02314"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "log_provenance",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-07",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        1
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-02407",
+        "NU-02437",
+        "NU-02460",
+        "NU-02474",
+        "NU-02505"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "field_restore",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-08",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        1,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-02598",
+        "NU-02628",
+        "NU-02659",
+        "NU-02673",
+        "NU-02704"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "log_provenance",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-09",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        1,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "assignment_return",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-02797",
+        "NU-02827",
+        "NU-02858",
+        "NU-02889",
+        "NU-02903",
+        "NU-02918"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "log_provenance",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-10",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        1
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-03011",
+        "NU-03041",
+        "NU-03064",
+        "NU-03078",
+        "NU-03109"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "log_provenance",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-11",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-03202",
+        "NU-03232",
+        "NU-03246",
+        "NU-03277"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "subtract",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-12",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-03370",
+        "NU-03400",
+        "NU-03414",
+        "NU-03445"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-13",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "NU-03538",
+        "NU-03568",
+        "NU-03599",
+        "NU-03613",
+        "NU-03644"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "field_restore",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-14",
+      "wrong_change": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "abstain",
+      "final": [
+        1,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "assignment_return",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "correct_state_abstention",
+      "phase_evidence_ids": [
+        "NU-03737",
+        "NU-03767",
+        "NU-03798",
+        "NU-03829",
+        "NU-03843",
+        "NU-03858"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-15",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": true,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "NU-03951",
+        "NU-03981",
+        "NU-04004",
+        "NU-04018",
+        "NU-04057"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "full_restore",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-16",
+      "wrong_change": true,
+      "y_target_mismatch": true
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        1
+      ],
+      "final_matches_decision": true,
+      "history": "independent_y",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-04150",
+        "NU-04180",
+        "NU-04203",
+        "NU-04217",
+        "NU-04248"
+      ],
+      "pre": [
+        1,
+        1
+      ],
+      "rule": "value_guard",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-17",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "abstain",
+      "final": [
+        2,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "unresolved",
+      "phase_evidence_ids": [
+        "NU-04341",
+        "NU-04371",
+        "NU-04402",
+        "NU-04416",
+        "NU-04431"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "value_guard",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-18",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        1,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-04524",
+        "NU-04554",
+        "NU-04585",
+        "NU-04599",
+        "NU-04630"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "subtract",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-19",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "assignment_return",
+      "kind": "core",
+      "new_damage": true,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "NU-04723",
+        "NU-04753",
+        "NU-04784",
+        "NU-04815",
+        "NU-04829",
+        "NU-04860"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "value_guard",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-20",
+      "wrong_change": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "control",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "clean_completion",
+      "phase_evidence_ids": [
+        "NU-04953",
+        "NU-04983",
+        "NU-04997",
+        "NU-05028"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "value_guard",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-21",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "abstain",
+      "final": [
+        2,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "unresolved",
+      "phase_evidence_ids": [
+        "NU-05121",
+        "NU-05151",
+        "NU-05182",
+        "NU-05196",
+        "NU-05211"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-22",
+      "wrong_change": false,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "addition",
+      "kind": "core",
+      "new_damage": false,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "NU-05304",
+        "NU-05334",
+        "NU-05365",
+        "NU-05379",
+        "NU-05410"
+      ],
+      "pre": [
+        2,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-23",
+      "wrong_change": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "collateral_change": false,
+      "decision_matches_rule": true,
+      "decision_status": "complete",
+      "final": [
+        0,
+        0
+      ],
+      "final_matches_decision": true,
+      "history": "assignment_return",
+      "kind": "core",
+      "new_damage": true,
+      "outcome": "false_confirmation",
+      "phase_evidence_ids": [
+        "NU-05503",
+        "NU-05533",
+        "NU-05564",
+        "NU-05595",
+        "NU-05609",
+        "NU-05640"
+      ],
+      "pre": [
+        1,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-24",
+      "wrong_change": true,
+      "y_target_mismatch": false
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "final": [
+        0,
+        0
+      ],
+      "history": "sub1",
+      "kind": "diagnostic",
+      "outcome": "diagnostic",
+      "phase_evidence_ids": [
+        "NU-05733",
+        "NU-05763",
+        "NU-05794",
+        "NU-05808",
+        "NU-05823"
+      ],
+      "pre": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "notion",
+      "target": [
+        -1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-25"
+    },
+    {
+      "cleanup_checked": true,
+      "cleanup_status": "trashed",
+      "final": [
+        0,
+        0
+      ],
+      "history": "set0",
+      "kind": "diagnostic",
+      "outcome": "diagnostic",
+      "phase_evidence_ids": [
+        "NU-05916",
+        "NU-05946",
+        "NU-05977",
+        "NU-05991",
+        "NU-06006"
+      ],
+      "pre": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-26"
+    }
+  ],
+  "self_checks": 18,
+  "source_files": [
+    {
+      "file": "live_trials.jsonl",
+      "rows": 52,
+      "sha256": "718081250f2a238dc7339ccbf34b498722a915eff4068d87921e892d122ff648"
+    }
+  ],
+  "status": "PASS"
+}

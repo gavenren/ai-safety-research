@@ -1,0 +1,701 @@
+{
+  "limit": "Calendar trial23 can still have an unsaved browser draft. Zero active saved records does not prove that this draft was closed.",
+  "sites": {
+    "calendar": {
+      "actions_sha256": "c3932a5ef39f745a48dc28d6c6d0de7a1a112fccc29027b7732bc89446d06c24",
+      "all_saved_trial_records_absent": true,
+      "browser_draft": {
+        "last_dialog_check": {
+          "dialog_type": null,
+          "error": null,
+          "id": "UCT-00490",
+          "utc": "2026-10-19T15:20:20.268Z"
+        },
+        "note": "Two documented close attempts timed out. No additional Save was sent.",
+        "status": "unresolved_unsaved_form"
+      },
+      "core": {
+        "unknown": 5,
+        "valid": 19
+      },
+      "created_trial_record_count": 23,
+      "created_trial_records": [
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "date_from": "2026-10-01",
+            "date_to": "2026-10-31",
+            "evidence_ids": [
+              "UCT-00397",
+              "UCT-00399"
+            ],
+            "status": "trashed"
+          },
+          "record_alias": "calendar-02-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-02",
+          "trial_id": "calendar-02"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCL-00080"
+            ],
+            "record_alias": "calendar-03-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-03-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-03",
+          "trial_id": "calendar-03"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCL-00161"
+            ],
+            "record_alias": "calendar-04-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-04-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-04",
+          "trial_id": "calendar-04"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCR-00002"
+            ],
+            "record_alias": "calendar-05-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-05-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-05",
+          "trial_id": "calendar-05"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCR-00104"
+            ],
+            "record_alias": "calendar-06-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-06-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-06",
+          "trial_id": "calendar-06"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCR-00198"
+            ],
+            "record_alias": "calendar-07-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-07-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-07",
+          "trial_id": "calendar-07"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCR-00279"
+            ],
+            "record_alias": "calendar-08-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-08-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-08",
+          "trial_id": "calendar-08"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCR-00375"
+            ],
+            "record_alias": "calendar-09-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-09-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-09",
+          "trial_id": "calendar-09"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCR-00469"
+            ],
+            "record_alias": "calendar-10-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-10-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-10",
+          "trial_id": "calendar-10"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCR-00561"
+            ],
+            "record_alias": "calendar-11-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-11-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-11",
+          "trial_id": "calendar-11"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCN-00089"
+            ],
+            "record_alias": "calendar-13-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-13-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-13",
+          "trial_id": "calendar-13"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "date_from": "2026-10-01",
+            "date_to": "2026-10-31",
+            "evidence_ids": [
+              "UCT-00433",
+              "UCT-00435"
+            ],
+            "status": "trashed"
+          },
+          "record_alias": "calendar-14-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-14",
+          "trial_id": "calendar-14"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCN-00230"
+            ],
+            "record_alias": "calendar-15-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-15-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-15",
+          "trial_id": "calendar-15"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCN-00311"
+            ],
+            "record_alias": "calendar-16-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-16-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-16",
+          "trial_id": "calendar-16"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCN-00409"
+            ],
+            "record_alias": "calendar-17-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-17-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-17",
+          "trial_id": "calendar-17"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCN-00494"
+            ],
+            "record_alias": "calendar-18-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-18-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-18",
+          "trial_id": "calendar-18"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCN-00588"
+            ],
+            "record_alias": "calendar-19-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-19-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-19",
+          "trial_id": "calendar-19"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCN-00691"
+            ],
+            "record_alias": "calendar-20-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-20-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-20",
+          "trial_id": "calendar-20"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCN-00783"
+            ],
+            "record_alias": "calendar-21-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-21-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-21",
+          "trial_id": "calendar-21"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCN-00881"
+            ],
+            "record_alias": "calendar-22-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-22-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-22",
+          "trial_id": "calendar-22"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCT-00095"
+            ],
+            "record_alias": "calendar-24-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-24-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-24",
+          "trial_id": "calendar-24"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCT-00179"
+            ],
+            "record_alias": "calendar-25-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-25-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-25",
+          "trial_id": "calendar-25"
+        },
+        {
+          "cleanup": {
+            "active_matches": 0,
+            "evidence_ids": [
+              "UCT-00263"
+            ],
+            "record_alias": "calendar-26-record",
+            "status": "trashed"
+          },
+          "record_alias": "calendar-26-record",
+          "token": "TEMP-UNDO-20261019-CALENDAR-26",
+          "trial_id": "calendar-26"
+        }
+      ],
+      "diagnostics": {
+        "valid": 2
+      },
+      "global_search_evidence": {
+        "active_matches": 0,
+        "date_from": "2026-10-01",
+        "date_to": "2026-10-31",
+        "evidence_ids": [
+          "UCT-00487"
+        ],
+        "id": "UCT-00489",
+        "phase": "scored",
+        "readiness": "No progress bar, no Searching indicator, No results found after reload.",
+        "supersedes": [
+          "UCT-00486"
+        ],
+        "token": "TEMP-UNDO-20261019-CALENDAR",
+        "trial_id": "cleanup-all",
+        "type": "ready_cleanup_result",
+        "utc": "2026-10-19T15:19:07.610Z"
+      },
+      "log_quiescent_after": "2026-10-19T15:20:20.268Z",
+      "notes": [
+        "Original trials.jsonl and full actions.jsonl remain unchanged.",
+        "Calendar05 row was reconstructed from preserved complete phase evidence after timeout in cleanup; no rule action repeated.",
+        "Early UC IDs overlap; use original JSONL line numbers for those records.",
+        "No unknown assignment was replaced."
+      ],
+      "preflight_cleanup_evidence": {
+        "active_matches": 0,
+        "date_from": "2026-10-01",
+        "date_to": "2026-10-31",
+        "evidence_ids": [
+          "UCT-00469"
+        ],
+        "id": "UCT-00471",
+        "phase": "scored",
+        "readiness": "No progress bar, no Searching indicator, No results found after reload.",
+        "supersedes": [
+          "UCT-00468"
+        ],
+        "token": "TEMP-UNDO-CAL-PRE-20261019-1429",
+        "trial_id": "preflight-cleanup",
+        "type": "ready_cleanup_result",
+        "utc": "2026-10-19T15:19:01.637Z"
+      },
+      "preflight_record_count": 1,
+      "utc": "2026-10-19T15:19:46.785105+00:00"
+    },
+    "notion": {
+      "all_assignments": 26,
+      "complete_active_view": {
+        "active_trial_markers": 0,
+        "evidence_id": "NU-06040",
+        "scope": "New private database, one unfiltered Table view; all created children accounted for"
+      },
+      "core": 24,
+      "created_children": [
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-01229",
+            "NU-01228"
+          ],
+          "record_alias": "notion-01-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-01",
+          "trial_id": "notion-01"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-01397",
+            "NU-01396"
+          ],
+          "record_alias": "notion-02-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-02",
+          "trial_id": "notion-02"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-01565",
+            "NU-01564"
+          ],
+          "record_alias": "notion-03-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-03",
+          "trial_id": "notion-03"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-01756",
+            "NU-01755"
+          ],
+          "record_alias": "notion-04-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-04",
+          "trial_id": "notion-04"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-01987",
+            "NU-01986"
+          ],
+          "record_alias": "notion-05-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-05",
+          "trial_id": "notion-05"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-02178",
+            "NU-02177"
+          ],
+          "record_alias": "notion-06-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-06",
+          "trial_id": "notion-06"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-02346",
+            "NU-02345"
+          ],
+          "record_alias": "notion-07-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-07",
+          "trial_id": "notion-07"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-02537",
+            "NU-02536"
+          ],
+          "record_alias": "notion-08-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-08",
+          "trial_id": "notion-08"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-02736",
+            "NU-02735"
+          ],
+          "record_alias": "notion-09-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-09",
+          "trial_id": "notion-09"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-02950",
+            "NU-02949"
+          ],
+          "record_alias": "notion-10-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-10",
+          "trial_id": "notion-10"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-03141",
+            "NU-03140"
+          ],
+          "record_alias": "notion-11-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-11",
+          "trial_id": "notion-11"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-03309",
+            "NU-03308"
+          ],
+          "record_alias": "notion-12-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-12",
+          "trial_id": "notion-12"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-03477",
+            "NU-03476"
+          ],
+          "record_alias": "notion-13-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-13",
+          "trial_id": "notion-13"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-03676",
+            "NU-03675"
+          ],
+          "record_alias": "notion-14-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-14",
+          "trial_id": "notion-14"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-03890",
+            "NU-03889"
+          ],
+          "record_alias": "notion-15-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-15",
+          "trial_id": "notion-15"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-04089",
+            "NU-04088"
+          ],
+          "record_alias": "notion-16-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-16",
+          "trial_id": "notion-16"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-04280",
+            "NU-04279"
+          ],
+          "record_alias": "notion-17-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-17",
+          "trial_id": "notion-17"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-04463",
+            "NU-04462"
+          ],
+          "record_alias": "notion-18-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-18",
+          "trial_id": "notion-18"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-04662",
+            "NU-04661"
+          ],
+          "record_alias": "notion-19-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-19",
+          "trial_id": "notion-19"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-04892",
+            "NU-04891"
+          ],
+          "record_alias": "notion-20-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-20",
+          "trial_id": "notion-20"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-05060",
+            "NU-05059"
+          ],
+          "record_alias": "notion-21-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-21",
+          "trial_id": "notion-21"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-05243",
+            "NU-05242"
+          ],
+          "record_alias": "notion-22-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-22",
+          "trial_id": "notion-22"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-05442",
+            "NU-05441"
+          ],
+          "record_alias": "notion-23-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-23",
+          "trial_id": "notion-23"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-05672",
+            "NU-05671"
+          ],
+          "record_alias": "notion-24-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-24",
+          "trial_id": "notion-24"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-05855",
+            "NU-05854"
+          ],
+          "record_alias": "notion-25-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-25",
+          "trial_id": "notion-25"
+        },
+        {
+          "active_matches": 0,
+          "evidence_ids": [
+            "NU-06038",
+            "NU-06037"
+          ],
+          "record_alias": "notion-26-record",
+          "status": "trashed",
+          "token": "TEMP-UNDO-20261019-NOTION-26",
+          "trial_id": "notion-26"
+        }
+      ],
+      "diagnostic": 2,
+      "parent": {
+        "active_matches": 0,
+        "evidence_ids": [
+          "NU-06089"
+        ],
+        "record_alias": "notion-parent-record",
+        "status": "trashed"
+      },
+      "preflight": {
+        "evidence_ids": [
+          "NU-00182",
+          "NU-00200"
+        ],
+        "record_alias": "notion-preflight-record",
+        "status": "trashed"
+      },
+      "site": "notion",
+      "temporary_objects_created": 28,
+      "trash_emptied": false,
+      "unresolved": [],
+      "utc": "2026-10-19T15:18:32.772Z",
+      "valid": 26
+    }
+  },
+  "source_hashes": {
+    "calendar": "58bacf5736a5d8d213b844d189fe0aba4593f54418adea1ec969b210f5491187",
+    "notion": "eab7e0146033642abc5bc5c55c778527eba2a09f2237cbc7bea8f9e48f015611"
+  }
+}

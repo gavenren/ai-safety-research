@@ -1,10 +1,10 @@
-# Undo after later edits: six rules and an exact information limit
+# Undo after later edits: six rules, an information limit, and production website tests
 
 Date: October 19, 2026. Status: research note; required checks are recorded in the package. No human or peer review.
 
 ## Abstract
 
-An agent can complete an action and later need to undo it. Restoring old values can remove later work. Applying an inverse can also be wrong if a later assignment has already removed the original effect. We compare six fixed undo rules on 15,624 synthetic histories, with 93,744 rule outcomes. The reference removes one agent increment and replays the same later commands. At the planned length-three setting, Value guard makes 96 false completion claims in 500 histories. Revision guard has no false claims but completes only four times. An ideal control with complete operation-type history completes correctly in all histories. A one-command pair has equal current values and revision counts but different correct undo targets. These are exact results for the stated model. They are not real website trials or measured agent error rates.
+An agent can complete an action and later need to undo it. Restoring old values can remove later work. Applying an inverse can also be wrong if a later assignment has already removed the original effect. We compare six fixed undo rules on 15,624 synthetic histories, with 93,744 rule outcomes. The reference removes one agent increment and replays the same later commands. At the planned length-three setting, Value guard makes 96 false completion claims in 500 histories. Revision guard has no false claims but completes only four times. An ideal control with complete operation-type history completes correctly in all histories. A one-command pair has equal current values and revision counts but different correct undo targets. These are exact results for the stated model, not measured agent error rates. A separate production website extension assigns 48 core tests in Google Calendar and Notion. It has 43 valid results: 26 clean completions, 11 false confirmations and six abstentions. Five tests remain unknown. The history-informed control completes correctly in all seven valid cases; its eighth case is unknown. These selected tests do not estimate production error rates.
 
 ## Research question and safety relevance
 
@@ -14,7 +14,7 @@ An **undo rule** attempts to remove an earlier effect. A **counterfactual target
 
 This question matters when an agent edits shared records and then cancels or repairs its work. An incorrect undo can damage work that occurred later. A successful write is not proof that the chosen undo was correct. We test prescribed controller rules, not a model's ability to choose or follow them.
 
-The [October 17 report](../2026-10-17-repair-dependencies/report.md) tested forward repair decisions under concurrent edits. The [October 18 report](../2026-10-18-retry-retention/report.md) tested duplicate effects when request memory expires. This report tests removal of an earlier effect after later fixed commands. It does not add live account tests or change the earlier account results.
+The [October 17 report](../2026-10-17-repair-dependencies/report.md) tested forward repair decisions under concurrent edits. The [October 18 report](../2026-10-18-retry-retention/report.md) tested duplicate effects when request memory expires. This report tests removal of an earlier effect after later fixed commands. The production website extension below adds new undo tests. It does not change earlier retry or repair results.
 
 ## Related work and contribution
 
@@ -108,6 +108,68 @@ The main program passed nine test methods, including 13 malformed configurations
 
 Follow the commands in the [README](README.md). Python uses only its standard library. The [reproduction receipt](reproduction_check.json) records the clean rerun and file comparisons. The [environment record](environment.json) states versions and roles. The [failure record](failed_checks.md) retains the initial incorrect unit-test count and later review corrections. No frozen input or history was removed to obtain a passing result. The [publication checklist](review_checklist.md) records the source and content checks; remote publication requires a separate file verification.
 
+## Production website extension
+
+### Live question and plan
+
+The user requested tests in connected production accounts. We therefore added a separate case series in Google Calendar and Notion on October 19. A **case series** is a set of selected tests; it is not a random sample of all use. This extension tests whether prescribed undo decisions produce the specified saved state. It does not test whether a model can discover the right rule.
+
+The [live plan](live_plan.md), [assignments](live_assignments.json), [rule code](live_rules.js), and [instructions](live_runner_instructions.md) were frozen at 2026-10-19T14:54:32.433607+00:00. The [manifest](live_input_manifest.json) records their hashes. Two unscored interface checks preceded the freeze. They tested saved fields, stable record identity and recoverable deletion. Notion initially showed an old value after a save. The frozen procedure closes the editor, waits two seconds, reloads, waits two seconds, and then reads the saved fields. This is a test-specific procedure, not a provider guarantee.
+
+The design assigns four histories to each of six rules on each site: 48 core assignments. Four further diagnostic histories have no undo. Each valid trial uses a fresh temporary record. The order was shuffled with seed 2026101901 and saved before execution. This order does not make the cases a population sample. No replacement trial is allowed.
+
+### Live fields and rules
+
+Calendar X is a plain integer in Description. Y is availability: Free=0 and Busy=1. Each test event is private, all day on October 14, 2026, without guests, reminders, location, conference or recurrence. Notion uses a new private database with X as Number and Y as Checkbox. Name holds a unique test marker. The page body stays empty. Only temporary records change. All mutations use the browser interface.
+
+Each test starts at (0,0). The agent sets X=1. The later phase either does nothing, flips Y, adds 1 to X, or saves X=0 and then X=1. The last case has two separate saved changes. It avoids an unsupported assumption that saving an unchanged value always creates a write. For valid trials, each phase and the final result are read after reload on the same native record identity. Arithmetic uses a read, a calculation and a literal field save.
+
+The first four rules use current fields. The **Log-assisted revision guard** also receives the verified test log of later X writes. The **Log-assisted provenance control** receives the command types in that log. These are stronger inputs. Neither rule reads a native field revision counter or infers intent from the website. Google documents resource-level ETags and conditional API changes; this does not show that a browser Save uses a field guard. Notion documents a page edit time, not a complete X-write count. [Google](https://developers.google.com/workspace/calendar/api/guides/version-resources), [Notion](https://developers.notion.com/reference/page)
+
+The browser agent records the fixed rule output before it acts. Here, a false confirmation means that the fixed rule says complete but the saved result is wrong. It does not mean that a new success message was sent to the user. The evaluator computes the reference separately by omitting the agent action and applying the prescribed later commands to (0,0). Later edits are controlled phases by the test driver. They are not natural user activity. There is no deliberate outside writer during the read-to-write interval. Thus the test does not validate atomicity or race safety.
+
+### Live outcomes
+
+Of 48 planned core assignments, 43 have valid saved-state results and five remain unknown. Calendar has 19 valid core results; Notion has 24. No assignment was replaced. The valid results contain 26 clean completions, 11 false confirmations, four unresolved abstentions and two abstentions with the correct saved state. All 43 final states match the dispatched rule decisions. Thus these wrong completions arose from the prescribed undo choices, not a measured failure to save their chosen fields.
+
+| Rule | Planned | Valid | Clean completion | False confirmation | Unresolved | Abstain-correct | Unknown |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Full restore | 8 | 8 | 2 | 6 | 0 | 0 | 0 |
+| Field restore | 8 | 7 | 4 | 3 | 0 | 0 | 1 |
+| Subtract | 8 | 7 | 6 | 1 | 0 | 0 | 1 |
+| Value guard | 8 | 6 | 3 | 1 | 2 | 0 | 2 |
+| Log-assisted revision guard | 8 | 8 | 4 | 0 | 2 | 2 | 0 |
+| Log-assisted provenance control | 8 | 7 | 7 | 0 | 0 | 0 | 1 |
+
+Source: [live_results.json](live_results.json), derived from [saved trial extracts](live_trials.jsonl). The four outcome columns sum to Valid. Valid plus Unknown equals Planned. Unknown is not a success, failure, or refusal score. Counts are selected test cases, not estimated rates.
+
+| Site | Planned core | Valid | Clean completion | False confirmation | Unresolved | Abstain-correct | Unknown |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Google Calendar | 24 | 19 | 12 | 4 | 2 | 1 | 5 |
+| Notion | 24 | 24 | 14 | 7 | 2 | 1 | 0 |
+
+Each of the first four rules has at least one observed false confirmation. Full restore also removes the independent Y change in two tests. The log-assisted revision guard has no false confirmation, but it refuses four times. Two refusals leave the agent effect unresolved; two leave a state that already equals the target. The log-assisted provenance control completes correctly in all seven valid cases. Its eighth assignment is unknown. This does not establish success in an unobserved case.
+
+For example, Notion trial 01 saved X=0, then the agent X=1, then later X=0 and X=1 as separate saved changes. Field restore then saved X=0. The reference is X=1, because the last assignment remains in the execution without the agent increment. The successful field save therefore gives an incorrect undo result. This is an observed saved sequence with a defined target, not a provider defect.
+
+All four diagnostic histories are valid. On each site, a later sub1 and a later set0 both leave saved fields (0,0). Their computed fixed-command targets are (-1,0) and (0,0). The diagnostics make no undo action. They illustrate equal selected fields with different operation-based targets. They do not establish equal native versions, timestamps or full page observations.
+
+Calendar assignments 01, 02, 12, 14 and 23 remain unknown. The failures involve a disabled Create control, a checkbox reader error, a browser read timeout, duplicate visible success notices and an unresponsive tab during creation save. They are test-control failures or uncertain observations, not measured wrong undo results. The [change record](live_changes_and_failures.md) preserves these events and the later evidence corrections. The missing cells make the comparison incomplete; they must not be silently filled from the simulation.
+
+### Evidence, checks and limits of the live extension
+
+The primary analysis passed four evidence tests. The frozen JavaScript function reproduced all 43 observed valid core decisions. A separate agent wrote its rule model from the plan before reading the main implementation. It passed 18 rule/control checks and rejected 15 malformed records. The independent comparison matched all 52 terminal rows and 494 count or state checks. Raw-source review checked 234 saved-phase links, 52 cleanup links and 7,680 raw-line hashes. See the [independent review](live_independent_review.md), [comparison](live_comparison.json) and [source/extraction records](live_extraction.json). Agent review is not human review.
+
+The evidence retains five unknown Calendar assignments. It also retains early reused log identifiers, the reconstruction of Calendar trial 05 after a tool timeout, and later corrections to premature cleanup labels. The reconstruction uses preserved observations; it is not a rerun. No frozen rule, assignment, or hypothesis changed. Helper reader and logging repairs are listed in the change record. The new cleanup label no_saved_record_found describes the uncertain creation in Calendar trial 23; it does not change its unknown outcome.
+
+The 49 known saved trial records received Delete or Move to Trash actions. Final covered views show no active trial record. Both preflight records and the new Notion parent were also removed. No Trash was emptied. Calendar trial 23 has no saved record in its final exact-marker search, but its old tab could not be closed. A possible unsaved draft remains a browser cleanup limit. No further Save was sent. This limit is recorded in [live_cleanup.json](live_cleanup.json); active absence does not prove that the draft was closed.
+
+The [README](README.md) gives the saved-analysis replay commands and the requirements for a new browser study. The [live reproduction receipt](live_reproduction_check.json) records the clean replay. The original simulation files and prior review receipts are preserved; the [preservation check](synthetic_preservation_check.json) resolves their original report, README and bibliography hashes.
+
+Full private browser records include action arguments, errors, native identities, timestamps, DOM observations and screenshots. Public evidence contains only selected synthetic fields and action metadata. It uses record aliases and preserves raw-log line references and hashes. Private account URLs, account names and unrelated UI are excluded. Public replay can recompute scores from these extracts. It cannot independently replay private account history from the public files alone.
+
+The two sites share the account owner and a controlled procedure. The cases are small and selected. Do not treat the trial proportions as a production error rate or compare them as independent random samples. The log-assisted control has information that an ordinary field reader does not have. The test demonstrates the selected sequential failure cases; it does not establish a general browser undo service. These are two-field record tests hosted in real products. They do not test a native Undo button, meeting invitations, notification effects, database formulas or cancellation across several records.
+
 ## Discussion
 
 Undo needs a target that states which later effects to preserve. Old values alone do not define that target. An inverse is safe only under suitable operation semantics. A set can make the original contribution absent, so an additional inverse creates a new error.
@@ -116,7 +178,7 @@ Revision-based refusal can prevent damage, but refusal and successful undo are d
 
 ## Limitations
 
-This is a simulation of fixed rules. No language model, browser workflow or production account was tested. The alphabet, initial states and maximum length are small. The proof covers longer words only under the same operation semantics. Counts are not estimates of production risk.
+The exhaustive result is a simulation of fixed rules. The separate live extension tests prescribed browser actions in two production accounts. The alphabet, initial states and maximum length are small. The proof covers longer words only under the same operation semantics. Counts are not estimates of production risk.
 
 The reference fixes later commands. Real actors can read intermediate values, select different branches, copy data, or produce external effects. Removing the earlier action can change those later decisions. Our exact target then need not describe a meaningful real undo.
 
@@ -126,13 +188,13 @@ There was no human review or external peer review. The source search is limited,
 
 ## Ethical and misuse considerations
 
-All records are synthetic. No connected account data or private material enters the public package. No paid compute or new paid API service was used. No third-party code or dataset was copied, and no new license is assigned to the repository owner's work. Source attribution and read scope are retained.
+All test values are synthetic. The live extension uses temporary records in connected accounts. Public extracts omit native record IDs, account details and unrelated interface content. Full private action logs and screenshots stay local. No paid compute or new paid API service was used. No third-party code or dataset was copied, and no new license is assigned to the repository owner's work. Source attribution and read scope are retained.
 
 These results do not authorize automatic rollback of real user work. A system needs a defined recovery contract, suitable permissions and evidence that its checks cover the actual effect. This report contains no instructions for harmful access or interference with other users.
 
 ## AI use and human review
 
-Codex generated the study, code and report. The root agent designed the model and wrote the main analysis. Separate Codex agents checked sources, implemented an independent analysis and reviewed the report. Python computed the results. Browser tools are used only to publish the checked files. The exact immutable Codex model build was not exposed. No human or peer review occurred. No university affiliation, endorsement or certification is claimed.
+Codex generated the study, code and report. The root agent designed the model and wrote the main analysis. Separate Codex agents checked sources, implemented an independent analysis and reviewed the report. Python computed the results. In the live extension, two Codex browser agents execute the fixed rules and record saved fields. A separate agent checks the evidence and analysis. Browser tools also publish the checked files. The exact immutable Codex model build was not exposed. No human or peer review occurred. No university affiliation, endorsement or certification is claimed.
 
 ## References
 

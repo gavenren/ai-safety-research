@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "rule_controls": 18,
+  "malformed_records_rejected": [
+    "baseline omitted",
+    "baseline mismatch",
+    "raw Empty",
+    "wrong command",
+    "boolean integer",
+    "identity mismatch",
+    "not reloaded",
+    "bad Y",
+    "backward time",
+    "missing decision evidence",
+    "invalid status",
+    "marker mismatch",
+    "before freeze",
+    "checkbox parse mismatch",
+    "spaces in integer"
+  ],
+  "observed_final_not_forced_to_decision": true,
+  "unknown_not_scored": true,
+  "audit_sha256": "1dd5624d3718f4aa9674cda0bbfac8483f9438aac48835ba23cca798125b417f",
+  "fixture": "notion-01 recorded row, retained unchanged; only copies were changed"
+}

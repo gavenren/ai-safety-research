@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-10-19T14:54:32.433607+00:00",
+  "seed": 2026101901,
+  "core_assignments": 48,
+  "diagnostic_assignments": 4,
+  "files": {
+    "live_plan.md": "68b8dc2ead77b2dc80675e84933e6d2f73ca0bf5fb390046f21232ae117eaa28",
+    "live_rules.js": "a3572b9812d7133748315a679fdddf068e4e7a230f6351b6ce48b3aee080179b",
+    "live_runner_instructions.md": "053e842e4f6218fef83b7279592c21654abc15d32bfa0d9600745072a0519330",
+    "live_assignments.json": "a1f15f6fe0d9d9f25d674bba0b9aa8d1a12094228e2397e2a66fdf284ceb3157",
+    "live_source_notes.md": "b304121f463d1a9591973fcb5c379bab9e704f73c954f43e2630f6e6fd47333e",
+    "live_design_review.md": "b5348131e111a1b7ab75271d783cc41ae2ee16857f04828cb244d450c7207217"
+  }
+}

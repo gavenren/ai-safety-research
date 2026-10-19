@@ -1,0 +1,83 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "live_tests",
+      "-v"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_empty_and_stale_fields_rejected (live_tests.LiveEvidenceTests.test_empty_and_stale_fields_rejected) ... ok\ntest_fixed_command_target (live_tests.LiveEvidenceTests.test_fixed_command_target) ... ok\ntest_missing_and_duplicate_evidence_rejected (live_tests.LiveEvidenceTests.test_missing_and_duplicate_evidence_rejected) ... ok\ntest_outcomes_keep_refusal_separate (live_tests.LiveEvidenceTests.test_outcomes_keep_refusal_separate) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "live_analyze.py",
+      "--input-dir",
+      ".",
+      "--output-dir",
+      "."
+    ],
+    "returncode": 0,
+    "stdout": "{\"abstain_correct\": 2, \"assigned\": 52, \"clean_completion\": 26, \"cleanup_no_saved_record_found\": 1, \"cleanup_not_created\": 2, \"cleanup_trashed\": 49, \"collateral_y\": 2, \"core_assigned\": 48, \"core_unscored\": 5, \"core_valid\": 43, \"decision_saved\": 43, \"diagnostic_assigned\": 4, \"diagnostics_valid\": 4, \"false_confirmation\": 11, \"unknown\": 5, \"unresolved\": 4, \"valid\": 47}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "live_independent_audit.py",
+      "--package",
+      ".",
+      "--trials",
+      "live_trials.jsonl",
+      "--output",
+      "live_independent_results.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"self_checks\": 18,\n  \"assignment_count\": 52,\n  \"record_count\": 52,\n  \"missing_assignments\": [],\n  \"issues\": [],\n  \"aggregates\": [\n    {\n      \"site\": \"calendar\",\n      \"rule\": \"diagnostic\",\n      \"diagnostic\": 2\n    },\n    {\n      \"site\": \"calendar\",\n      \"rule\": \"field_restore\",\n      \"clean_completion\": 2,\n      \"false_confirmation\": 1,\n      \"not_scored\": 1\n    },\n    {\n      \"site\": \"calendar\",\n      \"rule\": \"full_restore\",\n      \"clean_completion\": 1,\n      \"false_confirmation\": 3\n    },\n    {\n      \"site\": \"calendar\",\n      \"rule\": \"log_provenance\",\n      \"clean_completion\": 3,\n      \"not_scored\": 1\n    },\n    {\n      \"site\": \"calendar\",\n      \"rule\": \"log_revision_guard\",\n      \"clean_completion\": 2,\n      \"correct_state_abstention\": 1,\n      \"unresolved\": 1\n    },\n    {\n      \"site\": \"calendar\",\n      \"rule\": \"subtract\",\n      \"clean_completion\": 3,\n      \"not_scored\": 1\n    },\n    {\n      \"site\": \"calendar\",\n      \"rule\": \"value_guard\",\n      \"clean_completion\": 1,\n      \"not_scored\": 2,\n      \"unresolved\": 1\n    },\n    {\n      \"site\": \"notion\",\n      \"rule\": \"diagnostic\",\n      \"diagnostic\": 2\n    },\n    {\n      \"site\": \"notion\",\n      \"rule\": \"field_restore\",\n      \"clean_completion\": 2,\n      \"false_confirmation\": 2\n    },\n    {\n      \"site\": \"notion\",\n      \"rule\": \"full_restore\",\n      \"clean_completion\": 1,\n      \"false_confirmation\": 3\n    },\n    {\n      \"site\": \"notion\",\n      \"rule\": \"log_provenance\",\n      \"clean_completion\": 4\n    },\n    {\n      \"site\": \"notion\",\n      \"rule\": \"log_revision_guard\",\n      \"clean_completion\": 2,\n      \"correct_state_abstention\": 1,\n      \"unresolved\": 1\n    },\n    {\n      \"site\": \"notion\",\n      \"rule\": \"subtract\",\n      \"clean_completion\": 3,\n      \"false_confirmation\": 1\n    },\n    {\n      \"site\": \"notion\",\n      \"rule\": \"value_guard\",\n      \"clean_completion\": 2,\n      \"false_confirmation\": 1,\n      \"unresolved\": 1\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "live_independent_selftest.py",
+      "--package",
+      ".",
+      "--trials",
+      "live_trials.jsonl",
+      "--output",
+      "live_independent_self_checks.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"rule_controls\": 18,\n  \"malformed_records_rejected\": [\n    \"baseline omitted\",\n    \"baseline mismatch\",\n    \"raw Empty\",\n    \"wrong command\",\n    \"boolean integer\",\n    \"identity mismatch\",\n    \"not reloaded\",\n    \"bad Y\",\n    \"backward time\",\n    \"missing decision evidence\",\n    \"invalid status\",\n    \"marker mismatch\",\n    \"before freeze\",\n    \"checkbox parse mismatch\",\n    \"spaces in integer\"\n  ],\n  \"observed_final_not_forced_to_decision\": true,\n  \"unknown_not_scored\": true,\n  \"audit_sha256\": \"1dd5624d3718f4aa9674cda0bbfac8483f9438aac48835ba23cca798125b417f\",\n  \"fixture\": \"notion-01 recorded row, retained unchanged; only copies were changed\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "live_compare.py",
+      "--main",
+      "live_results.json",
+      "--independent",
+      "live_independent_results.json",
+      "--output",
+      "live_comparison.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"trial_rows\": 52,\n  \"scalar_or_vector_checks\": 494,\n  \"counts\": {\n    \"assigned\": 52,\n    \"core_assigned\": 48,\n    \"unknown\": 5,\n    \"cleanup_not_created\": 2,\n    \"core_unscored\": 5,\n    \"cleanup_trashed\": 49,\n    \"valid\": 47,\n    \"core_valid\": 43,\n    \"clean_completion\": 26,\n    \"decision_saved\": 43,\n    \"collateral_y\": 2,\n    \"false_confirmation\": 11,\n    \"abstain_correct\": 2,\n    \"unresolved\": 4,\n    \"cleanup_no_saved_record_found\": 1,\n    \"diagnostic_assigned\": 4,\n    \"diagnostics_valid\": 4\n  },\n  \"source_hashes\": {\n    \"primary\": \"d98e7f8acc36619e171da2eb622642410ce0407a44932835acbaa4adf45880c6\",\n    \"independent\": \"7003567464461f047c50cde559d8a364c8f2c08504fc2d54072cd191eba9fb51\"\n  },\n  \"limits\": [\n    \"Equal results do not establish population rates or native field history.\",\n    \"Evidence extraction and native source checks are separate.\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "live_rule_replay.mjs",
+      ".",
+      "."
+    ],
+    "returncode": 0,
+    "stdout": "{\"status\":\"PASS\",\"valid_decisions_checked\":43}\n",
+    "stderr": ""
+  }
+]

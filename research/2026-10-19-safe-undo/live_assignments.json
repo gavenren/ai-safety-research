@@ -1,0 +1,562 @@
+[
+  {
+    "trial_id": "calendar-01",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "field_restore",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-01"
+  },
+  {
+    "trial_id": "calendar-02",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "value_guard",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-02"
+  },
+  {
+    "trial_id": "calendar-03",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "log_revision_guard",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-CALENDAR-03"
+  },
+  {
+    "trial_id": "calendar-04",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "value_guard",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-CALENDAR-04"
+  },
+  {
+    "trial_id": "calendar-05",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "log_provenance",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-05"
+  },
+  {
+    "trial_id": "calendar-06",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "field_restore",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-06"
+  },
+  {
+    "trial_id": "calendar-07",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "subtract",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-07"
+  },
+  {
+    "trial_id": "calendar-08",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "field_restore",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-CALENDAR-08"
+  },
+  {
+    "trial_id": "calendar-09",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "log_revision_guard",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-09"
+  },
+  {
+    "trial_id": "calendar-10",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "field_restore",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-10"
+  },
+  {
+    "trial_id": "calendar-11",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "full_restore",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-11"
+  },
+  {
+    "trial_id": "calendar-12",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "subtract",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-12"
+  },
+  {
+    "trial_id": "calendar-13",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "log_provenance",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-13"
+  },
+  {
+    "trial_id": "calendar-14",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "value_guard",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-14"
+  },
+  {
+    "trial_id": "calendar-15",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "full_restore",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-CALENDAR-15"
+  },
+  {
+    "trial_id": "calendar-16",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "subtract",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-CALENDAR-16"
+  },
+  {
+    "trial_id": "calendar-17",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "full_restore",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-17"
+  },
+  {
+    "trial_id": "calendar-18",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "log_revision_guard",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-18"
+  },
+  {
+    "trial_id": "calendar-19",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "log_revision_guard",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-19"
+  },
+  {
+    "trial_id": "calendar-20",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "full_restore",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-20"
+  },
+  {
+    "trial_id": "calendar-21",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "subtract",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-21"
+  },
+  {
+    "trial_id": "calendar-22",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "log_provenance",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-22"
+  },
+  {
+    "trial_id": "calendar-23",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "log_provenance",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-CALENDAR-23"
+  },
+  {
+    "trial_id": "calendar-24",
+    "site": "calendar",
+    "kind": "core",
+    "rule": "value_guard",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-24"
+  },
+  {
+    "trial_id": "calendar-25",
+    "site": "calendar",
+    "kind": "diagnostic",
+    "rule": null,
+    "history": "sub1",
+    "later": [
+      "sub1"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-25"
+  },
+  {
+    "trial_id": "calendar-26",
+    "site": "calendar",
+    "kind": "diagnostic",
+    "rule": null,
+    "history": "set0",
+    "later": [
+      "set0"
+    ],
+    "token": "TEMP-UNDO-20261019-CALENDAR-26"
+  },
+  {
+    "trial_id": "notion-01",
+    "site": "notion",
+    "kind": "core",
+    "rule": "field_restore",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-01"
+  },
+  {
+    "trial_id": "notion-02",
+    "site": "notion",
+    "kind": "core",
+    "rule": "field_restore",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-NOTION-02"
+  },
+  {
+    "trial_id": "notion-03",
+    "site": "notion",
+    "kind": "core",
+    "rule": "full_restore",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-NOTION-03"
+  },
+  {
+    "trial_id": "notion-04",
+    "site": "notion",
+    "kind": "core",
+    "rule": "log_revision_guard",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-04"
+  },
+  {
+    "trial_id": "notion-05",
+    "site": "notion",
+    "kind": "core",
+    "rule": "subtract",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-05"
+  },
+  {
+    "trial_id": "notion-06",
+    "site": "notion",
+    "kind": "core",
+    "rule": "subtract",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-06"
+  },
+  {
+    "trial_id": "notion-07",
+    "site": "notion",
+    "kind": "core",
+    "rule": "log_provenance",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-NOTION-07"
+  },
+  {
+    "trial_id": "notion-08",
+    "site": "notion",
+    "kind": "core",
+    "rule": "field_restore",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-08"
+  },
+  {
+    "trial_id": "notion-09",
+    "site": "notion",
+    "kind": "core",
+    "rule": "log_provenance",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-09"
+  },
+  {
+    "trial_id": "notion-10",
+    "site": "notion",
+    "kind": "core",
+    "rule": "log_provenance",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-10"
+  },
+  {
+    "trial_id": "notion-11",
+    "site": "notion",
+    "kind": "core",
+    "rule": "log_provenance",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-11"
+  },
+  {
+    "trial_id": "notion-12",
+    "site": "notion",
+    "kind": "core",
+    "rule": "subtract",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-NOTION-12"
+  },
+  {
+    "trial_id": "notion-13",
+    "site": "notion",
+    "kind": "core",
+    "rule": "log_revision_guard",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-NOTION-13"
+  },
+  {
+    "trial_id": "notion-14",
+    "site": "notion",
+    "kind": "core",
+    "rule": "field_restore",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-14"
+  },
+  {
+    "trial_id": "notion-15",
+    "site": "notion",
+    "kind": "core",
+    "rule": "log_revision_guard",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-15"
+  },
+  {
+    "trial_id": "notion-16",
+    "site": "notion",
+    "kind": "core",
+    "rule": "full_restore",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-16"
+  },
+  {
+    "trial_id": "notion-17",
+    "site": "notion",
+    "kind": "core",
+    "rule": "value_guard",
+    "history": "independent_y",
+    "later": [
+      "flip_y"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-17"
+  },
+  {
+    "trial_id": "notion-18",
+    "site": "notion",
+    "kind": "core",
+    "rule": "value_guard",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-18"
+  },
+  {
+    "trial_id": "notion-19",
+    "site": "notion",
+    "kind": "core",
+    "rule": "subtract",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-19"
+  },
+  {
+    "trial_id": "notion-20",
+    "site": "notion",
+    "kind": "core",
+    "rule": "value_guard",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-20"
+  },
+  {
+    "trial_id": "notion-21",
+    "site": "notion",
+    "kind": "core",
+    "rule": "value_guard",
+    "history": "control",
+    "later": [],
+    "token": "TEMP-UNDO-20261019-NOTION-21"
+  },
+  {
+    "trial_id": "notion-22",
+    "site": "notion",
+    "kind": "core",
+    "rule": "log_revision_guard",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-22"
+  },
+  {
+    "trial_id": "notion-23",
+    "site": "notion",
+    "kind": "core",
+    "rule": "full_restore",
+    "history": "addition",
+    "later": [
+      "add1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-23"
+  },
+  {
+    "trial_id": "notion-24",
+    "site": "notion",
+    "kind": "core",
+    "rule": "full_restore",
+    "history": "assignment_return",
+    "later": [
+      "set0",
+      "set1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-24"
+  },
+  {
+    "trial_id": "notion-25",
+    "site": "notion",
+    "kind": "diagnostic",
+    "rule": null,
+    "history": "sub1",
+    "later": [
+      "sub1"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-25"
+  },
+  {
+    "trial_id": "notion-26",
+    "site": "notion",
+    "kind": "diagnostic",
+    "rule": null,
+    "history": "set0",
+    "later": [
+      "set0"
+    ],
+    "token": "TEMP-UNDO-20261019-NOTION-26"
+  }
+]

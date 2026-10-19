@@ -1,0 +1,38 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "live_tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_empty_and_stale_fields_rejected (live_tests.LiveEvidenceTests.test_empty_and_stale_fields_rejected) ... ok\ntest_fixed_command_target (live_tests.LiveEvidenceTests.test_fixed_command_target) ... ok\ntest_missing_and_duplicate_evidence_rejected (live_tests.LiveEvidenceTests.test_missing_and_duplicate_evidence_rejected) ... ok\ntest_outcomes_keep_refusal_separate (live_tests.LiveEvidenceTests.test_outcomes_keep_refusal_separate) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "live_analyze.py",
+      "--input-dir",
+      ".",
+      "--output-dir",
+      "."
+    ],
+    "exit_code": 0,
+    "stdout": "{\"abstain_correct\": 2, \"assigned\": 52, \"clean_completion\": 26, \"cleanup_no_saved_record_found\": 1, \"cleanup_not_created\": 2, \"cleanup_trashed\": 49, \"collateral_y\": 2, \"core_assigned\": 48, \"core_unscored\": 5, \"core_valid\": 43, \"decision_saved\": 43, \"diagnostic_assigned\": 4, \"diagnostics_valid\": 4, \"false_confirmation\": 11, \"unknown\": 5, \"unresolved\": 4, \"valid\": 47}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "live_rule_replay.mjs",
+      ".",
+      "."
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\":\"PASS\",\"valid_decisions_checked\":43}\n",
+    "stderr": ""
+  }
+]

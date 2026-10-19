@@ -1,0 +1,462 @@
+{
+  "cleanup_checks": 52,
+  "cleanup_required": true,
+  "cross_phase_id_reuse": [
+    {
+      "evidence_id": "UC-00004",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    },
+    {
+      "evidence_id": "UC-00005",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    },
+    {
+      "evidence_id": "UC-00006",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    },
+    {
+      "evidence_id": "UC-00007",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    },
+    {
+      "evidence_id": "UC-00008",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    },
+    {
+      "evidence_id": "UC-00009",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    },
+    {
+      "evidence_id": "UC-00010",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    },
+    {
+      "evidence_id": "UC-00011",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    },
+    {
+      "evidence_id": "UC-00012",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    },
+    {
+      "evidence_id": "UC-00013",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    },
+    {
+      "evidence_id": "UC-00014",
+      "resolution": "scope by trial ID; preflight is separate",
+      "site": "calendar",
+      "uses": 2
+    }
+  ],
+  "issues": 0,
+  "limits": [
+    "Calendar X uses explicit visible Description innerText reads; the accessibility snapshot omits that text.",
+    "Structured/native-source checks do not prove native revisions or atomicity.",
+    "Only available terminal rows are checked; this receipt does not establish complete assignment coverage."
+  ],
+  "observation_checks": 234,
+  "rows": [
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 0,
+      "terminal_status": "unknown",
+      "trial_id": "calendar-01"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 0,
+      "terminal_status": "unknown",
+      "trial_id": "calendar-02"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "calendar-03"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "calendar-04"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-05"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 6,
+      "terminal_status": "valid",
+      "trial_id": "calendar-06"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-07"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "calendar-08"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 6,
+      "terminal_status": "valid",
+      "trial_id": "calendar-09"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-10"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-11"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 0,
+      "terminal_status": "unknown",
+      "trial_id": "calendar-12"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-13"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 0,
+      "terminal_status": "unknown",
+      "trial_id": "calendar-14"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "calendar-15"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "calendar-16"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-17"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-18"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-19"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 6,
+      "terminal_status": "valid",
+      "trial_id": "calendar-20"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-21"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 6,
+      "terminal_status": "valid",
+      "trial_id": "calendar-22"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 0,
+      "terminal_status": "unknown",
+      "trial_id": "calendar-23"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-24"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-25"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "calendar-26"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 6,
+      "terminal_status": "valid",
+      "trial_id": "notion-01"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "notion-02"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "notion-03"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-04"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 6,
+      "terminal_status": "valid",
+      "trial_id": "notion-05"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-06"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "notion-07"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-08"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-09"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 6,
+      "terminal_status": "valid",
+      "trial_id": "notion-10"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-11"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "notion-12"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "notion-13"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-14"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 6,
+      "terminal_status": "valid",
+      "trial_id": "notion-15"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-16"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-17"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-18"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-19"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 6,
+      "terminal_status": "valid",
+      "trial_id": "notion-20"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 4,
+      "terminal_status": "valid",
+      "trial_id": "notion-21"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-22"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-23"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 6,
+      "terminal_status": "valid",
+      "trial_id": "notion-24"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-25"
+    },
+    {
+      "cleanup_checks": 1,
+      "issues": [],
+      "observation_checks": 5,
+      "terminal_status": "valid",
+      "trial_id": "notion-26"
+    }
+  ],
+  "sources": [
+    {
+      "actions_sha256": "c3932a5ef39f745a48dc28d6c6d0de7a1a112fccc29027b7732bc89446d06c24",
+      "original_trials_sha256": "35bdad83e381a2aa23b48f596256313ced5f55f4d8bb4cc6faaace5ff36ac2a9",
+      "site": "calendar",
+      "terminal_file": "final_trials.jsonl",
+      "terminal_sha256": "1dfd5072edde13ff0e5f5b72e14f58acd0c937ef2927261bac4f1accb2ce6ab6"
+    },
+    {
+      "actions_sha256": "97e65573d7c4853f62023e229695f810c99b5e981b54a12a0ff9c778c2608c89",
+      "original_trials_sha256": "f721d6e438fc83cf77ad73fcdd8400f49672982ee8ab51bde3d3626ed1a304d1",
+      "site": "notion",
+      "terminal_file": "trials.jsonl",
+      "terminal_sha256": "f721d6e438fc83cf77ad73fcdd8400f49672982ee8ab51bde3d3626ed1a304d1"
+    }
+  ],
+  "status": "PASS"
+}

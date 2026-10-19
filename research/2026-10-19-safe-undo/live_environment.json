@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-10-19T14:57:43.382313+00:00",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "browser_client_bundle": "26.1013.40934",
+  "browser": "Connected Chrome profiles; native product build versions not exposed",
+  "model": "Codex; exact immutable model build not exposed",
+  "roles": {
+    "root": "Plan, fixed rule code, primary analysis, report, publication",
+    "calendar_runner": "Native browser actions and local evidence",
+    "notion_runner": "Native browser actions and local evidence",
+    "independent_reviewer": "Separate model, source checks, evidence and report review"
+  },
+  "cost": "Existing local tools and connected accounts; no new paid API or compute",
+  "random_seed": 2026101901,
+  "version_probe_note": "The browser Node REPL did not expose process as a global; no Node version inferred from that failed probe.",
+  "node_cli": "v24.14.1",
+  "node_cli_role": "Replay frozen JavaScript decisions from the published saved-field extracts. The browser Node REPL build is separately not exposed."
+}

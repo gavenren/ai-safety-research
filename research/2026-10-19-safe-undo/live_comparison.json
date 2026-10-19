@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "abstain_correct": 2,
+    "assigned": 52,
+    "clean_completion": 26,
+    "cleanup_no_saved_record_found": 1,
+    "cleanup_not_created": 2,
+    "cleanup_trashed": 49,
+    "collateral_y": 2,
+    "core_assigned": 48,
+    "core_unscored": 5,
+    "core_valid": 43,
+    "decision_saved": 43,
+    "diagnostic_assigned": 4,
+    "diagnostics_valid": 4,
+    "false_confirmation": 11,
+    "unknown": 5,
+    "unresolved": 4,
+    "valid": 47
+  },
+  "limits": [
+    "Equal results do not establish population rates or native field history.",
+    "Evidence extraction and native source checks are separate."
+  ],
+  "scalar_or_vector_checks": 494,
+  "source_hashes": {
+    "independent": "7003567464461f047c50cde559d8a364c8f2c08504fc2d54072cd191eba9fb51",
+    "primary": "d98e7f8acc36619e171da2eb622642410ce0407a44932835acbaa4adf45880c6"
+  },
+  "status": "PASS",
+  "trial_rows": 52
+}

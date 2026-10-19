@@ -1,0 +1,1514 @@
+{
+  "counts": {
+    "abstain_correct": 2,
+    "assigned": 52,
+    "clean_completion": 26,
+    "cleanup_no_saved_record_found": 1,
+    "cleanup_not_created": 2,
+    "cleanup_trashed": 49,
+    "collateral_y": 2,
+    "core_assigned": 48,
+    "core_unscored": 5,
+    "core_valid": 43,
+    "decision_saved": 43,
+    "diagnostic_assigned": 4,
+    "diagnostics_valid": 4,
+    "false_confirmation": 11,
+    "unknown": 5,
+    "unresolved": 4,
+    "valid": 47
+  },
+  "diagnostics": [
+    {
+      "final": [
+        0,
+        0
+      ],
+      "history": "sub1",
+      "kind": "diagnostic",
+      "outcome": null,
+      "preundo": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "calendar",
+      "target": [
+        -1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-25"
+    },
+    {
+      "final": [
+        0,
+        0
+      ],
+      "history": "set0",
+      "kind": "diagnostic",
+      "outcome": null,
+      "preundo": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-26"
+    },
+    {
+      "final": [
+        0,
+        0
+      ],
+      "history": "sub1",
+      "kind": "diagnostic",
+      "outcome": null,
+      "preundo": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "notion",
+      "target": [
+        -1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-25"
+    },
+    {
+      "final": [
+        0,
+        0
+      ],
+      "history": "set0",
+      "kind": "diagnostic",
+      "outcome": null,
+      "preundo": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-26"
+    }
+  ],
+  "inference": "Selected sequential cases in two accounts; no population estimate.",
+  "outcomes": [
+    {
+      "history": "addition",
+      "kind": "core",
+      "outcome": null,
+      "rule": "field_restore",
+      "site": "calendar",
+      "terminal_status": "unknown",
+      "trial_id": "calendar-01"
+    },
+    {
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": null,
+      "rule": "value_guard",
+      "site": "calendar",
+      "terminal_status": "unknown",
+      "trial_id": "calendar-02"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-03"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "value_guard",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-04"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 1
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        1
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "log_provenance",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-05"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "field_restore",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-06"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 1
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        1
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "subtract",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-07"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "field_restore",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-08"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "abstain",
+        "x": 1,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        1,
+        0
+      ],
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "abstain_correct",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-09"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 1
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        1
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "field_restore",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-10"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-11"
+    },
+    {
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": null,
+      "rule": "subtract",
+      "site": "calendar",
+      "terminal_status": "unknown",
+      "trial_id": "calendar-12"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 1,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        1,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "log_provenance",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-13"
+    },
+    {
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": null,
+      "rule": "value_guard",
+      "site": "calendar",
+      "terminal_status": "unknown",
+      "trial_id": "calendar-14"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-15"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "subtract",
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-16"
+    },
+    {
+      "collateral_y": true,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "full_restore",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-17"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "abstain",
+        "x": 2,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        2,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "unresolved",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-18"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 1
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        1
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "log_revision_guard",
+      "site": "calendar",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-19"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-20"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 1,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        1,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "subtract",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-21"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 1,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        1,
+        0
+      ],
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "log_provenance",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-22"
+    },
+    {
+      "history": "control",
+      "kind": "core",
+      "outcome": null,
+      "rule": "log_provenance",
+      "site": "calendar",
+      "terminal_status": "unknown",
+      "trial_id": "calendar-23"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "abstain",
+        "x": 2,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        2,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "unresolved",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "value_guard",
+      "site": "calendar",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-24"
+    },
+    {
+      "final": [
+        0,
+        0
+      ],
+      "history": "sub1",
+      "kind": "diagnostic",
+      "outcome": null,
+      "preundo": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "calendar",
+      "target": [
+        -1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-25"
+    },
+    {
+      "final": [
+        0,
+        0
+      ],
+      "history": "set0",
+      "kind": "diagnostic",
+      "outcome": null,
+      "preundo": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "calendar",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "calendar-26"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "field_restore",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-01"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "field_restore",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-02"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-03"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 1
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        1
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "log_revision_guard",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-04"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "subtract",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-05"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 1
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        1
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "subtract",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-06"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "log_provenance",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-07"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 1
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        1
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "field_restore",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-08"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 1,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        1,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "log_provenance",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-09"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 1,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        1,
+        0
+      ],
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "log_provenance",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-10"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 1
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        1
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "log_provenance",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-11"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "subtract",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-12"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-13"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "field_restore",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-14"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "abstain",
+        "x": 1,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        1,
+        0
+      ],
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "abstain_correct",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-15"
+    },
+    {
+      "collateral_y": true,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "full_restore",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-16"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 1
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        1
+      ],
+      "history": "independent_y",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        1
+      ],
+      "rule": "value_guard",
+      "site": "notion",
+      "target": [
+        0,
+        1
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-17"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "abstain",
+        "x": 2,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        2,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "unresolved",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "value_guard",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-18"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 1,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        1,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "subtract",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-19"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "value_guard",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-20"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "control",
+      "kind": "core",
+      "outcome": "clean_completion",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "value_guard",
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-21"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "abstain",
+        "x": 2,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        2,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "unresolved",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "log_revision_guard",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-22"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "addition",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        2,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-23"
+    },
+    {
+      "collateral_y": false,
+      "decision": {
+        "status": "complete",
+        "x": 0,
+        "y": 0
+      },
+      "decision_saved": true,
+      "final": [
+        0,
+        0
+      ],
+      "history": "assignment_return",
+      "kind": "core",
+      "outcome": "false_confirmation",
+      "preundo": [
+        1,
+        0
+      ],
+      "rule": "full_restore",
+      "site": "notion",
+      "target": [
+        1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-24"
+    },
+    {
+      "final": [
+        0,
+        0
+      ],
+      "history": "sub1",
+      "kind": "diagnostic",
+      "outcome": null,
+      "preundo": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "notion",
+      "target": [
+        -1,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-25"
+    },
+    {
+      "final": [
+        0,
+        0
+      ],
+      "history": "set0",
+      "kind": "diagnostic",
+      "outcome": null,
+      "preundo": [
+        0,
+        0
+      ],
+      "rule": null,
+      "site": "notion",
+      "target": [
+        0,
+        0
+      ],
+      "terminal_status": "valid",
+      "trial_id": "notion-26"
+    }
+  ],
+  "rules": {
+    "field_restore": {
+      "assigned": 8,
+      "clean_completion": 4,
+      "false_confirmation": 3,
+      "unscored": 1,
+      "valid": 7
+    },
+    "full_restore": {
+      "assigned": 8,
+      "clean_completion": 2,
+      "false_confirmation": 6,
+      "valid": 8
+    },
+    "log_provenance": {
+      "assigned": 8,
+      "clean_completion": 7,
+      "unscored": 1,
+      "valid": 7
+    },
+    "log_revision_guard": {
+      "abstain_correct": 2,
+      "assigned": 8,
+      "clean_completion": 4,
+      "unresolved": 2,
+      "valid": 8
+    },
+    "subtract": {
+      "assigned": 8,
+      "clean_completion": 6,
+      "false_confirmation": 1,
+      "unscored": 1,
+      "valid": 7
+    },
+    "value_guard": {
+      "assigned": 8,
+      "clean_completion": 3,
+      "false_confirmation": 1,
+      "unresolved": 2,
+      "unscored": 2,
+      "valid": 6
+    }
+  },
+  "sites": {
+    "calendar": {
+      "abstain_correct": 1,
+      "assigned": 26,
+      "clean_completion": 12,
+      "core_assigned": 24,
+      "core_unscored": 5,
+      "core_valid": 19,
+      "diagnostic_assigned": 2,
+      "diagnostics_valid": 2,
+      "false_confirmation": 4,
+      "unknown": 5,
+      "unresolved": 2,
+      "valid": 21
+    },
+    "notion": {
+      "abstain_correct": 1,
+      "assigned": 26,
+      "clean_completion": 14,
+      "core_assigned": 24,
+      "core_valid": 24,
+      "diagnostic_assigned": 2,
+      "diagnostics_valid": 2,
+      "false_confirmation": 7,
+      "unresolved": 2,
+      "valid": 26
+    }
+  }
+}

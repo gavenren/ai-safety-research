@@ -1,0 +1,131 @@
+{
+  "files": [
+    {
+      "private_source": "calendar/actual_context_helpers.js",
+      "public_file": "live_calendar_actual_context_helpers.js",
+      "original_sha256": "9087c11aeb32f2161388f7412b1a6a968c56b9595ea1a4912420495ea2430189",
+      "public_sha256": "9087c11aeb32f2161388f7412b1a6a968c56b9595ea1a4912420495ea2430189",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "calendar/actual_helpers.js",
+      "public_file": "live_calendar_actual_helpers.js",
+      "original_sha256": "24ebd4b823d63e4bf570ff38c8dbbb60f1fd48d3acb17b3258d4d90a928e9759",
+      "public_sha256": "24ebd4b823d63e4bf570ff38c8dbbb60f1fd48d3acb17b3258d4d90a928e9759",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "calendar/covered_cleanup_helper.js",
+      "public_file": "live_calendar_covered_cleanup_helper.js",
+      "original_sha256": "b8d815717d71762bb166ce37359fba724aa0664429c49a0a850346fd2033b8b0",
+      "public_sha256": "b8d815717d71762bb166ce37359fba724aa0664429c49a0a850346fd2033b8b0",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "calendar/ready_covered_cleanup_helper.js",
+      "public_file": "live_calendar_ready_covered_cleanup_helper.js",
+      "original_sha256": "2864360dbac6e2077682c88c008ae52883c2355d3482a6cd8654a942c918dcd1",
+      "public_sha256": "2864360dbac6e2077682c88c008ae52883c2355d3482a6cd8654a942c918dcd1",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "calendar/scored_audit.mjs",
+      "public_file": "live_calendar_scored_audit.mjs",
+      "original_sha256": "2860c414b90e828a9da4d0f962d18acdf91d98128e9e4d0aa3c948a653e00924",
+      "public_sha256": "2860c414b90e828a9da4d0f962d18acdf91d98128e9e4d0aa3c948a653e00924",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "calendar/scored_audit_fresh_tab.mjs",
+      "public_file": "live_calendar_scored_audit_fresh_tab.mjs",
+      "original_sha256": "53ec80f5a6552fa14735bc0572f7737284d78dfa9cfccc81604ab0f4acac2392",
+      "public_sha256": "53ec80f5a6552fa14735bc0572f7737284d78dfa9cfccc81604ab0f4acac2392",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "calendar/scored_audit_recovery.mjs",
+      "public_file": "live_calendar_scored_audit_recovery.mjs",
+      "original_sha256": "96f36a58df29f9a8bdb07fa10480c324963a2d667bfa83000238f574b8695510",
+      "public_sha256": "96f36a58df29f9a8bdb07fa10480c324963a2d667bfa83000238f574b8695510",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "calendar/scored_audit_third_tab.mjs",
+      "public_file": "live_calendar_scored_audit_third_tab.mjs",
+      "original_sha256": "05dc3c2771596e7cb473ef2c53c10e7f538105c9d765072ffab2cb937812d653",
+      "public_sha256": "05dc3c2771596e7cb473ef2c53c10e7f538105c9d765072ffab2cb937812d653",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "calendar/scored_helpers.mjs",
+      "public_file": "live_calendar_scored_helpers.mjs",
+      "original_sha256": "9f33b5c295f97d17ff494b729aab20facc364f3ac06ae9e269ed502a504afaae",
+      "public_sha256": "a49033162c8458df9d55b5b9b8b60fb6dff05849fec43f2b465487d523c321c6",
+      "account_name_literal_replacements": 1
+    },
+    {
+      "private_source": "calendar/scored_helpers_v1.mjs",
+      "public_file": "live_calendar_scored_helpers_v1.mjs",
+      "original_sha256": "e234c6a22e0aff5383544e67907c1013281d323fed2893b38d708bd401c46791",
+      "public_sha256": "b0e48bcb05324bc864840b170986d5e9d032b4fe3f032af08ac97ea38077dedd",
+      "account_name_literal_replacements": 1
+    },
+    {
+      "private_source": "calendar/scored_helpers_v2.mjs",
+      "public_file": "live_calendar_scored_helpers_v2.mjs",
+      "original_sha256": "a8de69df5fd691820c56abd59875dc60f5965987786712513bc2caad7b883006",
+      "public_sha256": "25c9af36ae2c9f6946e47a9f145f257cfe96f15b652342f0b28bbd8a2e386c22",
+      "account_name_literal_replacements": 1
+    },
+    {
+      "private_source": "calendar/scored_helpers_v3.mjs",
+      "public_file": "live_calendar_scored_helpers_v3.mjs",
+      "original_sha256": "a29353805d987cb7ec6aef6e32e8599c7a5ad8b49f50e33bf502bbc451b97d48",
+      "public_sha256": "2c46a46394a96879f11337fe7d2e926236d3c8a40b4a33dce1d3c829570ec893",
+      "account_name_literal_replacements": 1
+    },
+    {
+      "private_source": "calendar/scored_helpers_v4.mjs",
+      "public_file": "live_calendar_scored_helpers_v4.mjs",
+      "original_sha256": "6ddde67af82a7f479594a067eb2fbee7ae054044b6e8fd85929a80205731b1ef",
+      "public_sha256": "c40bb593e925ac2dc30d53642b7d542f2f9b2d695a8c529e58807cb68aa06ba0",
+      "account_name_literal_replacements": 1
+    },
+    {
+      "private_source": "calendar/scored_helpers_v5.mjs",
+      "public_file": "live_calendar_scored_helpers_v5.mjs",
+      "original_sha256": "9f33b5c295f97d17ff494b729aab20facc364f3ac06ae9e269ed502a504afaae",
+      "public_sha256": "a49033162c8458df9d55b5b9b8b60fb6dff05849fec43f2b465487d523c321c6",
+      "account_name_literal_replacements": 1
+    },
+    {
+      "private_source": "notion/live_helpers.mjs",
+      "public_file": "live_notion_live_helpers.mjs",
+      "original_sha256": "00dc5037292549aa02f1ce6a53573ea40198a9cbacdae6214b75f696f11365ef",
+      "public_sha256": "00dc5037292549aa02f1ce6a53573ea40198a9cbacdae6214b75f696f11365ef",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "notion/live_helpers_v1.mjs",
+      "public_file": "live_notion_live_helpers_v1.mjs",
+      "original_sha256": "3c8fd23f5472fa7f0b80c007861c6b00cc71bdc518f6f50effe58bde7863cb2c",
+      "public_sha256": "3c8fd23f5472fa7f0b80c007861c6b00cc71bdc518f6f50effe58bde7863cb2c",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "notion/live_helpers_v2.mjs",
+      "public_file": "live_notion_live_helpers_v2.mjs",
+      "original_sha256": "00dc5037292549aa02f1ce6a53573ea40198a9cbacdae6214b75f696f11365ef",
+      "public_sha256": "00dc5037292549aa02f1ce6a53573ea40198a9cbacdae6214b75f696f11365ef",
+      "account_name_literal_replacements": 0
+    },
+    {
+      "private_source": "notion/preflight_helpers.js",
+      "public_file": "live_notion_preflight_helpers.js",
+      "original_sha256": "688cd7c76e2c34ed3f898df66c204f4730aa67c845c3ec719f4312f6b2573c79",
+      "public_sha256": "688cd7c76e2c34ed3f898df66c204f4730aa67c845c3ec719f4312f6b2573c79",
+      "account_name_literal_replacements": 0
+    }
+  ],
+  "scope": "Actual generated helper source and preserved versions. Account-name literals are replaced with <ACCOUNT_DISPLAY_NAME>. Supply your own authorized test account name when reproducing. No browser client library source is included."
+}
