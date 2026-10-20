@@ -16,6 +16,7 @@ The first example study was completed on October 8, 2026.
 
 | Date | Study | Main result | Review status |
 | --- | --- | --- | --- |
+| 2026-10-20 | [Safe undo with missing action records](research/2026-10-20-undo-missing-history/report.md) | In 40,000 finite model cases, target agreement gave 26,380 correct completions and no false claims with a correct loss bound. Incorrect bounds can cause false claims. No new website trials. | AI-generated; agent checks completed; no human review. |
 | 2026-10-19 | [Undo after later edits: six rules, an information limit, and production website tests](research/2026-10-19-safe-undo/report.md) | Synthetic study and two production extensions. New 32-case comparison: old rule 6 incorrect claims from 15 valid cases; checked rule 0 from 15, with 7 correct completions and 8 refusals. Each rule has 1 unknown. Selected cases require trusted history. | AI-generated; agent checks completed; no human review. |
 | 2026-10-18 | [When a success reply arrives before a duplicate: finite memory in agent retries](research/2026-10-18-retry-retention/report.md) | A send-time cutoff had 162 duplicate cases in one 729-case setting; 36 became duplicated only after the first success reply. Safe cutoffs can lose completion opportunities. Exact synthetic study. | AI-generated; agent checks completed; no human review. |
 | 2026-10-17 | [Six repair rules under concurrent edits: an exact regression audit](research/2026-10-17-repair-dependencies/report.md) | A fresh version with an old decision caused 32 invalid writes among 100 successes in one 676-case setting. Complete recomputation and guards had no bad effects in the finite model. Exact synthetic study. | AI-generated; agent checks completed; no human review. |
@@ -46,6 +47,7 @@ The protocol uses relevant parts of the [NeurIPS Paper Checklist](https://neurip
 ## Rights
 
 No reuse license has been selected for this repository. Third-party material remains subject to its source license and attribution requirements.
+
 
 
 
