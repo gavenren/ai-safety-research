@@ -1,0 +1,17 @@
+{
+  "controls": [
+    "operation_add1",
+    "operation_sub1",
+    "operation_set0",
+    "operation_set1",
+    "operation_flip_y",
+    "inconsistent_empty_set_refuses",
+    "reject_bound_-1",
+    "reject_bound_0.5",
+    "reject_bound_True",
+    "reject_bound_1",
+    "reject_command_or_scope",
+    "reject_command_or_scope"
+  ],
+  "passed": 12
+}

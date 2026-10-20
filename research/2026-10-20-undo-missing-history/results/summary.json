@@ -1,0 +1,1744 @@
+{
+  "case_count": 44444,
+  "checks": {
+    "bound_monotonicity": 44444,
+    "candidate_y_preservation": 88888,
+    "honest_completion": 55836,
+    "honest_inclusion": 88888,
+    "zero_bound_equivalence": 14844
+  },
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true,
+    "H6": true
+  },
+  "observation_counts": {
+    "false": {
+      "multiple_histories_one_target": 400,
+      "multiple_targets": 224,
+      "no_targets": 2836,
+      "one_target": 1134,
+      "unique_observations": 4194
+    },
+    "loose": {
+      "multiple_histories_one_target": 5484,
+      "multiple_targets": 1694,
+      "no_targets": 0,
+      "one_target": 5624,
+      "unique_observations": 7318
+    },
+    "tight": {
+      "multiple_histories_one_target": 2730,
+      "multiple_targets": 836,
+      "no_targets": 0,
+      "one_target": 6482,
+      "unique_observations": 7318
+    }
+  },
+  "rows": [
+    {
+      "cases": 20,
+      "correct_completion": 0,
+      "false_completion": 2,
+      "refusal_correct_state": 6,
+      "refusal_incorrect_state": 12,
+      "rule": "agreement",
+      "scope": "L1",
+      "setting": "false"
+    },
+    {
+      "cases": 20,
+      "correct_completion": 0,
+      "false_completion": 2,
+      "refusal_correct_state": 6,
+      "refusal_incorrect_state": 12,
+      "rule": "no_loss",
+      "scope": "L1",
+      "setting": "false"
+    },
+    {
+      "cases": 20,
+      "correct_completion": 20,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L1",
+      "setting": "false"
+    },
+    {
+      "cases": 20,
+      "correct_completion": 0,
+      "false_completion": 2,
+      "refusal_correct_state": 6,
+      "refusal_incorrect_state": 12,
+      "rule": "replay",
+      "scope": "L1",
+      "setting": "false"
+    },
+    {
+      "cases": 20,
+      "correct_completion": 12,
+      "false_completion": 8,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L1",
+      "setting": "false"
+    },
+    {
+      "cases": 300,
+      "correct_completion": 56,
+      "false_completion": 22,
+      "refusal_correct_state": 122,
+      "refusal_incorrect_state": 100,
+      "rule": "agreement",
+      "scope": "L2",
+      "setting": "false"
+    },
+    {
+      "cases": 300,
+      "correct_completion": 40,
+      "false_completion": 12,
+      "refusal_correct_state": 140,
+      "refusal_incorrect_state": 108,
+      "rule": "no_loss",
+      "scope": "L2",
+      "setting": "false"
+    },
+    {
+      "cases": 300,
+      "correct_completion": 300,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L2",
+      "setting": "false"
+    },
+    {
+      "cases": 300,
+      "correct_completion": 52,
+      "false_completion": 24,
+      "refusal_correct_state": 128,
+      "refusal_incorrect_state": 96,
+      "rule": "replay",
+      "scope": "L2",
+      "setting": "false"
+    },
+    {
+      "cases": 300,
+      "correct_completion": 188,
+      "false_completion": 112,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L2",
+      "setting": "false"
+    },
+    {
+      "cases": 3500,
+      "correct_completion": 1220,
+      "false_completion": 158,
+      "refusal_correct_state": 1460,
+      "refusal_incorrect_state": 662,
+      "rule": "agreement",
+      "scope": "L3",
+      "setting": "false"
+    },
+    {
+      "cases": 3500,
+      "correct_completion": 496,
+      "false_completion": 52,
+      "refusal_correct_state": 2196,
+      "refusal_incorrect_state": 756,
+      "rule": "no_loss",
+      "scope": "L3",
+      "setting": "false"
+    },
+    {
+      "cases": 3500,
+      "correct_completion": 3500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L3",
+      "setting": "false"
+    },
+    {
+      "cases": 3500,
+      "correct_completion": 844,
+      "false_completion": 218,
+      "refusal_correct_state": 1790,
+      "refusal_incorrect_state": 648,
+      "rule": "replay",
+      "scope": "L3",
+      "setting": "false"
+    },
+    {
+      "cases": 3500,
+      "correct_completion": 2316,
+      "false_completion": 1184,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L3",
+      "setting": "false"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 18348,
+      "false_completion": 948,
+      "refusal_correct_state": 14090,
+      "refusal_incorrect_state": 4114,
+      "rule": "agreement",
+      "scope": "L4",
+      "setting": "false"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 4208,
+      "false_completion": 200,
+      "refusal_correct_state": 28232,
+      "refusal_incorrect_state": 4860,
+      "rule": "no_loss",
+      "scope": "L4",
+      "setting": "false"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 37500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L4",
+      "setting": "false"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 10100,
+      "false_completion": 1808,
+      "refusal_correct_state": 21456,
+      "refusal_incorrect_state": 4136,
+      "rule": "replay",
+      "scope": "L4",
+      "setting": "false"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 26300,
+      "false_completion": 11200,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L4",
+      "setting": "false"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 18348,
+      "false_completion": 948,
+      "refusal_correct_state": 14090,
+      "refusal_incorrect_state": 4114,
+      "rule": "agreement",
+      "scope": "L4_missing",
+      "setting": "false"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 4208,
+      "false_completion": 200,
+      "refusal_correct_state": 28232,
+      "refusal_incorrect_state": 4860,
+      "rule": "no_loss",
+      "scope": "L4_missing",
+      "setting": "false"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 37500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L4_missing",
+      "setting": "false"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 10100,
+      "false_completion": 1808,
+      "refusal_correct_state": 21456,
+      "refusal_incorrect_state": 4136,
+      "rule": "replay",
+      "scope": "L4_missing",
+      "setting": "false"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 26300,
+      "false_completion": 11200,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L4_missing",
+      "setting": "false"
+    },
+    {
+      "cases": 41320,
+      "correct_completion": 19624,
+      "false_completion": 1130,
+      "refusal_correct_state": 15678,
+      "refusal_incorrect_state": 4888,
+      "rule": "agreement",
+      "scope": "all",
+      "setting": "false"
+    },
+    {
+      "cases": 41320,
+      "correct_completion": 4744,
+      "false_completion": 266,
+      "refusal_correct_state": 30574,
+      "refusal_incorrect_state": 5736,
+      "rule": "no_loss",
+      "scope": "all",
+      "setting": "false"
+    },
+    {
+      "cases": 41320,
+      "correct_completion": 41320,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "all",
+      "setting": "false"
+    },
+    {
+      "cases": 41320,
+      "correct_completion": 10996,
+      "false_completion": 2052,
+      "refusal_correct_state": 23380,
+      "refusal_incorrect_state": 4892,
+      "rule": "replay",
+      "scope": "all",
+      "setting": "false"
+    },
+    {
+      "cases": 41320,
+      "correct_completion": 28816,
+      "false_completion": 12504,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "all",
+      "setting": "false"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 4744,
+      "false_completion": 266,
+      "refusal_correct_state": 5006,
+      "refusal_incorrect_state": 1704,
+      "rule": "agreement",
+      "scope": "missing1",
+      "setting": "false"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 4744,
+      "false_completion": 266,
+      "refusal_correct_state": 5006,
+      "refusal_incorrect_state": 1704,
+      "rule": "no_loss",
+      "scope": "missing1",
+      "setting": "false"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 11720,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing1",
+      "setting": "false"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 4744,
+      "false_completion": 266,
+      "refusal_correct_state": 5006,
+      "refusal_incorrect_state": 1704,
+      "rule": "replay",
+      "scope": "missing1",
+      "setting": "false"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 10584,
+      "false_completion": 1136,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing1",
+      "setting": "false"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 9890,
+      "false_completion": 564,
+      "refusal_correct_state": 4258,
+      "refusal_incorrect_state": 1888,
+      "rule": "agreement",
+      "scope": "missing2",
+      "setting": "false"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 14296,
+      "refusal_incorrect_state": 2304,
+      "rule": "no_loss",
+      "scope": "missing2",
+      "setting": "false"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 16600,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing2",
+      "setting": "false"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 4896,
+      "false_completion": 722,
+      "refusal_correct_state": 9446,
+      "refusal_incorrect_state": 1536,
+      "rule": "replay",
+      "scope": "missing2",
+      "setting": "false"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 12504,
+      "false_completion": 4096,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing2",
+      "setting": "false"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 4888,
+      "false_completion": 270,
+      "refusal_correct_state": 4308,
+      "refusal_incorrect_state": 1034,
+      "rule": "agreement",
+      "scope": "missing3",
+      "setting": "false"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 9096,
+      "refusal_incorrect_state": 1404,
+      "rule": "no_loss",
+      "scope": "missing3",
+      "setting": "false"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 10500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing3",
+      "setting": "false"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 1280,
+      "false_completion": 764,
+      "refusal_correct_state": 7052,
+      "refusal_incorrect_state": 1404,
+      "rule": "replay",
+      "scope": "missing3",
+      "setting": "false"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 5404,
+      "false_completion": 5096,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing3",
+      "setting": "false"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 102,
+      "false_completion": 30,
+      "refusal_correct_state": 2106,
+      "refusal_incorrect_state": 262,
+      "rule": "agreement",
+      "scope": "missing4",
+      "setting": "false"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 2176,
+      "refusal_incorrect_state": 324,
+      "rule": "no_loss",
+      "scope": "missing4",
+      "setting": "false"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 2500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing4",
+      "setting": "false"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 76,
+      "false_completion": 300,
+      "refusal_correct_state": 1876,
+      "refusal_incorrect_state": 248,
+      "rule": "replay",
+      "scope": "missing4",
+      "setting": "false"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 324,
+      "false_completion": 2176,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing4",
+      "setting": "false"
+    },
+    {
+      "cases": 4,
+      "correct_completion": 2,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 2,
+      "rule": "agreement",
+      "scope": "L0",
+      "setting": "loose"
+    },
+    {
+      "cases": 4,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 4,
+      "rule": "no_loss",
+      "scope": "L0",
+      "setting": "loose"
+    },
+    {
+      "cases": 4,
+      "correct_completion": 4,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L0",
+      "setting": "loose"
+    },
+    {
+      "cases": 4,
+      "correct_completion": 4,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "replay",
+      "scope": "L0",
+      "setting": "loose"
+    },
+    {
+      "cases": 4,
+      "correct_completion": 4,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L0",
+      "setting": "loose"
+    },
+    {
+      "cases": 40,
+      "correct_completion": 16,
+      "false_completion": 0,
+      "refusal_correct_state": 8,
+      "refusal_incorrect_state": 16,
+      "rule": "agreement",
+      "scope": "L1",
+      "setting": "loose"
+    },
+    {
+      "cases": 40,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 16,
+      "refusal_incorrect_state": 24,
+      "rule": "no_loss",
+      "scope": "L1",
+      "setting": "loose"
+    },
+    {
+      "cases": 40,
+      "correct_completion": 40,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L1",
+      "setting": "loose"
+    },
+    {
+      "cases": 40,
+      "correct_completion": 20,
+      "false_completion": 2,
+      "refusal_correct_state": 6,
+      "refusal_incorrect_state": 12,
+      "rule": "replay",
+      "scope": "L1",
+      "setting": "loose"
+    },
+    {
+      "cases": 40,
+      "correct_completion": 32,
+      "false_completion": 8,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L1",
+      "setting": "loose"
+    },
+    {
+      "cases": 400,
+      "correct_completion": 178,
+      "false_completion": 0,
+      "refusal_correct_state": 110,
+      "refusal_incorrect_state": 112,
+      "rule": "agreement",
+      "scope": "L2",
+      "setting": "loose"
+    },
+    {
+      "cases": 400,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 256,
+      "refusal_incorrect_state": 144,
+      "rule": "no_loss",
+      "scope": "L2",
+      "setting": "loose"
+    },
+    {
+      "cases": 400,
+      "correct_completion": 400,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L2",
+      "setting": "loose"
+    },
+    {
+      "cases": 400,
+      "correct_completion": 152,
+      "false_completion": 24,
+      "refusal_correct_state": 128,
+      "refusal_incorrect_state": 96,
+      "rule": "replay",
+      "scope": "L2",
+      "setting": "loose"
+    },
+    {
+      "cases": 400,
+      "correct_completion": 288,
+      "false_completion": 112,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L2",
+      "setting": "loose"
+    },
+    {
+      "cases": 4000,
+      "correct_completion": 2106,
+      "false_completion": 0,
+      "refusal_correct_state": 1160,
+      "refusal_incorrect_state": 734,
+      "rule": "agreement",
+      "scope": "L3",
+      "setting": "loose"
+    },
+    {
+      "cases": 4000,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 3136,
+      "refusal_incorrect_state": 864,
+      "rule": "no_loss",
+      "scope": "L3",
+      "setting": "loose"
+    },
+    {
+      "cases": 4000,
+      "correct_completion": 4000,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L3",
+      "setting": "loose"
+    },
+    {
+      "cases": 4000,
+      "correct_completion": 1344,
+      "false_completion": 218,
+      "refusal_correct_state": 1790,
+      "refusal_incorrect_state": 648,
+      "rule": "replay",
+      "scope": "L3",
+      "setting": "loose"
+    },
+    {
+      "cases": 4000,
+      "correct_completion": 2816,
+      "false_completion": 1184,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L3",
+      "setting": "loose"
+    },
+    {
+      "cases": 40000,
+      "correct_completion": 24356,
+      "false_completion": 0,
+      "refusal_correct_state": 10992,
+      "refusal_incorrect_state": 4652,
+      "rule": "agreement",
+      "scope": "L4",
+      "setting": "loose"
+    },
+    {
+      "cases": 40000,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 34816,
+      "refusal_incorrect_state": 5184,
+      "rule": "no_loss",
+      "scope": "L4",
+      "setting": "loose"
+    },
+    {
+      "cases": 40000,
+      "correct_completion": 40000,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L4",
+      "setting": "loose"
+    },
+    {
+      "cases": 40000,
+      "correct_completion": 12600,
+      "false_completion": 1808,
+      "refusal_correct_state": 21456,
+      "refusal_incorrect_state": 4136,
+      "rule": "replay",
+      "scope": "L4",
+      "setting": "loose"
+    },
+    {
+      "cases": 40000,
+      "correct_completion": 28800,
+      "false_completion": 11200,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L4",
+      "setting": "loose"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 22110,
+      "false_completion": 0,
+      "refusal_correct_state": 10992,
+      "refusal_incorrect_state": 4398,
+      "rule": "agreement",
+      "scope": "L4_missing",
+      "setting": "loose"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 32640,
+      "refusal_incorrect_state": 4860,
+      "rule": "no_loss",
+      "scope": "L4_missing",
+      "setting": "loose"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 37500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L4_missing",
+      "setting": "loose"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 10100,
+      "false_completion": 1808,
+      "refusal_correct_state": 21456,
+      "refusal_incorrect_state": 4136,
+      "rule": "replay",
+      "scope": "L4_missing",
+      "setting": "loose"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 26300,
+      "false_completion": 11200,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L4_missing",
+      "setting": "loose"
+    },
+    {
+      "cases": 44444,
+      "correct_completion": 26658,
+      "false_completion": 0,
+      "refusal_correct_state": 12270,
+      "refusal_incorrect_state": 5516,
+      "rule": "agreement",
+      "scope": "all",
+      "setting": "loose"
+    },
+    {
+      "cases": 44444,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 38224,
+      "refusal_incorrect_state": 6220,
+      "rule": "no_loss",
+      "scope": "all",
+      "setting": "loose"
+    },
+    {
+      "cases": 44444,
+      "correct_completion": 44444,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "all",
+      "setting": "loose"
+    },
+    {
+      "cases": 44444,
+      "correct_completion": 14120,
+      "false_completion": 2052,
+      "refusal_correct_state": 23380,
+      "refusal_incorrect_state": 4892,
+      "rule": "replay",
+      "scope": "all",
+      "setting": "loose"
+    },
+    {
+      "cases": 44444,
+      "correct_completion": 31940,
+      "false_completion": 12504,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "all",
+      "setting": "loose"
+    },
+    {
+      "cases": 3124,
+      "correct_completion": 2752,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 372,
+      "rule": "agreement",
+      "scope": "missing0",
+      "setting": "loose"
+    },
+    {
+      "cases": 3124,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 2640,
+      "refusal_incorrect_state": 484,
+      "rule": "no_loss",
+      "scope": "missing0",
+      "setting": "loose"
+    },
+    {
+      "cases": 3124,
+      "correct_completion": 3124,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing0",
+      "setting": "loose"
+    },
+    {
+      "cases": 3124,
+      "correct_completion": 3124,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "replay",
+      "scope": "missing0",
+      "setting": "loose"
+    },
+    {
+      "cases": 3124,
+      "correct_completion": 3124,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing0",
+      "setting": "loose"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 9274,
+      "false_completion": 0,
+      "refusal_correct_state": 1030,
+      "refusal_incorrect_state": 1416,
+      "rule": "agreement",
+      "scope": "missing1",
+      "setting": "loose"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 10016,
+      "refusal_incorrect_state": 1704,
+      "rule": "no_loss",
+      "scope": "missing1",
+      "setting": "loose"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 11720,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing1",
+      "setting": "loose"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 4744,
+      "false_completion": 266,
+      "refusal_correct_state": 5006,
+      "refusal_incorrect_state": 1704,
+      "rule": "replay",
+      "scope": "missing1",
+      "setting": "loose"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 10584,
+      "false_completion": 1136,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing1",
+      "setting": "loose"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 10540,
+      "false_completion": 0,
+      "refusal_correct_state": 3978,
+      "refusal_incorrect_state": 2082,
+      "rule": "agreement",
+      "scope": "missing2",
+      "setting": "loose"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 14296,
+      "refusal_incorrect_state": 2304,
+      "rule": "no_loss",
+      "scope": "missing2",
+      "setting": "loose"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 16600,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing2",
+      "setting": "loose"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 4896,
+      "false_completion": 722,
+      "refusal_correct_state": 9446,
+      "refusal_incorrect_state": 1536,
+      "rule": "replay",
+      "scope": "missing2",
+      "setting": "loose"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 12504,
+      "false_completion": 4096,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing2",
+      "setting": "loose"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 4082,
+      "false_completion": 0,
+      "refusal_correct_state": 5086,
+      "refusal_incorrect_state": 1332,
+      "rule": "agreement",
+      "scope": "missing3",
+      "setting": "loose"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 9096,
+      "refusal_incorrect_state": 1404,
+      "rule": "no_loss",
+      "scope": "missing3",
+      "setting": "loose"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 10500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing3",
+      "setting": "loose"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 1280,
+      "false_completion": 764,
+      "refusal_correct_state": 7052,
+      "refusal_incorrect_state": 1404,
+      "rule": "replay",
+      "scope": "missing3",
+      "setting": "loose"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 5404,
+      "false_completion": 5096,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing3",
+      "setting": "loose"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 10,
+      "false_completion": 0,
+      "refusal_correct_state": 2176,
+      "refusal_incorrect_state": 314,
+      "rule": "agreement",
+      "scope": "missing4",
+      "setting": "loose"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 2176,
+      "refusal_incorrect_state": 324,
+      "rule": "no_loss",
+      "scope": "missing4",
+      "setting": "loose"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 2500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing4",
+      "setting": "loose"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 76,
+      "false_completion": 300,
+      "refusal_correct_state": 1876,
+      "refusal_incorrect_state": 248,
+      "rule": "replay",
+      "scope": "missing4",
+      "setting": "loose"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 324,
+      "false_completion": 2176,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing4",
+      "setting": "loose"
+    },
+    {
+      "cases": 4,
+      "correct_completion": 4,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "agreement",
+      "scope": "L0",
+      "setting": "tight"
+    },
+    {
+      "cases": 4,
+      "correct_completion": 4,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "no_loss",
+      "scope": "L0",
+      "setting": "tight"
+    },
+    {
+      "cases": 4,
+      "correct_completion": 4,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L0",
+      "setting": "tight"
+    },
+    {
+      "cases": 4,
+      "correct_completion": 4,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "replay",
+      "scope": "L0",
+      "setting": "tight"
+    },
+    {
+      "cases": 4,
+      "correct_completion": 4,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L0",
+      "setting": "tight"
+    },
+    {
+      "cases": 40,
+      "correct_completion": 30,
+      "false_completion": 0,
+      "refusal_correct_state": 6,
+      "refusal_incorrect_state": 4,
+      "rule": "agreement",
+      "scope": "L1",
+      "setting": "tight"
+    },
+    {
+      "cases": 40,
+      "correct_completion": 20,
+      "false_completion": 0,
+      "refusal_correct_state": 8,
+      "refusal_incorrect_state": 12,
+      "rule": "no_loss",
+      "scope": "L1",
+      "setting": "tight"
+    },
+    {
+      "cases": 40,
+      "correct_completion": 40,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L1",
+      "setting": "tight"
+    },
+    {
+      "cases": 40,
+      "correct_completion": 20,
+      "false_completion": 2,
+      "refusal_correct_state": 6,
+      "refusal_incorrect_state": 12,
+      "rule": "replay",
+      "scope": "L1",
+      "setting": "tight"
+    },
+    {
+      "cases": 40,
+      "correct_completion": 32,
+      "false_completion": 8,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L1",
+      "setting": "tight"
+    },
+    {
+      "cases": 400,
+      "correct_completion": 256,
+      "false_completion": 0,
+      "refusal_correct_state": 92,
+      "refusal_incorrect_state": 52,
+      "rule": "agreement",
+      "scope": "L2",
+      "setting": "tight"
+    },
+    {
+      "cases": 400,
+      "correct_completion": 100,
+      "false_completion": 0,
+      "refusal_correct_state": 192,
+      "refusal_incorrect_state": 108,
+      "rule": "no_loss",
+      "scope": "L2",
+      "setting": "tight"
+    },
+    {
+      "cases": 400,
+      "correct_completion": 400,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L2",
+      "setting": "tight"
+    },
+    {
+      "cases": 400,
+      "correct_completion": 152,
+      "false_completion": 24,
+      "refusal_correct_state": 128,
+      "refusal_incorrect_state": 96,
+      "rule": "replay",
+      "scope": "L2",
+      "setting": "tight"
+    },
+    {
+      "cases": 400,
+      "correct_completion": 288,
+      "false_completion": 112,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L2",
+      "setting": "tight"
+    },
+    {
+      "cases": 4000,
+      "correct_completion": 2508,
+      "false_completion": 0,
+      "refusal_correct_state": 1028,
+      "refusal_incorrect_state": 464,
+      "rule": "agreement",
+      "scope": "L3",
+      "setting": "tight"
+    },
+    {
+      "cases": 4000,
+      "correct_completion": 500,
+      "false_completion": 0,
+      "refusal_correct_state": 2744,
+      "refusal_incorrect_state": 756,
+      "rule": "no_loss",
+      "scope": "L3",
+      "setting": "tight"
+    },
+    {
+      "cases": 4000,
+      "correct_completion": 4000,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L3",
+      "setting": "tight"
+    },
+    {
+      "cases": 4000,
+      "correct_completion": 1344,
+      "false_completion": 218,
+      "refusal_correct_state": 1790,
+      "refusal_incorrect_state": 648,
+      "rule": "replay",
+      "scope": "L3",
+      "setting": "tight"
+    },
+    {
+      "cases": 4000,
+      "correct_completion": 2816,
+      "false_completion": 1184,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L3",
+      "setting": "tight"
+    },
+    {
+      "cases": 40000,
+      "correct_completion": 26380,
+      "false_completion": 0,
+      "refusal_correct_state": 10120,
+      "refusal_incorrect_state": 3500,
+      "rule": "agreement",
+      "scope": "L4",
+      "setting": "tight"
+    },
+    {
+      "cases": 40000,
+      "correct_completion": 2500,
+      "false_completion": 0,
+      "refusal_correct_state": 32640,
+      "refusal_incorrect_state": 4860,
+      "rule": "no_loss",
+      "scope": "L4",
+      "setting": "tight"
+    },
+    {
+      "cases": 40000,
+      "correct_completion": 40000,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L4",
+      "setting": "tight"
+    },
+    {
+      "cases": 40000,
+      "correct_completion": 12600,
+      "false_completion": 1808,
+      "refusal_correct_state": 21456,
+      "refusal_incorrect_state": 4136,
+      "rule": "replay",
+      "scope": "L4",
+      "setting": "tight"
+    },
+    {
+      "cases": 40000,
+      "correct_completion": 28800,
+      "false_completion": 11200,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L4",
+      "setting": "tight"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 23880,
+      "false_completion": 0,
+      "refusal_correct_state": 10120,
+      "refusal_incorrect_state": 3500,
+      "rule": "agreement",
+      "scope": "L4_missing",
+      "setting": "tight"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 32640,
+      "refusal_incorrect_state": 4860,
+      "rule": "no_loss",
+      "scope": "L4_missing",
+      "setting": "tight"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 37500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "L4_missing",
+      "setting": "tight"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 10100,
+      "false_completion": 1808,
+      "refusal_correct_state": 21456,
+      "refusal_incorrect_state": 4136,
+      "rule": "replay",
+      "scope": "L4_missing",
+      "setting": "tight"
+    },
+    {
+      "cases": 37500,
+      "correct_completion": 26300,
+      "false_completion": 11200,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "L4_missing",
+      "setting": "tight"
+    },
+    {
+      "cases": 44444,
+      "correct_completion": 29178,
+      "false_completion": 0,
+      "refusal_correct_state": 11246,
+      "refusal_incorrect_state": 4020,
+      "rule": "agreement",
+      "scope": "all",
+      "setting": "tight"
+    },
+    {
+      "cases": 44444,
+      "correct_completion": 3124,
+      "false_completion": 0,
+      "refusal_correct_state": 35584,
+      "refusal_incorrect_state": 5736,
+      "rule": "no_loss",
+      "scope": "all",
+      "setting": "tight"
+    },
+    {
+      "cases": 44444,
+      "correct_completion": 44444,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "all",
+      "setting": "tight"
+    },
+    {
+      "cases": 44444,
+      "correct_completion": 14120,
+      "false_completion": 2052,
+      "refusal_correct_state": 23380,
+      "refusal_incorrect_state": 4892,
+      "rule": "replay",
+      "scope": "all",
+      "setting": "tight"
+    },
+    {
+      "cases": 44444,
+      "correct_completion": 31940,
+      "false_completion": 12504,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "all",
+      "setting": "tight"
+    },
+    {
+      "cases": 3124,
+      "correct_completion": 3124,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "agreement",
+      "scope": "missing0",
+      "setting": "tight"
+    },
+    {
+      "cases": 3124,
+      "correct_completion": 3124,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "no_loss",
+      "scope": "missing0",
+      "setting": "tight"
+    },
+    {
+      "cases": 3124,
+      "correct_completion": 3124,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing0",
+      "setting": "tight"
+    },
+    {
+      "cases": 3124,
+      "correct_completion": 3124,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "replay",
+      "scope": "missing0",
+      "setting": "tight"
+    },
+    {
+      "cases": 3124,
+      "correct_completion": 3124,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing0",
+      "setting": "tight"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 10220,
+      "false_completion": 0,
+      "refusal_correct_state": 746,
+      "refusal_incorrect_state": 754,
+      "rule": "agreement",
+      "scope": "missing1",
+      "setting": "tight"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 10016,
+      "refusal_incorrect_state": 1704,
+      "rule": "no_loss",
+      "scope": "missing1",
+      "setting": "tight"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 11720,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing1",
+      "setting": "tight"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 4744,
+      "false_completion": 266,
+      "refusal_correct_state": 5006,
+      "refusal_incorrect_state": 1704,
+      "rule": "replay",
+      "scope": "missing1",
+      "setting": "tight"
+    },
+    {
+      "cases": 11720,
+      "correct_completion": 10584,
+      "false_completion": 1136,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing1",
+      "setting": "tight"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 11434,
+      "false_completion": 0,
+      "refusal_correct_state": 3432,
+      "refusal_incorrect_state": 1734,
+      "rule": "agreement",
+      "scope": "missing2",
+      "setting": "tight"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 14296,
+      "refusal_incorrect_state": 2304,
+      "rule": "no_loss",
+      "scope": "missing2",
+      "setting": "tight"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 16600,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing2",
+      "setting": "tight"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 4896,
+      "false_completion": 722,
+      "refusal_correct_state": 9446,
+      "refusal_incorrect_state": 1536,
+      "rule": "replay",
+      "scope": "missing2",
+      "setting": "tight"
+    },
+    {
+      "cases": 16600,
+      "correct_completion": 12504,
+      "false_completion": 4096,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing2",
+      "setting": "tight"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 4370,
+      "false_completion": 0,
+      "refusal_correct_state": 4902,
+      "refusal_incorrect_state": 1228,
+      "rule": "agreement",
+      "scope": "missing3",
+      "setting": "tight"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 9096,
+      "refusal_incorrect_state": 1404,
+      "rule": "no_loss",
+      "scope": "missing3",
+      "setting": "tight"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 10500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing3",
+      "setting": "tight"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 1280,
+      "false_completion": 764,
+      "refusal_correct_state": 7052,
+      "refusal_incorrect_state": 1404,
+      "rule": "replay",
+      "scope": "missing3",
+      "setting": "tight"
+    },
+    {
+      "cases": 10500,
+      "correct_completion": 5404,
+      "false_completion": 5096,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing3",
+      "setting": "tight"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 30,
+      "false_completion": 0,
+      "refusal_correct_state": 2166,
+      "refusal_incorrect_state": 304,
+      "rule": "agreement",
+      "scope": "missing4",
+      "setting": "tight"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 0,
+      "false_completion": 0,
+      "refusal_correct_state": 2176,
+      "refusal_incorrect_state": 324,
+      "rule": "no_loss",
+      "scope": "missing4",
+      "setting": "tight"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 2500,
+      "false_completion": 0,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "oracle",
+      "scope": "missing4",
+      "setting": "tight"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 76,
+      "false_completion": 300,
+      "refusal_correct_state": 1876,
+      "refusal_incorrect_state": 248,
+      "rule": "replay",
+      "scope": "missing4",
+      "setting": "tight"
+    },
+    {
+      "cases": 2500,
+      "correct_completion": 324,
+      "false_completion": 2176,
+      "refusal_correct_state": 0,
+      "refusal_incorrect_state": 0,
+      "rule": "visible",
+      "scope": "missing4",
+      "setting": "tight"
+    }
+  ],
+  "unique_observations_all_settings": 16146
+}
