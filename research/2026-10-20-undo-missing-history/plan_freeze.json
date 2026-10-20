@@ -1,0 +1,9 @@
+{
+  "frozen_at_utc": "2026-10-20T15:05:49.178111+00:00",
+  "phase": "before model execution",
+  "files": {
+    "plan.md": "3da17d83090445f192d1decff220f4e7ebc50560893222796919f4163e6e8935",
+    "config.json": "bd13e2255974b4dbc94a53659a070874fbaf62edbebd18866d7121758d8b8a77",
+    "source_search.md": "0eff657f6c9d3e9eaa11792763a06a977a463ec2acb2705a5d0d3f08cafdca99"
+  }
+}

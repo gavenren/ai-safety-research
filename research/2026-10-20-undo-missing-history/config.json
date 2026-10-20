@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-20",
+  "initial_x": [0, 1],
+  "initial_y": [0, 1],
+  "commands": ["add1", "sub1", "set0", "set1", "flip_y"],
+  "max_actual_length": 4,
+  "bound_settings": ["tight", "loose", "false"],
+  "candidate_max_length": 5,
+  "seed": null,
+  "model": "fixed-command counterfactual; ordered omission; atomic exact actions"
+}

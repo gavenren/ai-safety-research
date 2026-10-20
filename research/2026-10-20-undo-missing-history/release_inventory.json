@@ -1,0 +1,125 @@
+{
+  "base_commit": "d90d2079cfabbec718af751e9d3e1c5d817f622b",
+  "checked_at_utc": "2026-10-20T15:28:24.929058+00:00",
+  "checks": {
+    "frozen_hashes": 3,
+    "independent_review": "independent_review.md",
+    "manual_source_and_copied_text_review": true,
+    "private_string_scan": true,
+    "relative_links": 17,
+    "release_review": "release_agent_review.md",
+    "reproduced_files": 9,
+    "tables": 7
+  },
+  "files": {
+    "README.md": {
+      "bytes": 3115,
+      "sha256": "cc2a9f0b1fd95d39044c40399bb391645e0b2bf8a016726c3d933cc51adbc6da"
+    },
+    "analysis_log.json": {
+      "bytes": 407,
+      "sha256": "623707ada6d8cbe5a21e0a7b9d3a79d5a6718cb30a6c3904a09d0138e3c77f9a"
+    },
+    "analyze.py": {
+      "bytes": 13361,
+      "sha256": "4fb49bc1a2da69b1c2ce29199ddf3c0d8757fcdcb34eab35294da22160fe4bdb"
+    },
+    "changes_and_failures.md": {
+      "bytes": 1976,
+      "sha256": "50918908c4872103058eb2d25976ca0d844aef3c27f8c9c0bdfc3fb61659c4cb"
+    },
+    "config.json": {
+      "bytes": 334,
+      "sha256": "bd13e2255974b4dbc94a53659a070874fbaf62edbebd18866d7121758d8b8a77"
+    },
+    "environment.json": {
+      "bytes": 569,
+      "sha256": "3aa31062fc29f4755af894c65c3ba9e4afe21760f22726efccfe1ec925de6334"
+    },
+    "independent_check.py": {
+      "bytes": 21266,
+      "sha256": "35b93d793a2ba983ab43ce3413882d2f45af3bb5facce289c8a54acbbc4ef940"
+    },
+    "independent_review.md": {
+      "bytes": 4952,
+      "sha256": "a12764a90da2c670961be54839fc8dc7fb62b63bdd15877055041b84e0f347d2"
+    },
+    "independent_run.log": {
+      "bytes": 1162,
+      "sha256": "eaa171bb0b865117f6d45f3e8aff6effc693a17df333dae27058c577e04398e1"
+    },
+    "plan.md": {
+      "bytes": 7534,
+      "sha256": "3da17d83090445f192d1decff220f4e7ebc50560893222796919f4163e6e8935"
+    },
+    "plan_freeze.json": {
+      "bytes": 374,
+      "sha256": "fe438a306f1eb02d78b90253bad506b544acb24d2f64b251734e3b2e48cc5f0c"
+    },
+    "references.bib": {
+      "bytes": 1959,
+      "sha256": "eb66d69b23f1b25b381b8bf1898fbed173e32e8accaaa8c8b016646ed6f78017"
+    },
+    "release_agent_review.md": {
+      "bytes": 4595,
+      "sha256": "3469c3a7026eba72cedf9c8d87387074944f0593182fa4712ca63f1a5d380f0d"
+    },
+    "report.md": {
+      "bytes": 19333,
+      "sha256": "2476dfc5dc6dfacf5a6a4ee906ce8f3ce07c27d82de94f0fabf37a1c2c4d14e6"
+    },
+    "reproduce.py": {
+      "bytes": 2453,
+      "sha256": "287d202cf8167f7a53c07585b66e15a0bdc28d7753b534677e44bfec26c302d0"
+    },
+    "reproduction_check.json": {
+      "bytes": 3728,
+      "sha256": "64a3b6785e7f6e2dc0ba3d334d3913ab0fc280c72d7c3a3335dcec370f4ff7a4"
+    },
+    "results/cases.jsonl": {
+      "bytes": 6691674,
+      "sha256": "f69c1e99632528a2ffee71c8b939e089af2a701b5e58fabb23ee09770164f8fd"
+    },
+    "results/controls.json": {
+      "bytes": 345,
+      "sha256": "d6a87f85ab6e850a25ea98c2f80b5a563f6588f5de312435b3b5f4819a8955e9"
+    },
+    "results/decisions.jsonl": {
+      "bytes": 6854138,
+      "sha256": "db1a532441584816cd56febd80f151d6f265985ace493508bd137a26e57d44a3"
+    },
+    "results/independent_check.json": {
+      "bytes": 1250,
+      "sha256": "9ad617fd18fe335f63b9b8ab6d5f435b8344b248d14c91e98246d17107143ec3"
+    },
+    "results/independent_summary.json": {
+      "bytes": 44529,
+      "sha256": "83bdb7ea11053af43a428ebdbe42600aa833c6d4a7e17c72ca6a7d4f332b983c"
+    },
+    "results/output_hashes.json": {
+      "bytes": 523,
+      "sha256": "7a06b9ae68418eaa0d72faac37076fcc1f8d3ac75fb7894037a079c662f71989"
+    },
+    "results/summary.csv": {
+      "bytes": 7025,
+      "sha256": "95fb2985ced0d18132003a59fdff091feccab319d128cbed4a20c72805a5424d"
+    },
+    "results/summary.json": {
+      "bytes": 42568,
+      "sha256": "7417d4580366e2a927b8363fd07fb88e1bef34cf2d1bb8074ac401202a00eef2"
+    },
+    "results/witnesses.json": {
+      "bytes": 7310,
+      "sha256": "8a201cd97e4c69a66c1353bd27a86ae222c2ed0ad4c20d8aae885efde586f7ef"
+    },
+    "review_checklist.md": {
+      "bytes": 2845,
+      "sha256": "085c3e0240860d9b95142e0d38d547ad91c98e39051ef4e95b984359394a1ee8"
+    },
+    "source_search.md": {
+      "bytes": 11453,
+      "sha256": "0eff657f6c9d3e9eaa11792763a06a977a463ec2acb2705a5d0d3f08cafdca99"
+    }
+  },
+  "status": "PASS for local publication checks"
+}

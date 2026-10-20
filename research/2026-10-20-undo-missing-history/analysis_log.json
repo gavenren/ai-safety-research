@@ -1,0 +1,9 @@
+{
+  "started_at_utc": "2026-10-20T15:07:36.658533+00:00",
+  "finished_at_utc": "2026-10-20T15:07:39.158957+00:00",
+  "elapsed_seconds": 2.5004576659999884,
+  "command": "python3 analyze.py",
+  "exit_code": 0,
+  "stdout": "{\"cases\": 44444, \"controls\": 12, \"hypotheses\": {\"H1\": true, \"H2\": true, \"H3\": true, \"H4\": true, \"H5\": true, \"H6\": true}, \"observations\": 16146}\n",
+  "stderr": ""
+}
