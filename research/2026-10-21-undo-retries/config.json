@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "date": "2026-10-21",
+  "initial_values": [0, 1],
+  "alphabet": ["x_add1", "x_sub1", "y_add1", "y_sub1"],
+  "cuts": [0, 1, 2, 3, 4],
+  "settings": [
+    {"name": "no_fault", "crashes": 0, "max_word_length": 0},
+    {"name": "one_crash", "crashes": 1, "max_word_length": 2},
+    {"name": "two_crashes", "crashes": 2, "max_word_length": 1}
+  ],
+  "rules": ["restart_inverse", "before_inverse", "after_inverse", "after_set", "stop_on_uncertainty", "atomic_inverse", "atomic_set"],
+  "expected_cases": {"no_fault": 4, "one_crash": 420, "two_crashes": 2500},
+  "cpu_limit_seconds": 600
+}

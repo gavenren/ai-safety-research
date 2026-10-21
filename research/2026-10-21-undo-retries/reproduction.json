@@ -1,0 +1,23 @@
+[
+  {
+    "command": "python3 study.py --out repeat/main",
+    "exit_code": 0,
+    "wall_seconds": 2.3139297909983725,
+    "stdout": "{\"cases\": {\"no_fault\": 4, \"one_crash\": 420, \"two_crashes\": 2500}, \"outcomes\": 20468, \"controls\": 12, \"hypotheses\": {\"H1\": true, \"H2\": true, \"H3\": true, \"H4\": true, \"H5\": true, \"H6\": true}, \"cpu_seconds\": 2.141434}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python3 independent.py --out repeat/independent --compare repeat/main/outcomes.csv",
+    "exit_code": 0,
+    "wall_seconds": 0.3961167920024309,
+    "stdout": "{\"atomic_inverse_case_checks\": 2924, \"case_counts\": {\"no_fault\": 4, \"one_crash\": 420, \"two_crashes\": 2500}, \"cases\": 2924, \"comparison\": {\"matched_fields\": 429828, \"matched_rows\": 20468, \"status\": \"pass\"}, \"hand_controls\": [\"saved_intent_omits_effect\", \"effect_before_marker_repeats\", \"unmarked_restart_repeats_both\", \"repeated_assignment_removes_later_edit\", \"single_atomic_assignment_removes_later_edit\", \"atomic_inverse_preserves_later_edit\", \"stop_refuses_after_unmarked_completed_effect\", \"stop_claims_after_complete_durable_pair\", \"unchanged_assignment_is_still_an_application\"], \"implementation_sha256\": \"3a2d9723bca34a9ffb1d19ded14f06d0e722dcb9cb44f1868512c44d7cc59aaa\", \"inverse_field_identities\": 29240, \"method\": \"whole-field prefix equations; no volatile slot-state machine\", \"outcomes\": 20468, \"outcomes_sha256\": \"741c72b8eae69f1f08a4e15f0dbce392569658c7cedbbe54f2e5ccd98909b792\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python3 validate.py --results repeat/main --reference results",
+    "exit_code": 0,
+    "wall_seconds": 1.0038062919993536,
+    "stdout": "{\n  \"status\": \"pass\",\n  \"frozen_files\": 3,\n  \"cases\": 2924,\n  \"outcomes\": 20468,\n  \"trace_events\": 328076,\n  \"summary_rows\": 42,\n  \"paired_rows\": 35,\n  \"witnesses\": 14,\n  \"report_tables\": 5,\n  \"result_table_cells\": 70,\n  \"deterministic_files_equal\": [\n    \"cases.jsonl\",\n    \"outcomes.csv\",\n    \"traces.jsonl.gz\",\n    \"summary.csv\",\n    \"summary.json\",\n    \"pairs.json\",\n    \"witnesses.json\",\n    \"checks.json\"\n  ]\n}\n",
+    "stderr": ""
+  }
+]

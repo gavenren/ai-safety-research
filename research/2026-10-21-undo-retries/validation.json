@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "frozen_files": 3,
+  "cases": 2924,
+  "outcomes": 20468,
+  "trace_events": 328076,
+  "summary_rows": 42,
+  "paired_rows": 35,
+  "witnesses": 14,
+  "report_tables": 5,
+  "result_table_cells": 70,
+  "deterministic_files_equal": [
+    "cases.jsonl",
+    "outcomes.csv",
+    "traces.jsonl.gz",
+    "summary.csv",
+    "summary.json",
+    "pairs.json",
+    "witnesses.json",
+    "checks.json"
+  ]
+}

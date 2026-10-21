@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-21T15:47:34.497353+00:00",
+  "status": "pass",
+  "files_scanned": 28,
+  "relative_links_checked": 23,
+  "common_credential_email_home_path_matches": 0,
+  "compressed_traces_scanned": true,
+  "limits": "Limited pattern scan and separate manual content review; not a complete security or legal audit.",
+  "content_review": "release_review.md",
+  "remote_status": "pending upload and independent remote verification"
+}

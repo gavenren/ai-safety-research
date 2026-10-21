@@ -1,0 +1,13 @@
+{
+  "saved_at_utc": "2026-10-21T15:40:58.678220+00:00",
+  "implementation": "independent.py",
+  "implementation_sha256": "3a2d9723bca34a9ffb1d19ded14f06d0e722dcb9cb44f1868512c44d7cc59aaa",
+  "inputs_read": [
+    "plan.md",
+    "config.json"
+  ],
+  "main_code_or_results_read": false,
+  "strategy": "Whole-field prefix equations with no volatile slot-state machine.",
+  "plan_sha256": "00ef52e05da44665a23377cdcfdce4fc8d7b1d2f2c63d558185339b84660762f",
+  "config_sha256": "2a7780c32db4b4e54614dc9091d1eee17a907544a9ee1bd7eaaed91e316c3a94"
+}
