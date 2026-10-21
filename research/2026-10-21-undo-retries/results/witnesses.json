@@ -1,0 +1,3635 @@
+{
+  "after_inverse:correct_completion": {
+    "case": {
+      "case_id": 1,
+      "cuts": [],
+      "external": [],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "no_fault",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "changes": [
+          1,
+          1
+        ],
+        "claim": 1,
+        "correct": 1,
+        "done": [
+          1,
+          1
+        ],
+        "event": "audit",
+        "outcome": "correct_completion",
+        "stopped": 0,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          0,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 1,
+      "applications_y": 1,
+      "case_id": 1,
+      "changes_x": 1,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 1,
+      "done_x": 1,
+      "done_y": 1,
+      "final_x": 0,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "correct_completion",
+      "repeated": 0,
+      "rule": "after_inverse",
+      "setting": "no_fault",
+      "stopped": 0,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "after_inverse:false_completion": {
+    "case": {
+      "case_id": 26,
+      "cuts": [
+        1
+      ],
+      "external": [
+        []
+      ],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "one_crash",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 1,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 1,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "cut": 1,
+        "done": [
+          0,
+          0
+        ],
+        "event": "crash",
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          2,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          2,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          -1,
+          1
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          2,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          2,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          -1,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          2,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          2,
+          1
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          -1,
+          0
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          2,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          2,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          -1,
+          0
+        ]
+      },
+      {
+        "applications": [
+          2,
+          1
+        ],
+        "changes": [
+          2,
+          1
+        ],
+        "claim": 1,
+        "correct": 0,
+        "done": [
+          1,
+          1
+        ],
+        "event": "audit",
+        "outcome": "false_completion",
+        "stopped": 0,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          -1,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 2,
+      "applications_y": 1,
+      "case_id": 26,
+      "changes_x": 2,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 0,
+      "done_x": 1,
+      "done_y": 1,
+      "final_x": -1,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "false_completion",
+      "repeated": 1,
+      "rule": "after_inverse",
+      "setting": "one_crash",
+      "stopped": 0,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "after_set:correct_completion": {
+    "case": {
+      "case_id": 1,
+      "cuts": [],
+      "external": [],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "no_fault",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "changes": [
+          1,
+          1
+        ],
+        "claim": 1,
+        "correct": 1,
+        "done": [
+          1,
+          1
+        ],
+        "event": "audit",
+        "outcome": "correct_completion",
+        "stopped": 0,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          0,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 1,
+      "applications_y": 1,
+      "case_id": 1,
+      "changes_x": 1,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 1,
+      "done_x": 1,
+      "done_y": 1,
+      "final_x": 0,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "correct_completion",
+      "repeated": 0,
+      "rule": "after_set",
+      "setting": "no_fault",
+      "stopped": 0,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "after_set:false_completion": {
+    "case": {
+      "case_id": 6,
+      "cuts": [
+        0
+      ],
+      "external": [
+        [
+          "x_add1"
+        ]
+      ],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": false,
+      "setting": "one_crash",
+      "target": [
+        1,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 0,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 1,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 0,
+        "done": [
+          0,
+          0
+        ],
+        "event": "crash",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "command": "x_add1",
+        "done": [
+          0,
+          0
+        ],
+        "event": "external",
+        "stopped": 0,
+        "value": [
+          2,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          2,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "changes": [
+          1,
+          1
+        ],
+        "claim": 1,
+        "correct": 0,
+        "done": [
+          1,
+          1
+        ],
+        "event": "audit",
+        "outcome": "false_completion",
+        "stopped": 0,
+        "target": [
+          1,
+          0
+        ],
+        "value": [
+          0,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 1,
+      "applications_y": 1,
+      "case_id": 6,
+      "changes_x": 1,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 0,
+      "done_x": 1,
+      "done_y": 1,
+      "final_x": 0,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "false_completion",
+      "repeated": 0,
+      "rule": "after_set",
+      "setting": "one_crash",
+      "stopped": 0,
+      "target_x": 1,
+      "target_y": 0
+    }
+  },
+  "atomic_inverse:correct_completion": {
+    "case": {
+      "case_id": 1,
+      "cuts": [],
+      "external": [],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "no_fault",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "atomic_effect_and_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "atomic_effect_and_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "changes": [
+          1,
+          1
+        ],
+        "claim": 1,
+        "correct": 1,
+        "done": [
+          1,
+          1
+        ],
+        "event": "audit",
+        "outcome": "correct_completion",
+        "stopped": 0,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          0,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 1,
+      "applications_y": 1,
+      "case_id": 1,
+      "changes_x": 1,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 1,
+      "done_x": 1,
+      "done_y": 1,
+      "final_x": 0,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "correct_completion",
+      "repeated": 0,
+      "rule": "atomic_inverse",
+      "setting": "no_fault",
+      "stopped": 0,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "atomic_set:correct_completion": {
+    "case": {
+      "case_id": 1,
+      "cuts": [],
+      "external": [],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "no_fault",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "atomic_effect_and_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "atomic_effect_and_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "changes": [
+          1,
+          1
+        ],
+        "claim": 1,
+        "correct": 1,
+        "done": [
+          1,
+          1
+        ],
+        "event": "audit",
+        "outcome": "correct_completion",
+        "stopped": 0,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          0,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 1,
+      "applications_y": 1,
+      "case_id": 1,
+      "changes_x": 1,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 1,
+      "done_x": 1,
+      "done_y": 1,
+      "final_x": 0,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "correct_completion",
+      "repeated": 0,
+      "rule": "atomic_set",
+      "setting": "no_fault",
+      "stopped": 0,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "atomic_set:false_completion": {
+    "case": {
+      "case_id": 6,
+      "cuts": [
+        0
+      ],
+      "external": [
+        [
+          "x_add1"
+        ]
+      ],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": false,
+      "setting": "one_crash",
+      "target": [
+        1,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 0,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 1,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 0,
+        "done": [
+          0,
+          0
+        ],
+        "event": "crash",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "command": "x_add1",
+        "done": [
+          0,
+          0
+        ],
+        "event": "external",
+        "stopped": 0,
+        "value": [
+          2,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          2,
+          1
+        ]
+      },
+      {
+        "action": "atomic_effect_and_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "atomic_effect_and_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "changes": [
+          1,
+          1
+        ],
+        "claim": 1,
+        "correct": 0,
+        "done": [
+          1,
+          1
+        ],
+        "event": "audit",
+        "outcome": "false_completion",
+        "stopped": 0,
+        "target": [
+          1,
+          0
+        ],
+        "value": [
+          0,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 1,
+      "applications_y": 1,
+      "case_id": 6,
+      "changes_x": 1,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 0,
+      "done_x": 1,
+      "done_y": 1,
+      "final_x": 0,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "false_completion",
+      "repeated": 0,
+      "rule": "atomic_set",
+      "setting": "one_crash",
+      "stopped": 0,
+      "target_x": 1,
+      "target_y": 0
+    }
+  },
+  "before_inverse:correct_completion": {
+    "case": {
+      "case_id": 1,
+      "cuts": [],
+      "external": [],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "no_fault",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "early_done",
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "effect_after_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "early_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "effect_after_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "changes": [
+          1,
+          1
+        ],
+        "claim": 1,
+        "correct": 1,
+        "done": [
+          1,
+          1
+        ],
+        "event": "audit",
+        "outcome": "correct_completion",
+        "stopped": 0,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          0,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 1,
+      "applications_y": 1,
+      "case_id": 1,
+      "changes_x": 1,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 1,
+      "done_x": 1,
+      "done_y": 1,
+      "final_x": 0,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "correct_completion",
+      "repeated": 0,
+      "rule": "before_inverse",
+      "setting": "no_fault",
+      "stopped": 0,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "before_inverse:false_completion": {
+    "case": {
+      "case_id": 26,
+      "cuts": [
+        1
+      ],
+      "external": [
+        []
+      ],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "one_crash",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 1,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 1,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "early_done",
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 1,
+        "done": [
+          1,
+          0
+        ],
+        "event": "crash",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          1,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "already_done",
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "early_done",
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          1
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "effect_after_done",
+        "applications": [
+          0,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          1
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          1,
+          0
+        ]
+      },
+      {
+        "applications": [
+          0,
+          1
+        ],
+        "changes": [
+          0,
+          1
+        ],
+        "claim": 1,
+        "correct": 0,
+        "done": [
+          1,
+          1
+        ],
+        "event": "audit",
+        "outcome": "false_completion",
+        "stopped": 0,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          1,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 0,
+      "applications_y": 1,
+      "case_id": 26,
+      "changes_x": 0,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 0,
+      "done_x": 1,
+      "done_y": 1,
+      "final_x": 1,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 1,
+      "outcome": "false_completion",
+      "repeated": 0,
+      "rule": "before_inverse",
+      "setting": "one_crash",
+      "stopped": 0,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "restart_inverse:correct_completion": {
+    "case": {
+      "case_id": 1,
+      "cuts": [],
+      "external": [],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "no_fault",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "inverse",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "inverse",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "changes": [
+          1,
+          1
+        ],
+        "claim": 1,
+        "correct": 1,
+        "done": [
+          0,
+          0
+        ],
+        "event": "audit",
+        "outcome": "correct_completion",
+        "stopped": 0,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          0,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 1,
+      "applications_y": 1,
+      "case_id": 1,
+      "changes_x": 1,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 1,
+      "done_x": 0,
+      "done_y": 0,
+      "final_x": 0,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "correct_completion",
+      "repeated": 0,
+      "rule": "restart_inverse",
+      "setting": "no_fault",
+      "stopped": 0,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "restart_inverse:false_completion": {
+    "case": {
+      "case_id": 26,
+      "cuts": [
+        1
+      ],
+      "external": [
+        []
+      ],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "one_crash",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 1,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 1,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "inverse",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "cut": 1,
+        "done": [
+          0,
+          0
+        ],
+        "event": "crash",
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "inverse",
+        "applications": [
+          2,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          2,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          -1,
+          1
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          2,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          2,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          -1,
+          1
+        ]
+      },
+      {
+        "action": "inverse",
+        "applications": [
+          2,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          2,
+          1
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          -1,
+          0
+        ]
+      },
+      {
+        "action": "padding",
+        "applications": [
+          2,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          2,
+          1
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          -1,
+          0
+        ]
+      },
+      {
+        "applications": [
+          2,
+          1
+        ],
+        "changes": [
+          2,
+          1
+        ],
+        "claim": 1,
+        "correct": 0,
+        "done": [
+          0,
+          0
+        ],
+        "event": "audit",
+        "outcome": "false_completion",
+        "stopped": 0,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          -1,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 2,
+      "applications_y": 1,
+      "case_id": 26,
+      "changes_x": 2,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 0,
+      "done_x": 0,
+      "done_y": 0,
+      "final_x": -1,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "false_completion",
+      "repeated": 1,
+      "rule": "restart_inverse",
+      "setting": "one_crash",
+      "stopped": 0,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "stop_on_uncertainty:correct_completion": {
+    "case": {
+      "case_id": 1,
+      "cuts": [],
+      "external": [],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "no_fault",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          1
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 4,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "changes": [
+          1,
+          1
+        ],
+        "claim": 1,
+        "correct": 1,
+        "done": [
+          1,
+          1
+        ],
+        "event": "audit",
+        "outcome": "correct_completion",
+        "stopped": 0,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          0,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 1,
+      "applications_y": 1,
+      "case_id": 1,
+      "changes_x": 1,
+      "changes_y": 1,
+      "claim": 1,
+      "correct": 1,
+      "done_x": 1,
+      "done_y": 1,
+      "final_x": 0,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "correct_completion",
+      "repeated": 0,
+      "rule": "stop_on_uncertainty",
+      "setting": "no_fault",
+      "stopped": 0,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "stop_on_uncertainty:refusal_correct": {
+    "case": {
+      "case_id": 68,
+      "cuts": [
+        3
+      ],
+      "external": [
+        []
+      ],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "one_crash",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 3,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 1,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 1,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "late_done",
+        "applications": [
+          1,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          0
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          0
+        ],
+        "slot": 2,
+        "stopped": 0,
+        "value": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "effect_without_done",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          1,
+          1
+        ],
+        "slot": 3,
+        "stopped": 0,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 0,
+        "changes": [
+          1,
+          1
+        ],
+        "cut": 3,
+        "done": [
+          1,
+          0
+        ],
+        "event": "crash",
+        "stopped": 1,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          1
+        ],
+        "cut": 4,
+        "done": [
+          1,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 1,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "stopped",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 1,
+        "stopped": 1,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "stopped",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 2,
+        "stopped": 1,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "stopped",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 3,
+        "stopped": 1,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "action": "stopped",
+        "applications": [
+          1,
+          1
+        ],
+        "attempt": 1,
+        "changes": [
+          1,
+          1
+        ],
+        "done": [
+          1,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 4,
+        "stopped": 1,
+        "value": [
+          0,
+          0
+        ]
+      },
+      {
+        "applications": [
+          1,
+          1
+        ],
+        "changes": [
+          1,
+          1
+        ],
+        "claim": 0,
+        "correct": 1,
+        "done": [
+          1,
+          0
+        ],
+        "event": "audit",
+        "outcome": "refusal_correct",
+        "stopped": 1,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          0,
+          0
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 1,
+      "applications_y": 1,
+      "case_id": 68,
+      "changes_x": 1,
+      "changes_y": 1,
+      "claim": 0,
+      "correct": 1,
+      "done_x": 1,
+      "done_y": 0,
+      "final_x": 0,
+      "final_y": 0,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 0,
+      "outcome": "refusal_correct",
+      "repeated": 0,
+      "rule": "stop_on_uncertainty",
+      "setting": "one_crash",
+      "stopped": 1,
+      "target_x": 0,
+      "target_y": 0
+    }
+  },
+  "stop_on_uncertainty:refusal_incorrect": {
+    "case": {
+      "case_id": 5,
+      "cuts": [
+        0
+      ],
+      "external": [
+        []
+      ],
+      "initial": [
+        0,
+        0
+      ],
+      "no_external": true,
+      "setting": "one_crash",
+      "target": [
+        0,
+        0
+      ]
+    },
+    "events": [
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "start",
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 0,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 1,
+        "stopped": 0,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 0,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 0,
+        "done": [
+          0,
+          0
+        ],
+        "event": "crash",
+        "stopped": 1,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "cut": 4,
+        "done": [
+          0,
+          0
+        ],
+        "event": "attempt_start",
+        "interrupted": 0,
+        "stopped": 1,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "stopped",
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 1,
+        "stopped": 1,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "stopped",
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 2,
+        "stopped": 1,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "stopped",
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 3,
+        "stopped": 1,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "action": "stopped",
+        "applications": [
+          0,
+          0
+        ],
+        "attempt": 1,
+        "changes": [
+          0,
+          0
+        ],
+        "done": [
+          0,
+          0
+        ],
+        "event": "slot",
+        "pending": [
+          0,
+          0
+        ],
+        "slot": 4,
+        "stopped": 1,
+        "value": [
+          1,
+          1
+        ]
+      },
+      {
+        "applications": [
+          0,
+          0
+        ],
+        "changes": [
+          0,
+          0
+        ],
+        "claim": 0,
+        "correct": 0,
+        "done": [
+          0,
+          0
+        ],
+        "event": "audit",
+        "outcome": "refusal_incorrect",
+        "stopped": 1,
+        "target": [
+          0,
+          0
+        ],
+        "value": [
+          1,
+          1
+        ]
+      }
+    ],
+    "result": {
+      "applications_x": 0,
+      "applications_y": 0,
+      "case_id": 5,
+      "changes_x": 0,
+      "changes_y": 0,
+      "claim": 0,
+      "correct": 0,
+      "done_x": 0,
+      "done_y": 0,
+      "final_x": 1,
+      "final_y": 1,
+      "initial_x": 0,
+      "initial_y": 0,
+      "omitted": 1,
+      "outcome": "refusal_incorrect",
+      "repeated": 0,
+      "rule": "stop_on_uncertainty",
+      "setting": "one_crash",
+      "stopped": 1,
+      "target_x": 0,
+      "target_y": 0
+    }
+  }
+}

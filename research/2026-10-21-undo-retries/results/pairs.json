@@ -1,0 +1,247 @@
+[
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 4,
+    "outcome": "correct_completion",
+    "rule": "restart_inverse",
+    "setting": "no_fault"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 4,
+    "outcome": "correct_completion",
+    "rule": "before_inverse",
+    "setting": "no_fault"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 4,
+    "outcome": "correct_completion",
+    "rule": "after_inverse",
+    "setting": "no_fault"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 4,
+    "outcome": "correct_completion",
+    "rule": "after_set",
+    "setting": "no_fault"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 4,
+    "outcome": "correct_completion",
+    "rule": "stop_on_uncertainty",
+    "setting": "no_fault"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 4,
+    "outcome": "correct_completion",
+    "rule": "atomic_inverse",
+    "setting": "no_fault"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 4,
+    "outcome": "correct_completion",
+    "rule": "atomic_set",
+    "setting": "no_fault"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 84,
+    "outcome": "correct_completion",
+    "rule": "restart_inverse",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 252,
+    "outcome": "correct_completion",
+    "rule": "before_inverse",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 252,
+    "outcome": "correct_completion",
+    "rule": "after_inverse",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 196,
+    "outcome": "correct_completion",
+    "rule": "after_set",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 252,
+    "outcome": "refusal_incorrect",
+    "rule": "stop_on_uncertainty",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 420,
+    "outcome": "correct_completion",
+    "rule": "atomic_inverse",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 260,
+    "outcome": "correct_completion",
+    "rule": "atomic_set",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 224,
+    "outcome": "false_completion",
+    "rule": "after_set",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 160,
+    "outcome": "false_completion",
+    "rule": "atomic_set",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 336,
+    "outcome": "false_completion",
+    "rule": "restart_inverse",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 168,
+    "outcome": "false_completion",
+    "rule": "before_inverse",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 168,
+    "outcome": "false_completion",
+    "rule": "after_inverse",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 84,
+    "outcome": "refusal_correct",
+    "rule": "stop_on_uncertainty",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 84,
+    "outcome": "correct_completion",
+    "rule": "stop_on_uncertainty",
+    "setting": "one_crash"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 100,
+    "outcome": "correct_completion",
+    "rule": "restart_inverse",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 1200,
+    "outcome": "correct_completion",
+    "rule": "before_inverse",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 1200,
+    "outcome": "correct_completion",
+    "rule": "after_inverse",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 1172,
+    "outcome": "correct_completion",
+    "rule": "after_set",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 1500,
+    "outcome": "refusal_incorrect",
+    "rule": "stop_on_uncertainty",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 2500,
+    "outcome": "correct_completion",
+    "rule": "atomic_inverse",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 1604,
+    "outcome": "correct_completion",
+    "rule": "atomic_set",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 1328,
+    "outcome": "false_completion",
+    "rule": "after_set",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 896,
+    "outcome": "false_completion",
+    "rule": "atomic_set",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 2400,
+    "outcome": "false_completion",
+    "rule": "restart_inverse",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 1300,
+    "outcome": "false_completion",
+    "rule": "before_inverse",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 1300,
+    "outcome": "false_completion",
+    "rule": "after_inverse",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 500,
+    "outcome": "refusal_correct",
+    "rule": "stop_on_uncertainty",
+    "setting": "two_crashes"
+  },
+  {
+    "atomic_outcome": "correct_completion",
+    "n": 500,
+    "outcome": "correct_completion",
+    "rule": "stop_on_uncertainty",
+    "setting": "two_crashes"
+  }
+]

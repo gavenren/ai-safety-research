@@ -1,0 +1,183 @@
+{
+  "case_counts": {
+    "no_fault": 4,
+    "one_crash": 420,
+    "two_crashes": 2500
+  },
+  "controls": [
+    {
+      "cut": 1,
+      "expected": {
+        "applications_x": 2,
+        "applications_y": 1,
+        "final_x": -1,
+        "final_y": 0,
+        "outcome": "false_completion"
+      },
+      "external": [],
+      "passed": true,
+      "rule": "restart_inverse"
+    },
+    {
+      "cut": 1,
+      "expected": {
+        "applications_x": 0,
+        "applications_y": 1,
+        "final_x": 1,
+        "final_y": 0,
+        "outcome": "false_completion"
+      },
+      "external": [],
+      "passed": true,
+      "rule": "before_inverse"
+    },
+    {
+      "cut": 1,
+      "expected": {
+        "applications_x": 2,
+        "applications_y": 1,
+        "final_x": -1,
+        "final_y": 0,
+        "outcome": "false_completion"
+      },
+      "external": [],
+      "passed": true,
+      "rule": "after_inverse"
+    },
+    {
+      "cut": 1,
+      "expected": {
+        "applications_x": 2,
+        "changes_x": 1,
+        "final_x": 0,
+        "final_y": 0,
+        "outcome": "correct_completion"
+      },
+      "external": [],
+      "passed": true,
+      "rule": "after_set"
+    },
+    {
+      "cut": 1,
+      "expected": {
+        "done_x": 0,
+        "done_y": 0,
+        "final_x": 0,
+        "final_y": 1,
+        "outcome": "refusal_incorrect"
+      },
+      "external": [],
+      "passed": true,
+      "rule": "stop_on_uncertainty"
+    },
+    {
+      "cut": 3,
+      "expected": {
+        "done_x": 1,
+        "done_y": 0,
+        "final_x": 0,
+        "final_y": 0,
+        "outcome": "refusal_correct"
+      },
+      "external": [],
+      "passed": true,
+      "rule": "stop_on_uncertainty"
+    },
+    {
+      "cut": 1,
+      "expected": {
+        "applications_x": 1,
+        "applications_y": 1,
+        "final_x": 1,
+        "final_y": 0,
+        "outcome": "correct_completion"
+      },
+      "external": [
+        "x_add1"
+      ],
+      "passed": true,
+      "rule": "atomic_inverse"
+    },
+    {
+      "cut": 1,
+      "expected": {
+        "applications_x": 2,
+        "final_x": 0,
+        "final_y": 0,
+        "outcome": "false_completion"
+      },
+      "external": [
+        "x_add1"
+      ],
+      "passed": true,
+      "rule": "after_set"
+    },
+    {
+      "cut": 0,
+      "expected": {
+        "applications_x": 1,
+        "applications_y": 1,
+        "final_x": 0,
+        "final_y": 0,
+        "outcome": "false_completion"
+      },
+      "external": [
+        "x_add1"
+      ],
+      "passed": true,
+      "rule": "atomic_set"
+    },
+    {
+      "cut": 4,
+      "expected": {
+        "final_x": 1,
+        "final_y": 0,
+        "outcome": "correct_completion"
+      },
+      "external": [
+        "x_add1"
+      ],
+      "passed": true,
+      "rule": "atomic_set"
+    },
+    {
+      "cut": 4,
+      "expected": {
+        "final_x": 1,
+        "final_y": 0,
+        "outcome": "correct_completion",
+        "stopped": 1
+      },
+      "external": [
+        "x_add1"
+      ],
+      "passed": true,
+      "rule": "stop_on_uncertainty"
+    },
+    {
+      "cut": 0,
+      "expected": {
+        "final_x": 0,
+        "final_y": 0,
+        "outcome": "correct_completion"
+      },
+      "external": [
+        "x_add1",
+        "x_sub1"
+      ],
+      "passed": true,
+      "rule": "after_set"
+    }
+  ],
+  "frozen_inputs_match": true,
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true,
+    "H6": true
+  },
+  "inverse_identity_checks": 29240,
+  "outcomes": 20468
+}
