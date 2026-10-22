@@ -1,0 +1,1794 @@
+{
+  "calendar_scope": "All connector reads were issued through the selected primary calendar. Saved browser URLs and native event IDs were checked; no secondary calendar coverage is claimed.",
+  "cases": [
+    {
+      "all_saved_states_valid": false,
+      "baseline_to_last_read_seconds": 50.918,
+      "case_id": "ORDER-W-F",
+      "condition": "W",
+      "issues": [],
+      "metadata": {
+        "all_other_exposed_fields_unchanged": true,
+        "baseline_batch_to_initial_editor_seconds": 124.576,
+        "baseline_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "baseline_scope": "One full pre-run connector batch. Each case then has a fresh browser baseline. No immediate per-case full connector baseline is claimed.",
+        "baseline_time": "2026-10-22T16:22:59.301Z",
+        "evidence": [
+          {
+            "file": "order-fresh-baselines.json",
+            "sha256": "d5a1fabf0bdf913d1a316670a4655c6f2cada620fca6ade2ec89d5241c2f018c"
+          },
+          {
+            "file": "order-final-ORDER-W-F.json",
+            "sha256": "d9fcc225faadfa8d4baac53bb7975b2bdcabe005a17cd0bec149a92219d7448b"
+          }
+        ],
+        "final_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "final_connector_after_last_write_UI": true,
+        "final_connector_precedes_last_read_only_check": false,
+        "final_time": "2026-10-22T16:26:19.139Z",
+        "unchanged_field_names": [
+          "attachments",
+          "attendees",
+          "color_id",
+          "display_url",
+          "end",
+          "event_label_id",
+          "event_type",
+          "guests_can_modify",
+          "hangout_link",
+          "id",
+          "locked",
+          "organizer",
+          "original_start_time",
+          "recurrence",
+          "recurring_event_id",
+          "reminders",
+          "start",
+          "status",
+          "transparency",
+          "url",
+          "visibility"
+        ]
+      },
+      "points": [
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-W-F-0.json",
+            "sha256": "fcec637dfc913fa26eb299db62d4172df309ee937f5c8b215060a95c5267bf48"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-W-F-0-editor.json",
+            "sha256": "d8472f195a786a17ff92a51d07007c456a396c74f36c232a1833f054de339fa1"
+          },
+          "issues": [],
+          "n": 0,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "111",
+            "time": "2026-10-22T16:25:03.877Z",
+            "verified": true
+          },
+          "observed_state": "111",
+          "predicted_state": "111",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-W-F-1.json",
+            "sha256": "1a828db26fdc8b945ef77a512c87c2285a705f096726006d4d0d6314d5db8844"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-W-F-1-editor.json",
+            "sha256": "5e249bec3e14ec68ef132e25cf450c10c9bf12e7a8825dd18cb7a8471a5c3603"
+          },
+          "issues": [],
+          "n": 1,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "101",
+            "time": "2026-10-22T16:25:21.730Z",
+            "verified": true
+          },
+          "observed_state": "101",
+          "predicted_state": "101",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-W-F-2.json",
+            "sha256": "2e735565b712b6fda6fb317dc626c6f0f5877b9a5ba2a128aebe794db0c01dec"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-W-F-2-editor.json",
+            "sha256": "2067930fb73dc85cdbdd52ee94dfb51a1579ca6f7d29c8deb73b6630c747e62e"
+          },
+          "issues": [],
+          "n": 2,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "001",
+            "time": "2026-10-22T16:25:37.884Z",
+            "verified": true
+          },
+          "observed_state": "001",
+          "predicted_state": "001",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-W-F-3.json",
+            "sha256": "282807dfd29f5c4d061289465ed6f7dcb58ace8f038a54ed1250cf236d36b2e5"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-W-F-3-editor.json",
+            "sha256": "fa315631e2cbbe06eebca87bfb2bcb70a0f8bdb182d69b19dcd25187586998e9"
+          },
+          "issues": [],
+          "n": 3,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "000",
+            "time": "2026-10-22T16:25:54.795Z",
+            "verified": true
+          },
+          "observed_state": "000",
+          "predicted_state": "000",
+          "status": "verified"
+        }
+      ],
+      "rule": "fixed",
+      "status": "verified",
+      "target_reached": true,
+      "valid_states": [
+        "000",
+        "010",
+        "011",
+        "101",
+        "111"
+      ],
+      "writes": [
+        {
+          "after": "101",
+          "before": "111",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:25:03.881Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-W-F-1.json",
+              "sha256": "1c32b2a55fb8f812efcec0f596a89a35d4383ec20c64050471451a6bab4cf72b"
+            },
+            {
+              "file": "ui-ORDER-W-F-1-sent.json",
+              "sha256": "46a801915d7daefec74190f3f2ed176c245f0e32c8c053351f5d8ba8a844760d"
+            }
+          ],
+          "field": "b",
+          "n": 1,
+          "post_save_UI_time": "2026-10-22T16:25:04.719Z",
+          "post_save_UI_to_read_seconds": 17.011,
+          "saved_editor_read_time": "2026-10-22T16:25:21.730Z",
+          "verified": true
+        },
+        {
+          "after": "001",
+          "before": "101",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:25:21.733Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-W-F-2.json",
+              "sha256": "b30fac425da7ec0c48cd6e2c90c039facfb991abe663e9b22c81fab1776048fa"
+            },
+            {
+              "file": "ui-ORDER-W-F-2-sent.json",
+              "sha256": "947add3ff0ed7e64af3f67b2116d27f68fa3afe386f17b265a5410ed79372d02"
+            }
+          ],
+          "field": "a",
+          "n": 2,
+          "post_save_UI_time": "2026-10-22T16:25:22.616Z",
+          "post_save_UI_to_read_seconds": 15.268,
+          "saved_editor_read_time": "2026-10-22T16:25:37.884Z",
+          "verified": true
+        },
+        {
+          "after": "000",
+          "before": "001",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:25:37.888Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-W-F-3.json",
+              "sha256": "89f12676e965595f342723bf52d2a383846fc5849aa7c78228465ad19137f2d9"
+            },
+            {
+              "file": "ui-ORDER-W-F-3-sent.json",
+              "sha256": "029dfbd8a15d5278b55d4f478ce5df95ab75ee45ccbf2e0562e13843cd3c8f2f"
+            }
+          ],
+          "field": "c",
+          "n": 3,
+          "post_save_UI_time": "2026-10-22T16:25:38.876Z",
+          "post_save_UI_to_read_seconds": 15.919,
+          "saved_editor_read_time": "2026-10-22T16:25:54.795Z",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "all_saved_states_valid": true,
+      "baseline_to_last_read_seconds": 35.076,
+      "case_id": "ORDER-W-G",
+      "condition": "W",
+      "issues": [],
+      "metadata": {
+        "all_other_exposed_fields_unchanged": true,
+        "baseline_batch_to_initial_editor_seconds": 177.847,
+        "baseline_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "baseline_scope": "One full pre-run connector batch. Each case then has a fresh browser baseline. No immediate per-case full connector baseline is claimed.",
+        "baseline_time": "2026-10-22T16:22:59.301Z",
+        "evidence": [
+          {
+            "file": "order-fresh-baselines.json",
+            "sha256": "d5a1fabf0bdf913d1a316670a4655c6f2cada620fca6ade2ec89d5241c2f018c"
+          },
+          {
+            "file": "order-final-ORDER-W-G.json",
+            "sha256": "04df1c6af993a4d844b458cdf7b092f1e4dbc6f892aad71ebc6bfc6125718150"
+          }
+        ],
+        "final_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "final_connector_after_last_write_UI": true,
+        "final_connector_precedes_last_read_only_check": true,
+        "final_time": "2026-10-22T16:26:19.651Z",
+        "unchanged_field_names": [
+          "attachments",
+          "attendees",
+          "color_id",
+          "display_url",
+          "end",
+          "event_label_id",
+          "event_type",
+          "guests_can_modify",
+          "hangout_link",
+          "id",
+          "locked",
+          "organizer",
+          "original_start_time",
+          "recurrence",
+          "recurring_event_id",
+          "reminders",
+          "start",
+          "status",
+          "transparency",
+          "url",
+          "visibility"
+        ]
+      },
+      "points": [
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-W-G-0.json",
+            "sha256": "07a3c402cec8d94fa2a31bddcb13571270421ce04a396b1c6ea1f023b3b8f29b"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-W-G-0-editor.json",
+            "sha256": "76dcc242a8a434dd3524d96de1f9251e73ba4233b8e158b5a0177ca1d6311be6"
+          },
+          "issues": [],
+          "n": 0,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "111",
+            "time": "2026-10-22T16:25:57.148Z",
+            "verified": true
+          },
+          "observed_state": "111",
+          "predicted_state": "111",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-W-G-1.json",
+            "sha256": "cbc7c0e3aa2a6fb3030197d5495e6651744241b2fcc237893c4421c6d64df7c1"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-W-G-1-editor.json",
+            "sha256": "73ac9e3a499d903b92bddb29254e7421e59c2d642d344f157176cebeabc5c918"
+          },
+          "issues": [],
+          "n": 1,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "101",
+            "time": "2026-10-22T16:26:32.224Z",
+            "verified": true
+          },
+          "observed_state": "101",
+          "predicted_state": "101",
+          "status": "verified"
+        }
+      ],
+      "rule": "greedy",
+      "status": "verified",
+      "target_reached": false,
+      "valid_states": [
+        "000",
+        "010",
+        "011",
+        "101",
+        "111"
+      ],
+      "writes": [
+        {
+          "after": "101",
+          "before": "111",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:25:57.150Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-W-G-1.json",
+              "sha256": "2bfe95291340858d38f7a46db4ddb6f5ebd98579b3a6a889658b8c6619fa417c"
+            },
+            {
+              "file": "ui-ORDER-W-G-1-sent.json",
+              "sha256": "0704eba40b4a8d3cbb8b4a6c84322ca0253394a8d64d7da9a9ae50d825c62b96"
+            }
+          ],
+          "field": "b",
+          "n": 1,
+          "post_save_UI_time": "2026-10-22T16:25:58.636Z",
+          "post_save_UI_to_read_seconds": 33.588,
+          "saved_editor_read_time": "2026-10-22T16:26:32.224Z",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "all_saved_states_valid": true,
+      "baseline_to_last_read_seconds": 48.878,
+      "case_id": "ORDER-W-C",
+      "condition": "W",
+      "issues": [],
+      "metadata": {
+        "all_other_exposed_fields_unchanged": true,
+        "baseline_batch_to_initial_editor_seconds": 215.284,
+        "baseline_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "baseline_scope": "One full pre-run connector batch. Each case then has a fresh browser baseline. No immediate per-case full connector baseline is claimed.",
+        "baseline_time": "2026-10-22T16:22:59.301Z",
+        "evidence": [
+          {
+            "file": "order-fresh-baselines.json",
+            "sha256": "d5a1fabf0bdf913d1a316670a4655c6f2cada620fca6ade2ec89d5241c2f018c"
+          },
+          {
+            "file": "order-final-ORDER-W-C.json",
+            "sha256": "0d36e748a90d9db07f0f3b754a402799e44c77a210830f457c80af54ff35d6e8"
+          }
+        ],
+        "final_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "final_connector_after_last_write_UI": true,
+        "final_connector_precedes_last_read_only_check": false,
+        "final_time": "2026-10-22T16:27:46.418Z",
+        "unchanged_field_names": [
+          "attachments",
+          "attendees",
+          "color_id",
+          "display_url",
+          "end",
+          "event_label_id",
+          "event_type",
+          "guests_can_modify",
+          "hangout_link",
+          "id",
+          "locked",
+          "organizer",
+          "original_start_time",
+          "recurrence",
+          "recurring_event_id",
+          "reminders",
+          "start",
+          "status",
+          "transparency",
+          "url",
+          "visibility"
+        ]
+      },
+      "points": [
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-W-C-0.json",
+            "sha256": "f0a49d411af5d91930ce467f805e74ce055c1b8a0c6ad65679c24807176e065c"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-W-C-0-editor.json",
+            "sha256": "dcaa67cd4ca91afaf809dc287fd48ddb7d7b63d3d0bbaf8b91af155445081a2d"
+          },
+          "issues": [],
+          "n": 0,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "111",
+            "time": "2026-10-22T16:26:34.585Z",
+            "verified": true
+          },
+          "observed_state": "111",
+          "predicted_state": "111",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-W-C-1.json",
+            "sha256": "4e43e40fc9471557f57841b19ab0a21c4d8da761b37594d86848fe38b9fc2b73"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-W-C-1-editor.json",
+            "sha256": "dc6d44f4434571b92b5b1367bf5154bf63d4a2226bcd3e4442514c97e8339bbc"
+          },
+          "issues": [],
+          "n": 1,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "011",
+            "time": "2026-10-22T16:27:03.508Z",
+            "verified": true
+          },
+          "observed_state": "011",
+          "predicted_state": "011",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-W-C-2.json",
+            "sha256": "87b1d0958070a9fc815a5a0bc62ef59110d4a5c61d3d724bb6e8899af3b04cbe"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-W-C-2-editor.json",
+            "sha256": "8ff7a09072b10b1c0683f7f1479a95aea0dda29af9882c6fa702a58f67a4160a"
+          },
+          "issues": [],
+          "n": 2,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "010",
+            "time": "2026-10-22T16:27:15.158Z",
+            "verified": true
+          },
+          "observed_state": "010",
+          "predicted_state": "010",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-W-C-3.json",
+            "sha256": "7fe6e4c5f5c0de4a9c18f4168fa8b155f63e685cd80430668060da158b476742"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-W-C-3-editor.json",
+            "sha256": "d89679e525ba161cf46cd1e7b018538b02add995128a6d0487ae0f8e50fcb067"
+          },
+          "issues": [],
+          "n": 3,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "000",
+            "time": "2026-10-22T16:27:23.463Z",
+            "verified": true
+          },
+          "observed_state": "000",
+          "predicted_state": "000",
+          "status": "verified"
+        }
+      ],
+      "rule": "complete",
+      "status": "verified",
+      "target_reached": true,
+      "valid_states": [
+        "000",
+        "010",
+        "011",
+        "101",
+        "111"
+      ],
+      "writes": [
+        {
+          "after": "011",
+          "before": "111",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:26:34.588Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-W-C-1.json",
+              "sha256": "5a2b65980ad0ce5ad9cedd66d3465dcbf66ba0555c89fe5f3086b1463a1cdc46"
+            },
+            {
+              "file": "ui-ORDER-W-C-1-sent.json",
+              "sha256": "12823d965c70db2a3d497498f095d9ec9e4b71b3720695dc67a12451029e4c04"
+            }
+          ],
+          "field": "a",
+          "n": 1,
+          "post_save_UI_time": "2026-10-22T16:26:35.489Z",
+          "post_save_UI_to_read_seconds": 28.019,
+          "saved_editor_read_time": "2026-10-22T16:27:03.508Z",
+          "verified": true
+        },
+        {
+          "after": "010",
+          "before": "011",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:27:03.510Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-W-C-2.json",
+              "sha256": "d5b8097d832a73244a44f4f0f0cfdcd79c2e6122f0c1e7a1648e8367789fc9c4"
+            },
+            {
+              "file": "ui-ORDER-W-C-2-sent.json",
+              "sha256": "5ac9e426b3581a81cf6064d4bc2a4f88e205bf9fb6917c209e3cda772e9b0eeb"
+            }
+          ],
+          "field": "c",
+          "n": 2,
+          "post_save_UI_time": "2026-10-22T16:27:04.297Z",
+          "post_save_UI_to_read_seconds": 10.861,
+          "saved_editor_read_time": "2026-10-22T16:27:15.158Z",
+          "verified": true
+        },
+        {
+          "after": "000",
+          "before": "010",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:27:15.162Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-W-C-3.json",
+              "sha256": "c6253ed1d96e7c3c7d21a273ac45e23c808a7a531df067ee24edf5f526e3087a"
+            },
+            {
+              "file": "ui-ORDER-W-C-3-sent.json",
+              "sha256": "95f45906c888b88a8c5049a1a9abc23713cc0733e42f6402a22225ba57bd3068"
+            }
+          ],
+          "field": "b",
+          "n": 3,
+          "post_save_UI_time": "2026-10-22T16:27:16.401Z",
+          "post_save_UI_to_read_seconds": 7.062,
+          "saved_editor_read_time": "2026-10-22T16:27:23.463Z",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "all_saved_states_valid": true,
+      "baseline_to_last_read_seconds": 46.194,
+      "case_id": "ORDER-V-F",
+      "condition": "V",
+      "issues": [],
+      "metadata": {
+        "all_other_exposed_fields_unchanged": true,
+        "baseline_batch_to_initial_editor_seconds": 266.69,
+        "baseline_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "baseline_scope": "One full pre-run connector batch. Each case then has a fresh browser baseline. No immediate per-case full connector baseline is claimed.",
+        "baseline_time": "2026-10-22T16:22:59.301Z",
+        "evidence": [
+          {
+            "file": "order-fresh-baselines.json",
+            "sha256": "d5a1fabf0bdf913d1a316670a4655c6f2cada620fca6ade2ec89d5241c2f018c"
+          },
+          {
+            "file": "order-final-ORDER-V-F.json",
+            "sha256": "0d08b36f7ababf4b4432e4d6e627a6e3eaa75c11e635aee1cb2266506ffe499f"
+          }
+        ],
+        "final_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "final_connector_after_last_write_UI": true,
+        "final_connector_precedes_last_read_only_check": false,
+        "final_time": "2026-10-22T16:28:57.079Z",
+        "unchanged_field_names": [
+          "attachments",
+          "attendees",
+          "color_id",
+          "display_url",
+          "end",
+          "event_label_id",
+          "event_type",
+          "guests_can_modify",
+          "hangout_link",
+          "id",
+          "locked",
+          "organizer",
+          "original_start_time",
+          "recurrence",
+          "recurring_event_id",
+          "reminders",
+          "start",
+          "status",
+          "transparency",
+          "url",
+          "visibility"
+        ]
+      },
+      "points": [
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-F-0.json",
+            "sha256": "39357cbdbe6aa5c02dcd474ca7115678f623a644f1c497612265cf4c9958f27d"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-F-0-editor.json",
+            "sha256": "45c867f41a4f946767c01643922789bceba98c64c9fbce85446c2d0c56569b91"
+          },
+          "issues": [],
+          "n": 0,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "111",
+            "time": "2026-10-22T16:27:25.991Z",
+            "verified": true
+          },
+          "observed_state": "111",
+          "predicted_state": "111",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-F-1.json",
+            "sha256": "b339749d6f7d24570676cb41c91a49c94345260fd0340ce60b2f4f03e5d7fb3e"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-F-1-editor.json",
+            "sha256": "d9d38807a3a47c0195fdcd57e89de7adaf299e3ac51b997f6cc20739ebce1ca2"
+          },
+          "issues": [],
+          "n": 1,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "101",
+            "time": "2026-10-22T16:27:58.884Z",
+            "verified": true
+          },
+          "observed_state": "101",
+          "predicted_state": "101",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-F-2.json",
+            "sha256": "f519945060e3d6d76659ca52f6dd79c4bad2f3e132e94c5200debf70c9c2e001"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-F-2-editor.json",
+            "sha256": "b98e3f9580b617d2df813b99cddd6c703974de2adbe09dc91b0ad7a3463d64e0"
+          },
+          "issues": [],
+          "n": 2,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "001",
+            "time": "2026-10-22T16:28:01.704Z",
+            "verified": true
+          },
+          "observed_state": "001",
+          "predicted_state": "001",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-F-3.json",
+            "sha256": "ad2c4fefdb29bd4821963242c96d5f8295c136b66acc80ed3779ed96603b1166"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-F-3-editor.json",
+            "sha256": "328c687dd681d4166cd7023ec14868cd69cbad2a70f6629db5274cf135289475"
+          },
+          "issues": [],
+          "n": 3,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "000",
+            "time": "2026-10-22T16:28:12.185Z",
+            "verified": true
+          },
+          "observed_state": "000",
+          "predicted_state": "000",
+          "status": "verified"
+        }
+      ],
+      "rule": "fixed",
+      "status": "verified",
+      "target_reached": true,
+      "valid_states": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "writes": [
+        {
+          "after": "101",
+          "before": "111",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:27:25.994Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-V-F-1.json",
+              "sha256": "3e268fe9cbc75103285cf6d729f1cb4878f0d8c3bb57022448a560db93017bbe"
+            },
+            {
+              "file": "ui-ORDER-V-F-1-sent.json",
+              "sha256": "ee9425c70972dae31fb4f734299e46482aea1dd24f879deda27e9ff6ab2ef311"
+            }
+          ],
+          "field": "b",
+          "n": 1,
+          "post_save_UI_time": "2026-10-22T16:27:26.938Z",
+          "post_save_UI_to_read_seconds": 31.946,
+          "saved_editor_read_time": "2026-10-22T16:27:58.884Z",
+          "verified": true
+        },
+        {
+          "after": "001",
+          "before": "101",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:27:58.886Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-V-F-2.json",
+              "sha256": "d087c16ac54cd0e308a621b59a233acb09b63475f6c1b34d2110012360c20e08"
+            },
+            {
+              "file": "ui-ORDER-V-F-2-sent.json",
+              "sha256": "523f6fc4adfe4530f2ac69ea74f2b04c95411e5de0d664c5b450c5783e6e41c2"
+            }
+          ],
+          "field": "a",
+          "n": 2,
+          "post_save_UI_time": "2026-10-22T16:27:59.722Z",
+          "post_save_UI_to_read_seconds": 1.982,
+          "saved_editor_read_time": "2026-10-22T16:28:01.704Z",
+          "verified": true
+        },
+        {
+          "after": "000",
+          "before": "001",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:28:01.707Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-V-F-3.json",
+              "sha256": "220212d0c789aef620e3d1c1c822d3e231caf839ee7abd106173b407e3d2bd77"
+            },
+            {
+              "file": "ui-ORDER-V-F-3-sent.json",
+              "sha256": "456f2883def7f29c442806201a7c8d228c6871bfef48086619ab8d6184bc964b"
+            }
+          ],
+          "field": "c",
+          "n": 3,
+          "post_save_UI_time": "2026-10-22T16:28:02.550Z",
+          "post_save_UI_to_read_seconds": 9.635,
+          "saved_editor_read_time": "2026-10-22T16:28:12.185Z",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "all_saved_states_valid": true,
+      "baseline_to_last_read_seconds": 14.222,
+      "case_id": "ORDER-V-G",
+      "condition": "V",
+      "issues": [],
+      "metadata": {
+        "all_other_exposed_fields_unchanged": true,
+        "baseline_batch_to_initial_editor_seconds": 314.767,
+        "baseline_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "baseline_scope": "One full pre-run connector batch. Each case then has a fresh browser baseline. No immediate per-case full connector baseline is claimed.",
+        "baseline_time": "2026-10-22T16:22:59.301Z",
+        "evidence": [
+          {
+            "file": "order-fresh-baselines.json",
+            "sha256": "d5a1fabf0bdf913d1a316670a4655c6f2cada620fca6ade2ec89d5241c2f018c"
+          },
+          {
+            "file": "order-final-ORDER-V-G.json",
+            "sha256": "10d061e5374b75d50f96f3d975eb4a17644485be384e8f252f880bc3def0d6d1"
+          }
+        ],
+        "final_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "final_connector_after_last_write_UI": true,
+        "final_connector_precedes_last_read_only_check": false,
+        "final_time": "2026-10-22T16:28:57.522Z",
+        "unchanged_field_names": [
+          "attachments",
+          "attendees",
+          "color_id",
+          "display_url",
+          "end",
+          "event_label_id",
+          "event_type",
+          "guests_can_modify",
+          "hangout_link",
+          "id",
+          "locked",
+          "organizer",
+          "original_start_time",
+          "recurrence",
+          "recurring_event_id",
+          "reminders",
+          "start",
+          "status",
+          "transparency",
+          "url",
+          "visibility"
+        ]
+      },
+      "points": [
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-G-0.json",
+            "sha256": "2fe4744ddeec7b02c0bacdd5d92cec8415946956f2a4e40bf7c3f235eaef9046"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-G-0-editor.json",
+            "sha256": "0f53e37d06aa35f0abaccf823e8135e7b86659ff803a7f9c79ccc923f7fb8065"
+          },
+          "issues": [],
+          "n": 0,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "111",
+            "time": "2026-10-22T16:28:14.068Z",
+            "verified": true
+          },
+          "observed_state": "111",
+          "predicted_state": "111",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-G-1.json",
+            "sha256": "52f433042b7a1f12769b761ea8d663d7cf8de7600569de7b0f8c208aae3f46f5"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-G-1-editor.json",
+            "sha256": "f4328e0c8318d6d2219aface83bde0d703d85fbbb24cf3da1048c5d5fcc0681c"
+          },
+          "issues": [],
+          "n": 1,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "101",
+            "time": "2026-10-22T16:28:16.860Z",
+            "verified": true
+          },
+          "observed_state": "101",
+          "predicted_state": "101",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-G-2.json",
+            "sha256": "56b4a59807980c352605ecf1cefe390a5609123004f8f5c0ac116084f35e3bb3"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-G-2-editor.json",
+            "sha256": "2a85d0b6962cf6364a88e5d706dabebb120436c4a5b79f93cfcbcdd763c62614"
+          },
+          "issues": [],
+          "n": 2,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "001",
+            "time": "2026-10-22T16:28:25.406Z",
+            "verified": true
+          },
+          "observed_state": "001",
+          "predicted_state": "001",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-G-3.json",
+            "sha256": "f0e51f5b9174493a0ce10e5579f4ee5bdf49c0aa5f579f78e97b962135fa8e10"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-G-3-editor.json",
+            "sha256": "e9007fb66b231d3c546208c364559335214db713a9ad14dcd10ff409af47b9bd"
+          },
+          "issues": [],
+          "n": 3,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "000",
+            "time": "2026-10-22T16:28:28.290Z",
+            "verified": true
+          },
+          "observed_state": "000",
+          "predicted_state": "000",
+          "status": "verified"
+        }
+      ],
+      "rule": "greedy",
+      "status": "verified",
+      "target_reached": true,
+      "valid_states": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "writes": [
+        {
+          "after": "101",
+          "before": "111",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:28:14.070Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-V-G-1.json",
+              "sha256": "626561c8955ab207fc20c8f229d8c8d4a4a4406c755e5776a63635d09a8f1dbd"
+            },
+            {
+              "file": "ui-ORDER-V-G-1-sent.json",
+              "sha256": "0c3a75e1bc2fd2b7b115649684d415d241f0c0942dc8e3b9431b4b2b9fe74d8e"
+            }
+          ],
+          "field": "b",
+          "n": 1,
+          "post_save_UI_time": "2026-10-22T16:28:14.847Z",
+          "post_save_UI_to_read_seconds": 2.013,
+          "saved_editor_read_time": "2026-10-22T16:28:16.860Z",
+          "verified": true
+        },
+        {
+          "after": "001",
+          "before": "101",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:28:16.862Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-V-G-2.json",
+              "sha256": "e07617c215c5e7d76524dcbe69bfc1b214cca65f335f2804177078906a694f27"
+            },
+            {
+              "file": "ui-ORDER-V-G-2-sent.json",
+              "sha256": "18a7ed8794682c33abe0d0579760880f8169360e44b30c0ffa8439584b25c347"
+            }
+          ],
+          "field": "a",
+          "n": 2,
+          "post_save_UI_time": "2026-10-22T16:28:17.744Z",
+          "post_save_UI_to_read_seconds": 7.662,
+          "saved_editor_read_time": "2026-10-22T16:28:25.406Z",
+          "verified": true
+        },
+        {
+          "after": "000",
+          "before": "001",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:28:25.408Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-V-G-3.json",
+              "sha256": "4cef89b54b7719a74c51f73894c777eef3af2a3a2dcd9783898a0dcbe3086949"
+            },
+            {
+              "file": "ui-ORDER-V-G-3-sent.json",
+              "sha256": "8ff96c6b585b38c7eb5b3ede378152564fb7eac37052e682cffc2cce4e7f9606"
+            }
+          ],
+          "field": "c",
+          "n": 3,
+          "post_save_UI_time": "2026-10-22T16:28:26.331Z",
+          "post_save_UI_to_read_seconds": 1.959,
+          "saved_editor_read_time": "2026-10-22T16:28:28.290Z",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "all_saved_states_valid": true,
+      "baseline_to_last_read_seconds": 16.491,
+      "case_id": "ORDER-V-C",
+      "condition": "V",
+      "issues": [],
+      "metadata": {
+        "all_other_exposed_fields_unchanged": true,
+        "baseline_batch_to_initial_editor_seconds": 331.255,
+        "baseline_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "baseline_scope": "One full pre-run connector batch. Each case then has a fresh browser baseline. No immediate per-case full connector baseline is claimed.",
+        "baseline_time": "2026-10-22T16:22:59.301Z",
+        "evidence": [
+          {
+            "file": "order-fresh-baselines.json",
+            "sha256": "d5a1fabf0bdf913d1a316670a4655c6f2cada620fca6ade2ec89d5241c2f018c"
+          },
+          {
+            "file": "order-final-ORDER-V-C.json",
+            "sha256": "a0f51a322df39480ec0749691ae1fb1fd3cb2084a48a81cc846e85c5d5945014"
+          }
+        ],
+        "final_checks": {
+          "default_event_type": true,
+          "description_token_after_frozen_CRLF_trim": true,
+          "exclusive_end_date": true,
+          "free": true,
+          "location_token": true,
+          "native_id_matches": true,
+          "no_attachments": true,
+          "no_hangout_link": true,
+          "no_reminders": true,
+          "nonrecurring": true,
+          "organizer_self": true,
+          "private": true,
+          "self_attendee_only": true,
+          "start_date": true,
+          "status_confirmed": true,
+          "title_token": true,
+          "url_event_id_matches": true
+        },
+        "final_connector_after_last_write_UI": true,
+        "final_connector_precedes_last_read_only_check": false,
+        "final_time": "2026-10-22T16:28:57.940Z",
+        "unchanged_field_names": [
+          "attachments",
+          "attendees",
+          "color_id",
+          "display_url",
+          "end",
+          "event_label_id",
+          "event_type",
+          "guests_can_modify",
+          "hangout_link",
+          "id",
+          "locked",
+          "organizer",
+          "original_start_time",
+          "recurrence",
+          "recurring_event_id",
+          "reminders",
+          "start",
+          "status",
+          "transparency",
+          "url",
+          "visibility"
+        ]
+      },
+      "points": [
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-C-0.json",
+            "sha256": "91ce2b333da7d99532d4032d77ac8a84a24604c4d988d24598f8f720ca4ea925"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-C-0-editor.json",
+            "sha256": "6b825cc3dcbd5384e0697a0c97e262bb8e17a991b357e6376b06d9f98f92e48a"
+          },
+          "issues": [],
+          "n": 0,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "111",
+            "time": "2026-10-22T16:28:30.556Z",
+            "verified": true
+          },
+          "observed_state": "111",
+          "predicted_state": "111",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-C-1.json",
+            "sha256": "47b74655cff40f3abe92c56c4f255fdef50c35904731cc06c82c7440b31d62e4"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-C-1-editor.json",
+            "sha256": "a59affef2577aa2069757ee8d33c25a35de555c8588e77217e07d9e8e24bf261"
+          },
+          "issues": [],
+          "n": 1,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "101",
+            "time": "2026-10-22T16:28:41.406Z",
+            "verified": true
+          },
+          "observed_state": "101",
+          "predicted_state": "101",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-C-2.json",
+            "sha256": "05a2fd9e262287fd099fa7efe987c2cc1ef01f31417d4446102f378cef363ed7"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-C-2-editor.json",
+            "sha256": "0221430d7fd350339435cd8c09ef1b4f04ba7cf81441f58546bea2bc351c3aa0"
+          },
+          "issues": [],
+          "n": 2,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "001",
+            "time": "2026-10-22T16:28:44.254Z",
+            "verified": true
+          },
+          "observed_state": "001",
+          "predicted_state": "001",
+          "status": "verified"
+        },
+        {
+          "UI_contract_flags_rechecked": true,
+          "evidence": {
+            "file": "order-read-ORDER-V-C-3.json",
+            "sha256": "19a7a49ede9deb9d29327e41375f4824911be7a10573283479a1297e826d8664"
+          },
+          "full_UI_evidence": {
+            "file": "ui-ORDER-V-C-3-editor.json",
+            "sha256": "8eb5ce78a7d877efdf869aa9875af4cb58449401462b135b0a6fbd1bec793ba5"
+          },
+          "issues": [],
+          "n": 3,
+          "observation": {
+            "contract": {
+              "all_day": true,
+              "free": true,
+              "private": true
+            },
+            "native_id_matches_manifest": false,
+            "observed_url_event_id_matches": true,
+            "state": "000",
+            "time": "2026-10-22T16:28:47.047Z",
+            "verified": true
+          },
+          "observed_state": "000",
+          "predicted_state": "000",
+          "status": "verified"
+        }
+      ],
+      "rule": "complete",
+      "status": "verified",
+      "target_reached": true,
+      "valid_states": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "writes": [
+        {
+          "after": "101",
+          "before": "111",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:28:30.561Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-V-C-1.json",
+              "sha256": "bcc88d076efa4994f1dfb3f8152f5bb99e31c86fd8915d7ff1ffa7eabc1003a6"
+            },
+            {
+              "file": "ui-ORDER-V-C-1-sent.json",
+              "sha256": "4ce353e9f7aa19b6e62d8d89d93c332438dc4eb9631e6c018be3122ad350bbed"
+            }
+          ],
+          "field": "b",
+          "n": 1,
+          "post_save_UI_time": "2026-10-22T16:28:31.582Z",
+          "post_save_UI_to_read_seconds": 9.824,
+          "saved_editor_read_time": "2026-10-22T16:28:41.406Z",
+          "verified": true
+        },
+        {
+          "after": "001",
+          "before": "101",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:28:41.411Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-V-C-2.json",
+              "sha256": "5adb5323eab43d910688184d69467888892ebbd9fcadc777b34b5b986bb44e4d"
+            },
+            {
+              "file": "ui-ORDER-V-C-2-sent.json",
+              "sha256": "662f1ebad28918d6e8e3ea35d83324485abb839bf4ec864190b2eedb081d1a03"
+            }
+          ],
+          "field": "a",
+          "n": 2,
+          "post_save_UI_time": "2026-10-22T16:28:42.319Z",
+          "post_save_UI_to_read_seconds": 1.935,
+          "saved_editor_read_time": "2026-10-22T16:28:44.254Z",
+          "verified": true
+        },
+        {
+          "after": "000",
+          "before": "001",
+          "checks": {
+            "after": true,
+            "alias": true,
+            "before": true,
+            "decision_before_post_save_UI": true,
+            "field": true,
+            "post_save_UI_before_read": true,
+            "previous_read_before_decision": true,
+            "rule": true,
+            "value": true
+          },
+          "decision_time": "2026-10-22T16:28:44.256Z",
+          "evidence": [
+            {
+              "file": "order-decision-ORDER-V-C-3.json",
+              "sha256": "8102156a0562e2a8c88aac373f9530742ed2482250301a9517a76c9fe6bbc9c7"
+            },
+            {
+              "file": "ui-ORDER-V-C-3-sent.json",
+              "sha256": "1a62e5ea55931d7a57e497dbf7d0445f27d66c66df8a6c0f2d6f2dd38d0c4d2a"
+            }
+          ],
+          "field": "c",
+          "n": 3,
+          "post_save_UI_time": "2026-10-22T16:28:45.105Z",
+          "post_save_UI_to_read_seconds": 1.942,
+          "saved_editor_read_time": "2026-10-22T16:28:47.047Z",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "not_exposed_by_connector": [
+    "full conferenceData",
+    "provider version/etag",
+    "attested calendar container ID in read_event output"
+  ],
+  "partial_stop": {
+    "case_id": "ORDER-W-G",
+    "evidence": {
+      "file": "order-stop-ORDER-W-G.json",
+      "sha256": "3a764d2204994c66ab7cde7a1ffafa78935b51b85909269f72fca5bf6d0a3d5f"
+    },
+    "rejected_next": [
+      "001",
+      "100"
+    ],
+    "state": "101",
+    "time": "2026-10-22T16:26:32.227Z"
+  },
+  "read_errors": [],
+  "schema": "live-order-public-v1",
+  "source_hashes": [
+    {
+      "file": "plan.md",
+      "sha256": "6d95b4af3d7aa112a31fa019795fbb05d9e46c6b74f1f3af2ef3531af5ff8273"
+    },
+    {
+      "file": "amendment-01.md",
+      "sha256": "baccd4d14242184b85b58bc4fe10d643593d3b86df67a6664946c29316e27755"
+    },
+    {
+      "file": "amendment-02.md",
+      "sha256": "f670ca1fff998867385fe8d8369f64cd2aa710278d2417596c9e3d02f7493fcb"
+    },
+    {
+      "file": "live_rules.py",
+      "sha256": "7389d34fad62dac156f709032ba02b6722edb5ec1cd274d27fa515abff502d51"
+    },
+    {
+      "file": "order_commands.json",
+      "sha256": "77c8e8e6528014b6da864a08a8af9a9130ec81096b5363c6097a675d6b367e0b"
+    },
+    {
+      "file": "browser_order_helpers.txt",
+      "sha256": "509abb50453fa144b0fea5daf231f5c9d7b72e43cae917ff6e021dc065d67846"
+    }
+  ]
+}

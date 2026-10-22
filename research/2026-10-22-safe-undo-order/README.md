@@ -41,3 +41,9 @@ Execution timestamps and timing are expected to differ. A repeat uses the same 1
 - `validation.md`, `deviations.md`, and `references.bib`: review record, changes, and references.
 
 The graph oracle in study.py is a different algorithm in the same program, written by the same Codex agent. It is not an independently authored implementation. A separate agent's evaluator and completed review are recorded in `separate_review.md` and `validation.md`. No human review occurred. No new reuse license is assigned.
+
+## Production extension, 2026-10-22
+
+Six selected Google Calendar cases added 16 browser field changes. Fixed order crossed a declared invalid state, greedy order stopped before the target, and complete search followed a valid path. The state condition was supplied by the researcher; Calendar did not enforce it.
+
+See [live_README.md](live_README.md) for the separate evidence replay and its limits. See [live_cleanup.md](live_cleanup.md) for cleanup. The original synthetic procedure and data above are retained.

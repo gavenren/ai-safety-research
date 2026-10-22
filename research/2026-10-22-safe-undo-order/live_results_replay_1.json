@@ -1,0 +1,130 @@
+{
+  "assigned_cases": 6,
+  "browser_field_changes": 16,
+  "cases": [
+    {
+      "all_saved_states_valid": false,
+      "baseline_to_last_read_seconds": 50.918,
+      "browser_field_changes": 3,
+      "case_id": "ORDER-W-F",
+      "condition": "W",
+      "invalid_saved_states": [
+        "001"
+      ],
+      "max_post_save_UI_to_read_seconds": 17.011,
+      "observed_path": [
+        "111",
+        "101",
+        "001",
+        "000"
+      ],
+      "partial_stop": false,
+      "rule": "fixed",
+      "target_reached": true
+    },
+    {
+      "all_saved_states_valid": true,
+      "baseline_to_last_read_seconds": 35.076,
+      "browser_field_changes": 1,
+      "case_id": "ORDER-W-G",
+      "condition": "W",
+      "invalid_saved_states": [],
+      "max_post_save_UI_to_read_seconds": 33.588,
+      "observed_path": [
+        "111",
+        "101"
+      ],
+      "partial_stop": true,
+      "rule": "greedy",
+      "target_reached": false
+    },
+    {
+      "all_saved_states_valid": true,
+      "baseline_to_last_read_seconds": 48.878,
+      "browser_field_changes": 3,
+      "case_id": "ORDER-W-C",
+      "condition": "W",
+      "invalid_saved_states": [],
+      "max_post_save_UI_to_read_seconds": 28.019,
+      "observed_path": [
+        "111",
+        "011",
+        "010",
+        "000"
+      ],
+      "partial_stop": false,
+      "rule": "complete",
+      "target_reached": true
+    },
+    {
+      "all_saved_states_valid": true,
+      "baseline_to_last_read_seconds": 46.194,
+      "browser_field_changes": 3,
+      "case_id": "ORDER-V-F",
+      "condition": "V",
+      "invalid_saved_states": [],
+      "max_post_save_UI_to_read_seconds": 31.946,
+      "observed_path": [
+        "111",
+        "101",
+        "001",
+        "000"
+      ],
+      "partial_stop": false,
+      "rule": "fixed",
+      "target_reached": true
+    },
+    {
+      "all_saved_states_valid": true,
+      "baseline_to_last_read_seconds": 14.222,
+      "browser_field_changes": 3,
+      "case_id": "ORDER-V-G",
+      "condition": "V",
+      "invalid_saved_states": [],
+      "max_post_save_UI_to_read_seconds": 7.662,
+      "observed_path": [
+        "111",
+        "101",
+        "001",
+        "000"
+      ],
+      "partial_stop": false,
+      "rule": "greedy",
+      "target_reached": true
+    },
+    {
+      "all_saved_states_valid": true,
+      "baseline_to_last_read_seconds": 16.491,
+      "browser_field_changes": 3,
+      "case_id": "ORDER-V-C",
+      "condition": "V",
+      "invalid_saved_states": [],
+      "max_post_save_UI_to_read_seconds": 9.824,
+      "observed_path": [
+        "111",
+        "101",
+        "001",
+        "000"
+      ],
+      "partial_stop": false,
+      "rule": "complete",
+      "target_reached": true
+    }
+  ],
+  "cases_with_invalid_saved_state": 1,
+  "limits": [
+    "The validity condition is supplied by the researcher, not enforced by Calendar.",
+    "Baseline connector reads were a batch before the cases, not a separate immediate read before each case.",
+    "Fields were read sequentially after Save, not as an atomic server snapshot.",
+    "The selected cases do not estimate task failure rates or autonomous agent performance.",
+    "The partial stop is relative to one-way actions; later correction remains possible.",
+    "Cleanup and separate review require final confirmation."
+  ],
+  "partial_stops": 1,
+  "publication_ready": false,
+  "replay_comparisons": 36,
+  "saved_editor_observations": 22,
+  "status": "observed_controller_paths_with_stated_limits",
+  "target_reached_cases": 5,
+  "valid_completion_cases": 4
+}
