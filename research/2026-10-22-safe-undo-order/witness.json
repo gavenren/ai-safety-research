@@ -1,0 +1,99 @@
+{
+  "paired_cases": [
+    {
+      "actions": "bac",
+      "all_states_valid": false,
+      "avoidable_dead_end": false,
+      "bits": 3,
+      "candidate_checks": 0,
+      "case_id": 430,
+      "condition_id": 22,
+      "final_safe_path": true,
+      "group": "primary",
+      "initial_safe_path": true,
+      "partial_stop": false,
+      "priority": "bac",
+      "refused_before_action": false,
+      "rule": "fixed",
+      "status": "target_reached",
+      "target_reached": true,
+      "trace": [
+        "111",
+        "101",
+        "001",
+        "000"
+      ],
+      "valid_completion": false,
+      "valid_states": [
+        "000",
+        "010",
+        "011",
+        "101",
+        "111"
+      ]
+    },
+    {
+      "actions": "b",
+      "all_states_valid": true,
+      "avoidable_dead_end": true,
+      "bits": 3,
+      "candidate_checks": 3,
+      "case_id": 431,
+      "condition_id": 22,
+      "final_safe_path": false,
+      "group": "primary",
+      "initial_safe_path": true,
+      "partial_stop": true,
+      "priority": "bac",
+      "refused_before_action": false,
+      "rule": "greedy",
+      "status": "partial_stop",
+      "target_reached": false,
+      "trace": [
+        "111",
+        "101"
+      ],
+      "valid_completion": false,
+      "valid_states": [
+        "000",
+        "010",
+        "011",
+        "101",
+        "111"
+      ]
+    },
+    {
+      "actions": "acb",
+      "all_states_valid": true,
+      "avoidable_dead_end": false,
+      "bits": 3,
+      "candidate_checks": 9,
+      "case_id": 432,
+      "condition_id": 22,
+      "final_safe_path": true,
+      "group": "primary",
+      "initial_safe_path": true,
+      "partial_stop": false,
+      "priority": "bac",
+      "refused_before_action": false,
+      "rule": "complete",
+      "status": "target_reached",
+      "target_reached": true,
+      "trace": [
+        "111",
+        "011",
+        "010",
+        "000"
+      ],
+      "valid_completion": true,
+      "valid_states": [
+        "000",
+        "010",
+        "011",
+        "101",
+        "111"
+      ]
+    }
+  ],
+  "selection": "first avoidable dead end in frozen case order"
+}

@@ -1,0 +1,298 @@
+{
+  "by_priority": {
+    "abc": {
+      "complete": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 18,
+        "target_reached": 46,
+        "valid_completion": 46
+      },
+      "fixed": {
+        "all_states_valid": 16,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 64,
+        "valid_completion": 16
+      },
+      "greedy": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 4,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 14,
+        "refused_before_action": 8,
+        "target_reached": 42,
+        "valid_completion": 42
+      }
+    },
+    "acb": {
+      "complete": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 18,
+        "target_reached": 46,
+        "valid_completion": 46
+      },
+      "fixed": {
+        "all_states_valid": 16,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 64,
+        "valid_completion": 16
+      },
+      "greedy": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 4,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 14,
+        "refused_before_action": 8,
+        "target_reached": 42,
+        "valid_completion": 42
+      }
+    },
+    "bac": {
+      "complete": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 18,
+        "target_reached": 46,
+        "valid_completion": 46
+      },
+      "fixed": {
+        "all_states_valid": 16,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 64,
+        "valid_completion": 16
+      },
+      "greedy": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 4,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 14,
+        "refused_before_action": 8,
+        "target_reached": 42,
+        "valid_completion": 42
+      }
+    },
+    "bca": {
+      "complete": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 18,
+        "target_reached": 46,
+        "valid_completion": 46
+      },
+      "fixed": {
+        "all_states_valid": 16,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 64,
+        "valid_completion": 16
+      },
+      "greedy": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 4,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 14,
+        "refused_before_action": 8,
+        "target_reached": 42,
+        "valid_completion": 42
+      }
+    },
+    "cab": {
+      "complete": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 18,
+        "target_reached": 46,
+        "valid_completion": 46
+      },
+      "fixed": {
+        "all_states_valid": 16,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 64,
+        "valid_completion": 16
+      },
+      "greedy": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 4,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 14,
+        "refused_before_action": 8,
+        "target_reached": 42,
+        "valid_completion": 42
+      }
+    },
+    "cba": {
+      "complete": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 18,
+        "target_reached": 46,
+        "valid_completion": 46
+      },
+      "fixed": {
+        "all_states_valid": 16,
+        "avoidable_dead_end": 0,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 64,
+        "valid_completion": 16
+      },
+      "greedy": {
+        "all_states_valid": 64,
+        "avoidable_dead_end": 4,
+        "cases": 64,
+        "initial_safe_path": 46,
+        "partial_stop": 14,
+        "refused_before_action": 8,
+        "target_reached": 42,
+        "valid_completion": 42
+      }
+    }
+  },
+  "conditions_with_any_greedy_dead_end": 9,
+  "conditions_with_safe_path": 46,
+  "primary": {
+    "complete": {
+      "all_states_valid": 384,
+      "avoidable_dead_end": 0,
+      "cases": 384,
+      "initial_safe_path": 276,
+      "partial_stop": 0,
+      "refused_before_action": 108,
+      "target_reached": 276,
+      "valid_completion": 276
+    },
+    "fixed": {
+      "all_states_valid": 96,
+      "avoidable_dead_end": 0,
+      "cases": 384,
+      "initial_safe_path": 276,
+      "partial_stop": 0,
+      "refused_before_action": 0,
+      "target_reached": 384,
+      "valid_completion": 96
+    },
+    "greedy": {
+      "all_states_valid": 384,
+      "avoidable_dead_end": 24,
+      "cases": 384,
+      "initial_safe_path": 276,
+      "partial_stop": 84,
+      "refused_before_action": 48,
+      "target_reached": 252,
+      "valid_completion": 252
+    }
+  },
+  "smaller_controls": {
+    "1": {
+      "complete": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 1,
+        "initial_safe_path": 1,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 1,
+        "valid_completion": 1
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 1,
+        "initial_safe_path": 1,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 1,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 1,
+        "initial_safe_path": 1,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 1,
+        "valid_completion": 1
+      }
+    },
+    "2": {
+      "complete": {
+        "all_states_valid": 8,
+        "avoidable_dead_end": 0,
+        "cases": 8,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 2,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 4,
+        "avoidable_dead_end": 0,
+        "cases": 8,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 8,
+        "valid_completion": 4
+      },
+      "greedy": {
+        "all_states_valid": 8,
+        "avoidable_dead_end": 0,
+        "cases": 8,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 2,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    }
+  },
+  "total_rule_cases": 1179,
+  "unknown_cases": 0
+}

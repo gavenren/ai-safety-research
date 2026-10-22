@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-10-22T15:39:11.924998+00:00",
+  "status": "pass",
+  "saved_rule_cases": 1179,
+  "saved_trace_states_checked": 4042,
+  "saved_symmetry_comparisons": 6963,
+  "summary_and_condition_totals_match": true,
+  "frozen_inputs_and_source_match": true,
+  "five_reproduction_hashes_match": true,
+  "report_table_matches": true,
+  "analytic_argument_matches": true,
+  "method": "Set-of-letters states and bottom-up winning-state oracle; no import or execution of study.py",
+  "review_limit": "The reviewer read the main code before writing this separate audit. It is not a blinded review."
+}

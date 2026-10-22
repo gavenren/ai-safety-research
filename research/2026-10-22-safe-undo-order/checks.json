@@ -1,0 +1,19 @@
+{
+  "failed": 0,
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true
+  },
+  "passed": {
+    "all_valid": 27,
+    "complete_graph_oracle": 393,
+    "endpoints_only": 16,
+    "field_renaming": 6963,
+    "fixed_target": 393,
+    "greedy_validity_and_stop": 393,
+    "single_chain": 18
+  }
+}

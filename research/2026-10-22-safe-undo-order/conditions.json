@@ -1,0 +1,2690 @@
+[
+  {
+    "condition_id": 0,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 1,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 2,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 3,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 4,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 6,
+        "refused_before_action": 0,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "011",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 5,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "011",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 6,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "011",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 7,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 8,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "100",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 9,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "100",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 10,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "100",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 11,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "100",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 12,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 6,
+        "refused_before_action": 0,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "011",
+      "100",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 13,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "011",
+      "100",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 14,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "011",
+      "100",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 15,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 16,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 6,
+        "refused_before_action": 0,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 17,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 18,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 6,
+        "refused_before_action": 0,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 19,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 20,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 6,
+        "refused_before_action": 0,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "011",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 21,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "011",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 22,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 3,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 3,
+        "refused_before_action": 0,
+        "target_reached": 3,
+        "valid_completion": 3
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "011",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 23,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 3,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 3
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 24,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "100",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 25,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "100",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 26,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "100",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 27,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "100",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 28,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 3,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 3,
+        "refused_before_action": 0,
+        "target_reached": 3,
+        "valid_completion": 3
+      }
+    },
+    "valid_states": [
+      "000",
+      "011",
+      "100",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 29,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 3,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 3
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "011",
+      "100",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 30,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "011",
+      "100",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 31,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 4,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 4
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 32,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 6,
+        "refused_before_action": 0,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 33,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 6,
+        "refused_before_action": 0,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 34,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 35,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 36,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 6,
+        "refused_before_action": 0,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "011",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 37,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 3,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 3,
+        "refused_before_action": 0,
+        "target_reached": 3,
+        "valid_completion": 3
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "011",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 38,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "011",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 39,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 3,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 3
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 40,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "100",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 41,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "100",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 42,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "100",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 43,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "100",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 44,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 3,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 3,
+        "refused_before_action": 0,
+        "target_reached": 3,
+        "valid_completion": 3
+      }
+    },
+    "valid_states": [
+      "000",
+      "011",
+      "100",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 45,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "011",
+      "100",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 46,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 3,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 3
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "011",
+      "100",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 47,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 4,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 4
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 48,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 6,
+        "refused_before_action": 0,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 49,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 3,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 3,
+        "refused_before_action": 0,
+        "target_reached": 3,
+        "valid_completion": 3
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 50,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 1,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 1
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 3,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 3,
+        "refused_before_action": 0,
+        "target_reached": 3,
+        "valid_completion": 3
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 51,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 52,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 6,
+        "target_reached": 0,
+        "valid_completion": 0
+      },
+      "fixed": {
+        "all_states_valid": 0,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 0
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 0,
+        "partial_stop": 6,
+        "refused_before_action": 0,
+        "target_reached": 0,
+        "valid_completion": 0
+      }
+    },
+    "valid_states": [
+      "000",
+      "011",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 53,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 2,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 2,
+        "refused_before_action": 0,
+        "target_reached": 4,
+        "valid_completion": 4
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "011",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 54,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 2,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 2,
+        "refused_before_action": 0,
+        "target_reached": 4,
+        "valid_completion": 4
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "011",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 55,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 4,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 4
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 56,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 57,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 3,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 3
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 58,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 3,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 3
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 59,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 4,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 4
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 60,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 2,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 2
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 2,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 2,
+        "refused_before_action": 0,
+        "target_reached": 4,
+        "valid_completion": 4
+      }
+    },
+    "valid_states": [
+      "000",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 61,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 4,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 4
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 62,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 4,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 4
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  {
+    "condition_id": 63,
+    "rules": {
+      "complete": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "fixed": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      },
+      "greedy": {
+        "all_states_valid": 6,
+        "avoidable_dead_end": 0,
+        "cases": 6,
+        "initial_safe_path": 6,
+        "partial_stop": 0,
+        "refused_before_action": 0,
+        "target_reached": 6,
+        "valid_completion": 6
+      }
+    },
+    "valid_states": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  }
+]

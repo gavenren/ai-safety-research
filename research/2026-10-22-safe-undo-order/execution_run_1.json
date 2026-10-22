@@ -1,0 +1,27 @@
+{
+  "command": [
+    "python3",
+    "study.py",
+    "--out",
+    "work/2026-10-22-safe-undo-order/run-1"
+  ],
+  "config_sha256": "406d0c79beab5f7aa1cfcd152d45238394ad191be5335fc6c5f7ccbb61451abb",
+  "cpu_seconds": 0.113071,
+  "dependencies": "Python standard library only",
+  "error": null,
+  "exit_status": 0,
+  "finished_at_utc": "2026-10-22T14:59:07.755812+00:00",
+  "machine": "arm64",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "random_seed": null,
+  "resource_limits": {
+    "cpu_seconds": 60,
+    "wall_seconds": 120
+  },
+  "source_sha256": "e40a0dda0de4cf9ce6bbd7b9e19bb7dbf8e2371ca27f33aa36e1da3b280baadd",
+  "started_at_utc": "2026-10-22T14:59:07.546722+00:00",
+  "unknown_cases": 0,
+  "valid_cases": 1179,
+  "wall_seconds": 0.20912237499578623
+}

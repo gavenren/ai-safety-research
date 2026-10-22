@@ -1,0 +1,16 @@
+{
+  "study": "safe-undo-order",
+  "date": "2026-10-22",
+  "primary_bits": 3,
+  "control_bits": [1, 2],
+  "rules": ["fixed", "greedy", "complete"],
+  "start": "all ones",
+  "goal": "all zeros",
+  "field_order": "most significant bit first",
+  "condition_order": "mask over non-endpoint states in increasing integer order",
+  "priority_order": "lexicographic permutations",
+  "cpu_seconds_limit": 60,
+  "wall_seconds_limit": 120,
+  "maximum_full_runs": 2,
+  "random_seed": null
+}
