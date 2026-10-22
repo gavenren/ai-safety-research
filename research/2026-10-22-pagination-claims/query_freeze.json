@@ -1,0 +1,26 @@
+{
+  "frozen_at_utc": "2026-10-22T16:06:37.180849+00:00",
+  "private_query_freeze_sha256": "04f713424a818a22e28e1d972cbd2029b64fd90b33ed0175c449af0ba6fabfc4",
+  "target_aliases": {
+    "drive": [
+      "PAGE-A",
+      "PAGE-B",
+      "PAGE-C",
+      "PAGE-D"
+    ],
+    "calendar": [
+      "PAGE-A",
+      "PAGE-B",
+      "PAGE-C",
+      "PAGE-D"
+    ]
+  },
+  "max_pages_per_chain": 8,
+  "max_control_pages": 1,
+  "plan_hashes": {
+    "plan.md": "6d95b4af3d7aa112a31fa019795fbb05d9e46c6b74f1f3af2ef3531af5ff8273",
+    "amendment-01.md": "baccd4d14242184b85b58bc4fe10d643593d3b86df67a6664946c29316e27755",
+    "design-pagination.md": "3d5380f355476ca3af9ec299fe62819e9d5774045c4eec0eae2d989a83c64f02"
+  },
+  "setup": "connector-created by parent; not a browser trial"
+}

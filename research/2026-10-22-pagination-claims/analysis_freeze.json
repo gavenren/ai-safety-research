@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-22T16:10:01.460717+00:00",
+  "note": "Analysis code was written after collection. Rules and queries were frozen before collection. This hash fixes the implementation before scoring.",
+  "sha256": {
+    "live_analysis.py": "66b9c69f604d33ef1cf3a0fea247ce3e10546c5abe4c7cf5b9241c94300feeec",
+    "build_trace.py": "fa71b72f34b9bb4d4524540d50c56488c11a819fa6cd773ecccff80926857ac8",
+    "live_trace.json": "070665fa4bfda61aab991c5f656b3daaa24f59123693b4556975ff75ffb9e6c0",
+    "query_freeze.json": "e5f7b58bbfa0a9ff3d115b00a63872b0a432ca0d052c3b8fd73f115d6d9ecd13"
+  }
+}

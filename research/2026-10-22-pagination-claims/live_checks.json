@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-22T16:13:13.415984+00:00",
+  "author_checks": "pass",
+  "private_to_alias_checks": "passed by build_trace.py; exact frozen queries and unchanged tokens checked",
+  "public_files_scanned": 16,
+  "sensitive_values_checked": 89,
+  "sensitive_string_matches": 0,
+  "frozen_implementation_hashes_match": true,
+  "two_local_runs_match": true,
+  "rule_outcomes": 48,
+  "source_status": "Primary sources were read during design on 2026-10-22; source record hash is in query freeze",
+  "separate_review": "passed; review_independent.md; independent audit passed 166 checks and all 48 outcomes plus six inventory rows matched",
+  "cleanup": "parent owned; not verified by this subtask",
+  "publication": "not attempted",
+  "failed_scored_calls": 0,
+  "untested_live_conditions": [
+    "nonfinal empty page",
+    "nonfinal short page",
+    "native incompleteSearch=true",
+    "shared or secondary account scope",
+    "token expiry",
+    "changing records during traversal",
+    "browser-agent policy adherence"
+  ],
+  "neurips_review_aid": {
+    "claims": "limited to two provider chains and paired local replays",
+    "limitations": "stated, including absent coverage metadata and untested branches",
+    "reproducibility": "public local scoring; private raw account evidence retained",
+    "ethics": "temporary fixtures only; no public IDs or tokens; no new license",
+    "human_review": "none",
+    "certification": "not claimed"
+  }
+}

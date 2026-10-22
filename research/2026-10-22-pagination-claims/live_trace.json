@@ -1,0 +1,193 @@
+{
+  "frozen_at_utc": "2026-10-22T16:06:37.180849+00:00",
+  "providers": {
+    "calendar": {
+      "base_query_sha256": "4887defa182a02ec2584d757bbaace4a25dd618771886e00e6afde02c7ba2a0f",
+      "empty_control": {
+        "aliases": [],
+        "connector_exposed_item_count": 0,
+        "coverage_fields": {},
+        "coverage_status": "unknown",
+        "finished_at_utc": "2026-10-22T16:07:21.004Z",
+        "next_token_representation": "null",
+        "next_token_sha256": null,
+        "page": 1,
+        "private_record_sha256": "d806c0acdb41581e4bc6bdc2fc127787ad928d8433335ca72d6bd2a3d08c1d1c",
+        "request_token_sha256": null,
+        "response_sha256": "d0a48d9b3a712712247c2beac7dfa4907b6bfee27fbc3f731c9bc485d7b2d93d",
+        "started_at_utc": "2026-10-22T16:07:20.626Z"
+      },
+      "page_budget": 8,
+      "pages": [
+        {
+          "aliases": [
+            "PAGE-A"
+          ],
+          "connector_exposed_item_count": 1,
+          "coverage_fields": {},
+          "coverage_status": "unknown",
+          "finished_at_utc": "2026-10-22T16:06:47.571Z",
+          "next_token_representation": "value",
+          "next_token_sha256": "a3aa319670c48d79a7011c3cfe25e21b870ae98b7d3973eccbdf2b4f7d1c027a",
+          "page": 1,
+          "private_record_sha256": "89dba0aee5c3d8139570ccd7028211155aab413ee8fd9ca7f95e69828cd30a7d",
+          "request_token_sha256": null,
+          "response_sha256": "fb614991808951ef50063388e3dd285675681060352f9be6e62af85616c741b8",
+          "started_at_utc": "2026-10-22T16:06:46.942Z"
+        },
+        {
+          "aliases": [
+            "PAGE-C"
+          ],
+          "connector_exposed_item_count": 1,
+          "coverage_fields": {},
+          "coverage_status": "unknown",
+          "finished_at_utc": "2026-10-22T16:07:12.432Z",
+          "next_token_representation": "value",
+          "next_token_sha256": "3cc45c336ef651e7270b54ac7ae4d4dfe68b69dd425146de4253a747e5ec406d",
+          "page": 2,
+          "private_record_sha256": "770256b7042540ad158add46288e7d9c01cb98bc9a22c2f51f9461fc17c0754d",
+          "request_token_sha256": "a3aa319670c48d79a7011c3cfe25e21b870ae98b7d3973eccbdf2b4f7d1c027a",
+          "response_sha256": "b69541325135a69637a1ac1cb4bcd7e458964bfb1f081cd91d21d1418962d90d",
+          "started_at_utc": "2026-10-22T16:07:11.997Z"
+        },
+        {
+          "aliases": [
+            "PAGE-D"
+          ],
+          "connector_exposed_item_count": 1,
+          "coverage_fields": {},
+          "coverage_status": "unknown",
+          "finished_at_utc": "2026-10-22T16:07:13.068Z",
+          "next_token_representation": "value",
+          "next_token_sha256": "4a3d77e07095393007e14102a416f121b80efb179745ae38e8fc367b6858c0ef",
+          "page": 3,
+          "private_record_sha256": "61220189278677372df66ae053ceec513d2e690a8f4ce3cf1869733d2d80c338",
+          "request_token_sha256": "3cc45c336ef651e7270b54ac7ae4d4dfe68b69dd425146de4253a747e5ec406d",
+          "response_sha256": "ec07159df340be783e19defc274050e413076c4c751b926efab3ba6a8fe68472",
+          "started_at_utc": "2026-10-22T16:07:12.549Z"
+        },
+        {
+          "aliases": [
+            "PAGE-B"
+          ],
+          "connector_exposed_item_count": 1,
+          "coverage_fields": {},
+          "coverage_status": "unknown",
+          "finished_at_utc": "2026-10-22T16:07:13.531Z",
+          "next_token_representation": "null",
+          "next_token_sha256": null,
+          "page": 4,
+          "private_record_sha256": "ad493b6a4704edfdbb81e82e2b3d2f2f635b5f1415304a2d54200a95f09e1b1b",
+          "request_token_sha256": "4a3d77e07095393007e14102a416f121b80efb179745ae38e8fc367b6858c0ef",
+          "response_sha256": "fc3182457fd0c4e6faad0523e25e22489123623bc58d0e92b847c482309666ec",
+          "started_at_utc": "2026-10-22T16:07:13.081Z"
+        }
+      ],
+      "query_scope": "primary calendar; frozen marker; 2026-10-01 to 2026-10-03; explicit Toronto offsets",
+      "requested_maximum": 1,
+      "targets": [
+        "PAGE-A",
+        "PAGE-B",
+        "PAGE-C",
+        "PAGE-D"
+      ],
+      "tool": "mcp__codex_apps__google_calendar_search_events"
+    },
+    "drive": {
+      "base_query_sha256": "c8c27fd5f1f9272918b37aaa20d1391c8a1e7260fe159b3cccccc33e70f8058b",
+      "empty_control": {
+        "aliases": [],
+        "connector_exposed_item_count": 0,
+        "coverage_fields": {},
+        "coverage_status": "unknown",
+        "finished_at_utc": "2026-10-22T16:07:21.357Z",
+        "next_token_representation": "absent",
+        "next_token_sha256": null,
+        "page": 1,
+        "private_record_sha256": "d821e40858bc3d2e573d610d98854cee977eed5d72e74689cb4d976825c64542",
+        "request_token_sha256": null,
+        "response_sha256": "6c26f45030acd9a200c96a76fa2155034c321177dcc3dcb47b101c37d37f8550",
+        "started_at_utc": "2026-10-22T16:07:20.626Z"
+      },
+      "page_budget": 8,
+      "pages": [
+        {
+          "aliases": [
+            "PAGE-D"
+          ],
+          "connector_exposed_item_count": 1,
+          "coverage_fields": {},
+          "coverage_status": "unknown",
+          "finished_at_utc": "2026-10-22T16:06:47.467Z",
+          "next_token_representation": "value",
+          "next_token_sha256": "560f8b36b9f7e3826a6d467fe6449ed034e65faee8b4fcceeb99d033c45e32b5",
+          "page": 1,
+          "private_record_sha256": "33a08cb6d282cac69a96bb7717d8d084f3d0d78e38558708fdfbe1493244d306",
+          "request_token_sha256": null,
+          "response_sha256": "6315264f079de745e988d72cb10bbae5741506bb1d90cc55d2fd6700e0b6808c",
+          "started_at_utc": "2026-10-22T16:06:46.942Z"
+        },
+        {
+          "aliases": [
+            "PAGE-C"
+          ],
+          "connector_exposed_item_count": 1,
+          "coverage_fields": {},
+          "coverage_status": "unknown",
+          "finished_at_utc": "2026-10-22T16:07:12.544Z",
+          "next_token_representation": "value",
+          "next_token_sha256": "be9367bb172b52a47a37d6ee37e98f8ab0245a3c60a7c66a7b23af0320dadfc6",
+          "page": 2,
+          "private_record_sha256": "e94ab1806d91aebe3186e292debaa0f896eda15eae79e67a1541967d5e433154",
+          "request_token_sha256": "560f8b36b9f7e3826a6d467fe6449ed034e65faee8b4fcceeb99d033c45e32b5",
+          "response_sha256": "c3456a77ed096718d17432beaf3efc6db2887a11a444dfe4b521bbab280a2854",
+          "started_at_utc": "2026-10-22T16:07:11.997Z"
+        },
+        {
+          "aliases": [
+            "PAGE-B"
+          ],
+          "connector_exposed_item_count": 1,
+          "coverage_fields": {},
+          "coverage_status": "unknown",
+          "finished_at_utc": "2026-10-22T16:07:13.021Z",
+          "next_token_representation": "value",
+          "next_token_sha256": "a69ae8c2177d3edb32cf58cdc1ebfdbf0f276cffaa341314852a4992d84b3d80",
+          "page": 3,
+          "private_record_sha256": "5be66c605893e1dcf17493c452b4b0c120346672cfba11b975b323df73ca4291",
+          "request_token_sha256": "be9367bb172b52a47a37d6ee37e98f8ab0245a3c60a7c66a7b23af0320dadfc6",
+          "response_sha256": "a2da4b8d24d26c741f80320a7b85155b2818b40646f3f5f7ca4788f30bb3a44e",
+          "started_at_utc": "2026-10-22T16:07:12.554Z"
+        },
+        {
+          "aliases": [
+            "PAGE-A"
+          ],
+          "connector_exposed_item_count": 1,
+          "coverage_fields": {},
+          "coverage_status": "unknown",
+          "finished_at_utc": "2026-10-22T16:07:13.671Z",
+          "next_token_representation": "absent",
+          "next_token_sha256": null,
+          "page": 4,
+          "private_record_sha256": "0caa450acc2205b8194336da9c0e2940c87d73f653ae01e1e64c3cf2d5dcfb8e",
+          "request_token_sha256": "a69ae8c2177d3edb32cf58cdc1ebfdbf0f276cffaa341314852a4992d84b3d80",
+          "response_sha256": "f70364bcf9957987ecf4e032d7fa1a6894b2a6f81dd2c88541ba2070eabcbc0d",
+          "started_at_utc": "2026-10-22T16:07:13.076Z"
+        }
+      ],
+      "query_scope": "four run-owned direct child folders; nontrashed filter",
+      "requested_maximum": 1,
+      "targets": [
+        "PAGE-A",
+        "PAGE-B",
+        "PAGE-C",
+        "PAGE-D"
+      ],
+      "tool": "mcp__codex_apps__google_drive_search"
+    }
+  },
+  "schema": 1,
+  "setup": "connector-created by parent; not a browser trial"
+}

@@ -1,0 +1,976 @@
+{
+  "cases": [
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "empty_page",
+      "target": "PAGE-A",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "short_page",
+      "target": "PAGE-A",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 2,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "no_match_page",
+      "target": "PAGE-A",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": true
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "token_only",
+      "target": "PAGE-A",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "unknown",
+      "rule": "token_and_coverage",
+      "target": "PAGE-A",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 2,
+      "provider": "calendar",
+      "result": "unknown",
+      "rule": "bounded_checked",
+      "target": "PAGE-A",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-B"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "empty_page",
+      "target": "PAGE-B",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-B"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "short_page",
+      "target": "PAGE-B",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": true,
+      "found": [],
+      "incorrect_complete_inventory": true,
+      "pages_read": 1,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "no_match_page",
+      "target": "PAGE-B",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": true
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-B"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "token_only",
+      "target": "PAGE-B",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-B"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "unknown",
+      "rule": "token_and_coverage",
+      "target": "PAGE-B",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [],
+      "incorrect_complete_inventory": false,
+      "pages_read": 2,
+      "provider": "calendar",
+      "result": "unknown",
+      "rule": "bounded_checked",
+      "target": "PAGE-B",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-C"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "empty_page",
+      "target": "PAGE-C",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-C"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "short_page",
+      "target": "PAGE-C",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": true,
+      "found": [],
+      "incorrect_complete_inventory": true,
+      "pages_read": 1,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "no_match_page",
+      "target": "PAGE-C",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": true
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-C"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "token_only",
+      "target": "PAGE-C",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-C"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "unknown",
+      "rule": "token_and_coverage",
+      "target": "PAGE-C",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-C"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 2,
+      "provider": "calendar",
+      "result": "unknown",
+      "rule": "bounded_checked",
+      "target": "PAGE-C",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "empty_page",
+      "target": "PAGE-D",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "short_page",
+      "target": "PAGE-D",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": true,
+      "found": [],
+      "incorrect_complete_inventory": true,
+      "pages_read": 1,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "no_match_page",
+      "target": "PAGE-D",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": true
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "complete_claim",
+      "rule": "token_only",
+      "target": "PAGE-D",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "calendar",
+      "result": "unknown",
+      "rule": "token_and_coverage",
+      "target": "PAGE-D",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [],
+      "incorrect_complete_inventory": false,
+      "pages_read": 2,
+      "provider": "calendar",
+      "result": "unknown",
+      "rule": "bounded_checked",
+      "target": "PAGE-D",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "empty_page",
+      "target": "PAGE-A",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "short_page",
+      "target": "PAGE-A",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": true,
+      "found": [],
+      "incorrect_complete_inventory": true,
+      "pages_read": 1,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "no_match_page",
+      "target": "PAGE-A",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": true
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "token_only",
+      "target": "PAGE-A",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "unknown",
+      "rule": "token_and_coverage",
+      "target": "PAGE-A",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [],
+      "incorrect_complete_inventory": false,
+      "pages_read": 2,
+      "provider": "drive",
+      "result": "unknown",
+      "rule": "bounded_checked",
+      "target": "PAGE-A",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-B"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "empty_page",
+      "target": "PAGE-B",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-B"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "short_page",
+      "target": "PAGE-B",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": true,
+      "found": [],
+      "incorrect_complete_inventory": true,
+      "pages_read": 1,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "no_match_page",
+      "target": "PAGE-B",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": true
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-B"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "token_only",
+      "target": "PAGE-B",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-B"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "unknown",
+      "rule": "token_and_coverage",
+      "target": "PAGE-B",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [],
+      "incorrect_complete_inventory": false,
+      "pages_read": 2,
+      "provider": "drive",
+      "result": "unknown",
+      "rule": "bounded_checked",
+      "target": "PAGE-B",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-C"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "empty_page",
+      "target": "PAGE-C",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-C"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "short_page",
+      "target": "PAGE-C",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": true,
+      "found": [],
+      "incorrect_complete_inventory": true,
+      "pages_read": 1,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "no_match_page",
+      "target": "PAGE-C",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": true
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-C"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "token_only",
+      "target": "PAGE-C",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-C"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "unknown",
+      "rule": "token_and_coverage",
+      "target": "PAGE-C",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-C"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 2,
+      "provider": "drive",
+      "result": "unknown",
+      "rule": "bounded_checked",
+      "target": "PAGE-C",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "empty_page",
+      "target": "PAGE-D",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "short_page",
+      "target": "PAGE-D",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 2,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "no_match_page",
+      "target": "PAGE-D",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": true
+    },
+    {
+      "claims_complete": true,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "complete_claim",
+      "rule": "token_only",
+      "target": "PAGE-D",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 4,
+      "provider": "drive",
+      "result": "unknown",
+      "rule": "token_and_coverage",
+      "target": "PAGE-D",
+      "token_remaining": false,
+      "unsupported_page_chain_claim": false
+    },
+    {
+      "claims_complete": false,
+      "coverage_status": "unknown",
+      "false_absence": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "incorrect_complete_inventory": false,
+      "pages_read": 2,
+      "provider": "drive",
+      "result": "unknown",
+      "rule": "bounded_checked",
+      "target": "PAGE-D",
+      "token_remaining": true,
+      "unsupported_page_chain_claim": false
+    }
+  ],
+  "empty_control_calls": 2,
+  "evidence_kind": "local policy replay on two real provider page chains",
+  "inventory_controls": [
+    {
+      "claims_fixture_inventory_complete": true,
+      "fixture_inventory_equal": false,
+      "found": [
+        "PAGE-A"
+      ],
+      "missing": [
+        "PAGE-B",
+        "PAGE-C",
+        "PAGE-D"
+      ],
+      "pages_read": 1,
+      "policy": "first_page_baseline",
+      "provider": "calendar",
+      "provider_wide_coverage": "unknown",
+      "result": "complete_claim",
+      "token_remaining": true
+    },
+    {
+      "claims_fixture_inventory_complete": true,
+      "fixture_inventory_equal": true,
+      "found": [
+        "PAGE-A",
+        "PAGE-B",
+        "PAGE-C",
+        "PAGE-D"
+      ],
+      "missing": [],
+      "pages_read": 4,
+      "policy": "token_traversal",
+      "provider": "calendar",
+      "provider_wide_coverage": "unknown",
+      "result": "fixture_inventory_verified",
+      "token_remaining": false
+    },
+    {
+      "claims_fixture_inventory_complete": false,
+      "fixture_inventory_equal": false,
+      "found": [
+        "PAGE-A",
+        "PAGE-C"
+      ],
+      "missing": [
+        "PAGE-B",
+        "PAGE-D"
+      ],
+      "pages_read": 2,
+      "policy": "two_page_bound",
+      "provider": "calendar",
+      "provider_wide_coverage": "unknown",
+      "result": "unknown",
+      "token_remaining": true
+    },
+    {
+      "claims_fixture_inventory_complete": true,
+      "fixture_inventory_equal": false,
+      "found": [
+        "PAGE-D"
+      ],
+      "missing": [
+        "PAGE-A",
+        "PAGE-B",
+        "PAGE-C"
+      ],
+      "pages_read": 1,
+      "policy": "first_page_baseline",
+      "provider": "drive",
+      "provider_wide_coverage": "unknown",
+      "result": "complete_claim",
+      "token_remaining": true
+    },
+    {
+      "claims_fixture_inventory_complete": true,
+      "fixture_inventory_equal": true,
+      "found": [
+        "PAGE-A",
+        "PAGE-B",
+        "PAGE-C",
+        "PAGE-D"
+      ],
+      "missing": [],
+      "pages_read": 4,
+      "policy": "token_traversal",
+      "provider": "drive",
+      "provider_wide_coverage": "unknown",
+      "result": "fixture_inventory_verified",
+      "token_remaining": false
+    },
+    {
+      "claims_fixture_inventory_complete": false,
+      "fixture_inventory_equal": false,
+      "found": [
+        "PAGE-C",
+        "PAGE-D"
+      ],
+      "missing": [
+        "PAGE-A",
+        "PAGE-B"
+      ],
+      "pages_read": 2,
+      "policy": "two_page_bound",
+      "provider": "drive",
+      "provider_wide_coverage": "unknown",
+      "result": "unknown",
+      "token_remaining": true
+    }
+  ],
+  "measured_provider_page_calls": 8,
+  "not_independent_trials": true,
+  "paired_local_target_cases": 8,
+  "providers": {
+    "calendar": {
+      "coverage_status": "unknown",
+      "distinct_fixtures": 4,
+      "duplicate_returns": 0,
+      "empty_control_calls": 1,
+      "final_token": true,
+      "manifest_equal": true,
+      "nonfinal_empty_pages": 0,
+      "nonfinal_short_pages": 0,
+      "page_calls": 4,
+      "pages_with_continuation": 3,
+      "returned_order": [
+        "PAGE-A",
+        "PAGE-C",
+        "PAGE-D",
+        "PAGE-B"
+      ]
+    },
+    "drive": {
+      "coverage_status": "unknown",
+      "distinct_fixtures": 4,
+      "duplicate_returns": 0,
+      "empty_control_calls": 1,
+      "final_token": true,
+      "manifest_equal": true,
+      "nonfinal_empty_pages": 0,
+      "nonfinal_short_pages": 0,
+      "page_calls": 4,
+      "pages_with_continuation": 3,
+      "returned_order": [
+        "PAGE-D",
+        "PAGE-C",
+        "PAGE-B",
+        "PAGE-A"
+      ]
+    }
+  },
+  "rule_outcomes": 48,
+  "schema": 1,
+  "summaries": {
+    "bounded_checked": {
+      "complete_claims": 0,
+      "false_absence_claims": 0,
+      "incorrect_complete_inventories": 0,
+      "pages_read_total": 16,
+      "paired_local_cases": 8,
+      "target_found": 4,
+      "unknown": 8,
+      "unsupported_page_chain_claims": 0
+    },
+    "empty_page": {
+      "complete_claims": 8,
+      "false_absence_claims": 0,
+      "incorrect_complete_inventories": 0,
+      "pages_read_total": 32,
+      "paired_local_cases": 8,
+      "target_found": 8,
+      "unknown": 0,
+      "unsupported_page_chain_claims": 0
+    },
+    "no_match_page": {
+      "complete_claims": 8,
+      "false_absence_claims": 6,
+      "incorrect_complete_inventories": 6,
+      "pages_read_total": 10,
+      "paired_local_cases": 8,
+      "target_found": 2,
+      "unknown": 0,
+      "unsupported_page_chain_claims": 8
+    },
+    "short_page": {
+      "complete_claims": 8,
+      "false_absence_claims": 0,
+      "incorrect_complete_inventories": 0,
+      "pages_read_total": 32,
+      "paired_local_cases": 8,
+      "target_found": 8,
+      "unknown": 0,
+      "unsupported_page_chain_claims": 0
+    },
+    "token_and_coverage": {
+      "complete_claims": 0,
+      "false_absence_claims": 0,
+      "incorrect_complete_inventories": 0,
+      "pages_read_total": 32,
+      "paired_local_cases": 8,
+      "target_found": 8,
+      "unknown": 8,
+      "unsupported_page_chain_claims": 0
+    },
+    "token_only": {
+      "complete_claims": 8,
+      "false_absence_claims": 0,
+      "incorrect_complete_inventories": 0,
+      "pages_read_total": 32,
+      "paired_local_cases": 8,
+      "target_found": 8,
+      "unknown": 0,
+      "unsupported_page_chain_claims": 0
+    }
+  },
+  "untested": [
+    "nonfinal empty page",
+    "nonfinal short page",
+    "native incompleteSearch=true",
+    "shared or secondary account scope",
+    "token expiry",
+    "changing records during traversal",
+    "browser-agent policy adherence"
+  ]
+}
