@@ -1,0 +1,16 @@
+{
+  "reviewer": "separate AI agent; not human or external peer review",
+  "reviewed_utc": "2026-10-22T16:30:27.614334+00:00",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "input_sha256": {
+    "report.md": "ec0f5fe5c54422eaa219c26ccf9775882a213ad397ef89d164f4ae405658e878",
+    "technical_plan.md": "fca0a6bb0e149aefe1edac14d3abf0949880f6c3a19de936a8b495b0a986b4c5",
+    "technical_simulation.py": "ccee60d8ae27cabdf608702fcad73aa4457bdd466d2ea7e085647c3bd668ece8",
+    "technical_results.json": "5fd9b11dd82592538cd838276764055d6289a5b23b6c6eee45b98d8039eacfd3"
+  },
+  "isolated_author_rerun_equal": true,
+  "independently_recomputed_scenarios": 5,
+  "independent_clipped_interval_cases": 135,
+  "external_budget_values_per_case": 3,
+  "limitations": "No secure meter, attestation, receipt reconciliation, deployment, or adversarial security implementation exists in this simulation."
+}

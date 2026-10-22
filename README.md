@@ -12,10 +12,11 @@ The task is scheduled in Codex. It is not a GitHub Actions workflow.
 
 ## Research reports
 
-The first example study was completed on October 8, 2026. The owner requested five additional studies on October 22. The first five rows below are that extra batch; the daily schedule is unchanged.
+The first example study was completed on October 8, 2026. The owner requested five additional studies on October 22. The five extra studies are identified by their titles below; the daily schedule is unchanged. A separate owner request on October 22 added the compute-verification technical paper.
 
 | Date | Study | Main result | Review status |
 | --- | --- | --- | --- |
+| 2026-10-22 | [Bounding AI Compute with Attested Receipts](research/2026-10-22-compute-verification/report.md) | Conditional fleet and project bounds; missing-capacity budgets; five synthetic scenarios and 4,096 missingness checks. Proposed design, no hardware validation. | AI-generated working paper; separate AI review and reproduction completed; no human review. |
 | 2026-10-22 | [Repeated gate requests during overlapping undo](research/2026-10-22-overlapping-undo-gates/report.md) | In 1,596 synthetic histories, a flag opened too early in 1,196; an active-ID set stayed closed at the end in 850. Retained lifecycle states matched every checked point. | AI-generated; separate agent review passed; no human review. |
 | 2026-10-22 | [A locally valid undo step can block safe completion](research/2026-10-22-safe-undo-order/report.md) | Greedy undo reached 24 avoidable dead ends in 384 primary cases. Complete search safely finished all 276 feasible cases. Synthetic model. | AI-generated; separate agent review passed; no human review. |
 | 2026-10-22 | [Cancellation across restarts: when an old worker can still act](research/2026-10-22-cancel-fencing/report.md) | In 612 synthetic schedules per rule, a unique token checked before use still allowed 80 stale effects. Atomic checking and an installed fence each allowed zero. | AI-generated; separate agent review passed; no human review. |

@@ -1,0 +1,121 @@
+{
+  "kind": "synthetic accounting demonstration, not a hardware benchmark",
+  "seed": 20261022,
+  "error_bound": 2,
+  "capacity_units": "abstract operation units per one-unit epoch",
+  "total_capacity": 1600000,
+  "scenarios": {
+    "complete": {
+      "records": 10000,
+      "missing": 0,
+      "time_coverage_pct": 100.0,
+      "capacity_coverage_pct": 100.0,
+      "observed": 799896,
+      "truth": 799897,
+      "lower": 779896,
+      "upper": 819896,
+      "width": 40000,
+      "gap_capacity": 0,
+      "threshold": 900000,
+      "decision": "within"
+    },
+    "random_5pct": {
+      "records": 10000,
+      "missing": 500,
+      "time_coverage_pct": 95.0,
+      "capacity_coverage_pct": 94.83125,
+      "observed": 757596,
+      "truth": 799897,
+      "lower": 738596,
+      "upper": 859296,
+      "width": 120700,
+      "gap_capacity": 82700,
+      "threshold": 900000,
+      "decision": "within"
+    },
+    "high_capacity_5pct": {
+      "records": 10000,
+      "missing": 500,
+      "time_coverage_pct": 95.0,
+      "capacity_coverage_pct": 87.5,
+      "observed": 699837,
+      "truth": 799897,
+      "lower": 680837,
+      "upper": 918837,
+      "width": 238000,
+      "gap_capacity": 200000,
+      "threshold": 900000,
+      "decision": "unresolved"
+    },
+    "high_activity_5pct": {
+      "records": 10000,
+      "missing": 500,
+      "time_coverage_pct": 95.0,
+      "capacity_coverage_pct": 87.5,
+      "observed": 639153,
+      "truth": 799897,
+      "lower": 620153,
+      "upper": 858153,
+      "width": 238000,
+      "gap_capacity": 200000,
+      "threshold": 900000,
+      "decision": "within"
+    },
+    "all_high_capacity_20pct": {
+      "records": 10000,
+      "missing": 2000,
+      "time_coverage_pct": 80.0,
+      "capacity_coverage_pct": 50.0,
+      "observed": 399933,
+      "truth": 799897,
+      "lower": 383933,
+      "upper": 1215933,
+      "width": 832000,
+      "gap_capacity": 800000,
+      "threshold": 900000,
+      "decision": "unresolved"
+    }
+  },
+  "exhaustive_masks_checked": 4096,
+  "exhaustive_failures": 0,
+  "threshold_boundary_checks": [
+    {
+      "lower": 10,
+      "upper": 20,
+      "threshold": 20,
+      "expected": "within",
+      "actual": "within"
+    },
+    {
+      "lower": 10,
+      "upper": 20,
+      "threshold": 10,
+      "expected": "unresolved",
+      "actual": "unresolved"
+    },
+    {
+      "lower": 10,
+      "upper": 20,
+      "threshold": 9,
+      "expected": "exceeds",
+      "actual": "exceeds"
+    },
+    {
+      "lower": 10,
+      "upper": 20,
+      "threshold": 19,
+      "expected": "unresolved",
+      "actual": "unresolved"
+    }
+  ],
+  "false_meter_counterexample": {
+    "capacity": 100,
+    "truth": 80,
+    "measured": 20,
+    "assumed_error": 2,
+    "claimed_lower": 18,
+    "claimed_upper": 22,
+    "truth_contained": false
+  },
+  "external_inventory_rule": "If external compute has no defensible finite budget, global upper bound is unbounded."
+}

@@ -1,0 +1,77 @@
+{
+  "date_utc": "2026-10-22T16:30:27+00:00",
+  "state": "AI-generated technical working paper",
+  "scope": "Exploratory proposal, conditional analysis and synthetic or constructed logical examples; no hardware/field validation",
+  "separate_ai_review": "reviews/technical_review.md",
+  "review_response": "reviews/author_response.md",
+  "packaged_reproduction_command": "python3 reviews/technical_check.py",
+  "packaged_reproduction_exit_code": 0,
+  "python_version": "3.13.7",
+  "checks": {
+    "relative_study_links_exist": true,
+    "github_math_delimiters": true,
+    "source_note_hashes_verified": "not applicable: paraphrase search record",
+    "release_text_checked_for_private_paths_and_credentials": true,
+    "central_analysis_unchanged_after_review": true,
+    "new_reuse_license_added": false
+  },
+  "source_release_rechecks": "Primary-source descriptions spot-checked after authored cutoff; no additional policy source corpus or current-law claim introduced.",
+  "model_attribution": "Project-requested GPT-6.1 Sol; reasoning Ultra. Runtime identity/configuration not independently verified.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3364,
+      "sha256": "9376d973a80e696c95a5662954ab0298b2474386f379df0b6e57be7f4b98d9c2"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 3837,
+      "sha256": "0f9af342c4fa3cb9d2e38fe4ce741d8c728158703b16150891485d76ead96a0e"
+    },
+    {
+      "path": "report.md",
+      "bytes": 30356,
+      "sha256": "ec0f5fe5c54422eaa219c26ccf9775882a213ad397ef89d164f4ae405658e878"
+    },
+    {
+      "path": "reviews/author_response.md",
+      "bytes": 2334,
+      "sha256": "86a9c1304a7442061638cdbaa122067ada974e95a5cab26326b49d615125f7ff"
+    },
+    {
+      "path": "reviews/technical_check.py",
+      "bytes": 3323,
+      "sha256": "d0b5f40123c9f842ef3d1836ae2b94ff424f1fc679e172f894c4f02d1964af9f"
+    },
+    {
+      "path": "reviews/technical_check_results.json",
+      "bytes": 947,
+      "sha256": "8a40d8ba66368436b5bbf0d4cddc44e8007b36c8d55e87d97e7864db6b7f5b0a"
+    },
+    {
+      "path": "reviews/technical_review.md",
+      "bytes": 7241,
+      "sha256": "4d215d24b69f38e5254a2211b7fbdd4ae693521bce0f505e14899ad86e2d6daf"
+    },
+    {
+      "path": "technical_plan.md",
+      "bytes": 2965,
+      "sha256": "fca0a6bb0e149aefe1edac14d3abf0949880f6c3a19de936a8b495b0a986b4c5"
+    },
+    {
+      "path": "technical_results.json",
+      "bytes": 2938,
+      "sha256": "5fd9b11dd82592538cd838276764055d6289a5b23b6c6eee45b98d8039eacfd3"
+    },
+    {
+      "path": "technical_simulation.py",
+      "bytes": 4445,
+      "sha256": "ccee60d8ae27cabdf608702fcad73aa4457bdd466d2ea7e085647c3bd668ece8"
+    },
+    {
+      "path": "technical_sources.md",
+      "bytes": 6215,
+      "sha256": "2f12bb18330bd292764874c11f3f5125fc4ddf6cec6b46661b2bd85374aa5292"
+    }
+  ]
+}
