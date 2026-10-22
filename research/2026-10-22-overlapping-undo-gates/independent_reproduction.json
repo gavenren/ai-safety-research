@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+    "live_gate_analyze.py",
+    "live_evidence.json",
+    "independent_reproduced_results.json"
+  ],
+  "started_at_utc": "2026-10-22T16:46:22.612727+00:00",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"descriptive_results_with_protocol_deviations\", \"observed_boundaries\": 40, \"verified_guarded_reads\": 14, \"unsafe_permitted_reads\": 3, \"unnecessary_refusals\": 5}\n",
+  "stderr": "",
+  "exact_result_bytes_match": true,
+  "wall_seconds": 0.07030049999593757,
+  "child_cpu_seconds": 0.059962,
+  "account_calls": 0
+}

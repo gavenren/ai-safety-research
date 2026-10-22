@@ -1,0 +1,169 @@
+{
+  "assigned_cases": 8,
+  "by_rule": {
+    "active_ids": {
+      "boundaries": 10,
+      "cases": 2,
+      "final_closed_cases": 1,
+      "guarded_reads": 2,
+      "unnecessary_refusals": 2,
+      "unsafe_permitted_reads": 0
+    },
+    "boolean": {
+      "boundaries": 10,
+      "cases": 2,
+      "final_closed_cases": 0,
+      "guarded_reads": 5,
+      "unnecessary_refusals": 1,
+      "unsafe_permitted_reads": 2
+    },
+    "lifecycle_registry": {
+      "boundaries": 10,
+      "cases": 2,
+      "final_closed_cases": 0,
+      "guarded_reads": 4,
+      "unnecessary_refusals": 0,
+      "unsafe_permitted_reads": 0
+    },
+    "nonnegative_count": {
+      "boundaries": 10,
+      "cases": 2,
+      "final_closed_cases": 1,
+      "guarded_reads": 3,
+      "unnecessary_refusals": 2,
+      "unsafe_permitted_reads": 1
+    }
+  },
+  "cases": [
+    {
+      "case_id": "G1-boolean",
+      "case_seconds": 140.003,
+      "final_gate_closed": false,
+      "final_work_done": true,
+      "guarded_reads": 3,
+      "observed_boundaries": 5,
+      "rule": "boolean",
+      "schedule": "G1",
+      "timing_and_fresh_metadata_eligible": false,
+      "timing_eligible": true,
+      "unnecessary_refusals": 0,
+      "unsafe_permitted_reads": 2
+    },
+    {
+      "case_id": "G1-nonnegative_count",
+      "case_seconds": 136.016,
+      "final_gate_closed": false,
+      "final_work_done": true,
+      "guarded_reads": 2,
+      "observed_boundaries": 5,
+      "rule": "nonnegative_count",
+      "schedule": "G1",
+      "timing_and_fresh_metadata_eligible": false,
+      "timing_eligible": false,
+      "unnecessary_refusals": 0,
+      "unsafe_permitted_reads": 1
+    },
+    {
+      "case_id": "G1-active_ids",
+      "case_seconds": 62.819,
+      "final_gate_closed": false,
+      "final_work_done": true,
+      "guarded_reads": 1,
+      "observed_boundaries": 5,
+      "rule": "active_ids",
+      "schedule": "G1",
+      "timing_and_fresh_metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary_refusals": 0,
+      "unsafe_permitted_reads": 0
+    },
+    {
+      "case_id": "G1-lifecycle_registry",
+      "case_seconds": 67.467,
+      "final_gate_closed": false,
+      "final_work_done": true,
+      "guarded_reads": 1,
+      "observed_boundaries": 5,
+      "rule": "lifecycle_registry",
+      "schedule": "G1",
+      "timing_and_fresh_metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary_refusals": 0,
+      "unsafe_permitted_reads": 0
+    },
+    {
+      "case_id": "G2-boolean",
+      "case_seconds": 64.103,
+      "final_gate_closed": false,
+      "final_work_done": true,
+      "guarded_reads": 2,
+      "observed_boundaries": 5,
+      "rule": "boolean",
+      "schedule": "G2",
+      "timing_and_fresh_metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary_refusals": 1,
+      "unsafe_permitted_reads": 0
+    },
+    {
+      "case_id": "G2-nonnegative_count",
+      "case_seconds": 58.826,
+      "final_gate_closed": true,
+      "final_work_done": true,
+      "guarded_reads": 1,
+      "observed_boundaries": 5,
+      "rule": "nonnegative_count",
+      "schedule": "G2",
+      "timing_and_fresh_metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary_refusals": 2,
+      "unsafe_permitted_reads": 0
+    },
+    {
+      "case_id": "G2-active_ids",
+      "case_seconds": 58.225,
+      "final_gate_closed": true,
+      "final_work_done": true,
+      "guarded_reads": 1,
+      "observed_boundaries": 5,
+      "rule": "active_ids",
+      "schedule": "G2",
+      "timing_and_fresh_metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary_refusals": 2,
+      "unsafe_permitted_reads": 0
+    },
+    {
+      "case_id": "G2-lifecycle_registry",
+      "case_seconds": 63.85,
+      "final_gate_closed": false,
+      "final_work_done": true,
+      "guarded_reads": 3,
+      "observed_boundaries": 5,
+      "rule": "lifecycle_registry",
+      "schedule": "G2",
+      "timing_and_fresh_metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary_refusals": 0,
+      "unsafe_permitted_reads": 0
+    }
+  ],
+  "cleanup_review": "separate_required_check",
+  "controller_replay_comparisons": 200,
+  "limits": [
+    "These are selected paired cases on two reused folders, not independent tasks or failure rates.",
+    "Repeat deliveries affect a local controller, not a provider API.",
+    "There is no separately measured gate activation clock.",
+    "One observation exceeded the frozen 30-second bound; one case lacked a fresh full start metadata read.",
+    "No native provider lock or atomic read guarantee was tested."
+  ],
+  "observed_boundaries": 40,
+  "publication_ready": false,
+  "scored_browser_renames": 32,
+  "status": "descriptive_results_with_protocol_deviations",
+  "timing_and_fresh_metadata_eligible_cases": 6,
+  "timing_eligible_cases": 7,
+  "unnecessary_refusals": 5,
+  "unsafe_permitted_reads": 3,
+  "verified_guarded_reads": 14
+}

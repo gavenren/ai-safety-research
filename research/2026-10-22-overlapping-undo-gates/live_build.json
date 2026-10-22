@@ -1,0 +1,8 @@
+{
+  "account_calls": 0,
+  "builder_sha256": "1c5bee06769274db25b25b8ea1d88964273f0b452f77f20997f41c2d532e908a",
+  "evidence_sha256": "86cc48b6920b901307593805831dbcc3271bfe1107bf406ad0466e2095502685",
+  "kind": "local_evidence_analysis",
+  "results_sha256": "1b61b8cb449a2d0e6eeea7949a46726fef5ccedcea001773890e8973da5c88c3",
+  "sanitizer_sha256": "b5973d5ec8ba8406e10046432f88a79a43f09e7bd2950be8c13459c94496ee39"
+}

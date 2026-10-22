@@ -1,0 +1,4182 @@
+{
+  "analysis_correction": "The earlier AX read and later DOM read can differ during UI refresh. Exact native-ID DOM reads define the observation boundary. AX disagreement remains recorded; no source was changed.",
+  "cases": [
+    {
+      "assigned_boundaries": 5,
+      "case_evidence": {
+        "file": "gate-case-G1-boolean.json",
+        "sha256": "82d95ea6d39111a1249e5c4e4401fd392e4f49bc8a3274464a5af4e15a6001ba"
+      },
+      "case_id": "G1-boolean",
+      "metadata": {
+        "end_source": "gate-connector-G1-boolean-end-G1-count-start.json",
+        "end_verified": true,
+        "fresh_start": false,
+        "start_source": "setup metadata and fresh UI baseline; no fresh full connector start read"
+      },
+      "points": [
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:08:59.878Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": true,
+            "lifecycle": {}
+          },
+          "n": 1,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:09:19.748Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-boolean-1-reload.json",
+                "sha256": "494fe5e13d0758e7a83b302d7555393e8e66fb354a220a25be8d76d03e06d043"
+              },
+              "time": "2026-10-22T16:08:46.359Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 13.519,
+          "rename_dispatch_time": "2026-10-22T16:08:39.778Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-boolean-1-recheck.json",
+                  "sha256": "4b10d15546d0caecc4a54f06c8cd59e465854cbe1d694cad51021da258e5107d"
+                },
+                {
+                  "file": "ui-G1-boolean-1-recheck.json",
+                  "sha256": "f20818a1c8b964fc4642a55e989441b6363866421754fa3c5271b67fb8f48562"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:08:59.878Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:08:39.504Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:09:40.793Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": true,
+            "lifecycle": {}
+          },
+          "n": 2,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:10:04.089Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-boolean-2-reload.json",
+                "sha256": "3dcf556eda3d1a964a38adbf609d8ebc0bd6b8077367761577a6a8c2dca7fd15"
+              },
+              "time": "2026-10-22T16:09:27.259Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 13.534,
+          "rename_dispatch_time": "2026-10-22T16:09:20.040Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-boolean-2-recheck.json",
+                  "sha256": "bd57c21cc8b0378aee7d2a4b48ae79f74fc73bcab1b2b32091c16b052161ebce"
+                },
+                {
+                  "file": "ui-G1-boolean-2-recheck.json",
+                  "sha256": "33f5d977610e04e9ab620a71b57adbbc77f7e93c8eca28d31626ac6b8ec98fd3"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:09:40.793Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:09:19.748Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:10:24.795Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 3,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:10:39.507Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-boolean-3-reload.json",
+                "sha256": "63ce873fbe932148d55891c20f4188976414a1662cf3c52565bd76e399f2ddbc"
+              },
+              "time": "2026-10-22T16:10:11.732Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 13.063,
+          "rename_dispatch_time": "2026-10-22T16:10:04.413Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-boolean-3-guarded.json",
+                  "sha256": "47e1f65d00ea3fe1351ae842b84f4991c28806ac7bb172ab88a90e2128b57266"
+                },
+                {
+                  "file": "ui-G1-boolean-3-guarded.json",
+                  "sha256": "ad4a50d1c769adb275b17be1eeaff7d7e0c2de02c2d78417bf848c6dc8e06000"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:10:39.506Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-boolean-3-recheck.json",
+                  "sha256": "4258247ee787a037e0d9c02cf18401170bcfe37b82d78f10720e8b10130c805d"
+                },
+                {
+                  "file": "ui-G1-boolean-3-recheck.json",
+                  "sha256": "4fe698857d9c3ff4ae050653a2c00bb5c903a827f6cbf25930ab029b6d0d6e98"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:10:24.795Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:10:04.089Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": true
+        },
+        {
+          "audit_read_count": 0,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:10:40.023Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 4,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:10:40.024Z",
+          "reload_records": [],
+          "reload_to_first_verified_read_seconds": null,
+          "rename_dispatch_time": null,
+          "request": {
+            "action": "R",
+            "duplicate": true,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-boolean-4-guarded.json",
+                  "sha256": "992195578028eded0ecbac571f58080ef830e197183995fd7669a325c261a158"
+                },
+                {
+                  "file": "ui-G1-boolean-4-guarded.json",
+                  "sha256": "0dfdbd8daf136bf1ea9fedf39baff03a6d0f1a9a9305ff8eebbf14e14db6b914"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:10:40.023Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:10:39.507Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": true
+        },
+        {
+          "audit_read_count": 0,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:10:59.506Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 5,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:10:59.507Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-boolean-5-reload.json",
+                "sha256": "56ebc9fa3840a0c62000b5270072b7989010fcb57162a7dca10d95c78582ff77"
+              },
+              "time": "2026-10-22T16:10:48.084Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 11.422,
+          "rename_dispatch_time": "2026-10-22T16:10:40.307Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-boolean-5-guarded.json",
+                  "sha256": "f949b9320c6358d22cfb2d4f4efa73193f304c9c9f0736f69124e2e3aee16653"
+                },
+                {
+                  "file": "ui-G1-boolean-5-guarded.json",
+                  "sha256": "5b2261d8cc70ef41ee54ffe1ba9ad481371e99a8517193f8032adc47d0756a28"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:10:59.506Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:10:40.024Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        }
+      ],
+      "reader_source": {
+        "file": "browser_executed_helpers.txt",
+        "sha256": "fe165be9c881198f657496e435890675a8c82fbeaa5d66930ce2262de78e982c"
+      },
+      "recorded_boundaries": 5,
+      "rule": "boolean",
+      "schedule": "G1",
+      "staged_start_to_final_probe_seconds": 140.003,
+      "status": "verified",
+      "strict_stop_rule_eligible": true,
+      "timing_limit": "Decision is staged before a write. Probe record follows saved reads. Exact gate activation time is not recorded.",
+      "within_eight_minute_case_bound": true
+    },
+    {
+      "assigned_boundaries": 5,
+      "case_evidence": {
+        "file": "gate-case-G1-nonnegative_count.json",
+        "sha256": "ef1102b75e9430813c3775c7fcb242af014291a370f024156cfca3604624fe49"
+      },
+      "case_id": "G1-nonnegative_count",
+      "metadata": {
+        "end_source": "gate-connector-boundary-2.json",
+        "end_verified": true,
+        "fresh_start": true,
+        "start_source": "gate-connector-G1-boolean-end-G1-count-start.json"
+      },
+      "points": [
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:12:42.806Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 1,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 1,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:12:42.807Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-nonnegative_count-1-reload.json",
+                "sha256": "8d5a1c594d9996859430927b0d1f35106a66ed136ee327e311f7ed28d1c3a010"
+              },
+              "time": "2026-10-22T16:12:19.206Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 23.6,
+          "rename_dispatch_time": "2026-10-22T16:12:10.528Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-nonnegative_count-1-audit.json",
+                  "sha256": "6b4c57853a9ee9ace38e185cc65389dacd535d03b06d18525b8d9b61375e74ca"
+                },
+                {
+                  "file": "ui-G1-nonnegative_count-1-audit.json",
+                  "sha256": "76817df9eb6123e3906a86fd246bbceb4767c059b352f63d98d52b7cb6129c32"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:12:42.806Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:12:10.192Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:12:53.301Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 2,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 2,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:12:53.302Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-nonnegative_count-2-reload.json",
+                "sha256": "67dd41dacbcbb8cc732453f6a70a3e43b3c671dc0bc9783449cc3a8cddcba2b8"
+              },
+              "time": "2026-10-22T16:12:52.379Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 0.922,
+          "rename_dispatch_time": "2026-10-22T16:12:43.100Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-nonnegative_count-2-audit.json",
+                  "sha256": "1d501a54c5938403289ed29591dac3eabaedbd705c784ea30d1d011c31324068"
+                },
+                {
+                  "file": "ui-G1-nonnegative_count-2-audit.json",
+                  "sha256": "ecf6df33c5428047a074b849399022524201dd96efeeda2065439111f902e7e7"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:12:53.301Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:12:42.807Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:13:24.112Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 1,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 3,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:13:24.112Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-nonnegative_count-3-reload.json",
+                "sha256": "2299a5c89bde49e708705919b1dbe78f777c02130d49434cc5be87e3e45b4eae"
+              },
+              "time": "2026-10-22T16:13:01.207Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 22.905,
+          "rename_dispatch_time": "2026-10-22T16:12:53.563Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-nonnegative_count-3-audit.json",
+                  "sha256": "c5b3a74de4fd1166dab842c57534f0c1b9380a45757a01f1d8aead599d838db0"
+                },
+                {
+                  "file": "ui-G1-nonnegative_count-3-audit.json",
+                  "sha256": "7c7219d61198ae45ef8714b14a9d9bf37c6353bd8d3a4863bddc94691f970b68"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:13:24.112Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:12:53.302Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:13:24.516Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 4,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:13:24.923Z",
+          "reload_records": [],
+          "reload_to_first_verified_read_seconds": null,
+          "rename_dispatch_time": null,
+          "request": {
+            "action": "R",
+            "duplicate": true,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-nonnegative_count-4-audit.json",
+                  "sha256": "8fce062607658083d24a6bb78ff9da1651372e504e605ff17e5fc2c711090cdb"
+                },
+                {
+                  "file": "ui-G1-nonnegative_count-4-audit.json",
+                  "sha256": "9dae1629b0bca93099c85befaa64962ebb4ce51411dcae7c4d245e1bb10947af"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:13:24.516Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-nonnegative_count-4-guarded.json",
+                  "sha256": "29ca2bffd909e6298977e07758e798f855a2b3c009ab71c6510cf4ff0397bf23"
+                },
+                {
+                  "file": "ui-G1-nonnegative_count-4-guarded.json",
+                  "sha256": "cd9f20ca35e90b09cb4d1d675c22ef4ce4099f4ecad06e6c9e3ee532f26e96c8"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:13:24.923Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:13:24.112Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": true
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": true,
+          "first_verified_read_time": "2026-10-22T16:14:25.885Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 5,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:14:26.208Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-nonnegative_count-5-reload-initial.json",
+                "sha256": "891621429a08f373c73d025348d78f72025a84eef5c5195f36b8740ea86ece08"
+              },
+              "time": "2026-10-22T16:13:33.112Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 52.773,
+          "rename_dispatch_time": "2026-10-22T16:13:25.251Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-nonnegative_count-5-audit.json",
+                  "sha256": "7d90dafd88aeb166583dcc93e13873ed7bb99a930d0ce4dd38768d4a6abc917e"
+                },
+                {
+                  "file": "ui-G1-nonnegative_count-5-audit.json",
+                  "sha256": "6cd8c33ba4b44900de6b0182c1dc451f25800eebfb4133fc508e8e832b092d5e"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:14:25.885Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-nonnegative_count-5-guarded.json",
+                  "sha256": "4798c76bea158461cbf276d14861c267fb1dcdcaff633c0247f94e691dcc6695"
+                },
+                {
+                  "file": "ui-G1-nonnegative_count-5-guarded.json",
+                  "sha256": "2d47ac1fab9e11e96bc12f410a7ed4f01e5474723bdc8fe005be0d6f20a679a1"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:14:26.207Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:13:24.923Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": false,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        }
+      ],
+      "reader_source": {
+        "file": "browser_executed_helpers.txt",
+        "sha256": "fe165be9c881198f657496e435890675a8c82fbeaa5d66930ce2262de78e982c"
+      },
+      "recorded_boundaries": 5,
+      "rule": "nonnegative_count",
+      "schedule": "G1",
+      "staged_start_to_final_probe_seconds": 136.016,
+      "status": "verified",
+      "strict_stop_rule_eligible": false,
+      "timing_limit": "Decision is staged before a write. Probe record follows saved reads. Exact gate activation time is not recorded.",
+      "within_eight_minute_case_bound": true
+    },
+    {
+      "assigned_boundaries": 5,
+      "case_evidence": {
+        "file": "gate-case-G1-active_ids.json",
+        "sha256": "52000a680469c48a9cfcf7b43bee3a7405d28bb9c556f48925df252d74c7c375"
+      },
+      "case_id": "G1-active_ids",
+      "metadata": {
+        "end_source": "gate-connector-boundary-3.json",
+        "end_verified": true,
+        "fresh_start": true,
+        "start_source": "gate-connector-boundary-2.json"
+      },
+      "points": [
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:14:52.026Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [
+              "A"
+            ],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 1,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:14:52.027Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-active_ids-1-reload-initial.json",
+                "sha256": "3c3f41295fa4185a034e742936ac8ccc322643ff4e57cf8d7c297bd954a7faad"
+              },
+              "time": "2026-10-22T16:14:47.360Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 4.666,
+          "rename_dispatch_time": "2026-10-22T16:14:39.212Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-active_ids-1-audit.json",
+                  "sha256": "a2b5883fa518054a710c4c88a78ae3e9efea437cd5c0620b775c514f282280dc"
+                },
+                {
+                  "file": "ui-G1-active_ids-1-audit.json",
+                  "sha256": "372e87335ea0e32704d79d892d8faa2c98cb190a63c8c63fb0c6b76a495ac5a1"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:14:52.026Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:14:38.824Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:15:16.200Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [
+              "A",
+              "B"
+            ],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 2,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:15:16.200Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-active_ids-2-reload-initial.json",
+                "sha256": "45181eea5499e2ca50ef34a730fe5c844f7e085b51a12be6d726edd7931f86a4"
+              },
+              "time": "2026-10-22T16:14:59.300Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 16.9,
+          "rename_dispatch_time": "2026-10-22T16:14:52.289Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-active_ids-2-audit.json",
+                  "sha256": "5f660c926b0295402d38309a8ec7c951528a962e5ea823d02937a5d4c095d9b3"
+                },
+                {
+                  "file": "ui-G1-active_ids-2-audit.json",
+                  "sha256": "e8e182c8153cd5ee1aec9f1e0ef5055fc34864b8f48948e9122eeb027d09937f"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:15:16.200Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:14:52.027Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:15:28.671Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [
+              "B"
+            ],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 3,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:15:28.673Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-active_ids-3-reload-initial.json",
+                "sha256": "888aaecd76949f5a4d68ed33ba9178736669dbc1a0f8de2c4dde93f2b5ea475e"
+              },
+              "time": "2026-10-22T16:15:23.605Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 5.066,
+          "rename_dispatch_time": "2026-10-22T16:15:16.466Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-active_ids-3-audit.json",
+                  "sha256": "b52e38b9ba0989442a8cf33de84dfc53ddde7fd6f7994dc4eff6963a08f72ac0"
+                },
+                {
+                  "file": "ui-G1-active_ids-3-audit.json",
+                  "sha256": "ad0eba3b9bdfc06c6d94c0174b1a889fe7d9982872764bdef5055db586496c0c"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:15:28.671Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:15:16.202Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:15:29.233Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [
+              "B"
+            ],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 4,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:15:29.234Z",
+          "reload_records": [],
+          "reload_to_first_verified_read_seconds": null,
+          "rename_dispatch_time": null,
+          "request": {
+            "action": "R",
+            "duplicate": true,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-active_ids-4-audit.json",
+                  "sha256": "947ffb619b22f2e8b1c2dd033c3aabd361ca7f25f03467c67c3aa34ace77fca1"
+                },
+                {
+                  "file": "ui-G1-active_ids-4-audit.json",
+                  "sha256": "46812cdeaba8ffe4a89733a4048f512b930ed94c9c44762ccd2cfbfef1ee35bf"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:15:29.233Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:15:28.675Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:15:41.321Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 5,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:15:41.643Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-active_ids-5-reload-initial.json",
+                "sha256": "6ec997bcb9b7a7485554f0686c6e56cebd357e681c5d83853af3b29653853543"
+              },
+              "time": "2026-10-22T16:15:36.752Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 4.569,
+          "rename_dispatch_time": "2026-10-22T16:15:29.498Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": true,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-active_ids-5-audit.json",
+                  "sha256": "4aa39b53b2b14c434a8811825b2836eda0bc45bb0a38193aa25ee98638285219"
+                },
+                {
+                  "file": "ui-G1-active_ids-5-audit.json",
+                  "sha256": "69e3f23570d14279d6ef4cd4ba324f147eed9b80117c130bbdbb99718b5b6d18"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": false,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:15:41.321Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-active_ids-5-guarded.json",
+                  "sha256": "05530ee0c42d095f96697d45b786b7df1edc007ef65963427a559f1518f6ed90"
+                },
+                {
+                  "file": "ui-G1-active_ids-5-guarded.json",
+                  "sha256": "cbc1bf604a222a4ed058ca4b4b5378d24b92deb4836e63c9fae97d5abed18d79"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:15:41.643Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:15:29.234Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        }
+      ],
+      "reader_source": {
+        "file": "browser_executed_helpers.txt",
+        "sha256": "fe165be9c881198f657496e435890675a8c82fbeaa5d66930ce2262de78e982c"
+      },
+      "recorded_boundaries": 5,
+      "rule": "active_ids",
+      "schedule": "G1",
+      "staged_start_to_final_probe_seconds": 62.819,
+      "status": "verified",
+      "strict_stop_rule_eligible": true,
+      "timing_limit": "Decision is staged before a write. Probe record follows saved reads. Exact gate activation time is not recorded.",
+      "within_eight_minute_case_bound": true
+    },
+    {
+      "assigned_boundaries": 5,
+      "case_evidence": {
+        "file": "gate-case-G1-lifecycle_registry.json",
+        "sha256": "70ca35973544e7916ac6eaa4e3cea5dcfbe123df79788d5d6750f4380654572c"
+      },
+      "case_id": "G1-lifecycle_registry",
+      "metadata": {
+        "end_source": "gate-connector-boundary-4.json",
+        "end_verified": true,
+        "fresh_start": true,
+        "start_source": "gate-connector-boundary-3.json"
+      },
+      "points": [
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:16:31.100Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {
+              "A": "active"
+            }
+          },
+          "n": 1,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:16:31.100Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-lifecycle_registry-1-reload-initial.json",
+                "sha256": "182ffe159ea33018e5a0b981c9b250627abab1aaaef01b622f142c86fd54526f"
+              },
+              "time": "2026-10-22T16:16:26.249Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 4.851,
+          "rename_dispatch_time": "2026-10-22T16:16:18.673Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": true,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-lifecycle_registry-1-audit.json",
+                  "sha256": "56c2cbaae8d843c4d77da185b772922f6de55b6f55777a101ca2bc4530905a27"
+                },
+                {
+                  "file": "ui-G1-lifecycle_registry-1-audit.json",
+                  "sha256": "3d77d34cf16917cdaa994f96ddfe557f5a73b8f45bef6ee664a3ae83431583a4"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": false,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:16:31.100Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:16:18.323Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:16:45.878Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {
+              "A": "active",
+              "B": "active"
+            }
+          },
+          "n": 2,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:16:45.878Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-lifecycle_registry-2-reload-initial.json",
+                "sha256": "26e9482b2c1ea9f89b96f347a41cb978c88c84af1b7db30d3307e8568093926e"
+              },
+              "time": "2026-10-22T16:16:38.400Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 7.478,
+          "rename_dispatch_time": "2026-10-22T16:16:31.384Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-lifecycle_registry-2-audit.json",
+                  "sha256": "bd8d2c2065ad003fb3d31c4150f3dc7d6b375e93731d4ffc31b6df59a108ca49"
+                },
+                {
+                  "file": "ui-G1-lifecycle_registry-2-audit.json",
+                  "sha256": "1e8205562ca134f191fe9e0ba427f83406c74935a6b153d8ed7ad407e5aa0648"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:16:45.878Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:16:31.101Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:17:13.139Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {
+              "A": "completed",
+              "B": "active"
+            }
+          },
+          "n": 3,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:17:13.140Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-lifecycle_registry-3-reload-initial.json",
+                "sha256": "f15b23ccf93c48eabcdf397312bc2e10e13a7eb95b624270b1e015484f2442e8"
+              },
+              "time": "2026-10-22T16:16:55.151Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 17.988,
+          "rename_dispatch_time": "2026-10-22T16:16:46.220Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-lifecycle_registry-3-audit.json",
+                  "sha256": "fd27091f84ee50456279f41e26888c15c3b0297b17a491ed13342b512e946733"
+                },
+                {
+                  "file": "ui-G1-lifecycle_registry-3-audit.json",
+                  "sha256": "f857da18e1597bc745cf2b78be1bdf0993f8008284e8763502af7bc6b2967346"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:17:13.139Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:16:45.879Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:17:13.518Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {
+              "A": "completed",
+              "B": "active"
+            }
+          },
+          "n": 4,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:17:13.519Z",
+          "reload_records": [],
+          "reload_to_first_verified_read_seconds": null,
+          "rename_dispatch_time": null,
+          "request": {
+            "action": "R",
+            "duplicate": true,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-lifecycle_registry-4-audit.json",
+                  "sha256": "c1c93cdd5fd4ef782532c879f9d8a169312a0fc3400b54fb27eb280fb9687d2a"
+                },
+                {
+                  "file": "ui-G1-lifecycle_registry-4-audit.json",
+                  "sha256": "3df40294891186c8518e21dc1de6e208201cf858894d97e469013b9be3013238"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:17:13.518Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:17:13.141Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:17:25.472Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {
+              "A": "completed",
+              "B": "completed"
+            }
+          },
+          "n": 5,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:17:25.790Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G1-lifecycle_registry-5-reload-initial.json",
+                "sha256": "275d96d17560e7ebd95d3e6b4705b822ee08249ca1e5e4af1724de7153fadd02"
+              },
+              "time": "2026-10-22T16:17:20.871Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 4.601,
+          "rename_dispatch_time": "2026-10-22T16:17:13.803Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-lifecycle_registry-5-audit.json",
+                  "sha256": "57cd90f60398dce522501b4ff933d570f51ea3e293d59932c256e4bc5168ad38"
+                },
+                {
+                  "file": "ui-G1-lifecycle_registry-5-audit.json",
+                  "sha256": "76cc7085d2bb95698d8d6389d282ea2697183259db4e1dbc4afc9e8652039c53"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:17:25.472Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G1-lifecycle_registry-5-guarded.json",
+                  "sha256": "397d7998902200bf5ac2783f9b030733c49e8f142a960409930b9582b727607d"
+                },
+                {
+                  "file": "ui-G1-lifecycle_registry-5-guarded.json",
+                  "sha256": "36c8e351502aec0cd0999f6441ed1e52846e3efff114a3a2ada1e5e4fe168c3c"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:17:25.789Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:17:13.519Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        }
+      ],
+      "reader_source": {
+        "file": "browser_executed_helpers.txt",
+        "sha256": "fe165be9c881198f657496e435890675a8c82fbeaa5d66930ce2262de78e982c"
+      },
+      "recorded_boundaries": 5,
+      "rule": "lifecycle_registry",
+      "schedule": "G1",
+      "staged_start_to_final_probe_seconds": 67.467,
+      "status": "verified",
+      "strict_stop_rule_eligible": true,
+      "timing_limit": "Decision is staged before a write. Probe record follows saved reads. Exact gate activation time is not recorded.",
+      "within_eight_minute_case_bound": true
+    },
+    {
+      "assigned_boundaries": 5,
+      "case_evidence": {
+        "file": "gate-case-G2-boolean.json",
+        "sha256": "652fe60032dc5141c97ac0f849263fa5c340224f3d483812c015d87d628f15a8"
+      },
+      "case_id": "G2-boolean",
+      "metadata": {
+        "end_source": "gate-connector-boundary-5.json",
+        "end_verified": true,
+        "fresh_start": true,
+        "start_source": "gate-connector-boundary-4.json"
+      },
+      "points": [
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:17:45.686Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": true,
+            "lifecycle": {}
+          },
+          "n": 1,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:17:45.686Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-boolean-1-reload-initial.json",
+                "sha256": "5a8e0c9485f8719c1443e7159b9ce3200643f55dd16445da18438bc507358c06"
+              },
+              "time": "2026-10-22T16:17:40.459Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 5.227,
+          "rename_dispatch_time": "2026-10-22T16:17:35.408Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-boolean-1-audit.json",
+                  "sha256": "50fabac36262a4745b85bc7d08ae9b3a6e4b6e1d4c826b17ba8cd5987fe5af38"
+                },
+                {
+                  "file": "ui-G2-boolean-1-audit.json",
+                  "sha256": "6f6df6fd20be733bff42c882e1c109bb60449525cfa8235516ed14d69b88e83e"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:17:45.686Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:17:35.016Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:18:08.072Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 2,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:18:08.441Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-boolean-2-reload-initial.json",
+                "sha256": "a375a247b1e33c611a7ea2f668966de1fa8917852120ac99a13eda46d16d2c51"
+              },
+              "time": "2026-10-22T16:17:53.485Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 14.587,
+          "rename_dispatch_time": "2026-10-22T16:17:46.395Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-boolean-2-audit.json",
+                  "sha256": "39f84622c9a8d86fcf6c0400da01280b48ea5bfc05501a6fc3173ac7ef9446b5"
+                },
+                {
+                  "file": "ui-G2-boolean-2-audit.json",
+                  "sha256": "ee5f64d40e48f2479e8b842de03806e571433dbf32e2efb7f374bb411b2e7729"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:18:08.072Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-boolean-2-guarded.json",
+                  "sha256": "156c289ee2e9e5a3d069b2766ba8858ab9c5d607d07e9cecf39c11d54a25d929"
+                },
+                {
+                  "file": "ui-G2-boolean-2-guarded.json",
+                  "sha256": "dfb1e435337cd800372711a004cb45140c906a8771f0599da91aaac23fbc0c89"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:18:08.440Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:17:45.687Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:18:08.765Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": true,
+            "lifecycle": {}
+          },
+          "n": 3,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:18:08.766Z",
+          "reload_records": [],
+          "reload_to_first_verified_read_seconds": null,
+          "rename_dispatch_time": null,
+          "request": {
+            "action": "C",
+            "duplicate": true,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-boolean-3-audit.json",
+                  "sha256": "4fac8c955ceb8e3f3aa9e2d0f3a65632df7a7369735e95dd7b85c4127d319a5c"
+                },
+                {
+                  "file": "ui-G2-boolean-3-audit.json",
+                  "sha256": "709520dfd3efe3dea2d0f498626f2b2e14ceaf4a2fcadf337d02dda3048eb5db"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:18:08.765Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:18:08.441Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": true,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:18:24.645Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": true,
+            "lifecycle": {}
+          },
+          "n": 4,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:18:24.645Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-boolean-4-reload-initial.json",
+                "sha256": "e1bee45ee46b6364558d5aff080fb764fb11059b715c9ce46bc77ddac782ae23"
+              },
+              "time": "2026-10-22T16:18:16.969Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 7.676,
+          "rename_dispatch_time": "2026-10-22T16:18:09.026Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-boolean-4-audit.json",
+                  "sha256": "bbfaa07fe5a23b13a86a05bdf1803c12faf251c997b367606976b64920bdab4c"
+                },
+                {
+                  "file": "ui-G2-boolean-4-audit.json",
+                  "sha256": "4b17fe8318f22071b476b38cd6072e4c7784c127cf24ea722deac59101caaa78"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:18:24.645Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:18:08.766Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:18:38.804Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 5,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:18:39.119Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-boolean-5-reload-initial.json",
+                "sha256": "354e532bce2b798e30c645798175ac86d98e9b573fc263b7acd592e4584b23c3"
+              },
+              "time": "2026-10-22T16:18:32.236Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 6.568,
+          "rename_dispatch_time": "2026-10-22T16:18:24.900Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-boolean-5-audit.json",
+                  "sha256": "e386852901ecd7d9a41eb27b68d5337a7b0e68baaa6a4890a32101199c324d57"
+                },
+                {
+                  "file": "ui-G2-boolean-5-audit.json",
+                  "sha256": "3c489eb92c56e3e15502d4d3e06353a4a1c39283e51d3ffde0ecdcbe7ccb2d45"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:18:38.804Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-boolean-5-guarded.json",
+                  "sha256": "520dc385c8cb558843aed8ec7c15ee5c270188f7c6f06a05254bc71be0bedf1b"
+                },
+                {
+                  "file": "ui-G2-boolean-5-guarded.json",
+                  "sha256": "c2f69ef83bd610321126a2dc3e2e68cf266849d83cc20d28f472a7a6a968a15d"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:18:39.118Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:18:24.646Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        }
+      ],
+      "reader_source": {
+        "file": "browser_executed_helpers.txt",
+        "sha256": "fe165be9c881198f657496e435890675a8c82fbeaa5d66930ce2262de78e982c"
+      },
+      "recorded_boundaries": 5,
+      "rule": "boolean",
+      "schedule": "G2",
+      "staged_start_to_final_probe_seconds": 64.103,
+      "status": "verified",
+      "strict_stop_rule_eligible": true,
+      "timing_limit": "Decision is staged before a write. Probe record follows saved reads. Exact gate activation time is not recorded.",
+      "within_eight_minute_case_bound": true
+    },
+    {
+      "assigned_boundaries": 5,
+      "case_evidence": {
+        "file": "gate-case-G2-nonnegative_count.json",
+        "sha256": "760603eb56d97ffaa5a084746b42fb0cfc05e4ab1fb63f5e5aeeed5ffd8728a2"
+      },
+      "case_id": "G2-nonnegative_count",
+      "metadata": {
+        "end_source": "gate-connector-boundary-6.json",
+        "end_verified": true,
+        "fresh_start": true,
+        "start_source": "gate-connector-boundary-5.json"
+      },
+      "points": [
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:19:02.432Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 1,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 1,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:19:02.434Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-nonnegative_count-1-reload-initial.json",
+                "sha256": "83288a6c9dc37f4a58b80214e8a9247655e3f7b824cc3275ae31d7634ecf5fb3"
+              },
+              "time": "2026-10-22T16:18:54.643Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 7.789,
+          "rename_dispatch_time": "2026-10-22T16:18:47.615Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-nonnegative_count-1-audit.json",
+                  "sha256": "d719d80ff5a2ff2d751f565166dea9fc567333aec191c1833a1b29897898acdc"
+                },
+                {
+                  "file": "ui-G2-nonnegative_count-1-audit.json",
+                  "sha256": "979a3062177782f7b1feb33d493a5fc49abc6ee277649f4e38edafa6a7570b8a"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:19:02.432Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:18:47.342Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:19:14.671Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 2,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:19:15.012Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-nonnegative_count-2-reload-initial.json",
+                "sha256": "efdbebe071f19eee1f51ecfdc457a0f7b15e62a051a9f33e43a0ec7528b0cc0c"
+              },
+              "time": "2026-10-22T16:19:10.034Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 4.637,
+          "rename_dispatch_time": "2026-10-22T16:19:02.714Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-nonnegative_count-2-audit.json",
+                  "sha256": "86b67289307df1c9dff7209ab9e984d8bbd928a4fb5e6be0e56ca8944aa750ea"
+                },
+                {
+                  "file": "ui-G2-nonnegative_count-2-audit.json",
+                  "sha256": "8a028f10830d1f2a0519d26d7b6aac161ad3ae722136b9b636ec485b74e8aa01"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:19:14.671Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-nonnegative_count-2-guarded.json",
+                  "sha256": "e25c3efd3d5bab90ec0ca88aafa878e15236e90d38dc164c7f521b988b0bbba4"
+                },
+                {
+                  "file": "ui-G2-nonnegative_count-2-guarded.json",
+                  "sha256": "1902b8c16bcf8a509c1584b98aba453fc474fb2e64ab9c3c9fe3841644936751"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:19:15.011Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:19:02.434Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:19:15.343Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 1,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 3,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:19:15.344Z",
+          "reload_records": [],
+          "reload_to_first_verified_read_seconds": null,
+          "rename_dispatch_time": null,
+          "request": {
+            "action": "C",
+            "duplicate": true,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-nonnegative_count-3-audit.json",
+                  "sha256": "13d8e68fd6ba79b14fb594bd5b34ddfd79cf53bf479873afb4442e12e421cedd"
+                },
+                {
+                  "file": "ui-G2-nonnegative_count-3-audit.json",
+                  "sha256": "4f297c5ec6784d2f453ab40809515d05a6ed224a0a36680681206ddbe4205f19"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:19:15.343Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:19:15.012Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": true,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:19:29.151Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 2,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 4,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:19:29.152Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-nonnegative_count-4-reload-initial.json",
+                "sha256": "9d9c39109ed1254c6a776e41c56bf5fc17543d7d0777874acd9e62467f124e55"
+              },
+              "time": "2026-10-22T16:19:22.734Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 6.417,
+          "rename_dispatch_time": "2026-10-22T16:19:15.602Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-nonnegative_count-4-audit.json",
+                  "sha256": "22a80b6ce5c7bc3f63139759e7994b7abe54d6e36f7e37b066e91bb4e7c9a654"
+                },
+                {
+                  "file": "ui-G2-nonnegative_count-4-audit.json",
+                  "sha256": "5a2cfce68edd96f34defe0142cbed7d83d20b64bc861a40f50e807d2e164e9a0"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:19:29.151Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:19:15.344Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:19:46.167Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 1,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 5,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:19:46.168Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-nonnegative_count-5-reload-initial.json",
+                "sha256": "a4df57241d7772057c0f283b7983c148821531fd3e2dfb2f7569bfd569e12f9d"
+              },
+              "time": "2026-10-22T16:19:37.491Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 8.676,
+          "rename_dispatch_time": "2026-10-22T16:19:29.618Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-nonnegative_count-5-audit.json",
+                  "sha256": "954128af2b5f1c32db1fe4f5d87ed08ce6a09718856b96c07b1fc1f3b0ca0b73"
+                },
+                {
+                  "file": "ui-G2-nonnegative_count-5-audit.json",
+                  "sha256": "4a2b70edf6c7cd5a553f6cf42476c7bde1664bb113f58fd237fab6c259d90625"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:19:46.167Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:19:29.159Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": true,
+          "unsafe_permitted_read": false
+        }
+      ],
+      "reader_source": {
+        "file": "browser_executed_helpers.txt",
+        "sha256": "fe165be9c881198f657496e435890675a8c82fbeaa5d66930ce2262de78e982c"
+      },
+      "recorded_boundaries": 5,
+      "rule": "nonnegative_count",
+      "schedule": "G2",
+      "staged_start_to_final_probe_seconds": 58.826,
+      "status": "verified",
+      "strict_stop_rule_eligible": true,
+      "timing_limit": "Decision is staged before a write. Probe record follows saved reads. Exact gate activation time is not recorded.",
+      "within_eight_minute_case_bound": true
+    },
+    {
+      "assigned_boundaries": 5,
+      "case_evidence": {
+        "file": "gate-case-G2-active_ids.json",
+        "sha256": "463a6b8609506dfd6446741623c6810049bd4aad1c5184b1cb3105c6a5995f30"
+      },
+      "case_id": "G2-active_ids",
+      "metadata": {
+        "end_source": "gate-connector-boundary-7.json",
+        "end_verified": true,
+        "fresh_start": true,
+        "start_source": "gate-connector-boundary-6.json"
+      },
+      "points": [
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:20:13.538Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [
+              "A"
+            ],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 1,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:20:13.539Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-active_ids-1-reload-initial.json",
+                "sha256": "964ea6f736fdd14c76f6c0beae879cd3910e1f9d93d92bb3aa76397c82ac3999"
+              },
+              "time": "2026-10-22T16:20:05.227Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 8.311,
+          "rename_dispatch_time": "2026-10-22T16:19:58.385Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-active_ids-1-audit.json",
+                  "sha256": "49fbb27bcc5e3cbc4fb4f40384c96f473226afb9b2ab8a6ae90e23809cd98a99"
+                },
+                {
+                  "file": "ui-G2-active_ids-1-audit.json",
+                  "sha256": "4e5d8b128421027f97f83a996826541887b96d1c0c8929755c3202ee7d006243"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:20:13.538Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:19:58.089Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:20:28.390Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 2,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:20:28.702Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-active_ids-2-reload-initial.json",
+                "sha256": "5136c8f66952861457e06b930c49b5fbf80cba9a5d5a0480e66fd47abaf47bc5"
+              },
+              "time": "2026-10-22T16:20:21.487Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 6.903,
+          "rename_dispatch_time": "2026-10-22T16:20:13.853Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-active_ids-2-audit.json",
+                  "sha256": "f5ef8d58610f3add89eca8c217cb535bd58f27a47f898391057bc1ebb8531fa6"
+                },
+                {
+                  "file": "ui-G2-active_ids-2-audit.json",
+                  "sha256": "1e37e9a1667841c8ed323252e51688b698035a192b1eb5115a0a6d93008e642f"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:20:28.390Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-active_ids-2-guarded.json",
+                  "sha256": "52d745e2d88b2ac01e9cb6c9a785f0774956bbc3fb7f533372c1aeacad5ddc0f"
+                },
+                {
+                  "file": "ui-G2-active_ids-2-guarded.json",
+                  "sha256": "f7aadfc3e6018082bf09a4bdcab11bbf6ea83412b27bee690f014f9d5eefc394"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:20:28.701Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:20:13.539Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:20:29.050Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [
+              "A"
+            ],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 3,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:20:29.051Z",
+          "reload_records": [],
+          "reload_to_first_verified_read_seconds": null,
+          "rename_dispatch_time": null,
+          "request": {
+            "action": "C",
+            "duplicate": true,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-active_ids-3-audit.json",
+                  "sha256": "2598b52b79aa037d096b03296e2fd0fd703cfac2e2d152cb98fd161afbd40752"
+                },
+                {
+                  "file": "ui-G2-active_ids-3-audit.json",
+                  "sha256": "83128b2200050e87f2fbd10dc396d9802a26b5c3cf2238b49898dd891a4faed4"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:20:29.050Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:20:28.702Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": true,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:20:41.545Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [
+              "A",
+              "B"
+            ],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 4,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:20:41.545Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-active_ids-4-reload-initial.json",
+                "sha256": "17ddcdf644c3b11183e9f1fcf811cdb7ff89949d69c22a2b50b4d3cdcc3ae205"
+              },
+              "time": "2026-10-22T16:20:36.434Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 5.111,
+          "rename_dispatch_time": "2026-10-22T16:20:29.339Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-active_ids-4-audit.json",
+                  "sha256": "ec54bff54626ec1f8a470435b62211674aa5af5adb38f7c9897f32009e179647"
+                },
+                {
+                  "file": "ui-G2-active_ids-4-audit.json",
+                  "sha256": "5b6fea44bc7df2403ed855826dd646ec435081d537924eba77bdaafa8437bfaf"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:20:41.545Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:20:29.051Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:20:56.314Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [
+              "A"
+            ],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {}
+          },
+          "n": 5,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:20:56.314Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-active_ids-5-reload-initial.json",
+                "sha256": "a3ce4646b3d8753709d8f55f0211d2613d76ce77bf1e2f549d1789cb6c33c49d"
+              },
+              "time": "2026-10-22T16:20:48.744Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 7.57,
+          "rename_dispatch_time": "2026-10-22T16:20:41.801Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-active_ids-5-audit.json",
+                  "sha256": "51841e8ed86d8c90190fe70075035b8ded1e6d47933bc230ed3e511a68f4c985"
+                },
+                {
+                  "file": "ui-G2-active_ids-5-audit.json",
+                  "sha256": "d4332ff9644579284b1b7bf6b1669fab89378097f85be32eb4ee2f4fe492c2dd"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:20:56.314Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:20:41.546Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": true,
+          "unsafe_permitted_read": false
+        }
+      ],
+      "reader_source": {
+        "file": "browser_executed_helpers.txt",
+        "sha256": "fe165be9c881198f657496e435890675a8c82fbeaa5d66930ce2262de78e982c"
+      },
+      "recorded_boundaries": 5,
+      "rule": "active_ids",
+      "schedule": "G2",
+      "staged_start_to_final_probe_seconds": 58.225,
+      "status": "verified",
+      "strict_stop_rule_eligible": true,
+      "timing_limit": "Decision is staged before a write. Probe record follows saved reads. Exact gate activation time is not recorded.",
+      "within_eight_minute_case_bound": true
+    },
+    {
+      "assigned_boundaries": 5,
+      "case_evidence": {
+        "file": "gate-case-G2-lifecycle_registry.json",
+        "sha256": "ead9c7cc46d92d39e329b3b1bbb85bad271a88a4fcd359613cd3a37c0083060e"
+      },
+      "case_id": "G2-lifecycle_registry",
+      "metadata": {
+        "end_source": "gate-connector-boundary-8.json",
+        "end_verified": true,
+        "fresh_start": true,
+        "start_source": "gate-connector-boundary-7.json"
+      },
+      "points": [
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:21:26.720Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {
+              "A": "active"
+            }
+          },
+          "n": 1,
+          "observed_work": {
+            "A": "PENDING",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:21:26.721Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-lifecycle_registry-1-reload-initial.json",
+                "sha256": "301f28d212c63fb00d1a58388b9a99dc5cdb64c279793389b612b7411d0e3759"
+              },
+              "time": "2026-10-22T16:21:12.452Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 14.268,
+          "rename_dispatch_time": "2026-10-22T16:21:05.385Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-lifecycle_registry-1-audit.json",
+                  "sha256": "ec278e26bc1733b650f6bf7bb27dbe3b7616200300c6f87e5b331593914e6e45"
+                },
+                {
+                  "file": "ui-G2-lifecycle_registry-1-audit.json",
+                  "sha256": "e4a99c86775136f00b08413690c5ded83b5847fcccdcf9f7b156771c5436a0f8"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:21:26.720Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "PENDING",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:21:05.085Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:21:39.287Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {
+              "A": "completed"
+            }
+          },
+          "n": 2,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:21:39.623Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-lifecycle_registry-2-reload-initial.json",
+                "sha256": "68725e07ce43d0d16d1260866ccae7451a1bdd12c971b9feaa075bc9f574653e"
+              },
+              "time": "2026-10-22T16:21:32.436Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 6.851,
+          "rename_dispatch_time": "2026-10-22T16:21:27.041Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-lifecycle_registry-2-audit.json",
+                  "sha256": "e5ffea1806b6a728ed1505021e94527c01030210a10d286d004b48b0c61fb335"
+                },
+                {
+                  "file": "ui-G2-lifecycle_registry-2-audit.json",
+                  "sha256": "012614386ca7b94227a5b9d001ac4f1e2c78da7e957ba3c44a913a3ccff01084"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:21:39.287Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-lifecycle_registry-2-guarded.json",
+                  "sha256": "c1c2328bef1648da51c11306aca26eb90739e6834fbc7a9f4e01218d1ce81aab"
+                },
+                {
+                  "file": "ui-G2-lifecycle_registry-2-guarded.json",
+                  "sha256": "53dfaa04cf276158877459e9fe3f337eb67d585cbef50b17b254ac10d5e13142"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:21:39.622Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:21:26.721Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:21:40.186Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {
+              "A": "completed"
+            }
+          },
+          "n": 3,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:21:40.522Z",
+          "reload_records": [],
+          "reload_to_first_verified_read_seconds": null,
+          "rename_dispatch_time": null,
+          "request": {
+            "action": "C",
+            "duplicate": true,
+            "op": "A"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-lifecycle_registry-3-audit.json",
+                  "sha256": "6a75e8e96de1398cddccab1f4093fee1691145b41f70c637b14757b8ccea00b2"
+                },
+                {
+                  "file": "ui-G2-lifecycle_registry-3-audit.json",
+                  "sha256": "ce36c7792ec227d22d09e2a341e251b14704d73e0bf658b89fb6ea8941497e90"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:21:40.186Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-lifecycle_registry-3-guarded.json",
+                  "sha256": "182e6ca6b0b0518dcb5a9c2932b2dfe51c30269f70aa3311ac41bcff02f968c7"
+                },
+                {
+                  "file": "ui-G2-lifecycle_registry-3-guarded.json",
+                  "sha256": "4aecaafe2c14db656cf15e072d45d61b22f7a15aabb89e63ad1102ae942c951d"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:21:40.521Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:21:39.623Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:21:54.902Z",
+          "gate_activation_time": null,
+          "gate_closed": true,
+          "guarded_read_verified": false,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {
+              "A": "completed",
+              "B": "active"
+            }
+          },
+          "n": 4,
+          "observed_work": {
+            "A": "DONE",
+            "B": "PENDING"
+          },
+          "probe_record_time": "2026-10-22T16:21:54.903Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-lifecycle_registry-4-reload-initial.json",
+                "sha256": "735087fbd983c1e125ef7e192c0938606c5a5d937a8155f8429b7fecd138bbb5"
+              },
+              "time": "2026-10-22T16:21:48.403Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 6.499,
+          "rename_dispatch_time": "2026-10-22T16:21:40.948Z",
+          "request": {
+            "action": "C",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-lifecycle_registry-4-audit.json",
+                  "sha256": "84d0db4c3a78e1f096775f9ac543d71525509795ceb99cc6c0db2da62bac8ae5"
+                },
+                {
+                  "file": "ui-G2-lifecycle_registry-4-audit.json",
+                  "sha256": "09553ffaf877e41501caea48d7fd3eb72a5c4b867d66e459bb1689adb46570c1"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:21:54.902Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "PENDING"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:21:40.522Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        },
+        {
+          "audit_read_count": 1,
+          "exceeds_30_second_observation_bound": false,
+          "first_verified_read_time": "2026-10-22T16:22:08.611Z",
+          "gate_activation_time": null,
+          "gate_closed": false,
+          "guarded_read_verified": true,
+          "issues": [],
+          "local_gate_state": {
+            "active": [],
+            "count": 0,
+            "flag": false,
+            "lifecycle": {
+              "A": "completed",
+              "B": "completed"
+            }
+          },
+          "n": 5,
+          "observed_work": {
+            "A": "DONE",
+            "B": "DONE"
+          },
+          "probe_record_time": "2026-10-22T16:22:08.935Z",
+          "reload_records": [
+            {
+              "evidence": {
+                "file": "ui-G2-lifecycle_registry-5-reload-initial.json",
+                "sha256": "c83b9109392153ec327ea366b58298e60c36fcdada3c248ffa0ca4a069d65e4e"
+              },
+              "time": "2026-10-22T16:22:02.378Z"
+            }
+          ],
+          "reload_to_first_verified_read_seconds": 6.233,
+          "rename_dispatch_time": "2026-10-22T16:21:55.224Z",
+          "request": {
+            "action": "R",
+            "duplicate": false,
+            "op": "B"
+          },
+          "saved_reads": [
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-lifecycle_registry-5-audit.json",
+                  "sha256": "d27e0b90aa2dbe066c52edbd9b882cfe38267f0976de904c5dfee8ba08c887e0"
+                },
+                {
+                  "file": "ui-G2-lifecycle_registry-5-audit.json",
+                  "sha256": "067181c4fd4cdba04a39471f50584dbadae784f44ffe2c97f568b87352c25396"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "audit",
+              "time": "2026-10-22T16:22:08.611Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            },
+            {
+              "earlier_AX_name_differs_from_later_DOM": false,
+              "evidence": [
+                {
+                  "file": "gate-read-G2-lifecycle_registry-5-guarded.json",
+                  "sha256": "1c33b6e4e751a81c47d048ebae025e5e5c42c09ca14c743e08185f0a5ef299ab"
+                },
+                {
+                  "file": "ui-G2-lifecycle_registry-5-guarded.json",
+                  "sha256": "29abed1a7906d3480520dda90129112f838e7f64998e2c11a6219fba980af70c"
+                }
+              ],
+              "identity_and_name_checks": {
+                "A": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                },
+                "B": {
+                  "exact_saved_name_matches": true,
+                  "name_present_in_saved_ui": true,
+                  "native_id_matches_setup": true
+                }
+              },
+              "role": "guarded_read",
+              "time": "2026-10-22T16:22:08.935Z",
+              "ui_before_extracted_read": true,
+              "ui_parent_matches": true,
+              "ui_role_matches": true,
+              "verified": true,
+              "work": {
+                "A": "DONE",
+                "B": "DONE"
+              }
+            }
+          ],
+          "staged_decision_time": "2026-10-22T16:21:54.908Z",
+          "status": "verified",
+          "strict_stop_rule_eligible": true,
+          "unnecessary_refusal": false,
+          "unsafe_permitted_read": false
+        }
+      ],
+      "reader_source": {
+        "file": "browser_executed_helpers.txt",
+        "sha256": "fe165be9c881198f657496e435890675a8c82fbeaa5d66930ce2262de78e982c"
+      },
+      "recorded_boundaries": 5,
+      "rule": "lifecycle_registry",
+      "schedule": "G2",
+      "staged_start_to_final_probe_seconds": 63.85,
+      "status": "verified",
+      "strict_stop_rule_eligible": true,
+      "timing_limit": "Decision is staged before a write. Probe record follows saved reads. Exact gate activation time is not recorded.",
+      "within_eight_minute_case_bound": true
+    }
+  ],
+  "evidence_scope": "Saved DOM identity and name extracts with private source hashes. No raw account identifiers are public.",
+  "metadata_boundaries": [
+    {
+      "boundary": 1,
+      "ends_case": "G1-boolean",
+      "evidence": {
+        "file": "gate-connector-G1-boolean-end-G1-count-start.json",
+        "sha256": "6c2d54bdce4a4af770c37ca68ed7372ad86e2fe0ed7c90e5ddff04c01b7373bc"
+      },
+      "not_exposed_by_connector": [
+        "trashed",
+        "version"
+      ],
+      "rows": [
+        {
+          "alias": "GATE-A",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:11:18.159Z"
+        },
+        {
+          "alias": "GATE-B",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:11:18.159Z"
+        }
+      ],
+      "starts_case": "G1-nonnegative_count",
+      "verified": true
+    },
+    {
+      "boundary": 2,
+      "ends_case": "G1-nonnegative_count",
+      "evidence": {
+        "file": "gate-connector-boundary-2.json",
+        "sha256": "f59c98fd0692cb3e0284de093bd4b39c0c3f8ae26882b2fc2db5a3546686312d"
+      },
+      "not_exposed_by_connector": [
+        "trashed",
+        "version"
+      ],
+      "rows": [
+        {
+          "alias": "GATE-A",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:14:31.972Z"
+        },
+        {
+          "alias": "GATE-B",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:14:31.973Z"
+        }
+      ],
+      "starts_case": "G1-active_ids",
+      "verified": true
+    },
+    {
+      "boundary": 3,
+      "ends_case": "G1-active_ids",
+      "evidence": {
+        "file": "gate-connector-boundary-3.json",
+        "sha256": "1e9372a4139d2e27be1146c0f743d8e1c563c12fa832c6e6803ba9e4ff8deb44"
+      },
+      "not_exposed_by_connector": [
+        "trashed",
+        "version"
+      ],
+      "rows": [
+        {
+          "alias": "GATE-A",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:15:46.524Z"
+        },
+        {
+          "alias": "GATE-B",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:15:46.525Z"
+        }
+      ],
+      "starts_case": "G1-lifecycle_registry",
+      "verified": true
+    },
+    {
+      "boundary": 4,
+      "ends_case": "G1-lifecycle_registry",
+      "evidence": {
+        "file": "gate-connector-boundary-4.json",
+        "sha256": "1c791fae7ed8265dacd591c9084cb0c0fd838dac71169c2c31781931f9f851dc"
+      },
+      "not_exposed_by_connector": [
+        "trashed",
+        "version"
+      ],
+      "rows": [
+        {
+          "alias": "GATE-A",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:17:30.772Z"
+        },
+        {
+          "alias": "GATE-B",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:17:30.772Z"
+        }
+      ],
+      "starts_case": "G2-boolean",
+      "verified": true
+    },
+    {
+      "boundary": 5,
+      "ends_case": "G2-boolean",
+      "evidence": {
+        "file": "gate-connector-boundary-5.json",
+        "sha256": "c56636d432e54a9b333b733f629bbbf3663666d0b30a9406d3046ed4dec31250"
+      },
+      "not_exposed_by_connector": [
+        "trashed",
+        "version"
+      ],
+      "rows": [
+        {
+          "alias": "GATE-A",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:18:43.441Z"
+        },
+        {
+          "alias": "GATE-B",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:18:43.441Z"
+        }
+      ],
+      "starts_case": "G2-nonnegative_count",
+      "verified": true
+    },
+    {
+      "boundary": 6,
+      "ends_case": "G2-nonnegative_count",
+      "evidence": {
+        "file": "gate-connector-boundary-6.json",
+        "sha256": "f42de290dbe0001fcf9d732ed196ed3a3722f66d5bae6cfa6ff320ace771a7ec"
+      },
+      "not_exposed_by_connector": [
+        "trashed",
+        "version"
+      ],
+      "rows": [
+        {
+          "alias": "GATE-A",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:19:51.687Z"
+        },
+        {
+          "alias": "GATE-B",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:19:51.687Z"
+        }
+      ],
+      "starts_case": "G2-active_ids",
+      "verified": true
+    },
+    {
+      "boundary": 7,
+      "ends_case": "G2-active_ids",
+      "evidence": {
+        "file": "gate-connector-boundary-7.json",
+        "sha256": "b53279489ebbdd6e76473d9c86d8542fc7d025c037aaf8366a7b46efae8e4ac6"
+      },
+      "not_exposed_by_connector": [
+        "trashed",
+        "version"
+      ],
+      "rows": [
+        {
+          "alias": "GATE-A",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:21:00.518Z"
+        },
+        {
+          "alias": "GATE-B",
+          "checks": {
+            "after_case_probe": true,
+            "before_next_case_decision": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:21:00.518Z"
+        }
+      ],
+      "starts_case": "G2-lifecycle_registry",
+      "verified": true
+    },
+    {
+      "boundary": 8,
+      "ends_case": "G2-lifecycle_registry",
+      "evidence": {
+        "file": "gate-connector-boundary-8.json",
+        "sha256": "ce7c082952d3c4a7e05a10054816786ea155bfb0bf1da3bc07386d79a140a8c3"
+      },
+      "not_exposed_by_connector": [
+        "trashed",
+        "version"
+      ],
+      "rows": [
+        {
+          "alias": "GATE-A",
+          "checks": {
+            "after_case_probe": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:22:16.685Z"
+        },
+        {
+          "alias": "GATE-B",
+          "checks": {
+            "after_case_probe": true,
+            "exact_done_name": true,
+            "folder_type": true,
+            "native_id": true,
+            "not_shared": true,
+            "one_owner": true,
+            "parent": true
+          },
+          "time": "2026-10-22T16:22:16.685Z"
+        }
+      ],
+      "starts_case": null,
+      "verified": true
+    }
+  ],
+  "read_errors": [],
+  "schema": "live-gate-public-v1",
+  "source_hashes": [
+    {
+      "file": "plan.md",
+      "sha256": "6d95b4af3d7aa112a31fa019795fbb05d9e46c6b74f1f3af2ef3531af5ff8273"
+    },
+    {
+      "file": "amendment-01.md",
+      "sha256": "baccd4d14242184b85b58bc4fe10d643593d3b86df67a6664946c29316e27755"
+    },
+    {
+      "file": "amendment-02.md",
+      "sha256": "f670ca1fff998867385fe8d8369f64cd2aa710278d2417596c9e3d02f7493fcb"
+    },
+    {
+      "file": "execution_freeze.json",
+      "sha256": "ea1ef62c0deab0b78a8f2fd4853e7dd58fc064d4474f1c0dd7dd1a6f5bb1dfd3"
+    },
+    {
+      "file": "browser_case_freeze.json",
+      "sha256": "10d80cd0542afc13bc84e76983c2dcca6b2952e90c8412176e343eb55b04a41a"
+    },
+    {
+      "file": "live_rules.py",
+      "sha256": "7389d34fad62dac156f709032ba02b6722edb5ec1cd274d27fa515abff502d51"
+    },
+    {
+      "file": "gate_commands.json",
+      "sha256": "c6763d69d5f9c13c0b3ffa1235dfd33e8cab5faa79e621289605855b38195173"
+    },
+    {
+      "file": "browser_helpers.mjs",
+      "sha256": "e79722b63e06a83ec3c3e32d13721e3572a1af5f3e902be9752263c73f460b2f"
+    },
+    {
+      "file": "browser_executed_helpers.txt",
+      "sha256": "fe165be9c881198f657496e435890675a8c82fbeaa5d66930ce2262de78e982c"
+    }
+  ]
+}

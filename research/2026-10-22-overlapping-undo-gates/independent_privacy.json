@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-22T16:47:32.991199+00:00",
+  "files_scanned": 25,
+  "sensitive_values_tested": 131,
+  "matching_files": [],
+  "status": "pass",
+  "scope": "Exact saved native IDs, parent IDs, emails, private account names, event/folder URLs, and tokens found in private top-level JSON records. This does not prove the absence of every possible secret."
+}

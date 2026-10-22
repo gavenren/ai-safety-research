@@ -1,0 +1,106 @@
+{
+  "account_calls": 0,
+  "audit_sha256": "b254970ccf42894cbb62249df7ff0180c4da9ae93922ee1ea035a0705716644c",
+  "cases": [
+    {
+      "case": "G1-boolean",
+      "final_closed": false,
+      "guarded": 3,
+      "metadata_eligible": false,
+      "timing_eligible": true,
+      "unnecessary": 0,
+      "unsafe": 2
+    },
+    {
+      "case": "G1-nonnegative_count",
+      "final_closed": false,
+      "guarded": 2,
+      "metadata_eligible": false,
+      "timing_eligible": false,
+      "unnecessary": 0,
+      "unsafe": 1
+    },
+    {
+      "case": "G1-active_ids",
+      "final_closed": false,
+      "guarded": 1,
+      "metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary": 0,
+      "unsafe": 0
+    },
+    {
+      "case": "G1-lifecycle_registry",
+      "final_closed": false,
+      "guarded": 1,
+      "metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary": 0,
+      "unsafe": 0
+    },
+    {
+      "case": "G2-boolean",
+      "final_closed": false,
+      "guarded": 2,
+      "metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary": 1,
+      "unsafe": 0
+    },
+    {
+      "case": "G2-nonnegative_count",
+      "final_closed": true,
+      "guarded": 1,
+      "metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary": 2,
+      "unsafe": 0
+    },
+    {
+      "case": "G2-active_ids",
+      "final_closed": true,
+      "guarded": 1,
+      "metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary": 2,
+      "unsafe": 0
+    },
+    {
+      "case": "G2-lifecycle_registry",
+      "final_closed": false,
+      "guarded": 3,
+      "metadata_eligible": true,
+      "timing_eligible": true,
+      "unnecessary": 0,
+      "unsafe": 0
+    }
+  ],
+  "comparisons": 1266,
+  "details": {
+    "earlier_AX_later_DOM_differences": [
+      "G1-active_ids:5",
+      "G1-lifecycle_registry:1"
+    ],
+    "late_points": [
+      {
+        "case": "G1-nonnegative_count",
+        "seconds": 52.773,
+        "step": 5
+      }
+    ],
+    "strict_subset": {
+      "cases": 6,
+      "final_closed": 2,
+      "unnecessary": 5,
+      "unsafe": 0
+    }
+  },
+  "elapsed_wall_seconds": 0.17984079199959524,
+  "evidence_sha256": "86cc48b6920b901307593805831dbcc3271bfe1107bf406ad0466e2095502685",
+  "independent_method": "separate implementation written after source/results inspection; not blinded",
+  "kind": "gates",
+  "results_sha256": "1b61b8cb449a2d0e6eeea7949a46726fef5ccedcea001773890e8973da5c88c3",
+  "reviewed_at_utc": "2026-10-22T16:45:16.077506+00:00",
+  "source_references_checked": 161,
+  "status": "pass"
+}

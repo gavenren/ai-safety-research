@@ -65,3 +65,9 @@ Each JSONL row has one `history_id`, group, duplicate pattern, ordered event lis
 ## Rights and status
 
 No new license was selected. The note is AI-generated. Separate agent review passed; see [separate_review.md](separate_review.md). No human review or external peer review occurred. The main agent must verify the remote files before it reports publication.
+
+## Production extension, 2026-10-22
+
+Eight selected Google Drive cases added 40 observed boundaries. The flag and count rules admitted three reads while another operation remained pending. The registry matched the selected checkpoints. One late read and one missing fresh metadata baseline limit the full-set claim.
+
+See [live_README.md](live_README.md) for the separate evidence replay and its limits. See [live_cleanup.md](live_cleanup.md) for cleanup. The original synthetic procedure and data above are retained.

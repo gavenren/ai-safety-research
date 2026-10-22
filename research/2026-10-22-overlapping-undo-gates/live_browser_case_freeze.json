@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-22T16:08:23.961013+00:00",
+  "sha256": {
+    "amendment-02.md": "f670ca1fff998867385fe8d8369f64cd2aa710278d2417596c9e3d02f7493fcb",
+    "gate_commands.json": "c6763d69d5f9c13c0b3ffa1235dfd33e8cab5faa79e621289605855b38195173",
+    "order_commands.json": "77c8e8e6528014b6da864a08a8af9a9130ec81096b5363c6097a675d6b367e0b"
+  }
+}
