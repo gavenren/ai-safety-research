@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-22",
+  "pre": [1, 1],
+  "post": [0, 0],
+  "orders": ["xy", "yx"],
+  "predicates": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "primary_rules": ["separate", "durable_gate", "whole_transaction"],
+  "sensitivity_rules": ["forced_open_gate"],
+  "serial_control_cuts": [0, 1, 2],
+  "worker_exit_code": 73,
+  "journal_mode": "WAL",
+  "synchronous": "FULL",
+  "busy_timeout_ms": 5000,
+  "expected_trials": {"primary": 1536, "sensitivity": 512, "serial_control": 768},
+  "cpu_limit_seconds": 600,
+  "wall_limit_seconds": 1200
+}

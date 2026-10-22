@@ -1,0 +1,25 @@
+{
+  "comparison_status": "No comparison made.",
+  "design_note": "Post-exit audit is defined before forced gate opening. Reader acceptance uses the gate after that intervention.",
+  "excluded_before_freeze": [
+    "study.py",
+    "schema.sql",
+    "main results",
+    "physical databases"
+  ],
+  "execution_status": "Implementation saved; prediction generation not yet run.",
+  "frozen_at_utc": "2026-10-22T13:42:58.553360+00:00",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python_version": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "read_inputs": [
+    "plan.md",
+    "config.json",
+    "design_review.md"
+  ],
+  "source_sha256": {
+    "config.json": "93b647becc5a3cb168a11179c3d1e855062225167f914dfa0cfd29d44dc9e5c5",
+    "design_review.md": "f7d1d5346a1c47e220705b61df4df9d37b7e5b4fb7489ae41cfa2c66a7eef750",
+    "independent.py": "7f804540181d3c739ee71fe5cf62447931f8f6e1413c034cf11183f8a650a171",
+    "plan.md": "bc2986f62924e5974a340e442e3b02afa0b60ee49eba07735292270f8b3b11b6"
+  }
+}

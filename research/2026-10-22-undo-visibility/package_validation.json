@@ -1,0 +1,305 @@
+{
+  "broken_relative_links": [],
+  "checks": [
+    {
+      "check": "frozen/plan.md",
+      "passed": true
+    },
+    {
+      "check": "frozen/config.json",
+      "passed": true
+    },
+    {
+      "check": "frozen/source_review.md",
+      "passed": true
+    },
+    {
+      "check": "frozen/design_review.md",
+      "passed": true
+    },
+    {
+      "check": "implementation/config.json",
+      "passed": true
+    },
+    {
+      "check": "implementation/plan.md",
+      "passed": true
+    },
+    {
+      "check": "implementation/schema.sql",
+      "passed": true
+    },
+    {
+      "check": "implementation/study.py",
+      "passed": true
+    },
+    {
+      "check": "logical/cases.jsonl",
+      "passed": true
+    },
+    {
+      "check": "logical/database_dumps.jsonl",
+      "passed": true
+    },
+    {
+      "check": "logical/hand_controls.json",
+      "passed": true
+    },
+    {
+      "check": "logical/summary.csv",
+      "passed": true
+    },
+    {
+      "check": "logical/summary.json",
+      "passed": true
+    },
+    {
+      "check": "logical/witnesses.json",
+      "passed": true
+    },
+    {
+      "check": "report_table/Separate",
+      "passed": true
+    },
+    {
+      "check": "report_table/Durable gate",
+      "passed": true
+    },
+    {
+      "check": "report_table/Whole transaction",
+      "passed": true
+    },
+    {
+      "check": "report_table/Forced open gate",
+      "passed": true
+    },
+    {
+      "check": "report_table/Serial boundary controls",
+      "passed": true
+    },
+    {
+      "check": "total_cases",
+      "passed": true
+    },
+    {
+      "check": "no_unknowns",
+      "passed": true
+    },
+    {
+      "check": "witness203",
+      "passed": true
+    },
+    {
+      "check": "no_pending_report",
+      "passed": true
+    },
+    {
+      "check": "ai_disclosure",
+      "passed": true
+    },
+    {
+      "check": "no_human_review_disclosure",
+      "passed": true
+    },
+    {
+      "check": "run_complete",
+      "passed": true
+    },
+    {
+      "check": "independent_check",
+      "passed": true
+    },
+    {
+      "check": "file_size/README.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/checklist.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/compare_runs.py",
+      "passed": true
+    },
+    {
+      "check": "file_size/config.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/content_review.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/design_review.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/deviations.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/freeze.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/implementation_notes.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/independent.py",
+      "passed": true
+    },
+    {
+      "check": "file_size/independent_checks/clean_comparison.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/independent_checks/independent_comparison.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/independent_checks/pure_controls.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/independent_checks/pure_prediction_receipt.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/independent_checks/pure_summary.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/independent_compare.py",
+      "passed": true
+    },
+    {
+      "check": "file_size/independent_implementation.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/independent_review.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/plan.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/references.bib",
+      "passed": true
+    },
+    {
+      "check": "file_size/report.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/reproduction_review.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/cases.jsonl",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/database_dumps.jsonl",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/environment.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/execution_receipt.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/hand_controls.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/implementation_receipt.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/logical_sha256.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/physical_databases.tar.gz",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/progress.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/reproduction_environment.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/reproduction_execution_receipt.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/reproduction_implementation_receipt.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/reproduction_receipt.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/reproduction_worker_logs.jsonl.gz",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/summary.csv",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/summary.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/witnesses.json",
+      "passed": true
+    },
+    {
+      "check": "file_size/results/worker_logs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "file_size/schema.sql",
+      "passed": true
+    },
+    {
+      "check": "file_size/source_review.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/source_supplement.md",
+      "passed": true
+    },
+    {
+      "check": "file_size/study.py",
+      "passed": true
+    },
+    {
+      "check": "file_size/validate_package.py",
+      "passed": true
+    },
+    {
+      "check": "relative_links",
+      "passed": true
+    },
+    {
+      "check": "basic_private_data_patterns",
+      "passed": true
+    }
+  ],
+  "limits": "Local checks only. External references and claim support require the source and content reviews. Pattern checks do not prove absence of secrets.",
+  "passed": true,
+  "private_pattern_hits": [],
+  "text_files_inspected": 43
+}
