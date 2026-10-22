@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "worlds_checked": 4662,
+  "cases_checked": 27972,
+  "all_worlds_present_once": true,
+  "all_rule_cases_present_once": true,
+  "all_case_fields_and_metrics_match": true,
+  "aggregate_and_mode_totals_match": true,
+  "main_study_executed_by_reviewer": false,
+  "independent_evaluator_frozen_before_main_code_or_results_read": true,
+  "independent_evaluator_sha256": "88e34e84913053fd06482926ae2c1f509804dd0307cba15a72ea1d3f08440677",
+  "reviewed_files_sha256": {
+    "study.py": "edc638ae3eafa1fb2b068757322c42456e230a7858d8f644c06608f8a26074cc",
+    "worlds.jsonl": "af510f0a2eff0cfc53b74de3de5c09219eb8bf367b05ef352e6151eaec96a7b6",
+    "cases.jsonl": "d83a02c27173f02b488b0cd3b39d837ccc4d9e1135a8950f36da3918aa99542e",
+    "summary.json": "02f99422d47648aba8a16c02e599ddb875470e8e4c3e7ca9fe5018168b6ee90a",
+    "plan.md": "b03b10582267f9d7b8a48bd5fdf62347aa0e0bfdbdb302472f5d66a190911f5d",
+    "config.json": "2ac989213676292bcce0b9372a9f0ea779c1c2f1b57a702ea5b45662aabda934"
+  },
+  "checked_at_utc": "2026-10-22T15:32:43.695077+00:00",
+  "audit_cpu_seconds": 0.52874,
+  "human_review": false
+}

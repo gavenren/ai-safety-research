@@ -1,0 +1,11 @@
+{
+  "checked_rules_zero_false_claims": true,
+  "complete_world_count": true,
+  "failed_assertions": 0,
+  "four_baselines_have_counterexample": true,
+  "frozen_inputs": true,
+  "truthful_coverage_flags": true,
+  "truthful_tokens": true,
+  "unlimited_checked_finishes_all_complete_worlds": true,
+  "unscored_cases": 0
+}

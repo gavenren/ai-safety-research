@@ -1,0 +1,49 @@
+{
+  "page_types": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "lengths": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "modes": [
+    "complete",
+    "incomplete_zero_hidden",
+    "incomplete_one_hidden"
+  ],
+  "page_size": 2,
+  "budget": 2,
+  "rules": [
+    "empty_page",
+    "short_page",
+    "no_match_page",
+    "token_only",
+    "token_and_coverage",
+    "bounded_checked"
+  ]
+}

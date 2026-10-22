@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "report_sha256": "cb2d48226d4a9a6061a23617babe9a2b3a0aae25f73fef8e2f0fd0785fddae32",
+  "numeric_table_cells_checked": 42,
+  "relative_links_checked": 32,
+  "primary_sources_reopened": 3,
+  "human_review": false,
+  "reviewed_at_utc": "2026-10-22T15:36:54.787745+00:00"
+}

@@ -1,0 +1,279 @@
+{
+  "by_mode": {
+    "complete": {
+      "bounded_checked": {
+        "cases": 1554,
+        "complete_claims": 42,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1872,
+        "pages_read": 3102,
+        "supported_complete": 42,
+        "unknown": 1512,
+        "unsupported_completion": 0
+      },
+      "empty_page": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 291,
+        "incorrect_complete_inventory": 444,
+        "missing_matches": 844,
+        "pages_read": 4644,
+        "supported_complete": 936,
+        "unknown": 0,
+        "unsupported_completion": 618
+      },
+      "no_match_page": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 657,
+        "incorrect_complete_inventory": 1008,
+        "missing_matches": 2028,
+        "pages_read": 2868,
+        "supported_complete": 240,
+        "unknown": 0,
+        "unsupported_completion": 1314
+      },
+      "short_page": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 504,
+        "incorrect_complete_inventory": 1008,
+        "missing_matches": 2028,
+        "pages_read": 2868,
+        "supported_complete": 240,
+        "unknown": 0,
+        "unsupported_completion": 1314
+      },
+      "token_and_coverage": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 5910,
+        "supported_complete": 1554,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "token_only": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 5910,
+        "supported_complete": 1554,
+        "unknown": 0,
+        "unsupported_completion": 0
+      }
+    },
+    "incomplete_one_hidden": {
+      "bounded_checked": {
+        "cases": 1554,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 3426,
+        "pages_read": 3102,
+        "supported_complete": 0,
+        "unknown": 1554,
+        "unsupported_completion": 0
+      },
+      "empty_page": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 411,
+        "incorrect_complete_inventory": 1554,
+        "missing_matches": 2398,
+        "pages_read": 4644,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1554
+      },
+      "no_match_page": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 777,
+        "incorrect_complete_inventory": 1554,
+        "missing_matches": 3582,
+        "pages_read": 2868,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1554
+      },
+      "short_page": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 624,
+        "incorrect_complete_inventory": 1554,
+        "missing_matches": 3582,
+        "pages_read": 2868,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1554
+      },
+      "token_and_coverage": {
+        "cases": 1554,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1554,
+        "pages_read": 5910,
+        "supported_complete": 0,
+        "unknown": 1554,
+        "unsupported_completion": 0
+      },
+      "token_only": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 120,
+        "incorrect_complete_inventory": 1554,
+        "missing_matches": 1554,
+        "pages_read": 5910,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1554
+      }
+    },
+    "incomplete_zero_hidden": {
+      "bounded_checked": {
+        "cases": 1554,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1872,
+        "pages_read": 3102,
+        "supported_complete": 0,
+        "unknown": 1554,
+        "unsupported_completion": 0
+      },
+      "empty_page": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 291,
+        "incorrect_complete_inventory": 444,
+        "missing_matches": 844,
+        "pages_read": 4644,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1554
+      },
+      "no_match_page": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 657,
+        "incorrect_complete_inventory": 1008,
+        "missing_matches": 2028,
+        "pages_read": 2868,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1554
+      },
+      "short_page": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 504,
+        "incorrect_complete_inventory": 1008,
+        "missing_matches": 2028,
+        "pages_read": 2868,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1554
+      },
+      "token_and_coverage": {
+        "cases": 1554,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 5910,
+        "supported_complete": 0,
+        "unknown": 1554,
+        "unsupported_completion": 0
+      },
+      "token_only": {
+        "cases": 1554,
+        "complete_claims": 1554,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 5910,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1554
+      }
+    }
+  },
+  "rule_cases": 27972,
+  "rules": {
+    "bounded_checked": {
+      "cases": 4662,
+      "complete_claims": 42,
+      "false_absence": 0,
+      "incorrect_complete_inventory": 0,
+      "missing_matches": 7170,
+      "pages_read": 9306,
+      "supported_complete": 42,
+      "unknown": 4620,
+      "unsupported_completion": 0
+    },
+    "empty_page": {
+      "cases": 4662,
+      "complete_claims": 4662,
+      "false_absence": 993,
+      "incorrect_complete_inventory": 2442,
+      "missing_matches": 4086,
+      "pages_read": 13932,
+      "supported_complete": 936,
+      "unknown": 0,
+      "unsupported_completion": 3726
+    },
+    "no_match_page": {
+      "cases": 4662,
+      "complete_claims": 4662,
+      "false_absence": 2091,
+      "incorrect_complete_inventory": 3570,
+      "missing_matches": 7638,
+      "pages_read": 8604,
+      "supported_complete": 240,
+      "unknown": 0,
+      "unsupported_completion": 4422
+    },
+    "short_page": {
+      "cases": 4662,
+      "complete_claims": 4662,
+      "false_absence": 1632,
+      "incorrect_complete_inventory": 3570,
+      "missing_matches": 7638,
+      "pages_read": 8604,
+      "supported_complete": 240,
+      "unknown": 0,
+      "unsupported_completion": 4422
+    },
+    "token_and_coverage": {
+      "cases": 4662,
+      "complete_claims": 1554,
+      "false_absence": 0,
+      "incorrect_complete_inventory": 0,
+      "missing_matches": 1554,
+      "pages_read": 17730,
+      "supported_complete": 1554,
+      "unknown": 3108,
+      "unsupported_completion": 0
+    },
+    "token_only": {
+      "cases": 4662,
+      "complete_claims": 4662,
+      "false_absence": 120,
+      "incorrect_complete_inventory": 1554,
+      "missing_matches": 1554,
+      "pages_read": 17730,
+      "supported_complete": 1554,
+      "unknown": 0,
+      "unsupported_completion": 3108
+    }
+  },
+  "streams": 1554,
+  "worlds": 4662
+}

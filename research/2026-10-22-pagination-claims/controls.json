@@ -1,0 +1,2126 @@
+{
+  "budget_with_more/complete": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 3,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "empty_page",
+      "seen_incomplete": false,
+      "world_id": 765
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 3,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "short_page",
+      "seen_incomplete": false,
+      "world_id": 765
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 3,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "no_match_page",
+      "seen_incomplete": false,
+      "world_id": 765
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 3,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": false,
+      "world_id": 765
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 3,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": false,
+      "world_id": 765
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": true,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": false,
+      "world_id": 765
+    }
+  ],
+  "budget_with_more/incomplete_one_hidden": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 3,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "empty_page",
+      "seen_incomplete": true,
+      "world_id": 767
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 3,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "short_page",
+      "seen_incomplete": true,
+      "world_id": 767
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 3,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "no_match_page",
+      "seen_incomplete": true,
+      "world_id": 767
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 3,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": true,
+      "world_id": 767
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 3,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": true,
+      "world_id": 767
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 2,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": true,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": true,
+      "world_id": 767
+    }
+  ],
+  "budget_with_more/incomplete_zero_hidden": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 3,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "empty_page",
+      "seen_incomplete": true,
+      "world_id": 766
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 3,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "short_page",
+      "seen_incomplete": true,
+      "world_id": 766
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 3,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "no_match_page",
+      "seen_incomplete": true,
+      "world_id": 766
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 3,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": true,
+      "world_id": 766
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 3,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 3,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1",
+        "p2m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": true,
+      "world_id": 766
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": true,
+      "returned_matches": [
+        "p0m0",
+        "p0m1",
+        "p1m0",
+        "p1m1"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": true,
+      "world_id": 766
+    }
+  ],
+  "empty_final/complete": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "empty_page",
+      "seen_incomplete": false,
+      "world_id": 0
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "short_page",
+      "seen_incomplete": false,
+      "world_id": 0
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "no_match_page",
+      "seen_incomplete": false,
+      "world_id": 0
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "token_only",
+      "seen_incomplete": false,
+      "world_id": 0
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "token_and_coverage",
+      "seen_incomplete": false,
+      "world_id": 0
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "bounded_checked",
+      "seen_incomplete": false,
+      "world_id": 0
+    }
+  ],
+  "empty_final/incomplete_one_hidden": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "empty_page",
+      "seen_incomplete": true,
+      "world_id": 2
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "short_page",
+      "seen_incomplete": true,
+      "world_id": 2
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "no_match_page",
+      "seen_incomplete": true,
+      "world_id": 2
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "token_only",
+      "seen_incomplete": true,
+      "world_id": 2
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "token_and_coverage",
+      "seen_incomplete": true,
+      "world_id": 2
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "bounded_checked",
+      "seen_incomplete": true,
+      "world_id": 2
+    }
+  ],
+  "empty_final/incomplete_zero_hidden": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "empty_page",
+      "seen_incomplete": true,
+      "world_id": 1
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "short_page",
+      "seen_incomplete": true,
+      "world_id": 1
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "no_match_page",
+      "seen_incomplete": true,
+      "world_id": 1
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "token_only",
+      "seen_incomplete": true,
+      "world_id": 1
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "token_and_coverage",
+      "seen_incomplete": true,
+      "world_id": 1
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": false,
+      "returned_matches": [],
+      "rule": "bounded_checked",
+      "seen_incomplete": true,
+      "world_id": 1
+    }
+  ],
+  "empty_then_match/complete": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "empty_page",
+      "seen_incomplete": false,
+      "world_id": 27
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "short_page",
+      "seen_incomplete": false,
+      "world_id": 27
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "no_match_page",
+      "seen_incomplete": false,
+      "world_id": 27
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": false,
+      "world_id": 27
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": false,
+      "world_id": 27
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": false,
+      "world_id": 27
+    }
+  ],
+  "empty_then_match/incomplete_one_hidden": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 2,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "empty_page",
+      "seen_incomplete": true,
+      "world_id": 29
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 2,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "short_page",
+      "seen_incomplete": true,
+      "world_id": 29
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 2,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "no_match_page",
+      "seen_incomplete": true,
+      "world_id": 29
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": true,
+      "world_id": 29
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": true,
+      "world_id": 29
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": true,
+      "world_id": 29
+    }
+  ],
+  "empty_then_match/incomplete_zero_hidden": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "empty_page",
+      "seen_incomplete": true,
+      "world_id": 28
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "short_page",
+      "seen_incomplete": true,
+      "world_id": 28
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "no_match_page",
+      "seen_incomplete": true,
+      "world_id": 28
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": true,
+      "world_id": 28
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": true,
+      "world_id": 28
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": true,
+      "world_id": 28
+    }
+  ],
+  "short_then_match/complete": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "empty_page",
+      "seen_incomplete": false,
+      "world_id": 81
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [
+        "p0m0"
+      ],
+      "rule": "short_page",
+      "seen_incomplete": false,
+      "world_id": 81
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "no_match_page",
+      "seen_incomplete": false,
+      "world_id": 81
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": false,
+      "world_id": 81
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": false,
+      "world_id": 81
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": false,
+      "world_id": 81
+    }
+  ],
+  "short_then_match/incomplete_one_hidden": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "empty_page",
+      "seen_incomplete": true,
+      "world_id": 83
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 2,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [
+        "p0m0"
+      ],
+      "rule": "short_page",
+      "seen_incomplete": true,
+      "world_id": 83
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "no_match_page",
+      "seen_incomplete": true,
+      "world_id": 83
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": true,
+      "world_id": 83
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": true,
+      "world_id": 83
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": true,
+      "world_id": 83
+    }
+  ],
+  "short_then_match/incomplete_zero_hidden": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "empty_page",
+      "seen_incomplete": true,
+      "world_id": 82
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [
+        "p0m0"
+      ],
+      "rule": "short_page",
+      "seen_incomplete": true,
+      "world_id": 82
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "no_match_page",
+      "seen_incomplete": true,
+      "world_id": 82
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": true,
+      "world_id": 82
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": true,
+      "world_id": 82
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p0m0",
+        "p1m0"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": true,
+      "world_id": 82
+    }
+  ],
+  "unrelated_then_match/complete": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "empty_page",
+      "seen_incomplete": false,
+      "world_id": 63
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "short_page",
+      "seen_incomplete": false,
+      "world_id": 63
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "complete",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "no_match_page",
+      "seen_incomplete": false,
+      "world_id": 63
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": false,
+      "world_id": 63
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": false,
+      "world_id": 63
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 1,
+        "unknown": 0,
+        "unsupported_completion": 0
+      },
+      "mode": "complete",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": false,
+      "world_id": 63
+    }
+  ],
+  "unrelated_then_match/incomplete_one_hidden": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "empty_page",
+      "seen_incomplete": true,
+      "world_id": 65
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "short_page",
+      "seen_incomplete": true,
+      "world_id": 65
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 2,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "no_match_page",
+      "seen_incomplete": true,
+      "world_id": 65
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": true,
+      "world_id": 65
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": true,
+      "world_id": 65
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 1,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_one_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": true,
+      "world_id": 65
+    }
+  ],
+  "unrelated_then_match/incomplete_zero_hidden": [
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "empty_page",
+      "seen_incomplete": true,
+      "world_id": 64
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "short_page",
+      "seen_incomplete": true,
+      "world_id": 64
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 1,
+        "incorrect_complete_inventory": 1,
+        "missing_matches": 1,
+        "pages_read": 1,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 1,
+      "remaining_token": true,
+      "returned_matches": [],
+      "rule": "no_match_page",
+      "seen_incomplete": true,
+      "world_id": 64
+    },
+    {
+      "complete_claim": true,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 1,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 0,
+        "unsupported_completion": 1
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_only",
+      "seen_incomplete": true,
+      "world_id": 64
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "token_and_coverage",
+      "seen_incomplete": true,
+      "world_id": 64
+    },
+    {
+      "complete_claim": false,
+      "metrics": {
+        "cases": 1,
+        "complete_claims": 0,
+        "false_absence": 0,
+        "incorrect_complete_inventory": 0,
+        "missing_matches": 0,
+        "pages_read": 2,
+        "supported_complete": 0,
+        "unknown": 1,
+        "unsupported_completion": 0
+      },
+      "mode": "incomplete_zero_hidden",
+      "pages_read": 2,
+      "remaining_token": false,
+      "returned_matches": [
+        "p1m0"
+      ],
+      "rule": "bounded_checked",
+      "seen_incomplete": true,
+      "world_id": 64
+    }
+  ]
+}

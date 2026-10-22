@@ -1,0 +1,31 @@
+{
+  "code_sha256": "edc638ae3eafa1fb2b068757322c42456e230a7858d8f644c06608f8a26074cc",
+  "command": [
+    "outputs/2026-10-22-pagination-claims/study.py",
+    "--out",
+    "work/2026-10-22-five-studies/repeat-pagination-claims"
+  ],
+  "cpu_seconds": 0.466033,
+  "ended_at_utc": "2026-10-22T15:31:09.662085+00:00",
+  "input_sha256": {
+    "config.json": "2ac989213676292bcce0b9372a9f0ea779c1c2f1b57a702ea5b45662aabda934",
+    "plan.md": "b03b10582267f9d7b8a48bd5fdf62347aa0e0bfdbdb302472f5d66a190911f5d",
+    "source_search.md": "ea105476464ea2b597b07d4857ae1ba392c2b0906c4d9e95ab5aae6a395248d6"
+  },
+  "model_api_calls": 0,
+  "output_sha256": {
+    "cases.jsonl": "d83a02c27173f02b488b0cd3b39d837ccc4d9e1135a8950f36da3918aa99542e",
+    "checks.json": "701d798b586b48efbe947d0b01328584d781a46a86204e497f0a59615169ba80",
+    "controls.json": "cce111002ed8f4624b45609b363baf0961fa34c3d291f9a06c0bbfd9ef0aca2b",
+    "summary.json": "02f99422d47648aba8a16c02e599ddb875470e8e4c3e7ca9fe5018168b6ee90a",
+    "worlds.jsonl": "af510f0a2eff0cfc53b74de3de5c09219eb8bf367b05ef352e6151eaec96a7b6"
+  },
+  "paid_compute": false,
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "random_seed": null,
+  "reason": "complete enumeration",
+  "started_at_utc": "2026-10-22T15:31:09.184054+00:00",
+  "status": "complete",
+  "wall_seconds": 0.4780587499990361
+}

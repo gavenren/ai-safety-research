@@ -1,0 +1,26 @@
+{
+  "clean_output_repeat": true,
+  "all_identical": true,
+  "files": {
+    "cases.jsonl": {
+      "sha256": "d83a02c27173f02b488b0cd3b39d837ccc4d9e1135a8950f36da3918aa99542e",
+      "identical": true
+    },
+    "checks.json": {
+      "sha256": "701d798b586b48efbe947d0b01328584d781a46a86204e497f0a59615169ba80",
+      "identical": true
+    },
+    "controls.json": {
+      "sha256": "cce111002ed8f4624b45609b363baf0961fa34c3d291f9a06c0bbfd9ef0aca2b",
+      "identical": true
+    },
+    "summary.json": {
+      "sha256": "02f99422d47648aba8a16c02e599ddb875470e8e4c3e7ca9fe5018168b6ee90a",
+      "identical": true
+    },
+    "worlds.jsonl": {
+      "sha256": "af510f0a2eff0cfc53b74de3de5c09219eb8bf367b05ef352e6151eaec96a7b6",
+      "identical": true
+    }
+  }
+}
