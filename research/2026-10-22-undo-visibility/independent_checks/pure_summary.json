@@ -1,0 +1,62 @@
+{
+  "primary/durable_gate": {
+    "accepted_jobs": 0,
+    "assigned": 512,
+    "joint_only": 0,
+    "local_failure": 0,
+    "probe_success": 512,
+    "refused_jobs": 1024,
+    "serial_violation": 0,
+    "source_complete": 512,
+    "unknown": 0,
+    "valid": 512
+  },
+  "primary/separate": {
+    "accepted_jobs": 1024,
+    "assigned": 512,
+    "joint_only": 32,
+    "local_failure": 224,
+    "probe_success": 512,
+    "refused_jobs": 0,
+    "serial_violation": 256,
+    "source_complete": 512,
+    "unknown": 0,
+    "valid": 512
+  },
+  "primary/whole_transaction": {
+    "accepted_jobs": 1024,
+    "assigned": 512,
+    "joint_only": 0,
+    "local_failure": 0,
+    "probe_success": 512,
+    "refused_jobs": 0,
+    "serial_violation": 0,
+    "source_complete": 512,
+    "unknown": 0,
+    "valid": 512
+  },
+  "sensitivity/forced_open_gate": {
+    "accepted_jobs": 1024,
+    "assigned": 512,
+    "joint_only": 32,
+    "local_failure": 224,
+    "probe_success": 512,
+    "refused_jobs": 0,
+    "serial_violation": 256,
+    "source_complete": 512,
+    "unknown": 0,
+    "valid": 512
+  },
+  "serial_control/whole_transaction": {
+    "accepted_jobs": 1536,
+    "assigned": 768,
+    "joint_only": 0,
+    "local_failure": 0,
+    "probe_success": 768,
+    "refused_jobs": 0,
+    "serial_violation": 0,
+    "source_complete": 768,
+    "unknown": 0,
+    "valid": 768
+  }
+}

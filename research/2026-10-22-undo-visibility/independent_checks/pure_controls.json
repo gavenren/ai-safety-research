@@ -1,0 +1,205 @@
+[
+  {
+    "evidence": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "name": "truth_zero",
+    "pass": true
+  },
+  {
+    "evidence": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "name": "truth_one",
+    "pass": true
+  },
+  {
+    "evidence": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "name": "truth_x",
+    "pass": true
+  },
+  {
+    "evidence": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "name": "truth_y",
+    "pass": true
+  },
+  {
+    "evidence": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "name": "truth_xor",
+    "pass": true
+  },
+  {
+    "evidence": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "name": "truth_equal",
+    "pass": true
+  },
+  {
+    "evidence": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "name": "three_serial_cuts",
+    "pass": true
+  },
+  {
+    "evidence": {
+      "allowed": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "decisions": [
+        0,
+        1
+      ],
+      "joint_only": true,
+      "local_pass": [
+        true,
+        true
+      ]
+    },
+    "name": "joint_only_witness",
+    "pass": true
+  },
+  {
+    "evidence": {
+      "decisions": [
+        1,
+        0
+      ],
+      "local_pass": [
+        false,
+        true
+      ],
+      "serial_violation": true
+    },
+    "name": "outside_both_endpoints",
+    "pass": true
+  },
+  {
+    "evidence": [
+      []
+    ],
+    "name": "empty_sequence",
+    "pass": true
+  },
+  {
+    "evidence": [
+      [
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        3,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        2,
+        2,
+        1
+      ]
+    ],
+    "name": "analytic_serial_size_sum",
+    "pass": true
+  },
+  {
+    "evidence": [
+      [
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        4,
+        4,
+        2
+      ],
+      [
+        2,
+        4,
+        4,
+        2
+      ],
+      [
+        1,
+        2,
+        2,
+        1
+      ]
+    ],
+    "name": "analytic_local_size_sum",
+    "pass": true
+  },
+  {
+    "evidence": {
+      "joint_only": 32,
+      "local_failures": 224,
+      "serial_violations": 256
+    },
+    "name": "analytic_predicted_counts",
+    "pass": true
+  },
+  {
+    "evidence": "Worker-exit and rollback controls belong to the actual SQLite runner. This pure oracle predicts fields=[1,1], receipts=[], and no saved reader rows before work.",
+    "name": "physical_controls_not_executed_here",
+    "pass": null
+  }
+]

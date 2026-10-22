@@ -1,0 +1,9 @@
+{
+  "command": "python3 independent.py --out independent_predictions",
+  "physical_tests_in_pure_evaluator": false,
+  "prediction_rows": 2816,
+  "predictions_sha256": "1fb6ffacdf2b1638f21d5c0b69615f544ffeabd1aee38e71bdf7b595b7e2419b",
+  "pure_control_checks_passed": 13,
+  "pure_prediction_generation_succeeded": true,
+  "source_sha256": "7f804540181d3c739ee71fe5cf62447931f8f6e1413c034cf11183f8a650a171"
+}
