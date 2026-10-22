@@ -1,0 +1,10 @@
+{
+  "saved_before_trials": true,
+  "sha256": {
+    "config.json": "93b647becc5a3cb168a11179c3d1e855062225167f914dfa0cfd29d44dc9e5c5",
+    "plan.md": "bc2986f62924e5974a340e442e3b02afa0b60ee49eba07735292270f8b3b11b6",
+    "schema.sql": "7ec4f0f24f0fe2f6d7ac69ed8e8699b01b0b6b080df3026cef95663e57a908a5",
+    "study.py": "906dafa64be660d37290f1541c2eb18ccb56df4ce267bc823fdbcb0ee668c585"
+  },
+  "utc": "2026-10-22T13:53:28.709313+00:00"
+}

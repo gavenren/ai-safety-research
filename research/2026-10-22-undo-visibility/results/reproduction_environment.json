@@ -1,0 +1,14 @@
+{
+  "cpu_count": 10,
+  "cpu_limit_seconds": 600,
+  "external_packages": [],
+  "machine": "arm64",
+  "platform": "Darwin",
+  "platform_release": "25.6.0",
+  "python": "3.13.7",
+  "seed": null,
+  "sqlite": "3.50.4",
+  "wall_limit_seconds": 1200,
+  "zlib_compile": "1.2.12",
+  "zlib_runtime": "1.2.12"
+}

@@ -1,0 +1,87 @@
+{
+  "authorized_full_runs": 2,
+  "commands_from_original_workspace": [
+    "python3 outputs/2026-10-22-undo-visibility/study.py --out outputs/2026-10-22-undo-visibility/results --db-dir work/2026-10-22-undo-visibility/first-run-databases",
+    "python3 outputs/2026-10-22-undo-visibility/study.py --out work/2026-10-22-undo-visibility/clean-results --db-dir work/2026-10-22-undo-visibility/clean-databases",
+    "python3 work/2026-10-22-undo-visibility/record_reproduction.py"
+  ],
+  "full_runs_executed": 2,
+  "independent_second_archive_check": {
+    "checks": 127899,
+    "comparison": "../independent_checks/clean_comparison.json",
+    "comparison_sha256": "49399a4fd7e451f388ba2a80e3df30c9b9d509eaaa7435c1a81c1b2e075242a8",
+    "logical_cases": 2816,
+    "physical_databases_reopened": 2825,
+    "status": "passed",
+    "worker_logs_checked": 4872
+  },
+  "initial_databases": 2825,
+  "initial_usage": {
+    "cpu_seconds": 375.58525899999995,
+    "scored_rows_saved": 2816,
+    "wall_seconds": 400.691097875002,
+    "worker_calls": 4872
+  },
+  "initial_utc_span_seconds": 533.742865,
+  "logical_files": [
+    {
+      "exact_match": true,
+      "file": "cases.jsonl",
+      "initial_sha256": "ad0ee492532fd0f2c6d97dd9e9639c31da82e257f80bc90759c52f1431d88919",
+      "reproduction_sha256": "ad0ee492532fd0f2c6d97dd9e9639c31da82e257f80bc90759c52f1431d88919"
+    },
+    {
+      "exact_match": true,
+      "file": "database_dumps.jsonl",
+      "initial_sha256": "390a468fdd89dbf205d1b7b4f49df76a5600b0891604536aac75bc7659ac27b9",
+      "reproduction_sha256": "390a468fdd89dbf205d1b7b4f49df76a5600b0891604536aac75bc7659ac27b9"
+    },
+    {
+      "exact_match": true,
+      "file": "summary.json",
+      "initial_sha256": "048b250cf36b83d8206de3e400ceefb7624a03694161cae881b6d549a2391ae7",
+      "reproduction_sha256": "048b250cf36b83d8206de3e400ceefb7624a03694161cae881b6d549a2391ae7"
+    },
+    {
+      "exact_match": true,
+      "file": "summary.csv",
+      "initial_sha256": "1ed6300e8bb7ed1eb6b4672b351e16dd20dd7635884299fd6c3e448a5e8b1e74",
+      "reproduction_sha256": "1ed6300e8bb7ed1eb6b4672b351e16dd20dd7635884299fd6c3e448a5e8b1e74"
+    },
+    {
+      "exact_match": true,
+      "file": "witnesses.json",
+      "initial_sha256": "d16abd2019e2c85731bee74d492022cce827fc701be8812ed4fb64f0e54db38f",
+      "reproduction_sha256": "d16abd2019e2c85731bee74d492022cce827fc701be8812ed4fb64f0e54db38f"
+    },
+    {
+      "exact_match": true,
+      "file": "hand_controls.json",
+      "initial_sha256": "cd3d62ccc5e72b8faf80d6e58bff7b25936c8713d6189ea41883c8f17aebaca7",
+      "reproduction_sha256": "cd3d62ccc5e72b8faf80d6e58bff7b25936c8713d6189ea41883c8f17aebaca7"
+    }
+  ],
+  "no_third_full_run": true,
+  "physical_archive_bytes_are_not_a_reproduction_criterion": true,
+  "recorded_utc": "2026-10-22T14:00:10.349648+00:00",
+  "reproduction_compressed_worker_log_sha256": "0727793047f99be1f1d476fd181c668b5fae696bcec1e7fca3c8d02e6bb31273",
+  "reproduction_databases": 2825,
+  "reproduction_physical_archive_sha256": "f5ba02b9cd6dc2e74f64f68b5fcb8f69a4b4e26aab1c0f631da3b9b721041b07",
+  "reproduction_usage": {
+    "cpu_seconds": 374.620997,
+    "scored_rows_saved": 2816,
+    "wall_seconds": 397.72700412500126,
+    "worker_calls": 4872
+  },
+  "reproduction_utc_span_seconds": 397.729081,
+  "reproduction_worker_log_sha256": "17fec8b944f2714c1911b6f1bb5a37e05f4e42abe535cf149b341a37a9bff228",
+  "source_sha256": {
+    "config.json": "93b647becc5a3cb168a11179c3d1e855062225167f914dfa0cfd29d44dc9e5c5",
+    "plan.md": "bc2986f62924e5974a340e442e3b02afa0b60ee49eba07735292270f8b3b11b6",
+    "schema.sql": "7ec4f0f24f0fe2f6d7ac69ed8e8699b01b0b6b080df3026cef95663e57a908a5",
+    "study.py": "906dafa64be660d37290f1541c2eb18ccb56df4ce267bc823fdbcb0ee668c585"
+  },
+  "source_unchanged": true,
+  "status": "passed",
+  "time_note": "wall_seconds in the run receipts is measured with time.monotonic. UTC spans are reported separately. The cause of any difference is not established."
+}

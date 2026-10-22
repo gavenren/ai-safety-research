@@ -1,0 +1,6 @@
+group,rule,assigned,valid,unknown,source_complete,serial_violation,joint_only_violation,local_endpoint_failure,probe_success,accepted_primary_jobs,refused_primary_jobs,exact_cut_matches
+primary,separate,512,512,0,512,256,32,224,512,1024,0,0
+primary,durable_gate,512,512,0,512,0,0,0,512,0,1024,0
+primary,whole_transaction,512,512,0,512,0,0,0,512,1024,0,0
+sensitivity,forced_open_gate,512,512,0,512,256,32,224,512,1024,0,0
+serial_control,whole_transaction,768,768,0,768,0,0,0,768,1536,0,768

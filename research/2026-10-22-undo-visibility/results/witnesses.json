@@ -1,0 +1,768 @@
+{
+  "joint_only_violation": {
+    "accepted_sequence": [
+      1,
+      0
+    ],
+    "action_vector": [
+      1,
+      0
+    ],
+    "allowed_sequences": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "audit": {
+      "actions": [],
+      "decisions": [],
+      "fields": {
+        "x": 0,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [
+        "x"
+      ]
+    },
+    "case_id": 50,
+    "cut": null,
+    "exact_cut_expected": null,
+    "exact_cut_match": null,
+    "exit_status": 73,
+    "expected_exit_status": 73,
+    "f": 3,
+    "final": {
+      "actions": [
+        0
+      ],
+      "decisions": [
+        {
+          "decision": 1,
+          "job": 0,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 3
+        },
+        {
+          "decision": 0,
+          "job": 1,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 1
+        }
+      ],
+      "fields": {
+        "x": 0,
+        "y": 0
+      },
+      "gate": 0,
+      "receipts": [
+        "x",
+        "y"
+      ]
+    },
+    "final_with_probes": {
+      "actions": [
+        0,
+        2,
+        3
+      ],
+      "decisions": [
+        {
+          "decision": 1,
+          "job": 0,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 3
+        },
+        {
+          "decision": 0,
+          "job": 1,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 1
+        },
+        {
+          "decision": 1,
+          "job": 2,
+          "observed_x": 0,
+          "observed_y": 0,
+          "phase": "probe",
+          "predicate": 3
+        },
+        {
+          "decision": 1,
+          "job": 3,
+          "observed_x": 0,
+          "observed_y": 0,
+          "phase": "probe",
+          "predicate": 1
+        }
+      ],
+      "fields": {
+        "x": 0,
+        "y": 0
+      },
+      "gate": 0,
+      "receipts": [
+        "x",
+        "y"
+      ]
+    },
+    "g": 1,
+    "group": "primary",
+    "integrity": "ok",
+    "joint_only_violation": true,
+    "local_endpoint_checks": [
+      true,
+      true
+    ],
+    "local_endpoint_failure": false,
+    "order": "xy",
+    "post_intervention_audit": null,
+    "probe_success": true,
+    "probes": [
+      {
+        "decision": 1,
+        "job": 2,
+        "observed_x": 0,
+        "observed_y": 0,
+        "phase": "probe",
+        "predicate": 3,
+        "status": "accepted"
+      },
+      {
+        "decision": 1,
+        "job": 3,
+        "observed_x": 0,
+        "observed_y": 0,
+        "phase": "probe",
+        "predicate": 1,
+        "status": "accepted"
+      }
+    ],
+    "reader_attempts": [
+      {
+        "decision": 1,
+        "job": 0,
+        "observed_x": 0,
+        "observed_y": 1,
+        "phase": "primary",
+        "predicate": 3,
+        "status": "accepted"
+      },
+      {
+        "decision": 0,
+        "job": 1,
+        "observed_x": 0,
+        "observed_y": 1,
+        "phase": "primary",
+        "predicate": 1,
+        "status": "accepted"
+      }
+    ],
+    "recovery_phase": {
+      "committed": true,
+      "mode": "recovery",
+      "order": "xy",
+      "phase": "completed",
+      "rule": "separate"
+    },
+    "recovery_status": 0,
+    "rule": "separate",
+    "serial_violation": true,
+    "source_complete": true,
+    "unknown_reason": null,
+    "valid": true,
+    "worker_phase": {
+      "committed": true,
+      "mode": "interrupted",
+      "order": "xy",
+      "phase": "after_first_step",
+      "rule": "separate"
+    }
+  },
+  "local_endpoint_failure": {
+    "accepted_sequence": [
+      0,
+      1
+    ],
+    "action_vector": [
+      0,
+      1
+    ],
+    "allowed_sequences": [
+      [
+        0,
+        0
+      ]
+    ],
+    "audit": {
+      "actions": [],
+      "decisions": [],
+      "fields": {
+        "x": 0,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [
+        "x"
+      ]
+    },
+    "case_id": 3,
+    "cut": null,
+    "exact_cut_expected": null,
+    "exact_cut_match": null,
+    "exit_status": 73,
+    "expected_exit_status": 73,
+    "f": 0,
+    "final": {
+      "actions": [
+        1
+      ],
+      "decisions": [
+        {
+          "decision": 0,
+          "job": 0,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 0
+        },
+        {
+          "decision": 1,
+          "job": 1,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 2
+        }
+      ],
+      "fields": {
+        "x": 0,
+        "y": 0
+      },
+      "gate": 0,
+      "receipts": [
+        "x",
+        "y"
+      ]
+    },
+    "final_with_probes": {
+      "actions": [
+        1
+      ],
+      "decisions": [
+        {
+          "decision": 0,
+          "job": 0,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 0
+        },
+        {
+          "decision": 1,
+          "job": 1,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 2
+        },
+        {
+          "decision": 0,
+          "job": 2,
+          "observed_x": 0,
+          "observed_y": 0,
+          "phase": "probe",
+          "predicate": 0
+        },
+        {
+          "decision": 0,
+          "job": 3,
+          "observed_x": 0,
+          "observed_y": 0,
+          "phase": "probe",
+          "predicate": 2
+        }
+      ],
+      "fields": {
+        "x": 0,
+        "y": 0
+      },
+      "gate": 0,
+      "receipts": [
+        "x",
+        "y"
+      ]
+    },
+    "g": 2,
+    "group": "primary",
+    "integrity": "ok",
+    "joint_only_violation": false,
+    "local_endpoint_checks": [
+      true,
+      false
+    ],
+    "local_endpoint_failure": true,
+    "order": "xy",
+    "post_intervention_audit": null,
+    "probe_success": true,
+    "probes": [
+      {
+        "decision": 0,
+        "job": 2,
+        "observed_x": 0,
+        "observed_y": 0,
+        "phase": "probe",
+        "predicate": 0,
+        "status": "accepted"
+      },
+      {
+        "decision": 0,
+        "job": 3,
+        "observed_x": 0,
+        "observed_y": 0,
+        "phase": "probe",
+        "predicate": 2,
+        "status": "accepted"
+      }
+    ],
+    "reader_attempts": [
+      {
+        "decision": 0,
+        "job": 0,
+        "observed_x": 0,
+        "observed_y": 1,
+        "phase": "primary",
+        "predicate": 0,
+        "status": "accepted"
+      },
+      {
+        "decision": 1,
+        "job": 1,
+        "observed_x": 0,
+        "observed_y": 1,
+        "phase": "primary",
+        "predicate": 2,
+        "status": "accepted"
+      }
+    ],
+    "recovery_phase": {
+      "committed": true,
+      "mode": "recovery",
+      "order": "xy",
+      "phase": "completed",
+      "rule": "separate"
+    },
+    "recovery_status": 0,
+    "rule": "separate",
+    "serial_violation": true,
+    "source_complete": true,
+    "unknown_reason": null,
+    "valid": true,
+    "worker_phase": {
+      "committed": true,
+      "mode": "interrupted",
+      "order": "xy",
+      "phase": "after_first_step",
+      "rule": "separate"
+    }
+  },
+  "predeclared_xy": {
+    "accepted_sequence": [
+      0,
+      1
+    ],
+    "action_vector": [
+      0,
+      1
+    ],
+    "allowed_sequences": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "audit": {
+      "actions": [],
+      "decisions": [],
+      "fields": {
+        "x": 0,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [
+        "x"
+      ]
+    },
+    "case_id": 203,
+    "cut": null,
+    "exact_cut_expected": null,
+    "exact_cut_match": null,
+    "exit_status": 73,
+    "expected_exit_status": 73,
+    "f": 12,
+    "final": {
+      "actions": [
+        1
+      ],
+      "decisions": [
+        {
+          "decision": 0,
+          "job": 0,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 12
+        },
+        {
+          "decision": 1,
+          "job": 1,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 10
+        }
+      ],
+      "fields": {
+        "x": 0,
+        "y": 0
+      },
+      "gate": 0,
+      "receipts": [
+        "x",
+        "y"
+      ]
+    },
+    "final_with_probes": {
+      "actions": [
+        1
+      ],
+      "decisions": [
+        {
+          "decision": 0,
+          "job": 0,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 12
+        },
+        {
+          "decision": 1,
+          "job": 1,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 10
+        },
+        {
+          "decision": 0,
+          "job": 2,
+          "observed_x": 0,
+          "observed_y": 0,
+          "phase": "probe",
+          "predicate": 12
+        },
+        {
+          "decision": 0,
+          "job": 3,
+          "observed_x": 0,
+          "observed_y": 0,
+          "phase": "probe",
+          "predicate": 10
+        }
+      ],
+      "fields": {
+        "x": 0,
+        "y": 0
+      },
+      "gate": 0,
+      "receipts": [
+        "x",
+        "y"
+      ]
+    },
+    "g": 10,
+    "group": "primary",
+    "integrity": "ok",
+    "joint_only_violation": true,
+    "local_endpoint_checks": [
+      true,
+      true
+    ],
+    "local_endpoint_failure": false,
+    "order": "xy",
+    "post_intervention_audit": null,
+    "probe_success": true,
+    "probes": [
+      {
+        "decision": 0,
+        "job": 2,
+        "observed_x": 0,
+        "observed_y": 0,
+        "phase": "probe",
+        "predicate": 12,
+        "status": "accepted"
+      },
+      {
+        "decision": 0,
+        "job": 3,
+        "observed_x": 0,
+        "observed_y": 0,
+        "phase": "probe",
+        "predicate": 10,
+        "status": "accepted"
+      }
+    ],
+    "reader_attempts": [
+      {
+        "decision": 0,
+        "job": 0,
+        "observed_x": 0,
+        "observed_y": 1,
+        "phase": "primary",
+        "predicate": 12,
+        "status": "accepted"
+      },
+      {
+        "decision": 1,
+        "job": 1,
+        "observed_x": 0,
+        "observed_y": 1,
+        "phase": "primary",
+        "predicate": 10,
+        "status": "accepted"
+      }
+    ],
+    "recovery_phase": {
+      "committed": true,
+      "mode": "recovery",
+      "order": "xy",
+      "phase": "completed",
+      "rule": "separate"
+    },
+    "recovery_status": 0,
+    "rule": "separate",
+    "serial_violation": true,
+    "source_complete": true,
+    "unknown_reason": null,
+    "valid": true,
+    "worker_phase": {
+      "committed": true,
+      "mode": "interrupted",
+      "order": "xy",
+      "phase": "after_first_step",
+      "rule": "separate"
+    }
+  },
+  "serial_violation": {
+    "accepted_sequence": [
+      0,
+      1
+    ],
+    "action_vector": [
+      0,
+      1
+    ],
+    "allowed_sequences": [
+      [
+        0,
+        0
+      ]
+    ],
+    "audit": {
+      "actions": [],
+      "decisions": [],
+      "fields": {
+        "x": 0,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [
+        "x"
+      ]
+    },
+    "case_id": 3,
+    "cut": null,
+    "exact_cut_expected": null,
+    "exact_cut_match": null,
+    "exit_status": 73,
+    "expected_exit_status": 73,
+    "f": 0,
+    "final": {
+      "actions": [
+        1
+      ],
+      "decisions": [
+        {
+          "decision": 0,
+          "job": 0,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 0
+        },
+        {
+          "decision": 1,
+          "job": 1,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 2
+        }
+      ],
+      "fields": {
+        "x": 0,
+        "y": 0
+      },
+      "gate": 0,
+      "receipts": [
+        "x",
+        "y"
+      ]
+    },
+    "final_with_probes": {
+      "actions": [
+        1
+      ],
+      "decisions": [
+        {
+          "decision": 0,
+          "job": 0,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 0
+        },
+        {
+          "decision": 1,
+          "job": 1,
+          "observed_x": 0,
+          "observed_y": 1,
+          "phase": "primary",
+          "predicate": 2
+        },
+        {
+          "decision": 0,
+          "job": 2,
+          "observed_x": 0,
+          "observed_y": 0,
+          "phase": "probe",
+          "predicate": 0
+        },
+        {
+          "decision": 0,
+          "job": 3,
+          "observed_x": 0,
+          "observed_y": 0,
+          "phase": "probe",
+          "predicate": 2
+        }
+      ],
+      "fields": {
+        "x": 0,
+        "y": 0
+      },
+      "gate": 0,
+      "receipts": [
+        "x",
+        "y"
+      ]
+    },
+    "g": 2,
+    "group": "primary",
+    "integrity": "ok",
+    "joint_only_violation": false,
+    "local_endpoint_checks": [
+      true,
+      false
+    ],
+    "local_endpoint_failure": true,
+    "order": "xy",
+    "post_intervention_audit": null,
+    "probe_success": true,
+    "probes": [
+      {
+        "decision": 0,
+        "job": 2,
+        "observed_x": 0,
+        "observed_y": 0,
+        "phase": "probe",
+        "predicate": 0,
+        "status": "accepted"
+      },
+      {
+        "decision": 0,
+        "job": 3,
+        "observed_x": 0,
+        "observed_y": 0,
+        "phase": "probe",
+        "predicate": 2,
+        "status": "accepted"
+      }
+    ],
+    "reader_attempts": [
+      {
+        "decision": 0,
+        "job": 0,
+        "observed_x": 0,
+        "observed_y": 1,
+        "phase": "primary",
+        "predicate": 0,
+        "status": "accepted"
+      },
+      {
+        "decision": 1,
+        "job": 1,
+        "observed_x": 0,
+        "observed_y": 1,
+        "phase": "primary",
+        "predicate": 2,
+        "status": "accepted"
+      }
+    ],
+    "recovery_phase": {
+      "committed": true,
+      "mode": "recovery",
+      "order": "xy",
+      "phase": "completed",
+      "rule": "separate"
+    },
+    "recovery_status": 0,
+    "rule": "separate",
+    "serial_violation": true,
+    "source_complete": true,
+    "unknown_reason": null,
+    "valid": true,
+    "worker_phase": {
+      "committed": true,
+      "mode": "interrupted",
+      "order": "xy",
+      "phase": "after_first_step",
+      "rule": "separate"
+    }
+  }
+}

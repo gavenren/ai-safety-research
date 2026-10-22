@@ -1,0 +1,338 @@
+[
+  {
+    "expected": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "name": "truth_x",
+    "observed": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "expected": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "name": "truth_y",
+    "observed": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "name": "truth_zero",
+    "observed": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "expected": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "name": "truth_one",
+    "observed": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "expected": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "name": "truth_xor",
+    "observed": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "expected": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "name": "truth_equality",
+    "observed": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "expected": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "name": "three_serial_cuts_xy",
+    "observed": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "expected": true,
+    "name": "joint_only_witness",
+    "observed": true,
+    "passed": true
+  },
+  {
+    "expected": true,
+    "name": "outside_endpoints",
+    "observed": true,
+    "passed": true
+  },
+  {
+    "expected": false,
+    "name": "empty_sequence",
+    "observed": false,
+    "passed": true
+  },
+  {
+    "expected": [
+      1,
+      [],
+      []
+    ],
+    "name": "rolled_back_reader",
+    "observed": [
+      1,
+      [],
+      []
+    ],
+    "passed": true
+  },
+  {
+    "expected": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [],
+      "status": 73
+    },
+    "name": "hand-before-separate-xy",
+    "observed": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [],
+      "status": 73
+    },
+    "passed": true
+  },
+  {
+    "expected": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [],
+      "status": 73
+    },
+    "name": "hand-before-separate-yx",
+    "observed": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [],
+      "status": 73
+    },
+    "passed": true
+  },
+  {
+    "expected": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 1,
+      "receipts": [],
+      "status": 73
+    },
+    "name": "hand-before-durable_gate-xy",
+    "observed": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 1,
+      "receipts": [],
+      "status": 73
+    },
+    "passed": true
+  },
+  {
+    "expected": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 1,
+      "receipts": [],
+      "status": 73
+    },
+    "name": "hand-before-durable_gate-yx",
+    "observed": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 1,
+      "receipts": [],
+      "status": 73
+    },
+    "passed": true
+  },
+  {
+    "expected": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [],
+      "status": 73
+    },
+    "name": "hand-before-whole_transaction-xy",
+    "observed": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [],
+      "status": 73
+    },
+    "passed": true
+  },
+  {
+    "expected": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [],
+      "status": 73
+    },
+    "name": "hand-before-whole_transaction-yx",
+    "observed": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 0,
+      "receipts": [],
+      "status": 73
+    },
+    "passed": true
+  },
+  {
+    "expected": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 1,
+      "receipts": [],
+      "status": 73
+    },
+    "name": "hand-before-forced_open_gate-xy",
+    "observed": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 1,
+      "receipts": [],
+      "status": 73
+    },
+    "passed": true
+  },
+  {
+    "expected": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 1,
+      "receipts": [],
+      "status": 73
+    },
+    "name": "hand-before-forced_open_gate-yx",
+    "observed": {
+      "fields": {
+        "x": 1,
+        "y": 1
+      },
+      "gate": 1,
+      "receipts": [],
+      "status": 73
+    },
+    "passed": true
+  }
+]
