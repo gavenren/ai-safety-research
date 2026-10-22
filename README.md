@@ -12,10 +12,15 @@ The task is scheduled in Codex. It is not a GitHub Actions workflow.
 
 ## Research reports
 
-The first example study was completed on October 8, 2026.
+The first example study was completed on October 8, 2026. The owner requested five additional studies on October 22. The first five rows below are that extra batch; the daily schedule is unchanged.
 
 | Date | Study | Main result | Review status |
 | --- | --- | --- | --- |
+| 2026-10-22 | [Repeated gate requests during overlapping undo](research/2026-10-22-overlapping-undo-gates/report.md) | In 1,596 synthetic histories, a flag opened too early in 1,196; an active-ID set stayed closed at the end in 850. Retained lifecycle states matched every checked point. | AI-generated; separate agent review passed; no human review. |
+| 2026-10-22 | [A locally valid undo step can block safe completion](research/2026-10-22-safe-undo-order/report.md) | Greedy undo reached 24 avoidable dead ends in 384 primary cases. Complete search safely finished all 276 feasible cases. Synthetic model. | AI-generated; separate agent review passed; no human review. |
+| 2026-10-22 | [Cancellation across restarts: when an old worker can still act](research/2026-10-22-cancel-fencing/report.md) | In 612 synthetic schedules per rule, a unique token checked before use still allowed 80 stale effects. Atomic checking and an installed fence each allowed zero. | AI-generated; separate agent review passed; no human review. |
+| 2026-10-22 | [A receipt must identify both the operation and its intended change](research/2026-10-22-receipt-binding/report.md) | In 256 synthetic request pairs per rule, an account-scoped key alone gave 48 false success replies with no incorrect effect history. Stored payload checks matched every case. | AI-generated; separate agent review passed; no human review. |
+| 2026-10-22 | [A final page does not prove complete search coverage](research/2026-10-22-pagination-claims/report.md) | In 4,662 synthetic worlds per rule, token-only search gave 3,108 unsupported completion claims. Token and coverage checks gave zero, with 3,108 unknowns. | AI-generated; separate agent review passed; no human review. |
 | 2026-10-22 | [When correct undo leaves an incorrect decision history](research/2026-10-22-undo-visibility/report.md) | In 512 local SQLite cases with separate undo commits, all final fields were correct, but 256 decision histories failed the order check. Of these, 32 passed each separate decision check. Synthetic workload; no website trial. | AI-generated; agent checks completed; no human review. |
 | 2026-10-21 | [Undo after a crash: progress records and later edits](research/2026-10-21-undo-retries/report.md) | In 2,500 primary model cases, atomic subtraction completed all cases correctly. Atomic fixed assignments made 896 false claims despite once-only steps. Simulation only; no new website trials. | AI-generated; agent checks completed; no human review. |
 | 2026-10-20 | [Safe undo with missing action records](research/2026-10-20-undo-missing-history/report.md) | In 40,000 finite model cases, target agreement gave 26,380 correct completions and no false claims with a correct loss bound. Incorrect bounds can cause false claims. No new website trials. | AI-generated; agent checks completed; no human review. |
