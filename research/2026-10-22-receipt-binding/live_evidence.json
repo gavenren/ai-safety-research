@@ -1,0 +1,2564 @@
+{
+  "baseline_scope": "One full connector setup batch, followed by fresh before-save browser identity and field checks. No immediate per-case full metadata baseline is claimed.",
+  "cases": [
+    {
+      "case_id": "drive-K-EXACT",
+      "checks": {
+        "action_evidence_times_match": true,
+        "active_parent_observed": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_and_UI_filled_value": true,
+        "source_baseline_name": true,
+        "source_before_UI": true,
+        "source_native_identity": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [],
+        "reason": "key_only_replay",
+        "replay": true,
+        "status": "success"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-drive-K-EXACT.json",
+          "sha256": "1b551ccc5fe3d03ae6dea6362a5cd4c488cd28a545f0200d12ae6a4182f8ce1c"
+        },
+        {
+          "file": "intent-ui-drive-RECEIPT-K-EXACT-A.json",
+          "sha256": "79c99f16203ea067eb45c2ee6576f6b97dce9197c7039bbacda3641f1b696cf6"
+        },
+        {
+          "file": "intent-source-drive-RECEIPT-K-EXACT-A.json",
+          "sha256": "984720206d21fde42dab3773a28f4446ea8b0db57b76baf57e07821fb10730fe"
+        },
+        {
+          "file": "dispatch-first-drive-RECEIPT-K-EXACT-A.json",
+          "sha256": "5580399f42a79e286d8056ab6c426ddbd689e95895a6aafdf46424f7735e06dc"
+        },
+        {
+          "file": "ui-first-drive-RECEIPT-K-EXACT-A-sent.json",
+          "sha256": "edbb0fa3edc016b437efdc43106a249faebdd1ccc370bd1ea38765357c698f70"
+        },
+        {
+          "file": "receipt-interruption-read.json",
+          "sha256": "0bcf7d677c41709315a37d446c0bc38217567c124c76ea6024f948e3fdbd5199"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": true,
+      "original_envelope_hashes": {
+        "second": "e771bf815f6bd012e4516bfa8b0d7245bb4ff87410815f9801ee1b30acebf14a",
+        "stored": "e771bf815f6bd012e4516bfa8b0d7245bb4ff87410815f9801ee1b30acebf14a"
+      },
+      "pair": "EXACT",
+      "policy": "K",
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-A",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.829Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-drive-RECEIPT-K-EXACT-A.json",
+              "sha256": "0bcf7d677c41709315a37d446c0bc38217567c124c76ea6024f948e3fdbd5199"
+            },
+            {
+              "file": "receipt-after-drive-RECEIPT-K-EXACT-A.json",
+              "sha256": "f719e0d1a1ce4630220d83d89e66eca0e20d9e055420213c3d97ea9ac066016b"
+            }
+          ],
+          "final_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:37:15.255Z",
+          "first_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:33:41.990Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "created_time",
+            "current_user_can_share",
+            "display_url",
+            "drive_id",
+            "file_or_folder",
+            "has_augmented_permissions",
+            "id",
+            "mime_type",
+            "parent_ids",
+            "permissions",
+            "shared",
+            "size",
+            "source_visibility_status",
+            "url"
+          ]
+        }
+      },
+      "second_saves": 0,
+      "service": "drive",
+      "times": {
+        "after_read": "2026-10-22T16:37:15.255Z",
+        "baseline_to_before_UI_seconds": 1636.952,
+        "before_UI": "2026-10-22T16:33:02.781Z",
+        "case_end": "2026-10-22T16:37:15.255Z",
+        "case_seconds": 252.474,
+        "dispatch": "2026-10-22T16:33:02.781Z",
+        "first_read": "2026-10-22T16:33:41.990Z",
+        "postclick_UI": "2026-10-22T16:33:03.412Z",
+        "postclick_to_first_read_seconds": 38.578,
+        "prepared": "2026-10-22T16:37:14.263504+00:00",
+        "response": "2026-10-22T16:37:14.264407+00:00"
+      },
+      "timing_check_known": false
+    },
+    {
+      "case_id": "drive-K-PAYLOAD",
+      "checks": {
+        "action_evidence_times_match": true,
+        "active_parent_observed": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_and_UI_filled_value": true,
+        "source_baseline_name": true,
+        "source_before_UI": true,
+        "source_native_identity": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [],
+        "reason": "key_only_replay",
+        "replay": true,
+        "status": "success"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-drive-K-PAYLOAD.json",
+          "sha256": "45a0ac94db1c697e06f6cf448048c7b95a33a1eaece5e9935d44d7a28b0759ba"
+        },
+        {
+          "file": "intent-ui-drive-RECEIPT-K-PAYLOAD-A.json",
+          "sha256": "605fbda30d253bf0ffe03707ada102068c3dd494e437e26a222929c387743dea"
+        },
+        {
+          "file": "intent-source-drive-RECEIPT-K-PAYLOAD-A.json",
+          "sha256": "1e5c331e2e582cd5798c10c416b6b24e216721319baf95e9b843ab0700a6eb52"
+        },
+        {
+          "file": "dispatch-first-drive-RECEIPT-K-PAYLOAD-A.json",
+          "sha256": "ec7e54da7d5b00588abc44f5163d859d535adc3bbe4906351df02374dd97614c"
+        },
+        {
+          "file": "ui-first-drive-RECEIPT-K-PAYLOAD-A-sent.json",
+          "sha256": "3cc4c8452a329730098c5ed054b00770035dd14dd3909cc3b5fb7bc48af8ca26"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "df6822931a1da1c979dabd4310112f363a61ec895bf0782bd89300289b24868e",
+        "stored": "2bfa9460aeeda1ebcb2e77361a16f2770df7ff20bca4566c4b3bc0d1796d2e4b"
+      },
+      "pair": "PAYLOAD",
+      "policy": "K",
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-B",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.852Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-drive-RECEIPT-K-PAYLOAD-A.json",
+              "sha256": "99f534a97eb89d782ddad0d259ad3c281cdbaf973252af3528f7e90a6f1f71b0"
+            },
+            {
+              "file": "receipt-after-drive-RECEIPT-K-PAYLOAD-A.json",
+              "sha256": "1deba8225059216238fb36e770327401471ab8e57917c704ed118954ee05ecc9"
+            }
+          ],
+          "final_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:37:15.776Z",
+          "first_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:36:20.381Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "created_time",
+            "current_user_can_share",
+            "display_url",
+            "drive_id",
+            "file_or_folder",
+            "has_augmented_permissions",
+            "id",
+            "mime_type",
+            "parent_ids",
+            "permissions",
+            "shared",
+            "size",
+            "source_visibility_status",
+            "url"
+          ]
+        }
+      },
+      "second_saves": 0,
+      "service": "drive",
+      "times": {
+        "after_read": "2026-10-22T16:37:15.776Z",
+        "baseline_to_before_UI_seconds": 1823.119,
+        "before_UI": "2026-10-22T16:36:08.971Z",
+        "case_end": "2026-10-22T16:37:15.776Z",
+        "case_seconds": 66.805,
+        "dispatch": "2026-10-22T16:36:08.972Z",
+        "first_read": "2026-10-22T16:36:20.381Z",
+        "postclick_UI": "2026-10-22T16:36:09.629Z",
+        "postclick_to_first_read_seconds": 10.752,
+        "prepared": "2026-10-22T16:37:14.372787+00:00",
+        "response": "2026-10-22T16:37:14.373701+00:00"
+      },
+      "timing_check_known": true
+    },
+    {
+      "case_id": "drive-K-TARGET",
+      "checks": {
+        "B_chronology": true,
+        "B_fields_and_unchanged": true,
+        "action_evidence_times_match": true,
+        "active_parent_observed": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_and_UI_filled_value": true,
+        "source_baseline_name": true,
+        "source_before_UI": true,
+        "source_native_identity": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [],
+        "reason": "key_only_replay",
+        "replay": true,
+        "status": "success"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-drive-K-TARGET.json",
+          "sha256": "8672f4e1da56b5f13fffd07b7a26b195e8a246b541ee2981fb64dfe7883a7d1d"
+        },
+        {
+          "file": "intent-ui-drive-RECEIPT-K-TARGET-A.json",
+          "sha256": "6863ba1c914f35939f72a0163fc85527d23a35dfb05f43779f8296ac70df5d99"
+        },
+        {
+          "file": "intent-source-drive-RECEIPT-K-TARGET-A.json",
+          "sha256": "a57ad42b841ae51d009d49d69047b00ac6796b441b00dff74a2e5476299c9837"
+        },
+        {
+          "file": "dispatch-first-drive-RECEIPT-K-TARGET-A.json",
+          "sha256": "ff160c219f97d22fc8feb3238516f7b842e5188e04509843e4f154c7369cdb1d"
+        },
+        {
+          "file": "ui-first-drive-RECEIPT-K-TARGET-A-sent.json",
+          "sha256": "575c65f4ac416d438bf7181b4d71ad88dc2438379dbe5c080d8d5eb99f6763dd"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A",
+        "B": "BASE"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "4366bfcca93ff94ffe7fb99064651418e310c94a67c65e4fb897df8b49badab5",
+        "stored": "ff9f97b3ca054d84613d460a93350ea29d9032cd8347c6e5e9ea617eaf514824"
+      },
+      "pair": "TARGET",
+      "policy": "K",
+      "requested_target": "B",
+      "requested_value": "PAYLOAD-A",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:46.037Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-drive-RECEIPT-K-TARGET-A.json",
+              "sha256": "63e2a889b687989721b8a5520bdce24cabde616635a212f32511305a69828202"
+            },
+            {
+              "file": "receipt-after-drive-RECEIPT-K-TARGET-A.json",
+              "sha256": "1c713cd41c6a22e1298abc464bf95bb2f5146a344996cdc7d36277ebff82534f"
+            }
+          ],
+          "final_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:37:16.224Z",
+          "first_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:36:56.919Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "created_time",
+            "current_user_can_share",
+            "display_url",
+            "drive_id",
+            "file_or_folder",
+            "has_augmented_permissions",
+            "id",
+            "mime_type",
+            "parent_ids",
+            "permissions",
+            "shared",
+            "size",
+            "source_visibility_status",
+            "url"
+          ]
+        },
+        "B": {
+          "all_exposed_fields_unchanged": true,
+          "baseline_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.868Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-drive-RECEIPT-K-TARGET-B.json",
+              "sha256": "f88bc5764201a51764fc250a5fb52cdfccce9a09829468665dcc868f55c90574"
+            },
+            {
+              "file": "receipt-after-drive-RECEIPT-K-TARGET-B.json",
+              "sha256": "64b53fb40382f525a182964a46354d625678bdd00d0beb03040fc8b336bd3694"
+            }
+          ],
+          "final_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:37:16.741Z",
+          "first_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:36:57.724Z"
+        }
+      },
+      "second_saves": 0,
+      "service": "drive",
+      "times": {
+        "after_read": "2026-10-22T16:37:16.224Z",
+        "baseline_to_before_UI_seconds": 1859.967,
+        "before_UI": "2026-10-22T16:36:46.004Z",
+        "case_end": "2026-10-22T16:37:16.741Z",
+        "case_seconds": 30.737,
+        "dispatch": "2026-10-22T16:36:46.004Z",
+        "first_read": "2026-10-22T16:36:56.919Z",
+        "postclick_UI": "2026-10-22T16:36:46.652Z",
+        "postclick_to_first_read_seconds": 10.267,
+        "prepared": "2026-10-22T16:37:14.480646+00:00",
+        "response": "2026-10-22T16:37:14.481575+00:00"
+      },
+      "timing_check_known": true
+    },
+    {
+      "case_id": "drive-B-EXACT",
+      "checks": {
+        "action_evidence_times_match": true,
+        "active_parent_observed": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_and_UI_filled_value": true,
+        "source_baseline_name": true,
+        "source_before_UI": true,
+        "source_native_identity": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [],
+        "reason": "bound_replay",
+        "replay": true,
+        "status": "success"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-drive-B-EXACT.json",
+          "sha256": "c3bb2407f679a8549391aacafa3fd4c0e13507d30589e1d7740a61679425e530"
+        },
+        {
+          "file": "intent-ui-drive-RECEIPT-B-EXACT-A.json",
+          "sha256": "35a8d1e57ef1edf66ebe176a26e7abe3eb49812f0af8039fef50266d74d92342"
+        },
+        {
+          "file": "intent-source-drive-RECEIPT-B-EXACT-A.json",
+          "sha256": "3daea5599d54d08de3e611708d4c41e3c3d77763e664177391c0bbf5b16ec4f0"
+        },
+        {
+          "file": "dispatch-first-drive-RECEIPT-B-EXACT-A.json",
+          "sha256": "e1013a6a1455f0f2d3e8d18850563ff48a9a914b9d29a024ccadd52b8888fc6e"
+        },
+        {
+          "file": "ui-first-drive-RECEIPT-B-EXACT-A-sent.json",
+          "sha256": "6b353ed093d7415ff7ae756fb8c34b69ad03b0a8ec5d4790d909b1a71525bafc"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "305c228a3dcb697ff328341feb57106ad71570857aa9bcedea7bd5a32f97f50e",
+        "stored": "305c228a3dcb697ff328341feb57106ad71570857aa9bcedea7bd5a32f97f50e"
+      },
+      "pair": "EXACT",
+      "policy": "B",
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-A",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.682Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-drive-RECEIPT-B-EXACT-A.json",
+              "sha256": "0edd09f32fd5e2174aa3308326dd48ac54bf6ebe212bfc1f1a75460fee6e0974"
+            },
+            {
+              "file": "receipt-after-drive-RECEIPT-B-EXACT-A.json",
+              "sha256": "e418d57eba15d1c0ef1b9c10a37f96bae5007851dace863bdb8340f86b706e7b"
+            }
+          ],
+          "final_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:38:04.315Z",
+          "first_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:38:01.709Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "created_time",
+            "current_user_can_share",
+            "display_url",
+            "drive_id",
+            "file_or_folder",
+            "has_augmented_permissions",
+            "id",
+            "mime_type",
+            "parent_ids",
+            "permissions",
+            "shared",
+            "size",
+            "source_visibility_status",
+            "url"
+          ]
+        }
+      },
+      "second_saves": 0,
+      "service": "drive",
+      "times": {
+        "after_read": "2026-10-22T16:38:04.315Z",
+        "baseline_to_before_UI_seconds": 1904.092,
+        "before_UI": "2026-10-22T16:37:29.774Z",
+        "case_end": "2026-10-22T16:38:04.315Z",
+        "case_seconds": 34.541,
+        "dispatch": "2026-10-22T16:37:29.775Z",
+        "first_read": "2026-10-22T16:38:01.709Z",
+        "postclick_UI": "2026-10-22T16:37:30.394Z",
+        "postclick_to_first_read_seconds": 31.315,
+        "prepared": "2026-10-22T16:38:03.259013+00:00",
+        "response": "2026-10-22T16:38:03.259993+00:00"
+      },
+      "timing_check_known": true
+    },
+    {
+      "case_id": "drive-B-PAYLOAD",
+      "checks": {
+        "action_evidence_times_match": true,
+        "active_parent_observed": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_and_UI_filled_value": true,
+        "source_baseline_name": true,
+        "source_before_UI": true,
+        "source_native_identity": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [
+          "payload"
+        ],
+        "reason": "immutable_fields_changed",
+        "replay": false,
+        "status": "conflict"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-drive-B-PAYLOAD.json",
+          "sha256": "e132af4898498b1864acaf5fa38478b90e3feb03ebb1179d17b4d82bf015ad17"
+        },
+        {
+          "file": "intent-ui-drive-RECEIPT-B-PAYLOAD-A.json",
+          "sha256": "9fc390b9de26436e48459390f35b8ad3156c312ee89061d7565c8495618f5ab2"
+        },
+        {
+          "file": "intent-source-drive-RECEIPT-B-PAYLOAD-A.json",
+          "sha256": "8c9e869fa313d2593848fa5dd16bce141fd0a4f0ef776ce08d76683c8c0806a0"
+        },
+        {
+          "file": "dispatch-first-drive-RECEIPT-B-PAYLOAD-A.json",
+          "sha256": "6f639c5f953ffa6cf6e762bc0690de4ec1309d8b5001600cf06d85f8d19bccec"
+        },
+        {
+          "file": "ui-first-drive-RECEIPT-B-PAYLOAD-A-sent.json",
+          "sha256": "7e73eea7b31612610448ea097990076ec579c999d1b6147578d22634d2b94537"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "98ac47cf9f2b35e58e7ea54a47d44ffca96ad798b143ecb43928b50956134fb0",
+        "stored": "871b05fe23d006bc7985dd5b0d9e60ac39675de519763f89728b08b63abd64ab"
+      },
+      "pair": "PAYLOAD",
+      "policy": "B",
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-B",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:46.019Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-drive-RECEIPT-B-PAYLOAD-A.json",
+              "sha256": "cabf06d9d1e6c028a04cb47c10b93557b93ce6f16f13d896ad6ce63f1505179b"
+            },
+            {
+              "file": "receipt-after-drive-RECEIPT-B-PAYLOAD-A.json",
+              "sha256": "3fede416c02e61d280ae1a3f72ba50545ca68fb757efe8b99aa5376b476dc6f4"
+            }
+          ],
+          "final_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:38:04.806Z",
+          "first_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:38:02.147Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "created_time",
+            "current_user_can_share",
+            "display_url",
+            "drive_id",
+            "file_or_folder",
+            "has_augmented_permissions",
+            "id",
+            "mime_type",
+            "parent_ids",
+            "permissions",
+            "shared",
+            "size",
+            "source_visibility_status",
+            "url"
+          ]
+        }
+      },
+      "second_saves": 0,
+      "service": "drive",
+      "times": {
+        "after_read": "2026-10-22T16:38:04.806Z",
+        "baseline_to_before_UI_seconds": 1909.553,
+        "before_UI": "2026-10-22T16:37:35.572Z",
+        "case_end": "2026-10-22T16:38:04.806Z",
+        "case_seconds": 29.234,
+        "dispatch": "2026-10-22T16:37:35.573Z",
+        "first_read": "2026-10-22T16:38:02.147Z",
+        "postclick_UI": "2026-10-22T16:37:38.982Z",
+        "postclick_to_first_read_seconds": 23.165,
+        "prepared": "2026-10-22T16:38:03.367621+00:00",
+        "response": "2026-10-22T16:38:03.368529+00:00"
+      },
+      "timing_check_known": true
+    },
+    {
+      "case_id": "drive-B-TARGET",
+      "checks": {
+        "B_chronology": true,
+        "B_fields_and_unchanged": true,
+        "action_evidence_times_match": true,
+        "active_parent_observed": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_and_UI_filled_value": true,
+        "source_baseline_name": true,
+        "source_before_UI": true,
+        "source_native_identity": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [
+          "target"
+        ],
+        "reason": "immutable_fields_changed",
+        "replay": false,
+        "status": "conflict"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-drive-B-TARGET.json",
+          "sha256": "12d8a2cca3853ca674a9db4a2cfd42b290a5c7f292f5ca881902902e2dcb0ef8"
+        },
+        {
+          "file": "intent-ui-drive-RECEIPT-B-TARGET-A.json",
+          "sha256": "b6c797fc9825aed5c4c0fb9feeba11a52ba384a3a8252096d7839edaa5148c25"
+        },
+        {
+          "file": "intent-source-drive-RECEIPT-B-TARGET-A.json",
+          "sha256": "2bf94e471333c52042419664ab682594c20d4ff632ef4ee63bb965bca3d9e57c"
+        },
+        {
+          "file": "dispatch-first-drive-RECEIPT-B-TARGET-A.json",
+          "sha256": "47bc4925ff76b49ca38ee249852ff9e3b1469ac3cca7ab537ed52e0631773425"
+        },
+        {
+          "file": "ui-first-drive-RECEIPT-B-TARGET-A-sent.json",
+          "sha256": "7a5486218656f299b7d4dd51c65fb80c811c4d788efd1fe94218aef899a8ba73"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A",
+        "B": "BASE"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "64ba9936a834ed9a670c738257d5ecba6e09a0450beecd5f74e2b0e260ba1247",
+        "stored": "0bbe9716f5981c931bdff48d4753d24617fbbcf3c89f6cf17c3125dafac0e8ee"
+      },
+      "pair": "TARGET",
+      "policy": "B",
+      "requested_target": "B",
+      "requested_value": "PAYLOAD-A",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.759Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-drive-RECEIPT-B-TARGET-A.json",
+              "sha256": "e2d4200c5f8183e0e3876cfd6897c9b315fcd58120ddcb04fac31f85e30c33e9"
+            },
+            {
+              "file": "receipt-after-drive-RECEIPT-B-TARGET-A.json",
+              "sha256": "c10bb6cccf152c389fc4e7569440d157cd428e050fec924d8e635b6e1150f4aa"
+            }
+          ],
+          "final_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:38:05.391Z",
+          "first_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:38:02.642Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "created_time",
+            "current_user_can_share",
+            "display_url",
+            "drive_id",
+            "file_or_folder",
+            "has_augmented_permissions",
+            "id",
+            "mime_type",
+            "parent_ids",
+            "permissions",
+            "shared",
+            "size",
+            "source_visibility_status",
+            "url"
+          ]
+        },
+        "B": {
+          "all_exposed_fields_unchanged": true,
+          "baseline_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.822Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-drive-RECEIPT-B-TARGET-B.json",
+              "sha256": "ca19a19ca759d7fe23cce0d03b36ec4fcd99dcf2c0b39b4a3f3f6b4d1b4dd2c4"
+            },
+            {
+              "file": "receipt-after-drive-RECEIPT-B-TARGET-B.json",
+              "sha256": "862f5e2db4092b09ee19a2fa09aff22da5cc50c3be1afa41e40170f5a498a49e"
+            }
+          ],
+          "final_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:38:06.184Z",
+          "first_checks": {
+            "folder_type": true,
+            "name_matches": true,
+            "native_id_matches": true,
+            "not_shared": true,
+            "one_owner_permission": true,
+            "parent_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:38:03.143Z"
+        }
+      },
+      "second_saves": 0,
+      "service": "drive",
+      "times": {
+        "after_read": "2026-10-22T16:38:05.391Z",
+        "baseline_to_before_UI_seconds": 1921.225,
+        "before_UI": "2026-10-22T16:37:46.984Z",
+        "case_end": "2026-10-22T16:38:06.184Z",
+        "case_seconds": 19.2,
+        "dispatch": "2026-10-22T16:37:46.985Z",
+        "first_read": "2026-10-22T16:38:02.642Z",
+        "postclick_UI": "2026-10-22T16:37:47.622Z",
+        "postclick_to_first_read_seconds": 15.02,
+        "prepared": "2026-10-22T16:38:03.474464+00:00",
+        "response": "2026-10-22T16:38:03.475429+00:00"
+      },
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-K-EXACT",
+      "checks": {
+        "UI_description_and_flags": true,
+        "action_evidence_times_match": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "before_flags": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "observed_URL_native_identity": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_before_UI": true,
+        "source_flags": true,
+        "source_title": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [],
+        "reason": "key_only_replay",
+        "replay": true,
+        "status": "success"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-calendar-K-EXACT.json",
+          "sha256": "b40b092a87f7d1296045e867aa393f443b7c2cd85851667b717d3455e6208184"
+        },
+        {
+          "file": "intent-ui-calendar-RECEIPT-K-EXACT-A.json",
+          "sha256": "47e14028048174a0f6c3a0eb956d008997bd659c1080b5f9761f4d783860debb"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-K-EXACT-A-filled.json",
+          "sha256": "a0c56d7bb244e551fd9b61e1f336b701d243e6e0840e3e990a38521e73095b59"
+        },
+        {
+          "file": "dispatch-first-calendar-RECEIPT-K-EXACT-A.json",
+          "sha256": "494842ded33e8b07d7a7ee6b275a0a856e34a46ecafbe9736b22641b8e2dabf1"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-K-EXACT-A-sent.json",
+          "sha256": "d1c4a6e4c2365b048a43a42ace4b6613cafa565023b692e9f58810b9fe49be2c"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "36242c14e31603f98a73812313dbc360e2f47242fae3e5fdab14f4db9fe080de",
+        "stored": "36242c14e31603f98a73812313dbc360e2f47242fae3e5fdab14f4db9fe080de"
+      },
+      "pair": "EXACT",
+      "policy": "K",
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-A",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:46.298Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-calendar-RECEIPT-K-EXACT-A.json",
+              "sha256": "3565a2f6fc13554e364855abb68cf7b86408364439970abb7a7e95e1fd3d8ba3"
+            },
+            {
+              "file": "receipt-after-calendar-RECEIPT-K-EXACT-A.json",
+              "sha256": "e7d791d2f2d63eba6eb3c8d901abe5a3bd892985403704b3b62caf914716198e"
+            }
+          ],
+          "final_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:38:43.090Z",
+          "first_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:38:40.947Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "attachments",
+            "attendees",
+            "color_id",
+            "display_title",
+            "display_url",
+            "end",
+            "event_label_id",
+            "event_type",
+            "guests_can_modify",
+            "hangout_link",
+            "id",
+            "location",
+            "locked",
+            "organizer",
+            "original_start_time",
+            "recurrence",
+            "recurring_event_id",
+            "reminders",
+            "start",
+            "status",
+            "summary",
+            "transparency",
+            "url",
+            "visibility"
+          ]
+        }
+      },
+      "second_saves": 0,
+      "service": "calendar",
+      "times": {
+        "after_read": "2026-10-22T16:38:43.090Z",
+        "baseline_to_before_UI_seconds": 1958.345,
+        "before_UI": "2026-10-22T16:38:24.643Z",
+        "case_end": "2026-10-22T16:38:43.090Z",
+        "case_seconds": 18.447,
+        "dispatch": "2026-10-22T16:38:24.644Z",
+        "first_read": "2026-10-22T16:38:40.947Z",
+        "postclick_UI": "2026-10-22T16:38:25.513Z",
+        "postclick_to_first_read_seconds": 15.434,
+        "prepared": "2026-10-22T16:38:42.472929+00:00",
+        "response": "2026-10-22T16:38:42.474048+00:00"
+      },
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-K-PAYLOAD",
+      "checks": {
+        "UI_description_and_flags": true,
+        "action_evidence_times_match": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "before_flags": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "observed_URL_native_identity": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_before_UI": true,
+        "source_flags": true,
+        "source_title": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [],
+        "reason": "key_only_replay",
+        "replay": true,
+        "status": "success"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-calendar-K-PAYLOAD.json",
+          "sha256": "250f9cab2f9e2e96190207825c5f0b52d2f121a133140b46a36d231c88861855"
+        },
+        {
+          "file": "intent-ui-calendar-RECEIPT-K-PAYLOAD-A.json",
+          "sha256": "819e062c2b7a57e4033f756c85056885bdf393da7966cb28197b537fec3c3b5f"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-K-PAYLOAD-A-filled.json",
+          "sha256": "5936052d82ea23c7c7ba2303110b8b023eb61d6e509abcf8e37a105c9d1eed95"
+        },
+        {
+          "file": "dispatch-first-calendar-RECEIPT-K-PAYLOAD-A.json",
+          "sha256": "267da1386efc1578c80fc5a4901b3bfadfedef84d8813ab2b0127b5abdb66927"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-K-PAYLOAD-A-sent.json",
+          "sha256": "f160e589a03937cf2e9132d5ba9f0e212612a0ab6a6a821eab437471fac56332"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "f7a3a510d4b853e7e5bd8259e8c4e217ea9c1edccaf6b5d613d803006dd09276",
+        "stored": "691b1999f9c26eaefbdbb0de1ae23a7f431c430cb6e4ab2b18c864c1f0d742bf"
+      },
+      "pair": "PAYLOAD",
+      "policy": "K",
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-B",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:46.073Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-calendar-RECEIPT-K-PAYLOAD-A.json",
+              "sha256": "c3ab7748f1105303b065983a3c7ccffba5c4051bef05900e5f7545ea3b0f3712"
+            },
+            {
+              "file": "receipt-after-calendar-RECEIPT-K-PAYLOAD-A.json",
+              "sha256": "4dd62b4bbaed63fa49a3a37b4be11b38835c49615ca354762621127d950d5b40"
+            }
+          ],
+          "final_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:38:43.639Z",
+          "first_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:38:41.358Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "attachments",
+            "attendees",
+            "color_id",
+            "display_title",
+            "display_url",
+            "end",
+            "event_label_id",
+            "event_type",
+            "guests_can_modify",
+            "hangout_link",
+            "id",
+            "location",
+            "locked",
+            "organizer",
+            "original_start_time",
+            "recurrence",
+            "recurring_event_id",
+            "reminders",
+            "start",
+            "status",
+            "summary",
+            "transparency",
+            "url",
+            "visibility"
+          ]
+        }
+      },
+      "second_saves": 0,
+      "service": "calendar",
+      "times": {
+        "after_read": "2026-10-22T16:38:43.639Z",
+        "baseline_to_before_UI_seconds": 1961.762,
+        "before_UI": "2026-10-22T16:38:27.835Z",
+        "case_end": "2026-10-22T16:38:43.639Z",
+        "case_seconds": 15.804,
+        "dispatch": "2026-10-22T16:38:27.836Z",
+        "first_read": "2026-10-22T16:38:41.358Z",
+        "postclick_UI": "2026-10-22T16:38:28.641Z",
+        "postclick_to_first_read_seconds": 12.717,
+        "prepared": "2026-10-22T16:38:42.561447+00:00",
+        "response": "2026-10-22T16:38:42.562462+00:00"
+      },
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-K-TARGET",
+      "checks": {
+        "B_chronology": true,
+        "B_fields_and_unchanged": true,
+        "UI_description_and_flags": true,
+        "action_evidence_times_match": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "before_flags": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "observed_URL_native_identity": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_before_UI": true,
+        "source_flags": true,
+        "source_title": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [],
+        "reason": "key_only_replay",
+        "replay": true,
+        "status": "success"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-calendar-K-TARGET.json",
+          "sha256": "af609c8b835c276591e6c2a04751e575929856d073ece1ceab51505249e0cd90"
+        },
+        {
+          "file": "intent-ui-calendar-RECEIPT-K-TARGET-A.json",
+          "sha256": "38e88a198fbfeb8bbde3337fbba15dd7c04840f35e874e79198542e3190771a3"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-K-TARGET-A-filled.json",
+          "sha256": "da2562b6cd8a63e0cb1e296e9961d06fdc28bc2bf69a30d1ce70702db88f6791"
+        },
+        {
+          "file": "dispatch-first-calendar-RECEIPT-K-TARGET-A.json",
+          "sha256": "7473a4060db2249952991bb1573e0a14eecf292c59da2a5ae13823670536bdc2"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-K-TARGET-A-sent.json",
+          "sha256": "8d064afc4d3b9508c4012ddfaf097e66870fc5f9e4f956e4c152aa51cde5c123"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A",
+        "B": "BASE"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "07b314166cd20c7ad05a1fc41002d0ce869ba455425e1591c513f27849c5d284",
+        "stored": "61769f45ef0407e96e2a3b766ec86f0fabb26d8b12b19b60d7bd42e4b59a3ab1"
+      },
+      "pair": "TARGET",
+      "policy": "K",
+      "requested_target": "B",
+      "requested_value": "PAYLOAD-A",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.863Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-calendar-RECEIPT-K-TARGET-A.json",
+              "sha256": "ff88923162b076fa9093ac416e9c885675f2433855db4230c4e6a337a983866b"
+            },
+            {
+              "file": "receipt-after-calendar-RECEIPT-K-TARGET-A.json",
+              "sha256": "94bf2d33bcef7bc73f6c8aa62b3524929ebbd3ebecf7abba1fe3331a3004c3f7"
+            }
+          ],
+          "final_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:38:44.596Z",
+          "first_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:38:41.749Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "attachments",
+            "attendees",
+            "color_id",
+            "display_title",
+            "display_url",
+            "end",
+            "event_label_id",
+            "event_type",
+            "guests_can_modify",
+            "hangout_link",
+            "id",
+            "location",
+            "locked",
+            "organizer",
+            "original_start_time",
+            "recurrence",
+            "recurring_event_id",
+            "reminders",
+            "start",
+            "status",
+            "summary",
+            "transparency",
+            "url",
+            "visibility"
+          ]
+        },
+        "B": {
+          "all_exposed_fields_unchanged": true,
+          "baseline_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:46.459Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-calendar-RECEIPT-K-TARGET-B.json",
+              "sha256": "e78ea3ec361015ba2f0e55de6e2a53614d552d3f5f31763dbc5780762af909ef"
+            },
+            {
+              "file": "receipt-after-calendar-RECEIPT-K-TARGET-B.json",
+              "sha256": "d7ea8e0f067ce7d66710d516706ddb70300926329868146eedc8059a814beee2"
+            }
+          ],
+          "final_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:38:44.950Z",
+          "first_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:38:42.290Z"
+        }
+      },
+      "second_saves": 0,
+      "service": "calendar",
+      "times": {
+        "after_read": "2026-10-22T16:38:44.596Z",
+        "baseline_to_before_UI_seconds": 1965.333,
+        "before_UI": "2026-10-22T16:38:31.196Z",
+        "case_end": "2026-10-22T16:38:44.950Z",
+        "case_seconds": 13.754,
+        "dispatch": "2026-10-22T16:38:31.197Z",
+        "first_read": "2026-10-22T16:38:41.749Z",
+        "postclick_UI": "2026-10-22T16:38:32.024Z",
+        "postclick_to_first_read_seconds": 9.725,
+        "prepared": "2026-10-22T16:38:42.684682+00:00",
+        "response": "2026-10-22T16:38:42.685699+00:00"
+      },
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-B-EXACT",
+      "checks": {
+        "UI_description_and_flags": true,
+        "action_evidence_times_match": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "before_flags": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "observed_URL_native_identity": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_before_UI": true,
+        "source_flags": true,
+        "source_title": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [],
+        "reason": "bound_replay",
+        "replay": true,
+        "status": "success"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-calendar-B-EXACT.json",
+          "sha256": "bd4cc9429dbaab5089961dfef44f8cb886fa80f18f02c589381c3f7b2041da79"
+        },
+        {
+          "file": "intent-ui-calendar-RECEIPT-B-EXACT-A.json",
+          "sha256": "857bc19d7984bf189342cb63233d8af52a74003854c6dd7e81570ff1c7c94a15"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-B-EXACT-A-filled.json",
+          "sha256": "76a9fd9592ebcaf48da8cb6f76ec93871ebd4d839da7db64e8daf53f45e86c0d"
+        },
+        {
+          "file": "dispatch-first-calendar-RECEIPT-B-EXACT-A.json",
+          "sha256": "39ee95020cd58f7b9577f17f4e6e83133f6c27794e78853560e176a1372aedaf"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-B-EXACT-A-sent.json",
+          "sha256": "94384925e697f8dc8e918760eeaa05b67bca4abf0c0133b9983cc07df6ad2ded"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "674018bee02440c2d8dc474e96719299a010238c5bbdf1728a6bc990fdaecd35",
+        "stored": "674018bee02440c2d8dc474e96719299a010238c5bbdf1728a6bc990fdaecd35"
+      },
+      "pair": "EXACT",
+      "policy": "B",
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-A",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.963Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-calendar-RECEIPT-B-EXACT-A.json",
+              "sha256": "ef16ea106f313185dc3db09e51a4c9b6eb332bdc8d3add3ff54ed9b1e34f1cee"
+            },
+            {
+              "file": "receipt-after-calendar-RECEIPT-B-EXACT-A.json",
+              "sha256": "17ea4ac8d7be37528a2cb3c66484be94470cb9ef0b33098be738b57167dfd497"
+            }
+          ],
+          "final_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:39:23.341Z",
+          "first_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:39:21.999Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "attachments",
+            "attendees",
+            "color_id",
+            "display_title",
+            "display_url",
+            "end",
+            "event_label_id",
+            "event_type",
+            "guests_can_modify",
+            "hangout_link",
+            "id",
+            "location",
+            "locked",
+            "organizer",
+            "original_start_time",
+            "recurrence",
+            "recurring_event_id",
+            "reminders",
+            "start",
+            "status",
+            "summary",
+            "transparency",
+            "url",
+            "visibility"
+          ]
+        }
+      },
+      "second_saves": 0,
+      "service": "calendar",
+      "times": {
+        "after_read": "2026-10-22T16:39:23.341Z",
+        "baseline_to_before_UI_seconds": 1989.707,
+        "before_UI": "2026-10-22T16:38:55.670Z",
+        "case_end": "2026-10-22T16:39:23.341Z",
+        "case_seconds": 27.671,
+        "dispatch": "2026-10-22T16:38:55.670Z",
+        "first_read": "2026-10-22T16:39:21.999Z",
+        "postclick_UI": "2026-10-22T16:38:56.498Z",
+        "postclick_to_first_read_seconds": 25.501,
+        "prepared": "2026-10-22T16:39:22.176488+00:00",
+        "response": "2026-10-22T16:39:22.177526+00:00"
+      },
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-B-PAYLOAD",
+      "checks": {
+        "UI_description_and_flags": true,
+        "action_evidence_times_match": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "before_flags": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "observed_URL_native_identity": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_before_UI": true,
+        "source_flags": true,
+        "source_title": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [
+          "payload"
+        ],
+        "reason": "immutable_fields_changed",
+        "replay": false,
+        "status": "conflict"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-calendar-B-PAYLOAD.json",
+          "sha256": "1b242b615caaebce459225a8fab479c6805b57309d2efd58c0b4099c52b93ed9"
+        },
+        {
+          "file": "intent-ui-calendar-RECEIPT-B-PAYLOAD-A.json",
+          "sha256": "3edb106e7033669c660c991a453571d056c8c968e80d4e3b073610c15a18a197"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-B-PAYLOAD-A-filled.json",
+          "sha256": "c39f7e85c4c0f3edae73637dfbe28819650655b2d3de40a78ed6fc4ce4c206c6"
+        },
+        {
+          "file": "dispatch-first-calendar-RECEIPT-B-PAYLOAD-A.json",
+          "sha256": "7a089a54090b8e65b51d4f8918461f523edeb911c00c850672061cf94bdd6c42"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-B-PAYLOAD-A-sent.json",
+          "sha256": "920da22f304c261dbb8762b1b2e170344a57e81695c9e5758c218afce47b5681"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "25186d1d531c8210e1a7a847cf220600ebd1c7321f01985d5481d1c62eccbe0e",
+        "stored": "6174d7876fda58c75fb66e2cf977f6f91fd27e93322d34b9154e8eb0b0c50ef9"
+      },
+      "pair": "PAYLOAD",
+      "policy": "B",
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-B",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.926Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-calendar-RECEIPT-B-PAYLOAD-A.json",
+              "sha256": "385e8a799c823937b53018f2227a6eb01f0d32cef59aa892bad9ae4ad3bb50db"
+            },
+            {
+              "file": "receipt-after-calendar-RECEIPT-B-PAYLOAD-A.json",
+              "sha256": "f4d4c4573d64f5ea3536663d2f2f24e033cf14a6b35cf2d58392d30bc9eb61a1"
+            }
+          ],
+          "final_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:39:22.907Z",
+          "first_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:39:21.866Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "attachments",
+            "attendees",
+            "color_id",
+            "display_title",
+            "display_url",
+            "end",
+            "event_label_id",
+            "event_type",
+            "guests_can_modify",
+            "hangout_link",
+            "id",
+            "location",
+            "locked",
+            "organizer",
+            "original_start_time",
+            "recurrence",
+            "recurring_event_id",
+            "reminders",
+            "start",
+            "status",
+            "summary",
+            "transparency",
+            "url",
+            "visibility"
+          ]
+        }
+      },
+      "second_saves": 0,
+      "service": "calendar",
+      "times": {
+        "after_read": "2026-10-22T16:39:22.907Z",
+        "baseline_to_before_UI_seconds": 1992.857,
+        "before_UI": "2026-10-22T16:38:58.783Z",
+        "case_end": "2026-10-22T16:39:22.907Z",
+        "case_seconds": 24.124,
+        "dispatch": "2026-10-22T16:38:58.784Z",
+        "first_read": "2026-10-22T16:39:21.866Z",
+        "postclick_UI": "2026-10-22T16:38:59.546Z",
+        "postclick_to_first_read_seconds": 22.32,
+        "prepared": "2026-10-22T16:39:22.285438+00:00",
+        "response": "2026-10-22T16:39:22.286351+00:00"
+      },
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-B-TARGET",
+      "checks": {
+        "B_chronology": true,
+        "B_fields_and_unchanged": true,
+        "UI_description_and_flags": true,
+        "action_evidence_times_match": true,
+        "baseline_fields": true,
+        "before_UI_native_identity": true,
+        "before_flags": true,
+        "case_labels": true,
+        "case_within_eight_minutes": true,
+        "changed_request_fields": true,
+        "chronology": true,
+        "collateral_fields_unchanged": true,
+        "dispatch_fields": true,
+        "dispatch_label": true,
+        "envelope_hashes": true,
+        "evidence_reference_hashes": true,
+        "evidence_reference_mapping": true,
+        "expected_second_fields": true,
+        "final_fields": true,
+        "first_fields": true,
+        "first_read_reference": true,
+        "first_target_native_id": true,
+        "first_to_after_all_exposed_fields_equal": true,
+        "freeze_before_action": true,
+        "no_second_dispatch": true,
+        "observed_URL_native_identity": true,
+        "one_dispatch_record": true,
+        "postclick_UI_has_state": true,
+        "recorded_evidence_complete": true,
+        "request_fields": true,
+        "response_matches_record": true,
+        "rule_hash": true,
+        "runtime_hash": true,
+        "second_target_native_id": true,
+        "source_before_UI": true,
+        "source_flags": true,
+        "source_title": true,
+        "stored_evidence_preserved_in_second": true
+      },
+      "decision": {
+        "dispatch": false,
+        "mismatched_fields": [
+          "target"
+        ],
+        "reason": "immutable_fields_changed",
+        "replay": false,
+        "status": "conflict"
+      },
+      "evidence": [
+        {
+          "file": "intent-receipt-calendar-B-TARGET.json",
+          "sha256": "3e792e73b7d2dea4de6027585dae49304d014fc11c575438976babe2302528e9"
+        },
+        {
+          "file": "intent-ui-calendar-RECEIPT-B-TARGET-A.json",
+          "sha256": "a4a0aff1ea98becfc73797a67960c27e4cc5e0559d1f32e9853b78b15f8ca30a"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-B-TARGET-A-filled.json",
+          "sha256": "3f35925602298826172f1ec33089caa1b2efae479e28e1658a3570ddbf9449ea"
+        },
+        {
+          "file": "dispatch-first-calendar-RECEIPT-B-TARGET-A.json",
+          "sha256": "abb39ddfd9c6ed2f59b56d9d6e3f34b49f80153d694d870fd1cbbded1ecb22a2"
+        },
+        {
+          "file": "ui-first-calendar-RECEIPT-B-TARGET-A-sent.json",
+          "sha256": "ff056b0103380a533a9d51e80a733238579487f842e138373373f8acebb2de47"
+        }
+      ],
+      "final_values": {
+        "A": "PAYLOAD-A",
+        "B": "BASE"
+      },
+      "first_saves": 1,
+      "initial_target": "A",
+      "initial_value": "PAYLOAD-A",
+      "interrupted_reload": false,
+      "original_envelope_hashes": {
+        "second": "dba8e73e1bc6252bf495136ec6bea4fc68190728a1899f3b68cf3bdd81b39503",
+        "stored": "a4b50b4298811e6fac9ad3d623e4a220b29bee95877b534be6544ce78f778bc9"
+      },
+      "pair": "TARGET",
+      "policy": "B",
+      "requested_target": "B",
+      "requested_value": "PAYLOAD-A",
+      "resource_checks": {
+        "A": {
+          "baseline_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.945Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-calendar-RECEIPT-B-TARGET-A.json",
+              "sha256": "33075d5856e23206d35cf95de0b1bf27b677f3520b5d9cb333b6149db188f79c"
+            },
+            {
+              "file": "receipt-after-calendar-RECEIPT-B-TARGET-A.json",
+              "sha256": "7246fbd63e9da790733d047924fec8b772f1eb20c9f57d455337bfef685f6f32"
+            }
+          ],
+          "final_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:39:22.935Z",
+          "first_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:39:21.915Z",
+          "first_to_after_equal": true,
+          "unchanged_collateral_fields": [
+            "attachments",
+            "attendees",
+            "color_id",
+            "display_title",
+            "display_url",
+            "end",
+            "event_label_id",
+            "event_type",
+            "guests_can_modify",
+            "hangout_link",
+            "id",
+            "location",
+            "locked",
+            "organizer",
+            "original_start_time",
+            "recurrence",
+            "recurring_event_id",
+            "reminders",
+            "start",
+            "status",
+            "summary",
+            "transparency",
+            "url",
+            "visibility"
+          ]
+        },
+        "B": {
+          "all_exposed_fields_unchanged": true,
+          "baseline_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "baseline_time": "2026-10-22T16:05:45.997Z",
+          "evidence": [
+            {
+              "file": "baselines.json",
+              "sha256": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf"
+            },
+            {
+              "file": "intent-first-calendar-RECEIPT-B-TARGET-B.json",
+              "sha256": "a7d1aaf451f72d426185908e65cb024ef2e39d2911db203ea6297c4f6f2cbc3e"
+            },
+            {
+              "file": "receipt-after-calendar-RECEIPT-B-TARGET-B.json",
+              "sha256": "91024ffa996a148f392c4c1cf71ca8c48e0bc10deda379f584101e86f05a1f4e"
+            }
+          ],
+          "final_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "final_time": "2026-10-22T16:39:22.801Z",
+          "first_checks": {
+            "default_event_type": true,
+            "description_matches_after_CRLF_trim": true,
+            "empty_location": true,
+            "exclusive_end_date": true,
+            "free": true,
+            "native_id_matches": true,
+            "no_attachments": true,
+            "no_hangout_link": true,
+            "no_reminders": true,
+            "nonrecurring": true,
+            "organizer_self": true,
+            "private": true,
+            "self_attendee_only": true,
+            "start_date": true,
+            "status_confirmed": true,
+            "title_matches": true,
+            "url_id_matches": true
+          },
+          "first_time": "2026-10-22T16:39:22.049Z"
+        }
+      },
+      "second_saves": 0,
+      "service": "calendar",
+      "times": {
+        "after_read": "2026-10-22T16:39:22.935Z",
+        "baseline_to_before_UI_seconds": 1995.777,
+        "before_UI": "2026-10-22T16:39:01.722Z",
+        "case_end": "2026-10-22T16:39:22.935Z",
+        "case_seconds": 21.213,
+        "dispatch": "2026-10-22T16:39:01.723Z",
+        "first_read": "2026-10-22T16:39:21.915Z",
+        "postclick_UI": "2026-10-22T16:39:02.473Z",
+        "postclick_to_first_read_seconds": 19.442,
+        "prepared": "2026-10-22T16:39:22.437463+00:00",
+        "response": "2026-10-22T16:39:22.438393+00:00"
+      },
+      "timing_check_known": true
+    }
+  ],
+  "hash_scope": "Original envelopes and raw files were hashed privately before alias extraction. Public envelope hashes do not hash a public alias-substituted envelope.",
+  "interruption": "drive-K-EXACT timed out on reload after dispatch and postclick evidence. The retained first-read file is a byte copy of receipt-interruption-read.json, not another observation. No first Save was repeated. The failed observation start time is not known; 30-second compliance is unknown.",
+  "not_exposed": {
+    "calendar": [
+      "full conferenceData",
+      "provider etag/version",
+      "calendar container ID attestation in read_event output"
+    ],
+    "drive": [
+      "trashed",
+      "version"
+    ]
+  },
+  "schema": "live-receipt-public-v1",
+  "scope": "Real first browser saves; online local second-request decisions; independent connector saved-field audits.",
+  "source_hashes": [
+    {
+      "file": "plan.md",
+      "sha256": "6d95b4af3d7aa112a31fa019795fbb05d9e46c6b74f1f3af2ef3531af5ff8273"
+    },
+    {
+      "file": "amendment-01.md",
+      "sha256": "baccd4d14242184b85b58bc4fe10d643593d3b86df67a6664946c29316e27755"
+    },
+    {
+      "file": "amendment-02.md",
+      "sha256": "f670ca1fff998867385fe8d8369f64cd2aa710278d2417596c9e3d02f7493fcb"
+    },
+    {
+      "file": "design-cancel-receipt.md",
+      "sha256": "a83490e9d29482706efb0ed9ce279b3b936b68fe5be6e3d05d5f09fe7d4d2b54"
+    },
+    {
+      "file": "execution_freeze.json",
+      "sha256": "ea1ef62c0deab0b78a8f2fd4853e7dd58fc064d4474f1c0dd7dd1a6f5bb1dfd3"
+    },
+    {
+      "file": "live_intent.py",
+      "sha256": "73d77e773d799bc454b5154ff920cd62c8333cc052523a83402c22d14121738f"
+    },
+    {
+      "file": "runtime_intent.py",
+      "sha256": "4019197c40a9fa6117a835c88960bf058a9ea78bc84a8e3e3306d721ad25df66"
+    },
+    {
+      "file": "runtime_intent_freeze.json",
+      "sha256": "c23cfb368eef674299826cddbc582524e49932ea2b2ae83112f1706de5d60ecd"
+    },
+    {
+      "file": "runtime_intent_review.md",
+      "sha256": "1b2e55c7145f491b3bf7afc3fee46d41d29ea4a2a235d415333461c703dea179"
+    },
+    {
+      "file": "browser_receipt_helpers.txt",
+      "sha256": "1f45968e4ac783ed4b43341312caec09d36108025c1e2aebf9217701dc4cdf07"
+    },
+    {
+      "file": "receipt_browser_module.mjs",
+      "sha256": "0ac4f08f875430aed3b03373ccd91afc60c93c354867235586226cc980721bff"
+    }
+  ]
+}

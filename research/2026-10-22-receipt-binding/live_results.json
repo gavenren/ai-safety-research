@@ -1,0 +1,217 @@
+{
+  "baseline_age_seconds": {
+    "max": 1995.777,
+    "min": 1636.952
+  },
+  "by_policy": {
+    "B": {
+      "cases": 6,
+      "conflict": 4,
+      "contract_matches": 6,
+      "false_success": 0,
+      "first_saves": 6,
+      "second_saves": 0,
+      "success": 2
+    },
+    "K": {
+      "cases": 6,
+      "conflict": 0,
+      "contract_matches": 2,
+      "false_success": 4,
+      "first_saves": 6,
+      "second_saves": 0,
+      "success": 6
+    }
+  },
+  "cases": 12,
+  "distinct_fixture_records": 16,
+  "duration_seconds": {
+    "max": 252.474,
+    "min": 13.754
+  },
+  "first_browser_saves": 12,
+  "outcomes": [
+    {
+      "case_id": "drive-K-EXACT",
+      "contract_matches": true,
+      "decision": "success",
+      "false_success": false,
+      "observed_value": "PAYLOAD-A",
+      "pair": "EXACT",
+      "policy": "K",
+      "requested_state_matches": true,
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-A",
+      "service": "drive",
+      "timing_check_known": false
+    },
+    {
+      "case_id": "drive-K-PAYLOAD",
+      "contract_matches": false,
+      "decision": "success",
+      "false_success": true,
+      "observed_value": "PAYLOAD-A",
+      "pair": "PAYLOAD",
+      "policy": "K",
+      "requested_state_matches": false,
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-B",
+      "service": "drive",
+      "timing_check_known": true
+    },
+    {
+      "case_id": "drive-K-TARGET",
+      "contract_matches": false,
+      "decision": "success",
+      "false_success": true,
+      "observed_value": "BASE",
+      "pair": "TARGET",
+      "policy": "K",
+      "requested_state_matches": false,
+      "requested_target": "B",
+      "requested_value": "PAYLOAD-A",
+      "service": "drive",
+      "timing_check_known": true
+    },
+    {
+      "case_id": "drive-B-EXACT",
+      "contract_matches": true,
+      "decision": "success",
+      "false_success": false,
+      "observed_value": "PAYLOAD-A",
+      "pair": "EXACT",
+      "policy": "B",
+      "requested_state_matches": true,
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-A",
+      "service": "drive",
+      "timing_check_known": true
+    },
+    {
+      "case_id": "drive-B-PAYLOAD",
+      "contract_matches": true,
+      "decision": "conflict",
+      "false_success": false,
+      "observed_value": "PAYLOAD-A",
+      "pair": "PAYLOAD",
+      "policy": "B",
+      "requested_state_matches": false,
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-B",
+      "service": "drive",
+      "timing_check_known": true
+    },
+    {
+      "case_id": "drive-B-TARGET",
+      "contract_matches": true,
+      "decision": "conflict",
+      "false_success": false,
+      "observed_value": "BASE",
+      "pair": "TARGET",
+      "policy": "B",
+      "requested_state_matches": false,
+      "requested_target": "B",
+      "requested_value": "PAYLOAD-A",
+      "service": "drive",
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-K-EXACT",
+      "contract_matches": true,
+      "decision": "success",
+      "false_success": false,
+      "observed_value": "PAYLOAD-A",
+      "pair": "EXACT",
+      "policy": "K",
+      "requested_state_matches": true,
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-A",
+      "service": "calendar",
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-K-PAYLOAD",
+      "contract_matches": false,
+      "decision": "success",
+      "false_success": true,
+      "observed_value": "PAYLOAD-A",
+      "pair": "PAYLOAD",
+      "policy": "K",
+      "requested_state_matches": false,
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-B",
+      "service": "calendar",
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-K-TARGET",
+      "contract_matches": false,
+      "decision": "success",
+      "false_success": true,
+      "observed_value": "BASE",
+      "pair": "TARGET",
+      "policy": "K",
+      "requested_state_matches": false,
+      "requested_target": "B",
+      "requested_value": "PAYLOAD-A",
+      "service": "calendar",
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-B-EXACT",
+      "contract_matches": true,
+      "decision": "success",
+      "false_success": false,
+      "observed_value": "PAYLOAD-A",
+      "pair": "EXACT",
+      "policy": "B",
+      "requested_state_matches": true,
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-A",
+      "service": "calendar",
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-B-PAYLOAD",
+      "contract_matches": true,
+      "decision": "conflict",
+      "false_success": false,
+      "observed_value": "PAYLOAD-A",
+      "pair": "PAYLOAD",
+      "policy": "B",
+      "requested_state_matches": false,
+      "requested_target": "A",
+      "requested_value": "PAYLOAD-B",
+      "service": "calendar",
+      "timing_check_known": true
+    },
+    {
+      "case_id": "calendar-B-TARGET",
+      "contract_matches": true,
+      "decision": "conflict",
+      "false_success": false,
+      "observed_value": "BASE",
+      "pair": "TARGET",
+      "policy": "B",
+      "requested_state_matches": false,
+      "requested_target": "B",
+      "requested_value": "PAYLOAD-A",
+      "service": "calendar",
+      "timing_check_known": true
+    }
+  ],
+  "postclick_to_first_read_seconds": {
+    "max": 38.578,
+    "min": 9.725
+  },
+  "scope": "Selected local-controller cases with production saved records; not provider idempotency trials.",
+  "second_browser_saves": 0,
+  "timing_known_subset": {
+    "cases": 11,
+    "excluded": [
+      "drive-K-EXACT"
+    ],
+    "false_success": 4
+  },
+  "total_false_success": 4
+}

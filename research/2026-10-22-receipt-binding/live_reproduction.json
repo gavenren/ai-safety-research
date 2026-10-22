@@ -1,0 +1,32 @@
+{
+  "code_sha256": "76f6abef638cab52866aa2f866b498ea7947cdfb9d12e10f33b6dbdeaf073bb9",
+  "evidence_sha256": "0a9f97f6d2d15c4a9d3a25dae91cc3f1aebbad79fc3177d71b276bbc0c42037f",
+  "kind": "local scoring replay; no account calls or mutations",
+  "platform": "darwin",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "result_sha256": "d92255bee0768bb5245be1defe422ce61faff4c3f60fc58c947b9cbd005099aa",
+  "runs": [
+    {
+      "byte_equal_to_saved_results": true,
+      "command": "python3 live_receipt_analyze.py --evidence live_evidence.json --output replay_1.json",
+      "cpu_seconds": 0.045803,
+      "exit_code": 0,
+      "result_sha256": "d92255bee0768bb5245be1defe422ce61faff4c3f60fc58c947b9cbd005099aa",
+      "run": 1,
+      "stderr": "",
+      "stdout": "{\"cases\": 12, \"false_success\": 4, \"second_saves\": 0}\n",
+      "wall_seconds": 0.04952541700185975
+    },
+    {
+      "byte_equal_to_saved_results": true,
+      "command": "python3 live_receipt_analyze.py --evidence live_evidence.json --output replay_2.json",
+      "cpu_seconds": 0.044295999999999995,
+      "exit_code": 0,
+      "result_sha256": "d92255bee0768bb5245be1defe422ce61faff4c3f60fc58c947b9cbd005099aa",
+      "run": 2,
+      "stderr": "",
+      "stdout": "{\"cases\": 12, \"false_success\": 4, \"second_saves\": 0}\n",
+      "wall_seconds": 0.04822670900466619
+    }
+  ]
+}

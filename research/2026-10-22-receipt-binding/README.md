@@ -25,3 +25,9 @@ The original commands and repeat commands are in [execution.json](execution.json
 - Separate agent review and audit files are included before publication.
 
 There is no random seed because enumeration is complete. CPU time was below one second in each observed run. The script checks the 60 CPU-second threshold after computation; it does not interrupt a long computation at that time. See deviations.md. No additional model API charge or paid compute occurred. No new license is assigned to the owner's work. Codex generated the study and report. No human or external peer review occurred.
+
+## Production extension, 2026-10-22
+
+Twelve selected cases on Google Drive and Calendar added 12 first browser saves and no second saves. Key-only receipts made four false completion claims in six cases. Target-and-payload checks made none in six cases. One interrupted reload has uncertain timing compliance; the second requests used a local policy.
+
+See [live_README.md](live_README.md) for the separate evidence replay and its limits. See [live_cleanup.md](live_cleanup.md) for cleanup. The original synthetic procedure and data above are retained.

@@ -1,0 +1,13 @@
+{
+  "phase": "before-scored-work",
+  "timestamp_utc": "2026-10-22T16:04:23.375520+00:00",
+  "sha256": {
+    "plan.md": "6d95b4af3d7aa112a31fa019795fbb05d9e46c6b74f1f3af2ef3531af5ff8273",
+    "amendment-01.md": "baccd4d14242184b85b58bc4fe10d643593d3b86df67a6664946c29316e27755",
+    "design-gates-order.md": "733d6ba3b5f7f0d091878ad41fa534e663d353507e7ed2093ac25618e6163484",
+    "design-cancel-receipt.md": "a83490e9d29482706efb0ed9ce279b3b936b68fe5be6e3d05d5f09fe7d4d2b54",
+    "design-pagination.md": "3d5380f355476ca3af9ec299fe62819e9d5774045c4eec0eae2d989a83c64f02",
+    "live_rules.py": "7389d34fad62dac156f709032ba02b6722edb5ec1cd274d27fa515abff502d51",
+    "live_intent.py": "73d77e773d799bc454b5154ff920cd62c8333cc052523a83402c22d14121738f"
+  }
+}

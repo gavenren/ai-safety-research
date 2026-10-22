@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-10-22T16:29:21.322660+00:00",
+  "command": "python3 work/2026-10-22-five-live/check_runtime_intent.py",
+  "status": "pass",
+  "checks": 192,
+  "scope": "synthetic local helper checks only; no account calls or live trials",
+  "observed_exit_code": 0,
+  "runtime_sha256": "4019197c40a9fa6117a835c88960bf058a9ea78bc84a8e3e3306d721ad25df66",
+  "human_review": "none",
+  "initial_review_finding": "Missing action/read and required UI evidence gate; corrected before any production prepare command",
+  "separate_review_of_correction": "pending"
+}
