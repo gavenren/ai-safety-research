@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-10-22T15:27:51.281432+00:00",
+  "runs": 2,
+  "all_deterministic_files_match": true,
+  "files": {
+    "checks.json": {
+      "equal": true,
+      "sha256": "263eb37c12eb731f650a5390780758aadf1eeccfc448d2b87d32f210b2939cba"
+    },
+    "hand_controls.json": {
+      "equal": true,
+      "sha256": "d8d68ae83aacd8d4d990e9c84baa629f51b25951977223efd5be2b45d84dde55"
+    },
+    "raw_results.jsonl": {
+      "equal": true,
+      "sha256": "a47f6856c94d839b62079b2fa6f2f381d93cd621022ceb32d1f73774e47384f4"
+    },
+    "summary.json": {
+      "equal": true,
+      "sha256": "da596c55343fcf0b6d049edd1d8559059dba1f06945df482fee49123fd6f479d"
+    },
+    "witnesses.json": {
+      "equal": true,
+      "sha256": "747b4d9453406e5ae074c2094c024b3a048764344be07d2116d53428a9c199bc"
+    },
+    "run.log": {
+      "equal": true,
+      "sha256": "d28d3dd3c70ff4c4883aa57714a0ab564a5fc7ab9aca57cc8d1578f13e6c1914"
+    }
+  },
+  "note": "The repeated corpus is not a new set of cases. Variable clock and command records are retained separately."
+}

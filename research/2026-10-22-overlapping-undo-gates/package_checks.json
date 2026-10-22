@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-22T15:37:07.764806+00:00",
+  "all_passed": true,
+  "checks": [
+    "Frozen input: plan.md",
+    "Frozen input: config.json",
+    "Frozen input: source_search.md",
+    "Initial plan and implementation hash",
+    "Execution and output hashes: execution.json",
+    "Execution and output hashes: reproduction_execution.json",
+    "All six deterministic files match both execution records",
+    "Saved rows, unique IDs, group scores, and point totals",
+    "Every primary report table row matches measured summary",
+    "All local Markdown links resolve",
+    "Hypothesis and unknown-result claims"
+  ],
+  "scope": "Saved data and report audit; no new experimental run"
+}

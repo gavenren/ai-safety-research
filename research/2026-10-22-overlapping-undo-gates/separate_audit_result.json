@@ -1,0 +1,82 @@
+{
+  "audit_sha256": "93f68865929118e14e336791b89abbc9b22bbd69c82500b87fcc51cc3c557b5e",
+  "event_points": 11417,
+  "expected_history_keys": 1603,
+  "extra": 0,
+  "histories": 1603,
+  "issues": [],
+  "kind": "independent audit of saved traces; not a new experiment run",
+  "missing": 0,
+  "raw_sha256": "a47f6856c94d839b62079b2fa6f2f381d93cd621022ceb32d1f73774e47384f4",
+  "rule_event_points": 45668,
+  "totals": {
+    "single_operation": {
+      "active_ids": {
+        "final_closed": 2,
+        "histories": 7,
+        "overblocked_history": 3,
+        "unnecessary_closed_points": 3,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      },
+      "boolean": {
+        "final_closed": 2,
+        "histories": 7,
+        "overblocked_history": 3,
+        "unnecessary_closed_points": 3,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      },
+      "lifecycle_registry": {
+        "final_closed": 0,
+        "histories": 7,
+        "overblocked_history": 0,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      },
+      "nonnegative_count": {
+        "final_closed": 3,
+        "histories": 7,
+        "overblocked_history": 5,
+        "unnecessary_closed_points": 5,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      }
+    },
+    "two_operations": {
+      "active_ids": {
+        "final_closed": 850,
+        "histories": 1596,
+        "overblocked_history": 1170,
+        "unnecessary_closed_points": 2108,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      },
+      "boolean": {
+        "final_closed": 512,
+        "histories": 1596,
+        "overblocked_history": 978,
+        "unnecessary_closed_points": 1310,
+        "unsafe_history": 1196,
+        "unsafe_points": 1520
+      },
+      "lifecycle_registry": {
+        "final_closed": 0,
+        "histories": 1596,
+        "overblocked_history": 0,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      },
+      "nonnegative_count": {
+        "final_closed": 888,
+        "histories": 1596,
+        "overblocked_history": 1478,
+        "unnecessary_closed_points": 2614,
+        "unsafe_history": 180,
+        "unsafe_points": 180
+      }
+    }
+  }
+}

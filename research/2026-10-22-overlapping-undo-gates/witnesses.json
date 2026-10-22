@@ -1,0 +1,1146 @@
+{
+  "active_ids_final_closed": {
+    "duplicate_count": 1,
+    "duplicate_flags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "events": [
+      "A_C0",
+      "A_R0",
+      "A_C1",
+      "B_C0",
+      "B_R0"
+    ],
+    "group": "two_operations",
+    "history_id": 267,
+    "overlap": false,
+    "score": {
+      "active_ids": {
+        "final_closed": true,
+        "overblocked_history": true,
+        "unnecessary_closed_points": 2,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "boolean": {
+        "final_closed": false,
+        "overblocked_history": true,
+        "unnecessary_closed_points": 1,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "lifecycle_registry": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "nonnegative_count": {
+        "final_closed": true,
+        "overblocked_history": true,
+        "unnecessary_closed_points": 2,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      }
+    },
+    "steps": [
+      {
+        "active_work": [
+          "A"
+        ],
+        "event": "A_C0",
+        "event_index": 0,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "A_R0",
+        "event_index": 1,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": false,
+            "state": [],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": false,
+            "state": 0,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "A_C1",
+        "event_index": 2,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A"
+            ],
+            "unnecessary_closed": true,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": true,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": true,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [
+          "B"
+        ],
+        "event": "B_C0",
+        "event_index": 3,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A",
+              "B"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "completed",
+              "B": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 2,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "B_R0",
+        "event_index": 4,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A"
+            ],
+            "unnecessary_closed": true,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed",
+              "B": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": true,
+            "unsafe_open": false
+          }
+        }
+      }
+    ]
+  },
+  "boolean_final_closed": {
+    "duplicate_count": 1,
+    "duplicate_flags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "events": [
+      "A_C0",
+      "A_R0",
+      "B_C0",
+      "B_R0",
+      "A_C1"
+    ],
+    "group": "two_operations",
+    "history_id": 269,
+    "overlap": false,
+    "score": {
+      "active_ids": {
+        "final_closed": true,
+        "overblocked_history": true,
+        "unnecessary_closed_points": 1,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "boolean": {
+        "final_closed": true,
+        "overblocked_history": true,
+        "unnecessary_closed_points": 1,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "lifecycle_registry": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "nonnegative_count": {
+        "final_closed": true,
+        "overblocked_history": true,
+        "unnecessary_closed_points": 1,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      }
+    },
+    "steps": [
+      {
+        "active_work": [
+          "A"
+        ],
+        "event": "A_C0",
+        "event_index": 0,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "A_R0",
+        "event_index": 1,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": false,
+            "state": [],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": false,
+            "state": 0,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [
+          "B"
+        ],
+        "event": "B_C0",
+        "event_index": 2,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "B"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "completed",
+              "B": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "B_R0",
+        "event_index": 3,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": false,
+            "state": [],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed",
+              "B": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": false,
+            "state": 0,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "A_C1",
+        "event_index": 4,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A"
+            ],
+            "unnecessary_closed": true,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": true,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed",
+              "B": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": true,
+            "unsafe_open": false
+          }
+        }
+      }
+    ]
+  },
+  "boolean_unsafe_history": {
+    "duplicate_count": 0,
+    "duplicate_flags": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "events": [
+      "A_C0",
+      "B_C0",
+      "A_R0",
+      "B_R0"
+    ],
+    "group": "two_operations",
+    "history_id": 9,
+    "overlap": true,
+    "score": {
+      "active_ids": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "boolean": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": true,
+        "unsafe_points": 1
+      },
+      "lifecycle_registry": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "nonnegative_count": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      }
+    },
+    "steps": [
+      {
+        "active_work": [
+          "A"
+        ],
+        "event": "A_C0",
+        "event_index": 0,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [
+          "A",
+          "B"
+        ],
+        "event": "B_C0",
+        "event_index": 1,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A",
+              "B"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "active",
+              "B": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 2,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [
+          "B"
+        ],
+        "event": "A_R0",
+        "event_index": 2,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "B"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": true
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "completed",
+              "B": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "B_R0",
+        "event_index": 3,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": false,
+            "state": [],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed",
+              "B": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": false,
+            "state": 0,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      }
+    ]
+  },
+  "nonnegative_count_final_closed": {
+    "duplicate_count": 1,
+    "duplicate_flags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "events": [
+      "A_C0",
+      "A_C1",
+      "A_R0",
+      "B_C0",
+      "B_R0"
+    ],
+    "group": "two_operations",
+    "history_id": 264,
+    "overlap": false,
+    "score": {
+      "active_ids": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "boolean": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "lifecycle_registry": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "nonnegative_count": {
+        "final_closed": true,
+        "overblocked_history": true,
+        "unnecessary_closed_points": 2,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      }
+    },
+    "steps": [
+      {
+        "active_work": [
+          "A"
+        ],
+        "event": "A_C0",
+        "event_index": 0,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [
+          "A"
+        ],
+        "event": "A_C1",
+        "event_index": 1,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 2,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "A_R0",
+        "event_index": 2,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": false,
+            "state": [],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": true,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [
+          "B"
+        ],
+        "event": "B_C0",
+        "event_index": 3,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "B"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "completed",
+              "B": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 2,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "B_R0",
+        "event_index": 4,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": false,
+            "state": [],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed",
+              "B": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": true,
+            "unsafe_open": false
+          }
+        }
+      }
+    ]
+  },
+  "nonnegative_count_unsafe_history": {
+    "duplicate_count": 1,
+    "duplicate_flags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "events": [
+      "A_C0",
+      "A_R0",
+      "B_C0",
+      "A_R1",
+      "B_R0"
+    ],
+    "group": "two_operations",
+    "history_id": 90,
+    "overlap": false,
+    "score": {
+      "active_ids": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "boolean": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": true,
+        "unsafe_points": 1
+      },
+      "lifecycle_registry": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": false,
+        "unsafe_points": 0
+      },
+      "nonnegative_count": {
+        "final_closed": false,
+        "overblocked_history": false,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": true,
+        "unsafe_points": 1
+      }
+    },
+    "steps": [
+      {
+        "active_work": [
+          "A"
+        ],
+        "event": "A_C0",
+        "event_index": 0,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "A"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "A_R0",
+        "event_index": 1,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": false,
+            "state": [],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": false,
+            "state": 0,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [
+          "B"
+        ],
+        "event": "B_C0",
+        "event_index": 2,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "B"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": true,
+            "state": true,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "completed",
+              "B": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": true,
+            "state": 1,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      },
+      {
+        "active_work": [
+          "B"
+        ],
+        "event": "A_R1",
+        "event_index": 3,
+        "oracle_closed": true,
+        "rules": {
+          "active_ids": {
+            "closed": true,
+            "state": [
+              "B"
+            ],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": true
+          },
+          "lifecycle_registry": {
+            "closed": true,
+            "state": {
+              "A": "completed",
+              "B": "active"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": false,
+            "state": 0,
+            "unnecessary_closed": false,
+            "unsafe_open": true
+          }
+        }
+      },
+      {
+        "active_work": [],
+        "event": "B_R0",
+        "event_index": 4,
+        "oracle_closed": false,
+        "rules": {
+          "active_ids": {
+            "closed": false,
+            "state": [],
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "boolean": {
+            "closed": false,
+            "state": false,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "lifecycle_registry": {
+            "closed": false,
+            "state": {
+              "A": "completed",
+              "B": "completed"
+            },
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          },
+          "nonnegative_count": {
+            "closed": false,
+            "state": 0,
+            "unnecessary_closed": false,
+            "unsafe_open": false
+          }
+        }
+      }
+    ]
+  }
+}

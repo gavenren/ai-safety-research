@@ -1,0 +1,244 @@
+{
+  "all_passed": true,
+  "declarative_comparisons": 226149,
+  "duplicate_metadata_not_given_to_rules": true,
+  "hand_expected_values": 40,
+  "hand_histories": 5,
+  "pattern_counts": [
+    {
+      "count": 1,
+      "flags": [
+        0,
+        0
+      ],
+      "formula_count": 1,
+      "group": "single_operation",
+      "permutation_count": 1
+    },
+    {
+      "count": 1,
+      "flags": [
+        0,
+        1
+      ],
+      "formula_count": 1,
+      "group": "single_operation",
+      "permutation_count": 1
+    },
+    {
+      "count": 2,
+      "flags": [
+        1,
+        0
+      ],
+      "formula_count": 2,
+      "group": "single_operation",
+      "permutation_count": 2
+    },
+    {
+      "count": 3,
+      "flags": [
+        1,
+        1
+      ],
+      "formula_count": 3,
+      "group": "single_operation",
+      "permutation_count": 3
+    },
+    {
+      "count": 6,
+      "flags": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "formula_count": 6,
+      "group": "two_operations",
+      "permutation_count": 6
+    },
+    {
+      "count": 10,
+      "flags": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "formula_count": 10,
+      "group": "two_operations",
+      "permutation_count": 10
+    },
+    {
+      "count": 20,
+      "flags": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "formula_count": 20,
+      "group": "two_operations",
+      "permutation_count": 20
+    },
+    {
+      "count": 45,
+      "flags": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "formula_count": 45,
+      "group": "two_operations",
+      "permutation_count": 45
+    },
+    {
+      "count": 10,
+      "flags": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "formula_count": 10,
+      "group": "two_operations",
+      "permutation_count": 10
+    },
+    {
+      "count": 20,
+      "flags": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "formula_count": 20,
+      "group": "two_operations",
+      "permutation_count": 20
+    },
+    {
+      "count": 40,
+      "flags": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "formula_count": 40,
+      "group": "two_operations",
+      "permutation_count": 40
+    },
+    {
+      "count": 105,
+      "flags": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "formula_count": 105,
+      "group": "two_operations",
+      "permutation_count": 105
+    },
+    {
+      "count": 20,
+      "flags": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "formula_count": 20,
+      "group": "two_operations",
+      "permutation_count": 20
+    },
+    {
+      "count": 40,
+      "flags": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "formula_count": 40,
+      "group": "two_operations",
+      "permutation_count": 40
+    },
+    {
+      "count": 80,
+      "flags": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "formula_count": 80,
+      "group": "two_operations",
+      "permutation_count": 80
+    },
+    {
+      "count": 210,
+      "flags": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "formula_count": 210,
+      "group": "two_operations",
+      "permutation_count": 210
+    },
+    {
+      "count": 45,
+      "flags": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "formula_count": 45,
+      "group": "two_operations",
+      "permutation_count": 45
+    },
+    {
+      "count": 105,
+      "flags": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "formula_count": 105,
+      "group": "two_operations",
+      "permutation_count": 105
+    },
+    {
+      "count": 210,
+      "flags": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "formula_count": 210,
+      "group": "two_operations",
+      "permutation_count": 210
+    },
+    {
+      "count": 630,
+      "flags": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "formula_count": 630,
+      "group": "two_operations",
+      "permutation_count": 630
+    }
+  ],
+  "saved_histories": 1603,
+  "symmetric_two_operation_histories": 1596,
+  "unique_histories": 1603
+}

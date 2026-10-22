@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "operations_control": ["A"],
+  "operations_primary": ["A", "B"],
+  "duplicate_choices": [0, 1],
+  "rules": ["boolean", "nonnegative_count", "active_ids", "lifecycle_registry"],
+  "max_cpu_seconds": 60,
+  "max_wall_seconds": 120,
+  "max_full_runs": 2,
+  "random_seed": null,
+  "data_kind": "complete synthetic finite state-machine corpus"
+}

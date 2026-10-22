@@ -1,0 +1,22 @@
+PASS five hand histories; 40 expected unsafe/final values
+PASS single_operation flags=00 histories=1
+PASS single_operation flags=01 histories=1
+PASS single_operation flags=10 histories=2
+PASS single_operation flags=11 histories=3
+PASS two_operations flags=0000 histories=6
+PASS two_operations flags=0001 histories=10
+PASS two_operations flags=0010 histories=20
+PASS two_operations flags=0011 histories=45
+PASS two_operations flags=0100 histories=10
+PASS two_operations flags=0101 histories=20
+PASS two_operations flags=0110 histories=40
+PASS two_operations flags=0111 histories=105
+PASS two_operations flags=1000 histories=20
+PASS two_operations flags=1001 histories=40
+PASS two_operations flags=1010 histories=80
+PASS two_operations flags=1011 histories=210
+PASS two_operations flags=1100 histories=45
+PASS two_operations flags=1101 histories=105
+PASS two_operations flags=1110 histories=210
+PASS two_operations flags=1111 histories=630
+PASS hypotheses H1-H4; no unknown or excluded histories

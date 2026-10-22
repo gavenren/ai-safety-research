@@ -1,0 +1,34 @@
+{
+  "command": [
+    "python3",
+    "study.py",
+    "--out",
+    "work/2026-10-22-overlapping-undo-gates/run-2"
+  ],
+  "cpu_seconds": 0.383866,
+  "finished_utc": "2026-10-22T15:27:07.646996+00:00",
+  "frozen_inputs": {
+    "config.json": "2dba92716f9b19f2eb5f8a73b4322c6491bcb637d2a6f3656e971261ccbf3249",
+    "plan.md": "a88af6d8bcef90e65fce07b7506e182084654672048815a27f56752d6f0c5e3d",
+    "source_search.md": "7ad05f39ed69b32a218478f92aa07cb930cd9970fc106f830656801aaaceb90b"
+  },
+  "machine": "arm64",
+  "model_calls_in_trials": 0,
+  "output_sha256": {
+    "checks.json": "263eb37c12eb731f650a5390780758aadf1eeccfc448d2b87d32f210b2939cba",
+    "hand_controls.json": "d8d68ae83aacd8d4d990e9c84baa629f51b25951977223efd5be2b45d84dde55",
+    "raw_results.jsonl": "a47f6856c94d839b62079b2fa6f2f381d93cd621022ceb32d1f73774e47384f4",
+    "summary.json": "da596c55343fcf0b6d049edd1d8559059dba1f06945df482fee49123fd6f479d",
+    "witnesses.json": "747b4d9453406e5ae074c2094c024b3a048764344be07d2116d53428a9c199bc"
+  },
+  "paid_compute": false,
+  "peak_rss_platform_units": 50642944,
+  "platform": "Darwin",
+  "python": "3.13.7",
+  "random_seed": null,
+  "release": "25.6.0",
+  "source_sha256": "9b24257c2abccd54f5ad0fb0284cbd1fe3d8cf472e835d65695a64a5eed7c705",
+  "started_utc": "2026-10-22T15:27:07.255724+00:00",
+  "status": "complete",
+  "wall_seconds": 0.39130275000206893
+}

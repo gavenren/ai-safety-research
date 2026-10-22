@@ -1,0 +1,321 @@
+{
+  "by_duplicate_count": {
+    "0": {
+      "histories": 6,
+      "points": 24,
+      "rules": {
+        "active_ids": {
+          "final_closed": 0,
+          "overblocked_history": 0,
+          "unnecessary_closed_points": 0,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "boolean": {
+          "final_closed": 0,
+          "overblocked_history": 0,
+          "unnecessary_closed_points": 0,
+          "unsafe_history": 4,
+          "unsafe_points": 4
+        },
+        "lifecycle_registry": {
+          "final_closed": 0,
+          "overblocked_history": 0,
+          "unnecessary_closed_points": 0,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "nonnegative_count": {
+          "final_closed": 0,
+          "overblocked_history": 0,
+          "unnecessary_closed_points": 0,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        }
+      }
+    },
+    "1": {
+      "histories": 60,
+      "points": 300,
+      "rules": {
+        "active_ids": {
+          "final_closed": 20,
+          "overblocked_history": 20,
+          "unnecessary_closed_points": 22,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "boolean": {
+          "final_closed": 12,
+          "overblocked_history": 14,
+          "unnecessary_closed_points": 14,
+          "unsafe_history": 42,
+          "unsafe_points": 46
+        },
+        "lifecycle_registry": {
+          "final_closed": 0,
+          "overblocked_history": 0,
+          "unnecessary_closed_points": 0,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "nonnegative_count": {
+          "final_closed": 40,
+          "overblocked_history": 40,
+          "unnecessary_closed_points": 44,
+          "unsafe_history": 6,
+          "unsafe_points": 6
+        }
+      }
+    },
+    "2": {
+      "histories": 270,
+      "points": 1620,
+      "rules": {
+        "active_ids": {
+          "final_closed": 130,
+          "overblocked_history": 154,
+          "unnecessary_closed_points": 204,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "boolean": {
+          "final_closed": 80,
+          "overblocked_history": 116,
+          "unnecessary_closed_points": 130,
+          "unsafe_history": 198,
+          "unsafe_points": 238
+        },
+        "lifecycle_registry": {
+          "final_closed": 0,
+          "overblocked_history": 0,
+          "unnecessary_closed_points": 0,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "nonnegative_count": {
+          "final_closed": 126,
+          "overblocked_history": 214,
+          "unnecessary_closed_points": 272,
+          "unsafe_history": 30,
+          "unsafe_points": 30
+        }
+      }
+    },
+    "3": {
+      "histories": 630,
+      "points": 4410,
+      "rules": {
+        "active_ids": {
+          "final_closed": 350,
+          "overblocked_history": 460,
+          "unnecessary_closed_points": 766,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "boolean": {
+          "final_closed": 210,
+          "overblocked_history": 376,
+          "unnecessary_closed_points": 478,
+          "unsafe_history": 476,
+          "unsafe_points": 616
+        },
+        "lifecycle_registry": {
+          "final_closed": 0,
+          "overblocked_history": 0,
+          "unnecessary_closed_points": 0,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "nonnegative_count": {
+          "final_closed": 460,
+          "overblocked_history": 594,
+          "unnecessary_closed_points": 1018,
+          "unsafe_history": 72,
+          "unsafe_points": 72
+        }
+      }
+    },
+    "4": {
+      "histories": 630,
+      "points": 5040,
+      "rules": {
+        "active_ids": {
+          "final_closed": 350,
+          "overblocked_history": 536,
+          "unnecessary_closed_points": 1116,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "boolean": {
+          "final_closed": 210,
+          "overblocked_history": 472,
+          "unnecessary_closed_points": 688,
+          "unsafe_history": 476,
+          "unsafe_points": 616
+        },
+        "lifecycle_registry": {
+          "final_closed": 0,
+          "overblocked_history": 0,
+          "unnecessary_closed_points": 0,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "nonnegative_count": {
+          "final_closed": 262,
+          "overblocked_history": 630,
+          "unnecessary_closed_points": 1280,
+          "unsafe_history": 72,
+          "unsafe_points": 72
+        }
+      }
+    }
+  },
+  "by_work_overlap": {
+    "false": {
+      "histories": 532,
+      "points": 3798,
+      "rules": {
+        "active_ids": {
+          "final_closed": 316,
+          "overblocked_history": 436,
+          "unnecessary_closed_points": 846,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "boolean": {
+          "final_closed": 188,
+          "overblocked_history": 378,
+          "unnecessary_closed_points": 526,
+          "unsafe_history": 132,
+          "unsafe_points": 132
+        },
+        "lifecycle_registry": {
+          "final_closed": 0,
+          "overblocked_history": 0,
+          "unnecessary_closed_points": 0,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "nonnegative_count": {
+          "final_closed": 308,
+          "overblocked_history": 498,
+          "unnecessary_closed_points": 966,
+          "unsafe_history": 60,
+          "unsafe_points": 60
+        }
+      }
+    },
+    "true": {
+      "histories": 1064,
+      "points": 7596,
+      "rules": {
+        "active_ids": {
+          "final_closed": 534,
+          "overblocked_history": 734,
+          "unnecessary_closed_points": 1262,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "boolean": {
+          "final_closed": 324,
+          "overblocked_history": 600,
+          "unnecessary_closed_points": 784,
+          "unsafe_history": 1064,
+          "unsafe_points": 1388
+        },
+        "lifecycle_registry": {
+          "final_closed": 0,
+          "overblocked_history": 0,
+          "unnecessary_closed_points": 0,
+          "unsafe_history": 0,
+          "unsafe_points": 0
+        },
+        "nonnegative_count": {
+          "final_closed": 580,
+          "overblocked_history": 980,
+          "unnecessary_closed_points": 1648,
+          "unsafe_history": 120,
+          "unsafe_points": 120
+        }
+      }
+    }
+  },
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true
+  },
+  "one_operation_controls": {
+    "histories": 7,
+    "points": 23,
+    "rules": {
+      "active_ids": {
+        "final_closed": 2,
+        "overblocked_history": 3,
+        "unnecessary_closed_points": 3,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      },
+      "boolean": {
+        "final_closed": 2,
+        "overblocked_history": 3,
+        "unnecessary_closed_points": 3,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      },
+      "lifecycle_registry": {
+        "final_closed": 0,
+        "overblocked_history": 0,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      },
+      "nonnegative_count": {
+        "final_closed": 3,
+        "overblocked_history": 5,
+        "unnecessary_closed_points": 5,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      }
+    }
+  },
+  "primary": {
+    "histories": 1596,
+    "points": 11394,
+    "rules": {
+      "active_ids": {
+        "final_closed": 850,
+        "overblocked_history": 1170,
+        "unnecessary_closed_points": 2108,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      },
+      "boolean": {
+        "final_closed": 512,
+        "overblocked_history": 978,
+        "unnecessary_closed_points": 1310,
+        "unsafe_history": 1196,
+        "unsafe_points": 1520
+      },
+      "lifecycle_registry": {
+        "final_closed": 0,
+        "overblocked_history": 0,
+        "unnecessary_closed_points": 0,
+        "unsafe_history": 0,
+        "unsafe_points": 0
+      },
+      "nonnegative_count": {
+        "final_closed": 888,
+        "overblocked_history": 1478,
+        "unnecessary_closed_points": 2614,
+        "unsafe_history": 180,
+        "unsafe_points": 180
+      }
+    }
+  },
+  "rule_history_outcomes": 6412,
+  "total_histories": 1603,
+  "unknown_histories": 0
+}
