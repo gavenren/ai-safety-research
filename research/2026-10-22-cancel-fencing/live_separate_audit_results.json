@@ -1,0 +1,80 @@
+{
+  "audit": "separate raw-evidence audit; no account calls or study scorer imported",
+  "audit_sha256": "f6a4027901e1360dc9c0e9760235f74a3220bd61e2c911ac7c0a877053f43392",
+  "baseline_preserved": 2,
+  "cases": [
+    {
+      "case_id": "drive-C1",
+      "field": "OLD",
+      "helper_freeze_precedes_preparation": false,
+      "logged_saves": 1,
+      "native_ID_and_collateral_checks": true,
+      "raw_and_public_agree": true
+    },
+    {
+      "case_id": "drive-C2",
+      "field": "BASE",
+      "helper_freeze_precedes_preparation": true,
+      "logged_saves": 0,
+      "native_ID_and_collateral_checks": true,
+      "raw_and_public_agree": true
+    },
+    {
+      "case_id": "drive-C3",
+      "field": "OLD",
+      "helper_freeze_precedes_preparation": true,
+      "logged_saves": 1,
+      "native_ID_and_collateral_checks": true,
+      "raw_and_public_agree": true
+    },
+    {
+      "case_id": "drive-C4",
+      "field": "NEW",
+      "helper_freeze_precedes_preparation": true,
+      "logged_saves": 1,
+      "native_ID_and_collateral_checks": true,
+      "raw_and_public_agree": true
+    },
+    {
+      "case_id": "calendar-C1",
+      "field": "OLD",
+      "helper_freeze_precedes_preparation": true,
+      "logged_saves": 1,
+      "native_ID_and_collateral_checks": true,
+      "raw_and_public_agree": true
+    },
+    {
+      "case_id": "calendar-C2",
+      "field": "BASE",
+      "helper_freeze_precedes_preparation": true,
+      "logged_saves": 0,
+      "native_ID_and_collateral_checks": true,
+      "raw_and_public_agree": true
+    },
+    {
+      "case_id": "calendar-C3",
+      "field": "OLD",
+      "helper_freeze_precedes_preparation": true,
+      "logged_saves": 1,
+      "native_ID_and_collateral_checks": true,
+      "raw_and_public_agree": true
+    },
+    {
+      "case_id": "calendar-C4",
+      "field": "NEW",
+      "helper_freeze_precedes_preparation": true,
+      "logged_saves": 1,
+      "native_ID_and_collateral_checks": true,
+      "raw_and_public_agree": true
+    }
+  ],
+  "logged_saves": 6,
+  "new_saved": 2,
+  "old_saved": 4,
+  "source_hashes": {
+    "build_live_trace.py": "926308bf198c7ebc1d7fba211d0e0fdd1f1c67efd98f3555d714d0729e9afeff",
+    "live_analysis.py": "8c7c8a94037598213a78bd8cc4024017b70d63a4a1af7e804f92db7e59717f19",
+    "live_trace.json": "03bff63b04b3e4c1c65e778d800ed347f896d32e78f2786db3368381d9524340",
+    "report_extension.md": "cfdae5035cadb0cb205429b04b44a47d87ccfbcf27c83c1d951efb1dd8641968"
+  }
+}

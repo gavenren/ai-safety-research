@@ -1,0 +1,26 @@
+{
+  "analysis_freeze_matches": true,
+  "assigned_cases": 8,
+  "author_checks": "pass_for_reported_observation_scope",
+  "checked_collateral_mismatches": 0,
+  "cleanup": "parent owned; not checked here",
+  "exact_private_values_checked": 79,
+  "explicit_procedure_deviations": [
+    "late runtime-helper freeze for Drive C1",
+    "no reopened post-save Calendar editor in C1/C3/C4"
+  ],
+  "human_review": false,
+  "local_results_repeat_identical": true,
+  "logged_saves": 6,
+  "neurips_review_aid": {
+    "certification": "not claimed",
+    "claims": "bounded by observed local order and saved-field evidence",
+    "ethics": "temporary fixtures and private raw evidence",
+    "limitations": "readback deviations and untested native fencing stated",
+    "reproducibility": "public replay; raw provider reproduction requires private evidence"
+  },
+  "private_matches": 0,
+  "public_files_scanned": 38,
+  "publication": "not attempted",
+  "separate_extension_review": "pass within stated scope; see separate_review.md"
+}

@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-10-22T16:42:12.107175+00:00",
+  "note": "Analysis and sanitizer were written after production collection. The declared case rules were frozen before collection. This file freezes the public analysis before its first scoring run.",
+  "sha256": {
+    "build_live_trace.py": "926308bf198c7ebc1d7fba211d0e0fdd1f1c67efd98f3555d714d0729e9afeff",
+    "live_analysis.py": "8c7c8a94037598213a78bd8cc4024017b70d63a4a1af7e804f92db7e59717f19",
+    "live_browser_helpers.txt": "cf4d3fa368d49bd43f7bb73d37629f2d7975013ccae1699a2dfaf5690b4c0dfa",
+    "live_intent.py": "73d77e773d799bc454b5154ff920cd62c8333cc052523a83402c22d14121738f",
+    "live_trace.json": "03bff63b04b3e4c1c65e778d800ed347f896d32e78f2786db3368381d9524340",
+    "runtime_intent.py": "4019197c40a9fa6117a835c88960bf058a9ea78bc84a8e3e3306d721ad25df66"
+  }
+}

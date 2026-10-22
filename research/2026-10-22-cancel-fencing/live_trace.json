@@ -1,0 +1,985 @@
+{
+  "cases": [
+    {
+      "before_ui_at_utc": "2026-10-22T16:29:29.591Z",
+      "case": "C1",
+      "collateral_fields_checked": [
+        "id",
+        "mime_type",
+        "size",
+        "url",
+        "display_url",
+        "file_or_folder",
+        "created_time",
+        "parent_ids",
+        "drive_id",
+        "current_user_can_share",
+        "has_augmented_permissions",
+        "shared",
+        "permissions",
+        "source_visibility_status"
+      ],
+      "collateral_fields_equal": true,
+      "command_generation": 0,
+      "connector_read_recorded_at_utc": "2026-10-22T16:29:46.449Z",
+      "decision": {
+        "allow": true,
+        "basis": "cached_check_before_cancellation",
+        "dispatch_payload": "OLD"
+      },
+      "different_connector_fields": [
+        "modified_time",
+        "title"
+      ],
+      "dispatch_at_utc": "2026-10-22T16:29:29.593Z",
+      "events": [
+        {
+          "active": true,
+          "event": "initial_state",
+          "generation": 0,
+          "sequence": 1,
+          "time_utc": "2026-10-22T16:28:58.249112+00:00"
+        },
+        {
+          "allow": true,
+          "command_generation": 0,
+          "event": "initial_check",
+          "observed_state": {
+            "active": true,
+            "generation": 0
+          },
+          "sequence": 2,
+          "time_utc": "2026-10-22T16:28:58.250257+00:00"
+        },
+        {
+          "event": "cancel_acknowledged_locally",
+          "retired_generation": 0,
+          "sequence": 3,
+          "state": {
+            "active": false,
+            "generation": 0
+          },
+          "time_utc": "2026-10-22T16:28:58.251112+00:00"
+        },
+        {
+          "event": "restart",
+          "sequence": 4,
+          "state": {
+            "active": true,
+            "generation": 1
+          },
+          "time_utc": "2026-10-22T16:28:58.251945+00:00"
+        },
+        {
+          "allow": true,
+          "basis": "cached_check_before_cancellation",
+          "browser_action_performed": false,
+          "dispatch_payload": "OLD",
+          "event": "dispatch_decision",
+          "sequence": 5,
+          "time_utc": "2026-10-22T16:28:58.252675+00:00"
+        }
+      ],
+      "evidence_status": "complete_for_declared_scope",
+      "expected_final_field": "OLD",
+      "helper_freeze_precedes_preparation": false,
+      "initial_field": "BASE",
+      "logged_browser_mutations": 1,
+      "native_target_matches": true,
+      "observed_final_field": "OLD",
+      "prepare_to_last_observation_seconds": 48.200726,
+      "prepared_at_utc": "2026-10-22T16:28:58.248274+00:00",
+      "raw_evidence_sha256": {
+        "cancel-after-drive-C1.json": "5fa0cfa481c4ccbf8d0289b2d3a87e14feeb943077b412d11b5094c8fdde60f5",
+        "dispatch-cancel-drive-C1.json": "eed853007fc7263ac27fbdb86806f1783fdeb556e00bf5cba409703b25723ef4",
+        "intent-cancel-drive-C1.json": "0a9dcda87a2d362a579b7fd7c0a9b39e9bc57ab720e138975afad448c09d170e",
+        "ui-cancel-drive-C1-before.json": "777bd2e477a798795418a174828038e154ed92f29d422c550293c7c63a566b4a",
+        "ui-cancel-drive-C1-edit.json": "103c89d6a687ce0a0bf33a57aea4b821076ca31d4f18774a2c2df72bf99eca60",
+        "ui-cancel-drive-C1-menu.json": "fd5f0f492bb86113f01771f4950504f0d5229ed92a7d3255b9b7bc5f29db117b",
+        "ui-cancel-drive-C1-reload-initial.json": "35b715ce7458552c4e9014114e1da966009044c5f01d6db51112c87b7ebe067a",
+        "ui-cancel-drive-C1-sent.json": "c74b1a0e8cc7272d66b171902210227ff47d403f325a37e5f899eaf6a6abcacb"
+      },
+      "rule_freeze_precedes_preparation": true,
+      "scored_ui_at_utc": "2026-10-22T16:29:32.019Z",
+      "service": "drive",
+      "target_alias": "CANCEL-C1",
+      "ui_gates": {
+        "active_parent_and_named_row": true,
+        "native_identity_confirmed_by_connector": true
+      }
+    },
+    {
+      "before_ui_at_utc": null,
+      "case": "C2",
+      "collateral_fields_checked": [
+        "id",
+        "mime_type",
+        "size",
+        "url",
+        "display_url",
+        "file_or_folder",
+        "created_time",
+        "parent_ids",
+        "drive_id",
+        "current_user_can_share",
+        "has_augmented_permissions",
+        "shared",
+        "permissions",
+        "source_visibility_status"
+      ],
+      "collateral_fields_equal": true,
+      "command_generation": 0,
+      "connector_read_recorded_at_utc": "2026-10-22T16:29:59.578Z",
+      "decision": {
+        "allow": false,
+        "basis": "fresh_generation_check",
+        "dispatch_payload": null
+      },
+      "different_connector_fields": [],
+      "dispatch_at_utc": null,
+      "events": [
+        {
+          "active": true,
+          "event": "initial_state",
+          "generation": 0,
+          "sequence": 1,
+          "time_utc": "2026-10-22T16:29:46.549002+00:00"
+        },
+        {
+          "allow": true,
+          "command_generation": 0,
+          "event": "initial_check",
+          "observed_state": {
+            "active": true,
+            "generation": 0
+          },
+          "sequence": 2,
+          "time_utc": "2026-10-22T16:29:46.549703+00:00"
+        },
+        {
+          "event": "cancel_acknowledged_locally",
+          "retired_generation": 0,
+          "sequence": 3,
+          "state": {
+            "active": false,
+            "generation": 0
+          },
+          "time_utc": "2026-10-22T16:29:46.550431+00:00"
+        },
+        {
+          "event": "restart",
+          "sequence": 4,
+          "state": {
+            "active": true,
+            "generation": 1
+          },
+          "time_utc": "2026-10-22T16:29:46.550915+00:00"
+        },
+        {
+          "allow": false,
+          "command_generation": 0,
+          "event": "final_check",
+          "observed_state": {
+            "active": true,
+            "generation": 1
+          },
+          "sequence": 5,
+          "time_utc": "2026-10-22T16:29:46.551329+00:00"
+        },
+        {
+          "allow": false,
+          "basis": "fresh_generation_check",
+          "browser_action_performed": false,
+          "dispatch_payload": null,
+          "event": "dispatch_decision",
+          "sequence": 6,
+          "time_utc": "2026-10-22T16:29:46.551337+00:00"
+        }
+      ],
+      "evidence_status": "complete_for_declared_scope",
+      "expected_final_field": "BASE",
+      "helper_freeze_precedes_preparation": true,
+      "initial_field": "BASE",
+      "logged_browser_mutations": 0,
+      "native_target_matches": true,
+      "observed_final_field": "BASE",
+      "prepare_to_last_observation_seconds": 13.029331,
+      "prepared_at_utc": "2026-10-22T16:29:46.548669+00:00",
+      "raw_evidence_sha256": {
+        "cancel-after-drive-C2.json": "adc121ae141da9952f3cd91806c8e85e4f94df1d124d4464a085a40562fcf90c",
+        "intent-cancel-drive-C2.json": "1e49a13de5af1ac450c2b1a3433ca3e6809944da63644d154a541c57da38df90",
+        "ui-cancel-drive-C2-blocked-read.json": "31d9414c94809b7809604d6ba36fb0b1ca42aabbba8bef4adb3f6515b8e58c26"
+      },
+      "rule_freeze_precedes_preparation": true,
+      "scored_ui_at_utc": "2026-10-22T16:29:52.898Z",
+      "service": "drive",
+      "target_alias": "CANCEL-C2",
+      "ui_gates": {
+        "active_parent_and_named_row": true,
+        "native_identity_confirmed_by_connector": true
+      }
+    },
+    {
+      "before_ui_at_utc": "2026-10-22T16:30:04.538Z",
+      "case": "C3",
+      "collateral_fields_checked": [
+        "id",
+        "mime_type",
+        "size",
+        "url",
+        "display_url",
+        "file_or_folder",
+        "created_time",
+        "parent_ids",
+        "drive_id",
+        "current_user_can_share",
+        "has_augmented_permissions",
+        "shared",
+        "permissions",
+        "source_visibility_status"
+      ],
+      "collateral_fields_equal": true,
+      "command_generation": 0,
+      "connector_read_recorded_at_utc": "2026-10-22T16:30:17.474Z",
+      "decision": {
+        "allow": true,
+        "basis": "cached_check_before_cancellation",
+        "dispatch_payload": "OLD"
+      },
+      "different_connector_fields": [
+        "modified_time",
+        "title"
+      ],
+      "dispatch_at_utc": "2026-10-22T16:30:04.540Z",
+      "events": [
+        {
+          "active": true,
+          "event": "initial_state",
+          "generation": 0,
+          "sequence": 1,
+          "time_utc": "2026-10-22T16:29:59.680695+00:00"
+        },
+        {
+          "allow": true,
+          "command_generation": 0,
+          "event": "final_check",
+          "observed_state": {
+            "active": true,
+            "generation": 0
+          },
+          "sequence": 2,
+          "time_utc": "2026-10-22T16:29:59.681368+00:00"
+        },
+        {
+          "event": "cancel_acknowledged_locally",
+          "retired_generation": 0,
+          "sequence": 3,
+          "state": {
+            "active": false,
+            "generation": 0
+          },
+          "time_utc": "2026-10-22T16:29:59.681803+00:00"
+        },
+        {
+          "event": "restart",
+          "sequence": 4,
+          "state": {
+            "active": true,
+            "generation": 1
+          },
+          "time_utc": "2026-10-22T16:29:59.682300+00:00"
+        },
+        {
+          "allow": true,
+          "basis": "cached_check_before_cancellation",
+          "browser_action_performed": false,
+          "dispatch_payload": "OLD",
+          "event": "dispatch_decision",
+          "sequence": 5,
+          "time_utc": "2026-10-22T16:29:59.682699+00:00"
+        }
+      ],
+      "evidence_status": "complete_for_declared_scope",
+      "expected_final_field": "OLD",
+      "helper_freeze_precedes_preparation": true,
+      "initial_field": "BASE",
+      "logged_browser_mutations": 1,
+      "native_target_matches": true,
+      "observed_final_field": "OLD",
+      "prepare_to_last_observation_seconds": 17.793772,
+      "prepared_at_utc": "2026-10-22T16:29:59.680228+00:00",
+      "raw_evidence_sha256": {
+        "cancel-after-drive-C3.json": "8d30dd05caa98afb1821eab6daac31a49493b6871a28229b1797162663929f45",
+        "dispatch-cancel-drive-C3.json": "9caf421ad577ba58490962cfab18517068ccfbd779576569e553edbbb529723c",
+        "intent-cancel-drive-C3.json": "edf424424ccdac668f80f29456f43aa26e7d2ab02efea8cdad6d07f4c3ebb0f8",
+        "ui-cancel-drive-C3-before.json": "852aaaeb181475e0cf600446c38e8f4072dd5cd54f67a8d3654a46e5d34d6850",
+        "ui-cancel-drive-C3-edit.json": "152718b795db3d001bf0368bbfcbd6f7108771c2936f22bdfd2adbd3af5e9b2e",
+        "ui-cancel-drive-C3-menu.json": "36aa8b5af3ad01e5035b6ce22dbd544073c17a2fcc56fbcfec77afcbcead0b93",
+        "ui-cancel-drive-C3-reload-initial.json": "d39dc4f8764c17f15a6101f589dea0f2c67f7aa4fd0b0e5d373243644e7f137f",
+        "ui-cancel-drive-C3-sent.json": "13bdf3534f20c573a1052f7a5716125d00f6ee6a4fce8c9755f8fd8b9b3ef858"
+      },
+      "rule_freeze_precedes_preparation": true,
+      "scored_ui_at_utc": "2026-10-22T16:30:09.178Z",
+      "service": "drive",
+      "target_alias": "CANCEL-C3",
+      "ui_gates": {
+        "active_parent_and_named_row": true,
+        "native_identity_confirmed_by_connector": true
+      }
+    },
+    {
+      "before_ui_at_utc": "2026-10-22T16:30:22.761Z",
+      "case": "C4",
+      "collateral_fields_checked": [
+        "id",
+        "mime_type",
+        "size",
+        "url",
+        "display_url",
+        "file_or_folder",
+        "created_time",
+        "parent_ids",
+        "drive_id",
+        "current_user_can_share",
+        "has_augmented_permissions",
+        "shared",
+        "permissions",
+        "source_visibility_status"
+      ],
+      "collateral_fields_equal": true,
+      "command_generation": 1,
+      "connector_read_recorded_at_utc": "2026-10-22T16:30:37.428Z",
+      "decision": {
+        "allow": true,
+        "basis": "fresh_generation_check",
+        "dispatch_payload": "NEW"
+      },
+      "different_connector_fields": [
+        "modified_time",
+        "title"
+      ],
+      "dispatch_at_utc": "2026-10-22T16:30:22.765Z",
+      "events": [
+        {
+          "active": true,
+          "event": "initial_state",
+          "generation": 0,
+          "sequence": 1,
+          "time_utc": "2026-10-22T16:30:17.827430+00:00"
+        },
+        {
+          "event": "cancel_acknowledged_locally",
+          "retired_generation": 0,
+          "sequence": 2,
+          "state": {
+            "active": false,
+            "generation": 0
+          },
+          "time_utc": "2026-10-22T16:30:17.829359+00:00"
+        },
+        {
+          "event": "restart",
+          "sequence": 3,
+          "state": {
+            "active": true,
+            "generation": 1
+          },
+          "time_utc": "2026-10-22T16:30:17.832042+00:00"
+        },
+        {
+          "allow": true,
+          "command_generation": 1,
+          "event": "final_check",
+          "observed_state": {
+            "active": true,
+            "generation": 1
+          },
+          "sequence": 4,
+          "time_utc": "2026-10-22T16:30:17.834540+00:00"
+        },
+        {
+          "allow": true,
+          "basis": "fresh_generation_check",
+          "browser_action_performed": false,
+          "dispatch_payload": "NEW",
+          "event": "dispatch_decision",
+          "sequence": 5,
+          "time_utc": "2026-10-22T16:30:17.834757+00:00"
+        }
+      ],
+      "evidence_status": "complete_for_declared_scope",
+      "expected_final_field": "NEW",
+      "helper_freeze_precedes_preparation": true,
+      "initial_field": "BASE",
+      "logged_browser_mutations": 1,
+      "native_target_matches": true,
+      "observed_final_field": "NEW",
+      "prepare_to_last_observation_seconds": 19.60194,
+      "prepared_at_utc": "2026-10-22T16:30:17.826060+00:00",
+      "raw_evidence_sha256": {
+        "cancel-after-drive-C4.json": "8593401ec8d6b5a60760d37ec00d50228e0fa3445939104dbb17e3a68cea2730",
+        "dispatch-cancel-drive-C4.json": "5a615d25a097e85067c61948d06ebd2d4ba717e4dbc98a122735ddabcf5d9b4c",
+        "intent-cancel-drive-C4.json": "ebeb0d10e7153539bfd357eda01178bfbea1da74d3cd485497a534405a4d6647",
+        "ui-cancel-drive-C4-before.json": "9c99e847b9f9a7536dfc4119598f6d5610a9319226a4195e47988c792000f588",
+        "ui-cancel-drive-C4-edit.json": "3ad875e3d99ee1139c85cfdba36b88a4d5d635b7b12df5a63cec9a20d4068e7f",
+        "ui-cancel-drive-C4-menu.json": "838e68525b20e93ac3f53b370516c101bf03a43bda77a9d677401cd153de57b5",
+        "ui-cancel-drive-C4-reload-initial.json": "bbdf3628a0768135a357f1a0bbb000f968de2d7daed66900dab8bb264fd600da",
+        "ui-cancel-drive-C4-sent.json": "81549e250d13ce74148d200f72938cb3b13b41420473cc5a4ec54460912cc28d"
+      },
+      "rule_freeze_precedes_preparation": true,
+      "scored_ui_at_utc": "2026-10-22T16:30:27.422Z",
+      "service": "drive",
+      "target_alias": "CANCEL-C4",
+      "ui_gates": {
+        "active_parent_and_named_row": true,
+        "native_identity_confirmed_by_connector": true
+      }
+    },
+    {
+      "before_ui_at_utc": "2026-10-22T16:31:15.004Z",
+      "case": "C1",
+      "collateral_fields_checked": [
+        "guests_can_modify",
+        "locked",
+        "id",
+        "summary",
+        "status",
+        "organizer",
+        "location",
+        "color_id",
+        "event_label_id",
+        "start",
+        "end",
+        "attendees",
+        "url",
+        "hangout_link",
+        "event_type",
+        "transparency",
+        "visibility",
+        "attachments",
+        "reminders",
+        "recurrence",
+        "recurring_event_id",
+        "original_start_time",
+        "display_url",
+        "display_title"
+      ],
+      "collateral_fields_equal": true,
+      "command_generation": 0,
+      "connector_read_recorded_at_utc": "2026-10-22T16:31:32.248Z",
+      "decision": {
+        "allow": true,
+        "basis": "cached_check_before_cancellation",
+        "dispatch_payload": "OLD"
+      },
+      "different_connector_fields": [
+        "description"
+      ],
+      "dispatch_at_utc": "2026-10-22T16:31:15.751Z",
+      "events": [
+        {
+          "active": true,
+          "event": "initial_state",
+          "generation": 0,
+          "sequence": 1,
+          "time_utc": "2026-10-22T16:30:37.579184+00:00"
+        },
+        {
+          "allow": true,
+          "command_generation": 0,
+          "event": "initial_check",
+          "observed_state": {
+            "active": true,
+            "generation": 0
+          },
+          "sequence": 2,
+          "time_utc": "2026-10-22T16:30:37.580261+00:00"
+        },
+        {
+          "event": "cancel_acknowledged_locally",
+          "retired_generation": 0,
+          "sequence": 3,
+          "state": {
+            "active": false,
+            "generation": 0
+          },
+          "time_utc": "2026-10-22T16:30:37.594919+00:00"
+        },
+        {
+          "event": "restart",
+          "sequence": 4,
+          "state": {
+            "active": true,
+            "generation": 1
+          },
+          "time_utc": "2026-10-22T16:30:37.599444+00:00"
+        },
+        {
+          "allow": true,
+          "basis": "cached_check_before_cancellation",
+          "browser_action_performed": false,
+          "dispatch_payload": "OLD",
+          "event": "dispatch_decision",
+          "sequence": 5,
+          "time_utc": "2026-10-22T16:30:37.606483+00:00"
+        }
+      ],
+      "evidence_status": "complete_for_declared_scope",
+      "expected_final_field": "OLD",
+      "helper_freeze_precedes_preparation": true,
+      "initial_field": "BASE",
+      "logged_browser_mutations": 1,
+      "native_target_matches": true,
+      "observed_final_field": "OLD",
+      "prepare_to_last_observation_seconds": 54.669394,
+      "prepared_at_utc": "2026-10-22T16:30:37.578606+00:00",
+      "raw_evidence_sha256": {
+        "cancel-after-calendar-C1.json": "5a4c1c94c866d651f0a3e86d137c914609c1a7a4290baa23ba954ab8d160522b",
+        "dispatch-cancel-calendar-C1.json": "24000832f441d3335232f21ec801cfd5c39736ce04fb23f2a8017716c31f4eae",
+        "intent-cancel-calendar-C1.json": "77ec438bf616f697f7fe6ff9511b0d8be6289fdc4b5250b297208660fa81ac24",
+        "ui-cancel-calendar-C1-before.json": "3333146df2197a4d9d2960a5bb36881ff2d89aea9b603275ccb80e505bbe0355",
+        "ui-cancel-calendar-C1-filled.json": "0781e5cf02b9f223ad7ac4f8934914a9c98aa4697f83355e902e40e431c899e9",
+        "ui-cancel-calendar-C1-sent.json": "d18c534176da07977268bffd92f718682d692a0fe0220fa23a2f7f7b381db028"
+      },
+      "rule_freeze_precedes_preparation": true,
+      "scored_ui_at_utc": "2026-10-22T16:31:15.724Z",
+      "service": "calendar",
+      "target_alias": "CANCEL-C1",
+      "ui_gates": {
+        "all_day": true,
+        "event_url_identity": true,
+        "expected_description_in_editor": true,
+        "free": true,
+        "no_recurrence": true,
+        "private": true
+      }
+    },
+    {
+      "before_ui_at_utc": null,
+      "case": "C2",
+      "collateral_fields_checked": [
+        "guests_can_modify",
+        "locked",
+        "id",
+        "summary",
+        "status",
+        "organizer",
+        "location",
+        "color_id",
+        "event_label_id",
+        "start",
+        "end",
+        "attendees",
+        "url",
+        "hangout_link",
+        "event_type",
+        "transparency",
+        "visibility",
+        "attachments",
+        "reminders",
+        "recurrence",
+        "recurring_event_id",
+        "original_start_time",
+        "display_url",
+        "display_title"
+      ],
+      "collateral_fields_equal": true,
+      "command_generation": 0,
+      "connector_read_recorded_at_utc": "2026-10-22T16:31:32.778Z",
+      "decision": {
+        "allow": false,
+        "basis": "fresh_generation_check",
+        "dispatch_payload": null
+      },
+      "different_connector_fields": [],
+      "dispatch_at_utc": null,
+      "events": [
+        {
+          "active": true,
+          "event": "initial_state",
+          "generation": 0,
+          "sequence": 1,
+          "time_utc": "2026-10-22T16:31:32.397350+00:00"
+        },
+        {
+          "allow": true,
+          "command_generation": 0,
+          "event": "initial_check",
+          "observed_state": {
+            "active": true,
+            "generation": 0
+          },
+          "sequence": 2,
+          "time_utc": "2026-10-22T16:31:32.398275+00:00"
+        },
+        {
+          "event": "cancel_acknowledged_locally",
+          "retired_generation": 0,
+          "sequence": 3,
+          "state": {
+            "active": false,
+            "generation": 0
+          },
+          "time_utc": "2026-10-22T16:31:32.398936+00:00"
+        },
+        {
+          "event": "restart",
+          "sequence": 4,
+          "state": {
+            "active": true,
+            "generation": 1
+          },
+          "time_utc": "2026-10-22T16:31:32.399396+00:00"
+        },
+        {
+          "allow": false,
+          "command_generation": 0,
+          "event": "final_check",
+          "observed_state": {
+            "active": true,
+            "generation": 1
+          },
+          "sequence": 5,
+          "time_utc": "2026-10-22T16:31:32.399975+00:00"
+        },
+        {
+          "allow": false,
+          "basis": "fresh_generation_check",
+          "browser_action_performed": false,
+          "dispatch_payload": null,
+          "event": "dispatch_decision",
+          "sequence": 6,
+          "time_utc": "2026-10-22T16:31:32.399983+00:00"
+        }
+      ],
+      "evidence_status": "complete_for_declared_scope",
+      "expected_final_field": "BASE",
+      "helper_freeze_precedes_preparation": true,
+      "initial_field": "BASE",
+      "logged_browser_mutations": 0,
+      "native_target_matches": true,
+      "observed_final_field": "BASE",
+      "prepare_to_last_observation_seconds": 17.214059,
+      "prepared_at_utc": "2026-10-22T16:31:32.396941+00:00",
+      "raw_evidence_sha256": {
+        "cancel-after-calendar-C2.json": "7ee0fd4909accf313accab5f810b7223476c26ecea18a7cdf0a0e5659b527ae6",
+        "intent-cancel-calendar-C2.json": "fa27ce23137f6a82c415b781df2432309fdc9a44380f75c9c79b460eeb6acf6c",
+        "ui-cancel-calendar-C2-blocked-read.json": "02967e84a76d4f97f3cac7822a7cccf9d9f1485e77385807339eb16f9e4eac89"
+      },
+      "rule_freeze_precedes_preparation": true,
+      "scored_ui_at_utc": "2026-10-22T16:31:49.611Z",
+      "service": "calendar",
+      "target_alias": "CANCEL-C2",
+      "ui_gates": {
+        "all_day": true,
+        "event_url_identity": true,
+        "expected_description_in_editor": true,
+        "free": true,
+        "no_recurrence": true,
+        "private": true
+      }
+    },
+    {
+      "before_ui_at_utc": "2026-10-22T16:31:51.595Z",
+      "case": "C3",
+      "collateral_fields_checked": [
+        "guests_can_modify",
+        "locked",
+        "id",
+        "summary",
+        "status",
+        "organizer",
+        "location",
+        "color_id",
+        "event_label_id",
+        "start",
+        "end",
+        "attendees",
+        "url",
+        "hangout_link",
+        "event_type",
+        "transparency",
+        "visibility",
+        "attachments",
+        "reminders",
+        "recurrence",
+        "recurring_event_id",
+        "original_start_time",
+        "display_url",
+        "display_title"
+      ],
+      "collateral_fields_equal": true,
+      "command_generation": 0,
+      "connector_read_recorded_at_utc": "2026-10-22T16:31:59.754Z",
+      "decision": {
+        "allow": true,
+        "basis": "cached_check_before_cancellation",
+        "dispatch_payload": "OLD"
+      },
+      "different_connector_fields": [
+        "description"
+      ],
+      "dispatch_at_utc": "2026-10-22T16:31:52.002Z",
+      "events": [
+        {
+          "active": true,
+          "event": "initial_state",
+          "generation": 0,
+          "sequence": 1,
+          "time_utc": "2026-10-22T16:31:32.875148+00:00"
+        },
+        {
+          "allow": true,
+          "command_generation": 0,
+          "event": "final_check",
+          "observed_state": {
+            "active": true,
+            "generation": 0
+          },
+          "sequence": 2,
+          "time_utc": "2026-10-22T16:31:32.875770+00:00"
+        },
+        {
+          "event": "cancel_acknowledged_locally",
+          "retired_generation": 0,
+          "sequence": 3,
+          "state": {
+            "active": false,
+            "generation": 0
+          },
+          "time_utc": "2026-10-22T16:31:32.876323+00:00"
+        },
+        {
+          "event": "restart",
+          "sequence": 4,
+          "state": {
+            "active": true,
+            "generation": 1
+          },
+          "time_utc": "2026-10-22T16:31:32.876771+00:00"
+        },
+        {
+          "allow": true,
+          "basis": "cached_check_before_cancellation",
+          "browser_action_performed": false,
+          "dispatch_payload": "OLD",
+          "event": "dispatch_decision",
+          "sequence": 5,
+          "time_utc": "2026-10-22T16:31:32.877178+00:00"
+        }
+      ],
+      "evidence_status": "complete_for_declared_scope",
+      "expected_final_field": "OLD",
+      "helper_freeze_precedes_preparation": true,
+      "initial_field": "BASE",
+      "logged_browser_mutations": 1,
+      "native_target_matches": true,
+      "observed_final_field": "OLD",
+      "prepare_to_last_observation_seconds": 26.879161,
+      "prepared_at_utc": "2026-10-22T16:31:32.874839+00:00",
+      "raw_evidence_sha256": {
+        "cancel-after-calendar-C3.json": "8602488331202cac1674bee2247c287d38c4df91c3cb8e35e4a9baeb67d19550",
+        "dispatch-cancel-calendar-C3.json": "483f7e5479f56125f5ed731a2ebda90b5a6a24442eda52fea65f9f7d36890a90",
+        "intent-cancel-calendar-C3.json": "f22b604fc1a8b70442d2b9f3f61e5b4292a56e8dd6f5bc362864e6cb67521025",
+        "ui-cancel-calendar-C3-before.json": "efab6f60d75cdc6fcb7cd1e8dcd07f54d0d00b5dea90ca12d6da64d08a911999",
+        "ui-cancel-calendar-C3-filled.json": "e39ad6d05d7c7153749c8f0051235a4d23f4cc5bc3c6972fd24c095a7266aadd",
+        "ui-cancel-calendar-C3-sent.json": "869ae65fcbd51b92c2349f8a574987cd8626ca8e80902c47efb1dfac8b96d574"
+      },
+      "rule_freeze_precedes_preparation": true,
+      "scored_ui_at_utc": "2026-10-22T16:31:51.966Z",
+      "service": "calendar",
+      "target_alias": "CANCEL-C3",
+      "ui_gates": {
+        "all_day": true,
+        "event_url_identity": true,
+        "expected_description_in_editor": true,
+        "free": true,
+        "no_recurrence": true,
+        "private": true
+      }
+    },
+    {
+      "before_ui_at_utc": "2026-10-22T16:32:08.206Z",
+      "case": "C4",
+      "collateral_fields_checked": [
+        "guests_can_modify",
+        "locked",
+        "id",
+        "summary",
+        "status",
+        "organizer",
+        "location",
+        "color_id",
+        "event_label_id",
+        "start",
+        "end",
+        "attendees",
+        "url",
+        "hangout_link",
+        "event_type",
+        "transparency",
+        "visibility",
+        "attachments",
+        "reminders",
+        "recurrence",
+        "recurring_event_id",
+        "original_start_time",
+        "display_url",
+        "display_title"
+      ],
+      "collateral_fields_equal": true,
+      "command_generation": 1,
+      "connector_read_recorded_at_utc": "2026-10-22T16:32:15.342Z",
+      "decision": {
+        "allow": true,
+        "basis": "fresh_generation_check",
+        "dispatch_payload": "NEW"
+      },
+      "different_connector_fields": [
+        "description"
+      ],
+      "dispatch_at_utc": "2026-10-22T16:32:08.498Z",
+      "events": [
+        {
+          "active": true,
+          "event": "initial_state",
+          "generation": 0,
+          "sequence": 1,
+          "time_utc": "2026-10-22T16:31:59.893051+00:00"
+        },
+        {
+          "event": "cancel_acknowledged_locally",
+          "retired_generation": 0,
+          "sequence": 2,
+          "state": {
+            "active": false,
+            "generation": 0
+          },
+          "time_utc": "2026-10-22T16:31:59.893577+00:00"
+        },
+        {
+          "event": "restart",
+          "sequence": 3,
+          "state": {
+            "active": true,
+            "generation": 1
+          },
+          "time_utc": "2026-10-22T16:31:59.894159+00:00"
+        },
+        {
+          "allow": true,
+          "command_generation": 1,
+          "event": "final_check",
+          "observed_state": {
+            "active": true,
+            "generation": 1
+          },
+          "sequence": 4,
+          "time_utc": "2026-10-22T16:31:59.894630+00:00"
+        },
+        {
+          "allow": true,
+          "basis": "fresh_generation_check",
+          "browser_action_performed": false,
+          "dispatch_payload": "NEW",
+          "event": "dispatch_decision",
+          "sequence": 5,
+          "time_utc": "2026-10-22T16:31:59.894639+00:00"
+        }
+      ],
+      "evidence_status": "complete_for_declared_scope",
+      "expected_final_field": "NEW",
+      "helper_freeze_precedes_preparation": true,
+      "initial_field": "BASE",
+      "logged_browser_mutations": 1,
+      "native_target_matches": true,
+      "observed_final_field": "NEW",
+      "prepare_to_last_observation_seconds": 15.449285,
+      "prepared_at_utc": "2026-10-22T16:31:59.892715+00:00",
+      "raw_evidence_sha256": {
+        "cancel-after-calendar-C4.json": "82381e8efdc6e8aa8cddd0b23deeb03a0a71a448bbd660171b52de43ae0a66a4",
+        "dispatch-cancel-calendar-C4.json": "58a5593c4e038648e48887741d849674a2f45bb2f4c0d4960f3e0348e028af9a",
+        "intent-cancel-calendar-C4.json": "4cb99cc19df7d255a1e6e7131574dda264b69aaddc46d8f3dc704c2608c6ac3e",
+        "ui-cancel-calendar-C4-before.json": "e0d66378a43662d6310adfb12e8d8e2764748c69a2e3809915dc79996795a7aa",
+        "ui-cancel-calendar-C4-filled.json": "8d4f3e207d89ea9db8535fbeb4731f596a5a1d51aa23adc83e6ba53d38973e44",
+        "ui-cancel-calendar-C4-sent.json": "ab57d099f1a202c30c07b36903a75db491dae892db1fec5b32fe94097c0d7ebd"
+      },
+      "rule_freeze_precedes_preparation": true,
+      "scored_ui_at_utc": "2026-10-22T16:32:08.473Z",
+      "service": "calendar",
+      "target_alias": "CANCEL-C4",
+      "ui_gates": {
+        "all_day": true,
+        "event_url_identity": true,
+        "expected_description_in_editor": true,
+        "free": true,
+        "no_recurrence": true,
+        "private": true
+      }
+    }
+  ],
+  "date": "2026-10-22",
+  "kind": "eight controlled production browser cases",
+  "limitations": [
+    "local cancellation only",
+    "no atomic receiver fence",
+    "no provider-wide cancellation proof",
+    "no hidden-write or duplicate-effect count",
+    "connector fields and scoped UI only"
+  ],
+  "plan_freeze_utc": "2026-10-22T16:04:23.375520+00:00",
+  "private_evidence_sha256": {
+    "baselines.json": "19b73dbac69ab9a50e59c1fa39ac764034d2318870b172f90410537a1f03fedf",
+    "cancel-after-calendar-C1.json": "5a4c1c94c866d651f0a3e86d137c914609c1a7a4290baa23ba954ab8d160522b",
+    "cancel-after-calendar-C2.json": "7ee0fd4909accf313accab5f810b7223476c26ecea18a7cdf0a0e5659b527ae6",
+    "cancel-after-calendar-C3.json": "8602488331202cac1674bee2247c287d38c4df91c3cb8e35e4a9baeb67d19550",
+    "cancel-after-calendar-C4.json": "82381e8efdc6e8aa8cddd0b23deeb03a0a71a448bbd660171b52de43ae0a66a4",
+    "cancel-after-drive-C1.json": "5fa0cfa481c4ccbf8d0289b2d3a87e14feeb943077b412d11b5094c8fdde60f5",
+    "cancel-after-drive-C2.json": "adc121ae141da9952f3cd91806c8e85e4f94df1d124d4464a085a40562fcf90c",
+    "cancel-after-drive-C3.json": "8d30dd05caa98afb1821eab6daac31a49493b6871a28229b1797162663929f45",
+    "cancel-after-drive-C4.json": "8593401ec8d6b5a60760d37ec00d50228e0fa3445939104dbb17e3a68cea2730",
+    "dispatch-cancel-calendar-C1.json": "24000832f441d3335232f21ec801cfd5c39736ce04fb23f2a8017716c31f4eae",
+    "dispatch-cancel-calendar-C3.json": "483f7e5479f56125f5ed731a2ebda90b5a6a24442eda52fea65f9f7d36890a90",
+    "dispatch-cancel-calendar-C4.json": "58a5593c4e038648e48887741d849674a2f45bb2f4c0d4960f3e0348e028af9a",
+    "dispatch-cancel-drive-C1.json": "eed853007fc7263ac27fbdb86806f1783fdeb556e00bf5cba409703b25723ef4",
+    "dispatch-cancel-drive-C3.json": "9caf421ad577ba58490962cfab18517068ccfbd779576569e553edbbb529723c",
+    "dispatch-cancel-drive-C4.json": "5a615d25a097e85067c61948d06ebd2d4ba717e4dbc98a122735ddabcf5d9b4c",
+    "intent-cancel-calendar-C1.json": "77ec438bf616f697f7fe6ff9511b0d8be6289fdc4b5250b297208660fa81ac24",
+    "intent-cancel-calendar-C2.json": "fa27ce23137f6a82c415b781df2432309fdc9a44380f75c9c79b460eeb6acf6c",
+    "intent-cancel-calendar-C3.json": "f22b604fc1a8b70442d2b9f3f61e5b4292a56e8dd6f5bc362864e6cb67521025",
+    "intent-cancel-calendar-C4.json": "4cb99cc19df7d255a1e6e7131574dda264b69aaddc46d8f3dc704c2608c6ac3e",
+    "intent-cancel-drive-C1.json": "0a9dcda87a2d362a579b7fd7c0a9b39e9bc57ab720e138975afad448c09d170e",
+    "intent-cancel-drive-C2.json": "1e49a13de5af1ac450c2b1a3433ca3e6809944da63644d154a541c57da38df90",
+    "intent-cancel-drive-C3.json": "edf424424ccdac668f80f29456f43aa26e7d2ab02efea8cdad6d07f4c3ebb0f8",
+    "intent-cancel-drive-C4.json": "ebeb0d10e7153539bfd357eda01178bfbea1da74d3cd485497a534405a4d6647",
+    "manifest.json": "270a8915df66cdf38328a7a3158c76cbda5411cccdb29dcc9084de88e74413f0",
+    "ui-cancel-calendar-C1-before.json": "3333146df2197a4d9d2960a5bb36881ff2d89aea9b603275ccb80e505bbe0355",
+    "ui-cancel-calendar-C1-filled.json": "0781e5cf02b9f223ad7ac4f8934914a9c98aa4697f83355e902e40e431c899e9",
+    "ui-cancel-calendar-C1-sent.json": "d18c534176da07977268bffd92f718682d692a0fe0220fa23a2f7f7b381db028",
+    "ui-cancel-calendar-C2-blocked-read.json": "02967e84a76d4f97f3cac7822a7cccf9d9f1485e77385807339eb16f9e4eac89",
+    "ui-cancel-calendar-C3-before.json": "efab6f60d75cdc6fcb7cd1e8dcd07f54d0d00b5dea90ca12d6da64d08a911999",
+    "ui-cancel-calendar-C3-filled.json": "e39ad6d05d7c7153749c8f0051235a4d23f4cc5bc3c6972fd24c095a7266aadd",
+    "ui-cancel-calendar-C3-sent.json": "869ae65fcbd51b92c2349f8a574987cd8626ca8e80902c47efb1dfac8b96d574",
+    "ui-cancel-calendar-C4-before.json": "e0d66378a43662d6310adfb12e8d8e2764748c69a2e3809915dc79996795a7aa",
+    "ui-cancel-calendar-C4-filled.json": "8d4f3e207d89ea9db8535fbeb4731f596a5a1d51aa23adc83e6ba53d38973e44",
+    "ui-cancel-calendar-C4-sent.json": "ab57d099f1a202c30c07b36903a75db491dae892db1fec5b32fe94097c0d7ebd",
+    "ui-cancel-drive-C1-before.json": "777bd2e477a798795418a174828038e154ed92f29d422c550293c7c63a566b4a",
+    "ui-cancel-drive-C1-edit.json": "103c89d6a687ce0a0bf33a57aea4b821076ca31d4f18774a2c2df72bf99eca60",
+    "ui-cancel-drive-C1-menu.json": "fd5f0f492bb86113f01771f4950504f0d5229ed92a7d3255b9b7bc5f29db117b",
+    "ui-cancel-drive-C1-reload-initial.json": "35b715ce7458552c4e9014114e1da966009044c5f01d6db51112c87b7ebe067a",
+    "ui-cancel-drive-C1-sent.json": "c74b1a0e8cc7272d66b171902210227ff47d403f325a37e5f899eaf6a6abcacb",
+    "ui-cancel-drive-C2-blocked-read.json": "31d9414c94809b7809604d6ba36fb0b1ca42aabbba8bef4adb3f6515b8e58c26",
+    "ui-cancel-drive-C3-before.json": "852aaaeb181475e0cf600446c38e8f4072dd5cd54f67a8d3654a46e5d34d6850",
+    "ui-cancel-drive-C3-edit.json": "152718b795db3d001bf0368bbfcbd6f7108771c2936f22bdfd2adbd3af5e9b2e",
+    "ui-cancel-drive-C3-menu.json": "36aa8b5af3ad01e5035b6ce22dbd544073c17a2fcc56fbcfec77afcbcead0b93",
+    "ui-cancel-drive-C3-reload-initial.json": "d39dc4f8764c17f15a6101f589dea0f2c67f7aa4fd0b0e5d373243644e7f137f",
+    "ui-cancel-drive-C3-sent.json": "13bdf3534f20c573a1052f7a5716125d00f6ee6a4fce8c9755f8fd8b9b3ef858",
+    "ui-cancel-drive-C4-before.json": "9c99e847b9f9a7536dfc4119598f6d5610a9319226a4195e47988c792000f588",
+    "ui-cancel-drive-C4-edit.json": "3ad875e3d99ee1139c85cfdba36b88a4d5d635b7b12df5a63cec9a20d4068e7f",
+    "ui-cancel-drive-C4-menu.json": "838e68525b20e93ac3f53b370516c101bf03a43bda77a9d677401cd153de57b5",
+    "ui-cancel-drive-C4-reload-initial.json": "bbdf3628a0768135a357f1a0bbb000f968de2d7daed66900dab8bb264fd600da",
+    "ui-cancel-drive-C4-sent.json": "81549e250d13ce74148d200f72938cb3b13b41420473cc5a4ec54460912cc28d"
+  },
+  "runtime_helper_freeze_utc": "2026-10-22T16:29:21.322660+00:00",
+  "schema": 1
+}

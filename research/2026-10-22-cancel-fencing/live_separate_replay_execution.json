@@ -1,0 +1,14 @@
+{
+  "account_calls": 0,
+  "code_sha256": "8c7c8a94037598213a78bd8cc4024017b70d63a4a1af7e804f92db7e59717f19",
+  "cpu_limit_seconds": 30,
+  "cpu_seconds": 0.0007669999999999969,
+  "finished_at_utc": "2026-10-22T16:52:08.463460+00:00",
+  "model_calls": 0,
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "result_sha256": "04891ba2ebc88ba8b5d2ddf18509e6ee6af97a4746638cbee6e614e8689968fe",
+  "started_at_utc": "2026-10-22T16:52:08.462480+00:00",
+  "trace_sha256": "03bff63b04b3e4c1c65e778d800ed347f896d32e78f2786db3368381d9524340",
+  "wall_seconds": 0.0007650830011698417
+}

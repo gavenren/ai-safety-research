@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-10-22T16:22:00.512268+00:00",
+  "command": "python3 work/2026-10-22-five-live/check_runtime_intent.py",
+  "status": "pass",
+  "checks": 150,
+  "scope": "synthetic local helper checks only; no account calls or live trials",
+  "observed_exit_code": 0,
+  "runtime_sha256": "4eec25d134dacf73e2504cf0dbabb71a48f311c71d74ff87cae6ff6d378a0858",
+  "human_review": "none"
+}

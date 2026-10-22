@@ -1,0 +1,13 @@
+{
+  "frozen_at_utc": "2026-10-22T16:29:21.322660+00:00",
+  "scope": "revised helper before parent cancellation/receipt case commands; original pure decision rules unchanged",
+  "supersedes": "runtime_intent_freeze_v1.json",
+  "correction": "Require actual UI fields and references, native URL identity, action/read time order, and eight-minute case bound before receipt success",
+  "sha256": {
+    "runtime_intent.py": "4019197c40a9fa6117a835c88960bf058a9ea78bc84a8e3e3306d721ad25df66",
+    "check_runtime_intent.py": "eb1e098f91168973d872fb9beb52a3a27647d4ab8a32b86d7af0ca0c848213a5",
+    "live_intent.py": "73d77e773d799bc454b5154ff920cd62c8333cc052523a83402c22d14121738f",
+    "runtime_intent_README.md": "66d99377e25840cbbbefec53ab6c817024c066297f60d0c6963a96fe4c14b651",
+    "runtime_intent_checks.json": "e04f7f83d8771a23773fd8e9cc59b7e8474ad5cb58d9fb7b1dd13fa17dd26d4f"
+  }
+}

@@ -39,3 +39,9 @@ The program refuses to overwrite result files. It enforces a 60-second process C
 Each row is a schedule and fixed rule, not a user or real task. `stale_attempt` means O occurs after A1. `stale_accepted` requires this timing and acceptance. `stale_after_new` and `stale_while_inactive` are subsets. `rejected_valid_old` means an old action before A1 was rejected. `trace` records state after each event. `old_state` is the state before O. `effects` holds only accepted O/N labels. A null acceptance means that the event attempts no effect.
 
 All data are synthetic. No third-party full text or private data is included. No new license is assigned. No human review or peer review is claimed.
+
+## Production extension, 2026-10-22
+
+Eight selected cases on Google Drive and Calendar added six browser saves and two blocked commands. A new check blocked the old command before dispatch; cancellation after the last check still allowed the old save. Native atomic fencing was not tested, and the missing reopened Calendar read is disclosed.
+
+See [live_README.md](live_README.md) for the separate evidence replay and its limits. See [live_cleanup.md](live_cleanup.md) for cleanup. The original synthetic procedure and data above are retained.

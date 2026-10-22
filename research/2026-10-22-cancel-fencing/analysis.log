@@ -1,0 +1,1 @@
+{"assigned_cases": 8, "checked_collateral_mismatch_cases": 0, "late_helper_freeze_cases": 1, "logged_browser_mutations": 6, "old_command_blocked_cases": 2, "old_payload_saved_cases": 4, "scope": "controlled local controller order with real browser saves; no atomic receiver test", "services": 2, "unknown_cases": 0, "valid_new_command_saved_cases": 2}

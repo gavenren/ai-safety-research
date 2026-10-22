@@ -1,0 +1,5 @@
+{
+  "frozen_before_execution_utc": "2026-10-22T16:51:54.430651+00:00",
+  "sha256": "f6a4027901e1360dc9c0e9760235f74a3220bd61e2c911ac7c0a877053f43392",
+  "scope": "Audit written after reading report, raw schema, and source code. This is not a blinded audit."
+}
