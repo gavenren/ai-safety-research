@@ -1,0 +1,10 @@
+PASS controls: 63 rule rows
+PASS n=1: 10 schedules, 70 policy cases
+PASS n=2: 21 schedules, 147 policy cases
+PASS n=3: 36 schedules, 252 policy cases
+PASS n=4: 55 schedules, 385 policy cases
+PASS n=5: 78 schedules, 546 policy cases
+PASS n=6: 105 schedules, 735 policy cases
+PASS n=7: 136 schedules, 952 policy cases
+PASS n=8: 171 schedules, 1197 policy cases
+COMPLETE: all assigned cases retained; no unknowns

@@ -1,0 +1,16 @@
+{
+  "control_rule_rows": 63,
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true,
+    "H6": true
+  },
+  "independent_enumeration_matches": true,
+  "index_formula_checks": 4284,
+  "policy_cases": 4284,
+  "schedule_count": 612,
+  "unknowns": 0
+}

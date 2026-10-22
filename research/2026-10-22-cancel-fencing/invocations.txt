@@ -1,0 +1,11 @@
+First model run, working directory task workspace:
+python3 outputs/2026-10-22-cancel-fencing/study.py --out outputs/2026-10-22-cancel-fencing
+
+Clean model repeat, working directory outputs/2026-10-22-cancel-fencing:
+python3 study.py --out ../../work/2026-10-22-cancel-fencing/repeat-run
+
+First comparison attempt, same working directory, failed because the script write had failed:
+python3 compare.py --baseline . --candidate ../../work/2026-10-22-cancel-fencing/repeat-run
+
+Successful comparison, working directory task workspace:
+python3 outputs/2026-10-22-cancel-fencing/compare.py --baseline outputs/2026-10-22-cancel-fencing --candidate work/2026-10-22-cancel-fencing/repeat-run

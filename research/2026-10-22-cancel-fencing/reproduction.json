@@ -1,0 +1,43 @@
+{
+  "all_equal": true,
+  "files": [
+    {
+      "file": "raw_results.jsonl",
+      "bytes": 7958312,
+      "sha256": "774ef4df1faaaeee2aaa68690ef1ac126b5186af3061cdfa97f02118dbd2c06d",
+      "equal": true
+    },
+    {
+      "file": "summary.csv",
+      "bytes": 2378,
+      "sha256": "234b90dd3558fe438d1dc64893b1ab2142eaab3947b0db35f934e1bfe97d8ca8",
+      "equal": true
+    },
+    {
+      "file": "summary.json",
+      "bytes": 1641,
+      "sha256": "3857c9a83712ec697f31d02f66347a92cc52b579a20aaa7742f1a86aad993d95",
+      "equal": true
+    },
+    {
+      "file": "controls.json",
+      "bytes": 8039,
+      "sha256": "4bbcb023264e58fe85cb41ad4788d1dafeffe2acd70660d14fc70ba7d49a7bab",
+      "equal": true
+    },
+    {
+      "file": "checks.json",
+      "bytes": 289,
+      "sha256": "50c1a6e99d3fd755fed775085e8dd1179a88059b92ae5bc6b4f19e4ea325bafb",
+      "equal": true
+    },
+    {
+      "file": "witnesses.json",
+      "bytes": 9481,
+      "sha256": "fe451289fd2b95279fa0fcb2e10302f4ebf91c511c6a363694afb377e2336498",
+      "equal": true
+    }
+  ],
+  "verified_at_utc": "2026-10-22T15:30:01.804446+00:00",
+  "full_runs_completed": 2
+}

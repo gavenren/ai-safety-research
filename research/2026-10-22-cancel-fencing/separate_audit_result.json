@@ -1,0 +1,83 @@
+{
+  "audit_source_sha256": "f97dd16dab862a0f1a741d1d2d78fe03c787919abe6df33ae61c4110f3ac6757",
+  "checked_top_level_fields": 51408,
+  "expected_unique_keys": 4284,
+  "extra_keys": 0,
+  "issues": [],
+  "kind": "independent saved-trace audit, not a third experiment run",
+  "missing_keys": 0,
+  "raw_results_sha256": "774ef4df1faaaeee2aaa68690ef1ac126b5186af3061cdfa97f02118dbd2c06d",
+  "records": 4284,
+  "totals": {
+    "active_commit": {
+      "cases": 612,
+      "new_accepted": 612,
+      "old_accepted": 372,
+      "rejected_valid_old": 0,
+      "stale_accepted": 364,
+      "stale_after_new": 88,
+      "stale_attempt": 604,
+      "stale_while_inactive": 0
+    },
+    "cancel_fence_commit": {
+      "cases": 612,
+      "new_accepted": 612,
+      "old_accepted": 8,
+      "rejected_valid_old": 0,
+      "stale_accepted": 0,
+      "stale_after_new": 0,
+      "stale_attempt": 604,
+      "stale_while_inactive": 0
+    },
+    "highwater_commit": {
+      "cases": 612,
+      "new_accepted": 612,
+      "old_accepted": 524,
+      "rejected_valid_old": 0,
+      "stale_accepted": 516,
+      "stale_after_new": 0,
+      "stale_attempt": 604,
+      "stale_while_inactive": 240
+    },
+    "modulo2_commit": {
+      "cases": 612,
+      "new_accepted": 612,
+      "old_accepted": 192,
+      "rejected_valid_old": 0,
+      "stale_accepted": 184,
+      "stale_after_new": 48,
+      "stale_attempt": 604,
+      "stale_while_inactive": 0
+    },
+    "modulo4_commit": {
+      "cases": 612,
+      "new_accepted": 612,
+      "old_accepted": 98,
+      "rejected_valid_old": 0,
+      "stale_accepted": 90,
+      "stale_after_new": 28,
+      "stale_attempt": 604,
+      "stale_while_inactive": 0
+    },
+    "unique_commit": {
+      "cases": 612,
+      "new_accepted": 612,
+      "old_accepted": 8,
+      "rejected_valid_old": 0,
+      "stale_accepted": 0,
+      "stale_after_new": 0,
+      "stale_attempt": 604,
+      "stale_while_inactive": 0
+    },
+    "unique_precheck": {
+      "cases": 612,
+      "new_accepted": 612,
+      "old_accepted": 88,
+      "rejected_valid_old": 0,
+      "stale_accepted": 80,
+      "stale_after_new": 8,
+      "stale_attempt": 604,
+      "stale_while_inactive": 36
+    }
+  }
+}

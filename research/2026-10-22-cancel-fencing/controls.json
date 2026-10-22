@@ -1,0 +1,380 @@
+[
+  {
+    "control": "before_cancel",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "active_commit"
+  },
+  {
+    "control": "before_cancel",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "modulo2_commit"
+  },
+  {
+    "control": "before_cancel",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "modulo4_commit"
+  },
+  {
+    "control": "before_cancel",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "unique_precheck"
+  },
+  {
+    "control": "before_cancel",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "unique_commit"
+  },
+  {
+    "control": "before_cancel",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "highwater_commit"
+  },
+  {
+    "control": "before_cancel",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "cancel_fence_commit"
+  },
+  {
+    "control": "while_inactive",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "active_commit"
+  },
+  {
+    "control": "while_inactive",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo2_commit"
+  },
+  {
+    "control": "while_inactive",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo4_commit"
+  },
+  {
+    "control": "while_inactive",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "unique_precheck"
+  },
+  {
+    "control": "while_inactive",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_commit"
+  },
+  {
+    "control": "while_inactive",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "highwater_commit"
+  },
+  {
+    "control": "while_inactive",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "cancel_fence_commit"
+  },
+  {
+    "control": "active_reused",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "active_commit"
+  },
+  {
+    "control": "active_reused",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo2_commit"
+  },
+  {
+    "control": "active_reused",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo4_commit"
+  },
+  {
+    "control": "active_reused",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_precheck"
+  },
+  {
+    "control": "active_reused",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_commit"
+  },
+  {
+    "control": "active_reused",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "highwater_commit"
+  },
+  {
+    "control": "active_reused",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "cancel_fence_commit"
+  },
+  {
+    "control": "wrap_two",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "active_commit"
+  },
+  {
+    "control": "wrap_two",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "modulo2_commit"
+  },
+  {
+    "control": "wrap_two",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo4_commit"
+  },
+  {
+    "control": "wrap_two",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_precheck"
+  },
+  {
+    "control": "wrap_two",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_commit"
+  },
+  {
+    "control": "wrap_two",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "highwater_commit"
+  },
+  {
+    "control": "wrap_two",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "cancel_fence_commit"
+  },
+  {
+    "control": "wrap_four",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "active_commit"
+  },
+  {
+    "control": "wrap_four",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "modulo2_commit"
+  },
+  {
+    "control": "wrap_four",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "modulo4_commit"
+  },
+  {
+    "control": "wrap_four",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_precheck"
+  },
+  {
+    "control": "wrap_four",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_commit"
+  },
+  {
+    "control": "wrap_four",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "highwater_commit"
+  },
+  {
+    "control": "wrap_four",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "cancel_fence_commit"
+  },
+  {
+    "control": "check_use_gap",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "active_commit"
+  },
+  {
+    "control": "check_use_gap",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo2_commit"
+  },
+  {
+    "control": "check_use_gap",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo4_commit"
+  },
+  {
+    "control": "check_use_gap",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "unique_precheck"
+  },
+  {
+    "control": "check_use_gap",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_commit"
+  },
+  {
+    "control": "check_use_gap",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "highwater_commit"
+  },
+  {
+    "control": "check_use_gap",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "cancel_fence_commit"
+  },
+  {
+    "control": "highwater_before_new",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "active_commit"
+  },
+  {
+    "control": "highwater_before_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo2_commit"
+  },
+  {
+    "control": "highwater_before_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo4_commit"
+  },
+  {
+    "control": "highwater_before_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_precheck"
+  },
+  {
+    "control": "highwater_before_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_commit"
+  },
+  {
+    "control": "highwater_before_new",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "highwater_commit"
+  },
+  {
+    "control": "highwater_before_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "cancel_fence_commit"
+  },
+  {
+    "control": "highwater_after_new",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "active_commit"
+  },
+  {
+    "control": "highwater_after_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo2_commit"
+  },
+  {
+    "control": "highwater_after_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo4_commit"
+  },
+  {
+    "control": "highwater_after_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_precheck"
+  },
+  {
+    "control": "highwater_after_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_commit"
+  },
+  {
+    "control": "highwater_after_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "highwater_commit"
+  },
+  {
+    "control": "highwater_after_new",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "cancel_fence_commit"
+  },
+  {
+    "control": "fence_after_cancel",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "active_commit"
+  },
+  {
+    "control": "fence_after_cancel",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo2_commit"
+  },
+  {
+    "control": "fence_after_cancel",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "modulo4_commit"
+  },
+  {
+    "control": "fence_after_cancel",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "unique_precheck"
+  },
+  {
+    "control": "fence_after_cancel",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "unique_commit"
+  },
+  {
+    "control": "fence_after_cancel",
+    "expected_old_accepted": true,
+    "passed": true,
+    "rule": "highwater_commit"
+  },
+  {
+    "control": "fence_after_cancel",
+    "expected_old_accepted": false,
+    "passed": true,
+    "rule": "cancel_fence_commit"
+  }
+]

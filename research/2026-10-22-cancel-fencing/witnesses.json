@@ -1,0 +1,504 @@
+{
+  "active_commit": {
+    "case_id": "n1-s0001-active_commit",
+    "check": {
+      "active": true,
+      "generation": 1,
+      "highwater": 0,
+      "passes": false
+    },
+    "effects": [
+      "O",
+      "N"
+    ],
+    "final": {
+      "active": true,
+      "generation": 1,
+      "highwater": 0
+    },
+    "n": 1,
+    "new_accepted": true,
+    "old_accepted": true,
+    "old_state": {
+      "active": true,
+      "generation": 1,
+      "highwater": 0
+    },
+    "rejected_valid_old": false,
+    "rule": "active_commit",
+    "schedule": [
+      "A1",
+      "R1",
+      "C",
+      "O",
+      "N"
+    ],
+    "stale_accepted": true,
+    "stale_after_new": false,
+    "stale_attempt": true,
+    "stale_while_inactive": false,
+    "trace": [
+      {
+        "accepted": null,
+        "active": false,
+        "effects": [],
+        "event": "A1",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "R1",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "C",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": true,
+        "active": true,
+        "effects": [
+          "O"
+        ],
+        "event": "O",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": true,
+        "active": true,
+        "effects": [
+          "O",
+          "N"
+        ],
+        "event": "N",
+        "generation": 1,
+        "highwater": 0
+      }
+    ]
+  },
+  "highwater_commit": {
+    "case_id": "n1-s0001-highwater_commit",
+    "check": {
+      "active": true,
+      "generation": 1,
+      "highwater": 0,
+      "passes": false
+    },
+    "effects": [
+      "O",
+      "N"
+    ],
+    "final": {
+      "active": true,
+      "generation": 1,
+      "highwater": 1
+    },
+    "n": 1,
+    "new_accepted": true,
+    "old_accepted": true,
+    "old_state": {
+      "active": true,
+      "generation": 1,
+      "highwater": 0
+    },
+    "rejected_valid_old": false,
+    "rule": "highwater_commit",
+    "schedule": [
+      "A1",
+      "R1",
+      "C",
+      "O",
+      "N"
+    ],
+    "stale_accepted": true,
+    "stale_after_new": false,
+    "stale_attempt": true,
+    "stale_while_inactive": false,
+    "trace": [
+      {
+        "accepted": null,
+        "active": false,
+        "effects": [],
+        "event": "A1",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "R1",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "C",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": true,
+        "active": true,
+        "effects": [
+          "O"
+        ],
+        "event": "O",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": true,
+        "active": true,
+        "effects": [
+          "O",
+          "N"
+        ],
+        "event": "N",
+        "generation": 1,
+        "highwater": 1
+      }
+    ]
+  },
+  "modulo2_commit": {
+    "case_id": "n2-s0001-modulo2_commit",
+    "check": {
+      "active": true,
+      "generation": 2,
+      "highwater": 0,
+      "passes": false
+    },
+    "effects": [
+      "O",
+      "N"
+    ],
+    "final": {
+      "active": true,
+      "generation": 2,
+      "highwater": 0
+    },
+    "n": 2,
+    "new_accepted": true,
+    "old_accepted": true,
+    "old_state": {
+      "active": true,
+      "generation": 2,
+      "highwater": 0
+    },
+    "rejected_valid_old": false,
+    "rule": "modulo2_commit",
+    "schedule": [
+      "A1",
+      "R1",
+      "A2",
+      "R2",
+      "C",
+      "O",
+      "N"
+    ],
+    "stale_accepted": true,
+    "stale_after_new": false,
+    "stale_attempt": true,
+    "stale_while_inactive": false,
+    "trace": [
+      {
+        "accepted": null,
+        "active": false,
+        "effects": [],
+        "event": "A1",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "R1",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": false,
+        "effects": [],
+        "event": "A2",
+        "generation": 2,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "R2",
+        "generation": 2,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "C",
+        "generation": 2,
+        "highwater": 0
+      },
+      {
+        "accepted": true,
+        "active": true,
+        "effects": [
+          "O"
+        ],
+        "event": "O",
+        "generation": 2,
+        "highwater": 0
+      },
+      {
+        "accepted": true,
+        "active": true,
+        "effects": [
+          "O",
+          "N"
+        ],
+        "event": "N",
+        "generation": 2,
+        "highwater": 0
+      }
+    ]
+  },
+  "modulo4_commit": {
+    "case_id": "n4-s0001-modulo4_commit",
+    "check": {
+      "active": true,
+      "generation": 4,
+      "highwater": 0,
+      "passes": false
+    },
+    "effects": [
+      "O",
+      "N"
+    ],
+    "final": {
+      "active": true,
+      "generation": 4,
+      "highwater": 0
+    },
+    "n": 4,
+    "new_accepted": true,
+    "old_accepted": true,
+    "old_state": {
+      "active": true,
+      "generation": 4,
+      "highwater": 0
+    },
+    "rejected_valid_old": false,
+    "rule": "modulo4_commit",
+    "schedule": [
+      "A1",
+      "R1",
+      "A2",
+      "R2",
+      "A3",
+      "R3",
+      "A4",
+      "R4",
+      "C",
+      "O",
+      "N"
+    ],
+    "stale_accepted": true,
+    "stale_after_new": false,
+    "stale_attempt": true,
+    "stale_while_inactive": false,
+    "trace": [
+      {
+        "accepted": null,
+        "active": false,
+        "effects": [],
+        "event": "A1",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "R1",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": false,
+        "effects": [],
+        "event": "A2",
+        "generation": 2,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "R2",
+        "generation": 2,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": false,
+        "effects": [],
+        "event": "A3",
+        "generation": 3,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "R3",
+        "generation": 3,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": false,
+        "effects": [],
+        "event": "A4",
+        "generation": 4,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "R4",
+        "generation": 4,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "C",
+        "generation": 4,
+        "highwater": 0
+      },
+      {
+        "accepted": true,
+        "active": true,
+        "effects": [
+          "O"
+        ],
+        "event": "O",
+        "generation": 4,
+        "highwater": 0
+      },
+      {
+        "accepted": true,
+        "active": true,
+        "effects": [
+          "O",
+          "N"
+        ],
+        "event": "N",
+        "generation": 4,
+        "highwater": 0
+      }
+    ]
+  },
+  "unique_precheck": {
+    "case_id": "n1-s0007-unique_precheck",
+    "check": {
+      "active": true,
+      "generation": 0,
+      "highwater": 0,
+      "passes": true
+    },
+    "effects": [
+      "O",
+      "N"
+    ],
+    "final": {
+      "active": true,
+      "generation": 1,
+      "highwater": 0
+    },
+    "n": 1,
+    "new_accepted": true,
+    "old_accepted": true,
+    "old_state": {
+      "active": true,
+      "generation": 1,
+      "highwater": 0
+    },
+    "rejected_valid_old": false,
+    "rule": "unique_precheck",
+    "schedule": [
+      "C",
+      "A1",
+      "R1",
+      "O",
+      "N"
+    ],
+    "stale_accepted": true,
+    "stale_after_new": false,
+    "stale_attempt": true,
+    "stale_while_inactive": false,
+    "trace": [
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "C",
+        "generation": 0,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": false,
+        "effects": [],
+        "event": "A1",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": null,
+        "active": true,
+        "effects": [],
+        "event": "R1",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": true,
+        "active": true,
+        "effects": [
+          "O"
+        ],
+        "event": "O",
+        "generation": 1,
+        "highwater": 0
+      },
+      {
+        "accepted": true,
+        "active": true,
+        "effects": [
+          "O",
+          "N"
+        ],
+        "event": "N",
+        "generation": 1,
+        "highwater": 0
+      }
+    ]
+  }
+}

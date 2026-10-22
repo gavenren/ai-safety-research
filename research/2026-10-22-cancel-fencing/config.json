@@ -1,0 +1,12 @@
+{
+  "run_date": "2026-10-22",
+  "restart_counts": [1, 2, 3, 4, 5, 6, 7, 8],
+  "rules": ["active_commit", "modulo2_commit", "modulo4_commit", "unique_precheck", "unique_commit", "highwater_commit", "cancel_fence_commit"],
+  "initial_generation": 0,
+  "initial_active": true,
+  "initial_highwater": 0,
+  "cpu_limit_seconds": 60,
+  "wall_limit_seconds": 120,
+  "max_full_runs": 2,
+  "random_seed": null
+}

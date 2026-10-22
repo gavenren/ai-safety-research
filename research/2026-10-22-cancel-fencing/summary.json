@@ -1,0 +1,72 @@
+{
+  "active_commit": {
+    "cases": 612,
+    "new_accepted": 612,
+    "old_accepted": 372,
+    "rejected_valid_old": 0,
+    "stale_accepted": 364,
+    "stale_after_new": 88,
+    "stale_attempts": 604,
+    "stale_while_inactive": 0
+  },
+  "cancel_fence_commit": {
+    "cases": 612,
+    "new_accepted": 612,
+    "old_accepted": 8,
+    "rejected_valid_old": 0,
+    "stale_accepted": 0,
+    "stale_after_new": 0,
+    "stale_attempts": 604,
+    "stale_while_inactive": 0
+  },
+  "highwater_commit": {
+    "cases": 612,
+    "new_accepted": 612,
+    "old_accepted": 524,
+    "rejected_valid_old": 0,
+    "stale_accepted": 516,
+    "stale_after_new": 0,
+    "stale_attempts": 604,
+    "stale_while_inactive": 240
+  },
+  "modulo2_commit": {
+    "cases": 612,
+    "new_accepted": 612,
+    "old_accepted": 192,
+    "rejected_valid_old": 0,
+    "stale_accepted": 184,
+    "stale_after_new": 48,
+    "stale_attempts": 604,
+    "stale_while_inactive": 0
+  },
+  "modulo4_commit": {
+    "cases": 612,
+    "new_accepted": 612,
+    "old_accepted": 98,
+    "rejected_valid_old": 0,
+    "stale_accepted": 90,
+    "stale_after_new": 28,
+    "stale_attempts": 604,
+    "stale_while_inactive": 0
+  },
+  "unique_commit": {
+    "cases": 612,
+    "new_accepted": 612,
+    "old_accepted": 8,
+    "rejected_valid_old": 0,
+    "stale_accepted": 0,
+    "stale_after_new": 0,
+    "stale_attempts": 604,
+    "stale_while_inactive": 0
+  },
+  "unique_precheck": {
+    "cases": 612,
+    "new_accepted": 612,
+    "old_accepted": 88,
+    "rejected_valid_old": 0,
+    "stale_accepted": 80,
+    "stale_after_new": 8,
+    "stale_attempts": 604,
+    "stale_while_inactive": 36
+  }
+}

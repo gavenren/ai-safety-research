@@ -1,0 +1,19 @@
+{
+  "report_numeric_rows_checked": [
+    "Active flag",
+    "Modulo 2",
+    "Modulo 4",
+    "Unique precheck",
+    "Unique at commit",
+    "Receiver high-water",
+    "Cancellation fence"
+  ],
+  "relative_links_checked": 16,
+  "raw_case_count": 4284,
+  "unique_case_ids": true,
+  "summary_rows": 56,
+  "frozen_input_hashes_match": true,
+  "source_code_hash_matches": true,
+  "human_review": false,
+  "publication_status": "not yet published"
+}

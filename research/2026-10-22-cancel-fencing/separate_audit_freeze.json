@@ -1,0 +1,15 @@
+{
+  "saved_at_utc": "2026-10-22T15:30:54.516981+00:00",
+  "read_before_freeze": [
+    "plan.md",
+    "config.json",
+    "raw row schema supplied by author"
+  ],
+  "not_read_before_freeze": [
+    "study.py",
+    "raw_results.jsonl",
+    "summary.json",
+    "report.md"
+  ],
+  "audit_source_sha256": "f97dd16dab862a0f1a741d1d2d78fe03c787919abe6df33ae61c4110f3ac6757"
+}

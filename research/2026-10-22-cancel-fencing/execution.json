@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "study.py",
+    "--out",
+    "outputs/2026-10-22-cancel-fencing"
+  ],
+  "completed": true,
+  "config_sha256": "72fd0a122c6ac67137012f10caa0a882d19731e819680c55c4f8c7e6c9ce9b1e",
+  "cpu_seconds": 0.192922,
+  "ended_at_utc": "2026-10-22T14:59:41.539006+00:00",
+  "implementation_sha256": "2531f91be39b9549f4b1bb29cfe928f7d68a6e7e09cf7a0780afee16c9217e09",
+  "machine": "arm64",
+  "max_rss_bytes_macos": 24674304,
+  "no_model_calls": true,
+  "no_paid_compute": true,
+  "pid": 25307,
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "started_at_utc": "2026-10-22T14:59:41.328805+00:00",
+  "wall_seconds": 0.2102332499998738
+}
