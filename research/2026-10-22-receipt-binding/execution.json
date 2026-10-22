@@ -1,0 +1,30 @@
+{
+  "code_sha256": "1d83526b37b2715815f94ab080bf67f58562c3b722893d83816b43ff768ae9e3",
+  "command": [
+    "outputs/2026-10-22-receipt-binding/study.py",
+    "--out",
+    "outputs/2026-10-22-receipt-binding"
+  ],
+  "cpu_seconds": 0.03950399999999999,
+  "ended_at_utc": "2026-10-22T15:30:44.819726+00:00",
+  "input_sha256": {
+    "config.json": "85956577eb0ffd5a1ae62972f1568a925315401d114ca96f297f25801fcddfbf",
+    "plan.md": "019194d6f7298ad8b8ec9f3ef22fc04e09f5bd8dc3a4b175207642edbd1c737e",
+    "source_search.md": "45acf710ba0d95d3dc09e31a0b2fb30da46686b3dec9eec020716f6653d1e0a5"
+  },
+  "model_api_calls": 0,
+  "output_sha256": {
+    "cases.jsonl": "66af6a676f978ba5004a5441402ee73612ab0d145f8d8beedba9273beb20076a",
+    "checks.json": "24b03508a45dbafd0427a9812112f2c041c2ab3ce94c2811adef89b44267b879",
+    "controls.json": "4d420e64590d819f1ff8713573fd7979192e08f98306df3118040fde8c3ea7b8",
+    "summary.json": "fe9263cfbf7c7fb51917bc4e4fdeb2241b089daaccdb1f0072edba96169e0694"
+  },
+  "paid_compute": false,
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "random_seed": null,
+  "reason": "complete enumeration; no random generator",
+  "started_at_utc": "2026-10-22T15:30:44.766008+00:00",
+  "status": "complete",
+  "wall_seconds": 0.053551500001049135
+}

@@ -1,0 +1,2094 @@
+{
+  "changed_delta_net_cancel": [
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "payload_conflict",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "conflict",
+        "receipt": null
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 0,
+        "extra_effects": 0,
+        "false_success": 1,
+        "missing_effects": 0,
+        "replay": 1,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 16,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "x",
+          -1
+        ]
+      ],
+      "rule": "global_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "payload_conflict",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "conflict",
+        "receipt": null
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 0,
+        "extra_effects": 0,
+        "false_success": 1,
+        "missing_effects": 0,
+        "replay": 1,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 16,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "x",
+          -1
+        ]
+      ],
+      "rule": "account_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "payload_conflict",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "conflict",
+        "receipt": null
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 0,
+        "extra_effects": 0,
+        "false_success": 1,
+        "missing_effects": 0,
+        "replay": 1,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 16,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "x",
+          -1
+        ]
+      ],
+      "rule": "account_target_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": -1,
+            "effect": 2,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "payload_conflict",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": -1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "conflict",
+        "receipt": null
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 0,
+        "extra_effects": 1,
+        "false_success": 1,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 1
+      },
+      "pair_id": 16,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "x",
+          -1
+        ]
+      ],
+      "rule": "full_request_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "conflict",
+          "receipt": null
+        }
+      ],
+      "class": "payload_conflict",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "conflict",
+        "receipt": null
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 1,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 16,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "x",
+          -1
+        ]
+      ],
+      "rule": "bound_receipt"
+    }
+  ],
+  "changed_target": [
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "payload_conflict",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "conflict",
+        "receipt": null
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 0,
+        "extra_effects": 0,
+        "false_success": 1,
+        "missing_effects": 0,
+        "replay": 1,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 19,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "y",
+          1
+        ]
+      ],
+      "rule": "global_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "payload_conflict",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "conflict",
+        "receipt": null
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 0,
+        "extra_effects": 0,
+        "false_success": 1,
+        "missing_effects": 0,
+        "replay": 1,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 19,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "y",
+          1
+        ]
+      ],
+      "rule": "account_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 2,
+            "key": 0,
+            "target": "y"
+          }
+        }
+      ],
+      "class": "payload_conflict",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "y"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "conflict",
+        "receipt": null
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 0,
+        "extra_effects": 1,
+        "false_success": 1,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 1
+      },
+      "pair_id": 19,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "y",
+          1
+        ]
+      ],
+      "rule": "account_target_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 2,
+            "key": 0,
+            "target": "y"
+          }
+        }
+      ],
+      "class": "payload_conflict",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "y"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "conflict",
+        "receipt": null
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 0,
+        "extra_effects": 1,
+        "false_success": 1,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 1
+      },
+      "pair_id": 19,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "y",
+          1
+        ]
+      ],
+      "rule": "full_request_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "conflict",
+          "receipt": null
+        }
+      ],
+      "class": "payload_conflict",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "conflict",
+        "receipt": null
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 1,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 19,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "y",
+          1
+        ]
+      ],
+      "rule": "bound_receipt"
+    }
+  ],
+  "exact_retry": [
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "exact_retry",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "replay",
+        "receipt": {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 1,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 17,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "x",
+          1
+        ]
+      ],
+      "rule": "global_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "exact_retry",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "replay",
+        "receipt": {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 1,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 17,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "x",
+          1
+        ]
+      ],
+      "rule": "account_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "exact_retry",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "replay",
+        "receipt": {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 1,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 17,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "x",
+          1
+        ]
+      ],
+      "rule": "account_target_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "exact_retry",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "replay",
+        "receipt": {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 1,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 17,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "x",
+          1
+        ]
+      ],
+      "rule": "full_request_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "exact_retry",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "replay",
+        "receipt": {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 1,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 17,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          0,
+          "x",
+          1
+        ]
+      ],
+      "rule": "bound_receipt"
+    }
+  ],
+  "new_key_same_payload": [
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 2,
+            "key": 1,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "new_identity",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "apply",
+        "receipt": {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 21,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          1,
+          "x",
+          1
+        ]
+      ],
+      "rule": "global_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 2,
+            "key": 1,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "new_identity",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "apply",
+        "receipt": {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 21,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          1,
+          "x",
+          1
+        ]
+      ],
+      "rule": "account_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 2,
+            "key": 1,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "new_identity",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "apply",
+        "receipt": {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 21,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          1,
+          "x",
+          1
+        ]
+      ],
+      "rule": "account_target_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 2,
+            "key": 1,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "new_identity",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "apply",
+        "receipt": {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 21,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          1,
+          "x",
+          1
+        ]
+      ],
+      "rule": "full_request_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 2,
+            "key": 1,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "new_identity",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "apply",
+        "receipt": {
+          "account": "A",
+          "delta": 1,
+          "effect": 2,
+          "key": 1,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 21,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "A",
+          1,
+          "x",
+          1
+        ]
+      ],
+      "rule": "bound_receipt"
+    }
+  ],
+  "other_account": [
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "replay",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "new_identity",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "apply",
+        "receipt": {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 0,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 0,
+        "extra_effects": 0,
+        "false_success": 1,
+        "missing_effects": 1,
+        "replay": 1,
+        "wrong_effect_history": 1
+      },
+      "pair_id": 25,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "B",
+          0,
+          "x",
+          1
+        ]
+      ],
+      "rule": "global_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "B",
+            "delta": 1,
+            "effect": 2,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "new_identity",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "apply",
+        "receipt": {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 25,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "B",
+          0,
+          "x",
+          1
+        ]
+      ],
+      "rule": "account_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "B",
+            "delta": 1,
+            "effect": 2,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "new_identity",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "apply",
+        "receipt": {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 25,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "B",
+          0,
+          "x",
+          1
+        ]
+      ],
+      "rule": "account_target_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "B",
+            "delta": 1,
+            "effect": 2,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "new_identity",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "apply",
+        "receipt": {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 25,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "B",
+          0,
+          "x",
+          1
+        ]
+      ],
+      "rule": "full_request_key"
+    },
+    {
+      "actions": [
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "A",
+            "delta": 1,
+            "effect": 1,
+            "key": 0,
+            "target": "x"
+          }
+        },
+        {
+          "action": "apply",
+          "receipt": {
+            "account": "B",
+            "delta": 1,
+            "effect": 2,
+            "key": 0,
+            "target": "x"
+          }
+        }
+      ],
+      "class": "new_identity",
+      "effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_effects": [
+        {
+          "account": "A",
+          "delta": 1,
+          "effect": 1,
+          "key": 0,
+          "target": "x"
+        },
+        {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      ],
+      "expected_second": {
+        "action": "apply",
+        "receipt": {
+          "account": "B",
+          "delta": 1,
+          "effect": 2,
+          "key": 0,
+          "target": "x"
+        }
+      },
+      "metrics": {
+        "apply": 1,
+        "cases": 1,
+        "conflict": 0,
+        "exact_contract_match": 1,
+        "extra_effects": 0,
+        "false_success": 0,
+        "missing_effects": 0,
+        "replay": 0,
+        "wrong_effect_history": 0
+      },
+      "pair_id": 25,
+      "requests": [
+        [
+          "A",
+          0,
+          "x",
+          1
+        ],
+        [
+          "B",
+          0,
+          "x",
+          1
+        ]
+      ],
+      "rule": "bound_receipt"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-22T15:36:32.217707+00:00",
+  "status": "pass",
+  "saved_rows": 1280,
+  "unique_pairs": 256,
+  "unique_rule_outcomes": 1280,
+  "row_comparisons": 11520,
+  "controls_checked": 25,
+  "original_sources_read": [
+    "https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/",
+    "https://docs.stripe.com/api/idempotent_requests"
+  ],
+  "code_and_frozen_inputs_match": true,
+  "both_run_output_hashes_match": true,
+  "method": "Separate closed-form evaluator of saved data; no full experiment rerun",
+  "independence_limit": "Reviewer read the plan and main code before this separate audit. It is not a blinded review."
+}

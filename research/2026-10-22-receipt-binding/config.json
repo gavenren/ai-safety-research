@@ -1,0 +1,25 @@
+{
+  "accounts": [
+    "A",
+    "B"
+  ],
+  "keys": [
+    0,
+    1
+  ],
+  "targets": [
+    "x",
+    "y"
+  ],
+  "deltas": [
+    -1,
+    1
+  ],
+  "rules": [
+    "global_key",
+    "account_key",
+    "account_target_key",
+    "full_request_key",
+    "bound_receipt"
+  ]
+}

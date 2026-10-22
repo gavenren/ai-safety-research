@@ -1,0 +1,10 @@
+{
+  "all_baselines_have_counterexample": true,
+  "bound_receipt_exact": true,
+  "complete_case_count": true,
+  "exact_retry_controls": true,
+  "failed_assertions": 0,
+  "frozen_inputs": true,
+  "oracle_class_counts": true,
+  "unknown_cases": 0
+}
