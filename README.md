@@ -16,6 +16,7 @@ The first example study was completed on October 8, 2026. The owner requested fi
 
 | Date | Study | Main result | Review status |
 | --- | --- | --- | --- |
+| 2026-10-23 | [A valid receipt does not prove the record is still correct](research/2026-10-23-receipt-state/report.md) | Six rules on 338 synthetic histories each. Receipt-based current claims were false in 160 histories. Exact replay added no effect but did not fix those claims. A fresh condition still allowed 10 extra writes under the original-operation-only contract. | AI-generated; independent full-trace comparison and separate source and method reviews passed; no human review. |
 | 2026-10-22 | [Bounding AI Compute with Attested Receipts](research/2026-10-22-compute-verification/report.md) | Conditional fleet and project bounds; missing-capacity budgets; five synthetic scenarios and 4,096 missingness checks. Proposed design, no hardware validation. | AI-generated working paper; separate AI review and reproduction completed; no human review. |
 | 2026-10-22 | [Repeated gate requests during overlapping undo](research/2026-10-22-overlapping-undo-gates/report.md) | Original synthetic study plus production extension. Eight selected Google Drive cases added 40 observed boundaries. The flag and count rules admitted three reads while another operation remained pending. The registry matched the selected checkpoints. One late read and one missing fresh metadata baseline limit the full-set claim. | AI-generated; separate agent review passed for the stated scope; deviations disclosed; no human review. |
 | 2026-10-22 | [A locally valid undo step can block safe completion](research/2026-10-22-safe-undo-order/report.md) | Original synthetic study plus production extension. Six selected Google Calendar cases added 16 browser field changes. Fixed order crossed a declared invalid state, greedy order stopped before the target, and complete search followed a valid path. The state condition was supplied by the researcher; Calendar did not enforce it. | AI-generated; separate agent review passed for the stated scope; deviations disclosed; no human review. |
@@ -57,3 +58,4 @@ The protocol uses relevant parts of the [NeurIPS Paper Checklist](https://neurip
 ## Rights
 
 No reuse license has been selected for this repository. Third-party material remains subject to its source license and attribution requirements.
+
