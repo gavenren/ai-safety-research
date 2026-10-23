@@ -1,0 +1,12 @@
+{
+  "python": "3.13.7",
+  "implementation": "CPython",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "elapsed_wall_seconds": 0.10641704199952073,
+  "elapsed_cpu_seconds": 0.10260000000000001,
+  "dependencies": "Python standard library",
+  "random_seed": null,
+  "randomness": "none",
+  "cases": 338,
+  "outcomes": 2028
+}

@@ -1,0 +1,16 @@
+left,right,false_history_right_minus_left,dated_claims_right_minus_left,false_dated_right_minus_left,reply_claims_right_minus_left,reply_positive_claims_right_minus_left,reply_negative_claims_right_minus_left,false_positive_right_minus_left,false_negative_right_minus_left,unknown_right_minus_left,extra_effects_right_minus_left,overwrites_right_minus_left,unrelated_damage_right_minus_left,reads_right_minus_left,dispatches_right_minus_left,receipt_hits_right_minus_left,accepted_new_writes_right_minus_left,condition_refusals_right_minus_left
+R0,R1,0,0,0,0,-130,130,-80,50,0,0,0,0,338,0,0,0,0
+R0,R2,0,338,0,-338,-338,0,-160,0,338,0,0,0,338,0,0,0,0
+R0,R3,0,0,0,0,0,0,0,0,0,0,0,0,338,130,130,0,0
+R0,R4,0,0,0,0,0,0,-80,0,0,130,80,0,338,130,0,130,0
+R0,R5,0,0,0,-120,-120,0,-80,0,120,10,10,0,338,130,0,10,120
+R1,R2,0,338,0,-338,-208,-130,-80,-50,338,0,0,0,0,0,0,0,0
+R1,R3,0,0,0,0,130,-130,80,-50,0,0,0,0,0,130,130,0,0
+R1,R4,0,0,0,0,130,-130,0,-50,0,130,80,0,0,130,0,130,0
+R1,R5,0,0,0,-120,10,-130,0,-50,120,10,10,0,0,130,0,10,120
+R2,R3,0,-338,0,338,338,0,160,0,-338,0,0,0,0,130,130,0,0
+R2,R4,0,-338,0,338,338,0,80,0,-338,130,80,0,0,130,0,130,0
+R2,R5,0,-338,0,218,218,0,80,0,-218,10,10,0,0,130,0,10,120
+R3,R4,0,0,0,0,0,0,-80,0,0,130,80,0,0,0,-130,130,0
+R3,R5,0,0,0,-120,-120,0,-80,0,120,10,10,0,0,0,-130,10,120
+R4,R5,0,0,0,-120,-120,0,0,0,120,-120,-70,0,0,0,0,-120,120

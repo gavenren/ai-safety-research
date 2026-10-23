@@ -1,0 +1,6215 @@
+[
+  {
+    "history_id": "t1-a00-b00",
+    "target": 1,
+    "A": [],
+    "B": [],
+    "rule": "R0",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": null,
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 0,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b00",
+    "target": 1,
+    "A": [],
+    "B": [],
+    "rule": "R1",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 3,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b00",
+    "target": 1,
+    "A": [],
+    "B": [],
+    "rule": "R2",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": null,
+      "read_match": true,
+      "read_point": 2
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 1,
+      "false_dated": 0,
+      "reply_claims": 0,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 1,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 3,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": null,
+          "read_match": true,
+          "read_point": 2
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b00",
+    "target": 1,
+    "A": [],
+    "B": [],
+    "rule": "R3",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 3,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b00",
+    "target": 1,
+    "A": [],
+    "B": [],
+    "rule": "R4",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 3,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b00",
+    "target": 1,
+    "A": [],
+    "B": [],
+    "rule": "R5",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 3,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b01",
+    "target": 1,
+    "A": [],
+    "B": [
+      "set0"
+    ],
+    "rule": "R0",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": null,
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 0,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_B",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b01",
+    "target": 1,
+    "A": [],
+    "B": [
+      "set0"
+    ],
+    "rule": "R1",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_B",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b01",
+    "target": 1,
+    "A": [],
+    "B": [
+      "set0"
+    ],
+    "rule": "R2",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": null,
+      "read_match": true,
+      "read_point": 2
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 1,
+      "false_dated": 0,
+      "reply_claims": 0,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 1,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_B",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": null,
+          "read_match": true,
+          "read_point": 2
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b01",
+    "target": 1,
+    "A": [],
+    "B": [
+      "set0"
+    ],
+    "rule": "R3",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_B",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b01",
+    "target": 1,
+    "A": [],
+    "B": [
+      "set0"
+    ],
+    "rule": "R4",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_B",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a00-b01",
+    "target": 1,
+    "A": [],
+    "B": [
+      "set0"
+    ],
+    "rule": "R5",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 1
+    },
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_B",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b00",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [],
+    "rule": "R0",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": null,
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 0,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b00",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [],
+    "rule": "R1",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": false,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": false,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b00",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [],
+    "rule": "R2",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": null,
+      "read_match": false,
+      "read_point": 3
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 1,
+      "false_dated": 0,
+      "reply_claims": 0,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 1,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": null,
+          "read_match": false,
+          "read_point": 3
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b00",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [],
+    "rule": "R3",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "action": "original_receipt_replay",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 1,
+      "receipt_hits": 1,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "original_receipt_replay",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b00",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [],
+    "rule": "R4",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "new_key_effect",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 1,
+      "overwrites": 1,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 1,
+      "receipt_hits": 0,
+      "accepted_new_writes": 1,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "new_key_effect",
+        "detail": {
+          "key": "repair",
+          "set_x": 1,
+          "expected_revision": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b00",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [],
+    "rule": "R5",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "new_key_effect",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 1,
+      "overwrites": 1,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 1,
+      "receipt_hits": 0,
+      "accepted_new_writes": 1,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "new_key_effect",
+        "detail": {
+          "key": "repair",
+          "set_x": 1,
+          "expected_revision": 2
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b02",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "set1"
+    ],
+    "rule": "R0",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": null,
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 0,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_B",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b02",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "set1"
+    ],
+    "rule": "R1",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": false,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 1,
+      "false_positive": 0,
+      "false_negative": 1,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "external_B",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": false,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b02",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "set1"
+    ],
+    "rule": "R2",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": null,
+      "read_match": false,
+      "read_point": 3
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 1,
+      "false_dated": 0,
+      "reply_claims": 0,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 1,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "external_B",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": null,
+          "read_match": false,
+          "read_point": 3
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b02",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "set1"
+    ],
+    "rule": "R3",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "original_receipt_replay",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 1,
+      "receipt_hits": 1,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "external_B",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "original_receipt_replay",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 6,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b02",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "set1"
+    ],
+    "rule": "R4",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 4
+    },
+    "action": "new_key_effect",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 1,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 1,
+      "receipt_hits": 0,
+      "accepted_new_writes": 1,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "external_B",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "new_key_effect",
+        "detail": {
+          "key": "repair",
+          "set_x": 1,
+          "expected_revision": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 4
+        }
+      },
+      {
+        "point": 6,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 4
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b02",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "set1"
+    ],
+    "rule": "R5",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "condition_refused",
+    "claims": {
+      "original_applied": true,
+      "current_match": null,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 0,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 1,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 1,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 1
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "external_B",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "condition_refused",
+        "detail": {
+          "expected_revision": 2,
+          "new_key": "repair"
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 6,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": null,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b03",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "flip_y"
+    ],
+    "rule": "R0",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": null,
+    "baseline": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "final": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 0,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_B",
+        "detail": "flip_y",
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b03",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "flip_y"
+    ],
+    "rule": "R1",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "final": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": false,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "external_B",
+        "detail": "flip_y",
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": false,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b03",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "flip_y"
+    ],
+    "rule": "R2",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "final": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": null,
+      "read_match": false,
+      "read_point": 3
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 1,
+      "false_dated": 0,
+      "reply_claims": 0,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 1,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "external_B",
+        "detail": "flip_y",
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": null,
+          "read_match": false,
+          "read_point": 3
+        },
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b03",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "flip_y"
+    ],
+    "rule": "R3",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "final": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "action": "original_receipt_replay",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 1,
+      "receipt_hits": 1,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "external_B",
+        "detail": "flip_y",
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "original_receipt_replay",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      },
+      {
+        "point": 6,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b03",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "flip_y"
+    ],
+    "rule": "R4",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 1,
+      "v": 4
+    },
+    "action": "new_key_effect",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 1,
+      "overwrites": 1,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 1,
+      "receipt_hits": 0,
+      "accepted_new_writes": 1,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "external_B",
+        "detail": "flip_y",
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "new_key_effect",
+        "detail": {
+          "key": "repair",
+          "set_x": 1,
+          "expected_revision": null
+        },
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 4
+        }
+      },
+      {
+        "point": 6,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 4
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a01-b03",
+    "target": 1,
+    "A": [
+      "set0"
+    ],
+    "B": [
+      "flip_y"
+    ],
+    "rule": "R5",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 0,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "final": {
+      "x": 0,
+      "y": 1,
+      "v": 3
+    },
+    "action": "condition_refused",
+    "claims": {
+      "original_applied": true,
+      "current_match": null,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 0,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 1,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 1,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 1
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "external_B",
+        "detail": "flip_y",
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "condition_refused",
+        "detail": {
+          "expected_revision": 2,
+          "new_key": "repair"
+        },
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      },
+      {
+        "point": 6,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": null,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 0,
+          "y": 1,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a02-b00",
+    "target": 1,
+    "A": [
+      "set1"
+    ],
+    "B": [],
+    "rule": "R0",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": null,
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 0,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a02-b00",
+    "target": 1,
+    "A": [
+      "set1"
+    ],
+    "B": [],
+    "rule": "R1",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a02-b00",
+    "target": 1,
+    "A": [
+      "set1"
+    ],
+    "B": [],
+    "rule": "R2",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": null,
+      "read_match": true,
+      "read_point": 3
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 1,
+      "false_dated": 0,
+      "reply_claims": 0,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 1,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": null,
+          "read_match": true,
+          "read_point": 3
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a02-b00",
+    "target": 1,
+    "A": [
+      "set1"
+    ],
+    "B": [],
+    "rule": "R3",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a02-b00",
+    "target": 1,
+    "A": [
+      "set1"
+    ],
+    "B": [],
+    "rule": "R4",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a02-b00",
+    "target": 1,
+    "A": [
+      "set1"
+    ],
+    "B": [],
+    "rule": "R5",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a03-b00",
+    "target": 1,
+    "A": [
+      "flip_y"
+    ],
+    "B": [],
+    "rule": "R0",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": null,
+    "baseline": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 0,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "flip_y",
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a03-b00",
+    "target": 1,
+    "A": [
+      "flip_y"
+    ],
+    "B": [],
+    "rule": "R1",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "flip_y",
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a03-b00",
+    "target": 1,
+    "A": [
+      "flip_y"
+    ],
+    "B": [],
+    "rule": "R2",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": null,
+      "read_match": true,
+      "read_point": 3
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 1,
+      "false_dated": 0,
+      "reply_claims": 0,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 1,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "flip_y",
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": null,
+          "read_match": true,
+          "read_point": 3
+        },
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a03-b00",
+    "target": 1,
+    "A": [
+      "flip_y"
+    ],
+    "B": [],
+    "rule": "R3",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "flip_y",
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a03-b00",
+    "target": 1,
+    "A": [
+      "flip_y"
+    ],
+    "B": [],
+    "rule": "R4",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "flip_y",
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a03-b00",
+    "target": 1,
+    "A": [
+      "flip_y"
+    ],
+    "B": [],
+    "rule": "R5",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "baseline": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "final": {
+      "x": 1,
+      "y": 1,
+      "v": 2
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "flip_y",
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 1,
+          "v": 2
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a05-b00",
+    "target": 1,
+    "A": [
+      "set0",
+      "set1"
+    ],
+    "B": [],
+    "rule": "R0",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": null,
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 0,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 4,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a05-b00",
+    "target": 1,
+    "A": [
+      "set0",
+      "set1"
+    ],
+    "B": [],
+    "rule": "R1",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 4,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a05-b00",
+    "target": 1,
+    "A": [
+      "set0",
+      "set1"
+    ],
+    "B": [],
+    "rule": "R2",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": null,
+      "read_match": true,
+      "read_point": 4
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 1,
+      "false_dated": 0,
+      "reply_claims": 0,
+      "reply_positive_claims": 0,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 1,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 4,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": null,
+          "read_match": true,
+          "read_point": 4
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a05-b00",
+    "target": 1,
+    "A": [
+      "set0",
+      "set1"
+    ],
+    "B": [],
+    "rule": "R3",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 4,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a05-b00",
+    "target": 1,
+    "A": [
+      "set0",
+      "set1"
+    ],
+    "B": [],
+    "rule": "R4",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 4,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  },
+  {
+    "history_id": "t1-a05-b00",
+    "target": 1,
+    "A": [
+      "set0",
+      "set1"
+    ],
+    "B": [],
+    "rule": "R5",
+    "receipt": {
+      "account": "synthetic-account",
+      "key": "original",
+      "target": "synthetic-record",
+      "payload": {
+        "set_x": 1
+      },
+      "effect_number": 1,
+      "post_revision": 1
+    },
+    "read": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "baseline": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "final": {
+      "x": 1,
+      "y": 0,
+      "v": 3
+    },
+    "action": "none",
+    "claims": {
+      "original_applied": true,
+      "current_match": true,
+      "read_match": null,
+      "read_point": null
+    },
+    "scores": {
+      "false_history": 0,
+      "dated_claims": 0,
+      "false_dated": 0,
+      "reply_claims": 1,
+      "reply_positive_claims": 1,
+      "reply_negative_claims": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unknown": 0,
+      "extra_effects": 0,
+      "overwrites": 0,
+      "unrelated_damage": 0,
+      "reads": 1,
+      "dispatches": 0,
+      "receipt_hits": 0,
+      "accepted_new_writes": 0,
+      "condition_refusals": 0
+    },
+    "trace": [
+      {
+        "point": 0,
+        "kind": "initial",
+        "detail": null,
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 0
+        }
+      },
+      {
+        "point": 1,
+        "kind": "first_effect_and_receipt",
+        "detail": {
+          "account": "synthetic-account",
+          "key": "original",
+          "target": "synthetic-record",
+          "payload": {
+            "set_x": 1
+          },
+          "effect_number": 1,
+          "post_revision": 1
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 1
+        }
+      },
+      {
+        "point": 2,
+        "kind": "external_A",
+        "detail": "set0",
+        "state": {
+          "x": 0,
+          "y": 0,
+          "v": 2
+        }
+      },
+      {
+        "point": 3,
+        "kind": "external_A",
+        "detail": "set1",
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 4,
+        "kind": "atomic_read",
+        "detail": null,
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      },
+      {
+        "point": 5,
+        "kind": "reply",
+        "detail": {
+          "original_applied": true,
+          "current_match": true,
+          "read_match": null,
+          "read_point": null
+        },
+        "state": {
+          "x": 1,
+          "y": 0,
+          "v": 3
+        }
+      }
+    ]
+  }
+]

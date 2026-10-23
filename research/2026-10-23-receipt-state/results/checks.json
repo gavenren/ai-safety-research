@@ -1,0 +1,9 @@
+{
+  "historical_and_dated_claims_correct": true,
+  "no_y_damage": true,
+  "same_key_no_extra_effect": true,
+  "unconditional_new_key_accepts_dispatch": true,
+  "cas_accepts_dispatched_iff_B_empty": true,
+  "no_background_control": true,
+  "target_symmetry": true
+}
