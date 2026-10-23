@@ -1,0 +1,14 @@
+{
+  "rows.jsonl": {
+    "match": true,
+    "sha256": "7a846360c53ce2bc410450b7918e9600232c31bcd4c952062095cd71d1cb6c29"
+  },
+  "summary.json": {
+    "match": true,
+    "sha256": "2dbaa32f68e0044c2a11f7840c404e586bc628cc4a457409e59a2f4cddd1f35f"
+  },
+  "paired_examples.json": {
+    "match": true,
+    "sha256": "1e281d9b0909b66413b799569efe192e71c952b8ececb9872678ca3640c082a9"
+  }
+}

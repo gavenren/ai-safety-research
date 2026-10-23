@@ -1,0 +1,29 @@
+{
+  "code_sha256": "0418606ff8c2b1f7957a15d70be71a13fd47992ada8bb6ff40063ec9a95b60d3",
+  "command": [
+    "independent_check.py",
+    "--main-results",
+    "reproduced/results.jsonl",
+    "--out",
+    "independent_reproduced"
+  ],
+  "comparison": {
+    "fields": "every case field, every score, every trace event, and every receipt",
+    "main_results_sha256": "49849726e2ff6b470d8224d0622877d653adc1059b71b31d4206ff4907c5133b",
+    "rule_outcomes": 2028,
+    "scalar_values_compared": 192566,
+    "status": "pass",
+    "trace_events_compared": 14716
+  },
+  "cpu_seconds": 0.23117200000000002,
+  "finished_utc": "2026-10-23T14:11:03.537684+00:00",
+  "histories": 338,
+  "main_code_read_or_imported": false,
+  "manual_symmetry_cost_checks": 4428,
+  "plan_sha256": "c84529e57362e4166643ed400783be8c42c6a79b2993fffa4cbeca104df1d0f4",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7",
+  "rule_outcomes": 2028,
+  "started_utc": "2026-10-23T14:11:03.310417+00:00",
+  "status": "pass"
+}

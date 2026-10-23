@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "deterministic_files": {
+    "results/cases.jsonl": {
+      "match": true,
+      "sha256": "949caa22e292a20728bf46bea1c75773848b7072230dd1e498301c77177ee7d8"
+    },
+    "results/results.jsonl": {
+      "match": true,
+      "sha256": "49849726e2ff6b470d8224d0622877d653adc1059b71b31d4206ff4907c5133b"
+    },
+    "results/summary.csv": {
+      "match": true,
+      "sha256": "56ae2502e563301b56fd26456e4d2c1a2dd2c435a13df3c940b56913c10711b3"
+    },
+    "results/paired_differences.csv": {
+      "match": true,
+      "sha256": "8a50518faa8bab88b0229553191abb897cadf73dd77319b85cf90ddae1797e49"
+    },
+    "results/examples.json": {
+      "match": true,
+      "sha256": "51caf69d5ab3a08a6b8f4ccb90fdf8000c0f0f8ac6f2ee1fbed13790605edc25"
+    },
+    "results/checks.json": {
+      "match": true,
+      "sha256": "5c47ed04b2bba61e05e2fcf883a717cfd364805651b9dc29931e49f7bd31041b"
+    },
+    "independent_verified/rows.jsonl": {
+      "match": true,
+      "sha256": "7a846360c53ce2bc410450b7918e9600232c31bcd4c952062095cd71d1cb6c29"
+    },
+    "independent_verified/summary.json": {
+      "match": true,
+      "sha256": "2dbaa32f68e0044c2a11f7840c404e586bc628cc4a457409e59a2f4cddd1f35f"
+    },
+    "independent_verified/paired_examples.json": {
+      "match": true,
+      "sha256": "1e281d9b0909b66413b799569efe192e71c952b8ececb9872678ca3640c082a9"
+    }
+  }
+}
