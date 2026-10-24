@@ -1,0 +1,8 @@
+{
+  "frozen_at_utc": "2026-10-24T14:24:56.402320+00:00",
+  "adapter_sha256": "1ffbef834bb89af005a9557b2cc6980def1c41e82cfc316c74f58b7afe315c32",
+  "independent_code_sha256": "50538bb607624eb2d56cd9440a97419adf294f4a70e7222f6c685848792cd8ff",
+  "main_runner_source_read": false,
+  "schema_and_selected_raw_trace_examples_read": true,
+  "full_comparison_run": false
+}

@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "main_runner_imported": false,
+  "main_runner_source_read": false,
+  "cases": 5184,
+  "worker_decisions_compared": 10368,
+  "read_values_compared": 72576,
+  "event_state_values_compared": 350784,
+  "score_values_compared": 62208,
+  "physical_quota_rows": 5184,
+  "physical_allocation_rows": 10368,
+  "sql_statements_compared": 137132,
+  "sql_by_command": {
+    "BEGIN": 18066,
+    "INSERT": 15552,
+    "COMMIT": 18066,
+    "SELECT": 65664,
+    "UPDATE": 19784
+  },
+  "pure_checks": {
+    "cases": 5184,
+    "symmetry_cases": 5184,
+    "complete_pair_cases": 2304,
+    "serial_own_controls": 32,
+    "noise_invariance_pairs_without_shared_epoch": 1920
+  },
+  "meaning": "All saved trace semantics, SQL dispatch data, logical dump, and reopened physical final rows match the frozen independent specification. This does not validate provider behavior or unconstrained concurrency.",
+  "wall_seconds": 1.033439000006183,
+  "files": {
+    "traces": {
+      "name": "traces.jsonl.gz",
+      "sha256": "fadb43bcdb6c86fca62e7578415b305475417008e56d4fcd4a10790dc3c2bc44"
+    },
+    "database": {
+      "name": "evidence.sqlite",
+      "sha256": "73d1cb5b92dfa14601ba4d1cf44e6ccdcfe56144179ed8f8f4db6849989db6d8"
+    },
+    "logical": {
+      "name": "logical_database.json.gz",
+      "sha256": "29c2b573b1a0a9a8fed26eaa61efcdc345f29e5eee02954799867f8c5cf2f01a"
+    }
+  }
+}

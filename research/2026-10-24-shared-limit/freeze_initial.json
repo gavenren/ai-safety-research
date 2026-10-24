@@ -1,0 +1,8 @@
+{
+  "frozen_at_utc": "2026-10-24T14:21:11.966725+00:00",
+  "plan_sha256": "a80f195a5fb95d7c6edea4149548e172e138952ac524bdf6b702e7e746bed93a",
+  "before_implementation_and_execution": true,
+  "cases": 5184,
+  "scenarios_per_pair": 576,
+  "ordered_policy_pairs": 9
+}

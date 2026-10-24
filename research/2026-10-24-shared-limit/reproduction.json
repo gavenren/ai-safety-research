@@ -1,0 +1,30 @@
+{
+  "inputs.json": {
+    "match": true,
+    "sha256": "f6b189bb7d39b7153e81671d0d991b7d7b2fc514578550a99259b1e229085fe5"
+  },
+  "controls.json": {
+    "match": true,
+    "sha256": "72342de3f937a6c2720b667497c330ef3965c47ab27f4ab681facc133bd0d7a7"
+  },
+  "traces.jsonl.gz": {
+    "match": true,
+    "sha256": "fadb43bcdb6c86fca62e7578415b305475417008e56d4fcd4a10790dc3c2bc44"
+  },
+  "summary.csv": {
+    "match": true,
+    "sha256": "a46dda9f7d28a1891ea5528f5b565af06e7b47f02c34d175f64cbcde51009ac6"
+  },
+  "logical_database.json.gz": {
+    "match": true,
+    "sha256": "29c2b573b1a0a9a8fed26eaa61efcdc345f29e5eee02954799867f8c5cf2f01a"
+  },
+  "paired_metadata.json": {
+    "match": true,
+    "sha256": "b8269163f3bc191618cdf8140376210ec21006ae626ad188b4d46636dc2afc97"
+  },
+  "minimum_breaches.json": {
+    "match": true,
+    "sha256": "fa1c07f57fdd2d77f0a03a3b1b89304744b5493d04157259924b9eeaa66a300b"
+  }
+}

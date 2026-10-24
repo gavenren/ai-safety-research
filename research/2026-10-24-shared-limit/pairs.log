@@ -1,0 +1,74 @@
+{
+  "AtomicSum/AtomicSum": {
+    "accepted_jobs_delta": 0,
+    "breaches_added": 0,
+    "breaches_removed": 0,
+    "feasible_refusals_delta": 0,
+    "job_decisions_changed": 0,
+    "pairs": 480
+  },
+  "AtomicSum/OwnCAS": {
+    "accepted_jobs_delta": 0,
+    "breaches_added": 0,
+    "breaches_removed": 0,
+    "feasible_refusals_delta": 0,
+    "job_decisions_changed": 0,
+    "pairs": 480
+  },
+  "AtomicSum/SharedEpoch": {
+    "accepted_jobs_delta": -50,
+    "breaches_added": 0,
+    "breaches_removed": 0,
+    "feasible_refusals_delta": 70,
+    "job_decisions_changed": 90,
+    "pairs": 480
+  },
+  "OwnCAS/AtomicSum": {
+    "accepted_jobs_delta": 0,
+    "breaches_added": 0,
+    "breaches_removed": 0,
+    "feasible_refusals_delta": 0,
+    "job_decisions_changed": 0,
+    "pairs": 480
+  },
+  "OwnCAS/OwnCAS": {
+    "accepted_jobs_delta": 0,
+    "breaches_added": 0,
+    "breaches_removed": 0,
+    "feasible_refusals_delta": 0,
+    "job_decisions_changed": 0,
+    "pairs": 480
+  },
+  "OwnCAS/SharedEpoch": {
+    "accepted_jobs_delta": -65,
+    "breaches_added": 0,
+    "breaches_removed": 15,
+    "feasible_refusals_delta": 70,
+    "job_decisions_changed": 75,
+    "pairs": 480
+  },
+  "SharedEpoch/AtomicSum": {
+    "accepted_jobs_delta": -50,
+    "breaches_added": 0,
+    "breaches_removed": 0,
+    "feasible_refusals_delta": 70,
+    "job_decisions_changed": 90,
+    "pairs": 480
+  },
+  "SharedEpoch/OwnCAS": {
+    "accepted_jobs_delta": -65,
+    "breaches_added": 0,
+    "breaches_removed": 15,
+    "feasible_refusals_delta": 70,
+    "job_decisions_changed": 75,
+    "pairs": 480
+  },
+  "SharedEpoch/SharedEpoch": {
+    "accepted_jobs_delta": -104,
+    "breaches_added": 0,
+    "breaches_removed": 0,
+    "feasible_refusals_delta": 144,
+    "job_decisions_changed": 176,
+    "pairs": 480
+  }
+}
