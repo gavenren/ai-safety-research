@@ -1,0 +1,9122 @@
+[
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 1,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 2,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 3,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      1,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      1
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "CA",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "CA",
+      "U",
+      "RB",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 0,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "CA",
+      "RB",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 1,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": -1,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RA",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 1,
+    "schedule": [
+      "RA",
+      "U",
+      "RB",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 2,
+    "schedule": [
+      "RA",
+      "RB",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 3,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 2,
+    "u_position": 4,
+    "schedule": [
+      "RA",
+      "RB",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CA",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "U",
+      "CB"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 3,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CA",
+      "CB",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "RA",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "RA",
+      "U",
+      "CB",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 4,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "RA",
+      "CB",
+      "CA",
+      "U"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": -1,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 0,
+    "schedule": [
+      "U",
+      "RB",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 1,
+    "schedule": [
+      "RB",
+      "U",
+      "CB",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 2,
+    "schedule": [
+      "RB",
+      "CB",
+      "U",
+      "RA",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 3,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "U",
+      "CA"
+    ]
+  },
+  {
+    "capacity": 4,
+    "demands": [
+      2,
+      2
+    ],
+    "base_order": 5,
+    "u_position": 4,
+    "schedule": [
+      "RB",
+      "CB",
+      "RA",
+      "CA",
+      "U"
+    ]
+  }
+]

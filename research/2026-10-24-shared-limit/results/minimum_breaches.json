@@ -1,0 +1,2737 @@
+{
+  "AtomicSum/OwnCAS": {
+    "case_id": "c00060",
+    "final": {
+      "capacity": 1,
+      "epoch": 2,
+      "note": 0,
+      "units": [
+        1,
+        1
+      ],
+      "versions": [
+        1,
+        1
+      ]
+    },
+    "initial": {
+      "capacity": 1,
+      "epoch": 0,
+      "note": 0,
+      "units": [
+        0,
+        0
+      ],
+      "versions": [
+        0,
+        0
+      ]
+    },
+    "input": {
+      "base_order": 1,
+      "capacity": 1,
+      "demands": [
+        1,
+        1
+      ],
+      "schedule": [
+        "RA",
+        "RB",
+        "CA",
+        "CB"
+      ],
+      "u_position": -1
+    },
+    "jobs": [
+      {
+        "accepted": true,
+        "feasible_before": true,
+        "reason": "accepted",
+        "write_attempt": 1
+      },
+      {
+        "accepted": true,
+        "feasible_before": false,
+        "reason": "accepted",
+        "write_attempt": 1
+      }
+    ],
+    "policies": [
+      "AtomicSum",
+      "OwnCAS"
+    ],
+    "scores": {
+      "accepted_jobs": 2,
+      "bad_admissions": 1,
+      "breach": 1,
+      "epoch_errors": 0,
+      "excess_units": 1,
+      "feasible_refusals": 0,
+      "guard_refusals": 0,
+      "read_denials": 0,
+      "reads": 2,
+      "refused_jobs": 0,
+      "row_errors": 0,
+      "write_attempts": 2
+    },
+    "setup_sql": [
+      {
+        "params": [],
+        "rowcount": -1,
+        "rows": [],
+        "sql": "BEGIN IMMEDIATE"
+      },
+      {
+        "params": [
+          "c00060",
+          1
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO quotas VALUES(?,?,0,0)"
+      },
+      {
+        "params": [
+          "c00060",
+          0
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO allocations VALUES(?,?,0,0)"
+      },
+      {
+        "params": [
+          "c00060",
+          1
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO allocations VALUES(?,?,0,0)"
+      },
+      {
+        "params": [],
+        "rowcount": -1,
+        "rows": [],
+        "sql": "COMMIT"
+      },
+      {
+        "params": [
+          "c00060"
+        ],
+        "rowcount": -1,
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+      }
+    ],
+    "trace": [
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": null,
+        "event": "RA",
+        "read": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "sql_log": [
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": null,
+        "event": "RB",
+        "read": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "sql_log": [
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 1,
+          "note": 0,
+          "units": [
+            1,
+            0
+          ],
+          "versions": [
+            1,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": {
+          "accepted": true,
+          "feasible_before": true,
+          "reason": "accepted",
+          "write_attempt": 1
+        },
+        "event": "CA",
+        "read": null,
+        "sql_log": [
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "BEGIN IMMEDIATE"
+          },
+          {
+            "params": [
+              1,
+              "c00060",
+              0,
+              0,
+              "c00060",
+              1,
+              "c00060"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE allocations SET units=?,version=version+1 WHERE case_id=? AND worker=? AND units=0 AND version=? AND (SELECT SUM(units) FROM allocations WHERE case_id=?)+? <= (SELECT capacity FROM quotas WHERE id=?)"
+          },
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE quotas SET epoch=epoch+1 WHERE id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "COMMIT"
+          },
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 2,
+          "note": 0,
+          "units": [
+            1,
+            1
+          ],
+          "versions": [
+            1,
+            1
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 1,
+          "note": 0,
+          "units": [
+            1,
+            0
+          ],
+          "versions": [
+            1,
+            0
+          ]
+        },
+        "decision": {
+          "accepted": true,
+          "feasible_before": false,
+          "reason": "accepted",
+          "write_attempt": 1
+        },
+        "event": "CB",
+        "read": null,
+        "sql_log": [
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "BEGIN IMMEDIATE"
+          },
+          {
+            "params": [
+              1,
+              "c00060",
+              1,
+              0
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE allocations SET units=?,version=version+1 WHERE case_id=? AND worker=? AND units=0 AND version=?"
+          },
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE quotas SET epoch=epoch+1 WHERE id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "COMMIT"
+          },
+          {
+            "params": [
+              "c00060"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                2,
+                0,
+                1,
+                1,
+                1,
+                1
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      }
+    ]
+  },
+  "OwnCAS/AtomicSum": {
+    "case_id": "c00110",
+    "final": {
+      "capacity": 1,
+      "epoch": 2,
+      "note": 0,
+      "units": [
+        1,
+        1
+      ],
+      "versions": [
+        1,
+        1
+      ]
+    },
+    "initial": {
+      "capacity": 1,
+      "epoch": 0,
+      "note": 0,
+      "units": [
+        0,
+        0
+      ],
+      "versions": [
+        0,
+        0
+      ]
+    },
+    "input": {
+      "base_order": 2,
+      "capacity": 1,
+      "demands": [
+        1,
+        1
+      ],
+      "schedule": [
+        "RA",
+        "RB",
+        "CB",
+        "CA"
+      ],
+      "u_position": -1
+    },
+    "jobs": [
+      {
+        "accepted": true,
+        "feasible_before": false,
+        "reason": "accepted",
+        "write_attempt": 1
+      },
+      {
+        "accepted": true,
+        "feasible_before": true,
+        "reason": "accepted",
+        "write_attempt": 1
+      }
+    ],
+    "policies": [
+      "OwnCAS",
+      "AtomicSum"
+    ],
+    "scores": {
+      "accepted_jobs": 2,
+      "bad_admissions": 1,
+      "breach": 1,
+      "epoch_errors": 0,
+      "excess_units": 1,
+      "feasible_refusals": 0,
+      "guard_refusals": 0,
+      "read_denials": 0,
+      "reads": 2,
+      "refused_jobs": 0,
+      "row_errors": 0,
+      "write_attempts": 2
+    },
+    "setup_sql": [
+      {
+        "params": [],
+        "rowcount": -1,
+        "rows": [],
+        "sql": "BEGIN IMMEDIATE"
+      },
+      {
+        "params": [
+          "c00110",
+          1
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO quotas VALUES(?,?,0,0)"
+      },
+      {
+        "params": [
+          "c00110",
+          0
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO allocations VALUES(?,?,0,0)"
+      },
+      {
+        "params": [
+          "c00110",
+          1
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO allocations VALUES(?,?,0,0)"
+      },
+      {
+        "params": [],
+        "rowcount": -1,
+        "rows": [],
+        "sql": "COMMIT"
+      },
+      {
+        "params": [
+          "c00110"
+        ],
+        "rowcount": -1,
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+      }
+    ],
+    "trace": [
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": null,
+        "event": "RA",
+        "read": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "sql_log": [
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": null,
+        "event": "RB",
+        "read": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "sql_log": [
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 1,
+          "note": 0,
+          "units": [
+            0,
+            1
+          ],
+          "versions": [
+            0,
+            1
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": {
+          "accepted": true,
+          "feasible_before": true,
+          "reason": "accepted",
+          "write_attempt": 1
+        },
+        "event": "CB",
+        "read": null,
+        "sql_log": [
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "BEGIN IMMEDIATE"
+          },
+          {
+            "params": [
+              1,
+              "c00110",
+              1,
+              0,
+              "c00110",
+              1,
+              "c00110"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE allocations SET units=?,version=version+1 WHERE case_id=? AND worker=? AND units=0 AND version=? AND (SELECT SUM(units) FROM allocations WHERE case_id=?)+? <= (SELECT capacity FROM quotas WHERE id=?)"
+          },
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE quotas SET epoch=epoch+1 WHERE id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "COMMIT"
+          },
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 2,
+          "note": 0,
+          "units": [
+            1,
+            1
+          ],
+          "versions": [
+            1,
+            1
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 1,
+          "note": 0,
+          "units": [
+            0,
+            1
+          ],
+          "versions": [
+            0,
+            1
+          ]
+        },
+        "decision": {
+          "accepted": true,
+          "feasible_before": false,
+          "reason": "accepted",
+          "write_attempt": 1
+        },
+        "event": "CA",
+        "read": null,
+        "sql_log": [
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "BEGIN IMMEDIATE"
+          },
+          {
+            "params": [
+              1,
+              "c00110",
+              0,
+              0
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE allocations SET units=?,version=version+1 WHERE case_id=? AND worker=? AND units=0 AND version=?"
+          },
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE quotas SET epoch=epoch+1 WHERE id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "COMMIT"
+          },
+          {
+            "params": [
+              "c00110"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                2,
+                0,
+                1,
+                1,
+                1,
+                1
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      }
+    ]
+  },
+  "OwnCAS/OwnCAS": {
+    "case_id": "c00054",
+    "final": {
+      "capacity": 1,
+      "epoch": 2,
+      "note": 0,
+      "units": [
+        1,
+        1
+      ],
+      "versions": [
+        1,
+        1
+      ]
+    },
+    "initial": {
+      "capacity": 1,
+      "epoch": 0,
+      "note": 0,
+      "units": [
+        0,
+        0
+      ],
+      "versions": [
+        0,
+        0
+      ]
+    },
+    "input": {
+      "base_order": 1,
+      "capacity": 1,
+      "demands": [
+        1,
+        1
+      ],
+      "schedule": [
+        "RA",
+        "RB",
+        "CA",
+        "CB"
+      ],
+      "u_position": -1
+    },
+    "jobs": [
+      {
+        "accepted": true,
+        "feasible_before": true,
+        "reason": "accepted",
+        "write_attempt": 1
+      },
+      {
+        "accepted": true,
+        "feasible_before": false,
+        "reason": "accepted",
+        "write_attempt": 1
+      }
+    ],
+    "policies": [
+      "OwnCAS",
+      "OwnCAS"
+    ],
+    "scores": {
+      "accepted_jobs": 2,
+      "bad_admissions": 1,
+      "breach": 1,
+      "epoch_errors": 0,
+      "excess_units": 1,
+      "feasible_refusals": 0,
+      "guard_refusals": 0,
+      "read_denials": 0,
+      "reads": 2,
+      "refused_jobs": 0,
+      "row_errors": 0,
+      "write_attempts": 2
+    },
+    "setup_sql": [
+      {
+        "params": [],
+        "rowcount": -1,
+        "rows": [],
+        "sql": "BEGIN IMMEDIATE"
+      },
+      {
+        "params": [
+          "c00054",
+          1
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO quotas VALUES(?,?,0,0)"
+      },
+      {
+        "params": [
+          "c00054",
+          0
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO allocations VALUES(?,?,0,0)"
+      },
+      {
+        "params": [
+          "c00054",
+          1
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO allocations VALUES(?,?,0,0)"
+      },
+      {
+        "params": [],
+        "rowcount": -1,
+        "rows": [],
+        "sql": "COMMIT"
+      },
+      {
+        "params": [
+          "c00054"
+        ],
+        "rowcount": -1,
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+      }
+    ],
+    "trace": [
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": null,
+        "event": "RA",
+        "read": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "sql_log": [
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": null,
+        "event": "RB",
+        "read": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "sql_log": [
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 1,
+          "note": 0,
+          "units": [
+            1,
+            0
+          ],
+          "versions": [
+            1,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": {
+          "accepted": true,
+          "feasible_before": true,
+          "reason": "accepted",
+          "write_attempt": 1
+        },
+        "event": "CA",
+        "read": null,
+        "sql_log": [
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "BEGIN IMMEDIATE"
+          },
+          {
+            "params": [
+              1,
+              "c00054",
+              0,
+              0
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE allocations SET units=?,version=version+1 WHERE case_id=? AND worker=? AND units=0 AND version=?"
+          },
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE quotas SET epoch=epoch+1 WHERE id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "COMMIT"
+          },
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 2,
+          "note": 0,
+          "units": [
+            1,
+            1
+          ],
+          "versions": [
+            1,
+            1
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 1,
+          "note": 0,
+          "units": [
+            1,
+            0
+          ],
+          "versions": [
+            1,
+            0
+          ]
+        },
+        "decision": {
+          "accepted": true,
+          "feasible_before": false,
+          "reason": "accepted",
+          "write_attempt": 1
+        },
+        "event": "CB",
+        "read": null,
+        "sql_log": [
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "BEGIN IMMEDIATE"
+          },
+          {
+            "params": [
+              1,
+              "c00054",
+              1,
+              0
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE allocations SET units=?,version=version+1 WHERE case_id=? AND worker=? AND units=0 AND version=?"
+          },
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE quotas SET epoch=epoch+1 WHERE id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "COMMIT"
+          },
+          {
+            "params": [
+              "c00054"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                2,
+                0,
+                1,
+                1,
+                1,
+                1
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      }
+    ]
+  },
+  "OwnCAS/SharedEpoch": {
+    "case_id": "c00109",
+    "final": {
+      "capacity": 1,
+      "epoch": 2,
+      "note": 0,
+      "units": [
+        1,
+        1
+      ],
+      "versions": [
+        1,
+        1
+      ]
+    },
+    "initial": {
+      "capacity": 1,
+      "epoch": 0,
+      "note": 0,
+      "units": [
+        0,
+        0
+      ],
+      "versions": [
+        0,
+        0
+      ]
+    },
+    "input": {
+      "base_order": 2,
+      "capacity": 1,
+      "demands": [
+        1,
+        1
+      ],
+      "schedule": [
+        "RA",
+        "RB",
+        "CB",
+        "CA"
+      ],
+      "u_position": -1
+    },
+    "jobs": [
+      {
+        "accepted": true,
+        "feasible_before": false,
+        "reason": "accepted",
+        "write_attempt": 1
+      },
+      {
+        "accepted": true,
+        "feasible_before": true,
+        "reason": "accepted",
+        "write_attempt": 1
+      }
+    ],
+    "policies": [
+      "OwnCAS",
+      "SharedEpoch"
+    ],
+    "scores": {
+      "accepted_jobs": 2,
+      "bad_admissions": 1,
+      "breach": 1,
+      "epoch_errors": 0,
+      "excess_units": 1,
+      "feasible_refusals": 0,
+      "guard_refusals": 0,
+      "read_denials": 0,
+      "reads": 2,
+      "refused_jobs": 0,
+      "row_errors": 0,
+      "write_attempts": 2
+    },
+    "setup_sql": [
+      {
+        "params": [],
+        "rowcount": -1,
+        "rows": [],
+        "sql": "BEGIN IMMEDIATE"
+      },
+      {
+        "params": [
+          "c00109",
+          1
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO quotas VALUES(?,?,0,0)"
+      },
+      {
+        "params": [
+          "c00109",
+          0
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO allocations VALUES(?,?,0,0)"
+      },
+      {
+        "params": [
+          "c00109",
+          1
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO allocations VALUES(?,?,0,0)"
+      },
+      {
+        "params": [],
+        "rowcount": -1,
+        "rows": [],
+        "sql": "COMMIT"
+      },
+      {
+        "params": [
+          "c00109"
+        ],
+        "rowcount": -1,
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+      }
+    ],
+    "trace": [
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": null,
+        "event": "RA",
+        "read": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "sql_log": [
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": null,
+        "event": "RB",
+        "read": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "sql_log": [
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 1,
+          "note": 0,
+          "units": [
+            0,
+            1
+          ],
+          "versions": [
+            0,
+            1
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": {
+          "accepted": true,
+          "feasible_before": true,
+          "reason": "accepted",
+          "write_attempt": 1
+        },
+        "event": "CB",
+        "read": null,
+        "sql_log": [
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "BEGIN IMMEDIATE"
+          },
+          {
+            "params": [
+              1,
+              "c00109",
+              1,
+              0,
+              "c00109",
+              0
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE allocations SET units=?,version=version+1 WHERE case_id=? AND worker=? AND units=0 AND version=? AND EXISTS(SELECT 1 FROM quotas WHERE id=? AND epoch=?)"
+          },
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE quotas SET epoch=epoch+1 WHERE id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "COMMIT"
+          },
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 2,
+          "note": 0,
+          "units": [
+            1,
+            1
+          ],
+          "versions": [
+            1,
+            1
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 1,
+          "note": 0,
+          "units": [
+            0,
+            1
+          ],
+          "versions": [
+            0,
+            1
+          ]
+        },
+        "decision": {
+          "accepted": true,
+          "feasible_before": false,
+          "reason": "accepted",
+          "write_attempt": 1
+        },
+        "event": "CA",
+        "read": null,
+        "sql_log": [
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "BEGIN IMMEDIATE"
+          },
+          {
+            "params": [
+              1,
+              "c00109",
+              0,
+              0
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE allocations SET units=?,version=version+1 WHERE case_id=? AND worker=? AND units=0 AND version=?"
+          },
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE quotas SET epoch=epoch+1 WHERE id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "COMMIT"
+          },
+          {
+            "params": [
+              "c00109"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                2,
+                0,
+                1,
+                1,
+                1,
+                1
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      }
+    ]
+  },
+  "SharedEpoch/OwnCAS": {
+    "case_id": "c00057",
+    "final": {
+      "capacity": 1,
+      "epoch": 2,
+      "note": 0,
+      "units": [
+        1,
+        1
+      ],
+      "versions": [
+        1,
+        1
+      ]
+    },
+    "initial": {
+      "capacity": 1,
+      "epoch": 0,
+      "note": 0,
+      "units": [
+        0,
+        0
+      ],
+      "versions": [
+        0,
+        0
+      ]
+    },
+    "input": {
+      "base_order": 1,
+      "capacity": 1,
+      "demands": [
+        1,
+        1
+      ],
+      "schedule": [
+        "RA",
+        "RB",
+        "CA",
+        "CB"
+      ],
+      "u_position": -1
+    },
+    "jobs": [
+      {
+        "accepted": true,
+        "feasible_before": true,
+        "reason": "accepted",
+        "write_attempt": 1
+      },
+      {
+        "accepted": true,
+        "feasible_before": false,
+        "reason": "accepted",
+        "write_attempt": 1
+      }
+    ],
+    "policies": [
+      "SharedEpoch",
+      "OwnCAS"
+    ],
+    "scores": {
+      "accepted_jobs": 2,
+      "bad_admissions": 1,
+      "breach": 1,
+      "epoch_errors": 0,
+      "excess_units": 1,
+      "feasible_refusals": 0,
+      "guard_refusals": 0,
+      "read_denials": 0,
+      "reads": 2,
+      "refused_jobs": 0,
+      "row_errors": 0,
+      "write_attempts": 2
+    },
+    "setup_sql": [
+      {
+        "params": [],
+        "rowcount": -1,
+        "rows": [],
+        "sql": "BEGIN IMMEDIATE"
+      },
+      {
+        "params": [
+          "c00057",
+          1
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO quotas VALUES(?,?,0,0)"
+      },
+      {
+        "params": [
+          "c00057",
+          0
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO allocations VALUES(?,?,0,0)"
+      },
+      {
+        "params": [
+          "c00057",
+          1
+        ],
+        "rowcount": 1,
+        "rows": [],
+        "sql": "INSERT INTO allocations VALUES(?,?,0,0)"
+      },
+      {
+        "params": [],
+        "rowcount": -1,
+        "rows": [],
+        "sql": "COMMIT"
+      },
+      {
+        "params": [
+          "c00057"
+        ],
+        "rowcount": -1,
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+      }
+    ],
+    "trace": [
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": null,
+        "event": "RA",
+        "read": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "sql_log": [
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": null,
+        "event": "RB",
+        "read": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "sql_log": [
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 1,
+          "note": 0,
+          "units": [
+            1,
+            0
+          ],
+          "versions": [
+            1,
+            0
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 0,
+          "note": 0,
+          "units": [
+            0,
+            0
+          ],
+          "versions": [
+            0,
+            0
+          ]
+        },
+        "decision": {
+          "accepted": true,
+          "feasible_before": true,
+          "reason": "accepted",
+          "write_attempt": 1
+        },
+        "event": "CA",
+        "read": null,
+        "sql_log": [
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "BEGIN IMMEDIATE"
+          },
+          {
+            "params": [
+              1,
+              "c00057",
+              0,
+              0,
+              "c00057",
+              0
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE allocations SET units=?,version=version+1 WHERE case_id=? AND worker=? AND units=0 AND version=? AND EXISTS(SELECT 1 FROM quotas WHERE id=? AND epoch=?)"
+          },
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE quotas SET epoch=epoch+1 WHERE id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "COMMIT"
+          },
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      },
+      {
+        "after": {
+          "capacity": 1,
+          "epoch": 2,
+          "note": 0,
+          "units": [
+            1,
+            1
+          ],
+          "versions": [
+            1,
+            1
+          ]
+        },
+        "before": {
+          "capacity": 1,
+          "epoch": 1,
+          "note": 0,
+          "units": [
+            1,
+            0
+          ],
+          "versions": [
+            1,
+            0
+          ]
+        },
+        "decision": {
+          "accepted": true,
+          "feasible_before": false,
+          "reason": "accepted",
+          "write_attempt": 1
+        },
+        "event": "CB",
+        "read": null,
+        "sql_log": [
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "BEGIN IMMEDIATE"
+          },
+          {
+            "params": [
+              1,
+              "c00057",
+              1,
+              0
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE allocations SET units=?,version=version+1 WHERE case_id=? AND worker=? AND units=0 AND version=?"
+          },
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": 1,
+            "rows": [],
+            "sql": "UPDATE quotas SET epoch=epoch+1 WHERE id=?"
+          },
+          {
+            "params": [],
+            "rowcount": -1,
+            "rows": [],
+            "sql": "COMMIT"
+          },
+          {
+            "params": [
+              "c00057"
+            ],
+            "rowcount": -1,
+            "rows": [
+              [
+                1,
+                2,
+                0,
+                1,
+                1,
+                1,
+                1
+              ]
+            ],
+            "sql": "SELECT q.capacity,q.epoch,q.note,a.units,a.version,b.units,b.version\nFROM quotas q JOIN allocations a ON a.case_id=q.id AND a.worker=0\nJOIN allocations b ON b.case_id=q.id AND b.worker=1 WHERE q.id=?"
+          }
+        ]
+      }
+    ]
+  }
+}

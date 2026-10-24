@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="412" viewBox="0 0 700 412" role="img" aria-labelledby="title desc">
+<title id="title">Shared-limit breaches by worker rule pair</title>
+<desc id="desc">Rows are worker A. Columns are worker B. Each cell gives the exact number of cases that exceeded capacity out of 576 assigned cases. These are designed local SQLite cases, not population failure rates.</desc>
+<metadata>Source: summary.csv; SHA-256: a46dda9f7d28a1891ea5528f5b565af06e7b47f02c34d175f64cbcde51009ac6. Generator: make_figure.py. No experiment was run to make this figure.</metadata>
+<rect width="700" height="412" fill="#ffffff"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#202a31">
+<text x="28" y="34" font-size="21" font-weight="700">Shared-limit breaches by worker rule pair</text>
+<text x="28" y="59" font-size="13">Exact case counts; each cell has 576 assigned cases.</text>
+<text x="423" y="92" text-anchor="middle" font-size="13" font-weight="700">Worker B</text>
+<text x="28" y="120" font-size="13" font-weight="700">Worker A</text>
+<text x="264" y="120" text-anchor="middle" font-size="14" font-weight="700">OwnCAS</text>
+<text x="422" y="120" text-anchor="middle" font-size="14" font-weight="700">SharedEpoch</text>
+<text x="580" y="120" text-anchor="middle" font-size="14" font-weight="700">AtomicSum</text>
+<text x="169" y="176" text-anchor="end" font-size="14" font-weight="700">OwnCAS</text>
+<rect x="185" y="136" width="158" height="68" fill="#96331c" stroke="#ffffff" stroke-width="3"/>
+<text x="264" y="178" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff">120 / 576</text>
+<rect x="343" y="136" width="158" height="68" fill="#d4a092" stroke="#ffffff" stroke-width="3"/>
+<text x="422" y="178" text-anchor="middle" font-size="22" font-weight="700" fill="#31211b">45 / 576</text>
+<rect x="501" y="136" width="158" height="68" fill="#c88a7a" stroke="#ffffff" stroke-width="3"/>
+<text x="580" y="178" text-anchor="middle" font-size="22" font-weight="700" fill="#31211b">60 / 576</text>
+<text x="169" y="244" text-anchor="end" font-size="14" font-weight="700">SharedEpoch</text>
+<rect x="185" y="204" width="158" height="68" fill="#d4a092" stroke="#ffffff" stroke-width="3"/>
+<text x="264" y="246" text-anchor="middle" font-size="22" font-weight="700" fill="#31211b">45 / 576</text>
+<rect x="343" y="204" width="158" height="68" fill="#eaf3ef" stroke="#ffffff" stroke-width="3"/>
+<text x="422" y="246" text-anchor="middle" font-size="22" font-weight="700" fill="#193f32">0 / 576</text>
+<rect x="501" y="204" width="158" height="68" fill="#eaf3ef" stroke="#ffffff" stroke-width="3"/>
+<text x="580" y="246" text-anchor="middle" font-size="22" font-weight="700" fill="#193f32">0 / 576</text>
+<text x="169" y="312" text-anchor="end" font-size="14" font-weight="700">AtomicSum</text>
+<rect x="185" y="272" width="158" height="68" fill="#c88a7a" stroke="#ffffff" stroke-width="3"/>
+<text x="264" y="314" text-anchor="middle" font-size="22" font-weight="700" fill="#31211b">60 / 576</text>
+<rect x="343" y="272" width="158" height="68" fill="#eaf3ef" stroke="#ffffff" stroke-width="3"/>
+<text x="422" y="314" text-anchor="middle" font-size="22" font-weight="700" fill="#193f32">0 / 576</text>
+<rect x="501" y="272" width="158" height="68" fill="#eaf3ef" stroke="#ffffff" stroke-width="3"/>
+<text x="580" y="314" text-anchor="middle" font-size="22" font-weight="700" fill="#193f32">0 / 576</text>
+<text x="28" y="369" font-size="12">Breach: total allocation exceeded the shared capacity at a scheduled point.</text>
+<text x="28" y="389" font-size="12">Designed local SQLite corpus. Counts do not estimate website or AI-agent failure rates.</text>
+</g></svg>

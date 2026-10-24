@@ -1,0 +1,139 @@
+{
+  "checks": {
+    "stale_same_row_CAS": true,
+    "held_snapshot_rejected": true,
+    "effect_and_epoch_rollback": true
+  },
+  "sql_log": [
+    {
+      "sql": "SELECT * FROM control",
+      "params": [],
+      "rows": [
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rowcount": -1
+    },
+    {
+      "sql": "SELECT * FROM control",
+      "params": [],
+      "rows": [
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rowcount": -1
+    },
+    {
+      "sql": "UPDATE control SET units=1,version=1,epoch=1 WHERE id=1 AND version=0",
+      "params": [],
+      "rows": [],
+      "rowcount": 1
+    },
+    {
+      "sql": "UPDATE control SET units=2,version=2,epoch=2 WHERE id=1 AND version=0",
+      "params": [],
+      "rows": [],
+      "rowcount": 0
+    },
+    {
+      "sql": "SELECT * FROM control",
+      "params": [],
+      "rows": [
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "rowcount": -1
+    },
+    {
+      "sql": "UPDATE control SET units=0,version=0,epoch=0",
+      "params": [],
+      "rows": [],
+      "rowcount": 1
+    },
+    {
+      "sql": "BEGIN",
+      "params": [],
+      "rows": [],
+      "rowcount": -1
+    },
+    {
+      "sql": "SELECT * FROM control",
+      "params": [],
+      "rows": [
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rowcount": -1
+    },
+    {
+      "sql": "UPDATE control SET units=1,version=1,epoch=1",
+      "params": [],
+      "rows": [],
+      "rowcount": 1
+    },
+    {
+      "expected_error": "database is locked",
+      "sqlite_errorcode": 517,
+      "sqlite_errorname": "SQLITE_BUSY_SNAPSHOT"
+    },
+    {
+      "sql": "ROLLBACK",
+      "params": [],
+      "rows": [],
+      "rowcount": -1
+    },
+    {
+      "sql": "UPDATE control SET units=0,version=0,epoch=0",
+      "params": [],
+      "rows": [],
+      "rowcount": 1
+    },
+    {
+      "sql": "BEGIN IMMEDIATE",
+      "params": [],
+      "rows": [],
+      "rowcount": -1
+    },
+    {
+      "sql": "UPDATE control SET units=1,version=1,epoch=1",
+      "params": [],
+      "rows": [],
+      "rowcount": 1
+    },
+    {
+      "sql": "ROLLBACK",
+      "params": [],
+      "rows": [],
+      "rowcount": -1
+    },
+    {
+      "sql": "SELECT * FROM control",
+      "params": [],
+      "rows": [
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rowcount": -1
+    }
+  ]
+}
