@@ -1,0 +1,16 @@
+rule,branch,cases,actual_excess_case,exposure_excess_case,uncovered_case,deficit_case,exposure_without_final_actual,premature_refund,b_accepted,b_refused,safe_feasible_refusal,released,a_blocked,a_charged,actual_excess_max,exposure_excess_max,uncovered_max,deficit_max
+Timeout,all,1680,130,200,560,130,70,560,1465,215,0,1008,420,630,2,2,2,2
+Timeout,charge,840,130,135,378,130,5,378,685,155,0,504,210,630,2,2,2,2
+Timeout,zero,840,0,65,182,0,65,182,780,60,0,504,210,0,0,2,2,0
+ZeroObservation,all,1680,105,175,490,105,70,490,1440,240,0,938,420,630,2,2,2,2
+ZeroObservation,charge,840,105,110,308,105,5,308,660,180,0,434,210,630,2,2,2,2
+ZeroObservation,zero,840,0,65,182,0,65,182,780,60,0,504,210,0,0,2,2,0
+FenceOnly,all,1680,55,70,196,55,15,196,1305,375,30,560,420,630,2,2,2,2
+FenceOnly,charge,840,55,55,154,55,0,154,605,235,0,280,210,630,2,2,2,2
+FenceOnly,zero,840,0,15,42,0,15,42,700,140,30,280,210,0,0,2,2,0
+ClosureCertificate,all,1680,0,0,0,0,0,0,1215,465,50,308,420,630,0,0,0,0
+ClosureCertificate,charge,840,0,0,0,0,0,0,550,290,0,126,210,630,0,0,0,0
+ClosureCertificate,zero,840,0,0,0,0,0,0,665,175,50,182,210,0,0,0,0,0
+TerminalOnly,all,1680,0,0,0,0,0,0,1105,575,160,0,420,630,0,0,0,0
+TerminalOnly,charge,840,0,0,0,0,0,0,505,335,45,0,210,630,0,0,0,0
+TerminalOnly,zero,840,0,0,0,0,0,0,600,240,115,0,210,0,0,0,0,0

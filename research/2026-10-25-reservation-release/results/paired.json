@@ -1,0 +1,202 @@
+[
+  {
+    "b_decisions_differ": 25,
+    "deltas_right_minus_left": {
+      "a_blocked": 0,
+      "a_charged": 0,
+      "actual_excess_case": -25,
+      "b_accepted": -25,
+      "b_refused": 25,
+      "deficit_case": -25,
+      "exposure_excess_case": -25,
+      "exposure_without_final_actual": 0,
+      "premature_refund": -70,
+      "released": -70,
+      "safe_feasible_refusal": 0,
+      "uncovered_case": -70
+    },
+    "left": "Timeout",
+    "right": "ZeroObservation",
+    "worlds": 1680
+  },
+  {
+    "b_decisions_differ": 160,
+    "deltas_right_minus_left": {
+      "a_blocked": 0,
+      "a_charged": 0,
+      "actual_excess_case": -75,
+      "b_accepted": -160,
+      "b_refused": 160,
+      "deficit_case": -75,
+      "exposure_excess_case": -130,
+      "exposure_without_final_actual": -55,
+      "premature_refund": -364,
+      "released": -448,
+      "safe_feasible_refusal": 30,
+      "uncovered_case": -364
+    },
+    "left": "Timeout",
+    "right": "FenceOnly",
+    "worlds": 1680
+  },
+  {
+    "b_decisions_differ": 250,
+    "deltas_right_minus_left": {
+      "a_blocked": 0,
+      "a_charged": 0,
+      "actual_excess_case": -130,
+      "b_accepted": -250,
+      "b_refused": 250,
+      "deficit_case": -130,
+      "exposure_excess_case": -200,
+      "exposure_without_final_actual": -70,
+      "premature_refund": -560,
+      "released": -700,
+      "safe_feasible_refusal": 50,
+      "uncovered_case": -560
+    },
+    "left": "Timeout",
+    "right": "ClosureCertificate",
+    "worlds": 1680
+  },
+  {
+    "b_decisions_differ": 360,
+    "deltas_right_minus_left": {
+      "a_blocked": 0,
+      "a_charged": 0,
+      "actual_excess_case": -130,
+      "b_accepted": -360,
+      "b_refused": 360,
+      "deficit_case": -130,
+      "exposure_excess_case": -200,
+      "exposure_without_final_actual": -70,
+      "premature_refund": -560,
+      "released": -1008,
+      "safe_feasible_refusal": 160,
+      "uncovered_case": -560
+    },
+    "left": "Timeout",
+    "right": "TerminalOnly",
+    "worlds": 1680
+  },
+  {
+    "b_decisions_differ": 165,
+    "deltas_right_minus_left": {
+      "a_blocked": 0,
+      "a_charged": 0,
+      "actual_excess_case": -50,
+      "b_accepted": -135,
+      "b_refused": 135,
+      "deficit_case": -50,
+      "exposure_excess_case": -105,
+      "exposure_without_final_actual": -55,
+      "premature_refund": -294,
+      "released": -378,
+      "safe_feasible_refusal": 30,
+      "uncovered_case": -294
+    },
+    "left": "ZeroObservation",
+    "right": "FenceOnly",
+    "worlds": 1680
+  },
+  {
+    "b_decisions_differ": 225,
+    "deltas_right_minus_left": {
+      "a_blocked": 0,
+      "a_charged": 0,
+      "actual_excess_case": -105,
+      "b_accepted": -225,
+      "b_refused": 225,
+      "deficit_case": -105,
+      "exposure_excess_case": -175,
+      "exposure_without_final_actual": -70,
+      "premature_refund": -490,
+      "released": -630,
+      "safe_feasible_refusal": 50,
+      "uncovered_case": -490
+    },
+    "left": "ZeroObservation",
+    "right": "ClosureCertificate",
+    "worlds": 1680
+  },
+  {
+    "b_decisions_differ": 335,
+    "deltas_right_minus_left": {
+      "a_blocked": 0,
+      "a_charged": 0,
+      "actual_excess_case": -105,
+      "b_accepted": -335,
+      "b_refused": 335,
+      "deficit_case": -105,
+      "exposure_excess_case": -175,
+      "exposure_without_final_actual": -70,
+      "premature_refund": -490,
+      "released": -938,
+      "safe_feasible_refusal": 160,
+      "uncovered_case": -490
+    },
+    "left": "ZeroObservation",
+    "right": "TerminalOnly",
+    "worlds": 1680
+  },
+  {
+    "b_decisions_differ": 90,
+    "deltas_right_minus_left": {
+      "a_blocked": 0,
+      "a_charged": 0,
+      "actual_excess_case": -55,
+      "b_accepted": -90,
+      "b_refused": 90,
+      "deficit_case": -55,
+      "exposure_excess_case": -70,
+      "exposure_without_final_actual": -15,
+      "premature_refund": -196,
+      "released": -252,
+      "safe_feasible_refusal": 20,
+      "uncovered_case": -196
+    },
+    "left": "FenceOnly",
+    "right": "ClosureCertificate",
+    "worlds": 1680
+  },
+  {
+    "b_decisions_differ": 200,
+    "deltas_right_minus_left": {
+      "a_blocked": 0,
+      "a_charged": 0,
+      "actual_excess_case": -55,
+      "b_accepted": -200,
+      "b_refused": 200,
+      "deficit_case": -55,
+      "exposure_excess_case": -70,
+      "exposure_without_final_actual": -15,
+      "premature_refund": -196,
+      "released": -560,
+      "safe_feasible_refusal": 130,
+      "uncovered_case": -196
+    },
+    "left": "FenceOnly",
+    "right": "TerminalOnly",
+    "worlds": 1680
+  },
+  {
+    "b_decisions_differ": 110,
+    "deltas_right_minus_left": {
+      "a_blocked": 0,
+      "a_charged": 0,
+      "actual_excess_case": 0,
+      "b_accepted": -110,
+      "b_refused": 110,
+      "deficit_case": 0,
+      "exposure_excess_case": 0,
+      "exposure_without_final_actual": 0,
+      "premature_refund": 0,
+      "released": -308,
+      "safe_feasible_refusal": 110,
+      "uncovered_case": 0
+    },
+    "left": "ClosureCertificate",
+    "right": "TerminalOnly",
+    "worlds": 1680
+  }
+]
