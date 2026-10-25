@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "ample_capacity_cases": 4800,
+    "cases": 8400,
+    "closure_extra_acceptances": 110,
+    "complete_rule_cases": 3360,
+    "fence_before_acceptance_cases": 2100,
+    "pre_resolution_branch_pairs": 4200,
+    "state_bookkeeping_checks": 58800,
+    "terminal_first_worlds": 672,
+    "worlds": 1680
+  },
+  "code_sha256": "695722d9948192cb4ec077c2fb7d77ba582849b8c8ddbddd63fd3b64c8158fd3",
+  "elapsed_seconds": 1.3552963330002967,
+  "main_code_read": false,
+  "main_results_read": false,
+  "named_control_rows": 35,
+  "python": "3.13.7",
+  "status": "pass"
+}

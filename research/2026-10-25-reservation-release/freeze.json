@@ -1,0 +1,8 @@
+{
+  "frozen_at_utc": "2026-10-25T11:08:28.221910+00:00",
+  "plan_sha256": "0a3eab2beeac2da6bbec8ca66166b9583749b2864bdf55e88b742c0d9a106c1a",
+  "before_implementation_and_execution": true,
+  "worlds": 1680,
+  "rules": 5,
+  "outcomes": 8400
+}

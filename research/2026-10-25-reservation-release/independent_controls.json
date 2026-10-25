@@ -1,0 +1,877 @@
+[
+  {
+    "actual": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "name": "accepted_before_fence_late_charge",
+    "order": "OAFDET",
+    "pass": true,
+    "rule": "Timeout"
+  },
+  {
+    "actual": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "name": "accepted_before_fence_late_charge",
+    "order": "OAFDET",
+    "pass": true,
+    "rule": "ZeroObservation"
+  },
+  {
+    "actual": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "name": "accepted_before_fence_late_charge",
+    "order": "OAFDET",
+    "pass": true,
+    "rule": "FenceOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "accepted_before_fence_late_charge",
+    "order": "OAFDET",
+    "pass": true,
+    "rule": "ClosureCertificate"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "accepted_before_fence_late_charge",
+    "order": "OAFDET",
+    "pass": true,
+    "rule": "TerminalOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "fence_before_acceptance",
+    "order": "OFDAET",
+    "pass": true,
+    "rule": "Timeout"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "fence_before_acceptance",
+    "order": "OFDAET",
+    "pass": true,
+    "rule": "ZeroObservation"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "fence_before_acceptance",
+    "order": "OFDAET",
+    "pass": true,
+    "rule": "FenceOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "fence_before_acceptance",
+    "order": "OFDAET",
+    "pass": true,
+    "rule": "ClosureCertificate"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 1,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 1,
+      "uncovered_liability": 0
+    },
+    "name": "fence_before_acceptance",
+    "order": "OFDAET",
+    "pass": true,
+    "rule": "TerminalOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "early_terminal_receipt",
+    "order": "AETOFD",
+    "pass": true,
+    "rule": "Timeout"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "early_terminal_receipt",
+    "order": "AETOFD",
+    "pass": true,
+    "rule": "ZeroObservation"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "early_terminal_receipt",
+    "order": "AETOFD",
+    "pass": true,
+    "rule": "FenceOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "early_terminal_receipt",
+    "order": "AETOFD",
+    "pass": true,
+    "rule": "ClosureCertificate"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "early_terminal_receipt",
+    "order": "AETOFD",
+    "pass": true,
+    "rule": "TerminalOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "name": "zero_observation_then_charge",
+    "order": "OAEFDT",
+    "pass": true,
+    "rule": "Timeout"
+  },
+  {
+    "actual": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "name": "zero_observation_then_charge",
+    "order": "OAEFDT",
+    "pass": true,
+    "rule": "ZeroObservation"
+  },
+  {
+    "actual": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 1,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 1,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "name": "zero_observation_then_charge",
+    "order": "OAEFDT",
+    "pass": true,
+    "rule": "FenceOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "zero_observation_then_charge",
+    "order": "OAEFDT",
+    "pass": true,
+    "rule": "ClosureCertificate"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "charge",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 1,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "zero_observation_then_charge",
+    "order": "OAEFDT",
+    "pass": true,
+    "rule": "TerminalOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "zero_resolution_before_fence",
+    "order": "AEOFDT",
+    "pass": true,
+    "rule": "Timeout"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "zero_resolution_before_fence",
+    "order": "AEOFDT",
+    "pass": true,
+    "rule": "ZeroObservation"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "zero_resolution_before_fence",
+    "order": "AEOFDT",
+    "pass": true,
+    "rule": "FenceOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "zero_resolution_before_fence",
+    "order": "AEOFDT",
+    "pass": true,
+    "rule": "ClosureCertificate"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 1,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 1,
+      "uncovered_liability": 0
+    },
+    "name": "zero_resolution_before_fence",
+    "order": "AEOFDT",
+    "pass": true,
+    "rule": "TerminalOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "zero_resolution_after_fence",
+    "order": "AFEODT",
+    "pass": true,
+    "rule": "Timeout"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "zero_resolution_after_fence",
+    "order": "AFEODT",
+    "pass": true,
+    "rule": "ZeroObservation"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "zero_resolution_after_fence",
+    "order": "AFEODT",
+    "pass": true,
+    "rule": "FenceOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 1,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 1,
+      "uncovered_liability": 0
+    },
+    "name": "zero_resolution_after_fence",
+    "order": "AFEODT",
+    "pass": true,
+    "rule": "ClosureCertificate"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 1,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 1,
+      "uncovered_liability": 0
+    },
+    "name": "zero_resolution_after_fence",
+    "order": "AFEODT",
+    "pass": true,
+    "rule": "TerminalOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 0,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 0,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "name": "exposure_without_actual_breach",
+    "order": "OAFDET",
+    "pass": true,
+    "rule": "Timeout"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 0,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 0,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "name": "exposure_without_actual_breach",
+    "order": "OAFDET",
+    "pass": true,
+    "rule": "ZeroObservation"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 0,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 1,
+      "exposure_breach": 1,
+      "final_a_charge": 0,
+      "premature_refund": 1,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 1
+    },
+    "name": "exposure_without_actual_breach",
+    "order": "OAFDET",
+    "pass": true,
+    "rule": "FenceOnly"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "exposure_without_actual_breach",
+    "order": "OAFDET",
+    "pass": true,
+    "rule": "ClosureCertificate"
+  },
+  {
+    "actual": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "branch": "zero",
+    "expected": {
+      "actual_breach": 0,
+      "b_accepted": 0,
+      "exposure_breach": 0,
+      "final_a_charge": 0,
+      "premature_refund": 0,
+      "safe_feasible_b_refusal": 0,
+      "uncovered_liability": 0
+    },
+    "name": "exposure_without_actual_breach",
+    "order": "OAFDET",
+    "pass": true,
+    "rule": "TerminalOnly"
+  }
+]

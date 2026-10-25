@@ -1,0 +1,12 @@
+{
+  "cpu_seconds": 2.3730219999999997,
+  "model_api_calls": 0,
+  "outcomes": 8400,
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7",
+  "result_bytes_before_environment": 1390317,
+  "seed": null,
+  "source_sha256": "80c6620f8d23347535b436d877822fc82e8f2e644c8b1fda7b6d871b680a3a75",
+  "wall_seconds": 2.387356833991362,
+  "worlds": 1680
+}
