@@ -1,0 +1,11 @@
+{
+  "complete_rule_cases": 6480,
+  "control_rows": 48,
+  "final_permutation_groups": 18,
+  "high_water_pairs": 3240,
+  "no_duplicate_pairs": 324,
+  "rule_outcomes": 19440,
+  "status": "pass",
+  "transitions": 85536,
+  "worlds": 3240
+}

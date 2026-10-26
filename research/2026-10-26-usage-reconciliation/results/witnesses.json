@@ -1,0 +1,1957 @@
+[
+  {
+    "input": {
+      "C": 1,
+      "R": 1,
+      "b": 1,
+      "group": "PT",
+      "id": "0360",
+      "order": "DPT",
+      "x": 0,
+      "z": 1
+    },
+    "measure": "uncovered_case",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": {
+            "accepted": false,
+            "available": 0,
+            "feasible": false,
+            "terminal_seen": false
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 0,
+          "terminal_report": false,
+          "value": null
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 1,
+          "terminal_report": false,
+          "value": 0
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 2,
+          "terminal_report": true,
+          "value": 1
+        }
+      ],
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "HighWaterEarly",
+      "scores": {
+        "accepted": false,
+        "actual_excess_case": false,
+        "actual_excess_first": null,
+        "actual_excess_max": 0,
+        "breach_before_terminal": false,
+        "deficit_case": false,
+        "deficit_first": null,
+        "deficit_max": 0,
+        "feasible_refusal": false,
+        "final_error": 0,
+        "final_exact": true,
+        "final_hold": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "inflated_case": false,
+        "inflated_first": null,
+        "inflated_max": 0,
+        "receipt_sufficient_refusal": false,
+        "refused": true,
+        "uncovered_case": true,
+        "uncovered_first": {
+          "event": "P",
+          "index": 1
+        },
+        "uncovered_max": 1,
+        "unsafe_admission": false
+      },
+      "world_id": "0360"
+    },
+    "rule": "HighWaterEarly"
+  },
+  {
+    "input": {
+      "C": 1,
+      "R": 1,
+      "b": 1,
+      "group": "PT",
+      "id": "0361",
+      "order": "PDT",
+      "x": 0,
+      "z": 1
+    },
+    "measure": "actual_excess_case",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 0,
+          "terminal_report": false,
+          "value": 0
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 0,
+            "k": 1,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": {
+            "accepted": true,
+            "available": 1,
+            "feasible": false,
+            "terminal_seen": false
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 1,
+          "terminal_report": false,
+          "value": null
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 0,
+            "k": 1,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 2,
+          "terminal_report": true,
+          "value": 1
+        }
+      ],
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "HighWaterEarly",
+      "scores": {
+        "accepted": true,
+        "actual_excess_case": true,
+        "actual_excess_first": {
+          "event": "D",
+          "index": 1
+        },
+        "actual_excess_max": 1,
+        "breach_before_terminal": true,
+        "deficit_case": true,
+        "deficit_first": {
+          "event": "T",
+          "index": 2
+        },
+        "deficit_max": 1,
+        "feasible_refusal": false,
+        "final_error": 0,
+        "final_exact": true,
+        "final_hold": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "inflated_case": false,
+        "inflated_first": null,
+        "inflated_max": 0,
+        "receipt_sufficient_refusal": false,
+        "refused": false,
+        "uncovered_case": true,
+        "uncovered_first": {
+          "event": "P",
+          "index": 0
+        },
+        "uncovered_max": 1,
+        "unsafe_admission": true
+      },
+      "world_id": "0361"
+    },
+    "rule": "HighWaterEarly"
+  },
+  {
+    "input": {
+      "C": 1,
+      "R": 1,
+      "b": 1,
+      "group": "PT",
+      "id": "0361",
+      "order": "PDT",
+      "x": 0,
+      "z": 1
+    },
+    "measure": "breach_before_terminal",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 0,
+          "terminal_report": false,
+          "value": 0
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 0,
+            "k": 1,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": {
+            "accepted": true,
+            "available": 1,
+            "feasible": false,
+            "terminal_seen": false
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 1,
+          "terminal_report": false,
+          "value": null
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 0,
+            "k": 1,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 2,
+          "terminal_report": true,
+          "value": 1
+        }
+      ],
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "HighWaterEarly",
+      "scores": {
+        "accepted": true,
+        "actual_excess_case": true,
+        "actual_excess_first": {
+          "event": "D",
+          "index": 1
+        },
+        "actual_excess_max": 1,
+        "breach_before_terminal": true,
+        "deficit_case": true,
+        "deficit_first": {
+          "event": "T",
+          "index": 2
+        },
+        "deficit_max": 1,
+        "feasible_refusal": false,
+        "final_error": 0,
+        "final_exact": true,
+        "final_hold": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "inflated_case": false,
+        "inflated_first": null,
+        "inflated_max": 0,
+        "receipt_sufficient_refusal": false,
+        "refused": false,
+        "uncovered_case": true,
+        "uncovered_first": {
+          "event": "P",
+          "index": 0
+        },
+        "uncovered_max": 1,
+        "unsafe_admission": true
+      },
+      "world_id": "0361"
+    },
+    "rule": "HighWaterEarly"
+  },
+  {
+    "input": {
+      "C": 1,
+      "R": 1,
+      "b": 1,
+      "group": "PT",
+      "id": "0363",
+      "order": "DTP",
+      "x": 0,
+      "z": 1
+    },
+    "measure": "uncovered_case",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": {
+            "accepted": false,
+            "available": 0,
+            "feasible": false,
+            "terminal_seen": false
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 0,
+          "terminal_report": false,
+          "value": null
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 1,
+          "terminal_report": true,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "T"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 2,
+          "terminal_report": false,
+          "value": 0
+        }
+      ],
+      "final": {
+        "available": 1,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 0,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "LastValue",
+      "scores": {
+        "accepted": false,
+        "actual_excess_case": false,
+        "actual_excess_first": null,
+        "actual_excess_max": 0,
+        "breach_before_terminal": false,
+        "deficit_case": false,
+        "deficit_first": null,
+        "deficit_max": 0,
+        "feasible_refusal": false,
+        "final_error": -1,
+        "final_exact": false,
+        "final_hold": 0,
+        "final_overcount": false,
+        "final_undercount": true,
+        "inflated_case": false,
+        "inflated_first": null,
+        "inflated_max": 0,
+        "receipt_sufficient_refusal": false,
+        "refused": true,
+        "uncovered_case": true,
+        "uncovered_first": {
+          "event": "P",
+          "index": 2
+        },
+        "uncovered_max": 1,
+        "unsafe_admission": false
+      },
+      "world_id": "0363"
+    },
+    "rule": "LastValue"
+  },
+  {
+    "input": {
+      "C": 1,
+      "R": 1,
+      "b": 1,
+      "group": "PT",
+      "id": "0363",
+      "order": "DTP",
+      "x": 0,
+      "z": 1
+    },
+    "measure": "final_undercount",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": {
+            "accepted": false,
+            "available": 0,
+            "feasible": false,
+            "terminal_seen": false
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 0,
+          "terminal_report": false,
+          "value": null
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 1,
+          "terminal_report": true,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "T"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 2,
+          "terminal_report": false,
+          "value": 0
+        }
+      ],
+      "final": {
+        "available": 1,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 0,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "LastValue",
+      "scores": {
+        "accepted": false,
+        "actual_excess_case": false,
+        "actual_excess_first": null,
+        "actual_excess_max": 0,
+        "breach_before_terminal": false,
+        "deficit_case": false,
+        "deficit_first": null,
+        "deficit_max": 0,
+        "feasible_refusal": false,
+        "final_error": -1,
+        "final_exact": false,
+        "final_hold": 0,
+        "final_overcount": false,
+        "final_undercount": true,
+        "inflated_case": false,
+        "inflated_first": null,
+        "inflated_max": 0,
+        "receipt_sufficient_refusal": false,
+        "refused": true,
+        "uncovered_case": true,
+        "uncovered_first": {
+          "event": "P",
+          "index": 2
+        },
+        "uncovered_max": 1,
+        "unsafe_admission": false
+      },
+      "world_id": "0363"
+    },
+    "rule": "LastValue"
+  },
+  {
+    "input": {
+      "C": 1,
+      "R": 1,
+      "b": 1,
+      "group": "PT",
+      "id": "0365",
+      "order": "TPD",
+      "x": 0,
+      "z": 1
+    },
+    "measure": "actual_excess_case",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 0,
+          "terminal_report": true,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "T"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 1,
+          "terminal_report": false,
+          "value": 0
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 0,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "decision": {
+            "accepted": true,
+            "available": 1,
+            "feasible": false,
+            "terminal_seen": true
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 2,
+          "terminal_report": false,
+          "value": null
+        }
+      ],
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 0,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "LastValue",
+      "scores": {
+        "accepted": true,
+        "actual_excess_case": true,
+        "actual_excess_first": {
+          "event": "D",
+          "index": 2
+        },
+        "actual_excess_max": 1,
+        "breach_before_terminal": false,
+        "deficit_case": false,
+        "deficit_first": null,
+        "deficit_max": 0,
+        "feasible_refusal": false,
+        "final_error": -1,
+        "final_exact": false,
+        "final_hold": 0,
+        "final_overcount": false,
+        "final_undercount": true,
+        "inflated_case": false,
+        "inflated_first": null,
+        "inflated_max": 0,
+        "receipt_sufficient_refusal": false,
+        "refused": false,
+        "uncovered_case": true,
+        "uncovered_first": {
+          "event": "P",
+          "index": 1
+        },
+        "uncovered_max": 1,
+        "unsafe_admission": true
+      },
+      "world_id": "0365"
+    },
+    "rule": "LastValue"
+  },
+  {
+    "input": {
+      "C": 1,
+      "R": 1,
+      "b": 1,
+      "group": "PTT",
+      "id": "0378",
+      "order": "DPTT",
+      "x": 0,
+      "z": 1
+    },
+    "measure": "inflated_case",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": {
+            "accepted": false,
+            "available": 0,
+            "feasible": false,
+            "terminal_seen": false
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 0,
+          "terminal_report": false,
+          "value": null
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 1,
+          "terminal_report": false,
+          "value": 0
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 2,
+          "terminal_report": true,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "decision": null,
+          "duplicate": true,
+          "event": "T",
+          "index": 3,
+          "terminal_report": true,
+          "value": 1
+        }
+      ],
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "AddEvery",
+      "scores": {
+        "accepted": false,
+        "actual_excess_case": false,
+        "actual_excess_first": null,
+        "actual_excess_max": 0,
+        "breach_before_terminal": false,
+        "deficit_case": true,
+        "deficit_first": {
+          "event": "T",
+          "index": 3
+        },
+        "deficit_max": 1,
+        "feasible_refusal": false,
+        "final_error": 1,
+        "final_exact": false,
+        "final_hold": 0,
+        "final_overcount": true,
+        "final_undercount": false,
+        "inflated_case": true,
+        "inflated_first": {
+          "event": "T",
+          "index": 3
+        },
+        "inflated_max": 1,
+        "receipt_sufficient_refusal": false,
+        "refused": true,
+        "uncovered_case": false,
+        "uncovered_first": null,
+        "uncovered_max": 0,
+        "unsafe_admission": false
+      },
+      "world_id": "0378"
+    },
+    "rule": "AddEvery"
+  },
+  {
+    "input": {
+      "C": 1,
+      "R": 1,
+      "b": 1,
+      "group": "PTT",
+      "id": "0378",
+      "order": "DPTT",
+      "x": 0,
+      "z": 1
+    },
+    "measure": "final_overcount",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": {
+            "accepted": false,
+            "available": 0,
+            "feasible": false,
+            "terminal_seen": false
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 0,
+          "terminal_report": false,
+          "value": null
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 1,
+          "terminal_report": false,
+          "value": 0
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 2,
+          "terminal_report": true,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "decision": null,
+          "duplicate": true,
+          "event": "T",
+          "index": 3,
+          "terminal_report": true,
+          "value": 1
+        }
+      ],
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "AddEvery",
+      "scores": {
+        "accepted": false,
+        "actual_excess_case": false,
+        "actual_excess_first": null,
+        "actual_excess_max": 0,
+        "breach_before_terminal": false,
+        "deficit_case": true,
+        "deficit_first": {
+          "event": "T",
+          "index": 3
+        },
+        "deficit_max": 1,
+        "feasible_refusal": false,
+        "final_error": 1,
+        "final_exact": false,
+        "final_hold": 0,
+        "final_overcount": true,
+        "final_undercount": false,
+        "inflated_case": true,
+        "inflated_first": {
+          "event": "T",
+          "index": 3
+        },
+        "inflated_max": 1,
+        "receipt_sufficient_refusal": false,
+        "refused": true,
+        "uncovered_case": false,
+        "uncovered_first": null,
+        "uncovered_max": 0,
+        "unsafe_admission": false
+      },
+      "world_id": "0378"
+    },
+    "rule": "AddEvery"
+  },
+  {
+    "input": {
+      "C": 2,
+      "R": 1,
+      "b": 1,
+      "group": "PTT",
+      "id": "0501",
+      "order": "PTTD",
+      "x": 0,
+      "z": 1
+    },
+    "measure": "receipt_sufficient_refusal",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 1,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 0,
+          "terminal_report": false,
+          "value": 0
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 1,
+          "terminal_report": true,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "decision": null,
+          "duplicate": true,
+          "event": "T",
+          "index": 2,
+          "terminal_report": true,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "decision": {
+            "accepted": false,
+            "available": 0,
+            "feasible": true,
+            "terminal_seen": true
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 3,
+          "terminal_report": false,
+          "value": null
+        }
+      ],
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 1,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "AddEvery",
+      "scores": {
+        "accepted": false,
+        "actual_excess_case": false,
+        "actual_excess_first": null,
+        "actual_excess_max": 0,
+        "breach_before_terminal": false,
+        "deficit_case": false,
+        "deficit_first": null,
+        "deficit_max": 0,
+        "feasible_refusal": true,
+        "final_error": 1,
+        "final_exact": false,
+        "final_hold": 0,
+        "final_overcount": true,
+        "final_undercount": false,
+        "inflated_case": true,
+        "inflated_first": {
+          "event": "T",
+          "index": 2
+        },
+        "inflated_max": 1,
+        "receipt_sufficient_refusal": true,
+        "refused": true,
+        "uncovered_case": false,
+        "uncovered_first": null,
+        "uncovered_max": 0,
+        "unsafe_admission": false
+      },
+      "world_id": "0501"
+    },
+    "rule": "AddEvery"
+  },
+  {
+    "input": {
+      "C": 1,
+      "R": 1,
+      "b": 1,
+      "group": "PT",
+      "id": "0720",
+      "order": "DPT",
+      "x": 1,
+      "z": 1
+    },
+    "measure": "inflated_case",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": {
+            "accepted": false,
+            "available": 0,
+            "feasible": false,
+            "terminal_seen": false
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 0,
+          "terminal_report": false,
+          "value": null
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 1,
+          "terminal_report": false,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 2,
+          "terminal_report": true,
+          "value": 1
+        }
+      ],
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "DedupSum",
+      "scores": {
+        "accepted": false,
+        "actual_excess_case": false,
+        "actual_excess_first": null,
+        "actual_excess_max": 0,
+        "breach_before_terminal": false,
+        "deficit_case": true,
+        "deficit_first": {
+          "event": "T",
+          "index": 2
+        },
+        "deficit_max": 1,
+        "feasible_refusal": false,
+        "final_error": 1,
+        "final_exact": false,
+        "final_hold": 0,
+        "final_overcount": true,
+        "final_undercount": false,
+        "inflated_case": true,
+        "inflated_first": {
+          "event": "T",
+          "index": 2
+        },
+        "inflated_max": 1,
+        "receipt_sufficient_refusal": false,
+        "refused": true,
+        "uncovered_case": false,
+        "uncovered_first": null,
+        "uncovered_max": 0,
+        "unsafe_admission": false
+      },
+      "world_id": "0720"
+    },
+    "rule": "DedupSum"
+  },
+  {
+    "input": {
+      "C": 1,
+      "R": 1,
+      "b": 1,
+      "group": "PT",
+      "id": "0720",
+      "order": "DPT",
+      "x": 1,
+      "z": 1
+    },
+    "measure": "final_overcount",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": {
+            "accepted": false,
+            "available": 0,
+            "feasible": false,
+            "terminal_seen": false
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 0,
+          "terminal_report": false,
+          "value": null
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 1,
+          "terminal_report": false,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 2,
+          "terminal_report": true,
+          "value": 1
+        }
+      ],
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "DedupSum",
+      "scores": {
+        "accepted": false,
+        "actual_excess_case": false,
+        "actual_excess_first": null,
+        "actual_excess_max": 0,
+        "breach_before_terminal": false,
+        "deficit_case": true,
+        "deficit_first": {
+          "event": "T",
+          "index": 2
+        },
+        "deficit_max": 1,
+        "feasible_refusal": false,
+        "final_error": 1,
+        "final_exact": false,
+        "final_hold": 0,
+        "final_overcount": true,
+        "final_undercount": false,
+        "inflated_case": true,
+        "inflated_first": {
+          "event": "T",
+          "index": 2
+        },
+        "inflated_max": 1,
+        "receipt_sufficient_refusal": false,
+        "refused": true,
+        "uncovered_case": false,
+        "uncovered_first": null,
+        "uncovered_max": 0,
+        "unsafe_admission": false
+      },
+      "world_id": "0720"
+    },
+    "rule": "DedupSum"
+  },
+  {
+    "input": {
+      "C": 2,
+      "R": 1,
+      "b": 1,
+      "group": "PT",
+      "id": "0842",
+      "order": "PTD",
+      "x": 1,
+      "z": 1
+    },
+    "measure": "receipt_sufficient_refusal",
+    "result": {
+      "events": [
+        {
+          "after": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "P",
+          "index": 0,
+          "terminal_report": false,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "decision": null,
+          "duplicate": false,
+          "event": "T",
+          "index": 1,
+          "terminal_report": true,
+          "value": 1
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "decision": {
+            "accepted": false,
+            "available": 0,
+            "feasible": true,
+            "terminal_seen": true
+          },
+          "duplicate": false,
+          "event": "D",
+          "index": 2,
+          "terminal_report": false,
+          "value": null
+        }
+      ],
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "initial": {
+        "available": 1,
+        "f": false,
+        "h": 1,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "rule": "DedupSum",
+      "scores": {
+        "accepted": false,
+        "actual_excess_case": false,
+        "actual_excess_first": null,
+        "actual_excess_max": 0,
+        "breach_before_terminal": false,
+        "deficit_case": false,
+        "deficit_first": null,
+        "deficit_max": 0,
+        "feasible_refusal": true,
+        "final_error": 1,
+        "final_exact": false,
+        "final_hold": 0,
+        "final_overcount": true,
+        "final_undercount": false,
+        "inflated_case": true,
+        "inflated_first": {
+          "event": "T",
+          "index": 1
+        },
+        "inflated_max": 1,
+        "receipt_sufficient_refusal": true,
+        "refused": true,
+        "uncovered_case": false,
+        "uncovered_first": null,
+        "uncovered_max": 0,
+        "unsafe_admission": false
+      },
+      "world_id": "0842"
+    },
+    "rule": "DedupSum"
+  }
+]

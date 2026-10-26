@@ -1,0 +1,38 @@
+{
+  "AddEvery": {
+    "baseline_only_accept": 458,
+    "both_accept": 1495,
+    "both_refuse": 1287,
+    "rule_only_accept": 0
+  },
+  "DedupSum": {
+    "baseline_only_accept": 252,
+    "both_accept": 1701,
+    "both_refuse": 1287,
+    "rule_only_accept": 0
+  },
+  "HighWaterEarly": {
+    "baseline_only_accept": 0,
+    "both_accept": 1953,
+    "both_refuse": 1134,
+    "rule_only_accept": 153
+  },
+  "HighWaterHeld": {
+    "baseline_only_accept": 0,
+    "both_accept": 1953,
+    "both_refuse": 1287,
+    "rule_only_accept": 0
+  },
+  "LastValue": {
+    "baseline_only_accept": 0,
+    "both_accept": 1953,
+    "both_refuse": 1175,
+    "rule_only_accept": 112
+  },
+  "TerminalOnly": {
+    "baseline_only_accept": 0,
+    "both_accept": 1953,
+    "both_refuse": 1287,
+    "rule_only_accept": 0
+  }
+}
