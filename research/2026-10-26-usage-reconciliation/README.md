@@ -78,3 +78,11 @@ Codex generated the study. Separate Codex agents reviewed its sources and method
 ## Production record extension
 
 The owner requested a live extension on October 26 after the original publication. See [live/README.md](live/README.md) for the separate production evidence and analysis commands. Eight shared fixtures support 48 paired decisions on Google Drive and Google Calendar. All 34 counted records were saved and checked. The test budget and report delivery were local controls, not Google quota or billing behavior. The original frozen simulation files remain unchanged.
+
+## Guarded ledger extension
+
+The owner requested a second production test after the six-rule comparison. The [guarded plan](guarded/plan.md) defines eight cases on each of Drive and Calendar. [CheckedLedger](guarded/controller.py) uses a fixed cumulative counter, residual reservation, and a stored intent before dispatch. The controller has no network code. The account adapters execute only a saved permit.
+
+The new tests created 26 counted temporary records. They had no scoped count excess or repeated permit. Calendar's initial field adapter produced seven unsupported full-field completion outputs on four records because the read tools omitted the saved time-zone label. Later exact-event browser checks and a corrected adapter resolve the current field evidence. The original failed proof timing remains in the report and traces.
+
+Use [the saved-data analysis guide](guarded/analysis_README.md) to repeat the public calculations. Use [the frozen operator guide](guarded/README.md) with [Calendar execution notes](guarded/calendar_execution_notes.json) for the procedure and deviations. Read [the source record](guarded/sources.md) for the new references. These are selected controlled cases, not provider error rates or a general deployment guarantee.

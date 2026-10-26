@@ -1,10 +1,10 @@
 # Duplicate control does not define cumulative usage
 
-Date: 2026-10-26, America/Toronto. Exact finite simulation with a controlled production record extension. Research note.
+Date: 2026-10-26, America/Toronto. Exact finite simulation with two controlled production record extensions. Research note.
 
 ## Abstract
 
-A repeated report and a repeated amount are different things. We compare six accounting rules on 3,240 designed delivery histories each. All provider work is complete before report delivery begins. Ignoring repeated event IDs still overcounts final use in 1,440 histories because two distinct cumulative reports contain overlapping use. Taking the last delivered value causes 112 actual budget overruns. Taking the greatest value gives exact final use in every history, but releasing the reservation on any report still causes 72 overruns. Retaining the unused reservation until a final report avoids both errors. It gives the same 1,953 admissions as ignoring progress and waiting for the final report. Two complete runs agree. The contribution is a reproducible comparison corpus for known mechanisms. These are simulation results, not production failure rates. A later production extension used eight shared fixtures and 48 paired decisions on Google Drive and Calendar. It verified 34 saved records. LastValue and HighWaterEarly each caused two excesses against a researcher-defined record limit. The two complete rules had no accounting error or excess in these selected cases.
+A repeated report and a repeated amount are different things. We compare six accounting rules on 3,240 designed delivery histories each. All provider work is complete before report delivery begins. Ignoring repeated event IDs still overcounts final use in 1,440 histories because two distinct cumulative reports contain overlapping use. Taking the last delivered value causes 112 actual budget overruns. Taking the greatest value gives exact final use in every history, but releasing the reservation on any report still causes 72 overruns. Retaining the unused reservation until a final report avoids both errors. It gives the same 1,953 admissions as ignoring progress and waiting for the final report. Two complete runs agree. The contribution is a reproducible comparison corpus for known mechanisms. These are simulation results, not production failure rates. A later production extension used eight shared fixtures and 48 paired decisions on Google Drive and Calendar. It verified 34 saved records. LastValue and HighWaterEarly each caused two excesses against a researcher-defined record limit. The two complete rules had no accounting error or excess in these selected cases. A second extension tested CheckedLedger on 16 new Drive and Calendar cases. It created 26 counted records with no scoped excess or duplicate permit. The Calendar adapter still made seven unsupported full-field completion outputs on four records. A corrected adapter and later named-zone checks resolved current evidence while preserving that negative result.
 
 ## Question and safety relevance
 
@@ -183,11 +183,68 @@ Two saved-data analysis runs produced identical outputs. A separate prefix-based
 
 Codex operated the tools, wrote the controller, and prepared this extension. Separate Codex agents checked the design and the evidence. No human review or external peer review occurred. The exact host model and connector build identifiers were not exposed. No new paid service or model API charge was started for the tests.
 
+## Guarded accounting and dispatch extension
+
+The owner requested an improved rule and another account test. This extension used new temporary data on 2026-10-26. **CheckedLedger** combines known accounting and request-control methods. It does not claim a new distributed protocol.
+
+### Repair and conditional argument
+
+The four weak updates are replaced by a maximum for each fixed cumulative counter and a residual reservation. AddEvery and DedupSum must not add overlapping totals. LastValue must not replace a later total with an older value. HighWaterEarly must not release held capacity on progress alone. The two complete rules already avoided these accounting errors in the earlier selected cases. CheckedLedger adds persistent intent records, scope checks, and a transaction around each capacity allocation. SQLite provides single-writer transaction isolation between local connections [13]. Stable request identity is also established practice [14]; this test does not give Google a server-side idempotency guarantee.
+
+A **scope** identifies the site, fixture, and counter start. An **intent** identifies one B write and its fields. A **permit** allows one dispatch. The rule does these checks:
+
+1. Accept a cumulative report only for its fixed scope. Require an integer count, distinct known record aliases, evidence hashes, and consistent flags. The value must fit the reserved maximum.
+2. Book the greatest valid count. Ignore an exact repeated report. Reject changed content under an existing event ID, incompatible record sets, and a contradictory final report. A rejected report puts the case in quarantine, which blocks new permits.
+3. Keep the unused A reservation until valid final evidence and the local producer-stop assertion arrive. A delayed progress report cannot reduce the settled count.
+4. In one SQLite transaction, check the balance and insert the B intent before dispatch. Each pending or saved B intent consumes one unit. A repeated key never receives another permit. A changed payload under the same key is refused.
+5. Keep the hold when the outcome is unknown. Settle only from a matching exact-record proof. Reject incorrect fields, a different intended payload, or reuse of a record alias already assigned to another intent.
+
+Let `q` be booked A use, `h` its residual hold, and `a` the number of pending or saved B intents. The local condition is `q+h+a <= C`. Initially, `q=0`, `h=R`, and `a=0`, with `R<=C`. Before terminal evidence, valid progress transfers units from h to q, so their sum remains R. A valid final report changes the sum to its true final use, which cannot exceed R. Replay and rejected reports do not change these amounts. A new permit increases a by one only when at least one unit remains. Settlement changes a pending intent into a saved intent and does not increase a. A transaction makes the check and increase indivisible to other connections.
+
+The bound requires truthful A use and final totals, one shared ledger for all writers, and at most one remote create per permit. The database and Google are not one atomic transaction. A lost permit reply can retain capacity. A later contradiction cannot undo a prior action. Accounting cannot authenticate a false field-verification assertion.
+
+### Saved plan and account procedure
+
+The [plan](guarded/plan.md) was saved before implementation. The plan and controller were frozen at 18:23:45 UTC, before the new test records. A separate agent froze the expected case results before reading the controller. Its pre-live audit included 70 offline checks, with 12 local two-connection races. These checks are not production trials.
+
+Each site had eight cases. Drive A folders used the connector; its four B folders used the browser. Calendar used connector creates for private Free events on 2026-11-03 at 12:00–12:05 America/Toronto. Each saved record was one historical unit. Local markers and private ID maps defined scope. Google did not issue the reports or enforce these test limits.
+
+Cases used `C=R=2`, except unknown with `C=R=1`. Separate P/T observations were delivered in the planned order after A finished. In unknown, a real saved B proof was withheld locally; Google did not fail. In compete, two local Python processes requested the last slot. Only the winner caused a website write.
+
+| Case | A records per site | B records per site | Observed accounting result |
+| --- | ---: | ---: | --- |
+| overlap | 1 | 1 | Repeated overlapping reports kept one A count. Repeated intent received no new permit; changed payload was refused. |
+| late | 2 | 0 | Old progress did not reduce the settled total. |
+| early | 2 | 0 | B was refused both before and after T. Progress did not release the hold. |
+| release | 1 | 1 | B was refused before T. One new request was permitted after T. |
+| unknown | 0 | 1 | The pending hold blocked another write. Incorrect-field proof was refused. Repeated intent and confirmation added no unit. |
+| compete | 1 | 1 | Exactly one local process received the last-slot permit. |
+| invalid | 1 | 0 | Three invalid reports were rejected. Quarantine blocked B; h remained one. |
+| contradiction | 1 | 0 | A conflicting final report was rejected, and quarantine blocked B. |
+
+The retained traces have four permits per site, with one observed saved B for each permit. The known record sets contain **18 A and eight B records across 16 cases**. Each selected case stayed within its limit. Accepted A totals matched the known observed A sets. The 14 cases with final evidence had exact final A booking. The two invalid cases had no accepted final report; they retained a hold and are not counted as final-settlement successes. All repeated requests received no new permit, and no key received two permits. There were 33 requests: 16 on Drive and 17 on Calendar. Calendar repeated a pending request again after reopening the ledger. That extra request is not another case. Twelve requests were refused for capacity, four for quarantine, and two for a changed payload. Seven repeated pending or saved requests received no new permit.
+
+### Negative result: field proof was incomplete
+
+The Calendar execution exposed an important limit in the evidence adapter. Its initial read tools returned start and end offsets, but omitted the saved IANA time-zone label. The intended payload included `America/Toronto`. The adapter nevertheless supplied `fields_verified:true` for four initial B settlements. Those four confirmations and three later repeated completion outputs were not supported for the full intended field set at that time: **seven unsupported completion outputs on four records**. This was not evidence that the events had a wrong saved zone. An offset alone cannot identify the intended IANA zone.
+
+The original traces remain intact. A corrected Calendar adapter rejected all four initial proof sets because zone evidence was missing. Read-only editor checks then verified the named Toronto zone on all 13 exact events. Four later complete B proofs were accepted without new account writes. They establish later evidence and cannot make the earlier claims supported retroactively. Review also required explicit presence checks for fields that may be null. The corrected adapter passed 28 saved-data checks: seven checks on each B record, including missing or wrong zone evidence, wrong start time, absent recurrence or Meet fields, and a complete proof. These are evidence-replay checks, not new production cases. One initial A event had a self-attendee removed on the same saved ID before P/T capture. That correction was an extra metadata action, not another record.
+
+The accounting result is therefore narrower than a full task-success claim. The local holds and once-only permits prevented the selected count errors, while a weak field adapter still allowed unsupported completion claims. A robust integration must check both the ledger condition and every required field before it asserts completion.
+
+### Limits, evidence, and review
+
+The selected cases use one account per service. They do not estimate provider failure rates or general agent reliability. No test forced a lost provider reply, a crash during commit, or simultaneous Google writes. The ID map, source observations, known scope, and stop assertions remain trusted. Quarantine and unresolved holds can reduce useful work; no automatic refund exists.
+
+Two analysis runs produced identical row, request, and summary files. They checked the retained record sets and accounting traces; the separate adapter checks preserve the field-proof failure. The package retains the controller, frozen plan, safe traces, action ledgers, process logs, repeat commands, independent checks, and cleanup evidence. The Drive parent and all 13 child paths showed recoverable Trash. All 13 Calendar IDs returned cancelled, and the bounded active-marker searches were empty. Cleanup did not refund historical use. Raw local-process logs, private IDs, account addresses, and private URLs remain in the private evidence folder. Hashes bind extracts to retained files; they do not prove provider truth on their own.
+
+Codex generated this work. Separate Codex agents operated Calendar and reviewed the design and evidence. Exact model and connector build IDs were not exposed. No human or peer review occurred. No paid compute, new permission, or new license was used. NeurIPS checklist topics were review aids only. Read the [guide](guarded/README.md), [sources](guarded/sources.md), and deviations before reproduction.
+
 ## Discussion and limitations
 
 The results support all four planned hypotheses. Event identity, cumulative meaning, finality, and reservation coverage answer different questions. A controller needs the correct combination for its contract. Maximum merge alone is insufficient if the hold is released early. Deduplication alone is insufficient if distinct cumulative totals are added.
 
-The model has one progress value, one final value, one writer, one unchanged counter start, complete eventual delivery, and one second job. The provider has finished before all controller observations. It has no live work, crashes, lost reports, conflicts, tampering, partial local commits, price changes, multiple budgets, counter resets, corrections, or competing writers. The cap and final status are assumed truthful. No real service is shown to provide these guarantees. No natural-language completion claim is measured.
+The original simulation has one progress value, one final value, one writer, one unchanged counter start, complete eventual delivery, and one second job. The provider has finished before all controller observations. It has no live work, crashes, lost reports, conflicts, tampering, partial local commits, price changes, multiple budgets, counter resets, corrections, or competing writers. The cap and final status are assumed truthful. No real service is shown to provide these guarantees. No natural-language completion claim is measured.
 
 Small designed schedules are not independent random samples. Repeated and equal-value cases remain because they test protocol behavior. The result cannot estimate provider failure rates, model reliability, latency, or throughput. It does not test all possible accounting rules.
 
@@ -215,4 +272,7 @@ The main misuse risk is to treat a small model as a deployment guarantee. The st
 11. Google. [Calendar event resource](https://developers.google.com/workspace/calendar/api/v3/reference/events). Selected event fields and cancelled status.
 12. Google. [Calendar reminders and notifications](https://developers.google.com/workspace/calendar/api/concepts/reminders). Reminder overrides and attendee updates.
 
-All sources were accessed on 2026-10-26. See [references.bib](references.bib) and [source_search.md](source_search.md) for exact reading limits and bibliographic records.
+13. SQLite. [Isolation In SQLite](https://www.sqlite.org/isolation.html). Transaction isolation between connections and BEGIN IMMEDIATE.
+14. Stripe. [Idempotent requests](https://docs.stripe.com/api/idempotent_requests). Stable request identity and current API v1/v2 distinctions. Stripe was not used for the tests.
+
+All sources were accessed on 2026-10-26. See [references.bib](references.bib) and [source_search.md](source_search.md) for exact reading limits and bibliographic records. [guarded/sources.md](guarded/sources.md) records the second extension search and new source uses.
