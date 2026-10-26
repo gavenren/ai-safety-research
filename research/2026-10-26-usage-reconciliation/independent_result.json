@@ -1,0 +1,3280 @@
+{
+  "plan_sha256": "0058dfdedd935767a88381ffe8bc655fc2dbb536e25f0fa4f4d8a8748fcee097",
+  "worlds": 3240,
+  "outcomes": 19440,
+  "events": 85536,
+  "controls": [
+    {
+      "name": "distinct_cumulative",
+      "rule": "AddEvery",
+      "final": {
+        "q": 3,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": -1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "T"
+            }
+          },
+          "deficit": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "T"
+            }
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 1,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "distinct_cumulative",
+      "rule": "DedupSum",
+      "final": {
+        "q": 3,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": -1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "T"
+            }
+          },
+          "deficit": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "T"
+            }
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 1,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "distinct_cumulative",
+      "rule": "LastValue",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "distinct_cumulative",
+      "rule": "HighWaterEarly",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 0,
+              "event": "P"
+            }
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "distinct_cumulative",
+      "rule": "HighWaterHeld",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "distinct_cumulative",
+      "rule": "TerminalOnly",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "delayed_progress",
+      "rule": "AddEvery",
+      "final": {
+        "q": 3,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": -1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "P"
+            }
+          },
+          "deficit": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "P"
+            }
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 1,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "delayed_progress",
+      "rule": "DedupSum",
+      "final": {
+        "q": 3,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": -1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "P"
+            }
+          },
+          "deficit": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "P"
+            }
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 1,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "delayed_progress",
+      "rule": "LastValue",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 1,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 2,
+              "event": "D"
+            }
+          },
+          "uncovered": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "P"
+            }
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": true,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": -1,
+        "final_overcount": false,
+        "final_undercount": true,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "delayed_progress",
+      "rule": "HighWaterEarly",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "delayed_progress",
+      "rule": "HighWaterHeld",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "delayed_progress",
+      "rule": "TerminalOnly",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "early_zero",
+      "rule": "AddEvery",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "early_zero",
+      "rule": "DedupSum",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "early_zero",
+      "rule": "LastValue",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "early_zero",
+      "rule": "HighWaterEarly",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 1,
+        "available": -1,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "D"
+            }
+          },
+          "uncovered": {
+            "case": true,
+            "max": 2,
+            "first": {
+              "index": 0,
+              "event": "P"
+            }
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 2,
+              "event": "T"
+            }
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": true,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": true,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "early_zero",
+      "rule": "HighWaterHeld",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "early_zero",
+      "rule": "TerminalOnly",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "equal_values_distinct_ids",
+      "rule": "AddEvery",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "T"
+            }
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": true,
+        "receipt_sufficient_refusal": true,
+        "breach_before_terminal": false,
+        "final_error": 1,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "equal_values_distinct_ids",
+      "rule": "DedupSum",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 1,
+              "event": "T"
+            }
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": true,
+        "receipt_sufficient_refusal": true,
+        "breach_before_terminal": false,
+        "final_error": 1,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "equal_values_distinct_ids",
+      "rule": "LastValue",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "equal_values_distinct_ids",
+      "rule": "HighWaterEarly",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "equal_values_distinct_ids",
+      "rule": "HighWaterHeld",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "equal_values_distinct_ids",
+      "rule": "TerminalOnly",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_terminal",
+      "rule": "AddEvery",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 2,
+              "event": "T"
+            }
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": true,
+        "receipt_sufficient_refusal": true,
+        "breach_before_terminal": false,
+        "final_error": 1,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_terminal",
+      "rule": "DedupSum",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_terminal",
+      "rule": "LastValue",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_terminal",
+      "rule": "HighWaterEarly",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 0,
+              "event": "P"
+            }
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_terminal",
+      "rule": "HighWaterHeld",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_terminal",
+      "rule": "TerminalOnly",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_progress",
+      "rule": "AddEvery",
+      "final": {
+        "q": 4,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": -1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 2,
+            "first": {
+              "index": 2,
+              "event": "T"
+            }
+          },
+          "deficit": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 2,
+              "event": "T"
+            }
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": true,
+        "receipt_sufficient_refusal": true,
+        "breach_before_terminal": false,
+        "final_error": 2,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_progress",
+      "rule": "DedupSum",
+      "final": {
+        "q": 3,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 2,
+              "event": "T"
+            }
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": true,
+        "receipt_sufficient_refusal": true,
+        "breach_before_terminal": false,
+        "final_error": 1,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_progress",
+      "rule": "LastValue",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 1,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_progress",
+      "rule": "HighWaterEarly",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 1,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 0,
+              "event": "P"
+            }
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_progress",
+      "rule": "HighWaterHeld",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 1,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "duplicate_progress",
+      "rule": "TerminalOnly",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 1,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "zero_final",
+      "rule": "AddEvery",
+      "final": {
+        "q": 0,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "zero_final",
+      "rule": "DedupSum",
+      "final": {
+        "q": 0,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "zero_final",
+      "rule": "LastValue",
+      "final": {
+        "q": 0,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "zero_final",
+      "rule": "HighWaterEarly",
+      "final": {
+        "q": 0,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "zero_final",
+      "rule": "HighWaterHeld",
+      "final": {
+        "q": 0,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "zero_final",
+      "rule": "TerminalOnly",
+      "final": {
+        "q": 0,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 2,
+        "available": 0,
+        "accepted": true
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": true,
+        "refused": false,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "pre_report_guard",
+      "rule": "AddEvery",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 2,
+              "event": "T"
+            }
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 1,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "pre_report_guard",
+      "rule": "DedupSum",
+      "final": {
+        "q": 2,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 0,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": true,
+            "max": 1,
+            "first": {
+              "index": 2,
+              "event": "T"
+            }
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 1,
+        "final_overcount": true,
+        "final_undercount": false,
+        "final_exact": false,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "pre_report_guard",
+      "rule": "LastValue",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "pre_report_guard",
+      "rule": "HighWaterEarly",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "pre_report_guard",
+      "rule": "HighWaterHeld",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    },
+    {
+      "name": "pre_report_guard",
+      "rule": "TerminalOnly",
+      "final": {
+        "q": 1,
+        "h": 0,
+        "f": true,
+        "seen": [
+          "P",
+          "T"
+        ],
+        "k": 0,
+        "available": 1,
+        "accepted": false
+      },
+      "scores": {
+        "metrics": {
+          "actual_excess": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "uncovered": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "inflated": {
+            "case": false,
+            "max": 0,
+            "first": null
+          },
+          "deficit": {
+            "case": false,
+            "max": 0,
+            "first": null
+          }
+        },
+        "accepted": false,
+        "refused": true,
+        "unsafe_admission": false,
+        "feasible_refusal": false,
+        "receipt_sufficient_refusal": false,
+        "breach_before_terminal": false,
+        "final_error": 0,
+        "final_overcount": false,
+        "final_undercount": false,
+        "final_exact": true,
+        "final_hold": 0
+      }
+    }
+  ],
+  "summary": [
+    {
+      "rule": "AddEvery",
+      "group": "ALL",
+      "worlds": 3240,
+      "accepted": 1495,
+      "refused": 1745,
+      "unsafe_admission": 0,
+      "feasible_refusal": 665,
+      "receipt_sufficient_refusal": 448,
+      "breach_before_terminal": 0,
+      "final_overcount": 2196,
+      "final_undercount": 0,
+      "final_exact": 1044,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 2196,
+      "inflated_max": 6,
+      "deficit_cases": 1661,
+      "deficit_max": 6,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 6
+    },
+    {
+      "rule": "AddEvery",
+      "group": "PT",
+      "worlds": 324,
+      "accepted": 171,
+      "refused": 153,
+      "unsafe_admission": 0,
+      "feasible_refusal": 45,
+      "receipt_sufficient_refusal": 18,
+      "breach_before_terminal": 0,
+      "final_overcount": 144,
+      "final_undercount": 0,
+      "final_exact": 180,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 144,
+      "inflated_max": 2,
+      "deficit_cases": 74,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 2
+    },
+    {
+      "rule": "AddEvery",
+      "group": "PPT",
+      "worlds": 648,
+      "accepted": 316,
+      "refused": 332,
+      "unsafe_admission": 0,
+      "feasible_refusal": 116,
+      "receipt_sufficient_refusal": 57,
+      "breach_before_terminal": 0,
+      "final_overcount": 288,
+      "final_undercount": 0,
+      "final_exact": 360,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 288,
+      "inflated_max": 4,
+      "deficit_cases": 242,
+      "deficit_max": 4,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 4
+    },
+    {
+      "rule": "AddEvery",
+      "group": "PTT",
+      "worlds": 648,
+      "accepted": 301,
+      "refused": 347,
+      "unsafe_admission": 0,
+      "feasible_refusal": 131,
+      "receipt_sufficient_refusal": 95,
+      "breach_before_terminal": 0,
+      "final_overcount": 504,
+      "final_undercount": 0,
+      "final_exact": 144,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 504,
+      "inflated_max": 4,
+      "deficit_cases": 363,
+      "deficit_max": 4,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 4
+    },
+    {
+      "rule": "AddEvery",
+      "group": "PPTT",
+      "worlds": 1620,
+      "accepted": 707,
+      "refused": 913,
+      "unsafe_admission": 0,
+      "feasible_refusal": 373,
+      "receipt_sufficient_refusal": 278,
+      "breach_before_terminal": 0,
+      "final_overcount": 1260,
+      "final_undercount": 0,
+      "final_exact": 360,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 1260,
+      "inflated_max": 6,
+      "deficit_cases": 982,
+      "deficit_max": 6,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 6
+    },
+    {
+      "rule": "DedupSum",
+      "group": "ALL",
+      "worlds": 3240,
+      "accepted": 1701,
+      "refused": 1539,
+      "unsafe_admission": 0,
+      "feasible_refusal": 459,
+      "receipt_sufficient_refusal": 252,
+      "breach_before_terminal": 0,
+      "final_overcount": 1440,
+      "final_undercount": 0,
+      "final_exact": 1800,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 1440,
+      "inflated_max": 2,
+      "deficit_cases": 690,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 2
+    },
+    {
+      "rule": "DedupSum",
+      "group": "PT",
+      "worlds": 324,
+      "accepted": 171,
+      "refused": 153,
+      "unsafe_admission": 0,
+      "feasible_refusal": 45,
+      "receipt_sufficient_refusal": 18,
+      "breach_before_terminal": 0,
+      "final_overcount": 144,
+      "final_undercount": 0,
+      "final_exact": 180,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 144,
+      "inflated_max": 2,
+      "deficit_cases": 74,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 2
+    },
+    {
+      "rule": "DedupSum",
+      "group": "PPT",
+      "worlds": 648,
+      "accepted": 333,
+      "refused": 315,
+      "unsafe_admission": 0,
+      "feasible_refusal": 99,
+      "receipt_sufficient_refusal": 45,
+      "breach_before_terminal": 0,
+      "final_overcount": 288,
+      "final_undercount": 0,
+      "final_exact": 360,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 288,
+      "inflated_max": 2,
+      "deficit_cases": 140,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 2
+    },
+    {
+      "rule": "DedupSum",
+      "group": "PTT",
+      "worlds": 648,
+      "accepted": 351,
+      "refused": 297,
+      "unsafe_admission": 0,
+      "feasible_refusal": 81,
+      "receipt_sufficient_refusal": 45,
+      "breach_before_terminal": 0,
+      "final_overcount": 288,
+      "final_undercount": 0,
+      "final_exact": 360,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 288,
+      "inflated_max": 2,
+      "deficit_cases": 144,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 2
+    },
+    {
+      "rule": "DedupSum",
+      "group": "PPTT",
+      "worlds": 1620,
+      "accepted": 846,
+      "refused": 774,
+      "unsafe_admission": 0,
+      "feasible_refusal": 234,
+      "receipt_sufficient_refusal": 144,
+      "breach_before_terminal": 0,
+      "final_overcount": 720,
+      "final_undercount": 0,
+      "final_exact": 900,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 720,
+      "inflated_max": 2,
+      "deficit_cases": 332,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 2
+    },
+    {
+      "rule": "LastValue",
+      "group": "ALL",
+      "worlds": 3240,
+      "accepted": 2065,
+      "refused": 1175,
+      "unsafe_admission": 112,
+      "feasible_refusal": 207,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 720,
+      "final_exact": 2520,
+      "actual_excess_cases": 112,
+      "actual_excess_max": 2,
+      "uncovered_cases": 1056,
+      "uncovered_max": 2,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 40,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": -2,
+      "final_error_max": 0
+    },
+    {
+      "rule": "LastValue",
+      "group": "PT",
+      "worlds": 324,
+      "accepted": 197,
+      "refused": 127,
+      "unsafe_admission": 8,
+      "feasible_refusal": 27,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 72,
+      "final_exact": 252,
+      "actual_excess_cases": 8,
+      "actual_excess_max": 2,
+      "uncovered_cases": 72,
+      "uncovered_max": 2,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": -2,
+      "final_error_max": 0
+    },
+    {
+      "rule": "LastValue",
+      "group": "PPT",
+      "worlds": 648,
+      "accepted": 402,
+      "refused": 246,
+      "unsafe_admission": 24,
+      "feasible_refusal": 54,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 192,
+      "final_exact": 456,
+      "actual_excess_cases": 24,
+      "actual_excess_max": 2,
+      "uncovered_cases": 192,
+      "uncovered_max": 2,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": -2,
+      "final_error_max": 0
+    },
+    {
+      "rule": "LastValue",
+      "group": "PTT",
+      "worlds": 648,
+      "accepted": 412,
+      "refused": 236,
+      "unsafe_admission": 16,
+      "feasible_refusal": 36,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 96,
+      "final_exact": 552,
+      "actual_excess_cases": 16,
+      "actual_excess_max": 2,
+      "uncovered_cases": 192,
+      "uncovered_max": 2,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 8,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": -2,
+      "final_error_max": 0
+    },
+    {
+      "rule": "LastValue",
+      "group": "PPTT",
+      "worlds": 1620,
+      "accepted": 1054,
+      "refused": 566,
+      "unsafe_admission": 64,
+      "feasible_refusal": 90,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 360,
+      "final_exact": 1260,
+      "actual_excess_cases": 64,
+      "actual_excess_max": 2,
+      "uncovered_cases": 600,
+      "uncovered_max": 2,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 32,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": -2,
+      "final_error_max": 0
+    },
+    {
+      "rule": "HighWaterEarly",
+      "group": "ALL",
+      "worlds": 3240,
+      "accepted": 2106,
+      "refused": 1134,
+      "unsafe_admission": 72,
+      "feasible_refusal": 126,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 72,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 3240,
+      "actual_excess_cases": 72,
+      "actual_excess_max": 2,
+      "uncovered_cases": 720,
+      "uncovered_max": 2,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 72,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "HighWaterEarly",
+      "group": "PT",
+      "worlds": 324,
+      "accepted": 206,
+      "refused": 118,
+      "unsafe_admission": 8,
+      "feasible_refusal": 18,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 8,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 324,
+      "actual_excess_cases": 8,
+      "actual_excess_max": 2,
+      "uncovered_cases": 72,
+      "uncovered_max": 2,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 8,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "HighWaterEarly",
+      "group": "PPT",
+      "worlds": 648,
+      "accepted": 429,
+      "refused": 219,
+      "unsafe_admission": 24,
+      "feasible_refusal": 27,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 24,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 648,
+      "actual_excess_cases": 24,
+      "actual_excess_max": 2,
+      "uncovered_cases": 192,
+      "uncovered_max": 2,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 24,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "HighWaterEarly",
+      "group": "PTT",
+      "worlds": 648,
+      "accepted": 413,
+      "refused": 235,
+      "unsafe_admission": 8,
+      "feasible_refusal": 27,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 8,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 648,
+      "actual_excess_cases": 8,
+      "actual_excess_max": 2,
+      "uncovered_cases": 96,
+      "uncovered_max": 2,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 8,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "HighWaterEarly",
+      "group": "PPTT",
+      "worlds": 1620,
+      "accepted": 1058,
+      "refused": 562,
+      "unsafe_admission": 32,
+      "feasible_refusal": 54,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 32,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 1620,
+      "actual_excess_cases": 32,
+      "actual_excess_max": 2,
+      "uncovered_cases": 360,
+      "uncovered_max": 2,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 32,
+      "deficit_max": 2,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "HighWaterHeld",
+      "group": "ALL",
+      "worlds": 3240,
+      "accepted": 1953,
+      "refused": 1287,
+      "unsafe_admission": 0,
+      "feasible_refusal": 207,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 3240,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "HighWaterHeld",
+      "group": "PT",
+      "worlds": 324,
+      "accepted": 189,
+      "refused": 135,
+      "unsafe_admission": 0,
+      "feasible_refusal": 27,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 324,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "HighWaterHeld",
+      "group": "PPT",
+      "worlds": 648,
+      "accepted": 378,
+      "refused": 270,
+      "unsafe_admission": 0,
+      "feasible_refusal": 54,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 648,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "HighWaterHeld",
+      "group": "PTT",
+      "worlds": 648,
+      "accepted": 396,
+      "refused": 252,
+      "unsafe_admission": 0,
+      "feasible_refusal": 36,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 648,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "HighWaterHeld",
+      "group": "PPTT",
+      "worlds": 1620,
+      "accepted": 990,
+      "refused": 630,
+      "unsafe_admission": 0,
+      "feasible_refusal": 90,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 1620,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "TerminalOnly",
+      "group": "ALL",
+      "worlds": 3240,
+      "accepted": 1953,
+      "refused": 1287,
+      "unsafe_admission": 0,
+      "feasible_refusal": 207,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 3240,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "TerminalOnly",
+      "group": "PT",
+      "worlds": 324,
+      "accepted": 189,
+      "refused": 135,
+      "unsafe_admission": 0,
+      "feasible_refusal": 27,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 324,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "TerminalOnly",
+      "group": "PPT",
+      "worlds": 648,
+      "accepted": 378,
+      "refused": 270,
+      "unsafe_admission": 0,
+      "feasible_refusal": 54,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 648,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "TerminalOnly",
+      "group": "PTT",
+      "worlds": 648,
+      "accepted": 396,
+      "refused": 252,
+      "unsafe_admission": 0,
+      "feasible_refusal": 36,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 648,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    },
+    {
+      "rule": "TerminalOnly",
+      "group": "PPTT",
+      "worlds": 1620,
+      "accepted": 990,
+      "refused": 630,
+      "unsafe_admission": 0,
+      "feasible_refusal": 90,
+      "receipt_sufficient_refusal": 0,
+      "breach_before_terminal": 0,
+      "final_overcount": 0,
+      "final_undercount": 0,
+      "final_exact": 1620,
+      "actual_excess_cases": 0,
+      "actual_excess_max": 0,
+      "uncovered_cases": 0,
+      "uncovered_max": 0,
+      "inflated_cases": 0,
+      "inflated_max": 0,
+      "deficit_cases": 0,
+      "deficit_max": 0,
+      "final_hold_nonzero": 0,
+      "final_error_min": 0,
+      "final_error_max": 0
+    }
+  ]
+}

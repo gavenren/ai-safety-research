@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "files": {
+    "inputs.json": {
+      "equal": true,
+      "bytes": 414075,
+      "sha256": "c667ee47bbf1bfe737d625de32d8aa6949f2482ba18ff7777a1af319229b4567"
+    },
+    "controls.json": {
+      "equal": true,
+      "bytes": 164483,
+      "sha256": "2da58a25368cc3f3a2c410b0674104249d3abdae7cb75ddc826e6cde786e241b"
+    },
+    "traces.jsonl.gz": {
+      "equal": true,
+      "bytes": 372290,
+      "sha256": "3eb5033c0bdef6b4e9729f0bf5c0ab3bcd9a59d36b0531433c0ee41665e66428"
+    },
+    "summary.csv": {
+      "equal": true,
+      "bytes": 2472,
+      "sha256": "9ca180b2dde68c6dcbf865590b1b10110a2b08abeb84e629e4f124ec93471eb8"
+    },
+    "paired.json": {
+      "equal": true,
+      "bytes": 795,
+      "sha256": "53263e9dcccf76ec3c7ea0538a9fb5226a30d31c350ed01cd53bfb131bb11687"
+    },
+    "witnesses.json": {
+      "equal": true,
+      "bytes": 41873,
+      "sha256": "8681840c4b5fe2cb55aa4b8f1ffd41662ea4272b3ad3d5cc1a572b55370ae188"
+    },
+    "checks.json": {
+      "equal": true,
+      "bytes": 235,
+      "sha256": "433fe4cc0b2b599aa673430da510b166086507ce5129dbded0524b961a6e129e"
+    }
+  }
+}

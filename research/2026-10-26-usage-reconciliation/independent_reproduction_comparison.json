@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "plan_sha256": "0058dfdedd935767a88381ffe8bc655fc2dbb536e25f0fa4f4d8a8748fcee097",
+  "specification_sha256": "13c219825ca9343074087f7390603cb95539aabd905443d64018fbe5454ec9cc",
+  "adapter_sha256": "cb089cc2f57a187016a0c7eefa4d802a9c8b4e29715b4c55e1b6c57f1f3d62bf",
+  "main_implementation_imported": false,
+  "main_implementation_executed": false,
+  "worlds": 3240,
+  "outcomes": 19440,
+  "events": 85536,
+  "state_records": 209952,
+  "decision_records": 19440,
+  "score_records": 19440,
+  "summary_rows": 30,
+  "summary_numeric_values": 600,
+  "paired_rows": 6,
+  "paired_values": 24,
+  "control_rows": 48,
+  "independent_control_rows": 48,
+  "first_witnesses": 12,
+  "evidence_sha256": {
+    "inputs.json": "c667ee47bbf1bfe737d625de32d8aa6949f2482ba18ff7777a1af319229b4567",
+    "traces.jsonl.gz": "3eb5033c0bdef6b4e9729f0bf5c0ab3bcd9a59d36b0531433c0ee41665e66428",
+    "summary.csv": "9ca180b2dde68c6dcbf865590b1b10110a2b08abeb84e629e4f124ec93471eb8",
+    "paired.json": "53263e9dcccf76ec3c7ea0538a9fb5226a30d31c350ed01cd53bfb131bb11687",
+    "controls.json": "2da58a25368cc3f3a2c410b0674104249d3abdae7cb75ddc826e6cde786e241b",
+    "witnesses.json": "8681840c4b5fe2cb55aa4b8f1ffd41662ea4272b3ad3d5cc1a572b55370ae188",
+    "checks.json": "433fe4cc0b2b599aa673430da510b166086507ce5129dbded0524b961a6e129e"
+  },
+  "compared_fields": "All input fields; all initial/final and event before/after states; report metadata; decisions; all score fields and first-event records; summaries; paired counts; controls; first witnesses; check counts."
+}

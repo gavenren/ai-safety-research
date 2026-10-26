@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-10-26T17:37:20.131535+00:00",
+  "file": "compare_independent.py",
+  "sha256": "cb089cc2f57a187016a0c7eefa4d802a9c8b4e29715b4c55e1b6c57f1f3d62bf",
+  "independent_specification_frozen_first": true,
+  "schema_access_before_adapter_freeze": "Input sample, one main trace, one control, one witness, one summary row, identifier/key lists and checks metadata.",
+  "main_code_read": false,
+  "full_main_results_compared": false,
+  "mapping_only": "Drops the independent accepted field from states; expands decision metadata; flattens score metric keys; maps summary field names."
+}

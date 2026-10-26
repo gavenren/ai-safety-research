@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-10-26T17:35:33.850439+00:00",
+  "plan_sha256": "0058dfdedd935767a88381ffe8bc655fc2dbb536e25f0fa4f4d8a8748fcee097",
+  "file": "independent_spec.py",
+  "sha256": "13c219825ca9343074087f7390603cb95539aabd905443d64018fbe5454ec9cc",
+  "main_code_read": false,
+  "main_results_read": false,
+  "method": "Direct formulas over report prefixes; no main implementation import."
+}
