@@ -1,0 +1,13 @@
+{
+  "files": {
+    "independent_expected.json": "24a25c8c31e6875957015f35c446d3a65b5c758b6e4a5e98a072bb4c8c4d8877",
+    "independent_expected.py": "9af1ae55d807535aeb499797c80f11d012fd587425fad6668a9d5bf9bfd121c0"
+  },
+  "frozen_at_utc": "2026-10-26T18:20:52.722397+00:00",
+  "read_before_freeze": [
+    "previous live plan",
+    "previous report",
+    "new design contract and matrix from design agent"
+  ],
+  "status": "frozen_before_new_controller_or_result_access"
+}

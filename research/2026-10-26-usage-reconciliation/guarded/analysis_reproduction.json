@@ -1,0 +1,44 @@
+{
+  "status": "two_identical_accounting_analysis_runs",
+  "python": "3.13.7",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "analyzer_sha256": "58f3b0cee3beb6dd0d9555f6e5bae21e7d45b684012b27326d7c12451dbc69ab",
+  "runs": [
+    {
+      "run": 1,
+      "command": "python3 analyze_guarded.py --out /tmp/usage-guarded-analysis",
+      "started_at_utc": "2026-10-26T18:33:46.897524+00:00",
+      "ended_at_utc": "2026-10-26T18:33:46.933470+00:00",
+      "wall_seconds": 0.03577166600007331,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "run": 2,
+      "command": "python3 analyze_guarded.py --out /tmp/usage-guarded-analysis",
+      "started_at_utc": "2026-10-26T18:33:46.933787+00:00",
+      "ended_at_utc": "2026-10-26T18:33:46.967956+00:00",
+      "wall_seconds": 0.03416049999941606,
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "outputs": {
+    "guarded_rows.csv": {
+      "sha256": "f2252e3963c6ddadb51e8acc54cd0c8ff00137f18387ecf1f9a9053683230d85",
+      "bytes": 1745,
+      "identical": true
+    },
+    "guarded_requests.csv": {
+      "sha256": "5fe39b102ce29b386d6b96b5ff87f842a2870de83f8bab0cd880974bc4fa814b",
+      "bytes": 1660,
+      "identical": true
+    },
+    "guarded_summary.json": {
+      "sha256": "8b6488085c59065bf5b6727cb87f28dadddcfd627503dadc80a66b989f3fbee4",
+      "bytes": 1524,
+      "identical": true
+    }
+  },
+  "scope": "Read-only saved-data accounting analysis. Calendar field-proof failures require the separate adapter audit."
+}

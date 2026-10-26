@@ -1,0 +1,104 @@
+{
+  "active_marker_search_count": 0,
+  "cancelled_count": 13,
+  "cleaned_at": "2026-10-26T18:32:12.537Z",
+  "cleanup_complete": true,
+  "next_page_token": null,
+  "records": [
+    {
+      "alias": "calendar-overlap-A1",
+      "cancelled_evidence_sha256": "a35d4679aa4a9f9c14845eaedd487efae4be5ccbed919f2d20a75b1a821fbe41",
+      "checked_at": "2026-10-26T18:31:55.763Z",
+      "delete_evidence_sha256": "b2cd957447f131dec50895ae596f2230637eb3efecaf0627266f0ead1cc3fb61",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-late-A1",
+      "cancelled_evidence_sha256": "d5e1091e618080ecabcf4af62fa7137c97d63de67f3ee6359164a9cc71cee0fa",
+      "checked_at": "2026-10-26T18:31:56.878Z",
+      "delete_evidence_sha256": "65fdd110da36f6ba5cd26eff4a22dc6aa3d283c776737d75d8145625bbd3d6d3",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-late-A2",
+      "cancelled_evidence_sha256": "8b114c868745de66662ba98d04eeaf7567d691bb40b8ac7df078509679aa3165",
+      "checked_at": "2026-10-26T18:31:58.369Z",
+      "delete_evidence_sha256": "503dfb872249d54032523bf54380eeaeee533182ead8abd9d5ba0c43cfefd48f",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-early-A1",
+      "cancelled_evidence_sha256": "4c2385c7017bcb45e31a756acafae80527cb9ca9287cfe7cf6d8dbd11b08331c",
+      "checked_at": "2026-10-26T18:31:59.428Z",
+      "delete_evidence_sha256": "5629b783d759dec2d1906d4e7b7885751715d56f901c53cf42e7c5191aa2d86b",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-early-A2",
+      "cancelled_evidence_sha256": "96e5f8d7ca2ded122b3309df3d251784e51042374f0e1b642109069993241457",
+      "checked_at": "2026-10-26T18:32:00.586Z",
+      "delete_evidence_sha256": "62f0b1113d8b350104cc69cbf82a24933c9f630235ed9dd0c7a3e1f7f87ed097",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-release-A1",
+      "cancelled_evidence_sha256": "e4893c3277662c7dc8cb21d6270d7a453fce811f9ef98bf1748b0b606ffc1f3a",
+      "checked_at": "2026-10-26T18:32:01.978Z",
+      "delete_evidence_sha256": "dc3cabbe0d92b855acbd5ffb65b4e99e5684e43cb0d4aad59d15822c0233de07",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-compete-A1",
+      "cancelled_evidence_sha256": "2bddd791f173c9d1af2000fe4c62780d2f0f744e03805f8cad1039c2f51a91ea",
+      "checked_at": "2026-10-26T18:32:03.106Z",
+      "delete_evidence_sha256": "e29cd799eb7b673d0837787d76d9c7c4ef4ab93e2fb2630f6b67f774cd44db4f",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-invalid-A1",
+      "cancelled_evidence_sha256": "6e9050a260d6be544c60341f4c78725b989e1f5b61f39e71cbc96692771c94b3",
+      "checked_at": "2026-10-26T18:32:04.751Z",
+      "delete_evidence_sha256": "52ccdd3ef06b252e447df7f6007819aca92902edee6e0143ed61a29bd9c652da",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-contradiction-A1",
+      "cancelled_evidence_sha256": "d1370ae589f86ce320a1c9de07ecba41bdf7258e031a5207df4d8d6f714029b5",
+      "checked_at": "2026-10-26T18:32:06.010Z",
+      "delete_evidence_sha256": "d7da33fce761d24d5fc9b98b1611b71272ffa5909847989615d2050aaabad31d",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-overlap-B1",
+      "cancelled_evidence_sha256": "80f8de2bbc578b7461eae11e15399d3ea4cf02920fd80390ef193c3ee839fa9f",
+      "checked_at": "2026-10-26T18:32:07.230Z",
+      "delete_evidence_sha256": "70013b4cd17d03b721b2f7149b5763546a22dddb5ae9217f6ed93ae758b1b517",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-release-B2",
+      "cancelled_evidence_sha256": "39329145305e3610e052d7dbad0aa34e94b9ad4efcbe760da771b6bdfa8a6cbc",
+      "checked_at": "2026-10-26T18:32:08.854Z",
+      "delete_evidence_sha256": "3b0f4f4e46b2ce3d0c9673db279844c9fcf3991261ad8caa731e99dff6b73573",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-unknown-B1",
+      "cancelled_evidence_sha256": "7fac04087903606d6e67458b9ce47f6184e1149c1574bdbc9e31a89955edf92f",
+      "checked_at": "2026-10-26T18:32:09.969Z",
+      "delete_evidence_sha256": "cc724cc02323f68c588737db3db754f65e990a8ce6f8b81b4239e4ee5137b530",
+      "status": "cancelled"
+    },
+    {
+      "alias": "calendar-compete-B2",
+      "cancelled_evidence_sha256": "1f660093184ad759b157c5f9db36139902181f7fdcd2c4e2e283193c66fcb49d",
+      "checked_at": "2026-10-26T18:32:11.894Z",
+      "delete_evidence_sha256": "3488ab793fa3ed80e16fc7554084deb013be5403b05703be9e0c5d78f83cda34",
+      "status": "cancelled"
+    }
+  ],
+  "scope": "Primary calendar; November 3, 2026; unique run marker",
+  "scope_evidence_sha256": "60203da201d1ea6b883ac59b20f4a125a8f2ec6b61f7f3f026a7c3248892885f",
+  "site": "calendar",
+  "trash_purged": false
+}

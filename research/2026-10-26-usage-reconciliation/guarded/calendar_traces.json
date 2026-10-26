@@ -1,0 +1,2711 @@
+[
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:54.053851Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "overlap",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "calendar-overlap-A",
+          "created_at": "2026-10-26T18:24:54.052112Z",
+          "fixture": "calendar-overlap",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "calendar",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:26:05.373626Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:22.703Z",
+          "counter_start": "calendar-overlap-A",
+          "evidence_sha256": [
+            "99f623da7459f772594f1f2194b7f23bd40b20ea64f6e8852690bfd1879c6d26"
+          ],
+          "fixture": "calendar-overlap",
+          "id": "calendar-overlap-P",
+          "producer_stopped": false,
+          "records": [
+            "calendar-overlap-A1"
+          ],
+          "site": "calendar",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:05.459974Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:23.486Z",
+          "counter_start": "calendar-overlap-A",
+          "evidence_sha256": [
+            "a9df9a9e97046f765f5d1270862bcfc8f5ef93f01198b1ec84da59bbe0370681"
+          ],
+          "fixture": "calendar-overlap",
+          "id": "calendar-overlap-T",
+          "producer_stopped": true,
+          "records": [
+            "calendar-overlap-A1"
+          ],
+          "site": "calendar",
+          "terminal": true,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:05.545651Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:22.703Z",
+          "counter_start": "calendar-overlap-A",
+          "evidence_sha256": [
+            "99f623da7459f772594f1f2194b7f23bd40b20ea64f6e8852690bfd1879c6d26"
+          ],
+          "fixture": "calendar-overlap",
+          "id": "calendar-overlap-P",
+          "producer_stopped": false,
+          "records": [
+            "calendar-overlap-A1"
+          ],
+          "site": "calendar",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "replay",
+          "reason": "same_report_bytes"
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:05.638083Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:23.486Z",
+          "counter_start": "calendar-overlap-A",
+          "evidence_sha256": [
+            "a9df9a9e97046f765f5d1270862bcfc8f5ef93f01198b1ec84da59bbe0370681"
+          ],
+          "fixture": "calendar-overlap",
+          "id": "calendar-overlap-T",
+          "producer_stopped": true,
+          "records": [
+            "calendar-overlap-A1"
+          ],
+          "site": "calendar",
+          "terminal": true,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "replay",
+          "reason": "same_report_bytes"
+        },
+        "seq": 5
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:05.783080Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-overlap-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "a5d97f1d7da0f78cf82a96a532bfba3d2475d1b0f8aceefeb82a894d8ee3b1ba"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "permit",
+          "dispatch": true,
+          "payload_sha256": "a5d97f1d7da0f78cf82a96a532bfba3d2475d1b0f8aceefeb82a894d8ee3b1ba",
+          "permit_at": "2026-10-26T18:26:05.782948Z"
+        },
+        "seq": 6
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:07.205359Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "d56d0c61adaf4f460ae040c322c89335a81f24ea5b365b2ef4a835594c6079b5"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:26:07.002Z",
+            "payload_sha256": "a5d97f1d7da0f78cf82a96a532bfba3d2475d1b0f8aceefeb82a894d8ee3b1ba",
+            "record_alias": "calendar-overlap-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "saved"
+        },
+        "seq": 7
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:07.351264Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-overlap-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "a5d97f1d7da0f78cf82a96a532bfba3d2475d1b0f8aceefeb82a894d8ee3b1ba"
+        },
+        "kind": "request",
+        "result": {
+          "completion": true,
+          "decision": "already_saved",
+          "dispatch": false
+        },
+        "seq": 8
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:07.490007Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-overlap-B1-changed",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "fc9be55682064b5173d88038e1cf1f9f6cef7007f58e1bfca44e46c483cda0da"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "payload_conflict",
+          "dispatch": false
+        },
+        "seq": 9
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:31:53.665400Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "a97be777ccd9b91c91943d0c98d781e814545cc2e0655c90a4cbae7a38a31f08",
+              "2635bba4ac7d77278e9db77f753e9aea29ba48091a827e3050eb536dda368e3e"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:29:28.374Z",
+            "payload_sha256": "a5d97f1d7da0f78cf82a96a532bfba3d2475d1b0f8aceefeb82a894d8ee3b1ba",
+            "record_alias": "calendar-overlap-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "already_saved"
+        },
+        "seq": 10
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "overlap",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "calendar-overlap-A",
+      "created_at": "2026-10-26T18:24:54.052112Z",
+      "fixture": "calendar-overlap",
+      "h": 0,
+      "operations": {
+        "B1": {
+          "evidence_sha256": [
+            "d56d0c61adaf4f460ae040c322c89335a81f24ea5b365b2ef4a835594c6079b5"
+          ],
+          "observed_at": "2026-10-26T18:26:07.002Z",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-overlap-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "a5d97f1d7da0f78cf82a96a532bfba3d2475d1b0f8aceefeb82a894d8ee3b1ba",
+          "permit_at": "2026-10-26T18:26:05.782948Z",
+          "record_alias": "calendar-overlap-B1",
+          "status": "saved"
+        }
+      },
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 1,
+      "quarantined": false,
+      "records": [
+        "calendar-overlap-A1"
+      ],
+      "reports": {
+        "calendar-overlap-P": "cc7945f6ead508d839ccb37d86b6e410975284b2e250b2c1444c02e85673bfa8",
+        "calendar-overlap-T": "4dde8f5b5eef6bea39e21d0502d420dc0d2418946e56bccd233b5193c344a6ea"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "calendar",
+      "terminal": true,
+      "terminal_records": [
+        "calendar-overlap-A1"
+      ]
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 1,
+      "quarantined": false,
+      "saved_B": 1,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:54.143162Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "late",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "calendar-late-A",
+          "created_at": "2026-10-26T18:24:54.141663Z",
+          "fixture": "calendar-late",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "calendar",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:07.576853Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:26.530Z",
+          "counter_start": "calendar-late-A",
+          "evidence_sha256": [
+            "1272b2ece64797057ad3fa152bfc6bbf9054b88e859a0306755a4ff6d5aa259a",
+            "caf268a9ad89fe0902e88b96b509f144e386dc4238f13950485073e6d793b7f4"
+          ],
+          "fixture": "calendar-late",
+          "id": "calendar-late-T",
+          "producer_stopped": true,
+          "records": [
+            "calendar-late-A1",
+            "calendar-late-A2"
+          ],
+          "site": "calendar",
+          "terminal": true,
+          "value": 2
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:07.664357Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:24.830Z",
+          "counter_start": "calendar-late-A",
+          "evidence_sha256": [
+            "4485079509e81bc60020e7649bd847545ea853eac639d3f589fe6a6ac86fe059"
+          ],
+          "fixture": "calendar-late",
+          "id": "calendar-late-P",
+          "producer_stopped": false,
+          "records": [
+            "calendar-late-A1"
+          ],
+          "site": "calendar",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:07.804500Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-late-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "989e1ee32e971a8dc6691ac1081c65769fa2a119d3d0e6ad924782567b82ec35"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 4
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "late",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "calendar-late-A",
+      "created_at": "2026-10-26T18:24:54.141663Z",
+      "fixture": "calendar-late",
+      "h": 0,
+      "operations": {},
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 2,
+      "quarantined": false,
+      "records": [
+        "calendar-late-A1",
+        "calendar-late-A2"
+      ],
+      "reports": {
+        "calendar-late-P": "54d0c14ec7a74dada300bb4c509e2a906ab30a92dd736ae764e0d600483cef8f",
+        "calendar-late-T": "4d323128f6f2f77144f6df593bcd30efa733a42d636bbb87bfb79ec43a24b84f"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "calendar",
+      "terminal": true,
+      "terminal_records": [
+        "calendar-late-A1",
+        "calendar-late-A2"
+      ]
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 2,
+      "quarantined": false,
+      "saved_B": 0,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:54.228102Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "early",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "calendar-early-A",
+          "created_at": "2026-10-26T18:24:54.226953Z",
+          "fixture": "calendar-early",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "calendar",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:26:07.888733Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:27.523Z",
+          "counter_start": "calendar-early-A",
+          "evidence_sha256": [
+            "071c1daaa95e15d9fa9472c5e87011d4519e9f36ddf602d25c417e5f1515b180"
+          ],
+          "fixture": "calendar-early",
+          "id": "calendar-early-P",
+          "producer_stopped": false,
+          "records": [],
+          "site": "calendar",
+          "terminal": false,
+          "value": 0
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:26:08.029501Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-early-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "2fb3f2077e9204750f1f9160661f4ecb2d6a3f652583e9fbef1ed463db063e17"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:08.114335Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:30.187Z",
+          "counter_start": "calendar-early-A",
+          "evidence_sha256": [
+            "415d8edcb21e7a84372b7f36995c6c77724331d42c5ebe37f3f897166cc3caab",
+            "cc987ecc8face4967f63ba633164a92972e0d2bf7323419d2b66ba7e959fa987"
+          ],
+          "fixture": "calendar-early",
+          "id": "calendar-early-T",
+          "producer_stopped": true,
+          "records": [
+            "calendar-early-A1",
+            "calendar-early-A2"
+          ],
+          "site": "calendar",
+          "terminal": true,
+          "value": 2
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:08.250951Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B2",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-early-B2",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "2c82a26d710864d7e80cf935269fdf379a74a50c803dca4c49b77a1996672dce"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 5
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "early",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "calendar-early-A",
+      "created_at": "2026-10-26T18:24:54.226953Z",
+      "fixture": "calendar-early",
+      "h": 0,
+      "operations": {},
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 2,
+      "quarantined": false,
+      "records": [
+        "calendar-early-A1",
+        "calendar-early-A2"
+      ],
+      "reports": {
+        "calendar-early-P": "d79493ce608ff60e9a2df092bf55a48ed40046d1394f793abd069f32980ef1ab",
+        "calendar-early-T": "575a3f78efdd6588613053717aebdfb7c001fa4f3fd01ffc7e6b4552d0961614"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "calendar",
+      "terminal": true,
+      "terminal_records": [
+        "calendar-early-A1",
+        "calendar-early-A2"
+      ]
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 2,
+      "quarantined": false,
+      "saved_B": 0,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:54.312189Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "release",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "calendar-release-A",
+          "created_at": "2026-10-26T18:24:54.310857Z",
+          "fixture": "calendar-release",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "calendar",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:26:08.337835Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:31.588Z",
+          "counter_start": "calendar-release-A",
+          "evidence_sha256": [
+            "8112772c8e839fd0e5ff034653e2463e58f7495d7bb0e49dafba107753707be5"
+          ],
+          "fixture": "calendar-release",
+          "id": "calendar-release-P",
+          "producer_stopped": false,
+          "records": [
+            "calendar-release-A1"
+          ],
+          "site": "calendar",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:26:08.473536Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-release-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "df73e86c4ffe82faa19a91758bf82953302c117cc943834523ea44298af91d76"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:08.563778Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:32.082Z",
+          "counter_start": "calendar-release-A",
+          "evidence_sha256": [
+            "583d59205899f794e1c2c59be71a5819f11bef58eef1a3815382a85809870631"
+          ],
+          "fixture": "calendar-release",
+          "id": "calendar-release-T",
+          "producer_stopped": true,
+          "records": [
+            "calendar-release-A1"
+          ],
+          "site": "calendar",
+          "terminal": true,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:08.723284Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B2",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-release-B2",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "627783093773562e5e8ff12d53dc493dcdbbae1d453a5b20db12a0f6216c99f0"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "permit",
+          "dispatch": true,
+          "payload_sha256": "627783093773562e5e8ff12d53dc493dcdbbae1d453a5b20db12a0f6216c99f0",
+          "permit_at": "2026-10-26T18:26:08.722989Z"
+        },
+        "seq": 5
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:10.356175Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "9a90d6163bba4bbf0d52fc097d630274ae78e53e8cfd5e6b789edf56877a5b85"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:26:10.150Z",
+            "payload_sha256": "627783093773562e5e8ff12d53dc493dcdbbae1d453a5b20db12a0f6216c99f0",
+            "record_alias": "calendar-release-B2",
+            "status": "saved"
+          },
+          "key": "B2"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "saved"
+        },
+        "seq": 6
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:31:53.761194Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "d5766e87398e8bcd3b3cbcc49fa861f71cbdf2ea774e42aebe0de9220c6ceebc",
+              "2ac01697c0ea1962c0aafd3d7c0922677edd069ae3d3187931f7461454f8bc65"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:30:45.499Z",
+            "payload_sha256": "627783093773562e5e8ff12d53dc493dcdbbae1d453a5b20db12a0f6216c99f0",
+            "record_alias": "calendar-release-B2",
+            "status": "saved"
+          },
+          "key": "B2"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "already_saved"
+        },
+        "seq": 7
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "release",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "calendar-release-A",
+      "created_at": "2026-10-26T18:24:54.310857Z",
+      "fixture": "calendar-release",
+      "h": 0,
+      "operations": {
+        "B2": {
+          "evidence_sha256": [
+            "9a90d6163bba4bbf0d52fc097d630274ae78e53e8cfd5e6b789edf56877a5b85"
+          ],
+          "observed_at": "2026-10-26T18:26:10.150Z",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-release-B2",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "627783093773562e5e8ff12d53dc493dcdbbae1d453a5b20db12a0f6216c99f0",
+          "permit_at": "2026-10-26T18:26:08.722989Z",
+          "record_alias": "calendar-release-B2",
+          "status": "saved"
+        }
+      },
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 1,
+      "quarantined": false,
+      "records": [
+        "calendar-release-A1"
+      ],
+      "reports": {
+        "calendar-release-P": "9661627c4ae4211bdb280e95fa34815476e6ba8f14f1d0804383e4ed30cb5ac4",
+        "calendar-release-T": "6410e6b1b522200bbf90a32dab5959413a689aba566039ce6e059a5311895480"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "calendar",
+      "terminal": true,
+      "terminal_records": [
+        "calendar-release-A1"
+      ]
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 1,
+      "quarantined": false,
+      "saved_B": 1,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:54.396025Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 1,
+          "case": "unknown",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "calendar-unknown-A",
+          "created_at": "2026-10-26T18:24:54.394877Z",
+          "fixture": "calendar-unknown",
+          "h": 1,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 1,
+          "schema": 1,
+          "site": "calendar",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:10.440914Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:32.614Z",
+          "counter_start": "calendar-unknown-A",
+          "evidence_sha256": [
+            "63ca4f356fcb93954223cf00b893ace1767fca07ebe78fa1175f6c1cf11baefb"
+          ],
+          "fixture": "calendar-unknown",
+          "id": "calendar-unknown-T",
+          "producer_stopped": true,
+          "records": [],
+          "site": "calendar",
+          "terminal": true,
+          "value": 0
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:10.582766Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-unknown-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "permit",
+          "dispatch": true,
+          "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8",
+          "permit_at": "2026-10-26T18:26:10.582642Z"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:11.403126Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "5d5f921b2c2bc803b7435f34cb6fc92190f64b7185f2d71a23293376028e885a"
+            ],
+            "observed_at": "2026-10-26T18:26:11.273Z",
+            "status": "unknown"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": false,
+          "decision": "pending"
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:11.546198Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-unknown-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "pending",
+          "dispatch": false
+        },
+        "seq": 5
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:11.691267Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B2",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-unknown-B2",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "e0f90b4c0a4f5e0a2b0847d095b9108c2cc22bc9b55dc6cf0cadddccb7c53631"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 6
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:11.830864Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-unknown-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "pending",
+          "dispatch": false
+        },
+        "seq": 7
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:12.418881Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "486441c79445a9d0f8f47ef0ae44509cd1dbabf35bbb53de53280caa58d251ca"
+            ],
+            "fields_verified": false,
+            "observed_at": "2026-10-26T18:26:12.208Z",
+            "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8",
+            "record_alias": "calendar-unknown-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": false,
+          "decision": "evidence_rejected",
+          "reason": "fields_not_verified"
+        },
+        "seq": 8
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:12.566579Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "486441c79445a9d0f8f47ef0ae44509cd1dbabf35bbb53de53280caa58d251ca"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:26:12.208Z",
+            "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8",
+            "record_alias": "calendar-unknown-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "saved"
+        },
+        "seq": 9
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:12.714035Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "486441c79445a9d0f8f47ef0ae44509cd1dbabf35bbb53de53280caa58d251ca"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:26:12.208Z",
+            "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8",
+            "record_alias": "calendar-unknown-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "already_saved"
+        },
+        "seq": 10
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:12.862915Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-unknown-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8"
+        },
+        "kind": "request",
+        "result": {
+          "completion": true,
+          "decision": "already_saved",
+          "dispatch": false
+        },
+        "seq": 11
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:31:53.848363Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "8ade4073912ac0cd2ea535f15a69f664d5254fe8f6e0a16ff45e7b70bc19b226",
+              "9da68223b1f8afe93eb5e42d886dd7bf45a012e200d85297664aaabbae7457cb"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:30:48.774Z",
+            "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8",
+            "record_alias": "calendar-unknown-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "already_saved"
+        },
+        "seq": 12
+      }
+    ],
+    "state": {
+      "capacity": 1,
+      "case": "unknown",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "calendar-unknown-A",
+      "created_at": "2026-10-26T18:24:54.394877Z",
+      "fixture": "calendar-unknown",
+      "h": 0,
+      "operations": {
+        "B1": {
+          "evidence_sha256": [
+            "486441c79445a9d0f8f47ef0ae44509cd1dbabf35bbb53de53280caa58d251ca"
+          ],
+          "observed_at": "2026-10-26T18:26:12.208Z",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-unknown-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8",
+          "permit_at": "2026-10-26T18:26:10.582642Z",
+          "record_alias": "calendar-unknown-B1",
+          "status": "saved"
+        }
+      },
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 0,
+      "quarantined": false,
+      "records": [],
+      "reports": {
+        "calendar-unknown-T": "41cf44557beccbc635a58e5887f8414d119b31960538d56f4d0183ca6daf02e5"
+      },
+      "reservation": 1,
+      "schema": 1,
+      "site": "calendar",
+      "terminal": true,
+      "terminal_records": []
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 0,
+      "quarantined": false,
+      "saved_B": 1,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:54.483569Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "compete",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "calendar-compete-A",
+          "created_at": "2026-10-26T18:24:54.482345Z",
+          "fixture": "calendar-compete",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "calendar",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:37.400030Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:33.913Z",
+          "counter_start": "calendar-compete-A",
+          "evidence_sha256": [
+            "4984334bd21e81e2fd064f7c16776f91688972c1c7ed2549ca833a16128b0e91"
+          ],
+          "fixture": "calendar-compete",
+          "id": "calendar-compete-T",
+          "producer_stopped": true,
+          "records": [
+            "calendar-compete-A1"
+          ],
+          "site": "calendar",
+          "terminal": true,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:37.653053Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B2",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-compete-B2",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "e6065efa007b089eb0436a96b95cbbbe2ecc00e70a25611452de12ee3cbdcffb"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "permit",
+          "dispatch": true,
+          "payload_sha256": "e6065efa007b089eb0436a96b95cbbbe2ecc00e70a25611452de12ee3cbdcffb",
+          "permit_at": "2026-10-26T18:26:37.652928Z"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:37.654182Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-compete-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "e785bfcf30589f952a8859a3a5199dd59f473618b1ccdaf3769d644a3454a65b"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:39.365290Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "3a400e07030fc3bd757e7a6c8b51b49f791f23f25fa3d07ac33c8b4aa5e81e47"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:26:39.158Z",
+            "payload_sha256": "e6065efa007b089eb0436a96b95cbbbe2ecc00e70a25611452de12ee3cbdcffb",
+            "record_alias": "calendar-compete-B2",
+            "status": "saved"
+          },
+          "key": "B2"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "saved"
+        },
+        "seq": 5
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:31:53.936320Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "4d5fa1e5973c443ca066da9fe276854a8af4f175ac5ece96397df96b4a8077e3",
+              "e3cd9a95e9972fd456168daa1d7700a15a130aaf12fceb4977c6ac01e0e648f0"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:30:52.264Z",
+            "payload_sha256": "e6065efa007b089eb0436a96b95cbbbe2ecc00e70a25611452de12ee3cbdcffb",
+            "record_alias": "calendar-compete-B2",
+            "status": "saved"
+          },
+          "key": "B2"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "already_saved"
+        },
+        "seq": 6
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "compete",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "calendar-compete-A",
+      "created_at": "2026-10-26T18:24:54.482345Z",
+      "fixture": "calendar-compete",
+      "h": 0,
+      "operations": {
+        "B2": {
+          "evidence_sha256": [
+            "3a400e07030fc3bd757e7a6c8b51b49f791f23f25fa3d07ac33c8b4aa5e81e47"
+          ],
+          "observed_at": "2026-10-26T18:26:39.158Z",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-compete-B2",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "e6065efa007b089eb0436a96b95cbbbe2ecc00e70a25611452de12ee3cbdcffb",
+          "permit_at": "2026-10-26T18:26:37.652928Z",
+          "record_alias": "calendar-compete-B2",
+          "status": "saved"
+        }
+      },
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 1,
+      "quarantined": false,
+      "records": [
+        "calendar-compete-A1"
+      ],
+      "reports": {
+        "calendar-compete-T": "98fd5422fd73715a952f3562f3029108d28a744e75adb2ece1f038fab79b9ee7"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "calendar",
+      "terminal": true,
+      "terminal_records": [
+        "calendar-compete-A1"
+      ]
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 1,
+      "quarantined": false,
+      "saved_B": 1,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:54.568529Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "invalid",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "calendar-invalid-A",
+          "created_at": "2026-10-26T18:24:54.566867Z",
+          "fixture": "calendar-invalid",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "calendar",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:26:39.456789Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:35.256Z",
+          "counter_start": "calendar-invalid-A",
+          "evidence_sha256": [
+            "7e5b143bbe4b4b1f4bce132dfb8f7275c72494519e2c87a13a7b958d40a4f079"
+          ],
+          "fixture": "calendar-invalid",
+          "id": "calendar-invalid-P",
+          "producer_stopped": false,
+          "records": [
+            "calendar-invalid-A1"
+          ],
+          "site": "calendar",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:26:39.613837Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:35.256Z",
+          "counter_start": "calendar-invalid-A",
+          "evidence_sha256": [
+            "7e5b143bbe4b4b1f4bce132dfb8f7275c72494519e2c87a13a7b958d40a4f079"
+          ],
+          "fixture": "calendar-other",
+          "id": "calendar-invalid-P",
+          "producer_stopped": false,
+          "records": [
+            "calendar-invalid-A1"
+          ],
+          "site": "calendar",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "rejected",
+          "reason": "wrong_scope"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:26:39.787837Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:35.256Z",
+          "counter_start": "calendar-invalid-A",
+          "evidence_sha256": [
+            "7e5b143bbe4b4b1f4bce132dfb8f7275c72494519e2c87a13a7b958d40a4f079"
+          ],
+          "fixture": "calendar-invalid",
+          "id": "calendar-invalid-P",
+          "producer_stopped": false,
+          "records": [],
+          "site": "calendar",
+          "terminal": false,
+          "value": 0
+        },
+        "kind": "report",
+        "result": {
+          "decision": "rejected",
+          "reason": "event_id_conflict"
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:26:39.950656Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:35.256Z",
+          "counter_start": "calendar-invalid-A",
+          "evidence_sha256": [
+            "7e5b143bbe4b4b1f4bce132dfb8f7275c72494519e2c87a13a7b958d40a4f079"
+          ],
+          "fixture": "calendar-invalid",
+          "id": "calendar-invalid-boolean",
+          "producer_stopped": false,
+          "records": [
+            "calendar-invalid-A1"
+          ],
+          "site": "calendar",
+          "terminal": false,
+          "value": true
+        },
+        "kind": "report",
+        "result": {
+          "decision": "rejected",
+          "reason": "invalid_total"
+        },
+        "seq": 5
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:26:40.098533Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-invalid-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "fec8d78d11f5a4dad0ccce474cb7bc6a9abbf534fdff85d791a63a77edd44226"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "quarantined",
+          "dispatch": false
+        },
+        "seq": 6
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "invalid",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "calendar-invalid-A",
+      "created_at": "2026-10-26T18:24:54.566867Z",
+      "fixture": "calendar-invalid",
+      "h": 1,
+      "operations": {},
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 1,
+      "quarantined": true,
+      "records": [
+        "calendar-invalid-A1"
+      ],
+      "reports": {
+        "calendar-invalid-P": "def1ffddfc41881961c29b8276e68a3e34d72e130a50b29eb3d1d8ee655dbf70"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "calendar",
+      "terminal": false,
+      "terminal_records": null
+    },
+    "summary": {
+      "available": 0,
+      "h": 1,
+      "pending_B": 0,
+      "q": 1,
+      "quarantined": true,
+      "saved_B": 0,
+      "terminal": false
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:54.653772Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "contradiction",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "calendar-contradiction-A",
+          "created_at": "2026-10-26T18:24:54.652560Z",
+          "fixture": "calendar-contradiction",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "calendar",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:40.188817Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:36.483Z",
+          "counter_start": "calendar-contradiction-A",
+          "evidence_sha256": [
+            "07fd7d4f8923b99f8a7e1bada7e3fed296a8358a219fd7d67d07be6be8dc0d42"
+          ],
+          "fixture": "calendar-contradiction",
+          "id": "calendar-contradiction-T",
+          "producer_stopped": true,
+          "records": [
+            "calendar-contradiction-A1"
+          ],
+          "site": "calendar",
+          "terminal": true,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:40.336612Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:36.483Z",
+          "counter_start": "calendar-contradiction-A",
+          "evidence_sha256": [
+            "07fd7d4f8923b99f8a7e1bada7e3fed296a8358a219fd7d67d07be6be8dc0d42"
+          ],
+          "fixture": "calendar-contradiction",
+          "id": "calendar-contradiction-T0-injected",
+          "producer_stopped": true,
+          "records": [],
+          "site": "calendar",
+          "terminal": true,
+          "value": 0
+        },
+        "kind": "report",
+        "result": {
+          "decision": "rejected",
+          "reason": "terminal_conflict"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:40.475106Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "attendees": [],
+            "end": "2026-11-03T12:05:00-05:00",
+            "hangout_link": null,
+            "recurrence": null,
+            "reminders": {
+              "overrides": [],
+              "use_default": false
+            },
+            "start": "2026-11-03T12:00:00-05:00",
+            "summary": "CUA-UG-20261026-CAL-contradiction-B1",
+            "timezone": "America/Toronto",
+            "transparency": "transparent",
+            "visibility": "private"
+          },
+          "payload_sha256": "37422bbebf5f8846d1793051c9986c48f432637ea96a629738fa376f7e327e9b"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "quarantined",
+          "dispatch": false
+        },
+        "seq": 4
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "contradiction",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "calendar-contradiction-A",
+      "created_at": "2026-10-26T18:24:54.652560Z",
+      "fixture": "calendar-contradiction",
+      "h": 0,
+      "operations": {},
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 1,
+      "quarantined": true,
+      "records": [
+        "calendar-contradiction-A1"
+      ],
+      "reports": {
+        "calendar-contradiction-T": "26bbf4334168ef459520e33b6176491613e79b7974d9bb5bbf7dbd81c2122708"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "calendar",
+      "terminal": true,
+      "terminal_records": [
+        "calendar-contradiction-A1"
+      ]
+    },
+    "summary": {
+      "available": 1,
+      "h": 0,
+      "pending_B": 0,
+      "q": 1,
+      "quarantined": true,
+      "saved_B": 0,
+      "terminal": true
+    }
+  }
+]

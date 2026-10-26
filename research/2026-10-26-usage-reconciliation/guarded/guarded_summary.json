@@ -1,0 +1,40 @@
+{
+  "cases": 16,
+  "excess_cases": 0,
+  "field_proof_scope": "This calculation checks explicitly false fields_verified inputs only. It cannot detect an unsupported true assertion. The separate Calendar adapter audit records those failures.",
+  "input_sha256": {
+    "calendar_record_ledger.json": "393ed9ed99eeb72b668a86c4840e5b678560f245a46f5b20db3d59d13fd62d87",
+    "calendar_traces.json": "ab6f7405041641c58dd81e9ff39aca37be1ecefd21b7ad1d61ffd22c407cc345",
+    "drive_record_ledger.json": "f80a994ed749740e2e79554963cdc104c300aff13866766e84fe535aacd7f379",
+    "drive_traces.json": "1adb95100a650e4b07eee13e685cb2e37550ef78470cbeff2b3cc41d439f7822"
+  },
+  "known_A_error_cases": 0,
+  "quarantined_cases": 4,
+  "scope": "Selected controlled account cases. Counts are not population rates. Alias identity and field checks rely on retained provider evidence.",
+  "sites": 2,
+  "status": "accounting_checks_passed",
+  "terminal_cases": 14,
+  "terminal_final_A_error_cases": 0,
+  "totals": {
+    "actual_A_records": 18,
+    "actual_B_records": 8,
+    "actual_total_records": 26,
+    "excess_units": 0,
+    "explicit_false_field_flag_completion_claims": 0,
+    "limit_refused": 12,
+    "log_events": 103,
+    "payload_conflict": 2,
+    "permits": 8,
+    "proof_rejected": 2,
+    "proof_replay_saved": 6,
+    "proof_saved": 8,
+    "quarantine_refused": 4,
+    "repeat_pending": 3,
+    "repeat_saved": 4,
+    "report_accepted": 24,
+    "report_rejected": 8,
+    "report_replay": 4,
+    "requests": 33
+  },
+  "unresolved_B": 0
+}

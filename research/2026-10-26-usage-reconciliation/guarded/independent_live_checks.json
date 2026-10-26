@@ -1,0 +1,330 @@
+{
+  "cases": 16,
+  "events_checked": 87,
+  "scope": "Saved local ledger traces; provider evidence needs a separate audit.",
+  "separation": "Expected case vectors frozen before source access. This checker was written after source review.",
+  "site_checks": [
+    {
+      "cases": 8,
+      "cases_checked": [
+        {
+          "case": "overlap",
+          "request_decisions": [
+            "permit",
+            "already_saved",
+            "payload_conflict"
+          ],
+          "site": "drive",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 1,
+            "quarantined": false,
+            "saved_B": 1,
+            "terminal": true
+          }
+        },
+        {
+          "case": "late",
+          "request_decisions": [
+            "limit_refused"
+          ],
+          "site": "drive",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 2,
+            "quarantined": false,
+            "saved_B": 0,
+            "terminal": true
+          }
+        },
+        {
+          "case": "early",
+          "request_decisions": [
+            "limit_refused",
+            "limit_refused"
+          ],
+          "site": "drive",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 2,
+            "quarantined": false,
+            "saved_B": 0,
+            "terminal": true
+          }
+        },
+        {
+          "case": "release",
+          "request_decisions": [
+            "limit_refused",
+            "permit"
+          ],
+          "site": "drive",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 1,
+            "quarantined": false,
+            "saved_B": 1,
+            "terminal": true
+          }
+        },
+        {
+          "case": "unknown",
+          "request_decisions": [
+            "permit",
+            "pending",
+            "limit_refused",
+            "already_saved"
+          ],
+          "site": "drive",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 0,
+            "quarantined": false,
+            "saved_B": 1,
+            "terminal": true
+          }
+        },
+        {
+          "case": "compete",
+          "request_decisions": [
+            "permit",
+            "limit_refused"
+          ],
+          "site": "drive",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 1,
+            "quarantined": false,
+            "saved_B": 1,
+            "terminal": true
+          }
+        },
+        {
+          "case": "invalid",
+          "request_decisions": [
+            "quarantined"
+          ],
+          "site": "drive",
+          "summary": {
+            "available": 0,
+            "h": 1,
+            "pending_B": 0,
+            "q": 1,
+            "quarantined": true,
+            "saved_B": 0,
+            "terminal": false
+          }
+        },
+        {
+          "case": "contradiction",
+          "request_decisions": [
+            "quarantined"
+          ],
+          "site": "drive",
+          "summary": {
+            "available": 1,
+            "h": 0,
+            "pending_B": 0,
+            "q": 1,
+            "quarantined": true,
+            "saved_B": 0,
+            "terminal": true
+          }
+        }
+      ],
+      "decision_counts": {
+        "accepted": 12,
+        "already_saved": 3,
+        "evidence_rejected": 1,
+        "limit_refused": 6,
+        "payload_conflict": 1,
+        "pending": 2,
+        "permit": 4,
+        "quarantined": 2,
+        "rejected": 4,
+        "replay": 2,
+        "saved": 4
+      },
+      "events_checked": 41,
+      "file": "drive_traces.json",
+      "states_checked": 90
+    },
+    {
+      "cases": 8,
+      "cases_checked": [
+        {
+          "case": "overlap",
+          "request_decisions": [
+            "permit",
+            "already_saved",
+            "payload_conflict"
+          ],
+          "site": "calendar",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 1,
+            "quarantined": false,
+            "saved_B": 1,
+            "terminal": true
+          }
+        },
+        {
+          "case": "late",
+          "request_decisions": [
+            "limit_refused"
+          ],
+          "site": "calendar",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 2,
+            "quarantined": false,
+            "saved_B": 0,
+            "terminal": true
+          }
+        },
+        {
+          "case": "early",
+          "request_decisions": [
+            "limit_refused",
+            "limit_refused"
+          ],
+          "site": "calendar",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 2,
+            "quarantined": false,
+            "saved_B": 0,
+            "terminal": true
+          }
+        },
+        {
+          "case": "release",
+          "request_decisions": [
+            "limit_refused",
+            "permit"
+          ],
+          "site": "calendar",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 1,
+            "quarantined": false,
+            "saved_B": 1,
+            "terminal": true
+          }
+        },
+        {
+          "case": "unknown",
+          "request_decisions": [
+            "permit",
+            "pending",
+            "limit_refused",
+            "pending",
+            "already_saved"
+          ],
+          "site": "calendar",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 0,
+            "quarantined": false,
+            "saved_B": 1,
+            "terminal": true
+          }
+        },
+        {
+          "case": "compete",
+          "request_decisions": [
+            "permit",
+            "limit_refused"
+          ],
+          "site": "calendar",
+          "summary": {
+            "available": 0,
+            "h": 0,
+            "pending_B": 0,
+            "q": 1,
+            "quarantined": false,
+            "saved_B": 1,
+            "terminal": true
+          }
+        },
+        {
+          "case": "invalid",
+          "request_decisions": [
+            "quarantined"
+          ],
+          "site": "calendar",
+          "summary": {
+            "available": 0,
+            "h": 1,
+            "pending_B": 0,
+            "q": 1,
+            "quarantined": true,
+            "saved_B": 0,
+            "terminal": false
+          }
+        },
+        {
+          "case": "contradiction",
+          "request_decisions": [
+            "quarantined"
+          ],
+          "site": "calendar",
+          "summary": {
+            "available": 1,
+            "h": 0,
+            "pending_B": 0,
+            "q": 1,
+            "quarantined": true,
+            "saved_B": 0,
+            "terminal": true
+          }
+        }
+      ],
+      "decision_counts": {
+        "accepted": 12,
+        "already_saved": 7,
+        "evidence_rejected": 1,
+        "limit_refused": 6,
+        "payload_conflict": 1,
+        "pending": 3,
+        "permit": 4,
+        "quarantined": 2,
+        "rejected": 4,
+        "replay": 2,
+        "saved": 4
+      },
+      "events_checked": 46,
+      "file": "calendar_traces.json",
+      "states_checked": 100
+    }
+  ],
+  "specification": "Prefix sets plus immutable allocated keys; no controller import.",
+  "states_checked": 190,
+  "status": "passed",
+  "trace_hashes": {
+    "calendar_traces.json": "ab6f7405041641c58dd81e9ff39aca37be1ecefd21b7ad1d61ffd22c407cc345",
+    "drive_traces.json": "1adb95100a650e4b07eee13e685cb2e37550ef78470cbeff2b3cc41d439f7822"
+  }
+}

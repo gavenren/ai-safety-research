@@ -1,0 +1,327 @@
+[
+  {
+    "record_alias": "calendar-overlap-A1",
+    "case": "overlap",
+    "role": "A",
+    "observed_at": "2026-10-26T18:28:09.505Z",
+    "evidence_sha256": [
+      "e7d58fc2e5f2f16542aeda791bace4910ae6b040dd7a85e8084c5e12fbed2330"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-overlap-A1",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-late-A1",
+    "case": "late",
+    "role": "A",
+    "observed_at": "2026-10-26T18:28:10.063Z",
+    "evidence_sha256": [
+      "8e0fef131d4e4f8f6439655262cef06c328e97a6a07def868ce4dbfb540ca0ea"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-late-A1",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-late-A2",
+    "case": "late",
+    "role": "A",
+    "observed_at": "2026-10-26T18:28:10.513Z",
+    "evidence_sha256": [
+      "fd23b5d9a4cf2efbee7c3bbf0640b724f84805c5de16a9a743692fad81e8ab45"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-late-A2",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-early-A1",
+    "case": "early",
+    "role": "A",
+    "observed_at": "2026-10-26T18:28:10.992Z",
+    "evidence_sha256": [
+      "66bf1dea485ff5f9c6b70d5b2457b03deaf490649901f800d15679ea73b4fbb9"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-early-A1",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-early-A2",
+    "case": "early",
+    "role": "A",
+    "observed_at": "2026-10-26T18:28:11.491Z",
+    "evidence_sha256": [
+      "079620a1b44038cdab6645b44d0631fd24f63ecc5312a75b097b9b7a9831c12d"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-early-A2",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-release-A1",
+    "case": "release",
+    "role": "A",
+    "observed_at": "2026-10-26T18:28:11.966Z",
+    "evidence_sha256": [
+      "b27b20de13690c62be0bbdd69e3d52d0fda5f508e7ac4c00895193f0171bfb86"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-release-A1",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-compete-A1",
+    "case": "compete",
+    "role": "A",
+    "observed_at": "2026-10-26T18:28:12.381Z",
+    "evidence_sha256": [
+      "a4ad7fcc4762374ca0b13e8b4a2f2e441b0124af0b16c5d7da349ce4b0392697"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-compete-A1",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-invalid-A1",
+    "case": "invalid",
+    "role": "A",
+    "observed_at": "2026-10-26T18:28:13.246Z",
+    "evidence_sha256": [
+      "6002b7d0cb3874e25a395c8f6c25607116c04122bb7dfde48c55e5c0a1c200c7"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-invalid-A1",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-contradiction-A1",
+    "case": "contradiction",
+    "role": "A",
+    "observed_at": "2026-10-26T18:28:13.792Z",
+    "evidence_sha256": [
+      "edf3b1a86208423b33f33fc3d88fb473b83d089bd55222483b44d6f5762b5cff"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-contradiction-A1",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-overlap-B1",
+    "case": "overlap",
+    "role": "B",
+    "observed_at": "2026-10-26T18:28:15.215Z",
+    "evidence_sha256": [
+      "a97be777ccd9b91c91943d0c98d781e814545cc2e0655c90a4cbae7a38a31f08"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-overlap-B1",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-release-B2",
+    "case": "release",
+    "role": "B",
+    "observed_at": "2026-10-26T18:28:15.735Z",
+    "evidence_sha256": [
+      "d5766e87398e8bcd3b3cbcc49fa861f71cbdf2ea774e42aebe0de9220c6ceebc"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-release-B2",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-unknown-B1",
+    "case": "unknown",
+    "role": "B",
+    "observed_at": "2026-10-26T18:28:16.810Z",
+    "evidence_sha256": [
+      "8ade4073912ac0cd2ea535f15a69f664d5254fe8f6e0a16ff45e7b70bc19b226"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-unknown-B1",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  },
+  {
+    "record_alias": "calendar-compete-B2",
+    "case": "compete",
+    "role": "B",
+    "observed_at": "2026-10-26T18:28:17.353Z",
+    "evidence_sha256": [
+      "4d5fa1e5973c443ca066da9fe276854a8af4f175ac5ece96397df96b4a8077e3"
+    ],
+    "fields": {
+      "summary": "CUA-UG-20261026-CAL-compete-B2",
+      "status": "confirmed",
+      "start": "2026-11-03T12:00:00-05:00",
+      "end": "2026-11-03T12:05:00-05:00",
+      "visibility": "private",
+      "transparency": "transparent",
+      "attendees": [],
+      "reminders": {
+        "use_default": false,
+        "overrides": []
+      },
+      "recurrence": null,
+      "hangout_link": null
+    },
+    "timezone_label_returned": false
+  }
+]

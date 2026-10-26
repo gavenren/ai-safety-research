@@ -1,0 +1,66 @@
+[
+  {
+    "alias": "calendar-overlap-B1",
+    "case": "overlap",
+    "key": "B1",
+    "proof": {
+      "evidence_sha256": [
+        "a97be777ccd9b91c91943d0c98d781e814545cc2e0655c90a4cbae7a38a31f08",
+        "2635bba4ac7d77278e9db77f753e9aea29ba48091a827e3050eb536dda368e3e"
+      ],
+      "fields_verified": true,
+      "observed_at": "2026-10-26T18:29:28.374Z",
+      "payload_sha256": "a5d97f1d7da0f78cf82a96a532bfba3d2475d1b0f8aceefeb82a894d8ee3b1ba",
+      "record_alias": "calendar-overlap-B1",
+      "status": "saved"
+    }
+  },
+  {
+    "alias": "calendar-release-B2",
+    "case": "release",
+    "key": "B2",
+    "proof": {
+      "evidence_sha256": [
+        "d5766e87398e8bcd3b3cbcc49fa861f71cbdf2ea774e42aebe0de9220c6ceebc",
+        "2ac01697c0ea1962c0aafd3d7c0922677edd069ae3d3187931f7461454f8bc65"
+      ],
+      "fields_verified": true,
+      "observed_at": "2026-10-26T18:30:45.499Z",
+      "payload_sha256": "627783093773562e5e8ff12d53dc493dcdbbae1d453a5b20db12a0f6216c99f0",
+      "record_alias": "calendar-release-B2",
+      "status": "saved"
+    }
+  },
+  {
+    "alias": "calendar-unknown-B1",
+    "case": "unknown",
+    "key": "B1",
+    "proof": {
+      "evidence_sha256": [
+        "8ade4073912ac0cd2ea535f15a69f664d5254fe8f6e0a16ff45e7b70bc19b226",
+        "9da68223b1f8afe93eb5e42d886dd7bf45a012e200d85297664aaabbae7457cb"
+      ],
+      "fields_verified": true,
+      "observed_at": "2026-10-26T18:30:48.774Z",
+      "payload_sha256": "9943ec1bb58da55ed2dd70beff1a970b2ab93b558234de953f6563cc3a10b3c8",
+      "record_alias": "calendar-unknown-B1",
+      "status": "saved"
+    }
+  },
+  {
+    "alias": "calendar-compete-B2",
+    "case": "compete",
+    "key": "B2",
+    "proof": {
+      "evidence_sha256": [
+        "4d5fa1e5973c443ca066da9fe276854a8af4f175ac5ece96397df96b4a8077e3",
+        "e3cd9a95e9972fd456168daa1d7700a15a130aaf12fceb4977c6ac01e0e648f0"
+      ],
+      "fields_verified": true,
+      "observed_at": "2026-10-26T18:30:52.264Z",
+      "payload_sha256": "e6065efa007b089eb0436a96b95cbbbe2ecc00e70a25611452de12ee3cbdcffb",
+      "record_alias": "calendar-compete-B2",
+      "status": "saved"
+    }
+  }
+]

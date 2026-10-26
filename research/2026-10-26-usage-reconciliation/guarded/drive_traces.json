@@ -1,0 +1,2300 @@
+[
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:06.823441Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "overlap",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "drive-overlap-A",
+          "created_at": "2026-10-26T18:24:06.820102Z",
+          "fixture": "drive-overlap",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "drive",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:25:08.183757Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:24:42.204885Z",
+          "counter_start": "drive-overlap-A",
+          "evidence_sha256": [
+            "f36a0cad0a14bec2272181b051fcd0d17bd6c52411fa934064a138ca23a5a3f9"
+          ],
+          "fixture": "drive-overlap",
+          "id": "overlap-P",
+          "producer_stopped": false,
+          "records": [
+            "drive-overlap-A1"
+          ],
+          "site": "drive",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:08.218013Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:02.748094Z",
+          "counter_start": "drive-overlap-A",
+          "evidence_sha256": [
+            "d934639c943b48b23c046209210f2099feca05a58ced721117ae5074908449e3"
+          ],
+          "fixture": "drive-overlap",
+          "id": "overlap-T",
+          "producer_stopped": true,
+          "records": [
+            "drive-overlap-A1"
+          ],
+          "site": "drive",
+          "terminal": true,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:08.251011Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:24:42.204885Z",
+          "counter_start": "drive-overlap-A",
+          "evidence_sha256": [
+            "f36a0cad0a14bec2272181b051fcd0d17bd6c52411fa934064a138ca23a5a3f9"
+          ],
+          "fixture": "drive-overlap",
+          "id": "overlap-P",
+          "producer_stopped": false,
+          "records": [
+            "drive-overlap-A1"
+          ],
+          "site": "drive",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "replay",
+          "reason": "same_report_bytes"
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:08.283377Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:02.748094Z",
+          "counter_start": "drive-overlap-A",
+          "evidence_sha256": [
+            "d934639c943b48b23c046209210f2099feca05a58ced721117ae5074908449e3"
+          ],
+          "fixture": "drive-overlap",
+          "id": "overlap-T",
+          "producer_stopped": true,
+          "records": [
+            "drive-overlap-A1"
+          ],
+          "site": "drive",
+          "terminal": true,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "replay",
+          "reason": "same_report_bytes"
+        },
+        "seq": 5
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:08.314397Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-overlap-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "7d185ce01c47b269b44670b2723179abb98d762673780d988500dbed9a435f7d"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "permit",
+          "dispatch": true,
+          "payload_sha256": "7d185ce01c47b269b44670b2723179abb98d762673780d988500dbed9a435f7d",
+          "permit_at": "2026-10-26T18:25:08.314289Z"
+        },
+        "seq": 6
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:55.457481Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "d4e7a0224eea75771e149258df26a6ffb3121454659246ad33dcb34a5a5c1654"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:25:55.419694Z",
+            "payload_sha256": "7d185ce01c47b269b44670b2723179abb98d762673780d988500dbed9a435f7d",
+            "record_alias": "drive-overlap-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "saved"
+        },
+        "seq": 7
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:55.492675Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-overlap-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "7d185ce01c47b269b44670b2723179abb98d762673780d988500dbed9a435f7d"
+        },
+        "kind": "request",
+        "result": {
+          "completion": true,
+          "decision": "already_saved",
+          "dispatch": false
+        },
+        "seq": 8
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:55.531138Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-overlap-B1-CHANGED",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "9b98f65785d4d65ead95b22e15936a0c18727f7cb3c1156eed1e5604662451bb"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "payload_conflict",
+          "dispatch": false
+        },
+        "seq": 9
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "overlap",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "drive-overlap-A",
+      "created_at": "2026-10-26T18:24:06.820102Z",
+      "fixture": "drive-overlap",
+      "h": 0,
+      "operations": {
+        "B1": {
+          "evidence_sha256": [
+            "d4e7a0224eea75771e149258df26a6ffb3121454659246ad33dcb34a5a5c1654"
+          ],
+          "observed_at": "2026-10-26T18:25:55.419694Z",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-overlap-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "7d185ce01c47b269b44670b2723179abb98d762673780d988500dbed9a435f7d",
+          "permit_at": "2026-10-26T18:25:08.314289Z",
+          "record_alias": "drive-overlap-B1",
+          "status": "saved"
+        }
+      },
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 1,
+      "quarantined": false,
+      "records": [
+        "drive-overlap-A1"
+      ],
+      "reports": {
+        "overlap-P": "87e9b1d4cd006243beeed294b12aebd13b014908789ec496573f624f60d95e62",
+        "overlap-T": "0780db3ab56c374f67b894157f4648cd074a4e2a90b26c95f1bc7ee98d5faa1f"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "drive",
+      "terminal": true,
+      "terminal_records": [
+        "drive-overlap-A1"
+      ]
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 1,
+      "quarantined": false,
+      "saved_B": 1,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:06.855935Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "late",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "drive-late-A",
+          "created_at": "2026-10-26T18:24:06.854572Z",
+          "fixture": "drive-late",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "drive",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:55.564598Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:02.748568Z",
+          "counter_start": "drive-late-A",
+          "evidence_sha256": [
+            "80f2dede5e5563aa2cb90d8e6479d6b0693f6764ace9dd9b4c871893d8d79ebe",
+            "e24506daef57fd8adab66a78bfac79929ace83cc4fcacecf9cdbff440d772f97"
+          ],
+          "fixture": "drive-late",
+          "id": "late-T",
+          "producer_stopped": true,
+          "records": [
+            "drive-late-A1",
+            "drive-late-A2"
+          ],
+          "site": "drive",
+          "terminal": true,
+          "value": 2
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:55.596728Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:24:42.205379Z",
+          "counter_start": "drive-late-A",
+          "evidence_sha256": [
+            "6394f73576e462644f38ab9c9238fc0ea4c46ae8e596766dfd4653ba25858a00"
+          ],
+          "fixture": "drive-late",
+          "id": "late-P",
+          "producer_stopped": false,
+          "records": [
+            "drive-late-A1"
+          ],
+          "site": "drive",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:55.626486Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-late-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "1baf07cadad9090c0ec341b328e0cbbc22099f8a8f8f635355ca924b993a9fb3"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 4
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "late",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "drive-late-A",
+      "created_at": "2026-10-26T18:24:06.854572Z",
+      "fixture": "drive-late",
+      "h": 0,
+      "operations": {},
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 2,
+      "quarantined": false,
+      "records": [
+        "drive-late-A1",
+        "drive-late-A2"
+      ],
+      "reports": {
+        "late-P": "bda375488f3f4d53087efc4804d4438e024190a675728e871b4c450c5637425b",
+        "late-T": "719bf6c225514e5173a7c62d8c606b0bc9200b251d8e69da146b3e323fa0a0df"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "drive",
+      "terminal": true,
+      "terminal_records": [
+        "drive-late-A1",
+        "drive-late-A2"
+      ]
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 2,
+      "quarantined": false,
+      "saved_B": 0,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:06.887632Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "early",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "drive-early-A",
+          "created_at": "2026-10-26T18:24:06.886207Z",
+          "fixture": "drive-early",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "drive",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:25:55.656041Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:24:12.912655Z",
+          "counter_start": "drive-early-A",
+          "evidence_sha256": [
+            "e79f83d752839657a1c3c49ff11bd02351e457e51044c760a76bb97a3097e56d"
+          ],
+          "fixture": "drive-early",
+          "id": "early-P",
+          "producer_stopped": false,
+          "records": [],
+          "site": "drive",
+          "terminal": false,
+          "value": 0
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:25:55.684866Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-early-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "80e51393bdf52aa12ca077580ccf69575f5ee4024be434e22aeff5c49f701909"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:55.714188Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:02.748749Z",
+          "counter_start": "drive-early-A",
+          "evidence_sha256": [
+            "d8b11f8ed01d37a6bd0e8ad47a318c36e9f0873473b70c8c21b364609dd786a7",
+            "b6a76f94b5ae35a2041b83cd0111d7bbe18c6cf85c005c0e93c1ac152f882448"
+          ],
+          "fixture": "drive-early",
+          "id": "early-T",
+          "producer_stopped": true,
+          "records": [
+            "drive-early-A1",
+            "drive-early-A2"
+          ],
+          "site": "drive",
+          "terminal": true,
+          "value": 2
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:55.743150Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 2,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B2",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-early-B2",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "8c76cfcb3faa9267e7a6c02e61a71fbd26769af65933dbd95b415bea43e46c96"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 5
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "early",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "drive-early-A",
+      "created_at": "2026-10-26T18:24:06.886207Z",
+      "fixture": "drive-early",
+      "h": 0,
+      "operations": {},
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 2,
+      "quarantined": false,
+      "records": [
+        "drive-early-A1",
+        "drive-early-A2"
+      ],
+      "reports": {
+        "early-P": "2d751b91abae24cbccd4faf3f1de8d8ea5df086af4c995088401742b26ce75a5",
+        "early-T": "4ce940cb4e0f60fb94c6ff73e02982936b0410e2a36ff0bcfb053ee5572a4f99"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "drive",
+      "terminal": true,
+      "terminal_records": [
+        "drive-early-A1",
+        "drive-early-A2"
+      ]
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 2,
+      "quarantined": false,
+      "saved_B": 0,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:06.918080Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "release",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "drive-release-A",
+          "created_at": "2026-10-26T18:24:06.916863Z",
+          "fixture": "drive-release",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "drive",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:25:55.772967Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:24:42.205541Z",
+          "counter_start": "drive-release-A",
+          "evidence_sha256": [
+            "9a775b771219903c3151c161bcac0136cd5759214fe02ba1c5380192d0967f01"
+          ],
+          "fixture": "drive-release",
+          "id": "release-P",
+          "producer_stopped": false,
+          "records": [
+            "drive-release-A1"
+          ],
+          "site": "drive",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:25:55.802667Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-release-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "cd3d6b9d18402b0240b205e1878279b2620b59a50c91855551838a9e37983fbf"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:55.832619Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:02.748893Z",
+          "counter_start": "drive-release-A",
+          "evidence_sha256": [
+            "61ff25f4ab8fcbdde094ecba2d4076580e304d40c4a7bdd4c95a7cbaac9b1c79"
+          ],
+          "fixture": "drive-release",
+          "id": "release-T",
+          "producer_stopped": true,
+          "records": [
+            "drive-release-A1"
+          ],
+          "site": "drive",
+          "terminal": true,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:25:55.866437Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B2",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-release-B2",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "244e45e4d1c90d1c340d71c129a3ef8b88ea68544d6347fe5f78033bdab11615"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "permit",
+          "dispatch": true,
+          "payload_sha256": "244e45e4d1c90d1c340d71c129a3ef8b88ea68544d6347fe5f78033bdab11615",
+          "permit_at": "2026-10-26T18:25:55.866260Z"
+        },
+        "seq": 5
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:31.452165Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "24de72a04ad0f28fd131b6c6d381f5fa6c37a0b285295046a1c193c738cde305"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:26:31.421724Z",
+            "payload_sha256": "244e45e4d1c90d1c340d71c129a3ef8b88ea68544d6347fe5f78033bdab11615",
+            "record_alias": "drive-release-B2",
+            "status": "saved"
+          },
+          "key": "B2"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "saved"
+        },
+        "seq": 6
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "release",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "drive-release-A",
+      "created_at": "2026-10-26T18:24:06.916863Z",
+      "fixture": "drive-release",
+      "h": 0,
+      "operations": {
+        "B2": {
+          "evidence_sha256": [
+            "24de72a04ad0f28fd131b6c6d381f5fa6c37a0b285295046a1c193c738cde305"
+          ],
+          "observed_at": "2026-10-26T18:26:31.421724Z",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-release-B2",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "244e45e4d1c90d1c340d71c129a3ef8b88ea68544d6347fe5f78033bdab11615",
+          "permit_at": "2026-10-26T18:25:55.866260Z",
+          "record_alias": "drive-release-B2",
+          "status": "saved"
+        }
+      },
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 1,
+      "quarantined": false,
+      "records": [
+        "drive-release-A1"
+      ],
+      "reports": {
+        "release-P": "2be6bfa3e054fda6ac2b7e62612d0cdc2dd2684f1fcfd60ad372c329d6484032",
+        "release-T": "b9e4d08c83eb53b822163e88ce9ed83b0f25099def2f4b0495efe234265a9e30"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "drive",
+      "terminal": true,
+      "terminal_records": [
+        "drive-release-A1"
+      ]
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 1,
+      "quarantined": false,
+      "saved_B": 1,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:06.948133Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 1,
+          "case": "unknown",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "drive-unknown-A",
+          "created_at": "2026-10-26T18:24:06.946811Z",
+          "fixture": "drive-unknown",
+          "h": 1,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 1,
+          "schema": 1,
+          "site": "drive",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:31.485945Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:24:12.913181Z",
+          "counter_start": "drive-unknown-A",
+          "evidence_sha256": [
+            "e79f83d752839657a1c3c49ff11bd02351e457e51044c760a76bb97a3097e56d"
+          ],
+          "fixture": "drive-unknown",
+          "id": "unknown-T",
+          "producer_stopped": true,
+          "records": [],
+          "site": "drive",
+          "terminal": true,
+          "value": 0
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:31.518828Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-unknown-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "c0b2489a82da58fe668d9fa285da957b1b520c0573325f6c66318db961feaea9"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "permit",
+          "dispatch": true,
+          "payload_sha256": "c0b2489a82da58fe668d9fa285da957b1b520c0573325f6c66318db961feaea9",
+          "permit_at": "2026-10-26T18:26:31.518702Z"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:55.989595Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "aef33c14ee6be4ced16f9b39bafb966f187f15b2d9c0d91f9d1bbeef9a1acd64"
+            ],
+            "observed_at": "2026-10-26T18:26:55.960075Z",
+            "status": "unknown"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": false,
+          "decision": "pending"
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:56.022769Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-unknown-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "c0b2489a82da58fe668d9fa285da957b1b520c0573325f6c66318db961feaea9"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "pending",
+          "dispatch": false
+        },
+        "seq": 5
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:56.055753Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B2",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-unknown-B2",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "074fd23460d3219483b63d2f679cd1d173a9a6a2597f860fcafc9bfb7c78f330"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 6
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:57.391327Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "78f2132b965477d733ae46e61aad750605af3a0f7a6473532e791f483adedb5b"
+            ],
+            "fields_verified": false,
+            "observed_at": "2026-10-26T18:26:57.351073Z",
+            "payload_sha256": "c0b2489a82da58fe668d9fa285da957b1b520c0573325f6c66318db961feaea9",
+            "record_alias": "drive-unknown-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": false,
+          "decision": "evidence_rejected",
+          "reason": "fields_not_verified"
+        },
+        "seq": 7
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:57.452532Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "78f2132b965477d733ae46e61aad750605af3a0f7a6473532e791f483adedb5b"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:26:57.399629Z",
+            "payload_sha256": "c0b2489a82da58fe668d9fa285da957b1b520c0573325f6c66318db961feaea9",
+            "record_alias": "drive-unknown-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "saved"
+        },
+        "seq": 8
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:57.491951Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "78f2132b965477d733ae46e61aad750605af3a0f7a6473532e791f483adedb5b"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:26:57.399629Z",
+            "payload_sha256": "c0b2489a82da58fe668d9fa285da957b1b520c0573325f6c66318db961feaea9",
+            "record_alias": "drive-unknown-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "already_saved"
+        },
+        "seq": 9
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:26:57.526565Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-unknown-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "c0b2489a82da58fe668d9fa285da957b1b520c0573325f6c66318db961feaea9"
+        },
+        "kind": "request",
+        "result": {
+          "completion": true,
+          "decision": "already_saved",
+          "dispatch": false
+        },
+        "seq": 10
+      }
+    ],
+    "state": {
+      "capacity": 1,
+      "case": "unknown",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "drive-unknown-A",
+      "created_at": "2026-10-26T18:24:06.946811Z",
+      "fixture": "drive-unknown",
+      "h": 0,
+      "operations": {
+        "B1": {
+          "evidence_sha256": [
+            "78f2132b965477d733ae46e61aad750605af3a0f7a6473532e791f483adedb5b"
+          ],
+          "observed_at": "2026-10-26T18:26:57.399629Z",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-unknown-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "c0b2489a82da58fe668d9fa285da957b1b520c0573325f6c66318db961feaea9",
+          "permit_at": "2026-10-26T18:26:31.518702Z",
+          "record_alias": "drive-unknown-B1",
+          "status": "saved"
+        }
+      },
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 0,
+      "quarantined": false,
+      "records": [],
+      "reports": {
+        "unknown-T": "88f92a8e2944c9aa7d592a0c328557b174c9885c0c0c215a159453d3a7b044e8"
+      },
+      "reservation": 1,
+      "schema": 1,
+      "site": "drive",
+      "terminal": true,
+      "terminal_records": []
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 0,
+      "quarantined": false,
+      "saved_B": 1,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:06.979439Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "compete",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "drive-compete-A",
+          "created_at": "2026-10-26T18:24:06.977085Z",
+          "fixture": "drive-compete",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "drive",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:27:08.976787Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:02.749203Z",
+          "counter_start": "drive-compete-A",
+          "evidence_sha256": [
+            "d4f2004c256408684ad8d762ea70f74c90258a61eac1f3915fe16bc51468b061"
+          ],
+          "fixture": "drive-compete",
+          "id": "compete-T",
+          "producer_stopped": true,
+          "records": [
+            "drive-compete-A1"
+          ],
+          "site": "drive",
+          "terminal": true,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:27:09.016291Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-compete-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "e97ee5bc306af10d17b6cd45d56a8dd47872b3559ac2d7ecbbd3b9b57d45a472"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "permit",
+          "dispatch": true,
+          "payload_sha256": "e97ee5bc306af10d17b6cd45d56a8dd47872b3559ac2d7ecbbd3b9b57d45a472",
+          "permit_at": "2026-10-26T18:27:09.016137Z"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:27:09.017717Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B2",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-compete-B2",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "f81035abd06c222d875e1e397f9f8d7e455bcbe78913151ebc70260c429dffaf"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "limit_refused",
+          "dispatch": false
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 1,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:27:48.341563Z",
+        "before": {
+          "available": 0,
+          "h": 0,
+          "pending_B": 1,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "evidence": {
+            "evidence_sha256": [
+              "68eaf297517976dad44dd2581f9cb1e6a784c11901c09d83ee6e2f45ab62f6db"
+            ],
+            "fields_verified": true,
+            "observed_at": "2026-10-26T18:27:48.301815Z",
+            "payload_sha256": "e97ee5bc306af10d17b6cd45d56a8dd47872b3559ac2d7ecbbd3b9b57d45a472",
+            "record_alias": "drive-compete-B1",
+            "status": "saved"
+          },
+          "key": "B1"
+        },
+        "kind": "observe",
+        "result": {
+          "completion": true,
+          "decision": "saved"
+        },
+        "seq": 5
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "compete",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "drive-compete-A",
+      "created_at": "2026-10-26T18:24:06.977085Z",
+      "fixture": "drive-compete",
+      "h": 0,
+      "operations": {
+        "B1": {
+          "evidence_sha256": [
+            "68eaf297517976dad44dd2581f9cb1e6a784c11901c09d83ee6e2f45ab62f6db"
+          ],
+          "observed_at": "2026-10-26T18:27:48.301815Z",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-compete-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "e97ee5bc306af10d17b6cd45d56a8dd47872b3559ac2d7ecbbd3b9b57d45a472",
+          "permit_at": "2026-10-26T18:27:09.016137Z",
+          "record_alias": "drive-compete-B1",
+          "status": "saved"
+        }
+      },
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 1,
+      "quarantined": false,
+      "records": [
+        "drive-compete-A1"
+      ],
+      "reports": {
+        "compete-T": "8bdf9c8e64739b41d6036fa1ee09045503e0a401f6a04231cb85a4c6b0412042"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "drive",
+      "terminal": true,
+      "terminal_records": [
+        "drive-compete-A1"
+      ]
+    },
+    "summary": {
+      "available": 0,
+      "h": 0,
+      "pending_B": 0,
+      "q": 1,
+      "quarantined": false,
+      "saved_B": 1,
+      "terminal": true
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:07.009721Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "invalid",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "drive-invalid-A",
+          "created_at": "2026-10-26T18:24:07.008422Z",
+          "fixture": "drive-invalid",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "drive",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:27:09.057944Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:24:42.205679Z",
+          "counter_start": "drive-invalid-A",
+          "evidence_sha256": [
+            "fd9f267f974e16a8580acf9366bfc309592bbf0f6238b616172259edef547fa2"
+          ],
+          "fixture": "drive-invalid",
+          "id": "invalid-P",
+          "producer_stopped": false,
+          "records": [
+            "drive-invalid-A1"
+          ],
+          "site": "drive",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:27:09.090990Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:24:42.205679Z",
+          "counter_start": "drive-invalid-A",
+          "evidence_sha256": [
+            "fd9f267f974e16a8580acf9366bfc309592bbf0f6238b616172259edef547fa2"
+          ],
+          "fixture": "wrong-fixture",
+          "id": "invalid-P",
+          "producer_stopped": false,
+          "records": [
+            "drive-invalid-A1"
+          ],
+          "site": "drive",
+          "terminal": false,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "rejected",
+          "reason": "wrong_scope"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:27:09.122005Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:24:42.205679Z",
+          "counter_start": "drive-invalid-A",
+          "evidence_sha256": [
+            "fd9f267f974e16a8580acf9366bfc309592bbf0f6238b616172259edef547fa2"
+          ],
+          "fixture": "drive-invalid",
+          "id": "invalid-P",
+          "producer_stopped": false,
+          "records": [],
+          "site": "drive",
+          "terminal": false,
+          "value": 0
+        },
+        "kind": "report",
+        "result": {
+          "decision": "rejected",
+          "reason": "event_id_conflict"
+        },
+        "seq": 4
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:27:09.151500Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:24:42.205679Z",
+          "counter_start": "drive-invalid-A",
+          "evidence_sha256": [
+            "fd9f267f974e16a8580acf9366bfc309592bbf0f6238b616172259edef547fa2"
+          ],
+          "fixture": "drive-invalid",
+          "id": "invalid-boolean",
+          "producer_stopped": false,
+          "records": [
+            "drive-invalid-A1"
+          ],
+          "site": "drive",
+          "terminal": false,
+          "value": true
+        },
+        "kind": "report",
+        "result": {
+          "decision": "rejected",
+          "reason": "invalid_total"
+        },
+        "seq": 5
+      },
+      {
+        "after": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:27:09.181503Z",
+        "before": {
+          "available": 0,
+          "h": 1,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-invalid-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "b6c7e5d7f1abbbdd5c7972325cb3f6c7646af82debf25ea827ab84e6e3421ebf"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "quarantined",
+          "dispatch": false
+        },
+        "seq": 6
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "invalid",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "drive-invalid-A",
+      "created_at": "2026-10-26T18:24:07.008422Z",
+      "fixture": "drive-invalid",
+      "h": 1,
+      "operations": {},
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 1,
+      "quarantined": true,
+      "records": [
+        "drive-invalid-A1"
+      ],
+      "reports": {
+        "invalid-P": "281409632c64912a327a5478b245920c8776e14b99c69e669ada4fa596796ebb"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "drive",
+      "terminal": false,
+      "terminal_records": null
+    },
+    "summary": {
+      "available": 0,
+      "h": 1,
+      "pending_B": 0,
+      "q": 1,
+      "quarantined": true,
+      "saved_B": 0,
+      "terminal": false
+    }
+  },
+  {
+    "events": [
+      {
+        "after": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "at": "2026-10-26T18:24:07.039685Z",
+        "kind": "init",
+        "seq": 1,
+        "state": {
+          "capacity": 2,
+          "case": "contradiction",
+          "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+          "counter_start": "drive-contradiction-A",
+          "created_at": "2026-10-26T18:24:07.038572Z",
+          "fixture": "drive-contradiction",
+          "h": 2,
+          "operations": {},
+          "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+          "q": 0,
+          "quarantined": false,
+          "records": [],
+          "reports": {},
+          "reservation": 2,
+          "schema": 1,
+          "site": "drive",
+          "terminal": false,
+          "terminal_records": null
+        }
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:27:09.211869Z",
+        "before": {
+          "available": 0,
+          "h": 2,
+          "pending_B": 0,
+          "q": 0,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": false
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:02.749475Z",
+          "counter_start": "drive-contradiction-A",
+          "evidence_sha256": [
+            "ae9fca39c1f3b789ee70a099933a9d42a3060130d67a7fbff2355d92ecbefa6f"
+          ],
+          "fixture": "drive-contradiction",
+          "id": "contradiction-T",
+          "producer_stopped": true,
+          "records": [
+            "drive-contradiction-A1"
+          ],
+          "site": "drive",
+          "terminal": true,
+          "value": 1
+        },
+        "kind": "report",
+        "result": {
+          "decision": "accepted",
+          "reason": "valid_cumulative_report"
+        },
+        "seq": 2
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:27:09.242079Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": false,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "captured_at": "2026-10-26T18:25:02.749475Z",
+          "counter_start": "drive-contradiction-A",
+          "evidence_sha256": [
+            "ae9fca39c1f3b789ee70a099933a9d42a3060130d67a7fbff2355d92ecbefa6f"
+          ],
+          "fixture": "drive-contradiction",
+          "id": "contradiction-T0",
+          "producer_stopped": true,
+          "records": [],
+          "site": "drive",
+          "terminal": true,
+          "value": 0
+        },
+        "kind": "report",
+        "result": {
+          "decision": "rejected",
+          "reason": "terminal_conflict"
+        },
+        "seq": 3
+      },
+      {
+        "after": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "at": "2026-10-26T18:27:09.274456Z",
+        "before": {
+          "available": 1,
+          "h": 0,
+          "pending_B": 0,
+          "q": 1,
+          "quarantined": true,
+          "saved_B": 0,
+          "terminal": true
+        },
+        "input": {
+          "key": "B1",
+          "payload": {
+            "mime_type": "application/vnd.google-apps.folder",
+            "name": "CUA-UG-20261026-DRIVE-contradiction-B1",
+            "parent_alias": "drive-test-parent"
+          },
+          "payload_sha256": "f06589d0493706cf28787b6a9e9fca1575a27c45f5990b3d0b40ae8e45e26a95"
+        },
+        "kind": "request",
+        "result": {
+          "completion": false,
+          "decision": "quarantined",
+          "dispatch": false
+        },
+        "seq": 4
+      }
+    ],
+    "state": {
+      "capacity": 2,
+      "case": "contradiction",
+      "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+      "counter_start": "drive-contradiction-A",
+      "created_at": "2026-10-26T18:24:07.038572Z",
+      "fixture": "drive-contradiction",
+      "h": 0,
+      "operations": {},
+      "plan_sha256": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+      "q": 1,
+      "quarantined": true,
+      "records": [
+        "drive-contradiction-A1"
+      ],
+      "reports": {
+        "contradiction-T": "5739f39876bd3a6e792ddcaafd580425065377f15e37dc234e41939fbc42da38"
+      },
+      "reservation": 2,
+      "schema": 1,
+      "site": "drive",
+      "terminal": true,
+      "terminal_records": [
+        "drive-contradiction-A1"
+      ]
+    },
+    "summary": {
+      "available": 1,
+      "h": 0,
+      "pending_B": 0,
+      "q": 1,
+      "quarantined": true,
+      "saved_B": 0,
+      "terminal": true
+    }
+  }
+]

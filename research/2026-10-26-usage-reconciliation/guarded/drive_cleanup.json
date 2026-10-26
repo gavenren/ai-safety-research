@@ -1,0 +1,97 @@
+{
+  "active_marker_matches": 0,
+  "active_search_sha256": "7d4773b6ee80aec817f5e7c2a8f3a186ca6bce1d8062b0d373abb5f7cb959421",
+  "counted_children": 13,
+  "method": "Exact known-ID browser paths through Trash and test parent, plus empty active-marker search. API trashed field was not returned. Trash was not purged.",
+  "observation_note": "One initial child path observation was incomplete while loading. The later full exact-child path was verified; no mutation was repeated.",
+  "records": [
+    {
+      "alias": "drive-test-parent",
+      "evidence_sha256": "e5c8062679a6562170ed0d6ceeeeace2b1eaa6ab8d25ca2cdba85a36fb915105",
+      "observed_at": "2026-10-26T18:31:59.763Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-compete-A1",
+      "evidence_sha256": "ce82c9ab8b120b4456863059bd780393b3de47e4bfd2d8ba07e06fe1b5a5fe9c",
+      "observed_at": "2026-10-26T18:32:25.658Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-contradiction-A1",
+      "evidence_sha256": "0a690a62e314035e6120b3859e378fe7051cbde5f3f79f8915c0a8d77f922e5b",
+      "observed_at": "2026-10-26T18:32:27.343Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-early-A1",
+      "evidence_sha256": "20792595ffc1c194562e614f9081e48730fe7feffa20ed8e939898f1d4048b48",
+      "observed_at": "2026-10-26T18:32:29.384Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-early-A2",
+      "evidence_sha256": "1298f7c8be2d0cc4c438a3f9857a195a4b1170c4a12f872bc453a2d51c966160",
+      "observed_at": "2026-10-26T18:32:31.014Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-invalid-A1",
+      "evidence_sha256": "e83e7940b990f806c3a8dbfc77942d4f7daa7b61291dc908618c47ab8190099c",
+      "observed_at": "2026-10-26T18:32:32.740Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-late-A1",
+      "evidence_sha256": "e4150fb906d4d591fc331700e282e0df8b9a777fc420953064c545db2c3d08e5",
+      "observed_at": "2026-10-26T18:32:34.405Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-late-A2",
+      "evidence_sha256": "c6d7be2e58baba4bb136eb38e93566337fd0d6b79098b16086e7de182249723e",
+      "observed_at": "2026-10-26T18:32:40.338Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-overlap-A1",
+      "evidence_sha256": "3e3fb53bb49c154498116dce2e6554bdf231df3241c23e0383f4071c3f12b3d6",
+      "observed_at": "2026-10-26T18:32:42.034Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-release-A1",
+      "evidence_sha256": "3cd86094de526aadb666437d6888b195ab86fbe987c5b258625d21b067de811b",
+      "observed_at": "2026-10-26T18:32:43.689Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-overlap-B1",
+      "evidence_sha256": "627939a43ba03a64aa63eb47751cd1ec74fea52523f7c5c5c112f2be9a89c916",
+      "observed_at": "2026-10-26T18:32:45.379Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-release-B2",
+      "evidence_sha256": "0d6ee6440f11ffc1d75b966731e20970a5995cf864eb929e38d3e378a4e0120e",
+      "observed_at": "2026-10-26T18:32:47.091Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-unknown-B1",
+      "evidence_sha256": "f7e784005c63a2817783bf6aa10ea017e46c9b3ed23bdc95a7e72b752f7e9e92",
+      "observed_at": "2026-10-26T18:32:48.852Z",
+      "trash_path_verified": true
+    },
+    {
+      "alias": "drive-compete-B1",
+      "evidence_sha256": "ee86e5e509e6fe9cfab1ccdc93182fe5e7f8bb2d9a5fbf792da855a4c3184995",
+      "observed_at": "2026-10-26T18:32:50.612Z",
+      "trash_path_verified": true
+    }
+  ],
+  "setup_parent": 1,
+  "site": "drive",
+  "status": "removed_from_active_use",
+  "trash_action_sha256": "59c0c716bbd6d70fb218b56228cfcafee7a9066c4d2ab67afa031a116465a0d4"
+}

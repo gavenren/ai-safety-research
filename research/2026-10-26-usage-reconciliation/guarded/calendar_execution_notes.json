@@ -1,0 +1,28 @@
+{
+  "A_records": 9,
+  "B_records": 4,
+  "account_write_retries": 0,
+  "claim_limit": "No unsafe permit or double count appeared in these selected accounting cases. The initial field adapter did have unsupported completion outputs. No general safety or provider billing claim follows.",
+  "counted_records": 13,
+  "create_actions": 13,
+  "delete_actions": 13,
+  "deviations": [
+    "The first A create omitted self_attendance. The connector added only the owner as an attendee. The same event was corrected once before any P/T capture; no replacement event was created. Later creates explicitly set self_attendance=omit.",
+    "The initial B proof adapter did not verify the bound IANA zone label. Four records had seven premature full-field completion outputs. Later exact-record UI checks and separate complete proofs resolved present evidence, but do not repair the earlier proof timing.",
+    "The corrected adapter first required zone evidence, then explicit matching start/end Toronto labels. Independent review added required-field presence checks for fields that may be null. Revision times and hashes are preserved. Saved evidence contains all required fields; no extra account write was needed.",
+    "One local harness call failed before any command or account action because an eval-defined helper was out of scope. The function binding was corrected. No external retry followed."
+  ],
+  "initial_evidence_preserved": true,
+  "initial_incomplete_completion_outputs": 7,
+  "initial_incomplete_field_proof_records": 4,
+  "later_complete_B_proof_observations": 4,
+  "later_exact_record_timezone_checks": 13,
+  "metadata_corrections": 1,
+  "method": "Calendar connector creates, exact-ID reads and cancellations. Root used read-only exact-event editor dialogs for all timezone checks.",
+  "precleanup_known_scope_count": 13,
+  "precleanup_next_page_token": null,
+  "production_cases": 8,
+  "race_winner": "B2",
+  "site": "calendar",
+  "timezone_limit": "The connector reports November 3 event instants with -05:00. The UI label displayed current GMT-04:00 plus Eastern Time - Toronto. The checked named zone, rather than the label offset, binds America/Toronto."
+}

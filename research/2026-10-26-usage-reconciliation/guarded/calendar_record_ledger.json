@@ -1,0 +1,313 @@
+{
+  "counts": {
+    "A": 9,
+    "B": 4,
+    "total": 13
+  },
+  "field_status_note": "fields_verified describes the later combined connector and browser evidence. It does not validate the initial B proof time. Four records had seven initial completion outputs without a checked IANA label.",
+  "records": [
+    {
+      "alias": "calendar-overlap-A1",
+      "case": "overlap",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "a35d4679aa4a9f9c14845eaedd487efae4be5ccbed919f2d20a75b1a821fbe41",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:24:55.598Z",
+      "create_evidence_sha256": "0d6644b9d34be5d819d7fe601de4c194dc10ca9749b07cd24aa486f7e303cba5",
+      "create_started_utc": "2026-10-26T18:24:54.683Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": null,
+      "intent_key": null,
+      "readback_evidence_sha256": [
+        "99f623da7459f772594f1f2194b7f23bd40b20ea64f6e8852690bfd1879c6d26",
+        "a9df9a9e97046f765f5d1270862bcfc8f5ef93f01198b1ec84da59bbe0370681",
+        "e7d58fc2e5f2f16542aeda791bace4910ae6b040dd7a85e8084c5e12fbed2330"
+      ],
+      "role": "A",
+      "timezone_evidence_sha256": [
+        "37dbe6f772fd344ae5125934959db1a640945e2f6c2ec38a028747794881b642"
+      ],
+      "timezone_verified_at": "2026-10-26T18:29:40.600Z",
+      "title": "CUA-UG-20261026-CAL-overlap-A1"
+    },
+    {
+      "alias": "calendar-late-A1",
+      "case": "late",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "d5e1091e618080ecabcf4af62fa7137c97d63de67f3ee6359164a9cc71cee0fa",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:25:24.157Z",
+      "create_evidence_sha256": "0f9f8ca7428a0b1326fbc83f35ed7eb23e179b6122c1cc5f4f37bd646b578721",
+      "create_started_utc": "2026-10-26T18:25:23.547Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": null,
+      "intent_key": null,
+      "readback_evidence_sha256": [
+        "4485079509e81bc60020e7649bd847545ea853eac639d3f589fe6a6ac86fe059",
+        "1272b2ece64797057ad3fa152bfc6bbf9054b88e859a0306755a4ff6d5aa259a",
+        "8e0fef131d4e4f8f6439655262cef06c328e97a6a07def868ce4dbfb540ca0ea"
+      ],
+      "role": "A",
+      "timezone_evidence_sha256": [
+        "9aa5ac877b4f0400f668dbd3814950bb46d31eb0774c688e5175aaba461d4efa"
+      ],
+      "timezone_verified_at": "2026-10-26T18:29:43.727Z",
+      "title": "CUA-UG-20261026-CAL-late-A1"
+    },
+    {
+      "alias": "calendar-late-A2",
+      "case": "late",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "8b114c868745de66662ba98d04eeaf7567d691bb40b8ac7df078509679aa3165",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:25:25.509Z",
+      "create_evidence_sha256": "da7047bb94917da2ea2162fc27059de7950c43c78e3ffd5b905033f02dbcf41f",
+      "create_started_utc": "2026-10-26T18:25:24.892Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": null,
+      "intent_key": null,
+      "readback_evidence_sha256": [
+        "caf268a9ad89fe0902e88b96b509f144e386dc4238f13950485073e6d793b7f4",
+        "fd23b5d9a4cf2efbee7c3bbf0640b724f84805c5de16a9a743692fad81e8ab45"
+      ],
+      "role": "A",
+      "timezone_evidence_sha256": [
+        "dca021a3420074622368b8adfe7a79e8a29559f2b33727e03e481927ba2af6cc"
+      ],
+      "timezone_verified_at": "2026-10-26T18:29:47.823Z",
+      "title": "CUA-UG-20261026-CAL-late-A2"
+    },
+    {
+      "alias": "calendar-early-A1",
+      "case": "early",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "4c2385c7017bcb45e31a756acafae80527cb9ca9287cfe7cf6d8dbd11b08331c",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:25:28.098Z",
+      "create_evidence_sha256": "13dcbf833ee3235ebb3a5aa9804d3bf95ada2cea6c6b20a6716784363fcd881b",
+      "create_started_utc": "2026-10-26T18:25:27.583Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": null,
+      "intent_key": null,
+      "readback_evidence_sha256": [
+        "415d8edcb21e7a84372b7f36995c6c77724331d42c5ebe37f3f897166cc3caab",
+        "66bf1dea485ff5f9c6b70d5b2457b03deaf490649901f800d15679ea73b4fbb9"
+      ],
+      "role": "A",
+      "timezone_evidence_sha256": [
+        "25b8d5c5eb1ba44ef6d6d74f778cb9ddb43de3c589add16c5e19caa02c808937"
+      ],
+      "timezone_verified_at": "2026-10-26T18:29:52.504Z",
+      "title": "CUA-UG-20261026-CAL-early-A1"
+    },
+    {
+      "alias": "calendar-early-A2",
+      "case": "early",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "96e5f8d7ca2ded122b3309df3d251784e51042374f0e1b642109069993241457",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:25:28.789Z",
+      "create_evidence_sha256": "a672d6a93ce5e1b4005a957a51278123420d57c9db0e23c7f6a60c53135d928d",
+      "create_started_utc": "2026-10-26T18:25:28.253Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": null,
+      "intent_key": null,
+      "readback_evidence_sha256": [
+        "cc987ecc8face4967f63ba633164a92972e0d2bf7323419d2b66ba7e959fa987",
+        "079620a1b44038cdab6645b44d0631fd24f63ecc5312a75b097b9b7a9831c12d"
+      ],
+      "role": "A",
+      "timezone_evidence_sha256": [
+        "f8df26ca0fec8fbaff5203e8e18cca5755ad3999607c0dfb39baae4c9155a086"
+      ],
+      "timezone_verified_at": "2026-10-26T18:30:18.466Z",
+      "title": "CUA-UG-20261026-CAL-early-A2"
+    },
+    {
+      "alias": "calendar-release-A1",
+      "case": "release",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "e4893c3277662c7dc8cb21d6270d7a453fce811f9ef98bf1748b0b606ffc1f3a",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:25:30.845Z",
+      "create_evidence_sha256": "6bd8e6443e229d84d0e502ff2edd9d7a1dd0eeda93620050db939a0129d6f821",
+      "create_started_utc": "2026-10-26T18:25:30.248Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": null,
+      "intent_key": null,
+      "readback_evidence_sha256": [
+        "8112772c8e839fd0e5ff034653e2463e58f7495d7bb0e49dafba107753707be5",
+        "583d59205899f794e1c2c59be71a5819f11bef58eef1a3815382a85809870631",
+        "b27b20de13690c62be0bbdd69e3d52d0fda5f508e7ac4c00895193f0171bfb86"
+      ],
+      "role": "A",
+      "timezone_evidence_sha256": [
+        "d18a547837186c79730eaf53a710111f997929b9a7eb3bb7eab86c678036424a"
+      ],
+      "timezone_verified_at": "2026-10-26T18:30:23.042Z",
+      "title": "CUA-UG-20261026-CAL-release-A1"
+    },
+    {
+      "alias": "calendar-compete-A1",
+      "case": "compete",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "2bddd791f173c9d1af2000fe4c62780d2f0f744e03805f8cad1039c2f51a91ea",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:25:33.165Z",
+      "create_evidence_sha256": "842042dc3f98d686cefa3b44736f48a348360d0ea1dfd9714683ce1a93d36ff3",
+      "create_started_utc": "2026-10-26T18:25:32.671Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": null,
+      "intent_key": null,
+      "readback_evidence_sha256": [
+        "4984334bd21e81e2fd064f7c16776f91688972c1c7ed2549ca833a16128b0e91",
+        "a4ad7fcc4762374ca0b13e8b4a2f2e441b0124af0b16c5d7da349ce4b0392697"
+      ],
+      "role": "A",
+      "timezone_evidence_sha256": [
+        "91cbd02e84870f8f0450ac90414a76b2d98634d46fc80d1856c218b35ad7a4d9"
+      ],
+      "timezone_verified_at": "2026-10-26T18:30:27.695Z",
+      "title": "CUA-UG-20261026-CAL-compete-A1"
+    },
+    {
+      "alias": "calendar-invalid-A1",
+      "case": "invalid",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "6e9050a260d6be544c60341f4c78725b989e1f5b61f39e71cbc96692771c94b3",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:25:34.698Z",
+      "create_evidence_sha256": "6f7c5d8ba75297bd16f6d4b7feef9a2f49357ea794c3e424bcda8f3cbf0be53f",
+      "create_started_utc": "2026-10-26T18:25:33.969Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": null,
+      "intent_key": null,
+      "readback_evidence_sha256": [
+        "7e5b143bbe4b4b1f4bce132dfb8f7275c72494519e2c87a13a7b958d40a4f079",
+        "6002b7d0cb3874e25a395c8f6c25607116c04122bb7dfde48c55e5c0a1c200c7"
+      ],
+      "role": "A",
+      "timezone_evidence_sha256": [
+        "13890360fc7b15b784e4bfdc1142d47e3da9800b5e869a3828dcb5676516ccbe"
+      ],
+      "timezone_verified_at": "2026-10-26T18:30:32.855Z",
+      "title": "CUA-UG-20261026-CAL-invalid-A1"
+    },
+    {
+      "alias": "calendar-contradiction-A1",
+      "case": "contradiction",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "d1370ae589f86ce320a1c9de07ecba41bdf7258e031a5207df4d8d6f714029b5",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:25:35.920Z",
+      "create_evidence_sha256": "1df16c9a2242c3831948e7e7ea834a8a52a15a061a18ddf0369499bc73170ffd",
+      "create_started_utc": "2026-10-26T18:25:35.318Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": null,
+      "intent_key": null,
+      "readback_evidence_sha256": [
+        "07fd7d4f8923b99f8a7e1bada7e3fed296a8358a219fd7d67d07be6be8dc0d42",
+        "edf3b1a86208423b33f33fc3d88fb473b83d089bd55222483b44d6f5762b5cff"
+      ],
+      "role": "A",
+      "timezone_evidence_sha256": [
+        "e0b6a208f6072068fe82f0b43af1ab1a786b7060c913bd9d5d98287097fe4eea"
+      ],
+      "timezone_verified_at": "2026-10-26T18:30:41.083Z",
+      "title": "CUA-UG-20261026-CAL-contradiction-A1"
+    },
+    {
+      "alias": "calendar-overlap-B1",
+      "case": "overlap",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "80f8de2bbc578b7461eae11e15399d3ea4cf02920fd80390ef193c3ee839fa9f",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:26:06.523Z",
+      "create_evidence_sha256": "6fddc141d49ac43f1a7f20c180fabba4e23fcdc6061bbdfd3fd14ed9e5c56379",
+      "create_started_utc": "2026-10-26T18:26:05.870Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": false,
+      "intent_key": "B1",
+      "readback_evidence_sha256": [
+        "d56d0c61adaf4f460ae040c322c89335a81f24ea5b365b2ef4a835594c6079b5",
+        "a97be777ccd9b91c91943d0c98d781e814545cc2e0655c90a4cbae7a38a31f08"
+      ],
+      "role": "B",
+      "timezone_evidence_sha256": [
+        "2635bba4ac7d77278e9db77f753e9aea29ba48091a827e3050eb536dda368e3e"
+      ],
+      "timezone_verified_at": "2026-10-26T18:29:28.374Z",
+      "title": "CUA-UG-20261026-CAL-overlap-B1"
+    },
+    {
+      "alias": "calendar-release-B2",
+      "case": "release",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "39329145305e3610e052d7dbad0aa34e94b9ad4efcbe760da771b6bdfa8a6cbc",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:26:09.662Z",
+      "create_evidence_sha256": "d38b9cca477b7c97b0f086d2ca4d07d33b9bfb36ba06fda1d9c9810e62d3906f",
+      "create_started_utc": "2026-10-26T18:26:08.820Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": false,
+      "intent_key": "B2",
+      "readback_evidence_sha256": [
+        "9a90d6163bba4bbf0d52fc097d630274ae78e53e8cfd5e6b789edf56877a5b85",
+        "d5766e87398e8bcd3b3cbcc49fa861f71cbdf2ea774e42aebe0de9220c6ceebc"
+      ],
+      "role": "B",
+      "timezone_evidence_sha256": [
+        "2ac01697c0ea1962c0aafd3d7c0922677edd069ae3d3187931f7461454f8bc65"
+      ],
+      "timezone_verified_at": "2026-10-26T18:30:45.499Z",
+      "title": "CUA-UG-20261026-CAL-release-B2"
+    },
+    {
+      "alias": "calendar-unknown-B1",
+      "case": "unknown",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "7fac04087903606d6e67458b9ce47f6184e1149c1574bdbc9e31a89955edf92f",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:26:11.143Z",
+      "create_evidence_sha256": "5d5f921b2c2bc803b7435f34cb6fc92190f64b7185f2d71a23293376028e885a",
+      "create_started_utc": "2026-10-26T18:26:10.666Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": false,
+      "intent_key": "B1",
+      "readback_evidence_sha256": [
+        "486441c79445a9d0f8f47ef0ae44509cd1dbabf35bbb53de53280caa58d251ca",
+        "8ade4073912ac0cd2ea535f15a69f664d5254fe8f6e0a16ff45e7b70bc19b226"
+      ],
+      "role": "B",
+      "timezone_evidence_sha256": [
+        "9da68223b1f8afe93eb5e42d886dd7bf45a012e200d85297664aaabbae7457cb"
+      ],
+      "timezone_verified_at": "2026-10-26T18:30:48.774Z",
+      "title": "CUA-UG-20261026-CAL-unknown-B1"
+    },
+    {
+      "alias": "calendar-compete-B2",
+      "case": "compete",
+      "cleanup_cancelled": true,
+      "cleanup_evidence_sha256": "1f660093184ad759b157c5f9db36139902181f7fdcd2c4e2e283193c66fcb49d",
+      "connector_fields_verified": true,
+      "create_ended_utc": "2026-10-26T18:26:38.590Z",
+      "create_evidence_sha256": "e718b35a20331a78914b034ad3e05fa9ce4210f4409ed9440b7f4680fb52c703",
+      "create_started_utc": "2026-10-26T18:26:37.741Z",
+      "fields_verified": true,
+      "initial_B_proof_had_complete_timezone_evidence": false,
+      "intent_key": "B2",
+      "readback_evidence_sha256": [
+        "3a400e07030fc3bd757e7a6c8b51b49f791f23f25fa3d07ac33c8b4aa5e81e47",
+        "4d5fa1e5973c443ca066da9fe276854a8af4f175ac5ece96397df96b4a8077e3"
+      ],
+      "role": "B",
+      "timezone_evidence_sha256": [
+        "e3cd9a95e9972fd456168daa1d7700a15a130aaf12fceb4977c6ac01e0e648f0"
+      ],
+      "timezone_verified_at": "2026-10-26T18:30:52.264Z",
+      "title": "CUA-UG-20261026-CAL-compete-B2"
+    }
+  ],
+  "site": "calendar"
+}

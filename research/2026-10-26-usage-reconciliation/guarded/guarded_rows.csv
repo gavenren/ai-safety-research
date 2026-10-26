@@ -1,0 +1,17 @@
+site,case,actual_A_records,actual_B_records,actual_total_records,capacity,excess_units,booked_A,residual_A_hold,terminal,quarantined,observed_A_count_error,final_A_booking_error,pending_B,saved_B,permits,requests,limit_refused,quarantine_refused,repeat_pending,repeat_saved,payload_conflict,report_accepted,report_replay,report_rejected,proof_rejected,proof_saved,proof_replay_saved,explicit_false_field_flag_completion_claims,minimum_available,log_events
+drive,overlap,1,1,2,2,0,1,0,True,False,0,0,0,1,1,3,0,0,0,1,1,2,2,0,0,1,0,0,0,9
+drive,late,2,0,2,2,0,2,0,True,False,0,0,0,0,0,1,1,0,0,0,0,2,0,0,0,0,0,0,0,4
+drive,early,2,0,2,2,0,2,0,True,False,0,0,0,0,0,2,2,0,0,0,0,2,0,0,0,0,0,0,0,5
+drive,release,1,1,2,2,0,1,0,True,False,0,0,0,1,1,2,1,0,0,0,0,2,0,0,0,1,0,0,0,6
+drive,unknown,0,1,1,1,0,0,0,True,False,0,0,0,1,1,4,1,0,1,1,0,1,0,0,1,1,1,0,0,10
+drive,compete,1,1,2,2,0,1,0,True,False,0,0,0,1,1,2,1,0,0,0,0,1,0,0,0,1,0,0,0,5
+drive,invalid,1,0,1,2,0,1,1,False,True,0,,0,0,0,1,0,1,0,0,0,1,0,3,0,0,0,0,0,6
+drive,contradiction,1,0,1,2,0,1,0,True,True,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,4
+calendar,overlap,1,1,2,2,0,1,0,True,False,0,0,0,1,1,3,0,0,0,1,1,2,2,0,0,1,1,0,0,10
+calendar,late,2,0,2,2,0,2,0,True,False,0,0,0,0,0,1,1,0,0,0,0,2,0,0,0,0,0,0,0,4
+calendar,early,2,0,2,2,0,2,0,True,False,0,0,0,0,0,2,2,0,0,0,0,2,0,0,0,0,0,0,0,5
+calendar,release,1,1,2,2,0,1,0,True,False,0,0,0,1,1,2,1,0,0,0,0,2,0,0,0,1,1,0,0,7
+calendar,unknown,0,1,1,1,0,0,0,True,False,0,0,0,1,1,5,1,0,2,1,0,1,0,0,1,1,2,0,0,12
+calendar,compete,1,1,2,2,0,1,0,True,False,0,0,0,1,1,2,1,0,0,0,0,1,0,0,0,1,1,0,0,6
+calendar,invalid,1,0,1,2,0,1,1,False,True,0,,0,0,0,1,0,1,0,0,0,1,0,3,0,0,0,0,0,6
+calendar,contradiction,1,0,1,2,0,1,0,True,True,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,4

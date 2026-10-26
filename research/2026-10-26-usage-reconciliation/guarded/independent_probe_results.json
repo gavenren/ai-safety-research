@@ -1,0 +1,129 @@
+{
+  "check_names": [
+    "overlapping values and exact replay book one",
+    "first intent has one permit",
+    "pending repeat has no permit",
+    "pending payload change refused",
+    "matching evidence saves once",
+    "exact confirmation replay is a no-op",
+    "saved repeat has no permit",
+    "all cumulative and intent replay leaves total two",
+    "second intent is refused at full capacity",
+    "zero progress keeps full hold",
+    "zero progress gives no permit",
+    "terminal two remains full",
+    "late progress cannot lower final use",
+    "late progress gives no permit",
+    "wrong_site is rejected",
+    "wrong_site cannot release capacity",
+    "wrong_fixture is rejected",
+    "wrong_fixture cannot release capacity",
+    "wrong_counter is rejected",
+    "wrong_counter cannot release capacity",
+    "boolean_value is rejected",
+    "boolean_value cannot release capacity",
+    "negative_value is rejected",
+    "negative_value cannot release capacity",
+    "over_reservation is rejected",
+    "over_reservation cannot release capacity",
+    "duplicate_alias is rejected",
+    "duplicate_alias cannot release capacity",
+    "missing_stop is rejected",
+    "missing_stop cannot release capacity",
+    "bad_evidence_hash is rejected",
+    "bad_evidence_hash cannot release capacity",
+    "changed same-ID payload rejected",
+    "changed same-ID leaves prior total",
+    "terminal below prior progress rejected",
+    "bad terminal retains residual hold",
+    "conflicting terminal set rejected",
+    "conflicting terminal blocks admission",
+    "unknown retains one hold",
+    "wrong saved fields do not confirm",
+    "wrong fields retain hold",
+    "wrong payload evidence does not confirm",
+    "fresh correct evidence resolves pending",
+    "A alias cannot settle B",
+    "same saved alias cannot settle another intent",
+    "bad second settlement keeps hold",
+    "race 0 has exactly one permit",
+    "race 0 retains one allocation",
+    "race 1 has exactly one permit",
+    "race 1 retains one allocation",
+    "race 2 has exactly one permit",
+    "race 2 retains one allocation",
+    "race 3 has exactly one permit",
+    "race 3 retains one allocation",
+    "race 4 has exactly one permit",
+    "race 4 retains one allocation",
+    "race 5 has exactly one permit",
+    "race 5 retains one allocation",
+    "race 6 has exactly one permit",
+    "race 6 retains one allocation",
+    "race 7 has exactly one permit",
+    "race 7 retains one allocation",
+    "race 8 has exactly one permit",
+    "race 8 retains one allocation",
+    "race 9 has exactly one permit",
+    "race 9 retains one allocation",
+    "race 10 has exactly one permit",
+    "race 10 retains one allocation",
+    "race 11 has exactly one permit",
+    "race 11 retains one allocation"
+  ],
+  "checks": 70,
+  "competing_results": [
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ],
+    [
+      "limit_refused",
+      "permit"
+    ]
+  ],
+  "competing_rounds": 12,
+  "controller_sha256": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+  "scope": "offline checks only; no production writes",
+  "status": "passed"
+}

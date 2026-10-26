@@ -1,0 +1,283 @@
+{
+  "basis": "Written contract and fixed eight-case matrix; no implementation or result was read.",
+  "checkpoints": [
+    {
+      "available": 1,
+      "case": "overlap",
+      "h": 0,
+      "point": "after P1,T1,P1,T1",
+      "q": 1
+    },
+    {
+      "available": 0,
+      "case": "late",
+      "h": 0,
+      "point": "after T2,P1",
+      "q": 2
+    },
+    {
+      "available": 0,
+      "case": "early",
+      "h": 2,
+      "point": "after P0 before T2",
+      "q": 0
+    },
+    {
+      "available": 0,
+      "case": "release",
+      "h": 1,
+      "point": "after P1 before T1",
+      "q": 1
+    },
+    {
+      "available": 1,
+      "case": "release",
+      "h": 0,
+      "point": "after T1",
+      "q": 1
+    },
+    {
+      "available": 0,
+      "case": "unknown",
+      "h": 0,
+      "pending_operations": 1,
+      "point": "after allocation and before evidence",
+      "q": 0
+    },
+    {
+      "available": 0,
+      "case": "unknown",
+      "h": 0,
+      "pending_operations": 1,
+      "point": "after wrong evidence",
+      "q": 0
+    },
+    {
+      "available": 0,
+      "case": "unknown",
+      "h": 0,
+      "pending_operations": 0,
+      "point": "after matching evidence and exact replay",
+      "q": 0,
+      "saved_operations": 1
+    },
+    {
+      "available": 0,
+      "case": "compete",
+      "h": 0,
+      "pending_operations": 1,
+      "point": "after two competing requests",
+      "q": 1,
+      "saved_operations": 0
+    },
+    {
+      "available": 0,
+      "case": "invalid",
+      "h": 1,
+      "point": "after rejected inputs",
+      "q": 1,
+      "quarantined": true
+    },
+    {
+      "available": 1,
+      "case": "contradiction",
+      "h": 0,
+      "point": "after conflicting final",
+      "q": 1,
+      "quarantined": true
+    }
+  ],
+  "limits": [
+    "Competing winner identity is not predicted.",
+    "Local planned outcomes do not prove website creation or cleanup.",
+    "Final confirmation replay must not add another saved operation."
+  ],
+  "per_site_final": [
+    {
+      "A_created": 1,
+      "B_created": 1,
+      "C": 2,
+      "R": 2,
+      "actual_created": 2,
+      "case": "overlap",
+      "committed": 2,
+      "excess": 0,
+      "final_A_error": 0,
+      "h": 0,
+      "pending_operations": 0,
+      "q": 1,
+      "quarantined": false,
+      "saved_operations": 1,
+      "terminal": true
+    },
+    {
+      "A_created": 2,
+      "B_created": 0,
+      "C": 2,
+      "R": 2,
+      "actual_created": 2,
+      "case": "late",
+      "committed": 2,
+      "excess": 0,
+      "final_A_error": 0,
+      "h": 0,
+      "pending_operations": 0,
+      "q": 2,
+      "quarantined": false,
+      "saved_operations": 0,
+      "terminal": true
+    },
+    {
+      "A_created": 2,
+      "B_created": 0,
+      "C": 2,
+      "R": 2,
+      "actual_created": 2,
+      "case": "early",
+      "committed": 2,
+      "excess": 0,
+      "final_A_error": 0,
+      "h": 0,
+      "pending_operations": 0,
+      "q": 2,
+      "quarantined": false,
+      "saved_operations": 0,
+      "terminal": true
+    },
+    {
+      "A_created": 1,
+      "B_created": 1,
+      "C": 2,
+      "R": 2,
+      "actual_created": 2,
+      "case": "release",
+      "committed": 2,
+      "excess": 0,
+      "final_A_error": 0,
+      "h": 0,
+      "pending_operations": 0,
+      "q": 1,
+      "quarantined": false,
+      "saved_operations": 1,
+      "terminal": true
+    },
+    {
+      "A_created": 0,
+      "B_created": 1,
+      "C": 1,
+      "R": 1,
+      "actual_created": 1,
+      "case": "unknown",
+      "committed": 1,
+      "excess": 0,
+      "final_A_error": 0,
+      "h": 0,
+      "pending_operations": 0,
+      "q": 0,
+      "quarantined": false,
+      "saved_operations": 1,
+      "terminal": true
+    },
+    {
+      "A_created": 1,
+      "B_created": 1,
+      "C": 2,
+      "R": 2,
+      "actual_created": 2,
+      "case": "compete",
+      "committed": 2,
+      "excess": 0,
+      "final_A_error": 0,
+      "h": 0,
+      "pending_operations": 0,
+      "q": 1,
+      "quarantined": false,
+      "saved_operations": 1,
+      "terminal": true
+    },
+    {
+      "A_created": 1,
+      "B_created": 0,
+      "C": 2,
+      "R": 2,
+      "actual_created": 1,
+      "case": "invalid",
+      "committed": 2,
+      "excess": 0,
+      "final_A_error": 0,
+      "h": 1,
+      "pending_operations": 0,
+      "q": 1,
+      "quarantined": true,
+      "saved_operations": 0,
+      "terminal": false
+    },
+    {
+      "A_created": 1,
+      "B_created": 0,
+      "C": 2,
+      "R": 2,
+      "actual_created": 1,
+      "case": "contradiction",
+      "committed": 1,
+      "excess": 0,
+      "final_A_error": 0,
+      "h": 0,
+      "pending_operations": 0,
+      "q": 1,
+      "quarantined": true,
+      "saved_operations": 0,
+      "terminal": true
+    }
+  ],
+  "request_expectations": {
+    "compete": [
+      "one_permit_one_limit_refusal_in_either_order"
+    ],
+    "contradiction": [
+      "quarantine_refusal"
+    ],
+    "early": [
+      "limit_refusal",
+      "limit_refusal"
+    ],
+    "invalid": [
+      "quarantine_refusal"
+    ],
+    "late": [
+      "limit_refusal"
+    ],
+    "overlap": [
+      "permit",
+      "no_repeat_permit",
+      "payload_conflict_refusal"
+    ],
+    "release": [
+      "limit_refusal",
+      "permit"
+    ],
+    "unknown": [
+      "permit",
+      "pending_no_permit",
+      "limit_refusal",
+      "saved_no_permit"
+    ]
+  },
+  "sites": [
+    "drive",
+    "calendar"
+  ],
+  "status": "independent_planned_expectations_not_observations",
+  "totals": {
+    "A_created": 18,
+    "B_created": 8,
+    "cases": 16,
+    "cases_per_site": 8,
+    "counted_created": 26,
+    "excess_cases": 0,
+    "final_A_error_cases": 0,
+    "pending_final": 0,
+    "quarantined_cases": 4,
+    "sites": 2
+  }
+}

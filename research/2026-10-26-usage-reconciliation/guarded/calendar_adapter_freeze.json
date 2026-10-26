@@ -1,0 +1,18 @@
+{
+  "initial_revision": {
+    "frozen_at_utc": "2026-10-26T18:29:16.999476+00:00",
+    "source_sha256": "eb54669d3d61147d5bee21c5b7b48c9c54c59ef18271e326eab90222347c1592",
+    "status": "corrected adapter saved after initial four incomplete Calendar proofs; before later timezone proofs",
+    "purpose": "Require explicit exact-record timezone evidence; do not infer IANA label from offset."
+  },
+  "timezone_binding_revision": {
+    "frozen_at_utc": "2026-10-26T18:31:35.359086+00:00",
+    "source_sha256": "203f3d65974b04fa6db5405297f732a7e0b951f833cebdcb291b0deef13f8c5d",
+    "change": "Require both visible zone labels to name Eastern Time - Toronto, independently of the displayed current GMT offset. Added after UI observations and before corrected proof generation."
+  },
+  "current_revision": {
+    "frozen_at_utc": "2026-10-26T18:33:04.984225+00:00",
+    "source_sha256": "988c47edba4d0e67b6c294ec4ee9c2f8dd452a97dd22ac7783859abe5a8ba029",
+    "change": "Independent review required presence checks for every returned field, including fields expected to be null. Actual saved inputs contain these fields. No external write or new ledger observation was repeated."
+  }
+}

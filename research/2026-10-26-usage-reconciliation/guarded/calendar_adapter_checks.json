@@ -1,0 +1,101 @@
+{
+  "corrected_adapter_checks": 28,
+  "description": "Local replay checks on saved evidence, not new production trials. Initial completion outputs lacked IANA zone proof. Later checks do not repair that earlier evidence time.",
+  "initial_affected_records": 4,
+  "initial_incomplete_claims": [
+    {
+      "case": "overlap",
+      "decision": "saved",
+      "kind": "observe",
+      "seq": 7
+    },
+    {
+      "case": "overlap",
+      "decision": "already_saved",
+      "kind": "request",
+      "seq": 8
+    },
+    {
+      "case": "release",
+      "decision": "saved",
+      "kind": "observe",
+      "seq": 6
+    },
+    {
+      "case": "unknown",
+      "decision": "saved",
+      "kind": "observe",
+      "seq": 9
+    },
+    {
+      "case": "unknown",
+      "decision": "already_saved",
+      "kind": "observe",
+      "seq": 10
+    },
+    {
+      "case": "unknown",
+      "decision": "already_saved",
+      "kind": "request",
+      "seq": 11
+    },
+    {
+      "case": "compete",
+      "decision": "saved",
+      "kind": "observe",
+      "seq": 5
+    }
+  ],
+  "initial_incomplete_completion_outputs": 7,
+  "passed": true,
+  "rows": [
+    {
+      "alias": "calendar-overlap-B1",
+      "case": "overlap",
+      "complete_evidence_proof_matches": true,
+      "key": "B1",
+      "missing_meet_field_rejected": true,
+      "missing_recurrence_rejected": true,
+      "missing_zone_rejected": true,
+      "unverified_zone_rejected": true,
+      "wrong_start_rejected": true,
+      "wrong_zone_label_rejected": true
+    },
+    {
+      "alias": "calendar-release-B2",
+      "case": "release",
+      "complete_evidence_proof_matches": true,
+      "key": "B2",
+      "missing_meet_field_rejected": true,
+      "missing_recurrence_rejected": true,
+      "missing_zone_rejected": true,
+      "unverified_zone_rejected": true,
+      "wrong_start_rejected": true,
+      "wrong_zone_label_rejected": true
+    },
+    {
+      "alias": "calendar-unknown-B1",
+      "case": "unknown",
+      "complete_evidence_proof_matches": true,
+      "key": "B1",
+      "missing_meet_field_rejected": true,
+      "missing_recurrence_rejected": true,
+      "missing_zone_rejected": true,
+      "unverified_zone_rejected": true,
+      "wrong_start_rejected": true,
+      "wrong_zone_label_rejected": true
+    },
+    {
+      "alias": "calendar-compete-B2",
+      "case": "compete",
+      "complete_evidence_proof_matches": true,
+      "key": "B2",
+      "missing_meet_field_rejected": true,
+      "missing_recurrence_rejected": true,
+      "missing_zone_rejected": true,
+      "unverified_zone_rejected": true,
+      "wrong_start_rejected": true,
+      "wrong_zone_label_rejected": true
+    }
+  ]
+}

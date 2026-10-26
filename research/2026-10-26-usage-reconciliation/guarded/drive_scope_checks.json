@@ -1,0 +1,104 @@
+{
+  "checks": [
+    {
+      "case": "overlap",
+      "key": "B1",
+      "decision": "already_saved",
+      "dispatch": false,
+      "same_existing_record_allowed": true,
+      "matching_saved_record_count": 1
+    },
+    {
+      "case": "overlap",
+      "key": "B1",
+      "decision": "payload_conflict",
+      "dispatch": false,
+      "same_existing_record_allowed": false,
+      "matching_saved_record_count": 0
+    },
+    {
+      "case": "late",
+      "key": "B1",
+      "decision": "limit_refused",
+      "dispatch": false,
+      "same_existing_record_allowed": false,
+      "matching_saved_record_count": 0
+    },
+    {
+      "case": "early",
+      "key": "B1",
+      "decision": "limit_refused",
+      "dispatch": false,
+      "same_existing_record_allowed": false,
+      "matching_saved_record_count": 0
+    },
+    {
+      "case": "early",
+      "key": "B2",
+      "decision": "limit_refused",
+      "dispatch": false,
+      "same_existing_record_allowed": false,
+      "matching_saved_record_count": 0
+    },
+    {
+      "case": "release",
+      "key": "B1",
+      "decision": "limit_refused",
+      "dispatch": false,
+      "same_existing_record_allowed": false,
+      "matching_saved_record_count": 0
+    },
+    {
+      "case": "unknown",
+      "key": "B1",
+      "decision": "pending",
+      "dispatch": false,
+      "same_existing_record_allowed": true,
+      "matching_saved_record_count": 1
+    },
+    {
+      "case": "unknown",
+      "key": "B2",
+      "decision": "limit_refused",
+      "dispatch": false,
+      "same_existing_record_allowed": false,
+      "matching_saved_record_count": 0
+    },
+    {
+      "case": "unknown",
+      "key": "B1",
+      "decision": "already_saved",
+      "dispatch": false,
+      "same_existing_record_allowed": true,
+      "matching_saved_record_count": 1
+    },
+    {
+      "case": "compete",
+      "key": "B2",
+      "decision": "limit_refused",
+      "dispatch": false,
+      "same_existing_record_allowed": false,
+      "matching_saved_record_count": 0
+    },
+    {
+      "case": "invalid",
+      "key": "B1",
+      "decision": "quarantined",
+      "dispatch": false,
+      "same_existing_record_allowed": false,
+      "matching_saved_record_count": 0
+    },
+    {
+      "case": "contradiction",
+      "key": "B1",
+      "decision": "quarantined",
+      "dispatch": false,
+      "same_existing_record_allowed": false,
+      "matching_saved_record_count": 0
+    }
+  ],
+  "actual_browser_dispatches": 4,
+  "actual_connector_A_creates": 9,
+  "known_scope_exact_match": true,
+  "evidence_sha256": "462dbf41c127a26b1fbe44509ae1d61a4b3f95e4e7081d5e3798aa415b05527c"
+}

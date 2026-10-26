@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-10-26T18:23:45.607656+00:00",
+  "purpose": "Freeze plan and controller before first production test write. Offline independent probe has passed.",
+  "files": {
+    "controller.py": "46d454c624e1dfb347015a9f786b4f86d15d5b6dfa9c686b8e3e9a53f6406a82",
+    "plan.md": "d052d3d8a68e0186f0636130a79e3731d8039bb981e702c5d9c2caebafb48475",
+    "README.md": "4f47fbf833ca3c21111b9c23241ad230473aa8c6f7bcbf235b816401d9a66ac3"
+  },
+  "python": "3.13.7",
+  "sqlite": "3.50.4",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "human_review": false,
+  "independent_agent_review": "Pre-live source and 70 offline checks passed; no material correction requested."
+}
