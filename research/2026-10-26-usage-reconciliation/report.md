@@ -4,7 +4,7 @@ Date: 2026-10-26, America/Toronto. Exact finite simulation with two controlled p
 
 ## Abstract
 
-A repeated report and a repeated amount are different things. We compare six accounting rules on 3,240 designed delivery histories each. All provider work is complete before report delivery begins. Ignoring repeated event IDs still overcounts final use in 1,440 histories because two distinct cumulative reports contain overlapping use. Taking the last delivered value causes 112 actual budget overruns. Taking the greatest value gives exact final use in every history, but releasing the reservation on any report still causes 72 overruns. Retaining the unused reservation until a final report avoids both errors. It gives the same 1,953 admissions as ignoring progress and waiting for the final report. Two complete runs agree. The contribution is a reproducible comparison corpus for known mechanisms. These are simulation results, not production failure rates. A later production extension used eight shared fixtures and 48 paired decisions on Google Drive and Calendar. It verified 34 saved records. LastValue and HighWaterEarly each caused two excesses against a researcher-defined record limit. The two complete rules had no accounting error or excess in these selected cases. A second extension tested CheckedLedger on 16 new Drive and Calendar cases. It created 26 counted records with no scoped excess or duplicate permit. The Calendar adapter still made seven unsupported full-field completion outputs on four records. A corrected adapter and later named-zone checks resolved current evidence while preserving that negative result.
+A repeated report and a repeated amount are different things. We compare six accounting rules on 3,240 designed delivery histories each. All provider work is complete before report delivery begins. Ignoring repeated event IDs still overcounts final use in 1,440 histories because two distinct cumulative reports contain overlapping use. Taking the last delivered value causes 112 actual budget overruns. Taking the greatest value gives exact final use in every history, but releasing the reservation on any report still causes 72 overruns. Retaining the unused reservation until a final report avoids both errors. It gives the same 1,953 admissions as ignoring progress and waiting for the final report. Two complete runs agree. The contribution is a reproducible comparison corpus for known mechanisms. These are simulation results, not production failure rates. A later production extension used eight shared fixtures and 48 paired decisions on Google Drive and Calendar. It verified 34 saved records. LastValue and HighWaterEarly each caused two excesses against a researcher-defined record limit. The two complete rules had no accounting error or excess in these selected cases. A second extension tested CheckedLedger on 16 new Drive and Calendar cases. It created 26 counted records with no scoped excess or duplicate permit. The Calendar adapter still made seven unsupported full-field completion outputs on four records. A corrected adapter and later named-zone checks resolved current evidence while preserving that negative result. A prospective follow-up then tested the corrected field adapter on 12 new Calendar events. It refused all assigned missing or incorrect evidence inputs and both actual wrong saved zones. Complete evidence let eight earlier refusals pass; two positive controls already passed.
 
 ## Question and safety relevance
 
@@ -240,6 +240,51 @@ Two analysis runs produced identical row, request, and summary files. They check
 
 Codex generated this work. Separate Codex agents operated Calendar and reviewed the design and evidence. Exact model and connector build IDs were not exposed. No human or peer review occurred. No paid compute, new permission, or new license was used. NeurIPS checklist topics were review aids only. Read the [guide](guarded/README.md), [sources](guarded/sources.md), and deviations before reproduction.
 
+## Prospective Calendar time-zone evidence test
+
+Date: 2026-10-26. This owner-requested extension tests the corrected adapter on 12 new temporary events in the connected production Google Calendar account. The earlier 28 repair checks used saved data. The present extension uses new records after the repair. It retains the seven earlier unsupported completion outputs as a negative result.
+
+### Question, contribution, and method
+
+The question is whether the corrected adapter refuses missing or incorrect named-zone evidence before it issues a full-field proof. A proof here is a local record that states the required saved fields matched the request. It is not a signature from Google. The hypothesis is that the adapter accepts only when the supplied evidence establishes the intended start and end zones on the exact event.
+
+Google separates a named time zone from a numeric UTC offset [11,15]. A UTC offset is the distance from UTC at a particular time. Different named zones can have the same offset. Named zones are optional for single events in the Google API. This test imposes a stricter contract: both named zones must be `America/Toronto`. The Google event editor supports separate start and end zones [16].
+
+The contribution is prospective validation of an existing repair. The StateAct preprint checks saved artifacts independently of action claims [17]. The OpenComputer preprint tests application-specific verifiers with positive and negative cases [18]. Selected relevant sections were read; no performance number from either paper is used. Those methods are related work. This extension does not claim a new verification algorithm or establish novelty through a limited search.
+
+The [plan](calendar_zone_live/plan.md), [case matrix](calendar_zone_live/cases.json), adapter, and evaluator were frozen before the first event write. The [freeze record](calendar_zone_live/freeze.json) gives the time and file hashes. Six conditions used two events each. One set used November 4; the other used November 5. Each event ran from 12:00 to 12:05, was private, and was marked Free. No event had guests, reminders, recurrence, or a Meet link.
+
+The agent created each event once through the connected Calendar action and read its exact ID. It then opened each saved event in the browser editor and read both zone controls. It cancelled the dialog and editor without a save. Ten events had the intended Toronto zone. Two were deliberately saved with `America/New_York`. The two zones gave the same requested instants on these dates. Thus, those two records had incorrect named zones without incorrect numeric start or end times.
+
+The adapter received three successive inputs for each record: the connector read alone, the assigned condition, and the complete unmodified browser evidence. Missing objects, missing end labels, incorrect supplied labels, and unverified evidence were controlled local changes to the inputs. They were not faults induced in Google Calendar. No provider outage was induced.
+
+### Results
+
+All 12 connector reads omitted named-zone labels. The corrected adapter rejected all 12 connector-only inputs. The next table gives the assigned and complete-evidence results. Each row contains two new events.
+
+| Assigned condition | Assigned input | Complete unmodified evidence |
+| --- | --- | --- |
+| Complete correct evidence | 2 accepted | 2 accepted |
+| Zone object absent | 2 rejected | 2 accepted |
+| End-zone label absent | 2 rejected | 2 accepted |
+| Supplied labels changed to New York | 2 rejected | 2 accepted |
+| Event actually saved in New York | 2 rejected | 2 rejected |
+| Evidence marked unverified | 2 rejected | 2 accepted |
+
+The assigned inputs produced 2 acceptances and 10 rejections. Complete unmodified evidence produced 10 acceptances and 2 rejections. Eight records changed from rejection to acceptance when complete evidence replaced the assigned incomplete or incorrect input. The two positive controls already passed. The two actual wrong-zone records remained rejected; they were not repaired or replaced.
+
+These were 36 dependent local adapter evaluations on 12 production records. They were not 36 independent website trials. No full-field proof violated the declared evidence contract in these inputs. A local comparator that checked only returned non-zone fields accepted all 12 records, including the two with incorrect saved zones. That result is a counterfactual comparison on the same observations. No second account writer executed the comparator.
+
+### Cleanup, reproduction, and limits
+
+All 12 new event IDs returned cancelled status after cleanup. The bounded search for the exact test marker returned no active event. No unrelated event was changed, and no Trash purge was used.
+
+The [connector-only results](calendar_zone_live/connector_only_results.json), [assigned results](calendar_zone_live/assigned_results.json), and [complete results](calendar_zone_live/complete_results.json) preserve each decision and its inputs. The [evaluator](calendar_zone_live/evaluate.py) uses Python 3.13.7 and makes no network calls. The fixed cases need no random seed. Safe extracts and evidence hashes support analysis; private IDs, event links, and unrelated screen content are withheld.
+
+The selected cases cover one account, one connector, one browser session, and two named zones. They do not estimate a production failure rate. No confidence interval or significance claim is made. The adapter trusts the evidence producer. It does not authenticate evidence, enforce freshness, or establish one atomic state across connector and browser reads. Correct results here do not prove safety under malicious evidence, concurrent edits, other languages, or arbitrary time-zone names. Two complete saved-input analyses matched byte for byte. A separate agent checked all 36 decisions, private record links, evidence changes, and cleanup; 558 evidence assertions passed. These assertions are not website trials. A local export error and two incomplete analysis attempts are recorded in [deviations](calendar_zone_live/deviations.md). They caused no extra account write. See the [reproduction guide](calendar_zone_live/README.md), [summary](calendar_zone_live/summary.json), and [independent review](calendar_zone_live/independent_review.md).
+
+Codex generated and executed this extension. Separate Codex agents checked sources and evidence. Exact model and connector builds were not exposed. No human or external peer review occurred. No paid service, new permission, or new license was used. Relevant NeurIPS checklist items were a review aid, not conference approval [7].
+
 ## Discussion and limitations
 
 The results support all four planned hypotheses. Event identity, cumulative meaning, finality, and reservation coverage answer different questions. A controller needs the correct combination for its contract. Maximum merge alone is insufficient if the hold is released early. Deduplication alone is insufficient if distinct cumulative totals are added.
@@ -276,3 +321,8 @@ The main misuse risk is to treat a small model as a deployment guarantee. The st
 14. Stripe. [Idempotent requests](https://docs.stripe.com/api/idempotent_requests). Stable request identity and current API v1/v2 distinctions. Stripe was not used for the tests.
 
 All sources were accessed on 2026-10-26. See [references.bib](references.bib) and [source_search.md](source_search.md) for exact reading limits and bibliographic records. [guarded/sources.md](guarded/sources.md) records the second extension search and new source uses.
+
+15. Google. [Calendars and events](https://developers.google.com/workspace/calendar/api/concepts/events-calendars). Event identity and named-zone semantics; selected sections checked.
+16. Google. [Use Google Calendar in different time zones](https://support.google.com/calendar/answer/37064?hl=en). Computer event-zone controls checked.
+17. Yang and coauthors. [StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents](https://arxiv.org/html/2607.22798v1). Preprint v1, 2026-07-24. Abstract, introduction, related verification discussion, and section 4.2 checked.
+18. Wei and coauthors. [OpenComputer: Verifiable Software Worlds for Computer-Use Agents](https://arxiv.org/html/2605.19769v1). Preprint v1, 2026-05-19. Abstract and section 3.2 checked.

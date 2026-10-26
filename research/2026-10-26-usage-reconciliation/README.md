@@ -86,3 +86,7 @@ The owner requested a second production test after the six-rule comparison. The 
 The new tests created 26 counted temporary records. They had no scoped count excess or repeated permit. Calendar's initial field adapter produced seven unsupported full-field completion outputs on four records because the read tools omitted the saved time-zone label. Later exact-event browser checks and a corrected adapter resolve the current field evidence. The original failed proof timing remains in the report and traces.
 
 Use [the saved-data analysis guide](guarded/analysis_README.md) to repeat the public calculations. Use [the frozen operator guide](guarded/README.md) with [Calendar execution notes](guarded/calendar_execution_notes.json) for the procedure and deviations. Read [the source record](guarded/sources.md) for the new references. These are selected controlled cases, not provider error rates or a general deployment guarantee.
+
+## Prospective Calendar zone extension
+
+The owner then requested new events to test the corrected field check. The [new guide](calendar_zone_live/README.md) gives the 12-event, 36-evaluation procedure and repeat command. The check refused missing and incorrect assigned zone evidence and both actual wrong saved zones. Complete evidence changed eight refusals to acceptance. All 12 temporary events returned cancelled. The earlier seven unsupported outputs remain in the paper.
