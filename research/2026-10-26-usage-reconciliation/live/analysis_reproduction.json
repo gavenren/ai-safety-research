@@ -1,0 +1,54 @@
+{
+  "analysis_source_sha256": "168fd85ccae2de309cc43b961caf554b9fb2d5f861b8ded45bde7a99b8c0bed2",
+  "kind": "Two reanalyses of the same saved production evidence, not additional live trials",
+  "outputs": {
+    "live_checks.json": {
+      "bytes": 2654,
+      "identical": true,
+      "sha256": "6734db684a0e9e3c989514d813e12d80be9ecc2af3aa2f0ee6846494b7bed02f"
+    },
+    "live_rows.csv": {
+      "bytes": 2920,
+      "identical": true,
+      "sha256": "be92fc54015e0f89bd9b65efebcc09a9f03cbf0165efb32db3e8791640513cb0"
+    },
+    "live_summary.csv": {
+      "bytes": 730,
+      "identical": true,
+      "sha256": "41f1d7b86bfc41cea700b208469b715be6eb805e02f2905486017cfcf957611c"
+    }
+  },
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "outputs/2026-10-26-usage-reconciliation/live/analyze_live.py",
+        "--out",
+        "work/2026-10-26-usage-live/analysis1"
+      ],
+      "return_code": 0,
+      "run": 1,
+      "started_at_utc": "2026-10-26T18:08:01.489314+00:00",
+      "stderr": "",
+      "stdout": "{\"A_records\": 12, \"B_records\": 22, \"feasible_refusals_after_T\": 6, \"final_overcounts\": 10, \"final_undercounts\": 2, \"paired_decisions\": 48, \"scoped_excess_cases\": 4, \"shared_fixtures\": 8, \"status\": \"passed\", \"total_records\": 34}\n",
+      "wall_seconds": 0.05017129199950432
+    },
+    {
+      "command": [
+        "python3",
+        "outputs/2026-10-26-usage-reconciliation/live/analyze_live.py",
+        "--out",
+        "work/2026-10-26-usage-live/analysis2"
+      ],
+      "return_code": 0,
+      "run": 2,
+      "started_at_utc": "2026-10-26T18:08:01.539673+00:00",
+      "stderr": "",
+      "stdout": "{\"A_records\": 12, \"B_records\": 22, \"feasible_refusals_after_T\": 6, \"final_overcounts\": 10, \"final_undercounts\": 2, \"paired_decisions\": 48, \"scoped_excess_cases\": 4, \"shared_fixtures\": 8, \"status\": \"passed\", \"total_records\": 34}\n",
+      "wall_seconds": 0.04259641600037867
+    }
+  ],
+  "status": "passed"
+}

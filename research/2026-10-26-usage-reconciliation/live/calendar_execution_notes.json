@@ -1,0 +1,10 @@
+{
+  "cleanup_verified": 17,
+  "live_failures": 0,
+  "live_retries": 0,
+  "local_export_check": "An initial cleanup evidence export stopped because delete replies had no structuredContent. The exporter was fixed to preserve the acknowledgement and require exact-ID cancelled readback. The export was rerun. No service action was repeated.",
+  "primary_calendar_only": true,
+  "source": "Calendar connector writes and reads; one root browser audit.",
+  "tool_read_adjustment": "fetch omitted transparency; read_event supplied it. The first P read was followed by full read_event before capture. All later reads use read_event.",
+  "unknown_branches": 0
+}

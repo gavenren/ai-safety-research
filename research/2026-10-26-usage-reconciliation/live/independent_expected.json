@@ -1,0 +1,6059 @@
+{
+  "method": "A state is derived from each complete report prefix.",
+  "planned_actual_a_records": 12,
+  "planned_fixtures": 8,
+  "planned_permitted_b_writes": 22,
+  "planned_rule_decisions": 48,
+  "planned_sites": [
+    "drive",
+    "calendar"
+  ],
+  "planned_total_records_excluding_containers": 34,
+  "rows": [
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 1,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 1,
+      "final_overcount": true,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": true,
+      "rule": "AddEvery",
+      "site": "drive"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 1,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 1,
+      "final_overcount": true,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": true,
+      "rule": "DedupSum",
+      "site": "drive"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "LastValue",
+      "site": "drive"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterEarly",
+      "site": "drive"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterHeld",
+      "site": "drive"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "TerminalOnly",
+      "site": "drive"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": false,
+        "available": -1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 3,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 1,
+      "final_overcount": true,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "AddEvery",
+      "site": "drive"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": false,
+        "available": -1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 3,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 1,
+      "final_overcount": true,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "DedupSum",
+      "site": "drive"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 1,
+      "expected_scoped_use": 3,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": -1,
+      "final_overcount": false,
+      "final_undercount": true,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "LastValue",
+      "site": "drive"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterEarly",
+      "site": "drive"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterHeld",
+      "site": "drive"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "TerminalOnly",
+      "site": "drive"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "AddEvery",
+      "site": "drive"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "DedupSum",
+      "site": "drive"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "LastValue",
+      "site": "drive"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": true,
+        "available": 2,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 2,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 1,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 2,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 1,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 1,
+      "expected_scoped_use": 3,
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterEarly",
+      "site": "drive"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterHeld",
+      "site": "drive"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "TerminalOnly",
+      "site": "drive"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 1,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 1,
+      "final_overcount": true,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": true,
+      "rule": "AddEvery",
+      "site": "drive"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "DedupSum",
+      "site": "drive"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "LastValue",
+      "site": "drive"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 2,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 2,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterEarly",
+      "site": "drive"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterHeld",
+      "site": "drive"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "TerminalOnly",
+      "site": "drive"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 1,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 1,
+      "final_overcount": true,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": true,
+      "rule": "AddEvery",
+      "site": "calendar"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 1,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 1,
+      "final_overcount": true,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": true,
+      "rule": "DedupSum",
+      "site": "calendar"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "LastValue",
+      "site": "calendar"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterEarly",
+      "site": "calendar"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 1,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterHeld",
+      "site": "calendar"
+    },
+    {
+      "case": "overlap",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTD",
+        "x": 1,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "TerminalOnly",
+      "site": "calendar"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": false,
+        "available": -1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 3,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 1,
+      "final_overcount": true,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "AddEvery",
+      "site": "calendar"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": false,
+        "available": -1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 3,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 3,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 1,
+      "final_overcount": true,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "DedupSum",
+      "site": "calendar"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 1,
+      "expected_scoped_use": 3,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": -1,
+      "final_overcount": false,
+      "final_undercount": true,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "LastValue",
+      "site": "calendar"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterEarly",
+      "site": "calendar"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterHeld",
+      "site": "calendar"
+    },
+    {
+      "case": "late",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "T"
+            ]
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "TPD",
+        "x": 1,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "TerminalOnly",
+      "site": "calendar"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "AddEvery",
+      "site": "calendar"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "DedupSum",
+      "site": "calendar"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "LastValue",
+      "site": "calendar"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": true,
+        "available": 2,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 2,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 1,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 2,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": -1,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": false,
+            "h": 0,
+            "k": 1,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 1,
+      "expected_scoped_use": 3,
+      "final": {
+        "available": -1,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterEarly",
+      "site": "calendar"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterHeld",
+      "site": "calendar"
+    },
+    {
+      "case": "early",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": false
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "D"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PDT",
+        "x": 0,
+        "z": 2
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "TerminalOnly",
+      "site": "calendar"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": false,
+        "available": 0,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 2,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 0,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 1,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 0,
+        "q": 2,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 1,
+      "final_overcount": true,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": true,
+      "rule": "AddEvery",
+      "site": "calendar"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "DedupSum",
+      "site": "calendar"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "LastValue",
+      "site": "calendar"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 2,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 2,
+            "f": false,
+            "h": 0,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterEarly",
+      "site": "calendar"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "HighWaterHeld",
+      "site": "calendar"
+    },
+    {
+      "case": "duplicate",
+      "decision": {
+        "accepted": true,
+        "available": 1,
+        "terminal_seen": true
+      },
+      "events": [
+        {
+          "after": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": []
+          },
+          "event": "P"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 0,
+            "f": false,
+            "h": 2,
+            "k": 0,
+            "q": 0,
+            "seen": [
+              "P"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "T"
+        },
+        {
+          "after": {
+            "available": 0,
+            "f": true,
+            "h": 0,
+            "k": 1,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "before": {
+            "available": 1,
+            "f": true,
+            "h": 0,
+            "k": 0,
+            "q": 1,
+            "seen": [
+              "P",
+              "T"
+            ]
+          },
+          "event": "D"
+        }
+      ],
+      "expected_b_writes": 1,
+      "expected_scoped_excess": 0,
+      "expected_scoped_use": 2,
+      "final": {
+        "available": 0,
+        "f": true,
+        "h": 0,
+        "k": 1,
+        "q": 1,
+        "seen": [
+          "P",
+          "T"
+        ]
+      },
+      "final_error": 0,
+      "final_overcount": false,
+      "final_undercount": false,
+      "initial": {
+        "available": 0,
+        "f": false,
+        "h": 2,
+        "k": 0,
+        "q": 0,
+        "seen": []
+      },
+      "input": {
+        "C": 2,
+        "R": 2,
+        "b": 1,
+        "order": "PTTD",
+        "x": 0,
+        "z": 1
+      },
+      "receipt_sufficient_refusal": false,
+      "rule": "TerminalOnly",
+      "site": "calendar"
+    }
+  ],
+  "status": "Independent planned calculations; no live outcomes read",
+  "summary": [
+    {
+      "decisions": 4,
+      "final_overcounts": 3,
+      "final_undercounts": 0,
+      "permitted_b_writes": 0,
+      "receipt_sufficient_refusals": 2,
+      "refused_b_writes": 4,
+      "rule": "AddEvery",
+      "scoped_excess_cases": 0,
+      "site": "drive"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 2,
+      "final_undercounts": 0,
+      "permitted_b_writes": 1,
+      "receipt_sufficient_refusals": 1,
+      "refused_b_writes": 3,
+      "rule": "DedupSum",
+      "scoped_excess_cases": 0,
+      "site": "drive"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 0,
+      "final_undercounts": 1,
+      "permitted_b_writes": 3,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 1,
+      "rule": "LastValue",
+      "scoped_excess_cases": 1,
+      "site": "drive"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 0,
+      "final_undercounts": 0,
+      "permitted_b_writes": 3,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 1,
+      "rule": "HighWaterEarly",
+      "scoped_excess_cases": 1,
+      "site": "drive"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 0,
+      "final_undercounts": 0,
+      "permitted_b_writes": 2,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 2,
+      "rule": "HighWaterHeld",
+      "scoped_excess_cases": 0,
+      "site": "drive"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 0,
+      "final_undercounts": 0,
+      "permitted_b_writes": 2,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 2,
+      "rule": "TerminalOnly",
+      "scoped_excess_cases": 0,
+      "site": "drive"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 3,
+      "final_undercounts": 0,
+      "permitted_b_writes": 0,
+      "receipt_sufficient_refusals": 2,
+      "refused_b_writes": 4,
+      "rule": "AddEvery",
+      "scoped_excess_cases": 0,
+      "site": "calendar"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 2,
+      "final_undercounts": 0,
+      "permitted_b_writes": 1,
+      "receipt_sufficient_refusals": 1,
+      "refused_b_writes": 3,
+      "rule": "DedupSum",
+      "scoped_excess_cases": 0,
+      "site": "calendar"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 0,
+      "final_undercounts": 1,
+      "permitted_b_writes": 3,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 1,
+      "rule": "LastValue",
+      "scoped_excess_cases": 1,
+      "site": "calendar"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 0,
+      "final_undercounts": 0,
+      "permitted_b_writes": 3,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 1,
+      "rule": "HighWaterEarly",
+      "scoped_excess_cases": 1,
+      "site": "calendar"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 0,
+      "final_undercounts": 0,
+      "permitted_b_writes": 2,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 2,
+      "rule": "HighWaterHeld",
+      "scoped_excess_cases": 0,
+      "site": "calendar"
+    },
+    {
+      "decisions": 4,
+      "final_overcounts": 0,
+      "final_undercounts": 0,
+      "permitted_b_writes": 2,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 2,
+      "rule": "TerminalOnly",
+      "scoped_excess_cases": 0,
+      "site": "calendar"
+    },
+    {
+      "decisions": 8,
+      "final_overcounts": 6,
+      "final_undercounts": 0,
+      "permitted_b_writes": 0,
+      "receipt_sufficient_refusals": 4,
+      "refused_b_writes": 8,
+      "rule": "AddEvery",
+      "scoped_excess_cases": 0,
+      "site": "ALL"
+    },
+    {
+      "decisions": 8,
+      "final_overcounts": 4,
+      "final_undercounts": 0,
+      "permitted_b_writes": 2,
+      "receipt_sufficient_refusals": 2,
+      "refused_b_writes": 6,
+      "rule": "DedupSum",
+      "scoped_excess_cases": 0,
+      "site": "ALL"
+    },
+    {
+      "decisions": 8,
+      "final_overcounts": 0,
+      "final_undercounts": 2,
+      "permitted_b_writes": 6,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 2,
+      "rule": "LastValue",
+      "scoped_excess_cases": 2,
+      "site": "ALL"
+    },
+    {
+      "decisions": 8,
+      "final_overcounts": 0,
+      "final_undercounts": 0,
+      "permitted_b_writes": 6,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 2,
+      "rule": "HighWaterEarly",
+      "scoped_excess_cases": 2,
+      "site": "ALL"
+    },
+    {
+      "decisions": 8,
+      "final_overcounts": 0,
+      "final_undercounts": 0,
+      "permitted_b_writes": 4,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 4,
+      "rule": "HighWaterHeld",
+      "scoped_excess_cases": 0,
+      "site": "ALL"
+    },
+    {
+      "decisions": 8,
+      "final_overcounts": 0,
+      "final_undercounts": 0,
+      "permitted_b_writes": 4,
+      "receipt_sufficient_refusals": 0,
+      "refused_b_writes": 4,
+      "rule": "TerminalOnly",
+      "scoped_excess_cases": 0,
+      "site": "ALL"
+    }
+  ]
+}

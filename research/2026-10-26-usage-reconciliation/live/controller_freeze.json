@@ -1,0 +1,16 @@
+{
+  "checks_passed": true,
+  "files": {
+    "check_controller.py": "289f11eb2f4cfadf4917baf688d2d2b9042107e7142627435107aead5eb3528f",
+    "controller.py": "10164aa75fcf88adaad323ea2b6ddc663d2a379e33808d632b1fd8a9e49f6cb3",
+    "controller_checks.json": "576a0f0b42c6772c9d5cfa44315bdb78b6fd76f89f8cf4e3614979f38ebbfbf4",
+    "plan.md": "fd0e0ea0231548d9ddf636fe469c16554fec8d385aad57a391d86bc6be72952d"
+  },
+  "frozen_at_utc": "2026-10-26T17:55:42.079535Z",
+  "production_actions_by_this_agent": 0,
+  "runtime": {
+    "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]"
+  },
+  "stage": "before production test writes; root must confirm this before starting"
+}

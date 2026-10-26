@@ -1,0 +1,15 @@
+{
+  "before_after_states": 312,
+  "branches": 48,
+  "branches_sha256": "909579957c79d85d3c16701cd42d524ee10fa734d5907477fc98b1d178ff6d78",
+  "expected_source_sha256": "f1334d416acfcfeab67c5b9cb2702b380882c030ea2d0d18e3582efa1df372eb",
+  "feasible_refusals_after_T": 6,
+  "final_overcounts": 10,
+  "final_undercounts": 2,
+  "limit": "This command checks saved public data. It does not repeat website actions or independently prove provider state.",
+  "refused_branches": 26,
+  "saved_b_records": 22,
+  "scope_excess_cases": 4,
+  "status": "passed",
+  "transitions": 156
+}

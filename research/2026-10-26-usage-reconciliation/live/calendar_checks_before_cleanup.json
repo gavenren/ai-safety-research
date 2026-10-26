@@ -1,0 +1,17 @@
+{
+  "A_unchanged_before_branch_checks": 24,
+  "P_before_extra_A_checks": 4,
+  "actual_A_records": 6,
+  "actual_B_records": 11,
+  "checked_branches": 24,
+  "checked_fixture_receipts": 4,
+  "created_total": 17,
+  "decision_before_write_checks": 11,
+  "exact_state_matches_original": 24,
+  "note": "Local evidence audit and original-rule comparison; not extra live trials. Cleanup was not yet checked by this audit.",
+  "precleanup_exact_ID_checks": 17,
+  "refused_no_create_calls": 13,
+  "scope_matches_known_IDs": true,
+  "scope_next_page_token": null,
+  "status": "passed"
+}

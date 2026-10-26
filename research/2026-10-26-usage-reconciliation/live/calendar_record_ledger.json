@@ -1,0 +1,155 @@
+[
+  {
+    "alias": "calendar-overlap-A1",
+    "case": "overlap",
+    "create_evidence_file": "001-create-overlap-A1.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "003-read-P-full-overlap-A1.json",
+    "role": "A",
+    "rule": null
+  },
+  {
+    "alias": "calendar-late-A1",
+    "case": "late",
+    "create_evidence_file": "005-create-calendar-late-A1.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "008-read-T-calendar-late-A1.json",
+    "role": "A",
+    "rule": null
+  },
+  {
+    "alias": "calendar-late-A2",
+    "case": "late",
+    "create_evidence_file": "007-create-calendar-late-A2.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "009-read-T-calendar-late-A2.json",
+    "role": "A",
+    "rule": null
+  },
+  {
+    "alias": "calendar-early-A1",
+    "case": "early",
+    "create_evidence_file": "011-create-calendar-early-A1.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "013-read-T-calendar-early-A1.json",
+    "role": "A",
+    "rule": null
+  },
+  {
+    "alias": "calendar-early-A2",
+    "case": "early",
+    "create_evidence_file": "012-create-calendar-early-A2.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "014-read-T-calendar-early-A2.json",
+    "role": "A",
+    "rule": null
+  },
+  {
+    "alias": "calendar-duplicate-A1",
+    "case": "duplicate",
+    "create_evidence_file": "016-create-calendar-duplicate-A1.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "017-read-T-calendar-duplicate-A1.json",
+    "role": "A",
+    "rule": null
+  },
+  {
+    "alias": "calendar-overlap-B-LastValue",
+    "case": "overlap",
+    "create_evidence_file": "023-create-calendar-overlap-LastValue.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "024-read-B-calendar-overlap-LastValue.json",
+    "role": "B",
+    "rule": "LastValue"
+  },
+  {
+    "alias": "calendar-overlap-B-HighWaterEarly",
+    "case": "overlap",
+    "create_evidence_file": "026-create-calendar-overlap-HighWaterEarly.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "027-read-B-calendar-overlap-HighWaterEarly.json",
+    "role": "B",
+    "rule": "HighWaterEarly"
+  },
+  {
+    "alias": "calendar-overlap-B-HighWaterHeld",
+    "case": "overlap",
+    "create_evidence_file": "029-create-calendar-overlap-HighWaterHeld.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "030-read-B-calendar-overlap-HighWaterHeld.json",
+    "role": "B",
+    "rule": "HighWaterHeld"
+  },
+  {
+    "alias": "calendar-overlap-B-TerminalOnly",
+    "case": "overlap",
+    "create_evidence_file": "032-create-calendar-overlap-TerminalOnly.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "033-read-B-calendar-overlap-TerminalOnly.json",
+    "role": "B",
+    "rule": "TerminalOnly"
+  },
+  {
+    "alias": "calendar-late-B-LastValue",
+    "case": "late",
+    "create_evidence_file": "042-create-calendar-late-LastValue.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "043-read-B-calendar-late-LastValue.json",
+    "role": "B",
+    "rule": "LastValue"
+  },
+  {
+    "alias": "calendar-early-B-HighWaterEarly",
+    "case": "early",
+    "create_evidence_file": "064-create-calendar-early-HighWaterEarly.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "065-read-B-calendar-early-HighWaterEarly.json",
+    "role": "B",
+    "rule": "HighWaterEarly"
+  },
+  {
+    "alias": "calendar-duplicate-B-DedupSum",
+    "case": "duplicate",
+    "create_evidence_file": "075-create-calendar-duplicate-DedupSum.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "076-read-B-calendar-duplicate-DedupSum.json",
+    "role": "B",
+    "rule": "DedupSum"
+  },
+  {
+    "alias": "calendar-duplicate-B-LastValue",
+    "case": "duplicate",
+    "create_evidence_file": "078-create-calendar-duplicate-LastValue.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "079-read-B-calendar-duplicate-LastValue.json",
+    "role": "B",
+    "rule": "LastValue"
+  },
+  {
+    "alias": "calendar-duplicate-B-HighWaterEarly",
+    "case": "duplicate",
+    "create_evidence_file": "081-create-calendar-duplicate-HighWaterEarly.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "082-read-B-calendar-duplicate-HighWaterEarly.json",
+    "role": "B",
+    "rule": "HighWaterEarly"
+  },
+  {
+    "alias": "calendar-duplicate-B-HighWaterHeld",
+    "case": "duplicate",
+    "create_evidence_file": "084-create-calendar-duplicate-HighWaterHeld.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "085-read-B-calendar-duplicate-HighWaterHeld.json",
+    "role": "B",
+    "rule": "HighWaterHeld"
+  },
+  {
+    "alias": "calendar-duplicate-B-TerminalOnly",
+    "case": "duplicate",
+    "create_evidence_file": "087-create-calendar-duplicate-TerminalOnly.json",
+    "creation_method": "Calendar connector",
+    "readback_evidence_file": "088-read-B-calendar-duplicate-TerminalOnly.json",
+    "role": "B",
+    "rule": "TerminalOnly"
+  }
+]

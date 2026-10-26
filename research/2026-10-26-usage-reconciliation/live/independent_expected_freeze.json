@@ -1,0 +1,12 @@
+{
+  "files": {
+    "outputs/2026-10-26-usage-reconciliation/live/plan.md": "fd0e0ea0231548d9ddf636fe469c16554fec8d385aad57a391d86bc6be72952d",
+    "outputs/2026-10-26-usage-reconciliation/report.md": "d57cb1e3bd2c46c7c461ce3c01c107339a282392418accc15e2785ad52be249b",
+    "work/2026-10-26-usage-live/audit/expected.json": "2d3cdd8eb7de2daf8ff6bebfc04e85ebdd82199db08c6372a00bb540fcfd30fd",
+    "work/2026-10-26-usage-live/audit/expected.py": "f1334d416acfcfeab67c5b9cb2702b380882c030ea2d0d18e3582efa1df372eb"
+  },
+  "frozen_at": "2026-10-26T17:54:49.593727+00:00",
+  "independent_before_controller_read": true,
+  "input_scope": "Written live plan and original report only. No live controller or observations read.",
+  "python": "3.13.7"
+}

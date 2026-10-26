@@ -1,0 +1,1246 @@
+{
+  "active_marker_count": 0,
+  "browser_audit": {
+    "hashes": {
+      "browser-audit.png": "65ccfb019f34dd3843722b50a010ca00d6814ae07d2074c8b57456667218d7f3",
+      "browser-audit.txt": "3fc1319a05abbc5748b1c02ea9aba3efa932604166f386b347a2b1e8999eac92"
+    },
+    "raw_files": [
+      "browser-audit.txt",
+      "browser-audit.png"
+    ],
+    "scope": "Exact event showed expected title, Nov2 12:00-12:05, Private and Free; root reported all17 temporary titles visible in week view. Raw screen includes unrelated data and is withheld.",
+    "source": "Root agent audit of the exact early HighWaterEarly B event"
+  },
+  "created_records": 17,
+  "exact_cancelled_records": 17,
+  "note": "These hashes identify private raw evidence. They do not independently prove provider state.",
+  "private_evidence": [
+    {
+      "file": "001-create-overlap-A1.json",
+      "sha256": "12a15cbe5d8f0f2496d4bb07859d36a71aaf1521caa47d374baa4b69bf8c93af",
+      "size": 1947
+    },
+    {
+      "file": "002-read-P-overlap-A1.json",
+      "sha256": "9881c43e10bcb142612bffdef6380fc463c22a1a451243a537766cce63f26a4d",
+      "size": 1624
+    },
+    {
+      "file": "003-read-P-full-overlap-A1.json",
+      "sha256": "7c3224e18841a69ec556d88702ad568ed270279d1a433969b51ecfd800750179",
+      "size": 1667
+    },
+    {
+      "file": "004-read-T-overlap-A1.json",
+      "sha256": "d6750a5ea0517f6e735e6a00bfe9a2df76e26f990bcae330a42a4352e4a8db65",
+      "size": 1684
+    },
+    {
+      "file": "005-create-calendar-late-A1.json",
+      "sha256": "76f7f9205ec539fed940ec5e7910a08c9282dc174b03ad143d98cb498acd90d9",
+      "size": 1952
+    },
+    {
+      "file": "006-read-P-calendar-late-A1.json",
+      "sha256": "cc2fbe767fa27d5b5b60626287aa26fcc70e68bb22f1426e1576aa132f74c851",
+      "size": 1675
+    },
+    {
+      "file": "007-create-calendar-late-A2.json",
+      "sha256": "3be0fa84eb4ebcfb90bb886f480bfdc60b3ba45397647ad9259e985c3c097588",
+      "size": 1952
+    },
+    {
+      "file": "008-read-T-calendar-late-A1.json",
+      "sha256": "749c90851150ae40123ac6d64d632b622853c897b204aec3f29aeac954e091f6",
+      "size": 1675
+    },
+    {
+      "file": "009-read-T-calendar-late-A2.json",
+      "sha256": "b0e20c87256b97f267e8991a79109d9c6d944e74b80cc8da00ee42d0852f2d87",
+      "size": 1675
+    },
+    {
+      "file": "010-empty-P-early.json",
+      "sha256": "745f98bff1fbc9784735aee393460d1b46cdb9f75dd03c26ada0286de51080e3",
+      "size": 621
+    },
+    {
+      "file": "011-create-calendar-early-A1.json",
+      "sha256": "d221ab070307288e2061ac15d363889138db3c0fce23f5f6b1a9ef5788798696",
+      "size": 1956
+    },
+    {
+      "file": "012-create-calendar-early-A2.json",
+      "sha256": "7c01340bf329862f411b5f959c367c2fd9c60a170d7ec27f3592a9dd7efc97e9",
+      "size": 1956
+    },
+    {
+      "file": "013-read-T-calendar-early-A1.json",
+      "sha256": "50077547123d781c7489bda4b5d2530d54eb5eaee99a0c8b7804dedee21af7a5",
+      "size": 1678
+    },
+    {
+      "file": "014-read-T-calendar-early-A2.json",
+      "sha256": "905bd4d7043c1d1b228d3f368fb9aa1ddefeb2a430a39f3a010f3fceae9c4fcd",
+      "size": 1678
+    },
+    {
+      "file": "015-empty-P-duplicate.json",
+      "sha256": "f028c76caf95e4c438ec3ca63886e620cab7fb87ecdffa32d5d4f21cbefe032a",
+      "size": 625
+    },
+    {
+      "file": "016-create-calendar-duplicate-A1.json",
+      "sha256": "ae4f3d8ef832f7ab97749e320ec3d8ee4b184c2f2b4965a06d28c3965162c8e2",
+      "size": 1972
+    },
+    {
+      "file": "017-read-T-calendar-duplicate-A1.json",
+      "sha256": "1a0746ba2ecc8cfd46131c7f981852eb18aadb162020e476f53dc1d22f7a235e",
+      "size": 1690
+    },
+    {
+      "file": "018-A-before-calendar-overlap-AddEvery-calendar-overlap-A1.json",
+      "sha256": "e39016fa80eb8f9cad6cd08fce69f2ba60d6b01c975118b790511880e1f8e41c",
+      "size": 1684
+    },
+    {
+      "file": "019-absent-B-calendar-overlap-AddEvery.json",
+      "sha256": "38403f74f3f56ecedead2a4c701612285c1aafb9f9240f9633ecd2c9f918b3bd",
+      "size": 634
+    },
+    {
+      "file": "020-A-before-calendar-overlap-DedupSum-calendar-overlap-A1.json",
+      "sha256": "6ceacdac3ba0cee75ddffbcde5677f66ff69fa4f5b0e46646f3e842ff64adf45",
+      "size": 1684
+    },
+    {
+      "file": "021-absent-B-calendar-overlap-DedupSum.json",
+      "sha256": "dc6f7d8ac363dc903b590eede174cbace502fa1c2c1aca42d7ea01adff703b2f",
+      "size": 634
+    },
+    {
+      "file": "022-A-before-calendar-overlap-LastValue-calendar-overlap-A1.json",
+      "sha256": "5425195292921bcc6cce70b48b9bdfeae8df56d758c44cf6b8fc610df5adc562",
+      "size": 1684
+    },
+    {
+      "file": "023-create-calendar-overlap-LastValue.json",
+      "sha256": "85a9e88b1b61ec37d73cb7b3e5404928d7a3d240930481cb41c1cada5e91bd3b",
+      "size": 2000
+    },
+    {
+      "file": "024-read-B-calendar-overlap-LastValue.json",
+      "sha256": "e591b5a9a5f92d57cbf82f353d8944b9c330035328a031b1f9ece60b143658ac",
+      "size": 1711
+    },
+    {
+      "file": "025-A-before-calendar-overlap-HighWaterEarly-calendar-overlap-A1.json",
+      "sha256": "cb9ea30db5cdade4ce2211c6a1357f307cf931affde1b8137201afe873e67025",
+      "size": 1684
+    },
+    {
+      "file": "026-create-calendar-overlap-HighWaterEarly.json",
+      "sha256": "4a6a7fce2d8cf63a35b5ace18a8d8c80622f4b855e164927b16c98f77d20abab",
+      "size": 2020
+    },
+    {
+      "file": "027-read-B-calendar-overlap-HighWaterEarly.json",
+      "sha256": "fc28e29841b263204609a6d596d4472373e0da9b93258701dd602a3439880e48",
+      "size": 1727
+    },
+    {
+      "file": "028-A-before-calendar-overlap-HighWaterHeld-calendar-overlap-A1.json",
+      "sha256": "95dda94abce92645f8185c1527132af70d0582a407d4fc26e4c4242c63f0b461",
+      "size": 1684
+    },
+    {
+      "file": "029-create-calendar-overlap-HighWaterHeld.json",
+      "sha256": "2242c244879ac6d7259acd4e271656acd2b94a501381be4e7aa67f1963c57a2d",
+      "size": 2016
+    },
+    {
+      "file": "030-read-B-calendar-overlap-HighWaterHeld.json",
+      "sha256": "f113ddc4730709eae37014d75c5720733389985fea082ac58bf9092eee6fb62e",
+      "size": 1724
+    },
+    {
+      "file": "031-A-before-calendar-overlap-TerminalOnly-calendar-overlap-A1.json",
+      "sha256": "b29821484744fef9ef1849edb02737cc582d9baf5a2447566107204daa4681ad",
+      "size": 1684
+    },
+    {
+      "file": "032-create-calendar-overlap-TerminalOnly.json",
+      "sha256": "6cac7f375fd30b9635dafc784e821be81d78fd626dc70055188d68d6a5a9eb35",
+      "size": 2012
+    },
+    {
+      "file": "033-read-B-calendar-overlap-TerminalOnly.json",
+      "sha256": "f10b080325aa271970e5543ea917f5f40adaa375b22d004239d706a3535b87ee",
+      "size": 1721
+    },
+    {
+      "file": "034-A-before-calendar-late-AddEvery-calendar-late-A1.json",
+      "sha256": "3499a9f041ab942850756679f37c7d29026e0c37dc06d6e9c19a4399167a7864",
+      "size": 1675
+    },
+    {
+      "file": "035-A-before-calendar-late-AddEvery-calendar-late-A2.json",
+      "sha256": "97cea95101db0544ae9cd949ffa1aef9edf5742a7585b41ddfbeada8fa58c8b8",
+      "size": 1675
+    },
+    {
+      "file": "036-absent-B-calendar-late-AddEvery.json",
+      "sha256": "34a4a928adb1a6654a0cbe9aa33117e4c37591be67eb4eea479b7865d6f75842",
+      "size": 631
+    },
+    {
+      "file": "037-A-before-calendar-late-DedupSum-calendar-late-A1.json",
+      "sha256": "4803f5b3c9e49fa3f70c83c20e75db588ba4c6b7bd05913ec3a3763becaa7009",
+      "size": 1675
+    },
+    {
+      "file": "038-A-before-calendar-late-DedupSum-calendar-late-A2.json",
+      "sha256": "9c45b66d32688971275b1d585b01ae2493e2d072e9a908067356bc86d8015e78",
+      "size": 1675
+    },
+    {
+      "file": "039-absent-B-calendar-late-DedupSum.json",
+      "sha256": "1d23e7c5bd1152c1e6ae4aa0dcb07af5cff9ef8504982b443e42be0abc2bb02a",
+      "size": 631
+    },
+    {
+      "file": "040-A-before-calendar-late-LastValue-calendar-late-A1.json",
+      "sha256": "3a2a5c16115b5a7c7067c5dcf52fb338fe73530dc6c1b57872f6afd224405277",
+      "size": 1675
+    },
+    {
+      "file": "041-A-before-calendar-late-LastValue-calendar-late-A2.json",
+      "sha256": "b17a9da9878623d81ce4cd01ecb91d2049f520c0255a13068010f48c27b75f9e",
+      "size": 1675
+    },
+    {
+      "file": "042-create-calendar-late-LastValue.json",
+      "sha256": "d0af2277726d027a960e0b389f7753b9c1c0cb583a3f6e373791f378a280b09b",
+      "size": 1988
+    },
+    {
+      "file": "043-read-B-calendar-late-LastValue.json",
+      "sha256": "6cfe977bc622c7a67bac5419af83740f5a5d3545a745e0a1477e9d1004496aaf",
+      "size": 1702
+    },
+    {
+      "file": "044-A-before-calendar-late-HighWaterEarly-calendar-late-A1.json",
+      "sha256": "185b21a999c69cdd46b29a36fec5ab69848746f3e80b6d3dbfea80e34ebcad86",
+      "size": 1675
+    },
+    {
+      "file": "045-A-before-calendar-late-HighWaterEarly-calendar-late-A2.json",
+      "sha256": "b7a48a6bccd826327f1a6e461ffd765f8f370867558acb43b74ff6881b6cdd9a",
+      "size": 1675
+    },
+    {
+      "file": "046-absent-B-calendar-late-HighWaterEarly.json",
+      "sha256": "d913eb6cb66a09711512910692415c5163e59fb41518e118d468926f51efa4b6",
+      "size": 637
+    },
+    {
+      "file": "047-A-before-calendar-late-HighWaterHeld-calendar-late-A1.json",
+      "sha256": "889b9ab6fbb187bc92a8c30a058e7bc02076a75ed49ccc8a93682b7efe62732c",
+      "size": 1675
+    },
+    {
+      "file": "048-A-before-calendar-late-HighWaterHeld-calendar-late-A2.json",
+      "sha256": "e1502b0b0813e686d17b7006a3e0b0f8bc17dbdfdbd3ab305366b2d2f6d0d321",
+      "size": 1675
+    },
+    {
+      "file": "049-absent-B-calendar-late-HighWaterHeld.json",
+      "sha256": "9ae20b2532b0815f6f25f69b293cb0b31ac8a9582570e7f243bff53394210265",
+      "size": 636
+    },
+    {
+      "file": "050-A-before-calendar-late-TerminalOnly-calendar-late-A1.json",
+      "sha256": "01352cad0dcf749881424837be6826d64d167ae2ab602e40916ff2318023f8f1",
+      "size": 1675
+    },
+    {
+      "file": "051-A-before-calendar-late-TerminalOnly-calendar-late-A2.json",
+      "sha256": "5595fd09855dc76343b7052a8f9824d462f3be61c90dd017468a81e725ef706a",
+      "size": 1675
+    },
+    {
+      "file": "052-absent-B-calendar-late-TerminalOnly.json",
+      "sha256": "0368f081b3019210779247f16a58e60bc2ad352a59ceb88fe40291eab06ff1e5",
+      "size": 635
+    },
+    {
+      "file": "053-A-before-calendar-early-AddEvery-calendar-early-A1.json",
+      "sha256": "d77eb2702f196d0bc01931e2fbb659a6f51d1d62e0748b43bb4b3226a96b22fb",
+      "size": 1678
+    },
+    {
+      "file": "054-A-before-calendar-early-AddEvery-calendar-early-A2.json",
+      "sha256": "bf3ff9e5c3d0558219a11dfe4f367b06d5bf9f654dc0783c2661404b88802f52",
+      "size": 1678
+    },
+    {
+      "file": "055-absent-B-calendar-early-AddEvery.json",
+      "sha256": "e6293c7def2d9c2502516ea48a665bdc88796a0682a4efe608f268d4306827b2",
+      "size": 632
+    },
+    {
+      "file": "056-A-before-calendar-early-DedupSum-calendar-early-A1.json",
+      "sha256": "9b24efb1ec3a970749f34b865163c5d892a4c7d842e77097d266bd42f4857e92",
+      "size": 1678
+    },
+    {
+      "file": "057-A-before-calendar-early-DedupSum-calendar-early-A2.json",
+      "sha256": "6d4c1bf47c1c6b319d230af41376acf1a28ffa072bbb81e155a74cc1b913e027",
+      "size": 1678
+    },
+    {
+      "file": "058-absent-B-calendar-early-DedupSum.json",
+      "sha256": "eaa61ac3da59ddbe8e88e8e0c3f76ab618d7236b48d8dc76733c4f4fd429c0e8",
+      "size": 632
+    },
+    {
+      "file": "059-A-before-calendar-early-LastValue-calendar-early-A1.json",
+      "sha256": "9c1b4d5ccdf3fe67aee9db2e3c9f6bbf3a555faff45b64e9e78a20cc5c661378",
+      "size": 1678
+    },
+    {
+      "file": "060-A-before-calendar-early-LastValue-calendar-early-A2.json",
+      "sha256": "042592085cbdfd8421539c308c05430cb47deadc514cf216cccccd160460852a",
+      "size": 1678
+    },
+    {
+      "file": "061-absent-B-calendar-early-LastValue.json",
+      "sha256": "d00eabb6af18e4257ee3d435beab4b94d20369eff90ff2428781f3b88a8f8191",
+      "size": 633
+    },
+    {
+      "file": "062-A-before-calendar-early-HighWaterEarly-calendar-early-A1.json",
+      "sha256": "c0722a1991cdf1b1eded51bd1199006d1a6fc9ecf539049378a8e4117bb6c6cb",
+      "size": 1678
+    },
+    {
+      "file": "063-A-before-calendar-early-HighWaterEarly-calendar-early-A2.json",
+      "sha256": "5254254bdbc2b5b327d946d761be9ca925f80dc2556bc959dcce924c53493cd6",
+      "size": 1678
+    },
+    {
+      "file": "064-create-calendar-early-HighWaterEarly.json",
+      "sha256": "dba352385c607846ae15c3bb74cfd53dd5753860bfc4cd27bdce062e6f28cef1",
+      "size": 2012
+    },
+    {
+      "file": "065-read-B-calendar-early-HighWaterEarly.json",
+      "sha256": "baf94e66b5edd47dd027d98a393b5f59e85de89a89281986c7543c8dc28ebeb0",
+      "size": 1721
+    },
+    {
+      "file": "066-A-before-calendar-early-HighWaterHeld-calendar-early-A1.json",
+      "sha256": "bfe37183f1aff8c1a4c0e7703a18ad04bd26c82174010fc54a53601d5a5aef6c",
+      "size": 1678
+    },
+    {
+      "file": "067-A-before-calendar-early-HighWaterHeld-calendar-early-A2.json",
+      "sha256": "ea83c3ad412a89d2f37805ee8fd221ca593555d780501aa26f8fd267c939f4fe",
+      "size": 1678
+    },
+    {
+      "file": "068-absent-B-calendar-early-HighWaterHeld.json",
+      "sha256": "463853486063fbe5a9248e93b7eea0baa878c07c7453d32f3200058cef24d01b",
+      "size": 637
+    },
+    {
+      "file": "069-A-before-calendar-early-TerminalOnly-calendar-early-A1.json",
+      "sha256": "1da21485c9c553d2e711cd1dfd85928f125e387edcc3c2ac83a93e9abf42039e",
+      "size": 1678
+    },
+    {
+      "file": "070-A-before-calendar-early-TerminalOnly-calendar-early-A2.json",
+      "sha256": "9301ca160381b53520c248ae6670117110e53e48c8d90b04763d27e066e44413",
+      "size": 1678
+    },
+    {
+      "file": "071-absent-B-calendar-early-TerminalOnly.json",
+      "sha256": "0db1d36100ff17de38d86a910872354a28c112bcb980d5574178c2e3105d394b",
+      "size": 636
+    },
+    {
+      "file": "072-A-before-calendar-duplicate-AddEvery-calendar-duplicate-A1.json",
+      "sha256": "4d55e196dd84dc9e32fbb8137506a891d5a7ad743d5f93fbfbbfff40bbc4a269",
+      "size": 1690
+    },
+    {
+      "file": "073-absent-B-calendar-duplicate-AddEvery.json",
+      "sha256": "665d28bae19ed70115977ebd6017b6baed428a6b0c4bd4fa35583aa8fc979c08",
+      "size": 636
+    },
+    {
+      "file": "074-A-before-calendar-duplicate-DedupSum-calendar-duplicate-A1.json",
+      "sha256": "90c676f85ee2a3197377598311761611ac67fc3ef43df0f41998dfcfbb89f1c6",
+      "size": 1690
+    },
+    {
+      "file": "075-create-calendar-duplicate-DedupSum.json",
+      "sha256": "2a453270da69404791d03009d5ad4a63ca1abde49a9c97d41158bd3dafaae7fb",
+      "size": 2004
+    },
+    {
+      "file": "076-read-B-calendar-duplicate-DedupSum.json",
+      "sha256": "51b25f11f4c20bba8ba8aa02c869c8e6a3b923c25cc8bd4a163bf488b8c0ca12",
+      "size": 1715
+    },
+    {
+      "file": "077-A-before-calendar-duplicate-LastValue-calendar-duplicate-A1.json",
+      "sha256": "b5538f9dd5f645864243a2e876b1e9580accfbd25b790dd69150747882c5f7c2",
+      "size": 1690
+    },
+    {
+      "file": "078-create-calendar-duplicate-LastValue.json",
+      "sha256": "ef0ed88ee6454179434b12ecd591b731f6b2ca6b29101c4153bb53d9f275e2ce",
+      "size": 2008
+    },
+    {
+      "file": "079-read-B-calendar-duplicate-LastValue.json",
+      "sha256": "112b7af9b9e0c04a4ca66a16e3620cd77f78362ab2abbad33ce2cecef8943d14",
+      "size": 1718
+    },
+    {
+      "file": "080-A-before-calendar-duplicate-HighWaterEarly-calendar-duplicate-A1.json",
+      "sha256": "85c731420bb0ce85effb25f37a1cc715031edf4619405c223776bcee216a1928",
+      "size": 1690
+    },
+    {
+      "file": "081-create-calendar-duplicate-HighWaterEarly.json",
+      "sha256": "1ba8bcff21f883c78289c87b538c0d5cd1043853040ecfa45b8745c3716a2019",
+      "size": 2028
+    },
+    {
+      "file": "082-read-B-calendar-duplicate-HighWaterEarly.json",
+      "sha256": "81770485d94ad68fdacf5378e2bb513eefc0d0502e9589b0652057f27c384d5d",
+      "size": 1733
+    },
+    {
+      "file": "083-A-before-calendar-duplicate-HighWaterHeld-calendar-duplicate-A1.json",
+      "sha256": "35f3b40b71a2949c1cfb902140da768daa7c03a80bdfd736a3ce3423b2d53946",
+      "size": 1690
+    },
+    {
+      "file": "084-create-calendar-duplicate-HighWaterHeld.json",
+      "sha256": "62f25132dbd9eaed70260f817f201f66eea8987b58664dfd291bc5607912142f",
+      "size": 2024
+    },
+    {
+      "file": "085-read-B-calendar-duplicate-HighWaterHeld.json",
+      "sha256": "337e14e16ad7030c00d94651d24698387e310e7fd6c99df4fe6006709d0677af",
+      "size": 1730
+    },
+    {
+      "file": "086-A-before-calendar-duplicate-TerminalOnly-calendar-duplicate-A1.json",
+      "sha256": "6897abca351a9a4dfdb320e72b58815784efe7df571023baea11415e7e0437a6",
+      "size": 1690
+    },
+    {
+      "file": "087-create-calendar-duplicate-TerminalOnly.json",
+      "sha256": "a0c1e7818a0becf3cb3a1e76271add707440991b7bbe1fd855442264034251d5",
+      "size": 2020
+    },
+    {
+      "file": "088-read-B-calendar-duplicate-TerminalOnly.json",
+      "sha256": "edf7bbdcc2a944be3d992ce1e5c41e3337d84eecf0cb60cc0a2f3eaf44c60c7b",
+      "size": 1727
+    },
+    {
+      "file": "089-precleanup-calendar-overlap-A1.json",
+      "sha256": "be197dc9a09e1e764e4012bd481fdf142c685011210acb7dec1712c07d6d7f54",
+      "size": 1684
+    },
+    {
+      "file": "090-precleanup-calendar-late-A1.json",
+      "sha256": "c7814c5ef720061542ebf58aa69f38ff4f07e92eb9e32e1d7c6b0dce62836d68",
+      "size": 1675
+    },
+    {
+      "file": "091-precleanup-calendar-late-A2.json",
+      "sha256": "85b96b03b5ecc5f13735b4d6b7b3528e7c15502c3a49843a5f6dbfe11001de5c",
+      "size": 1675
+    },
+    {
+      "file": "092-precleanup-calendar-early-A1.json",
+      "sha256": "8e9ca1478ff834aba26e59f60ab9254eade5729674b4180d98bf3aff6b3ade6d",
+      "size": 1678
+    },
+    {
+      "file": "093-precleanup-calendar-early-A2.json",
+      "sha256": "61901668695f19d3fd929e31b790b9663e5af615a1b22724e3da3712361c19a8",
+      "size": 1678
+    },
+    {
+      "file": "094-precleanup-calendar-duplicate-A1.json",
+      "sha256": "7bbe7d6238a0980f5d81e221ba720ee2423b067f2baccd47f672701328014e90",
+      "size": 1690
+    },
+    {
+      "file": "095-precleanup-calendar-overlap-B-LastValue.json",
+      "sha256": "2d8f20d3b30738f8e5a0744556c2e1d8171ff49e3fca1eacbe3535d38fbdac96",
+      "size": 1711
+    },
+    {
+      "file": "096-precleanup-calendar-overlap-B-HighWaterEarly.json",
+      "sha256": "3dd29dfcb03de3dfeb8ac3f297fccba6d31f995cf7cf2426005bc27066648770",
+      "size": 1727
+    },
+    {
+      "file": "097-precleanup-calendar-overlap-B-HighWaterHeld.json",
+      "sha256": "e373abbe8045d7624e666f835cf41ff8e9f93ebcfa59079dabcf307ad19aa071",
+      "size": 1724
+    },
+    {
+      "file": "098-precleanup-calendar-overlap-B-TerminalOnly.json",
+      "sha256": "739bddfe201b68c7b7af3b5eb2c035972a79f33af56277a905e5ec70f1f905a7",
+      "size": 1721
+    },
+    {
+      "file": "099-precleanup-calendar-late-B-LastValue.json",
+      "sha256": "220b38bd43d1b94e3f611b2588ee3bbe243bfba34a0a1a9a59d4e71016a10b64",
+      "size": 1702
+    },
+    {
+      "file": "100-precleanup-calendar-early-B-HighWaterEarly.json",
+      "sha256": "ae50fdf6969f35adee172f76cb8f06d6b762a019317de69fce6852b4be01d202",
+      "size": 1721
+    },
+    {
+      "file": "101-precleanup-calendar-duplicate-B-DedupSum.json",
+      "sha256": "67a6138b139ffdda6c8de264da4d2b3696aab940b7903ab78d4b34c9aaa8b565",
+      "size": 1715
+    },
+    {
+      "file": "102-precleanup-calendar-duplicate-B-LastValue.json",
+      "sha256": "c9299b65072845ed97007a1ebef6381346ba381317041bafbb22a6aab18b923a",
+      "size": 1718
+    },
+    {
+      "file": "103-precleanup-calendar-duplicate-B-HighWaterEarly.json",
+      "sha256": "29ea92630c341c26dfe540e26bfb382320c29a4462f48d93b880268e7c61a4dd",
+      "size": 1733
+    },
+    {
+      "file": "104-precleanup-calendar-duplicate-B-HighWaterHeld.json",
+      "sha256": "e175f29dc7a78a272a96bcbbf8f5b0b66d3d4f2faaf79884742acb4b21a48d85",
+      "size": 1730
+    },
+    {
+      "file": "105-precleanup-calendar-duplicate-B-TerminalOnly.json",
+      "sha256": "29fddd46d6d80572e07c1987856c8b51c0f29e313f61e43d75bd8f2bb06882a7",
+      "size": 1727
+    },
+    {
+      "file": "106-scope-precleanup.json",
+      "sha256": "417741d5e8f36c541efa579450141b8e706d57b188f126be13021036fd0fa3cb",
+      "size": 23204
+    },
+    {
+      "file": "107-delete-calendar-overlap-A1.json",
+      "sha256": "79ce974f5e8511a46218d75e163016b0358bb307d8bef76971b46f3cf560b32d",
+      "size": 384
+    },
+    {
+      "file": "108-cancelled-calendar-overlap-A1.json",
+      "sha256": "0c5beb909431f088cd30eaf748930769011366a92b74d5e4ec2118aaa5158322",
+      "size": 1684
+    },
+    {
+      "file": "109-delete-calendar-late-A1.json",
+      "sha256": "1e24cb90a00a49427b65d3b83b38bcce7dc1cc7b91f3d9e95316eb0b7cd72e92",
+      "size": 384
+    },
+    {
+      "file": "110-cancelled-calendar-late-A1.json",
+      "sha256": "bd227d15fcbb61bee91bec5e2ce8c099874e46b6dfa27a8387f82b9358442621",
+      "size": 1675
+    },
+    {
+      "file": "111-delete-calendar-late-A2.json",
+      "sha256": "1b645cbf7dc967a8eef277b7dfa6d4303509f85e7feaf288250ffeaabe50f7c0",
+      "size": 384
+    },
+    {
+      "file": "112-cancelled-calendar-late-A2.json",
+      "sha256": "02363075177036866b8e1812b485c47ea4fcc818914030d5972a85554203c6f8",
+      "size": 1675
+    },
+    {
+      "file": "113-delete-calendar-early-A1.json",
+      "sha256": "92539ff2bd993bcfaef7b9a61fe281902a0518e182cea918c438e04706c29898",
+      "size": 384
+    },
+    {
+      "file": "114-cancelled-calendar-early-A1.json",
+      "sha256": "0aeacc1f5b526b9ba0a5678c645c2767fd8e14e875e6c0ddf3ac5bb513a076b3",
+      "size": 1678
+    },
+    {
+      "file": "115-delete-calendar-early-A2.json",
+      "sha256": "31d0a6fbdaef3d76293a03f5632b8b2e5d119e32a491439718e2fdafb74c333c",
+      "size": 384
+    },
+    {
+      "file": "116-cancelled-calendar-early-A2.json",
+      "sha256": "065529bfcc3cddfa0aec8ecd7b37d2003080f0c7286c59e554ca1b0bfe345aa3",
+      "size": 1678
+    },
+    {
+      "file": "117-delete-calendar-duplicate-A1.json",
+      "sha256": "e8203131d51f2a4c03573e441c17d8ce6af95a0441f3f8a1e970e8098b6d4ff8",
+      "size": 384
+    },
+    {
+      "file": "118-cancelled-calendar-duplicate-A1.json",
+      "sha256": "8d071404a4ad99585cf84134906442429e708561e3964d48a401ba130c442c98",
+      "size": 1690
+    },
+    {
+      "file": "119-delete-calendar-overlap-B-LastValue.json",
+      "sha256": "7c82f2602daee8721ab49ab0787a23027455e478013a7de400dc301facfd8e21",
+      "size": 384
+    },
+    {
+      "file": "120-cancelled-calendar-overlap-B-LastValue.json",
+      "sha256": "2181d5ae3d19a638b10fd1cd2f52975e33eacd27033a88ffc07ff0ec72501df9",
+      "size": 1711
+    },
+    {
+      "file": "121-delete-calendar-overlap-B-HighWaterEarly.json",
+      "sha256": "ed8daf863d4afe194865a161e26b888c7d4eee3d0cf9cefeb9ab15de6d549323",
+      "size": 384
+    },
+    {
+      "file": "122-cancelled-calendar-overlap-B-HighWaterEarly.json",
+      "sha256": "9e580d73bc7b16b08dbd286ea0f5c43589ae54dd5a1b730b6080b6e8fe403c4d",
+      "size": 1727
+    },
+    {
+      "file": "123-delete-calendar-overlap-B-HighWaterHeld.json",
+      "sha256": "085accc5fb9633ab4a68fb569928063aec85577bcf2d58f6553b46e0afc2f3f0",
+      "size": 384
+    },
+    {
+      "file": "124-cancelled-calendar-overlap-B-HighWaterHeld.json",
+      "sha256": "6b81a1f5aff08e2155ebfbe4c2fce722662fb559bdb6051c1342027a9555be49",
+      "size": 1724
+    },
+    {
+      "file": "125-delete-calendar-overlap-B-TerminalOnly.json",
+      "sha256": "0fd4558e3fa4479ba0921ed5fbe5edb36f8e42bba4414fbc782f95e6f79eea7d",
+      "size": 384
+    },
+    {
+      "file": "126-cancelled-calendar-overlap-B-TerminalOnly.json",
+      "sha256": "fa77a202f324621a58f6e8d876715bf65ae3e70287161c69251efda3af4816f4",
+      "size": 1721
+    },
+    {
+      "file": "127-delete-calendar-late-B-LastValue.json",
+      "sha256": "dec59d193ca7cf51162e96bf486d4dc7ea6d673a66eb20d13203f20a675cdc74",
+      "size": 384
+    },
+    {
+      "file": "128-cancelled-calendar-late-B-LastValue.json",
+      "sha256": "275c31aa0a04319c221478be578d48266ac585423e96623290c058a43ee1ada4",
+      "size": 1702
+    },
+    {
+      "file": "129-delete-calendar-early-B-HighWaterEarly.json",
+      "sha256": "c39bba37248dab485b401dd37083c5235138b17cb0a7edd4826c7c6fb7bba2e2",
+      "size": 384
+    },
+    {
+      "file": "130-cancelled-calendar-early-B-HighWaterEarly.json",
+      "sha256": "09c800c695f9998dce0cb2e2cd5cb59eaa3ba74775d831bb022e07059dcbb882",
+      "size": 1721
+    },
+    {
+      "file": "131-delete-calendar-duplicate-B-DedupSum.json",
+      "sha256": "8888a6b155028e55d8ffe5b9078ae42b2380ccc7ffe4ad6d72db59d64cc60117",
+      "size": 384
+    },
+    {
+      "file": "132-cancelled-calendar-duplicate-B-DedupSum.json",
+      "sha256": "1e3ea8cec6bdda5d12f2d37acba65dffc34d5d40fd9493206ae392d26425c5a7",
+      "size": 1715
+    },
+    {
+      "file": "133-delete-calendar-duplicate-B-LastValue.json",
+      "sha256": "f3b0cf9ebb0587ce7e545a76fee75d167eb09ca505171e6fc3c5e5219f5d6479",
+      "size": 384
+    },
+    {
+      "file": "134-cancelled-calendar-duplicate-B-LastValue.json",
+      "sha256": "6c5811a11a67ec96ccdc97953980bc9ea688a35c90501cc68e02a466213a85f4",
+      "size": 1718
+    },
+    {
+      "file": "135-delete-calendar-duplicate-B-HighWaterEarly.json",
+      "sha256": "32fe67542e9569e916da8adae625d43b298d442f4129cc507ffb920d13aa845e",
+      "size": 384
+    },
+    {
+      "file": "136-cancelled-calendar-duplicate-B-HighWaterEarly.json",
+      "sha256": "d3af1cdfde708b06a64294c26bfab7761670e87bf938e7cf34a9ea149d045718",
+      "size": 1733
+    },
+    {
+      "file": "137-delete-calendar-duplicate-B-HighWaterHeld.json",
+      "sha256": "bd464f702d528301be300a9f84e9ac241493935c4baa04c7eb5ce20eb855bfee",
+      "size": 384
+    },
+    {
+      "file": "138-cancelled-calendar-duplicate-B-HighWaterHeld.json",
+      "sha256": "5b7a2bf3d0902b757c18b8d8e12234df1222d0c558fdb3cf9b46fc53ebd006c9",
+      "size": 1730
+    },
+    {
+      "file": "139-delete-calendar-duplicate-B-TerminalOnly.json",
+      "sha256": "7b1d08b7401593b40929f8f1a634cc1fadd7cf302cf6a8848836bc371b3cdb28",
+      "size": 384
+    },
+    {
+      "file": "140-cancelled-calendar-duplicate-B-TerminalOnly.json",
+      "sha256": "a2c7e2c74023bbcbcde1c37e9b5c487c189dfb92ffcd8b035513faca0bf4beab",
+      "size": 1727
+    },
+    {
+      "file": "141-scope-after-cleanup.json",
+      "sha256": "517f81bae72f89e80c88b362345780f35f79f15c955d0d5f8f12824a400e7240",
+      "size": 615
+    },
+    {
+      "file": "audit_calendar.py",
+      "sha256": "9212d1034bb7c6f8a71d520ff30a9aeac0dd1191934edefb14c9fc89c2c7ea64",
+      "size": 5045
+    },
+    {
+      "file": "branches_completed.json",
+      "sha256": "9347ad4d4d2f61d4bca87de3bdcbb334ea3c45da932e816816025461f4f4fa1b",
+      "size": 13162
+    },
+    {
+      "file": "browser-audit.png",
+      "sha256": "65ccfb019f34dd3843722b50a010ca00d6814ae07d2074c8b57456667218d7f3",
+      "size": 105432
+    },
+    {
+      "file": "browser-audit.txt",
+      "sha256": "3fc1319a05abbc5748b1c02ea9aba3efa932604166f386b347a2b1e8999eac92",
+      "size": 31187
+    },
+    {
+      "file": "calendar-duplicate-A1.record-created.json",
+      "sha256": "36911df5541384e4b766d75dfe34bf9c094884bd5d3bd8da965bec929a9b0109",
+      "size": 328
+    },
+    {
+      "file": "calendar-duplicate-AddEvery.action-evidence.json",
+      "sha256": "33da1169114ee72c606b963bdb0f21cb068f240b7c5f3063e9598c78ad03b016",
+      "size": 224
+    },
+    {
+      "file": "calendar-duplicate-AddEvery.prepare-command.json",
+      "sha256": "c0ac309f85281621dab693983467f6280cb4cc3d3de412d619c0a5bfb884f40a",
+      "size": 630
+    },
+    {
+      "file": "calendar-duplicate-AddEvery.prepared.json",
+      "sha256": "6e40884e813f5e6e9ca7d5163901d336bee42a31f07f7fcdd6defa0bc44b96f7",
+      "size": 4243
+    },
+    {
+      "file": "calendar-duplicate-B-DedupSum.record-created.json",
+      "sha256": "328f1400dbb6e5f5a157488d36c9c3e9ef0f693fd1987933edcaa568f9663a38",
+      "size": 372
+    },
+    {
+      "file": "calendar-duplicate-B-HighWaterEarly.record-created.json",
+      "sha256": "c16474a5e4e44674cbebc59c463f6dde1d0d20b59944de6e0652acdbe6b7577f",
+      "size": 396
+    },
+    {
+      "file": "calendar-duplicate-B-HighWaterHeld.record-created.json",
+      "sha256": "f4b5bc8cd46886169e544e4fb0d21f972b5fe2237d34e2ba102588cab30719fa",
+      "size": 392
+    },
+    {
+      "file": "calendar-duplicate-B-LastValue.record-created.json",
+      "sha256": "8300e71a5db2146751823a809e5eb7926fb02887cf5089b1fb81d54d67a1ee11",
+      "size": 376
+    },
+    {
+      "file": "calendar-duplicate-B-TerminalOnly.record-created.json",
+      "sha256": "440c7d83572193c910048b56161d75f81da75261b352247b9854b288ec05e34f",
+      "size": 388
+    },
+    {
+      "file": "calendar-duplicate-DedupSum.action-evidence.json",
+      "sha256": "6f86ad4dfbcc5cb4b9484178aa67c48c10459bcbf230212510d56702bc8c9444",
+      "size": 336
+    },
+    {
+      "file": "calendar-duplicate-DedupSum.prepare-command.json",
+      "sha256": "efc5f4c1f2051887c6e5e41b42cf289d575f5180e8aa8c04109124a6d99d7d97",
+      "size": 629
+    },
+    {
+      "file": "calendar-duplicate-DedupSum.prepared.json",
+      "sha256": "6127292046eab701ae7f5dc2fe37af1938c0a0b85ce514e33c914d6986bf026d",
+      "size": 4241
+    },
+    {
+      "file": "calendar-duplicate-HighWaterEarly.action-evidence.json",
+      "sha256": "ef3c8a003a5d907d2f267d678e68659680b0ac7ce71985437e44e274d3dae4ee",
+      "size": 342
+    },
+    {
+      "file": "calendar-duplicate-HighWaterEarly.prepare-command.json",
+      "sha256": "6a9f421c8a46b4e6b165ad782d090c84184f02ccc664112d890d10d5970c943a",
+      "size": 641
+    },
+    {
+      "file": "calendar-duplicate-HighWaterEarly.prepared.json",
+      "sha256": "0fd8f74232890bdcf77e4f796f2ca2b4205fb603efd07f8bc7303c8a8eb31c76",
+      "size": 4259
+    },
+    {
+      "file": "calendar-duplicate-HighWaterHeld.action-evidence.json",
+      "sha256": "1547f61ab151fa86ccbbf723536a1d20c08e6fff45b3c1e052046fa96d6e30bc",
+      "size": 341
+    },
+    {
+      "file": "calendar-duplicate-HighWaterHeld.prepare-command.json",
+      "sha256": "82bfc04893b85b54a90a4426ff2c6fcf3dad4da01143b7f78be4a4a4c3511e91",
+      "size": 639
+    },
+    {
+      "file": "calendar-duplicate-HighWaterHeld.prepared.json",
+      "sha256": "1222e8ea6052b5edb08ae6bc6512dd592db3814979dde68068b203a65ed2117f",
+      "size": 4256
+    },
+    {
+      "file": "calendar-duplicate-LastValue.action-evidence.json",
+      "sha256": "ed429160e154ddd9875a353f10a45f0e2830061c05b9f7a4fd74dceac2a63bf5",
+      "size": 337
+    },
+    {
+      "file": "calendar-duplicate-LastValue.prepare-command.json",
+      "sha256": "749b62d7bc86716149e6a73b756d38b317014a1a34744ead6de787ba24eaa971",
+      "size": 631
+    },
+    {
+      "file": "calendar-duplicate-LastValue.prepared.json",
+      "sha256": "34505d3d8de39f942f087fca27c27419886d8e8f17c8982032870ddf00e6c3d0",
+      "size": 4244
+    },
+    {
+      "file": "calendar-duplicate-TerminalOnly.action-evidence.json",
+      "sha256": "305ffb1d7c2af1421bcfcba5529e8e5e273c93f6abc35967bc469318e3d31b0f",
+      "size": 340
+    },
+    {
+      "file": "calendar-duplicate-TerminalOnly.prepare-command.json",
+      "sha256": "b13f8de4f618c9d443e1cf7520260eea7e30e64257e0253705c2d90b78e032a1",
+      "size": 636
+    },
+    {
+      "file": "calendar-duplicate-TerminalOnly.prepared.json",
+      "sha256": "17030c926567ce6ed382a2fad3772f5bf61b92246675a329a2451aefd3238ec0",
+      "size": 4253
+    },
+    {
+      "file": "calendar-duplicate.receipts.json",
+      "sha256": "79d1f796f718a53d44dfe028a5181f1c0e0f5de22e2a92eb3db8e8244436a5b3",
+      "size": 721
+    },
+    {
+      "file": "calendar-early-A1.record-created.json",
+      "sha256": "b89554859a8ac3b552fb645a846b6336cf6b8c8b5db33bc701a1d4fd2d8997db",
+      "size": 312
+    },
+    {
+      "file": "calendar-early-A2.record-created.json",
+      "sha256": "1e18ef050de24505a7bdc7ecd4433bab5f59b9a1e1ffd873f41313104d9c8ad9",
+      "size": 312
+    },
+    {
+      "file": "calendar-early-AddEvery.action-evidence.json",
+      "sha256": "aaeef2854c5ce00951f4147b5e01d55cf268888ac6497f91a59317a0af4e60eb",
+      "size": 224
+    },
+    {
+      "file": "calendar-early-AddEvery.prepare-command.json",
+      "sha256": "6a7967b01b36f178e238815cb127ee361c4370cf3ef9b933ff9b8c73ed40a626",
+      "size": 695
+    },
+    {
+      "file": "calendar-early-AddEvery.prepared.json",
+      "sha256": "66227c88902824c4659eede374a460c5fd2848fd363e69637625b40440cf69eb",
+      "size": 2952
+    },
+    {
+      "file": "calendar-early-B-HighWaterEarly.record-created.json",
+      "sha256": "fe87e89660190fc1ac61520c8ddfe0e0fb7f00386a22be6b0fa9b87ee88d3950",
+      "size": 380
+    },
+    {
+      "file": "calendar-early-DedupSum.action-evidence.json",
+      "sha256": "2f9b12175609a7e45f4dc97f5a2a0c7fbb727b5e5d4df92e6a935cb2c8f87506",
+      "size": 224
+    },
+    {
+      "file": "calendar-early-DedupSum.prepare-command.json",
+      "sha256": "6ff239baf013bfa49d8972392e4c67a51cfe238ed7bb058be05b07f8eea152c6",
+      "size": 695
+    },
+    {
+      "file": "calendar-early-DedupSum.prepared.json",
+      "sha256": "6e61655a205434383e1bdc9fe08ccaf0e02496922ccb24e9390dd2a7aeb26e6a",
+      "size": 2952
+    },
+    {
+      "file": "calendar-early-HighWaterEarly.action-evidence.json",
+      "sha256": "c553b12b4b98fded1494b432a70b23869d742244068c91c951ffb8bc14fdd6b4",
+      "size": 338
+    },
+    {
+      "file": "calendar-early-HighWaterEarly.prepare-command.json",
+      "sha256": "b078fe7caa59885f912cd4f74528be1468bca895ae3e48f16910db1c0305be6a",
+      "size": 703
+    },
+    {
+      "file": "calendar-early-HighWaterEarly.prepared.json",
+      "sha256": "562d6b89fb85373fe2292e412a827825f52f83e00a4095f84996aa4f5797e681",
+      "size": 2968
+    },
+    {
+      "file": "calendar-early-HighWaterHeld.action-evidence.json",
+      "sha256": "977f7d11e003056a29ba23f7dc92c3e524061a9ba0ff4d70b36cd0998e0a6f9a",
+      "size": 224
+    },
+    {
+      "file": "calendar-early-HighWaterHeld.prepare-command.json",
+      "sha256": "332b2bd61866ab84b87ed032939a9004c979c462b826fe997b15f3556bc146d7",
+      "size": 705
+    },
+    {
+      "file": "calendar-early-HighWaterHeld.prepared.json",
+      "sha256": "60494485e042f96ff14f64f50566ce46442a8cf0ec9a20e91c8d71578c26e601",
+      "size": 2967
+    },
+    {
+      "file": "calendar-early-LastValue.action-evidence.json",
+      "sha256": "dadf376c6b574488f2a5d27a0b5331f9421c4f511552d28ba06666174c5df792",
+      "size": 224
+    },
+    {
+      "file": "calendar-early-LastValue.prepare-command.json",
+      "sha256": "7a87c8a2c297ef6606694a6b5dc578ff2580ca8bc0eeb0987927deedcec72f95",
+      "size": 697
+    },
+    {
+      "file": "calendar-early-LastValue.prepared.json",
+      "sha256": "1e8b30d59df8f59f9dae77722bdd85f6229aacfc207ecc9edd518c27a466a486",
+      "size": 2955
+    },
+    {
+      "file": "calendar-early-TerminalOnly.action-evidence.json",
+      "sha256": "3ffdefef300b4d5daaf7ec6a1542fde9d8faa5d76c10f7d860e434162ed1e364",
+      "size": 224
+    },
+    {
+      "file": "calendar-early-TerminalOnly.prepare-command.json",
+      "sha256": "72882f2b194f54322ee91c77fe9bb7509de327088e588cad62c2cfc11b6fe5fa",
+      "size": 703
+    },
+    {
+      "file": "calendar-early-TerminalOnly.prepared.json",
+      "sha256": "2482194012162c5ab1e62c3e6044f658e050cc113deaed32980ee290d05256a4",
+      "size": 2964
+    },
+    {
+      "file": "calendar-early.receipts.json",
+      "sha256": "c7a3231ca4f9010f42a516d7eef671e150df1def08a9d7c57682be0e2bfd1411",
+      "size": 798
+    },
+    {
+      "file": "calendar-late-A1.record-created.json",
+      "sha256": "ad2f38bad13eb47927aeb3a45405200b9e82fdf6497ef0d9e73d8aa3b1ab6c7a",
+      "size": 308
+    },
+    {
+      "file": "calendar-late-A2.record-created.json",
+      "sha256": "861436eb063f2f259500ba1dfaf20234d5c755d32a11bfbc58862300e6209669",
+      "size": 308
+    },
+    {
+      "file": "calendar-late-AddEvery.action-evidence.json",
+      "sha256": "ed048499454d201348caf3d179cffc04c402372f0483b98588d451a680d37d37",
+      "size": 224
+    },
+    {
+      "file": "calendar-late-AddEvery.prepare-command.json",
+      "sha256": "d4a782c69da0bc6c5d13bc7f1e661db22fd3f5b7936d63311d6094d3ed86a7ed",
+      "size": 693
+    },
+    {
+      "file": "calendar-late-AddEvery.prepared.json",
+      "sha256": "e7dbc4c93add631cdde31809d03e7064d12651e3c740a62f4f8b4f17137407d4",
+      "size": 3642
+    },
+    {
+      "file": "calendar-late-B-LastValue.record-created.json",
+      "sha256": "3077a759beb89cbdfb749549b9b9709da12a3fe64697ab45f757d9e06c211c65",
+      "size": 356
+    },
+    {
+      "file": "calendar-late-DedupSum.action-evidence.json",
+      "sha256": "0da43ca1cb93d3c764f06b811aad055b7685cd7a067a5a42400d044b01e1f436",
+      "size": 224
+    },
+    {
+      "file": "calendar-late-DedupSum.prepare-command.json",
+      "sha256": "e3bebc6802e56fe2e2c9831d2ad8c49c92fd5abf850ba6e58b8b305348d965d4",
+      "size": 693
+    },
+    {
+      "file": "calendar-late-DedupSum.prepared.json",
+      "sha256": "5bc45d85384633c25449fcb673775fb4620211133fbafadd31d3bfd7cf5f0bcb",
+      "size": 3642
+    },
+    {
+      "file": "calendar-late-HighWaterEarly.action-evidence.json",
+      "sha256": "8a059bfa59f449c68efd46f38d355abc49135da5ddb6ecc0e8bd96398ef92544",
+      "size": 224
+    },
+    {
+      "file": "calendar-late-HighWaterEarly.prepare-command.json",
+      "sha256": "480a8c19249c7627b82bfeab189cba2e653fbb078068aac1d8ad818cf00952e8",
+      "size": 704
+    },
+    {
+      "file": "calendar-late-HighWaterEarly.prepared.json",
+      "sha256": "91651d22798d9ce21b2a3db8977c3a162609d6615a18c408b6e95e3336c9e941",
+      "size": 3655
+    },
+    {
+      "file": "calendar-late-HighWaterHeld.action-evidence.json",
+      "sha256": "cff9e453ffb80b4c9c4a013050c95d434222a747ea030aade048003d016da59f",
+      "size": 224
+    },
+    {
+      "file": "calendar-late-HighWaterHeld.prepare-command.json",
+      "sha256": "48cfa50dca0212837800f3acc8c15d7c2b5c099109e561c738bfa4b92d636aaf",
+      "size": 702
+    },
+    {
+      "file": "calendar-late-HighWaterHeld.prepared.json",
+      "sha256": "dee64799e7af456a36c83bb4f27793b10c1ab6951d1f7cef28c90cc8fe6cf0a8",
+      "size": 3652
+    },
+    {
+      "file": "calendar-late-LastValue.action-evidence.json",
+      "sha256": "8ce57ca0d7b2bd7dc7298ea9a46bc168f5f359e7ba211dc1a952d0d769b835ec",
+      "size": 332
+    },
+    {
+      "file": "calendar-late-LastValue.prepare-command.json",
+      "sha256": "da801268be32e5c2af8d4a300c25032c82d9b584d2880d6852f6beb15f135eed",
+      "size": 693
+    },
+    {
+      "file": "calendar-late-LastValue.prepared.json",
+      "sha256": "8599e82a9356f9fc1ce4f13e52dc273fbfe47e84867e4756d59867a8743e5350",
+      "size": 3638
+    },
+    {
+      "file": "calendar-late-TerminalOnly.action-evidence.json",
+      "sha256": "2ad9e295c0ab23a78ffc1fb129ef022da655b6e6ca40663bdc2feb5e845fb2c4",
+      "size": 224
+    },
+    {
+      "file": "calendar-late-TerminalOnly.prepare-command.json",
+      "sha256": "7eb7b57f6c558ed6cb0966d294ee3be77608a611ceb1f0c38dc05614d8b939b9",
+      "size": 700
+    },
+    {
+      "file": "calendar-late-TerminalOnly.prepared.json",
+      "sha256": "a3aa2e6e1c186cda7d69a4742819adcf09c63ff5b1c15d67619ba25647c5a4a0",
+      "size": 3649
+    },
+    {
+      "file": "calendar-late.receipts.json",
+      "sha256": "5a5c7943ea2a798bdcd1836a10d5cf60367243aaa5b2f056b3c9870e52a3b85a",
+      "size": 821
+    },
+    {
+      "file": "calendar-overlap-A1.record.json",
+      "sha256": "45aa3084a712705bd1788d95f95658f17e0776912734eb6fb6bc3981bb87bd6c",
+      "size": 1586
+    },
+    {
+      "file": "calendar-overlap-AddEvery.action-evidence.json",
+      "sha256": "3a10afab16ed3f743772446cff68a223be28916ed69f4137eca701215d95d557",
+      "size": 224
+    },
+    {
+      "file": "calendar-overlap-AddEvery.prepare-command.json",
+      "sha256": "3ac9a3070fea346f9d7b2a1b0fc8bf7e0fcb440a66b3f6f64153b8893c9a812f",
+      "size": 626
+    },
+    {
+      "file": "calendar-overlap-AddEvery.prepared.json",
+      "sha256": "c15d37883f83356b8591cbed73ae43bcc0bce128f16a1cde41bdd7d6ce596ac5",
+      "size": 3598
+    },
+    {
+      "file": "calendar-overlap-B-HighWaterEarly.record-created.json",
+      "sha256": "4e75e8adf2bae57c448197e4406ec24b6fd7afc018cfba8263d5508ffad9a20a",
+      "size": 388
+    },
+    {
+      "file": "calendar-overlap-B-HighWaterHeld.record-created.json",
+      "sha256": "3695baf57af593e2f0b7ec6d5cde48fb0d5a0df2dbac23c86f8193873456e426",
+      "size": 384
+    },
+    {
+      "file": "calendar-overlap-B-LastValue.record-created.json",
+      "sha256": "7fcd89765f0515671faf8f9e326ae2767166b0d424b51cd2cd4b877ad94a6234",
+      "size": 368
+    },
+    {
+      "file": "calendar-overlap-B-TerminalOnly.record-created.json",
+      "sha256": "9693d4704cfa8adfed1cb797486bf4677533159486c45bdecaeeaede825db921",
+      "size": 380
+    },
+    {
+      "file": "calendar-overlap-DedupSum.action-evidence.json",
+      "sha256": "964c2880dadca0f34ec7e14c35617541842ff7231850053551d215c096d9752e",
+      "size": 224
+    },
+    {
+      "file": "calendar-overlap-DedupSum.prepare-command.json",
+      "sha256": "46e9f75846213056f86afca12fbdfe61b7bbdcf59db0f490266629214db86abe",
+      "size": 626
+    },
+    {
+      "file": "calendar-overlap-DedupSum.prepared.json",
+      "sha256": "8a37f9aa8d0aac0d22a26cda97e6988d6250a4ae4ebb38cbe0299cfd99607ca1",
+      "size": 3598
+    },
+    {
+      "file": "calendar-overlap-HighWaterEarly.action-evidence.json",
+      "sha256": "33bd707b0c653a6637f000f9b710e01fb4e3dba64796bd3f3f42fe70fcbd96cc",
+      "size": 340
+    },
+    {
+      "file": "calendar-overlap-HighWaterEarly.prepare-command.json",
+      "sha256": "3c1a9ffd7e878682bcbbd73874439637c6bcf016a96922b68da3d8bf708c9a9a",
+      "size": 637
+    },
+    {
+      "file": "calendar-overlap-HighWaterEarly.prepared.json",
+      "sha256": "feae4a008bd5581c2b0ac4e23faa42514f5a31ed9bc244c19b93ae98c040c5cb",
+      "size": 3614
+    },
+    {
+      "file": "calendar-overlap-HighWaterHeld.action-evidence.json",
+      "sha256": "1aa230fbe3b87a7e52eb44f34c882c06f1480d34564a1ab44a5e1294d0703360",
+      "size": 339
+    },
+    {
+      "file": "calendar-overlap-HighWaterHeld.prepare-command.json",
+      "sha256": "9974d8172ccbce1b9e8c0df5c3ce00f710f5bf152571b9946e08988c69a123ea",
+      "size": 635
+    },
+    {
+      "file": "calendar-overlap-HighWaterHeld.prepared.json",
+      "sha256": "669d6eeb408998e4fd5bb004266eae472ec0d6d60d8b5a2d22444d00a4736d50",
+      "size": 3611
+    },
+    {
+      "file": "calendar-overlap-LastValue.action-evidence.json",
+      "sha256": "350a254079cbab043ce15590c6bc9ee1b9872122bd75cdb60fad3a1eddf0e31f",
+      "size": 335
+    },
+    {
+      "file": "calendar-overlap-LastValue.prepare-command.json",
+      "sha256": "fe06de4031467346cb200d7c8571b8267653869f885a2a1c7365bf1056d9e1a5",
+      "size": 624
+    },
+    {
+      "file": "calendar-overlap-LastValue.prepared.json",
+      "sha256": "6de29415775fa6c919f95727ee1fb3c43cc6e157cc0dc69d88791ea708d83ebb",
+      "size": 3599
+    },
+    {
+      "file": "calendar-overlap-TerminalOnly.action-evidence.json",
+      "sha256": "3019d871af19e49dc8a1ffe7b4f361d4c8d31c9f532d8235d9c43059d3ab3b74",
+      "size": 338
+    },
+    {
+      "file": "calendar-overlap-TerminalOnly.prepare-command.json",
+      "sha256": "8cd9456b6195d8f76c2e5cd9c3389630ee45abe828df8f408a6df20e215cc93e",
+      "size": 633
+    },
+    {
+      "file": "calendar-overlap-TerminalOnly.prepared.json",
+      "sha256": "c7e9a75f3c1d8f796b5549e3edea1941e16f6e7671d0e4fff3fde6d33dbb3c31",
+      "size": 3608
+    },
+    {
+      "file": "calendar-overlap.receipts.json",
+      "sha256": "7f05b32a2f94115b060cc5f991437bae158d54d1434d88ed2128ff723cf5b60f",
+      "size": 742
+    },
+    {
+      "file": "cleanup_check.json",
+      "sha256": "7af14c530cad9af392b1796c221cc16138fb1fea5453b5ae5d531705fc8bd198",
+      "size": 11986
+    },
+    {
+      "file": "execution_notes.json",
+      "sha256": "5293c432a89afa82e9c8e829e8611419a27f0d9ff62fde3a0f1fd3c5161bb885",
+      "size": 653
+    },
+    {
+      "file": "export_evidence.py",
+      "sha256": "73332d66be22dc55d610c93f8c8ca21f87c3910c39994d1f39f4d091fdb4ef6e",
+      "size": 3560
+    },
+    {
+      "file": "precleanup_check.json",
+      "sha256": "c52c374895203553a72f7badfe083de239895e38a6f5a0352e07b5636c04f29f",
+      "size": 5588
+    },
+    {
+      "file": "preflight.json",
+      "sha256": "e69b5a1b176259308e81447196d3c47ce5ec1dabb730f623cf852a6aedf27190",
+      "size": 598
+    },
+    {
+      "file": "preparation.md",
+      "sha256": "de868bb9a3d9c95fac0f4f9cff9290e4ee8d3ce14796005e9f7bc20233b37cd9",
+      "size": 1152
+    },
+    {
+      "file": "records_precleanup.json",
+      "sha256": "f0c828ac578a5fb0d98ca97d6d480339fcab818f84def873c19ea0aeecd4cc86",
+      "size": 29819
+    }
+  ],
+  "raw_packets": 141
+}

@@ -1,0 +1,124 @@
+[
+  {
+    "P": {
+      "captured_at": "2026-10-26T17:56:41.940Z",
+      "evidence_sha256": [
+        "5a196364c2303d2919b7c061418a14eeff774c3cb2e7b813a919e3c05277e4d8"
+      ],
+      "id": "drive-overlap-P",
+      "records": [
+        "drive-overlap-A1"
+      ],
+      "terminal": false,
+      "value": 1
+    },
+    "T": {
+      "captured_at": "2026-10-26T17:57:12.079Z",
+      "evidence_sha256": [
+        "6825e653f5d1f74e33c9661b7535dacf3cd47a185161d1501b400591c216ec15"
+      ],
+      "id": "drive-overlap-T",
+      "producer_stopped": true,
+      "records": [
+        "drive-overlap-A1"
+      ],
+      "terminal": true,
+      "value": 1
+    },
+    "case": "overlap",
+    "counter_start": "drive-overlap-start",
+    "fixture": "drive-overlap",
+    "site": "drive"
+  },
+  {
+    "P": {
+      "captured_at": "2026-10-26T17:57:14.072Z",
+      "evidence_sha256": [
+        "c19278b630a05133df981164fc948a06d009682a8c8f86c3156041c81bfbfd60"
+      ],
+      "id": "drive-late-P",
+      "records": [
+        "drive-late-A1"
+      ],
+      "terminal": false,
+      "value": 1
+    },
+    "T": {
+      "captured_at": "2026-10-26T17:57:16.217Z",
+      "evidence_sha256": [
+        "2e1089a2fa909a3ff42c269c9de4b1d8dc9ea757b38cc41dafbcdba37b8c5595"
+      ],
+      "id": "drive-late-T",
+      "producer_stopped": true,
+      "records": [
+        "drive-late-A1",
+        "drive-late-A2"
+      ],
+      "terminal": true,
+      "value": 2
+    },
+    "case": "late",
+    "counter_start": "drive-late-start",
+    "fixture": "drive-late",
+    "site": "drive"
+  },
+  {
+    "P": {
+      "captured_at": "2026-10-26T17:57:16.909Z",
+      "evidence_sha256": [
+        "3ef2c94134468dabbebe1d5b44200cf90143bc771f8bb1f43e0837043e8a0c95"
+      ],
+      "id": "drive-early-P",
+      "records": [],
+      "terminal": false,
+      "value": 0
+    },
+    "T": {
+      "captured_at": "2026-10-26T17:57:20.641Z",
+      "evidence_sha256": [
+        "19c562491476009438fb83f67a19461f62e8f03d592bb58afd141b9da2e83c63"
+      ],
+      "id": "drive-early-T",
+      "producer_stopped": true,
+      "records": [
+        "drive-early-A1",
+        "drive-early-A2"
+      ],
+      "terminal": true,
+      "value": 2
+    },
+    "case": "early",
+    "counter_start": "drive-early-start",
+    "fixture": "drive-early",
+    "site": "drive"
+  },
+  {
+    "P": {
+      "captured_at": "2026-10-26T17:57:21.154Z",
+      "evidence_sha256": [
+        "7bd9eb313f92ff7d14c968dc4370ec4b53df24cc80914508f142a1ef7480de96"
+      ],
+      "id": "drive-duplicate-P",
+      "records": [],
+      "terminal": false,
+      "value": 0
+    },
+    "T": {
+      "captured_at": "2026-10-26T17:57:23.736Z",
+      "evidence_sha256": [
+        "d95d8266db286ad90b37e6beae2502441a3eb250b5a8cca88d0ab1fb1af4b982"
+      ],
+      "id": "drive-duplicate-T",
+      "producer_stopped": true,
+      "records": [
+        "drive-duplicate-A1"
+      ],
+      "terminal": true,
+      "value": 1
+    },
+    "case": "duplicate",
+    "counter_start": "drive-duplicate-start",
+    "fixture": "drive-duplicate",
+    "site": "drive"
+  }
+]

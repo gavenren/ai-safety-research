@@ -1,0 +1,319 @@
+[
+  {
+    "alias": "drive-overlap-A1",
+    "case": "overlap",
+    "create_evidence_file": "overlap-A1-create.json",
+    "create_evidence_sha256": "a5b19207455ada465f56b95b66d3570a490035dca2dc9c0183c640eb5910f308",
+    "created_at": "2026-10-26T17:56:32.059Z",
+    "creation_method": "Drive connector",
+    "readback_at": "2026-10-26T17:57:12.079Z",
+    "readback_evidence_file": "overlap-T-raw.json",
+    "readback_evidence_sha256": "6825e653f5d1f74e33c9661b7535dacf3cd47a185161d1501b400591c216ec15",
+    "role": "A",
+    "rule": null,
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-late-A1",
+    "case": "late",
+    "create_evidence_file": "late-A1-create.json",
+    "create_evidence_sha256": "2c17fe04d5a7f532414fb04de40b0b45592a0cf2c7c02fc38ab92d38b0543a38",
+    "created_at": "2026-10-26T17:57:13.271Z",
+    "creation_method": "Drive connector",
+    "readback_at": "2026-10-26T17:57:16.217Z",
+    "readback_evidence_file": "late-T-raw.json",
+    "readback_evidence_sha256": "2e1089a2fa909a3ff42c269c9de4b1d8dc9ea757b38cc41dafbcdba37b8c5595",
+    "role": "A",
+    "rule": null,
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-late-A2",
+    "case": "late",
+    "create_evidence_file": "late-A2-create.json",
+    "create_evidence_sha256": "4710183f6fb3c575d3e3f5d26b1c605fb544f26fcf5a5b5228397cfbcb06e548",
+    "created_at": "2026-10-26T17:57:15.184Z",
+    "creation_method": "Drive connector",
+    "readback_at": "2026-10-26T17:57:16.217Z",
+    "readback_evidence_file": "late-T-raw.json",
+    "readback_evidence_sha256": "2e1089a2fa909a3ff42c269c9de4b1d8dc9ea757b38cc41dafbcdba37b8c5595",
+    "role": "A",
+    "rule": null,
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-early-A1",
+    "case": "early",
+    "create_evidence_file": "early-A1-create.json",
+    "create_evidence_sha256": "c31b04df35a5c41c4862a468051f9fb409c5edf6e190758fc45eb8a00731d586",
+    "created_at": "2026-10-26T17:57:18.422Z",
+    "creation_method": "Drive connector",
+    "readback_at": "2026-10-26T17:57:20.641Z",
+    "readback_evidence_file": "early-T-raw.json",
+    "readback_evidence_sha256": "19c562491476009438fb83f67a19461f62e8f03d592bb58afd141b9da2e83c63",
+    "role": "A",
+    "rule": null,
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-early-A2",
+    "case": "early",
+    "create_evidence_file": "early-A2-create.json",
+    "create_evidence_sha256": "7c53d9c83047e9ce4fbef13d25f16fc086e9131282b61c7408fa435fbe0eb5b9",
+    "created_at": "2026-10-26T17:57:19.649Z",
+    "creation_method": "Drive connector",
+    "readback_at": "2026-10-26T17:57:20.641Z",
+    "readback_evidence_file": "early-T-raw.json",
+    "readback_evidence_sha256": "19c562491476009438fb83f67a19461f62e8f03d592bb58afd141b9da2e83c63",
+    "role": "A",
+    "rule": null,
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-duplicate-A1",
+    "case": "duplicate",
+    "create_evidence_file": "duplicate-A1-create.json",
+    "create_evidence_sha256": "49131ca2f3f3d04b2bc382deb60102892508e5cf745feec0b141c620875cb47b",
+    "created_at": "2026-10-26T17:57:23.178Z",
+    "creation_method": "Drive connector",
+    "readback_at": "2026-10-26T17:57:23.736Z",
+    "readback_evidence_file": "duplicate-T-raw.json",
+    "readback_evidence_sha256": "d95d8266db286ad90b37e6beae2502441a3eb250b5a8cca88d0ab1fb1af4b982",
+    "role": "A",
+    "rule": null,
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-overlap-B-LastValue",
+    "browser_observed_at": "2026-10-26T17:58:51.366Z",
+    "browser_title_present": true,
+    "case": "overlap",
+    "create_evidence_file": "overlap-LastValue-browser-confirmed.txt",
+    "create_evidence_sha256": "0b9db35164441a80d1954c84135c148cb1eb53036fb7c946c766f0b6216a8fe4",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:21.775Z",
+    "readback_evidence_file": "overlap-LastValue-saved-raw.json",
+    "readback_evidence_sha256": "534f06f2d47c0a5025f95046657d5e5bf83c258d8c2467087436a80da6cf5b21",
+    "role": "B",
+    "rule": "LastValue",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-overlap-B-HighWaterEarly",
+    "browser_observed_at": "2026-10-26T17:59:28.562Z",
+    "browser_title_present": true,
+    "case": "overlap",
+    "create_evidence_file": "overlap-HighWaterEarly-browser-confirmed.txt",
+    "create_evidence_sha256": "f2cc316e0787dd4b19a8a58dad79e6b07d5b3a5f316360b6370f449f8b58ce1b",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:22.422Z",
+    "readback_evidence_file": "overlap-HighWaterEarly-saved-raw.json",
+    "readback_evidence_sha256": "bebeb779a9ddaeb2ba892eddc664412f9b750c5cb2684beed66ea28c405f4e36",
+    "role": "B",
+    "rule": "HighWaterEarly",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-overlap-B-HighWaterHeld",
+    "browser_observed_at": "2026-10-26T17:59:31.890Z",
+    "browser_title_present": true,
+    "case": "overlap",
+    "create_evidence_file": "overlap-HighWaterHeld-browser-confirmed.txt",
+    "create_evidence_sha256": "00fe009c362fcb4a55d8417b978930fd272580fc94578e7dc9280999b2f4a0dc",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:23.194Z",
+    "readback_evidence_file": "overlap-HighWaterHeld-saved-raw.json",
+    "readback_evidence_sha256": "2733670ca6e91b377c96fd0cef192b2915d9bbec05e6d21714eb26af4676cd6c",
+    "role": "B",
+    "rule": "HighWaterHeld",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-overlap-B-TerminalOnly",
+    "browser_observed_at": "2026-10-26T17:59:35.234Z",
+    "browser_title_present": true,
+    "case": "overlap",
+    "create_evidence_file": "overlap-TerminalOnly-browser-confirmed.txt",
+    "create_evidence_sha256": "64076b29e4a6197b2f8ef94714c1ea3d4b11740a5f52e798b3237a61741a3eca",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:23.870Z",
+    "readback_evidence_file": "overlap-TerminalOnly-saved-raw.json",
+    "readback_evidence_sha256": "c4133d56823f26cc53198c67393b91299afb239b4cb3cdc93df64066a3647268",
+    "role": "B",
+    "rule": "TerminalOnly",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-late-B-LastValue",
+    "browser_observed_at": "2026-10-26T17:59:38.963Z",
+    "browser_title_present": true,
+    "case": "late",
+    "create_evidence_file": "late-LastValue-browser-confirmed.txt",
+    "create_evidence_sha256": "827cab8b5f39eedec90e1fa399a06531525162021d28727c341ca839f38491f8",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:24.527Z",
+    "readback_evidence_file": "late-LastValue-saved-raw.json",
+    "readback_evidence_sha256": "00f7944005c6e219acaf8652f057fa8c1fba40261fcdd5d583449736b897f98c",
+    "role": "B",
+    "rule": "LastValue",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-early-B-HighWaterEarly",
+    "browser_observed_at": "2026-10-26T17:59:42.268Z",
+    "browser_title_present": true,
+    "case": "early",
+    "create_evidence_file": "early-HighWaterEarly-browser-confirmed.txt",
+    "create_evidence_sha256": "5bb367bf58889e39c20a138a452f1f13e8fd8193e47b701ed176c58a94722149",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:25.242Z",
+    "readback_evidence_file": "early-HighWaterEarly-saved-raw.json",
+    "readback_evidence_sha256": "27fcf0eb5121c3d4736981fdb64fd8f49d459b7e9ee9750222fbc8ce5ecf1443",
+    "role": "B",
+    "rule": "HighWaterEarly",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-duplicate-B-DedupSum",
+    "browser_observed_at": "2026-10-26T17:59:45.530Z",
+    "browser_title_present": true,
+    "case": "duplicate",
+    "create_evidence_file": "duplicate-DedupSum-browser-confirmed.txt",
+    "create_evidence_sha256": "06b221535f523d32d85f0669b47eac992ab5971a3d448fff9218c92b225f09ac",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:25.771Z",
+    "readback_evidence_file": "duplicate-DedupSum-saved-raw.json",
+    "readback_evidence_sha256": "8727ad64d8c74aed112e1bbf5c151f8568fbe4c7f0a523df33b48f7208178fb4",
+    "role": "B",
+    "rule": "DedupSum",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-duplicate-B-LastValue",
+    "browser_observed_at": "2026-10-26T17:59:48.811Z",
+    "browser_title_present": true,
+    "case": "duplicate",
+    "create_evidence_file": "duplicate-LastValue-browser-confirmed.txt",
+    "create_evidence_sha256": "02e6babad9480501eb36691969b0fd1ea3e2b3d51e3f917ab2b3c1c75e99a9f4",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:26.475Z",
+    "readback_evidence_file": "duplicate-LastValue-saved-raw.json",
+    "readback_evidence_sha256": "f081c41aa531feac5994330fa7cfe1096f4d239807e39742fef84057b26a075c",
+    "role": "B",
+    "rule": "LastValue",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-duplicate-B-HighWaterEarly",
+    "browser_observed_at": "2026-10-26T17:59:52.066Z",
+    "browser_title_present": true,
+    "case": "duplicate",
+    "create_evidence_file": "duplicate-HighWaterEarly-browser-confirmed.txt",
+    "create_evidence_sha256": "5f403f776cca6ca648e9be0d655e9fd984ec724a0fb23d3b95dd399e877901ae",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:27.077Z",
+    "readback_evidence_file": "duplicate-HighWaterEarly-saved-raw.json",
+    "readback_evidence_sha256": "a9b80150150374dba65c0cf749b0253de6c50dab78a6f9b4625999ff5262a177",
+    "role": "B",
+    "rule": "HighWaterEarly",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-duplicate-B-HighWaterHeld",
+    "browser_observed_at": "2026-10-26T17:59:55.332Z",
+    "browser_title_present": true,
+    "case": "duplicate",
+    "create_evidence_file": "duplicate-HighWaterHeld-browser-confirmed.txt",
+    "create_evidence_sha256": "3dc0c2c9bfd69b17810d1a6f30b4b5c7312587ff75cd386e1715519dd88ad241",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:27.718Z",
+    "readback_evidence_file": "duplicate-HighWaterHeld-saved-raw.json",
+    "readback_evidence_sha256": "214ea2d18353a00e051fb338f1228d5c13b316ea59aa82f1103f2dce8e8bbace",
+    "role": "B",
+    "rule": "HighWaterHeld",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  },
+  {
+    "alias": "drive-duplicate-B-TerminalOnly",
+    "browser_observed_at": "2026-10-26T17:59:59.002Z",
+    "browser_title_present": true,
+    "case": "duplicate",
+    "create_evidence_file": "duplicate-TerminalOnly-browser-confirmed.txt",
+    "create_evidence_sha256": "04b7973999b97c3ca0153edde33cb2ee9c9ecf910bea6e43fdb33b76921b8259",
+    "creation_method": "Browser UI",
+    "readback_at": "2026-10-26T18:00:28.310Z",
+    "readback_evidence_file": "duplicate-TerminalOnly-saved-raw.json",
+    "readback_evidence_sha256": "f6498e16a87d5768a419c23b5402f4cf6b077ad294b2f02e0671f54a832cbf30",
+    "role": "B",
+    "rule": "TerminalOnly",
+    "saved_fields": {
+      "mime_type": "application/vnd.google-apps.folder",
+      "parent_alias": "drive-test-parent",
+      "shared": false
+    }
+  }
+]

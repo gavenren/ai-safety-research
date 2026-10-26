@@ -1,0 +1,126 @@
+[
+  {
+    "P": {
+      "captured_at": "2026-10-26T17:56:23.576Z",
+      "evidence_sha256": [
+        "7c3224e18841a69ec556d88702ad568ed270279d1a433969b51ecfd800750179"
+      ],
+      "id": "calendar-overlap-P",
+      "records": [
+        "calendar-overlap-A1"
+      ],
+      "terminal": false,
+      "value": 1
+    },
+    "T": {
+      "captured_at": "2026-10-26T17:56:42.519Z",
+      "evidence_sha256": [
+        "d6750a5ea0517f6e735e6a00bfe9a2df76e26f990bcae330a42a4352e4a8db65"
+      ],
+      "id": "calendar-overlap-T",
+      "producer_stopped": true,
+      "records": [
+        "calendar-overlap-A1"
+      ],
+      "terminal": true,
+      "value": 1
+    },
+    "case": "overlap",
+    "counter_start": "CUA-USAGE-20261026-calendar-overlap",
+    "fixture": "calendar-overlap",
+    "site": "calendar"
+  },
+  {
+    "P": {
+      "captured_at": "2026-10-26T17:57:06.614Z",
+      "evidence_sha256": [
+        "cc2fbe767fa27d5b5b60626287aa26fcc70e68bb22f1426e1576aa132f74c851"
+      ],
+      "id": "calendar-late-P",
+      "records": [
+        "calendar-late-A1"
+      ],
+      "terminal": false,
+      "value": 1
+    },
+    "T": {
+      "captured_at": "2026-10-26T17:57:08.358Z",
+      "evidence_sha256": [
+        "749c90851150ae40123ac6d64d632b622853c897b204aec3f29aeac954e091f6",
+        "b0e20c87256b97f267e8991a79109d9c6d944e74b80cc8da00ee42d0852f2d87"
+      ],
+      "id": "calendar-late-T",
+      "producer_stopped": true,
+      "records": [
+        "calendar-late-A1",
+        "calendar-late-A2"
+      ],
+      "terminal": true,
+      "value": 2
+    },
+    "case": "late",
+    "counter_start": "CUA-USAGE-20261026-calendar-late",
+    "fixture": "calendar-late",
+    "site": "calendar"
+  },
+  {
+    "P": {
+      "captured_at": "2026-10-26T17:57:08.936Z",
+      "evidence_sha256": [
+        "745f98bff1fbc9784735aee393460d1b46cdb9f75dd03c26ada0286de51080e3"
+      ],
+      "id": "calendar-early-P",
+      "records": [],
+      "terminal": false,
+      "value": 0
+    },
+    "T": {
+      "captured_at": "2026-10-26T17:57:12.333Z",
+      "evidence_sha256": [
+        "50077547123d781c7489bda4b5d2530d54eb5eaee99a0c8b7804dedee21af7a5",
+        "905bd4d7043c1d1b228d3f368fb9aa1ddefeb2a430a39f3a010f3fceae9c4fcd"
+      ],
+      "id": "calendar-early-T",
+      "producer_stopped": true,
+      "records": [
+        "calendar-early-A1",
+        "calendar-early-A2"
+      ],
+      "terminal": true,
+      "value": 2
+    },
+    "case": "early",
+    "counter_start": "CUA-USAGE-20261026-calendar-early",
+    "fixture": "calendar-early",
+    "site": "calendar"
+  },
+  {
+    "P": {
+      "captured_at": "2026-10-26T17:57:12.987Z",
+      "evidence_sha256": [
+        "f028c76caf95e4c438ec3ca63886e620cab7fb87ecdffa32d5d4f21cbefe032a"
+      ],
+      "id": "calendar-duplicate-P",
+      "records": [],
+      "terminal": false,
+      "value": 0
+    },
+    "T": {
+      "captured_at": "2026-10-26T17:57:14.182Z",
+      "evidence_sha256": [
+        "1a0746ba2ecc8cfd46131c7f981852eb18aadb162020e476f53dc1d22f7a235e"
+      ],
+      "id": "calendar-duplicate-T",
+      "producer_stopped": true,
+      "records": [
+        "calendar-duplicate-A1"
+      ],
+      "terminal": true,
+      "value": 1
+    },
+    "case": "duplicate",
+    "counter_start": "CUA-USAGE-20261026-calendar-duplicate",
+    "fixture": "calendar-duplicate",
+    "site": "calendar"
+  }
+]

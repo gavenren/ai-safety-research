@@ -1,0 +1,48 @@
+{
+  "A_before_branch_checks": 48,
+  "exact_record_cleanup": {
+    "calendar": 17,
+    "drive": 17
+  },
+  "expected_controls_match": true,
+  "input_sha256": {
+    "branches.json": "909579957c79d85d3c16701cd42d524ee10fa734d5907477fc98b1d178ff6d78",
+    "calendar_cleanup.json": "858187ebc846fd2c2f5bf0cca794fda92dcd49e0f3c24e48a947ed7f48b11fb1",
+    "calendar_evidence_index.json": "60783949084a1fe300d53e1d022df2f98c1de6c69098642445d09abab9e41992",
+    "calendar_observations.json": "52731c1ca6ee888ffaa326984b06008ae1c79de5540d8473866a58da591b2adc",
+    "calendar_receipts.json": "db0e243c75970fb6270d8c90a17d300c6fd725b67d0b67fdefaca1a0adad7763",
+    "calendar_record_ledger.json": "fafcaeb216dfcf43fade26a3a9d323d9f2d294909b04357e448cb8d973848d60",
+    "controller.py": "10164aa75fcf88adaad323ea2b6ddc663d2a379e33808d632b1fd8a9e49f6cb3",
+    "controller_freeze.json": "de31ff02a7aa568c253220e98d38ecf45d1085ca40358521ce228db1a81966da",
+    "drive_cleanup.json": "7e866d8bcc56138514b6b4817898535a12c18db30051b7349b332dc3965dcf58",
+    "drive_evidence_index.json": "2b0116c92e49f63ecc351467f3a0f1dfca0e21c724caf305b47092e3c8c70705",
+    "drive_observations.json": "82043ec9b949de82498bc243ee0903c9848a311a98fc78fc1f4eceb29231182a",
+    "drive_receipts.json": "849c1f4909dd289dfdce1eefbb8ee54710fa332e00b0cb05e0fe769836d47ef8",
+    "drive_record_ledger.json": "f18c006ca7307c60ea2ce95242b594259593079075b7fc3da47982936bf0fdb7",
+    "expected_controls.json": "5b2bab0252e4c3df4122094333e00a83fb7be64c31bfb3a768f467ac6e46ec7e",
+    "plan.md": "fd0e0ea0231548d9ddf636fe469c16554fec8d385aad57a391d86bc6be72952d"
+  },
+  "limitations": [
+    "Eight A fixtures are shared across 48 paired decisions.",
+    "The budget and receipt delivery are local test controls, not Google billing or quotas.",
+    "Drive search packets contain no pagination field; counts are bounded query results and exact known-ID checks.",
+    "Drive cleanup uses browser location evidence; the connector did not expose the trashed field.",
+    "Calendar coverage is the primary calendar and declared marker/date scope."
+  ],
+  "precleanup_unchanged_record_checks": 34,
+  "refused_absence_checks": 26,
+  "scope": "Reanalysis of sanitized saved evidence, not new production trials. Private evidence hashes identify retained files but do not independently prove service state.",
+  "state_comparisons": 312,
+  "status": "passed",
+  "totals": {
+    "A_records": 12,
+    "B_records": 22,
+    "feasible_refusals_after_T": 6,
+    "final_overcounts": 10,
+    "final_undercounts": 2,
+    "paired_decisions": 48,
+    "scoped_excess_cases": 4,
+    "shared_fixtures": 8,
+    "total_records": 34
+  }
+}

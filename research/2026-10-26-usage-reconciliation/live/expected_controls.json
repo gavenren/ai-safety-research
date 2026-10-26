@@ -1,0 +1,53 @@
+{
+  "A_fixtures": 8,
+  "A_records": 12,
+  "B_records_expected": 22,
+  "kind": "independent manual controls, calculated in design_review.md before controller implementation; not live results",
+  "per_site": {
+    "AddEvery": {
+      "B": 0,
+      "excess_cases": 0,
+      "feasible_refusals_after_T": 2,
+      "overcounts": 3,
+      "undercounts": 0
+    },
+    "DedupSum": {
+      "B": 1,
+      "excess_cases": 0,
+      "feasible_refusals_after_T": 1,
+      "overcounts": 2,
+      "undercounts": 0
+    },
+    "HighWaterEarly": {
+      "B": 3,
+      "excess_cases": 1,
+      "feasible_refusals_after_T": 0,
+      "overcounts": 0,
+      "undercounts": 0
+    },
+    "HighWaterHeld": {
+      "B": 2,
+      "excess_cases": 0,
+      "feasible_refusals_after_T": 0,
+      "overcounts": 0,
+      "undercounts": 0
+    },
+    "LastValue": {
+      "B": 3,
+      "excess_cases": 1,
+      "feasible_refusals_after_T": 0,
+      "overcounts": 0,
+      "undercounts": 1
+    },
+    "TerminalOnly": {
+      "B": 2,
+      "excess_cases": 0,
+      "feasible_refusals_after_T": 0,
+      "overcounts": 0,
+      "undercounts": 0
+    }
+  },
+  "policy_decisions": 48,
+  "site_count": 2,
+  "temporary_records_expected_excluding_containers": 34
+}

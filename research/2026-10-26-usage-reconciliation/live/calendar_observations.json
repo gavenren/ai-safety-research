@@ -1,0 +1,3213 @@
+{
+  "observations": [
+    {
+      "ended_utc": "2026-10-26T17:56:10.579Z",
+      "evidence_file": "001-create-overlap-A1.json",
+      "evidence_sha256": "12a15cbe5d8f0f2496d4bb07859d36a71aaf1521caa47d374baa4b69bf8c93af",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:56:09.384Z",
+      "title_matches_alias": true,
+      "tool": "google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:56:14.970Z",
+      "evidence_file": "002-read-P-overlap-A1.json",
+      "evidence_sha256": "9881c43e10bcb142612bffdef6380fc463c22a1a451243a537766cce63f26a4d",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": "",
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:56:14.653Z",
+      "title_matches_alias": true,
+      "tool": "google_calendar_fetch",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:56:23.576Z",
+      "evidence_file": "003-read-P-full-overlap-A1.json",
+      "evidence_sha256": "7c3224e18841a69ec556d88702ad568ed270279d1a433969b51ecfd800750179",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:56:23.213Z",
+      "title_matches_alias": true,
+      "tool": "google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:56:42.519Z",
+      "evidence_file": "004-read-T-overlap-A1.json",
+      "evidence_sha256": "d6750a5ea0517f6e735e6a00bfe9a2df76e26f990bcae330a42a4352e4a8db65",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:56:42.124Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:06.121Z",
+      "evidence_file": "005-create-calendar-late-A1.json",
+      "evidence_sha256": "76f7f9205ec539fed940ec5e7910a08c9282dc174b03ad143d98cb498acd90d9",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:05.552Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:06.614Z",
+      "evidence_file": "006-read-P-calendar-late-A1.json",
+      "evidence_sha256": "cc2fbe767fa27d5b5b60626287aa26fcc70e68bb22f1426e1576aa132f74c851",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:06.238Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:07.343Z",
+      "evidence_file": "007-create-calendar-late-A2.json",
+      "evidence_sha256": "3be0fa84eb4ebcfb90bb886f480bfdc60b3ba45397647ad9259e985c3c097588",
+      "record_alias": "calendar-late-A2",
+      "returned_alias": "calendar-late-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:06.677Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:07.889Z",
+      "evidence_file": "008-read-T-calendar-late-A1.json",
+      "evidence_sha256": "749c90851150ae40123ac6d64d632b622853c897b204aec3f29aeac954e091f6",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:07.455Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:08.358Z",
+      "evidence_file": "009-read-T-calendar-late-A2.json",
+      "evidence_sha256": "b0e20c87256b97f267e8991a79109d9c6d944e74b80cc8da00ee42d0852f2d87",
+      "record_alias": "calendar-late-A2",
+      "returned_alias": "calendar-late-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:07.954Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:08.936Z",
+      "evidence_file": "010-empty-P-early.json",
+      "evidence_sha256": "745f98bff1fbc9784735aee393460d1b46cdb9f75dd03c26ada0286de51080e3",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-early",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:57:08.468Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:09.731Z",
+      "evidence_file": "011-create-calendar-early-A1.json",
+      "evidence_sha256": "d221ab070307288e2061ac15d363889138db3c0fce23f5f6b1a9ef5788798696",
+      "record_alias": "calendar-early-A1",
+      "returned_alias": "calendar-early-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:08.990Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:11.354Z",
+      "evidence_file": "012-create-calendar-early-A2.json",
+      "evidence_sha256": "7c01340bf329862f411b5f959c367c2fd9c60a170d7ec27f3592a9dd7efc97e9",
+      "record_alias": "calendar-early-A2",
+      "returned_alias": "calendar-early-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:09.847Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:11.904Z",
+      "evidence_file": "013-read-T-calendar-early-A1.json",
+      "evidence_sha256": "50077547123d781c7489bda4b5d2530d54eb5eaee99a0c8b7804dedee21af7a5",
+      "record_alias": "calendar-early-A1",
+      "returned_alias": "calendar-early-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:11.449Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:12.333Z",
+      "evidence_file": "014-read-T-calendar-early-A2.json",
+      "evidence_sha256": "905bd4d7043c1d1b228d3f368fb9aa1ddefeb2a430a39f3a010f3fceae9c4fcd",
+      "record_alias": "calendar-early-A2",
+      "returned_alias": "calendar-early-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:11.968Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:12.987Z",
+      "evidence_file": "015-empty-P-duplicate.json",
+      "evidence_sha256": "f028c76caf95e4c438ec3ca63886e620cab7fb87ecdffa32d5d4f21cbefe032a",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-duplicate",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:57:12.427Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:13.759Z",
+      "evidence_file": "016-create-calendar-duplicate-A1.json",
+      "evidence_sha256": "ae4f3d8ef832f7ab97749e320ec3d8ee4b184c2f2b4965a06d28c3965162c8e2",
+      "record_alias": "calendar-duplicate-A1",
+      "returned_alias": "calendar-duplicate-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:13.051Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:14.182Z",
+      "evidence_file": "017-read-T-calendar-duplicate-A1.json",
+      "evidence_sha256": "1a0746ba2ecc8cfd46131c7f981852eb18aadb162020e476f53dc1d22f7a235e",
+      "record_alias": "calendar-duplicate-A1",
+      "returned_alias": "calendar-duplicate-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:13.861Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:48.343Z",
+      "evidence_file": "018-A-before-calendar-overlap-AddEvery-calendar-overlap-A1.json",
+      "evidence_sha256": "e39016fa80eb8f9cad6cd08fce69f2ba60d6b01c975118b790511880e1f8e41c",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:47.971Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:49.029Z",
+      "evidence_file": "019-absent-B-calendar-overlap-AddEvery.json",
+      "evidence_sha256": "38403f74f3f56ecedead2a4c701612285c1aafb9f9240f9633ecd2c9f918b3bd",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-overlap-B-AddEvery",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:57:48.607Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:49.718Z",
+      "evidence_file": "020-A-before-calendar-overlap-DedupSum-calendar-overlap-A1.json",
+      "evidence_sha256": "6ceacdac3ba0cee75ddffbcde5677f66ff69fa4f5b0e46646f3e842ff64adf45",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:49.204Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:50.720Z",
+      "evidence_file": "021-absent-B-calendar-overlap-DedupSum.json",
+      "evidence_sha256": "dc6f7d8ac363dc903b590eede174cbace502fa1c2c1aca42d7ea01adff703b2f",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-overlap-B-DedupSum",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:57:49.913Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:51.293Z",
+      "evidence_file": "022-A-before-calendar-overlap-LastValue-calendar-overlap-A1.json",
+      "evidence_sha256": "5425195292921bcc6cce70b48b9bdfeae8df56d758c44cf6b8fc610df5adc562",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:50.896Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:52.053Z",
+      "evidence_file": "023-create-calendar-overlap-LastValue.json",
+      "evidence_sha256": "85a9e88b1b61ec37d73cb7b3e5404928d7a3d240930481cb41c1cada5e91bd3b",
+      "record_alias": "calendar-overlap-B-LastValue",
+      "returned_alias": "calendar-overlap-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:51.507Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:52.513Z",
+      "evidence_file": "024-read-B-calendar-overlap-LastValue.json",
+      "evidence_sha256": "e591b5a9a5f92d57cbf82f353d8944b9c330035328a031b1f9ece60b143658ac",
+      "record_alias": "calendar-overlap-B-LastValue",
+      "returned_alias": "calendar-overlap-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:52.169Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:53.169Z",
+      "evidence_file": "025-A-before-calendar-overlap-HighWaterEarly-calendar-overlap-A1.json",
+      "evidence_sha256": "cb9ea30db5cdade4ce2211c6a1357f307cf931affde1b8137201afe873e67025",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:52.697Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:54.062Z",
+      "evidence_file": "026-create-calendar-overlap-HighWaterEarly.json",
+      "evidence_sha256": "4a6a7fce2d8cf63a35b5ace18a8d8c80622f4b855e164927b16c98f77d20abab",
+      "record_alias": "calendar-overlap-B-HighWaterEarly",
+      "returned_alias": "calendar-overlap-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:53.391Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:54.671Z",
+      "evidence_file": "027-read-B-calendar-overlap-HighWaterEarly.json",
+      "evidence_sha256": "fc28e29841b263204609a6d596d4472373e0da9b93258701dd602a3439880e48",
+      "record_alias": "calendar-overlap-B-HighWaterEarly",
+      "returned_alias": "calendar-overlap-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:54.180Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:55.559Z",
+      "evidence_file": "028-A-before-calendar-overlap-HighWaterHeld-calendar-overlap-A1.json",
+      "evidence_sha256": "95dda94abce92645f8185c1527132af70d0582a407d4fc26e4c4242c63f0b461",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:54.856Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:56.352Z",
+      "evidence_file": "029-create-calendar-overlap-HighWaterHeld.json",
+      "evidence_sha256": "2242c244879ac6d7259acd4e271656acd2b94a501381be4e7aa67f1963c57a2d",
+      "record_alias": "calendar-overlap-B-HighWaterHeld",
+      "returned_alias": "calendar-overlap-B-HighWaterHeld",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:55.778Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:57.140Z",
+      "evidence_file": "030-read-B-calendar-overlap-HighWaterHeld.json",
+      "evidence_sha256": "f113ddc4730709eae37014d75c5720733389985fea082ac58bf9092eee6fb62e",
+      "record_alias": "calendar-overlap-B-HighWaterHeld",
+      "returned_alias": "calendar-overlap-B-HighWaterHeld",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:56.446Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:57.949Z",
+      "evidence_file": "031-A-before-calendar-overlap-TerminalOnly-calendar-overlap-A1.json",
+      "evidence_sha256": "b29821484744fef9ef1849edb02737cc582d9baf5a2447566107204daa4681ad",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:57.299Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:58.808Z",
+      "evidence_file": "032-create-calendar-overlap-TerminalOnly.json",
+      "evidence_sha256": "6cac7f375fd30b9635dafc784e821be81d78fd626dc70055188d68d6a5a9eb35",
+      "record_alias": "calendar-overlap-B-TerminalOnly",
+      "returned_alias": "calendar-overlap-B-TerminalOnly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:58.190Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:57:59.647Z",
+      "evidence_file": "033-read-B-calendar-overlap-TerminalOnly.json",
+      "evidence_sha256": "f10b080325aa271970e5543ea917f5f40adaa375b22d004239d706a3535b87ee",
+      "record_alias": "calendar-overlap-B-TerminalOnly",
+      "returned_alias": "calendar-overlap-B-TerminalOnly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:57:58.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:24.327Z",
+      "evidence_file": "034-A-before-calendar-late-AddEvery-calendar-late-A1.json",
+      "evidence_sha256": "3499a9f041ab942850756679f37c7d29026e0c37dc06d6e9c19a4399167a7864",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:23.973Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:24.720Z",
+      "evidence_file": "035-A-before-calendar-late-AddEvery-calendar-late-A2.json",
+      "evidence_sha256": "97cea95101db0544ae9cd949ffa1aef9edf5742a7585b41ddfbeada8fa58c8b8",
+      "record_alias": "calendar-late-A2",
+      "returned_alias": "calendar-late-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:24.378Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:25.336Z",
+      "evidence_file": "036-absent-B-calendar-late-AddEvery.json",
+      "evidence_sha256": "34a4a928adb1a6654a0cbe9aa33117e4c37591be67eb4eea479b7865d6f75842",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-late-B-AddEvery",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:24.918Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:25.873Z",
+      "evidence_file": "037-A-before-calendar-late-DedupSum-calendar-late-A1.json",
+      "evidence_sha256": "4803f5b3c9e49fa3f70c83c20e75db588ba4c6b7bd05913ec3a3763becaa7009",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:25.500Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:26.360Z",
+      "evidence_file": "038-A-before-calendar-late-DedupSum-calendar-late-A2.json",
+      "evidence_sha256": "9c45b66d32688971275b1d585b01ae2493e2d072e9a908067356bc86d8015e78",
+      "record_alias": "calendar-late-A2",
+      "returned_alias": "calendar-late-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:25.935Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:27.650Z",
+      "evidence_file": "039-absent-B-calendar-late-DedupSum.json",
+      "evidence_sha256": "1d23e7c5bd1152c1e6ae4aa0dcb07af5cff9ef8504982b443e42be0abc2bb02a",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-late-B-DedupSum",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:26.823Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:28.202Z",
+      "evidence_file": "040-A-before-calendar-late-LastValue-calendar-late-A1.json",
+      "evidence_sha256": "3a2a5c16115b5a7c7067c5dcf52fb338fe73530dc6c1b57872f6afd224405277",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:27.818Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:28.967Z",
+      "evidence_file": "041-A-before-calendar-late-LastValue-calendar-late-A2.json",
+      "evidence_sha256": "b17a9da9878623d81ce4cd01ecb91d2049f520c0255a13068010f48c27b75f9e",
+      "record_alias": "calendar-late-A2",
+      "returned_alias": "calendar-late-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:28.252Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:30.000Z",
+      "evidence_file": "042-create-calendar-late-LastValue.json",
+      "evidence_sha256": "d0af2277726d027a960e0b389f7753b9c1c0cb583a3f6e373791f378a280b09b",
+      "record_alias": "calendar-late-B-LastValue",
+      "returned_alias": "calendar-late-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:29.176Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:30.543Z",
+      "evidence_file": "043-read-B-calendar-late-LastValue.json",
+      "evidence_sha256": "6cfe977bc622c7a67bac5419af83740f5a5d3545a745e0a1477e9d1004496aaf",
+      "record_alias": "calendar-late-B-LastValue",
+      "returned_alias": "calendar-late-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:30.104Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:31.134Z",
+      "evidence_file": "044-A-before-calendar-late-HighWaterEarly-calendar-late-A1.json",
+      "evidence_sha256": "185b21a999c69cdd46b29a36fec5ab69848746f3e80b6d3dbfea80e34ebcad86",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:30.721Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:32.230Z",
+      "evidence_file": "045-A-before-calendar-late-HighWaterEarly-calendar-late-A2.json",
+      "evidence_sha256": "b7a48a6bccd826327f1a6e461ffd765f8f370867558acb43b74ff6881b6cdd9a",
+      "record_alias": "calendar-late-A2",
+      "returned_alias": "calendar-late-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:31.193Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:32.886Z",
+      "evidence_file": "046-absent-B-calendar-late-HighWaterEarly.json",
+      "evidence_sha256": "d913eb6cb66a09711512910692415c5163e59fb41518e118d468926f51efa4b6",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-late-B-HighWaterEarly",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:32.491Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:33.451Z",
+      "evidence_file": "047-A-before-calendar-late-HighWaterHeld-calendar-late-A1.json",
+      "evidence_sha256": "889b9ab6fbb187bc92a8c30a058e7bc02076a75ed49ccc8a93682b7efe62732c",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:33.087Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:33.884Z",
+      "evidence_file": "048-A-before-calendar-late-HighWaterHeld-calendar-late-A2.json",
+      "evidence_sha256": "e1502b0b0813e686d17b7006a3e0b0f8bc17dbdfdbd3ab305366b2d2f6d0d321",
+      "record_alias": "calendar-late-A2",
+      "returned_alias": "calendar-late-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:33.521Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:34.540Z",
+      "evidence_file": "049-absent-B-calendar-late-HighWaterHeld.json",
+      "evidence_sha256": "9ae20b2532b0815f6f25f69b293cb0b31ac8a9582570e7f243bff53394210265",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-late-B-HighWaterHeld",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:34.103Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:35.751Z",
+      "evidence_file": "050-A-before-calendar-late-TerminalOnly-calendar-late-A1.json",
+      "evidence_sha256": "01352cad0dcf749881424837be6826d64d167ae2ab602e40916ff2318023f8f1",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:34.729Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:36.244Z",
+      "evidence_file": "051-A-before-calendar-late-TerminalOnly-calendar-late-A2.json",
+      "evidence_sha256": "5595fd09855dc76343b7052a8f9824d462f3be61c90dd017468a81e725ef706a",
+      "record_alias": "calendar-late-A2",
+      "returned_alias": "calendar-late-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:35.826Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:37.127Z",
+      "evidence_file": "052-absent-B-calendar-late-TerminalOnly.json",
+      "evidence_sha256": "0368f081b3019210779247f16a58e60bc2ad352a59ceb88fe40291eab06ff1e5",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-late-B-TerminalOnly",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:36.477Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:37.886Z",
+      "evidence_file": "053-A-before-calendar-early-AddEvery-calendar-early-A1.json",
+      "evidence_sha256": "d77eb2702f196d0bc01931e2fbb659a6f51d1d62e0748b43bb4b3226a96b22fb",
+      "record_alias": "calendar-early-A1",
+      "returned_alias": "calendar-early-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:37.500Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:38.613Z",
+      "evidence_file": "054-A-before-calendar-early-AddEvery-calendar-early-A2.json",
+      "evidence_sha256": "bf3ff9e5c3d0558219a11dfe4f367b06d5bf9f654dc0783c2661404b88802f52",
+      "record_alias": "calendar-early-A2",
+      "returned_alias": "calendar-early-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:37.973Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:39.576Z",
+      "evidence_file": "055-absent-B-calendar-early-AddEvery.json",
+      "evidence_sha256": "e6293c7def2d9c2502516ea48a665bdc88796a0682a4efe608f268d4306827b2",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-early-B-AddEvery",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:38.961Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:40.480Z",
+      "evidence_file": "056-A-before-calendar-early-DedupSum-calendar-early-A1.json",
+      "evidence_sha256": "9b24efb1ec3a970749f34b865163c5d892a4c7d842e77097d266bd42f4857e92",
+      "record_alias": "calendar-early-A1",
+      "returned_alias": "calendar-early-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:39.993Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:40.925Z",
+      "evidence_file": "057-A-before-calendar-early-DedupSum-calendar-early-A2.json",
+      "evidence_sha256": "6d4c1bf47c1c6b319d230af41376acf1a28ffa072bbb81e155a74cc1b913e027",
+      "record_alias": "calendar-early-A2",
+      "returned_alias": "calendar-early-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:40.536Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:41.583Z",
+      "evidence_file": "058-absent-B-calendar-early-DedupSum.json",
+      "evidence_sha256": "eaa61ac3da59ddbe8e88e8e0c3f76ab618d7236b48d8dc76733c4f4fd429c0e8",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-early-B-DedupSum",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:41.137Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:42.160Z",
+      "evidence_file": "059-A-before-calendar-early-LastValue-calendar-early-A1.json",
+      "evidence_sha256": "9c1b4d5ccdf3fe67aee9db2e3c9f6bbf3a555faff45b64e9e78a20cc5c661378",
+      "record_alias": "calendar-early-A1",
+      "returned_alias": "calendar-early-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:41.768Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:42.560Z",
+      "evidence_file": "060-A-before-calendar-early-LastValue-calendar-early-A2.json",
+      "evidence_sha256": "042592085cbdfd8421539c308c05430cb47deadc514cf216cccccd160460852a",
+      "record_alias": "calendar-early-A2",
+      "returned_alias": "calendar-early-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:42.205Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:43.217Z",
+      "evidence_file": "061-absent-B-calendar-early-LastValue.json",
+      "evidence_sha256": "d00eabb6af18e4257ee3d435beab4b94d20369eff90ff2428781f3b88a8f8191",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-early-B-LastValue",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:42.803Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:43.780Z",
+      "evidence_file": "062-A-before-calendar-early-HighWaterEarly-calendar-early-A1.json",
+      "evidence_sha256": "c0722a1991cdf1b1eded51bd1199006d1a6fc9ecf539049378a8e4117bb6c6cb",
+      "record_alias": "calendar-early-A1",
+      "returned_alias": "calendar-early-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:43.408Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:44.304Z",
+      "evidence_file": "063-A-before-calendar-early-HighWaterEarly-calendar-early-A2.json",
+      "evidence_sha256": "5254254bdbc2b5b327d946d761be9ca925f80dc2556bc959dcce924c53493cd6",
+      "record_alias": "calendar-early-A2",
+      "returned_alias": "calendar-early-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:43.836Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:45.061Z",
+      "evidence_file": "064-create-calendar-early-HighWaterEarly.json",
+      "evidence_sha256": "dba352385c607846ae15c3bb74cfd53dd5753860bfc4cd27bdce062e6f28cef1",
+      "record_alias": "calendar-early-B-HighWaterEarly",
+      "returned_alias": "calendar-early-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:44.540Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:45.570Z",
+      "evidence_file": "065-read-B-calendar-early-HighWaterEarly.json",
+      "evidence_sha256": "baf94e66b5edd47dd027d98a393b5f59e85de89a89281986c7543c8dc28ebeb0",
+      "record_alias": "calendar-early-B-HighWaterEarly",
+      "returned_alias": "calendar-early-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:45.166Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:46.121Z",
+      "evidence_file": "066-A-before-calendar-early-HighWaterHeld-calendar-early-A1.json",
+      "evidence_sha256": "bfe37183f1aff8c1a4c0e7703a18ad04bd26c82174010fc54a53601d5a5aef6c",
+      "record_alias": "calendar-early-A1",
+      "returned_alias": "calendar-early-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:45.772Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:46.640Z",
+      "evidence_file": "067-A-before-calendar-early-HighWaterHeld-calendar-early-A2.json",
+      "evidence_sha256": "ea83c3ad412a89d2f37805ee8fd221ca593555d780501aa26f8fd267c939f4fe",
+      "record_alias": "calendar-early-A2",
+      "returned_alias": "calendar-early-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:46.188Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:47.213Z",
+      "evidence_file": "068-absent-B-calendar-early-HighWaterHeld.json",
+      "evidence_sha256": "463853486063fbe5a9248e93b7eea0baa878c07c7453d32f3200058cef24d01b",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-early-B-HighWaterHeld",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:46.835Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:47.771Z",
+      "evidence_file": "069-A-before-calendar-early-TerminalOnly-calendar-early-A1.json",
+      "evidence_sha256": "1da21485c9c553d2e711cd1dfd85928f125e387edcc3c2ac83a93e9abf42039e",
+      "record_alias": "calendar-early-A1",
+      "returned_alias": "calendar-early-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:47.390Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:48.224Z",
+      "evidence_file": "070-A-before-calendar-early-TerminalOnly-calendar-early-A2.json",
+      "evidence_sha256": "9301ca160381b53520c248ae6670117110e53e48c8d90b04763d27e066e44413",
+      "record_alias": "calendar-early-A2",
+      "returned_alias": "calendar-early-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:47.832Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:48.836Z",
+      "evidence_file": "071-absent-B-calendar-early-TerminalOnly.json",
+      "evidence_sha256": "0db1d36100ff17de38d86a910872354a28c112bcb980d5574178c2e3105d394b",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-early-B-TerminalOnly",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:48.437Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:49.511Z",
+      "evidence_file": "072-A-before-calendar-duplicate-AddEvery-calendar-duplicate-A1.json",
+      "evidence_sha256": "4d55e196dd84dc9e32fbb8137506a891d5a7ad743d5f93fbfbbfff40bbc4a269",
+      "record_alias": "calendar-duplicate-A1",
+      "returned_alias": "calendar-duplicate-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:49.019Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:50.276Z",
+      "evidence_file": "073-absent-B-calendar-duplicate-AddEvery.json",
+      "evidence_sha256": "665d28bae19ed70115977ebd6017b6baed428a6b0c4bd4fa35583aa8fc979c08",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL-duplicate-B-AddEvery",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T17:58:49.735Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:50.856Z",
+      "evidence_file": "074-A-before-calendar-duplicate-DedupSum-calendar-duplicate-A1.json",
+      "evidence_sha256": "90c676f85ee2a3197377598311761611ac67fc3ef43df0f41998dfcfbb89f1c6",
+      "record_alias": "calendar-duplicate-A1",
+      "returned_alias": "calendar-duplicate-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:50.463Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:52.068Z",
+      "evidence_file": "075-create-calendar-duplicate-DedupSum.json",
+      "evidence_sha256": "2a453270da69404791d03009d5ad4a63ca1abde49a9c97d41158bd3dafaae7fb",
+      "record_alias": "calendar-duplicate-B-DedupSum",
+      "returned_alias": "calendar-duplicate-B-DedupSum",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:51.059Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:52.642Z",
+      "evidence_file": "076-read-B-calendar-duplicate-DedupSum.json",
+      "evidence_sha256": "51b25f11f4c20bba8ba8aa02c869c8e6a3b923c25cc8bd4a163bf488b8c0ca12",
+      "record_alias": "calendar-duplicate-B-DedupSum",
+      "returned_alias": "calendar-duplicate-B-DedupSum",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:52.172Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:53.211Z",
+      "evidence_file": "077-A-before-calendar-duplicate-LastValue-calendar-duplicate-A1.json",
+      "evidence_sha256": "b5538f9dd5f645864243a2e876b1e9580accfbd25b790dd69150747882c5f7c2",
+      "record_alias": "calendar-duplicate-A1",
+      "returned_alias": "calendar-duplicate-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:52.829Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:53.982Z",
+      "evidence_file": "078-create-calendar-duplicate-LastValue.json",
+      "evidence_sha256": "ef0ed88ee6454179434b12ecd591b731f6b2ca6b29101c4153bb53d9f275e2ce",
+      "record_alias": "calendar-duplicate-B-LastValue",
+      "returned_alias": "calendar-duplicate-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:53.443Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:54.954Z",
+      "evidence_file": "079-read-B-calendar-duplicate-LastValue.json",
+      "evidence_sha256": "112b7af9b9e0c04a4ca66a16e3620cd77f78362ab2abbad33ce2cecef8943d14",
+      "record_alias": "calendar-duplicate-B-LastValue",
+      "returned_alias": "calendar-duplicate-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:54.079Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:55.555Z",
+      "evidence_file": "080-A-before-calendar-duplicate-HighWaterEarly-calendar-duplicate-A1.json",
+      "evidence_sha256": "85c731420bb0ce85effb25f37a1cc715031edf4619405c223776bcee216a1928",
+      "record_alias": "calendar-duplicate-A1",
+      "returned_alias": "calendar-duplicate-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:55.133Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:56.410Z",
+      "evidence_file": "081-create-calendar-duplicate-HighWaterEarly.json",
+      "evidence_sha256": "1ba8bcff21f883c78289c87b538c0d5cd1043853040ecfa45b8745c3716a2019",
+      "record_alias": "calendar-duplicate-B-HighWaterEarly",
+      "returned_alias": "calendar-duplicate-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:55.756Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:56.969Z",
+      "evidence_file": "082-read-B-calendar-duplicate-HighWaterEarly.json",
+      "evidence_sha256": "81770485d94ad68fdacf5378e2bb513eefc0d0502e9589b0652057f27c384d5d",
+      "record_alias": "calendar-duplicate-B-HighWaterEarly",
+      "returned_alias": "calendar-duplicate-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:56.518Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:57.504Z",
+      "evidence_file": "083-A-before-calendar-duplicate-HighWaterHeld-calendar-duplicate-A1.json",
+      "evidence_sha256": "35f3b40b71a2949c1cfb902140da768daa7c03a80bdfd736a3ce3423b2d53946",
+      "record_alias": "calendar-duplicate-A1",
+      "returned_alias": "calendar-duplicate-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:57.148Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:58.320Z",
+      "evidence_file": "084-create-calendar-duplicate-HighWaterHeld.json",
+      "evidence_sha256": "62f25132dbd9eaed70260f817f201f66eea8987b58664dfd291bc5607912142f",
+      "record_alias": "calendar-duplicate-B-HighWaterHeld",
+      "returned_alias": "calendar-duplicate-B-HighWaterHeld",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:57.710Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:58.882Z",
+      "evidence_file": "085-read-B-calendar-duplicate-HighWaterHeld.json",
+      "evidence_sha256": "337e14e16ad7030c00d94651d24698387e310e7fd6c99df4fe6006709d0677af",
+      "record_alias": "calendar-duplicate-B-HighWaterHeld",
+      "returned_alias": "calendar-duplicate-B-HighWaterHeld",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:58.446Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:58:59.527Z",
+      "evidence_file": "086-A-before-calendar-duplicate-TerminalOnly-calendar-duplicate-A1.json",
+      "evidence_sha256": "6897abca351a9a4dfdb320e72b58815784efe7df571023baea11415e7e0437a6",
+      "record_alias": "calendar-duplicate-A1",
+      "returned_alias": "calendar-duplicate-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:59.074Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:00.366Z",
+      "evidence_file": "087-create-calendar-duplicate-TerminalOnly.json",
+      "evidence_sha256": "a0c1e7818a0becf3cb3a1e76271add707440991b7bbe1fd855442264034251d5",
+      "record_alias": "calendar-duplicate-B-TerminalOnly",
+      "returned_alias": "calendar-duplicate-B-TerminalOnly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "hangout_link": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:58:59.719Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_create_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:01.084Z",
+      "evidence_file": "088-read-B-calendar-duplicate-TerminalOnly.json",
+      "evidence_sha256": "edf7bbdcc2a944be3d992ce1e5c41e3337d84eecf0cb60cc0a2f3eaf44c60c7b",
+      "record_alias": "calendar-duplicate-B-TerminalOnly",
+      "returned_alias": "calendar-duplicate-B-TerminalOnly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:00.485Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.419Z",
+      "evidence_file": "089-precleanup-calendar-overlap-A1.json",
+      "evidence_sha256": "be197dc9a09e1e764e4012bd481fdf142c685011210acb7dec1712c07d6d7f54",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.901Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.419Z",
+      "evidence_file": "090-precleanup-calendar-late-A1.json",
+      "evidence_sha256": "c7814c5ef720061542ebf58aa69f38ff4f07e92eb9e32e1d7c6b0dce62836d68",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.374Z",
+      "evidence_file": "091-precleanup-calendar-late-A2.json",
+      "evidence_sha256": "85b96b03b5ecc5f13735b4d6b7b3528e7c15502c3a49843a5f6dbfe11001de5c",
+      "record_alias": "calendar-late-A2",
+      "returned_alias": "calendar-late-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.393Z",
+      "evidence_file": "092-precleanup-calendar-early-A1.json",
+      "evidence_sha256": "8e9ca1478ff834aba26e59f60ab9254eade5729674b4180d98bf3aff6b3ade6d",
+      "record_alias": "calendar-early-A1",
+      "returned_alias": "calendar-early-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.356Z",
+      "evidence_file": "093-precleanup-calendar-early-A2.json",
+      "evidence_sha256": "61901668695f19d3fd929e31b790b9663e5af615a1b22724e3da3712361c19a8",
+      "record_alias": "calendar-early-A2",
+      "returned_alias": "calendar-early-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.570Z",
+      "evidence_file": "094-precleanup-calendar-duplicate-A1.json",
+      "evidence_sha256": "7bbe7d6238a0980f5d81e221ba720ee2423b067f2baccd47f672701328014e90",
+      "record_alias": "calendar-duplicate-A1",
+      "returned_alias": "calendar-duplicate-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.338Z",
+      "evidence_file": "095-precleanup-calendar-overlap-B-LastValue.json",
+      "evidence_sha256": "2d8f20d3b30738f8e5a0744556c2e1d8171ff49e3fca1eacbe3535d38fbdac96",
+      "record_alias": "calendar-overlap-B-LastValue",
+      "returned_alias": "calendar-overlap-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.419Z",
+      "evidence_file": "096-precleanup-calendar-overlap-B-HighWaterEarly.json",
+      "evidence_sha256": "3dd29dfcb03de3dfeb8ac3f297fccba6d31f995cf7cf2426005bc27066648770",
+      "record_alias": "calendar-overlap-B-HighWaterEarly",
+      "returned_alias": "calendar-overlap-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.326Z",
+      "evidence_file": "097-precleanup-calendar-overlap-B-HighWaterHeld.json",
+      "evidence_sha256": "e373abbe8045d7624e666f835cf41ff8e9f93ebcfa59079dabcf307ad19aa071",
+      "record_alias": "calendar-overlap-B-HighWaterHeld",
+      "returned_alias": "calendar-overlap-B-HighWaterHeld",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.337Z",
+      "evidence_file": "098-precleanup-calendar-overlap-B-TerminalOnly.json",
+      "evidence_sha256": "739bddfe201b68c7b7af3b5eb2c035972a79f33af56277a905e5ec70f1f905a7",
+      "record_alias": "calendar-overlap-B-TerminalOnly",
+      "returned_alias": "calendar-overlap-B-TerminalOnly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.334Z",
+      "evidence_file": "099-precleanup-calendar-late-B-LastValue.json",
+      "evidence_sha256": "220b38bd43d1b94e3f611b2588ee3bbe243bfba34a0a1a9a59d4e71016a10b64",
+      "record_alias": "calendar-late-B-LastValue",
+      "returned_alias": "calendar-late-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.457Z",
+      "evidence_file": "100-precleanup-calendar-early-B-HighWaterEarly.json",
+      "evidence_sha256": "ae50fdf6969f35adee172f76cb8f06d6b762a019317de69fce6852b4be01d202",
+      "record_alias": "calendar-early-B-HighWaterEarly",
+      "returned_alias": "calendar-early-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.346Z",
+      "evidence_file": "101-precleanup-calendar-duplicate-B-DedupSum.json",
+      "evidence_sha256": "67a6138b139ffdda6c8de264da4d2b3696aab940b7903ab78d4b34c9aaa8b565",
+      "record_alias": "calendar-duplicate-B-DedupSum",
+      "returned_alias": "calendar-duplicate-B-DedupSum",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.511Z",
+      "evidence_file": "102-precleanup-calendar-duplicate-B-LastValue.json",
+      "evidence_sha256": "c9299b65072845ed97007a1ebef6381346ba381317041bafbb22a6aab18b923a",
+      "record_alias": "calendar-duplicate-B-LastValue",
+      "returned_alias": "calendar-duplicate-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.348Z",
+      "evidence_file": "103-precleanup-calendar-duplicate-B-HighWaterEarly.json",
+      "evidence_sha256": "29ea92630c341c26dfe540e26bfb382320c29a4462f48d93b880268e7c61a4dd",
+      "record_alias": "calendar-duplicate-B-HighWaterEarly",
+      "returned_alias": "calendar-duplicate-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.528Z",
+      "evidence_file": "104-precleanup-calendar-duplicate-B-HighWaterHeld.json",
+      "evidence_sha256": "e175f29dc7a78a272a96bcbbf8f5b0b66d3d4f2faaf79884742acb4b21a48d85",
+      "record_alias": "calendar-duplicate-B-HighWaterHeld",
+      "returned_alias": "calendar-duplicate-B-HighWaterHeld",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:22.557Z",
+      "evidence_file": "105-precleanup-calendar-duplicate-B-TerminalOnly.json",
+      "evidence_sha256": "29fddd46d6d80572e07c1987856c8b51c0f29e313f61e43d75bd8f2bb06882a7",
+      "record_alias": "calendar-duplicate-B-TerminalOnly",
+      "returned_alias": "calendar-duplicate-B-TerminalOnly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "confirmed",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T17:59:21.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T17:59:23.615Z",
+      "evidence_file": "106-scope-precleanup.json",
+      "evidence_sha256": "417741d5e8f36c541efa579450141b8e706d57b188f126be13021036fd0fa3cb",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL",
+      "returned_aliases": [
+        "calendar-early-A2",
+        "calendar-duplicate-A1",
+        "calendar-early-A1",
+        "calendar-duplicate-B-LastValue",
+        "calendar-duplicate-B-TerminalOnly",
+        "calendar-late-A2",
+        "calendar-duplicate-B-HighWaterHeld",
+        "calendar-overlap-B-HighWaterEarly",
+        "calendar-duplicate-B-HighWaterEarly",
+        "calendar-overlap-A1",
+        "calendar-early-B-HighWaterEarly",
+        "calendar-overlap-B-HighWaterHeld",
+        "calendar-late-A1",
+        "calendar-late-B-LastValue",
+        "calendar-overlap-B-TerminalOnly",
+        "calendar-duplicate-B-DedupSum",
+        "calendar-overlap-B-LastValue"
+      ],
+      "started_utc": "2026-10-26T17:59:22.757Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:38.467Z",
+      "evidence_file": "107-delete-calendar-overlap-A1.json",
+      "evidence_sha256": "79ce974f5e8511a46218d75e163016b0358bb307d8bef76971b46f3cf560b32d",
+      "record_alias": "calendar-overlap-A1",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:37.844Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:38.987Z",
+      "evidence_file": "108-cancelled-calendar-overlap-A1.json",
+      "evidence_sha256": "0c5beb909431f088cd30eaf748930769011366a92b74d5e4ec2118aaa5158322",
+      "record_alias": "calendar-overlap-A1",
+      "returned_alias": "calendar-overlap-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:38.556Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:39.760Z",
+      "evidence_file": "109-delete-calendar-late-A1.json",
+      "evidence_sha256": "1e24cb90a00a49427b65d3b83b38bcce7dc1cc7b91f3d9e95316eb0b7cd72e92",
+      "record_alias": "calendar-late-A1",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:39.047Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:40.212Z",
+      "evidence_file": "110-cancelled-calendar-late-A1.json",
+      "evidence_sha256": "bd227d15fcbb61bee91bec5e2ce8c099874e46b6dfa27a8387f82b9358442621",
+      "record_alias": "calendar-late-A1",
+      "returned_alias": "calendar-late-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:39.827Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:40.969Z",
+      "evidence_file": "111-delete-calendar-late-A2.json",
+      "evidence_sha256": "1b645cbf7dc967a8eef277b7dfa6d4303509f85e7feaf288250ffeaabe50f7c0",
+      "record_alias": "calendar-late-A2",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:40.260Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:41.714Z",
+      "evidence_file": "112-cancelled-calendar-late-A2.json",
+      "evidence_sha256": "02363075177036866b8e1812b485c47ea4fcc818914030d5972a85554203c6f8",
+      "record_alias": "calendar-late-A2",
+      "returned_alias": "calendar-late-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:41.034Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:42.711Z",
+      "evidence_file": "113-delete-calendar-early-A1.json",
+      "evidence_sha256": "92539ff2bd993bcfaef7b9a61fe281902a0518e182cea918c438e04706c29898",
+      "record_alias": "calendar-early-A1",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:41.785Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:43.226Z",
+      "evidence_file": "114-cancelled-calendar-early-A1.json",
+      "evidence_sha256": "0aeacc1f5b526b9ba0a5678c645c2767fd8e14e875e6c0ddf3ac5bb513a076b3",
+      "record_alias": "calendar-early-A1",
+      "returned_alias": "calendar-early-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:42.776Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:43.851Z",
+      "evidence_file": "115-delete-calendar-early-A2.json",
+      "evidence_sha256": "31d0a6fbdaef3d76293a03f5632b8b2e5d119e32a491439718e2fdafb74c333c",
+      "record_alias": "calendar-early-A2",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:43.278Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:44.286Z",
+      "evidence_file": "116-cancelled-calendar-early-A2.json",
+      "evidence_sha256": "065529bfcc3cddfa0aec8ecd7b37d2003080f0c7286c59e554ca1b0bfe345aa3",
+      "record_alias": "calendar-early-A2",
+      "returned_alias": "calendar-early-A2",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:43.902Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:45.312Z",
+      "evidence_file": "117-delete-calendar-duplicate-A1.json",
+      "evidence_sha256": "e8203131d51f2a4c03573e441c17d8ce6af95a0441f3f8a1e970e8098b6d4ff8",
+      "record_alias": "calendar-duplicate-A1",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:44.335Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:45.763Z",
+      "evidence_file": "118-cancelled-calendar-duplicate-A1.json",
+      "evidence_sha256": "8d071404a4ad99585cf84134906442429e708561e3964d48a401ba130c442c98",
+      "record_alias": "calendar-duplicate-A1",
+      "returned_alias": "calendar-duplicate-A1",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:45.373Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:46.488Z",
+      "evidence_file": "119-delete-calendar-overlap-B-LastValue.json",
+      "evidence_sha256": "7c82f2602daee8721ab49ab0787a23027455e478013a7de400dc301facfd8e21",
+      "record_alias": "calendar-overlap-B-LastValue",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:45.813Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:47.000Z",
+      "evidence_file": "120-cancelled-calendar-overlap-B-LastValue.json",
+      "evidence_sha256": "2181d5ae3d19a638b10fd1cd2f52975e33eacd27033a88ffc07ff0ec72501df9",
+      "record_alias": "calendar-overlap-B-LastValue",
+      "returned_alias": "calendar-overlap-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:46.547Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:48.009Z",
+      "evidence_file": "121-delete-calendar-overlap-B-HighWaterEarly.json",
+      "evidence_sha256": "ed8daf863d4afe194865a161e26b888c7d4eee3d0cf9cefeb9ab15de6d549323",
+      "record_alias": "calendar-overlap-B-HighWaterEarly",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:47.052Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:48.743Z",
+      "evidence_file": "122-cancelled-calendar-overlap-B-HighWaterEarly.json",
+      "evidence_sha256": "9e580d73bc7b16b08dbd286ea0f5c43589ae54dd5a1b730b6080b6e8fe403c4d",
+      "record_alias": "calendar-overlap-B-HighWaterEarly",
+      "returned_alias": "calendar-overlap-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:48.079Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:49.423Z",
+      "evidence_file": "123-delete-calendar-overlap-B-HighWaterHeld.json",
+      "evidence_sha256": "085accc5fb9633ab4a68fb569928063aec85577bcf2d58f6553b46e0afc2f3f0",
+      "record_alias": "calendar-overlap-B-HighWaterHeld",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:48.811Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:49.994Z",
+      "evidence_file": "124-cancelled-calendar-overlap-B-HighWaterHeld.json",
+      "evidence_sha256": "6b81a1f5aff08e2155ebfbe4c2fce722662fb559bdb6051c1342027a9555be49",
+      "record_alias": "calendar-overlap-B-HighWaterHeld",
+      "returned_alias": "calendar-overlap-B-HighWaterHeld",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:49.471Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:50.837Z",
+      "evidence_file": "125-delete-calendar-overlap-B-TerminalOnly.json",
+      "evidence_sha256": "0fd4558e3fa4479ba0921ed5fbe5edb36f8e42bba4414fbc782f95e6f79eea7d",
+      "record_alias": "calendar-overlap-B-TerminalOnly",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:50.043Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:51.326Z",
+      "evidence_file": "126-cancelled-calendar-overlap-B-TerminalOnly.json",
+      "evidence_sha256": "fa77a202f324621a58f6e8d876715bf65ae3e70287161c69251efda3af4816f4",
+      "record_alias": "calendar-overlap-B-TerminalOnly",
+      "returned_alias": "calendar-overlap-B-TerminalOnly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:50.899Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:52.719Z",
+      "evidence_file": "127-delete-calendar-late-B-LastValue.json",
+      "evidence_sha256": "dec59d193ca7cf51162e96bf486d4dc7ea6d673a66eb20d13203f20a675cdc74",
+      "record_alias": "calendar-late-B-LastValue",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:51.377Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:53.218Z",
+      "evidence_file": "128-cancelled-calendar-late-B-LastValue.json",
+      "evidence_sha256": "275c31aa0a04319c221478be578d48266ac585423e96623290c058a43ee1ada4",
+      "record_alias": "calendar-late-B-LastValue",
+      "returned_alias": "calendar-late-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:52.787Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:54.005Z",
+      "evidence_file": "129-delete-calendar-early-B-HighWaterEarly.json",
+      "evidence_sha256": "c39bba37248dab485b401dd37083c5235138b17cb0a7edd4826c7c6fb7bba2e2",
+      "record_alias": "calendar-early-B-HighWaterEarly",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:53.266Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:54.792Z",
+      "evidence_file": "130-cancelled-calendar-early-B-HighWaterEarly.json",
+      "evidence_sha256": "09c800c695f9998dce0cb2e2cd5cb59eaa3ba74775d831bb022e07059dcbb882",
+      "record_alias": "calendar-early-B-HighWaterEarly",
+      "returned_alias": "calendar-early-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:54.072Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:55.489Z",
+      "evidence_file": "131-delete-calendar-duplicate-B-DedupSum.json",
+      "evidence_sha256": "8888a6b155028e55d8ffe5b9078ae42b2380ccc7ffe4ad6d72db59d64cc60117",
+      "record_alias": "calendar-duplicate-B-DedupSum",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:54.844Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:56.035Z",
+      "evidence_file": "132-cancelled-calendar-duplicate-B-DedupSum.json",
+      "evidence_sha256": "1e3ea8cec6bdda5d12f2d37acba65dffc34d5d40fd9493206ae392d26425c5a7",
+      "record_alias": "calendar-duplicate-B-DedupSum",
+      "returned_alias": "calendar-duplicate-B-DedupSum",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:55.548Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:56.645Z",
+      "evidence_file": "133-delete-calendar-duplicate-B-LastValue.json",
+      "evidence_sha256": "f3b0cf9ebb0587ce7e545a76fee75d167eb09ca505171e6fc3c5e5219f5d6479",
+      "record_alias": "calendar-duplicate-B-LastValue",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:56.084Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:57.264Z",
+      "evidence_file": "134-cancelled-calendar-duplicate-B-LastValue.json",
+      "evidence_sha256": "6c5811a11a67ec96ccdc97953980bc9ea688a35c90501cc68e02a466213a85f4",
+      "record_alias": "calendar-duplicate-B-LastValue",
+      "returned_alias": "calendar-duplicate-B-LastValue",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:56.708Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:57.833Z",
+      "evidence_file": "135-delete-calendar-duplicate-B-HighWaterEarly.json",
+      "evidence_sha256": "32fe67542e9569e916da8adae625d43b298d442f4129cc507ffb920d13aa845e",
+      "record_alias": "calendar-duplicate-B-HighWaterEarly",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:57.318Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:58.646Z",
+      "evidence_file": "136-cancelled-calendar-duplicate-B-HighWaterEarly.json",
+      "evidence_sha256": "d3af1cdfde708b06a64294c26bfab7761670e87bf938e7cf34a9ea149d045718",
+      "record_alias": "calendar-duplicate-B-HighWaterEarly",
+      "returned_alias": "calendar-duplicate-B-HighWaterEarly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:57.897Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:59.470Z",
+      "evidence_file": "137-delete-calendar-duplicate-B-HighWaterHeld.json",
+      "evidence_sha256": "bd464f702d528301be300a9f84e9ac241493935c4baa04c7eb5ce20eb855bfee",
+      "record_alias": "calendar-duplicate-B-HighWaterHeld",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:58.766Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:01:59.926Z",
+      "evidence_file": "138-cancelled-calendar-duplicate-B-HighWaterHeld.json",
+      "evidence_sha256": "5b7a2bf3d0902b757c18b8d8e12234df1222d0c558fdb3cf9b46fc53ebd006c9",
+      "record_alias": "calendar-duplicate-B-HighWaterHeld",
+      "returned_alias": "calendar-duplicate-B-HighWaterHeld",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:01:59.533Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:02:00.789Z",
+      "evidence_file": "139-delete-calendar-duplicate-B-TerminalOnly.json",
+      "evidence_sha256": "7b1d08b7401593b40929f8f1a634cc1fadd7cf302cf6a8848836bc371b3cdb28",
+      "record_alias": "calendar-duplicate-B-TerminalOnly",
+      "response_text": [
+        "Action completed."
+      ],
+      "started_utc": "2026-10-26T18:01:59.978Z",
+      "structured_content_present": false,
+      "tool": "mcp__codex_apps__google_calendar_delete_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:02:01.357Z",
+      "evidence_file": "140-cancelled-calendar-duplicate-B-TerminalOnly.json",
+      "evidence_sha256": "a2c7e2c74023bbcbcde1c37e9b5c487c189dfb92ffcd8b035513faca0bf4beab",
+      "record_alias": "calendar-duplicate-B-TerminalOnly",
+      "returned_alias": "calendar-duplicate-B-TerminalOnly",
+      "saved_fields": {
+        "attendees": [],
+        "end": "2026-11-02T12:05:00-05:00",
+        "event_type": "default",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-02T12:00:00-05:00",
+        "status": "cancelled",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "started_utc": "2026-10-26T18:02:00.852Z",
+      "title_matches_alias": true,
+      "tool": "mcp__codex_apps__google_calendar_read_event",
+      "tool_error": false
+    },
+    {
+      "ended_utc": "2026-10-26T18:02:02.006Z",
+      "evidence_file": "141-scope-after-cleanup.json",
+      "evidence_sha256": "517f81bae72f89e80c88b362345780f35f79f15c955d0d5f8f12824a400e7240",
+      "max_results": 100,
+      "next_page_token": null,
+      "query_marker": "CUA-USAGE-20261026-CAL",
+      "returned_aliases": [],
+      "started_utc": "2026-10-26T18:02:01.408Z",
+      "time_max": "2026-11-03T00:00:00-05:00",
+      "time_min": "2026-11-02T00:00:00-05:00",
+      "tool": "mcp__codex_apps__google_calendar_search_events",
+      "tool_error": false
+    }
+  ],
+  "raw_account_fields": "Retained privately; public evidence uses aliases and raw packet hashes. Hashes do not independently prove provider state.",
+  "schema_version": 1,
+  "scope": "primary calendar only; temporary test records"
+}

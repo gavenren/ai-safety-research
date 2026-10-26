@@ -1,0 +1,172 @@
+{
+  "active_marker_count": 0,
+  "active_scope_evidence_file": "cleanup_active_search.json",
+  "active_scope_evidence_sha256": "8b3550d789bf4b00abe2c571079000a0577aaa857905851f94d4456a1aa3ba7d",
+  "active_scope_observed_at": "2026-10-26T18:02:54.605Z",
+  "connector_trashed_boolean_observed": false,
+  "exact_child_breadcrumbs_verified": 17,
+  "method_limit": "The metadata connector omitted the requested trashed field. Cleanup uses exact-ID browser locations under Trash and a zero-result active test-scope query. This is not a per-record API trashed=true claim.",
+  "observation_note": "One initial late-A1 breadcrumb read was incomplete during page load. A later full read showed Trash, the test parent, and the exact child. No extra mutation occurred. Later reads wait for the exact folder name.",
+  "parent": {
+    "alias": "drive-test-parent",
+    "evidence_file": "trash-parent-loaded.txt",
+    "evidence_sha256": "488f1eb1dc54e567bbdd09dccec16290c2b99ff157ac680b2716515d2820340c",
+    "trash_breadcrumb_verified": true
+  },
+  "permanent_deletion": false,
+  "records": [
+    {
+      "alias": "drive-overlap-A1",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-overlap-A1.txt",
+      "evidence_sha256": "b81b16ab91001eabc9ca7316103b6e2ae07d481742f2bbd241bfbd447be85c8d",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:01:44.656Z"
+    },
+    {
+      "alias": "drive-late-A1",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-late-A1-fresh.txt",
+      "evidence_sha256": "6da1c5885cf36898e2f0881ceb2e2e706dceed26b4bd9c66e64eb0a51edeea68",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:04:55.904Z"
+    },
+    {
+      "alias": "drive-late-A2",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-late-A2.txt",
+      "evidence_sha256": "46921e7654d34310cd269c6d7e68c2325e22d1543e2b581365d996a4ada32057",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:24.330Z"
+    },
+    {
+      "alias": "drive-early-A1",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-early-A1.txt",
+      "evidence_sha256": "2c5250ef3e635c5641d28fe299ea653ef4dc1614fca03f6ae143448e119b5b43",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:25.865Z"
+    },
+    {
+      "alias": "drive-early-A2",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-early-A2.txt",
+      "evidence_sha256": "79039b65884a43c92c47df37a43e403d8042d7190473a4914af05ca9003c37f4",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:27.437Z"
+    },
+    {
+      "alias": "drive-duplicate-A1",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-duplicate-A1.txt",
+      "evidence_sha256": "540367ad362df7bfbfd951540ac9d0bb0af3efc064d8821f4fc7c41541bd01b4",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:29.069Z"
+    },
+    {
+      "alias": "drive-overlap-B-LastValue",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-overlap-B-LastValue.txt",
+      "evidence_sha256": "a0068b37f83d1f4a292e30491e02ecd7d8788952e5c81fcf48e9a97805149240",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:30.741Z"
+    },
+    {
+      "alias": "drive-overlap-B-HighWaterEarly",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-overlap-B-HighWaterEarly.txt",
+      "evidence_sha256": "2f3d4942f2bd992344174469cf1eb26274a506bd7ac969f4218979371e8ef5fa",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:32.237Z"
+    },
+    {
+      "alias": "drive-overlap-B-HighWaterHeld",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-overlap-B-HighWaterHeld.txt",
+      "evidence_sha256": "9687dffb6a98b560a68d6dedc07472e52b49d5febe32c237f40e48080d037d29",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:33.851Z"
+    },
+    {
+      "alias": "drive-overlap-B-TerminalOnly",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-overlap-B-TerminalOnly.txt",
+      "evidence_sha256": "d837bc4e611c90dc2aa94d6b097d98085d7131a5aa850ad2eade9a4cbd4a889e",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:35.280Z"
+    },
+    {
+      "alias": "drive-late-B-LastValue",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-late-B-LastValue.txt",
+      "evidence_sha256": "e72c238e73ad1e509edd26856026979b9a6f6dd1ec4633b0e76c767e74ee5900",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:36.767Z"
+    },
+    {
+      "alias": "drive-early-B-HighWaterEarly",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-early-B-HighWaterEarly.txt",
+      "evidence_sha256": "9d7446476b3ca66e7fa7387346cdabcdfa73a4555965d06703786e7e7b69e0d2",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:38.318Z"
+    },
+    {
+      "alias": "drive-duplicate-B-DedupSum",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-duplicate-B-DedupSum.txt",
+      "evidence_sha256": "c86e6c4db29350a5261e9b32ed2dbbd4ff5bec04175331447f471dd93c1f1707",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:39.784Z"
+    },
+    {
+      "alias": "drive-duplicate-B-LastValue",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-duplicate-B-LastValue.txt",
+      "evidence_sha256": "4494872b953685cd38f6c9a65371bdc6d5f2164b1426215cbdc6cb6b1800c3d8",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:41.193Z"
+    },
+    {
+      "alias": "drive-duplicate-B-HighWaterEarly",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-duplicate-B-HighWaterEarly.txt",
+      "evidence_sha256": "6da890b5bdb0660128d16dd21dcd51ed9de136b19ee1cf16884c5ac287d23265",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:43.275Z"
+    },
+    {
+      "alias": "drive-duplicate-B-HighWaterHeld",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-duplicate-B-HighWaterHeld.txt",
+      "evidence_sha256": "61a01f5264527351c3888738a738f2ddc3bc97619e8f03803efa1a55d982302c",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:44.652Z"
+    },
+    {
+      "alias": "drive-duplicate-B-TerminalOnly",
+      "breadcrumb_has_trash_parent_and_child": true,
+      "evidence_file": "cleanup-drive-duplicate-B-TerminalOnly.txt",
+      "evidence_sha256": "73af0bdae141d2df3f069e61d95af4f9adb37e5422213e05a51f8626b419aa85",
+      "exact_id_location_opened": true,
+      "method": "Exact-ID browser location and retained breadcrumb evidence",
+      "observed_at": "2026-10-26T18:02:46.194Z"
+    }
+  ]
+}
