@@ -1,0 +1,18 @@
+{
+  "browser": "Chrome authenticated production account; exact build not collected",
+  "connector_build": "not exposed",
+  "machine": "arm64",
+  "macos": "26.7.2",
+  "model": "Codex; exact model build not exposed",
+  "network_actions": "12 create, 36 exact read, 12 delete, 3 bounded search; 12 browser editor zone reads; no browser save",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "random_seed": null,
+  "system": "Darwin",
+  "tools": [
+    "google_calendar_create_event",
+    "google_calendar_read_event",
+    "google_calendar_search_events",
+    "google_calendar_delete_event",
+    "cua_repl"
+  ]
+}

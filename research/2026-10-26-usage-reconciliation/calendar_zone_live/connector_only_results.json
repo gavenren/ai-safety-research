@@ -1,0 +1,434 @@
+[
+  {
+    "alias": "CZ01",
+    "condition": "complete",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ01",
+      "observed_at": "2026-10-26T21:30:57.261Z",
+      "evidence_sha256": [
+        "8ee4570294bf207f801293e2a8cde41039e1fa3d520f3f3bc0403e6f458fbe83"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ01",
+        "start": "2026-11-04T12:00:00-05:00",
+        "end": "2026-11-04T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.146405+00:00"
+  },
+  {
+    "alias": "CZ02",
+    "condition": "missing_zone",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ02",
+      "observed_at": "2026-10-26T21:30:57.305Z",
+      "evidence_sha256": [
+        "12600948588e2a38f5d7b855c1cbe64e15ae7d77c277a83f70a907df97ebbbd7"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ02",
+        "start": "2026-11-04T12:00:00-05:00",
+        "end": "2026-11-04T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.146750+00:00"
+  },
+  {
+    "alias": "CZ03",
+    "condition": "missing_end_zone",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ03",
+      "observed_at": "2026-10-26T21:30:57.570Z",
+      "evidence_sha256": [
+        "d03f3b18d82bd37b2915ad1017a0f9259211095a3e284b9083eea58c81b659ae"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ03",
+        "start": "2026-11-04T12:00:00-05:00",
+        "end": "2026-11-04T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.147378+00:00"
+  },
+  {
+    "alias": "CZ04",
+    "condition": "incorrect_supplied_zone",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ04",
+      "observed_at": "2026-10-26T21:30:57.324Z",
+      "evidence_sha256": [
+        "016ccf613fc7d597bb3400b4ee420f617119b60968d55c4cc1a01fdba09f8d05"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ04",
+        "start": "2026-11-04T12:00:00-05:00",
+        "end": "2026-11-04T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.147475+00:00"
+  },
+  {
+    "alias": "CZ05",
+    "condition": "incorrect_saved_zone",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ05",
+      "observed_at": "2026-10-26T21:30:57.483Z",
+      "evidence_sha256": [
+        "f71e971fef453273a31288f51e49bb2f3e7a71b92cedc16891d20a9781dd53a5"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ05",
+        "start": "2026-11-04T12:00:00-05:00",
+        "end": "2026-11-04T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.147555+00:00"
+  },
+  {
+    "alias": "CZ06",
+    "condition": "unverified_zone",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ06",
+      "observed_at": "2026-10-26T21:30:57.279Z",
+      "evidence_sha256": [
+        "265d532ce41fb0dd295199e966f287abf040a698b87cc75c6c6d2ad4d48b4e19"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ06",
+        "start": "2026-11-04T12:00:00-05:00",
+        "end": "2026-11-04T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.147627+00:00"
+  },
+  {
+    "alias": "CZ07",
+    "condition": "complete",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ07",
+      "observed_at": "2026-10-26T21:30:57.270Z",
+      "evidence_sha256": [
+        "96e6ee740c637eb5eb99c21d26e8a120a509bfb2c269cf3530894e7c82fb0edc"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ07",
+        "start": "2026-11-05T12:00:00-05:00",
+        "end": "2026-11-05T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.147695+00:00"
+  },
+  {
+    "alias": "CZ08",
+    "condition": "missing_zone",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ08",
+      "observed_at": "2026-10-26T21:30:57.263Z",
+      "evidence_sha256": [
+        "26f145082693df7ac4b11e5acccac98bbd38fefd7ba4cf8b647b4233ac377265"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ08",
+        "start": "2026-11-05T12:00:00-05:00",
+        "end": "2026-11-05T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.147763+00:00"
+  },
+  {
+    "alias": "CZ09",
+    "condition": "missing_end_zone",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ09",
+      "observed_at": "2026-10-26T21:30:57.697Z",
+      "evidence_sha256": [
+        "7bd1b5814a8fd2fd565ce43e002745c8fc2ea28c7876e8a7de262c13ab9726f2"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ09",
+        "start": "2026-11-05T12:00:00-05:00",
+        "end": "2026-11-05T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.147828+00:00"
+  },
+  {
+    "alias": "CZ10",
+    "condition": "incorrect_supplied_zone",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ10",
+      "observed_at": "2026-10-26T21:30:57.391Z",
+      "evidence_sha256": [
+        "baa446e7eb5827738e49cd3f2ccc6120db76f855401123a4493d774fbf4abea2"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ10",
+        "start": "2026-11-05T12:00:00-05:00",
+        "end": "2026-11-05T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.147893+00:00"
+  },
+  {
+    "alias": "CZ11",
+    "condition": "incorrect_saved_zone",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ11",
+      "observed_at": "2026-10-26T21:30:57.381Z",
+      "evidence_sha256": [
+        "29a52687fde523302b5a0c4d095b43c08695d2e21ad7c2a5a2861ef7e4c9ba06"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ11",
+        "start": "2026-11-05T12:00:00-05:00",
+        "end": "2026-11-05T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.147960+00:00"
+  },
+  {
+    "alias": "CZ12",
+    "condition": "unverified_zone",
+    "phase": "connector_only",
+    "injection": "zone_not_returned_by_connector",
+    "observation": {
+      "record_alias": "CZ12",
+      "observed_at": "2026-10-26T21:30:57.420Z",
+      "evidence_sha256": [
+        "4f7722230b2ee896c085808bc22a09e60f01c2238440bec92fd882a2de2dc60e"
+      ],
+      "fields": {
+        "summary": "CUA-CZ-20261026-N1-CZ12",
+        "start": "2026-11-05T12:00:00-05:00",
+        "end": "2026-11-05T12:05:00-05:00",
+        "visibility": "private",
+        "transparency": "transparent",
+        "attendees": [],
+        "reminders": {
+          "use_default": false,
+          "overrides": []
+        },
+        "recurrence": null,
+        "hangout_link": null,
+        "status": "confirmed"
+      },
+      "timezone_label_returned": false
+    },
+    "zone_input": null,
+    "result": {
+      "decision": "reject",
+      "reason": "missing_exact_record_timezone"
+    },
+    "field_only_baseline_accepts": true,
+    "evaluated_at": "2026-10-26T21:31:05.148025+00:00"
+  }
+]

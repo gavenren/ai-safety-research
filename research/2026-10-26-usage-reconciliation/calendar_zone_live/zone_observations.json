@@ -1,0 +1,134 @@
+[
+  {
+    "alias": "CZ01",
+    "observed_at": "2026-10-26T21:31:29.223Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "end_observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "verified": true,
+    "evidence_sha256": [
+      "45a1a1c7521fa2ac8b6323bae5972e8ec5ee36078a498d3c68c40db0966309fa"
+    ]
+  },
+  {
+    "alias": "CZ02",
+    "observed_at": "2026-10-26T21:31:36.189Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "end_observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "verified": true,
+    "evidence_sha256": [
+      "173690ca1e6d0e6f83ac88faf9d0af7766d8897e14a5b40b68c17e59e06b4b92"
+    ]
+  },
+  {
+    "alias": "CZ03",
+    "observed_at": "2026-10-26T21:31:40.711Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "end_observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "verified": true,
+    "evidence_sha256": [
+      "788c82387e017b65abe15aabd3697d7999228819d7663e48e23d02e319bb69fa"
+    ]
+  },
+  {
+    "alias": "CZ04",
+    "observed_at": "2026-10-26T21:31:46.619Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "end_observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "verified": true,
+    "evidence_sha256": [
+      "d9f304c536b17826093dfac67bd970d83a0e8dc5bb2c7df42df60773b516bf39"
+    ]
+  },
+  {
+    "alias": "CZ05",
+    "observed_at": "2026-10-26T21:31:52.487Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - New York",
+    "end_observed_label": "(GMT-04:00) Eastern Time - New York",
+    "verified": true,
+    "evidence_sha256": [
+      "45112ab33698ae677a546ccddd50ec19c2f0b7b9b3f5a5c0475fdd7fb43204cd"
+    ]
+  },
+  {
+    "alias": "CZ06",
+    "observed_at": "2026-10-26T21:32:00.094Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "end_observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "verified": true,
+    "evidence_sha256": [
+      "0c9b9bd013d0875e781336e66eaac325c55c7775df624bdb769354cdaac3e195"
+    ]
+  },
+  {
+    "alias": "CZ07",
+    "observed_at": "2026-10-26T21:32:06.145Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "end_observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "verified": true,
+    "evidence_sha256": [
+      "c106a80e0f9f5c00e466c15b8a88cf73015506345ca2b51127fe3b6837d2abca"
+    ]
+  },
+  {
+    "alias": "CZ08",
+    "observed_at": "2026-10-26T21:32:12.120Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "end_observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "verified": true,
+    "evidence_sha256": [
+      "36f312330ddccc5ecf2dbb49196c35e0e2256148fba2b745885cc1e0b79f68b9"
+    ]
+  },
+  {
+    "alias": "CZ09",
+    "observed_at": "2026-10-26T21:32:18.581Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "end_observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "verified": true,
+    "evidence_sha256": [
+      "8ba2149b934967f7ffd85fc40e0562445a1128707266084f74059b52ff818e8e"
+    ]
+  },
+  {
+    "alias": "CZ10",
+    "observed_at": "2026-10-26T21:32:26.835Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "end_observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "verified": true,
+    "evidence_sha256": [
+      "89f8091009456460d36da9f72ad1d5bd02fec63ad1d21c27aa42a480b83195e1"
+    ]
+  },
+  {
+    "alias": "CZ11",
+    "observed_at": "2026-10-26T21:32:33.462Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - New York",
+    "end_observed_label": "(GMT-04:00) Eastern Time - New York",
+    "verified": true,
+    "evidence_sha256": [
+      "d18e0f24685c6d78b41f75c5a3b36b1cc1e93b1e2324ea6a9461844b529b20f4"
+    ]
+  },
+  {
+    "alias": "CZ12",
+    "observed_at": "2026-10-26T21:32:39.562Z",
+    "expected_timezone": "America/Toronto",
+    "observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "end_observed_label": "(GMT-04:00) Eastern Time - Toronto",
+    "verified": true,
+    "evidence_sha256": [
+      "40a9243fa500f4f66d492e7a36675718a4505e3a5461df9da6e9390f3ea9dd2c"
+    ]
+  }
+]

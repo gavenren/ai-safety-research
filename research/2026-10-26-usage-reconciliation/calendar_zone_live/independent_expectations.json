@@ -1,0 +1,48 @@
+{
+  "reviewer": "Codex child agent calendar_zone_audit",
+  "recorded_at": "2026-10-26T21:29:31Z",
+  "stage": "before new account evidence",
+  "implementation_read": "outputs/2026-10-26-usage-reconciliation/guarded/calendar_adapter.py",
+  "scope": "12 new temporary events; 2 events per condition; 3 planned evaluations per event",
+  "preconditions": [
+    "All ten required returned fields exist and match the intended payload except the zone condition under test.",
+    "Returned status is confirmed and aliases identify the exact new record.",
+    "The intended zone is America/Toronto for every event.",
+    "Saved America/New_York events use the same absolute start and end times as the Toronto target, so the test isolates named-zone evidence.",
+    "The final evidence reads both zone labels from the exact event editor and cancels without saving."
+  ],
+  "conditions": [
+    {"condition": "correct_complete", "events": 2, "saved_zone": "America/Toronto", "connector_only": "missing_exact_record_timezone", "assigned": "saved", "final_exact_record_evidence": "saved"},
+    {"condition": "missing_zone_object", "events": 2, "saved_zone": "America/Toronto", "connector_only": "missing_exact_record_timezone", "assigned": "missing_exact_record_timezone", "final_exact_record_evidence": "saved"},
+    {"condition": "missing_end_label", "events": 2, "saved_zone": "America/Toronto", "connector_only": "missing_exact_record_timezone", "assigned": "timezone_label_mismatch", "final_exact_record_evidence": "saved"},
+    {"condition": "incorrect_supplied_label", "events": 2, "saved_zone": "America/Toronto", "connector_only": "missing_exact_record_timezone", "assigned": "timezone_label_mismatch", "final_exact_record_evidence": "saved"},
+    {"condition": "incorrect_saved_zone", "events": 2, "saved_zone": "America/New_York", "connector_only": "missing_exact_record_timezone", "assigned": "timezone_label_mismatch", "final_exact_record_evidence": "timezone_label_mismatch"},
+    {"condition": "unverified_evidence", "events": 2, "saved_zone": "America/Toronto", "connector_only": "missing_exact_record_timezone", "assigned": "timezone_not_verified", "final_exact_record_evidence": "saved"}
+  ],
+  "expected_totals_if_all_trials_meet_preconditions": {
+    "new_events": 12,
+    "correctly_saved_events": 10,
+    "incorrectly_saved_named_zone_events": 2,
+    "connector_only": {"saved": 0, "rejected": 12},
+    "assigned": {"saved": 2, "rejected": 10},
+    "final_exact_record_evidence": {"saved": 10, "rejected": 2},
+    "all_evaluations": {"saved": 12, "rejected": 24, "total": 36}
+  },
+  "success_criteria": [
+    "No saved proof from a missing, unverified, or incorrect zone input.",
+    "Both positive controls produce a saved proof when complete evidence is available.",
+    "Ten correct records can produce a saved proof from valid exact-record evidence.",
+    "Both wrong named-zone records remain rejected even when UTC offsets match.",
+    "No retry creates a second event, and no proof evaluation writes to Calendar.",
+    "All 12 exact IDs are deleted and a bounded marker search has no active results."
+  ],
+  "comparison": "A field-only acceptance rule that omits named-zone evidence accepts all matching connector field sets. This is a local counterfactual baseline, not a second set of website operations.",
+  "limits": [
+    "These selected events are not independent samples of production failure rates.",
+    "The adapter trusts extracted evidence and does not authenticate it.",
+    "Missing end labels and incorrect supplied labels are local evidence changes, not provider errors.",
+    "The same records occur in all three phases; 36 decisions are not 36 new events.",
+    "A missing zone blocks a full-field claim even when the saved record is actually correct.",
+    "The checker is restricted to the current English Toronto labels."
+  ]
+}

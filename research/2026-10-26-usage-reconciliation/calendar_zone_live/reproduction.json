@@ -1,0 +1,16 @@
+{
+  "complete_runs": 2,
+  "files": {
+    "summary.json": {
+      "equal": true,
+      "size": 630,
+      "sha256": "42107590a12fe69f045417dbeb31d76bb01784a4f200d0046e0b2ef576ecbdb1"
+    },
+    "decisions.csv": {
+      "equal": true,
+      "size": 2680,
+      "sha256": "566fa0f4f6442cdb54688103223c9a1a923ca6924966589e887f128c107b46ee"
+    }
+  },
+  "note": "Saved-input analysis, not additional account trials. Earlier incomplete attempts are disclosed in deviations.md."
+}

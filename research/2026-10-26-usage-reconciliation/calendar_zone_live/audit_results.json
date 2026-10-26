@@ -1,0 +1,2361 @@
+{
+  "reviewer": "Codex child agent calendar_zone_audit",
+  "scope": "Independent audit of new event records, exact UI evidence, decisions, cleanup, final result text and public replay.",
+  "assertions": 558,
+  "all_passed": true,
+  "phase_counts": {
+    "connector_only": {
+      "accept": 0,
+      "reject": 12
+    },
+    "assigned": {
+      "accept": 2,
+      "reject": 10
+    },
+    "complete": {
+      "accept": 10,
+      "reject": 2
+    }
+  },
+  "new_events": 12,
+  "distinct_accepted_records": 10,
+  "accepted_outputs": 12,
+  "rejected_outputs": 24,
+  "rejection_to_acceptance_after_complete_evidence": 8,
+  "wrong_saved_zone_records_rejected": 2,
+  "cleanup": {
+    "cancelled_exact_ids": 12,
+    "bounded_marker_active_events": 0,
+    "next_page_token": null,
+    "scope": "Primary calendar, exact test marker, 2026-11-04T00:00:00Z to 2026-11-06T00:00:00Z",
+    "search_evidence_sha256": "187f438f68636851f58ab94a50389852ccab75c1297074e88a22715955d188a6",
+    "receipts": [
+      {
+        "alias": "CZ01",
+        "status": "cancelled",
+        "evidence_sha256": "d19f1c78c944c1aa849f1a79c75ad646c41928f851f43c7583174b65ca87c88b"
+      },
+      {
+        "alias": "CZ02",
+        "status": "cancelled",
+        "evidence_sha256": "9ae03b58886c61ea5470f601e6d48bda6788e07015bf6f4d28b697584a113381"
+      },
+      {
+        "alias": "CZ03",
+        "status": "cancelled",
+        "evidence_sha256": "fb7a954023516f3c1265ea36f8a4c3995b0f1057404f923728f3b52af25a8e63"
+      },
+      {
+        "alias": "CZ04",
+        "status": "cancelled",
+        "evidence_sha256": "42e1d075a5d7f46df39c8167c0c50fb846ca6baeb5fd2ec874521dad4595d388"
+      },
+      {
+        "alias": "CZ05",
+        "status": "cancelled",
+        "evidence_sha256": "01fdba4b1840bc2145b6781d8c8c99eca1e8b693010b7d3d1929e068365bf49b"
+      },
+      {
+        "alias": "CZ06",
+        "status": "cancelled",
+        "evidence_sha256": "538d2324b2ca2edbbcaa521d46db0260e2a55921fac778ce65079161046913d6"
+      },
+      {
+        "alias": "CZ07",
+        "status": "cancelled",
+        "evidence_sha256": "0e32b4b7158f9fdef44a8531c1cd5cc18ea2ec2299fcd508ee8127a761ceaf1e"
+      },
+      {
+        "alias": "CZ08",
+        "status": "cancelled",
+        "evidence_sha256": "c8e5231d6ca5d2b210acbe01fdafa7214f979b83755c63473f4d1e46555249e3"
+      },
+      {
+        "alias": "CZ09",
+        "status": "cancelled",
+        "evidence_sha256": "1287fdf6c44556e3dbbae29d08e927dfd3f68e686e34f5f54e94d1fbbc5e5560"
+      },
+      {
+        "alias": "CZ10",
+        "status": "cancelled",
+        "evidence_sha256": "05ee37d1eeaa45d274ad4de56d6358c6224cec07e6d7993bb0e45fe03e86787d"
+      },
+      {
+        "alias": "CZ11",
+        "status": "cancelled",
+        "evidence_sha256": "69bcc0a7d571ebc768af456c4cef664289fa74890be6c3646509f991c9181bee"
+      },
+      {
+        "alias": "CZ12",
+        "status": "cancelled",
+        "evidence_sha256": "5aabf521d218cfde49a997c9b23f3bf6e49df1fb3f9164f3661b06e436b6f32a"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check": "frozen plan.md",
+      "passed": true
+    },
+    {
+      "check": "frozen cases.json",
+      "passed": true
+    },
+    {
+      "check": "frozen calendar_adapter.py",
+      "passed": true
+    },
+    {
+      "check": "frozen evaluate.py",
+      "passed": true
+    },
+    {
+      "check": "same repaired adapter",
+      "passed": true
+    },
+    {
+      "check": "twelve cases",
+      "passed": true
+    },
+    {
+      "check": "twelve distinct IDs",
+      "passed": true
+    },
+    {
+      "check": "twelve observations and connector decisions",
+      "passed": true
+    },
+    {
+      "check": "CZ01 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ01 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ01 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ01 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ01 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ01 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ01 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ01 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ01 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ01 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ01 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ01 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ01 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ01 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ01 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ01 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ02 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ02 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ02 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ02 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ02 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ02 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ02 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ02 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ02 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ02 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ02 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ02 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ02 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ02 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ02 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ02 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ03 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ03 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ03 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ03 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ03 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ03 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ03 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ03 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ03 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ03 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ03 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ03 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ03 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ03 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ03 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ03 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ04 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ04 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ04 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ04 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ04 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ04 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ04 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ04 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ04 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ04 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ04 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ04 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ04 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ04 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ04 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ04 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ05 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ05 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ05 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ05 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ05 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ05 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ05 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ05 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ05 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ05 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ05 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ05 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ05 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ05 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ05 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ05 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ06 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ06 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ06 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ06 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ06 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ06 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ06 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ06 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ06 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ06 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ06 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ06 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ06 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ06 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ06 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ06 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ07 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ07 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ07 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ07 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ07 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ07 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ07 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ07 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ07 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ07 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ07 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ07 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ07 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ07 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ07 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ07 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ08 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ08 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ08 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ08 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ08 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ08 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ08 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ08 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ08 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ08 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ08 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ08 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ08 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ08 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ08 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ08 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ09 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ09 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ09 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ09 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ09 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ09 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ09 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ09 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ09 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ09 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ09 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ09 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ09 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ09 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ09 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ09 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ10 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ10 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ10 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ10 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ10 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ10 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ10 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ10 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ10 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ10 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ10 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ10 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ10 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ10 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ10 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ10 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ11 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ11 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ11 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ11 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ11 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ11 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ11 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ11 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ11 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ11 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ11 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ11 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ11 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ11 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ11 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ11 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ12 freeze before create",
+      "passed": true
+    },
+    {
+      "check": "CZ12 create then read",
+      "passed": true
+    },
+    {
+      "check": "CZ12 read then evaluate",
+      "passed": true
+    },
+    {
+      "check": "CZ12 exact identity",
+      "passed": true
+    },
+    {
+      "check": "CZ12 exact URL",
+      "passed": true
+    },
+    {
+      "check": "CZ12 title binding",
+      "passed": true
+    },
+    {
+      "check": "CZ12 correct create zone",
+      "passed": true
+    },
+    {
+      "check": "CZ12 quiet create",
+      "passed": true
+    },
+    {
+      "check": "CZ12 exact raw hash",
+      "passed": true
+    },
+    {
+      "check": "CZ12 exact fields",
+      "passed": true
+    },
+    {
+      "check": "CZ12 field target match",
+      "passed": true
+    },
+    {
+      "check": "CZ12 primary scope",
+      "passed": true
+    },
+    {
+      "check": "CZ12 no named zone returned",
+      "passed": true
+    },
+    {
+      "check": "CZ12 connector rejected",
+      "passed": true
+    },
+    {
+      "check": "CZ12 exact observation in decision",
+      "passed": true
+    },
+    {
+      "check": "CZ12 baseline accepts matching fields",
+      "passed": true
+    },
+    {
+      "check": "CZ01 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ01 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ01 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ01 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ01 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ01 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ01 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ01 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ01 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ01 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ01 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ01 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ01 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ01 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ01 assigned accept",
+      "passed": true
+    },
+    {
+      "check": "CZ01 assigned proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ01 assigned proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ01 assigned proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ01 complete accept",
+      "passed": true
+    },
+    {
+      "check": "CZ01 complete proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ01 complete proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ01 complete proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ01 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ02 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ02 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ02 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ02 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ02 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ02 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ02 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ02 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ02 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ02 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ02 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ02 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ02 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ02 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ02 assigned exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ02 complete accept",
+      "passed": true
+    },
+    {
+      "check": "CZ02 complete proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ02 complete proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ02 complete proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ02 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ03 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ03 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ03 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ03 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ03 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ03 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ03 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ03 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ03 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ03 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ03 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ03 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ03 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ03 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ03 assigned exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ03 complete accept",
+      "passed": true
+    },
+    {
+      "check": "CZ03 complete proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ03 complete proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ03 complete proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ03 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ04 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ04 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ04 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ04 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ04 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ04 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ04 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ04 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ04 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ04 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ04 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ04 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ04 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ04 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ04 assigned exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ04 complete accept",
+      "passed": true
+    },
+    {
+      "check": "CZ04 complete proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ04 complete proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ04 complete proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ04 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ05 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ05 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ05 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ05 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ05 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ05 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ05 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ05 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ05 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ05 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ05 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ05 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ05 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ05 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ05 assigned exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ05 complete exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ05 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ06 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ06 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ06 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ06 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ06 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ06 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ06 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ06 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ06 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ06 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ06 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ06 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ06 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ06 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ06 assigned exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ06 complete accept",
+      "passed": true
+    },
+    {
+      "check": "CZ06 complete proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ06 complete proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ06 complete proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ06 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ07 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ07 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ07 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ07 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ07 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ07 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ07 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ07 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ07 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ07 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ07 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ07 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ07 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ07 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ07 assigned accept",
+      "passed": true
+    },
+    {
+      "check": "CZ07 assigned proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ07 assigned proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ07 assigned proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ07 complete accept",
+      "passed": true
+    },
+    {
+      "check": "CZ07 complete proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ07 complete proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ07 complete proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ07 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ08 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ08 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ08 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ08 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ08 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ08 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ08 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ08 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ08 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ08 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ08 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ08 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ08 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ08 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ08 assigned exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ08 complete accept",
+      "passed": true
+    },
+    {
+      "check": "CZ08 complete proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ08 complete proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ08 complete proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ08 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ09 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ09 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ09 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ09 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ09 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ09 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ09 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ09 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ09 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ09 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ09 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ09 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ09 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ09 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ09 assigned exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ09 complete accept",
+      "passed": true
+    },
+    {
+      "check": "CZ09 complete proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ09 complete proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ09 complete proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ09 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ10 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ10 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ10 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ10 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ10 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ10 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ10 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ10 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ10 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ10 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ10 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ10 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ10 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ10 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ10 assigned exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ10 complete accept",
+      "passed": true
+    },
+    {
+      "check": "CZ10 complete proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ10 complete proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ10 complete proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ10 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ11 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ11 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ11 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ11 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ11 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ11 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ11 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ11 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ11 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ11 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ11 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ11 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ11 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ11 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ11 assigned exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ11 complete exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ11 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "CZ12 exact UI identity",
+      "passed": true
+    },
+    {
+      "check": "CZ12 exact editor URL",
+      "passed": true
+    },
+    {
+      "check": "CZ12 editor title match",
+      "passed": true
+    },
+    {
+      "check": "CZ12 popover title match",
+      "passed": true
+    },
+    {
+      "check": "CZ12 labels extracted exactly",
+      "passed": true
+    },
+    {
+      "check": "CZ12 zone matches planned saved zone",
+      "passed": true
+    },
+    {
+      "check": "CZ12 zone raw evidence hash",
+      "passed": true
+    },
+    {
+      "check": "CZ12 zone time",
+      "passed": true
+    },
+    {
+      "check": "CZ12 connector decisions before UI",
+      "passed": true
+    },
+    {
+      "check": "CZ12 UI before assigned decision",
+      "passed": true
+    },
+    {
+      "check": "CZ12 UI before complete decision",
+      "passed": true
+    },
+    {
+      "check": "CZ12 intended zone preserved",
+      "passed": true
+    },
+    {
+      "check": "CZ12 full evidence unchanged",
+      "passed": true
+    },
+    {
+      "check": "CZ12 only declared evidence change",
+      "passed": true
+    },
+    {
+      "check": "CZ12 assigned exact rejection",
+      "passed": true
+    },
+    {
+      "check": "CZ12 complete accept",
+      "passed": true
+    },
+    {
+      "check": "CZ12 complete proof alias",
+      "passed": true
+    },
+    {
+      "check": "CZ12 complete proof evidence",
+      "passed": true
+    },
+    {
+      "check": "CZ12 complete proof payload",
+      "passed": true
+    },
+    {
+      "check": "CZ12 field-only baseline accepts assigned and complete",
+      "passed": true
+    },
+    {
+      "check": "all phase totals",
+      "passed": true
+    },
+    {
+      "check": "CZ01 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ01 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ01 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ01 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ01 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ01 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ01 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ01 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ01 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ02 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ02 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ02 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ02 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ02 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ02 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ02 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ02 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ02 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ03 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ03 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ03 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ03 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ03 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ03 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ03 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ03 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ03 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ04 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ04 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ04 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ04 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ04 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ04 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ04 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ04 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ04 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ05 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ05 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ05 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ05 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ05 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ05 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ05 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ05 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ05 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ06 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ06 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ06 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ06 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ06 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ06 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ06 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ06 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ06 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ07 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ07 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ07 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ07 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ07 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ07 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ07 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ07 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ07 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ08 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ08 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ08 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ08 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ08 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ08 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ08 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ08 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ08 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ09 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ09 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ09 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ09 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ09 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ09 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ09 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ09 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ09 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ10 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ10 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ10 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ10 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ10 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ10 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ10 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ10 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ10 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ11 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ11 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ11 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ11 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ11 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ11 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ11 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ11 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ11 editor left",
+      "passed": true
+    },
+    {
+      "check": "CZ12 cleanup exact IDs",
+      "passed": true
+    },
+    {
+      "check": "CZ12 cleanup scope",
+      "passed": true
+    },
+    {
+      "check": "CZ12 before cleanup confirmed",
+      "passed": true
+    },
+    {
+      "check": "CZ12 before cleanup fields retained",
+      "passed": true
+    },
+    {
+      "check": "CZ12 cleanup titles",
+      "passed": true
+    },
+    {
+      "check": "CZ12 cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "CZ12 after cleanup cancelled",
+      "passed": true
+    },
+    {
+      "check": "CZ12 cleanup order",
+      "passed": true
+    },
+    {
+      "check": "CZ12 editor left",
+      "passed": true
+    },
+    {
+      "check": "all three searches same bounds",
+      "passed": true
+    },
+    {
+      "check": "post-cleanup primary bounded scope",
+      "passed": true
+    },
+    {
+      "check": "post-cleanup exact marker",
+      "passed": true
+    },
+    {
+      "check": "search after all cancellations",
+      "passed": true
+    },
+    {
+      "check": "post-cleanup no tool error",
+      "passed": true
+    },
+    {
+      "check": "post-cleanup empty and no page",
+      "passed": true
+    },
+    {
+      "check": "before cleanup exact fixture set",
+      "passed": true
+    },
+    {
+      "check": "before cleanup no further page",
+      "passed": true
+    },
+    {
+      "check": "preflight no existing fixture",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Saved input audit does not authenticate website evidence.",
+    "Private account identifiers and full UI captures are retained locally, not published.",
+    "Selected dependent decisions do not establish a production failure rate.",
+    "No human or peer review occurred."
+  ],
+  "final_text_review": {
+    "passed": true,
+    "files": [
+      "../report.md",
+      "README.md",
+      "analyze.py",
+      "summary.json",
+      "decisions.csv",
+      "reproduction.json",
+      "actions.json",
+      "cleanup.json",
+      "environment.json",
+      "deviations.md"
+    ],
+    "material_errors": [],
+    "additional_local_replay_matches": true,
+    "additional_website_actions": 0,
+    "public_exports_match_private_evidence": true,
+    "private_identifier_scan_passed": true,
+    "source_review_scope": "Source bibliographic checks were assigned separately. This audit does not claim all cited papers were read.",
+    "reported_evidence_assertions": 558,
+    "replay_output_hashes": {
+      "summary.json": "42107590a12fe69f045417dbeb31d76bb01784a4f200d0046e0b2ef576ecbdb1",
+      "decisions.csv": "566fa0f4f6442cdb54688103223c9a1a923ca6924966589e887f128c107b46ee"
+    }
+  }
+}

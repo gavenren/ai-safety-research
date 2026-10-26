@@ -1,0 +1,375 @@
+{
+  "records": [
+    {
+      "alias": "CZ01",
+      "evidence_sha256": [
+        "59ca31cb52e775e0d566f6649737a8d780a9139155a145a4b848205b560db1ef",
+        "b8748e5bdf3a15c108f45b97f2db9cc5b59b4ea6ab923ff83436aa7c8ff479f5",
+        "d19f1c78c944c1aa849f1a79c75ad646c41928f851f43c7583174b65ca87c88b"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:03.868Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-04T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-04T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ01",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ02",
+      "evidence_sha256": [
+        "44081a9081b60a8962b33de45eaa2aa62ae9ee90ea03d63d98dbc7a78ab6cb49",
+        "7a43f86042070a226fdeb8e7e3dabce8f17bb333194ac95c78689b4650a5a6d5",
+        "9ae03b58886c61ea5470f601e6d48bda6788e07015bf6f4d28b697584a113381"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:05.950Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-04T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-04T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ02",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ03",
+      "evidence_sha256": [
+        "cf9f6eefce5acb7cf464f6d6a9c633518a878764a8c8179e4453ef3894aca9b9",
+        "02eaaa95d03e0b77bd51d77efdbe95720a9a1926dc4e8792cb7b7709e34d11f9",
+        "fb7a954023516f3c1265ea36f8a4c3995b0f1057404f923728f3b52af25a8e63"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:07.333Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-04T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-04T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ03",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ04",
+      "evidence_sha256": [
+        "6a28940256b6e0b01e69398477ffd7a8f59352e64e6408900cf91e638ee2ef1f",
+        "595539bd2cabae1f8d1511efe2209082e4a9de1b5d7375c917365a2da7c673f0",
+        "42e1d075a5d7f46df39c8167c0c50fb846ca6baeb5fd2ec874521dad4595d388"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:08.667Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-04T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-04T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ04",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ05",
+      "evidence_sha256": [
+        "7e293cd7896a504a08d2c08942df8c6afbf9c64fa56a504f56b6474332b85a86",
+        "4e78c8d379e33d28345b88466a897cd058cdc4fadd09ad73364da1b6607bd386",
+        "01fdba4b1840bc2145b6781d8c8c99eca1e8b693010b7d3d1929e068365bf49b"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:10.191Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-04T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-04T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ05",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ06",
+      "evidence_sha256": [
+        "69c18e9620ae67f6c0906dd88e25ac00586d16bd15925f809f68c7ece51151a0",
+        "6ce62373eca23997661e347ed4046b44e7a62fc71a2c894de048e63a9ebb3505",
+        "538d2324b2ca2edbbcaa521d46db0260e2a55921fac778ce65079161046913d6"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:11.492Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-04T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-04T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ06",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ07",
+      "evidence_sha256": [
+        "f420959a304555fc227c47f0eff6af38dc8b03490e95ffec1a23af9f03fda3be",
+        "acda59e0d654996f534d32668481c233cc9ea0953c81054fc07c589d28d3c89f",
+        "0e32b4b7158f9fdef44a8531c1cd5cc18ea2ec2299fcd508ee8127a761ceaf1e"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:12.902Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-05T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-05T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ07",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ08",
+      "evidence_sha256": [
+        "f7be023da21e573a04803db89e507c806890bcd958ab0733e1cee0edcbf45fca",
+        "c72a1f6aa6e56cc7e567e31c592cbf71ee8629b89ed3dee095e5c00a4360c6b7",
+        "c8e5231d6ca5d2b210acbe01fdafa7214f979b83755c63473f4d1e46555249e3"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:14.502Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-05T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-05T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ08",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ09",
+      "evidence_sha256": [
+        "990ce20b3a8608da1a3ef83f20178ada7c86a578fd5b297135603a144d872611",
+        "d18fd93414986f424057b56ede132463a50cf0fe463238eaceac2b47c4b2e8c0",
+        "1287fdf6c44556e3dbbae29d08e927dfd3f68e686e34f5f54e94d1fbbc5e5560"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:16.188Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-05T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-05T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ09",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ10",
+      "evidence_sha256": [
+        "043876c9a324d129707f8998b347d3dc78229465ae84c359c8c272d9df844c2a",
+        "80847999e9948288d463f27e9dd41605173ec5aa22d46cf017f44e45ee4491b6",
+        "05ee37d1eeaa45d274ad4de56d6358c6224cec07e6d7993bb0e45fe03e86787d"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:18.049Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-05T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-05T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ10",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ11",
+      "evidence_sha256": [
+        "16fc869b5f9cba270678c205cf0ca341ee39586b252ecd1f9c1923a48ca5a2cf",
+        "8fdaf5b16912db9e6199abdec4d89c4434946706a0eb5506c40995fd57bc8715",
+        "69bcc0a7d571ebc768af456c4cef664289fa74890be6c3646509f991c9181bee"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:20.807Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-05T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-05T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ11",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    },
+    {
+      "alias": "CZ12",
+      "evidence_sha256": [
+        "5a4e000f2c16f82b046e7b10a14215e8fc16edcb287b1f9ff5dab3be60910706",
+        "9425cfb37377ce237323d73a5a1e238ecaaf5aa953c2afe3c550ceed2a871ca8",
+        "5aabf521d218cfde49a997c9b23f3bf6e49df1fb3f9164f3661b06e436b6f32a"
+      ],
+      "exact_id_same_across_create_read_delete": true,
+      "observed_at": "2026-10-26T21:33:23.006Z",
+      "precleanup_fields": {
+        "attendees": [],
+        "end": "2026-11-05T12:05:00-05:00",
+        "hangout_link": null,
+        "recurrence": null,
+        "reminders": {
+          "overrides": [],
+          "use_default": false
+        },
+        "start": "2026-11-05T12:00:00-05:00",
+        "status": "confirmed",
+        "summary": "CUA-CZ-20261026-N1-CZ12",
+        "transparency": "transparent",
+        "visibility": "private"
+      },
+      "precleanup_status": "confirmed",
+      "status": "cancelled"
+    }
+  ],
+  "scope": [
+    {
+      "active_count": 0,
+      "evidence_sha256": "4707d479bb84d29a40b32985ca9528bd4c84e7ddab9c09d8cb0564b109a3bb18",
+      "next_page_token": null,
+      "observed_at": "2026-10-26T21:30:26.941Z",
+      "parameters": {
+        "calendar_id": "primary",
+        "max_results": 100,
+        "query": "CUA-CZ-20261026-N1",
+        "time_max": "2026-11-06T00:00:00Z",
+        "time_min": "2026-11-04T00:00:00Z",
+        "timezone_str": "America/Toronto"
+      },
+      "stage": "preflight.json"
+    },
+    {
+      "active_count": 12,
+      "evidence_sha256": "099c10bd1bb42cccc9e497e08c3f69af14c9516163bee61b674639967067836d",
+      "next_page_token": null,
+      "observed_at": "2026-10-26T21:32:51.926Z",
+      "parameters": {
+        "calendar_id": "primary",
+        "max_results": 100,
+        "query": "CUA-CZ-20261026-N1",
+        "time_max": "2026-11-06T00:00:00Z",
+        "time_min": "2026-11-04T00:00:00Z",
+        "timezone_str": "America/Toronto"
+      },
+      "stage": "precleanup_search.json"
+    },
+    {
+      "active_count": 0,
+      "evidence_sha256": "187f438f68636851f58ab94a50389852ccab75c1297074e88a22715955d188a6",
+      "next_page_token": null,
+      "observed_at": "2026-10-26T21:33:23.457Z",
+      "parameters": {
+        "calendar_id": "primary",
+        "max_results": 100,
+        "query": "CUA-CZ-20261026-N1",
+        "time_max": "2026-11-06T00:00:00Z",
+        "time_min": "2026-11-04T00:00:00Z",
+        "timezone_str": "America/Toronto"
+      },
+      "stage": "cleanup_search.json"
+    }
+  ]
+}

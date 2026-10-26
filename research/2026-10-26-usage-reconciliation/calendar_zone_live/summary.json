@@ -1,0 +1,29 @@
+{
+  "accepted_proof_outputs": 12,
+  "actual_wrong_zone_acceptances": 0,
+  "actual_wrong_zone_records": 2,
+  "all_expected_decisions": true,
+  "cleanup_active_marker": 0,
+  "cleanup_cancelled": 12,
+  "distinct_accepted_records": 10,
+  "evaluations": 36,
+  "field_only_baseline_accepts": 12,
+  "field_only_baseline_wrong_zone_accepts": 2,
+  "new_events": 12,
+  "phases": {
+    "assigned": {
+      "accept": 2,
+      "reject": 10
+    },
+    "complete": {
+      "accept": 10,
+      "reject": 2
+    },
+    "connector_only": {
+      "accept": 0,
+      "reject": 12
+    }
+  },
+  "rejection_to_acceptance": 8,
+  "unsupported_proofs": 0
+}

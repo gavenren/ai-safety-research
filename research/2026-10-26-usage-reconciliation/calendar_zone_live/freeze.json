@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-10-26T21:30:15.947726+00:00",
+  "files": {
+    "plan.md": "9ca55673576e37302b9faaa5790c03edc5bacb9d42bbe3e98d48e044873c12f0",
+    "cases.json": "1a323e7b05650fae6900e39cd7c505f31400744abdc829e7e0b19217c643bac0",
+    "calendar_adapter.py": "988c47edba4d0e67b6c294ec4ee9c2f8dd452a97dd22ac7783859abe5a8ba029",
+    "evaluate.py": "63ed8ab081dfa13cd4f6f3975dc5d947c33c1e7cee7eaae7eaa16a20be3e8d84"
+  },
+  "python": "3.13.7",
+  "note": "Saved before any account trial write. Existing corrected adapter copied without change. No random seed: fixed cases."
+}

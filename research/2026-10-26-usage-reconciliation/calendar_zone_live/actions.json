@@ -1,0 +1,398 @@
+[
+  {
+    "action": "create",
+    "alias": "CZ01",
+    "ended_utc": "2026-10-26T21:30:43.187Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-04T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-04T12:00:00-05:00",
+      "timezone_str": "America/Toronto",
+      "title": "CUA-CZ-20261026-N1-CZ01",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "4e4260495d815bd12f71d799f8a04059a990b90c38fd739a36bcacb9a02a0c82",
+    "started_utc": "2026-10-26T21:30:42.340Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ01",
+    "ended_utc": "2026-10-26T21:33:03.359Z",
+    "private_evidence_sha256": "b8748e5bdf3a15c108f45b97f2db9cc5b59b4ea6ab923ff83436aa7c8ff479f5",
+    "started_utc": "2026-10-26T21:33:02.767Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ02",
+    "ended_utc": "2026-10-26T21:30:43.698Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-04T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-04T12:00:00-05:00",
+      "timezone_str": "America/Toronto",
+      "title": "CUA-CZ-20261026-N1-CZ02",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "6846c40d2e159c1a47914eaee6a3f8abdd91bcc711f7a7c018f96779b4163ac2",
+    "started_utc": "2026-10-26T21:30:43.194Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ02",
+    "ended_utc": "2026-10-26T21:33:05.314Z",
+    "private_evidence_sha256": "7a43f86042070a226fdeb8e7e3dabce8f17bb333194ac95c78689b4650a5a6d5",
+    "started_utc": "2026-10-26T21:33:04.320Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ03",
+    "ended_utc": "2026-10-26T21:30:44.853Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-04T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-04T12:00:00-05:00",
+      "timezone_str": "America/Toronto",
+      "title": "CUA-CZ-20261026-N1-CZ03",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "0add2cbb3441fa18a59ff75508780e9f47698823ac271a54a52a9b52c0cc075d",
+    "started_utc": "2026-10-26T21:30:43.707Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ03",
+    "ended_utc": "2026-10-26T21:33:06.893Z",
+    "private_evidence_sha256": "02eaaa95d03e0b77bd51d77efdbe95720a9a1926dc4e8792cb7b7709e34d11f9",
+    "started_utc": "2026-10-26T21:33:06.377Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ04",
+    "ended_utc": "2026-10-26T21:30:45.456Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-04T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-04T12:00:00-05:00",
+      "timezone_str": "America/Toronto",
+      "title": "CUA-CZ-20261026-N1-CZ04",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "89170d661757b6056ffa068fbdf3328c9aa74c1a6fe52cc4516e20586208293f",
+    "started_utc": "2026-10-26T21:30:44.863Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ04",
+    "ended_utc": "2026-10-26T21:33:08.269Z",
+    "private_evidence_sha256": "595539bd2cabae1f8d1511efe2209082e4a9de1b5d7375c917365a2da7c673f0",
+    "started_utc": "2026-10-26T21:33:07.743Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ05",
+    "ended_utc": "2026-10-26T21:30:46.128Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-04T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-04T12:00:00-05:00",
+      "timezone_str": "America/New_York",
+      "title": "CUA-CZ-20261026-N1-CZ05",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "feec5e2b510bad07402145a0841ebe9fdc8a382d3185f1177a230180ed25626a",
+    "started_utc": "2026-10-26T21:30:45.460Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ05",
+    "ended_utc": "2026-10-26T21:33:09.806Z",
+    "private_evidence_sha256": "4e78c8d379e33d28345b88466a897cd058cdc4fadd09ad73364da1b6607bd386",
+    "started_utc": "2026-10-26T21:33:09.229Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ06",
+    "ended_utc": "2026-10-26T21:30:46.740Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-04T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-04T12:00:00-05:00",
+      "timezone_str": "America/Toronto",
+      "title": "CUA-CZ-20261026-N1-CZ06",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "e3aea5528084c1370bc70009cdb38b698a67ffa15791eadbee0335bc807927db",
+    "started_utc": "2026-10-26T21:30:46.135Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ06",
+    "ended_utc": "2026-10-26T21:33:11.111Z",
+    "private_evidence_sha256": "6ce62373eca23997661e347ed4046b44e7a62fc71a2c894de048e63a9ebb3505",
+    "started_utc": "2026-10-26T21:33:10.574Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ07",
+    "ended_utc": "2026-10-26T21:30:53.486Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-05T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-05T12:00:00-05:00",
+      "timezone_str": "America/Toronto",
+      "title": "CUA-CZ-20261026-N1-CZ07",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "57c1dd9401ffcba0f0bb2cf0967777e9e9983f5bb0279c1a334ba89181073e2c",
+    "started_utc": "2026-10-26T21:30:52.528Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ07",
+    "ended_utc": "2026-10-26T21:33:12.482Z",
+    "private_evidence_sha256": "acda59e0d654996f534d32668481c233cc9ea0953c81054fc07c589d28d3c89f",
+    "started_utc": "2026-10-26T21:33:11.898Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ08",
+    "ended_utc": "2026-10-26T21:30:54.152Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-05T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-05T12:00:00-05:00",
+      "timezone_str": "America/Toronto",
+      "title": "CUA-CZ-20261026-N1-CZ08",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "7dd76152ae974efd7016dd8c5ab7e05698c46248a12c6f2bcdcb84a985ce01ff",
+    "started_utc": "2026-10-26T21:30:53.492Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ08",
+    "ended_utc": "2026-10-26T21:33:14.017Z",
+    "private_evidence_sha256": "c72a1f6aa6e56cc7e567e31c592cbf71ee8629b89ed3dee095e5c00a4360c6b7",
+    "started_utc": "2026-10-26T21:33:13.458Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ09",
+    "ended_utc": "2026-10-26T21:30:54.943Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-05T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-05T12:00:00-05:00",
+      "timezone_str": "America/Toronto",
+      "title": "CUA-CZ-20261026-N1-CZ09",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "81502adacd2758b9fce8f815ccbda023e4f55f4c8b64964b0dd29a156e99fbda",
+    "started_utc": "2026-10-26T21:30:54.158Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ09",
+    "ended_utc": "2026-10-26T21:33:15.825Z",
+    "private_evidence_sha256": "d18fd93414986f424057b56ede132463a50cf0fe463238eaceac2b47c4b2e8c0",
+    "started_utc": "2026-10-26T21:33:15.178Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ10",
+    "ended_utc": "2026-10-26T21:30:55.653Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-05T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-05T12:00:00-05:00",
+      "timezone_str": "America/Toronto",
+      "title": "CUA-CZ-20261026-N1-CZ10",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "40c93a52e7a844f09cccff8dab474a14c4052784329196834688ab3013d0f8b0",
+    "started_utc": "2026-10-26T21:30:54.947Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ10",
+    "ended_utc": "2026-10-26T21:33:17.682Z",
+    "private_evidence_sha256": "80847999e9948288d463f27e9dd41605173ec5aa22d46cf017f44e45ee4491b6",
+    "started_utc": "2026-10-26T21:33:16.554Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ11",
+    "ended_utc": "2026-10-26T21:30:56.220Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-05T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-05T12:00:00-05:00",
+      "timezone_str": "America/New_York",
+      "title": "CUA-CZ-20261026-N1-CZ11",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "ac8322c3d6caaa07cf90de4c98ab999f3c2ce6760843b71e1b086d89c7cb453d",
+    "started_utc": "2026-10-26T21:30:55.659Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ11",
+    "ended_utc": "2026-10-26T21:33:19.111Z",
+    "private_evidence_sha256": "8fdaf5b16912db9e6199abdec4d89c4434946706a0eb5506c40995fd57bc8715",
+    "started_utc": "2026-10-26T21:33:18.575Z"
+  },
+  {
+    "action": "create",
+    "alias": "CZ12",
+    "ended_utc": "2026-10-26T21:30:56.826Z",
+    "parameters": {
+      "add_google_meet": false,
+      "attendees": [],
+      "calendar_id": "primary",
+      "description": "Temporary authorized Calendar zone evidence test. Remove after verification.",
+      "end_time": "2026-11-05T12:05:00-05:00",
+      "reminders": {
+        "overrides": [],
+        "use_default": false
+      },
+      "self_attendance": "omit",
+      "start_time": "2026-11-05T12:00:00-05:00",
+      "timezone_str": "America/Toronto",
+      "title": "CUA-CZ-20261026-N1-CZ12",
+      "transparency": "transparent",
+      "visibility": "private"
+    },
+    "private_evidence_sha256": "dcd4bf8d075fb32cb2122b3d22308264a80b70da2e24339017407c2512e1dfd5",
+    "started_utc": "2026-10-26T21:30:56.227Z",
+    "status_from_later_read": "confirmed",
+    "status_returned_by_create": null
+  },
+  {
+    "action": "delete",
+    "alias": "CZ12",
+    "ended_utc": "2026-10-26T21:33:21.771Z",
+    "private_evidence_sha256": "9425cfb37377ce237323d73a5a1e238ecaaf5aa953c2afe3c550ceed2a871ca8",
+    "started_utc": "2026-10-26T21:33:21.278Z"
+  }
+]
