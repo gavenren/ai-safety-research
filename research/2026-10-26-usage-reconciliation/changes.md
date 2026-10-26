@@ -13,3 +13,7 @@ Two full main runs completed. No main failure, source correction, discarded worl
 Later comparison and review use the saved evidence. They are not additional experimental trials. No production endpoint, connected account, or model action-selection trial occurred. No paid compute or external API call was made by the simulator.
 
 One early documentation read occurred before the bibliography file existed. It returned a missing-file error. The source agent then completed the file. This did not affect the experiment or its evidence.
+
+## Owner-requested production extension, 2026-10-26
+
+After the initial remote publication at 0a68daf7535a02936357a00a2e55faaf11ecee8b, the owner requested tests of the six rules in connected production accounts. The new plan and controller were frozen before test writes. The original rule definitions and simulation files were preserved. The report, README, references, index, and manifest were updated to include a separate controlled policy replay with real records. Live evidence and deviations are in live/. No human review occurred.

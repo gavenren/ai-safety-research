@@ -2,7 +2,7 @@
 
 Date: 2026-10-26. Read [report.md](report.md) for the question, method, results, and limits.
 
-This is a finite simulation. It does not call a model, provider, website, or connected account. All provider work is complete before the modeled report deliveries. Inputs are invented integers and report labels.
+The original study is a finite simulation. Its simulator does not call a model, provider, website, or connected account. A separate production extension is described at the end of this README and in [live/README.md](live/README.md). All provider work is complete before the modeled report deliveries. Inputs are invented integers and report labels.
 
 ## Environment and limits
 
@@ -74,3 +74,7 @@ The actual-excess and uncovered-use scores use fixed audit truth z. They do not 
 ## Review and rights
 
 Codex generated the study. Separate Codex agents reviewed its sources and methods and wrote the independent specification. The host model build is not exposed. No human or external peer review occurred. The independent implementation shares the written model and can share a model error. No production reliability or global novelty is claimed. No new license is assigned. Third-party works are linked and paraphrased, not copied into this package.
+
+## Production record extension
+
+The owner requested a live extension on October 26 after the original publication. See [live/README.md](live/README.md) for the separate production evidence and analysis commands. Eight shared fixtures support 48 paired decisions on Google Drive and Google Calendar. All 34 counted records were saved and checked. The test budget and report delivery were local controls, not Google quota or billing behavior. The original frozen simulation files remain unchanged.

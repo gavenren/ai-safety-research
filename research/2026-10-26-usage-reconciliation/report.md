@@ -1,10 +1,10 @@
 # Duplicate control does not define cumulative usage
 
-Date: 2026-10-26, America/Toronto. Exact finite simulation. Research note.
+Date: 2026-10-26, America/Toronto. Exact finite simulation with a controlled production record extension. Research note.
 
 ## Abstract
 
-A repeated report and a repeated amount are different things. We compare six accounting rules on 3,240 designed delivery histories each. All provider work is complete before report delivery begins. Ignoring repeated event IDs still overcounts final use in 1,440 histories because two distinct cumulative reports contain overlapping use. Taking the last delivered value causes 112 actual budget overruns. Taking the greatest value gives exact final use in every history, but releasing the reservation on any report still causes 72 overruns. Retaining the unused reservation until a final report avoids both errors. It gives the same 1,953 admissions as ignoring progress and waiting for the final report. Two complete runs agree. The contribution is a reproducible comparison corpus for known mechanisms. These are simulation results, not production failure rates.
+A repeated report and a repeated amount are different things. We compare six accounting rules on 3,240 designed delivery histories each. All provider work is complete before report delivery begins. Ignoring repeated event IDs still overcounts final use in 1,440 histories because two distinct cumulative reports contain overlapping use. Taking the last delivered value causes 112 actual budget overruns. Taking the greatest value gives exact final use in every history, but releasing the reservation on any report still causes 72 overruns. Retaining the unused reservation until a final report avoids both errors. It gives the same 1,953 admissions as ignoring progress and waiting for the final report. Two complete runs agree. The contribution is a reproducible comparison corpus for known mechanisms. These are simulation results, not production failure rates. A later production extension used eight shared fixtures and 48 paired decisions on Google Drive and Calendar. It verified 34 saved records. LastValue and HighWaterEarly each caused two excesses against a researcher-defined record limit. The two complete rules had no accounting error or excess in these selected cases.
 
 ## Question and safety relevance
 
@@ -119,6 +119,70 @@ The independent specification derives state from the received report prefix, rat
 
 Use [README.md](README.md) for commands. The package contains the frozen plan and main source, complete inputs and traces, controls, summaries, paired results, adverse examples, both run logs, and independent checking code. Review checks use saved data and are not additional trials.
 
+## Production record extension
+
+The owner requested this extension after publication of the simulation. It ran on 2026-10-26. It used real Google Drive folders and Google Calendar events in the owner's connected accounts. The [live plan](live/plan.md) and controller were frozen at 17:55:42 UTC, before the first test record was created. A separate agent froze independent expected results at 17:54:49 UTC. These calculations were controls, not website observations.
+
+### What was tested
+
+The question was whether the same six rules would control real record creation as specified when their input totals came from saved production records. This is **controlled policy replay with real record writes**: a local controller receives saved observations in a chosen order, then permits or refuses an actual write. The contribution is execution evidence for selected accounting counterexamples. No new accounting mechanism is claimed.
+
+One successfully saved record was one test unit. Each branch had a declared limit of two records. These were researcher-defined limits, not Google quotas or billing units. Google did not issue the cumulative reports, reorder them, enforce the reservation, or supply the terminal certificate. P was a local envelope built from a fresh saved-record observation. T used a separate observation after the local A producer stopped. Repeated T delivery used the same envelope ID and bytes. Both A use and report capture were complete before each branch's delivery began, as in the simulation.
+
+Each service had four A fixtures. A **fixture** is a known set of test records held unchanged during comparison. Each fixture was shared across six rule branches. Each branch counted its shared A IDs and only its own B ID. It did not count another branch's B records. Thus this extension has **eight shared fixtures and 48 paired policy decisions**, not 48 independent production jobs. No population failure rate, confidence interval, or significance test is justified.
+
+All cases used R=2, C=2, and b=1. The rule definitions did not change.
+
+| Case | P count x | T count z | Delivered order | Purpose |
+| --- | ---: | ---: | --- | --- |
+| Overlap | 1 | 1 | P,T,D | Distinct reports with overlapping use |
+| Late progress | 1 | 2 | T,P,D | An old total arrives after the final total |
+| Early release | 0 | 2 | P,D,T | Final evidence remains withheld at D |
+| Duplicate final | 0 | 1 | P,T,T,D | Exact replay of one final report |
+
+P=0 was observed before creating that fixture's A records. For P=T=1, T used a separate later read. Every branch started with a fresh local ledger. Its D decision was saved before a permitted B write. In the early case, the controller consumed T only after the B outcome was observed. The controller could store the T envelope without delivering it to the rule before D.
+
+### Production actions and evidence
+
+Drive used six connector-created A folders and 11 browser-created B folders in one new private test parent. Calendar used six A events and 11 B events created through its connected action. These were production API writes; they were not 17 browser creation tasks. Drive evidence includes server creation times and post-save browser observations. Separate browser dispatch-start timestamps were not saved. These creation-order checks assume that server and local clocks can be compared. A browser check separately opened the Calendar early-release B event and showed its expected time, Private visibility, and Free status. The 17 Calendar test titles were also visible in the loaded week view. The two service adapters differ, so this is not a comparison of browser versus connector reliability.
+
+All **34 counted records** were saved and read back by exact ID. One additional Drive parent was setup only. Each permitted B had the expected name, type or event fields, and test scope. A records were read before branch use and again before cleanup. All 26 refused branch names were absent from the final test scopes. No refused B create call was sent. All 22 permitted B writes had saved-record evidence. No write needed a repeat, and no branch ended with an unknown result.
+
+Calendar events had no attendees, recurrence, Meet link, or reminders. They were private and marked Free, from 12:00 to 12:05 on November 2 in America/Toronto. Drive folders had no external sharing. No unrelated record was changed. Official Google field definitions guided identity, time, privacy, and cleanup checks [8–12]. The connector's Calendar `fetch` view did not expose all required fields, so the test used the fuller event read action. Drive metadata did not return the requested `trashed` field. Cleanup therefore used exact-record browser locations, not an invented metadata value. Drive search did not expose a provider completeness flag. Scope checks used the new parent, exact known IDs, and the recorded writes. They do not establish absence outside this test scope.
+
+### Observed results
+
+Each row below has eight paired decisions: four selected cases on each service. The two sites gave the same result for every case and rule. The count of actual saved B records agreed with all 48 local decisions. Agreement means that the controller was enacted as specified; it does not make a weak rule correct.
+
+| Rule | Saved B records | Scoped excess cases | Final overcounts | Final undercounts | Feasible refusals after T |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| AddEvery | 0 | 0 | 6 | 0 | 4 |
+| DedupSum | 2 | 0 | 4 | 0 | 2 |
+| LastValue | 6 | 2 | 0 | 2 | 0 |
+| HighWaterEarly | 6 | 2 | 0 | 0 | 0 |
+| HighWaterHeld | 4 | 0 | 0 | 0 | 0 |
+| TerminalOnly | 4 | 0 | 0 | 0 | 0 |
+
+A **scoped excess** means that the branch's saved A records plus its own saved B exceeded the declared limit. There were four such cases. Each had three records against a limit of two. LastValue caused one late-progress excess on each service. HighWaterEarly caused one early-release excess on each service. The latter rule still had the correct final A total. Receiving T later did not reverse the B creation.
+
+AddEvery refused feasible work in both the overlap and duplicate-final cases on each site. DedupSum refused feasible work only in the overlap case. Its duplicate-final control admitted B because the repeated report kept the same ID. This separates repeated-message control from correct treatment of two distinct cumulative reports. HighWaterHeld and TerminalOnly had the same four admissions and four refusals each. Both kept exact final counts and avoided scoped excess in this selected set.
+
+The 10 overcounts, two undercounts, six feasible refusals, and four excess cases are different measures. They can overlap and must not be added into a total failure count. These are observed record counts with local rule calculations. They are not measurements of Google billing errors or naturally occurring delivery faults.
+
+### Cleanup, reproduction, and limits
+
+All 17 Calendar IDs returned cancelled after cleanup. A bounded test-marker search returned no active event and no next-page token. The Drive parent was moved to recoverable Trash. Each of its 17 children was reopened by its recorded URL; every loaded folder path showed Trash, the test parent, and the exact child. An active-marker search returned zero results. No Trash was emptied. Cleanup removed active test data but did not refund the historical creation count.
+
+One initial Drive cleanup observation occurred before the breadcrumb had finished loading. A later read showed the correct path. Subsequent checks waited for the exact folder name. This was a read timing issue; no extra write occurred. A local Calendar evidence export also needed a parser fix for delete replies that omit a structured result. The export was rerun; no service write was retried. Both changes are recorded. Neither changes a rule or a live outcome.
+
+The [live package](live/README.md) contains safe record aliases, captured envelopes, all branch traces, saved-field observations, cleanup evidence, analysis code, and reproduction steps. Private record IDs, account addresses, event links, and unrelated screen content remain local. Hashes bind the public extracts to retained raw evidence, but a hash alone does not prove that an account action occurred. Public files support full recalculation of the analysis. Repeating the live actions requires an authorized account and produces new IDs and times.
+
+The original simulation and its frozen code remain intact. The extension does not test native quota enforcement, monetary billing, natural webhook failures, concurrent writers, counter resets, hostile receipts, model choice of policy, latency, or throughput. A local producer declaration supplies finality. The selected small cases cannot establish general production safety. Repeated checks of the same records are verification evidence, not additional trials.
+
+Two saved-data analysis runs produced identical outputs. A separate prefix-based check matched all 48 decisions, 156 transitions, and 312 saved before/after states. The reviewer also checked the private record evidence and cleanup. See [independent_live_review.md](live/independent_live_review.md). These are repeated checks of the same cases, not extra production trials.
+
+Codex operated the tools, wrote the controller, and prepared this extension. Separate Codex agents checked the design and the evidence. No human review or external peer review occurred. The exact host model and connector build identifiers were not exposed. No new paid service or model API charge was started for the tests.
+
 ## Discussion and limitations
 
 The results support all four planned hypotheses. Event identity, cumulative meaning, finality, and reservation coverage answer different questions. A controller needs the correct combination for its contract. Maximum merge alone is insufficient if the hold is released early. Deduplication alone is insufficient if distinct cumulative totals are added.
@@ -129,7 +193,7 @@ Small designed schedules are not independent random samples. Repeated and equal-
 
 ## Ethics, rights, and review
 
-All data are invented resource values and report labels. No connected account or production record was changed. The study contains no credentials or private account data. Sources are linked and paraphrased; no source code, source figure, or full paper is redistributed. No new license is assigned.
+The original simulation used invented resource values and report labels. It changed no production record. The later extension used temporary records with the owner's permission, then removed them from active use. Public evidence excludes credentials, private account identifiers, and unrelated data. Sources are linked and paraphrased; no source code, source figure, or full paper is redistributed. No new license is assigned.
 
 Codex generated the study, code, analysis, and report. Separate Codex agents reviewed sources and methods and wrote the independent specification. The exact host model build is not exposed in the run metadata. No human review or external peer review occurred. No affiliation, endorsement, or certification is claimed.
 
@@ -144,5 +208,11 @@ The main misuse risk is to treat a small model as a deployment guarantee. The st
 5. Zhu and Wang (2026). [Fault-Tolerant Budget Conservation in Distributed Multi-Agent Delegation](https://arxiv.org/html/2610.00349v1). Preprint v1. Selected sections; no reproduction of its system.
 6. AlanFokCo (2026). [Agent-side harness for higher task goodput on shared inference services](https://github.com/agentscope-ai/agentscope-go/issues/11). AgentScope Go issue 11. Open proposed design, not a paper or implementation result.
 7. NeurIPS. [Paper Checklist](https://neurips.cc/public/guides/PaperChecklist). Review aid.
+
+8. Google. [Drive file resource](https://developers.google.com/workspace/drive/api/reference/rest/v3/files). Selected identity and state fields.
+9. Google. [Drive file list](https://developers.google.com/workspace/drive/api/reference/rest/v3/files/list). Pagination and completeness fields.
+10. Google. [Trash or delete files and folders](https://developers.google.com/workspace/drive/api/guides/delete). Recovery and trash-state sections.
+11. Google. [Calendar event resource](https://developers.google.com/workspace/calendar/api/v3/reference/events). Selected event fields and cancelled status.
+12. Google. [Calendar reminders and notifications](https://developers.google.com/workspace/calendar/api/concepts/reminders). Reminder overrides and attendee updates.
 
 All sources were accessed on 2026-10-26. See [references.bib](references.bib) and [source_search.md](source_search.md) for exact reading limits and bibliographic records.
