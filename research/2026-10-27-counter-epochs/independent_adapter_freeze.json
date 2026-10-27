@@ -1,0 +1,5 @@
+{
+  "frozen_at": "2026-10-27T14:35:12.646426+00:00",
+  "source_sha256": "06ebec615ced5f54149efe081a28d561aba81f75875d6e09170dbccd8a6b9965",
+  "access": "Comparator maps the frozen prefix specification to the frozen main schema. Main code was read for schema after independent source freeze. Main outputs had not been read before this comparator was saved."
+}

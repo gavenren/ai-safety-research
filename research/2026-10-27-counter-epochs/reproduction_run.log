@@ -1,0 +1,1 @@
+{"passed": true, "rule_histories": 25920, "steps": 125280, "state_records": 151200, "admission_branches": 155520, "duplicate_deliveries": 21600, "input_histories": 5184, "cpu_seconds": 1.3979860000000002, "wall_seconds": 1.4280121670000199}

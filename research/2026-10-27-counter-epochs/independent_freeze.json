@@ -1,0 +1,7 @@
+{
+  "frozen_at": "2026-10-27T14:32:24.821659+00:00",
+  "source_sha256": "2b3a0b635aba311e366426f3d803266b2072e58d2352664375f844dc8d56cadf",
+  "plan_sha256": "3a5e4cf870e4c2aa800441ab97fc9750f1ce2758cb1ad683f11284ada411f75d",
+  "access": "Only plan.md was read before specification freeze. Main source and outputs not read.",
+  "method": "Direct formulas on distinct report prefixes; drop total = last value plus each pre-decrease value."
+}
