@@ -1,0 +1,32 @@
+{
+  "AtomicCover": {
+    "b_disagreement": 0,
+    "cap_disagreement": 0,
+    "feasible_refusal_extra": 0,
+    "unsafe_extra": 0
+  },
+  "BlindSet": {
+    "b_disagreement": 498,
+    "cap_disagreement": 2811,
+    "feasible_refusal_extra": 0,
+    "unsafe_extra": 2811
+  },
+  "CachedCover": {
+    "b_disagreement": 57,
+    "cap_disagreement": 420,
+    "feasible_refusal_extra": 201,
+    "unsafe_extra": 219
+  },
+  "SpentOnly": {
+    "b_disagreement": 171,
+    "cap_disagreement": 576,
+    "feasible_refusal_extra": 0,
+    "unsafe_extra": 576
+  },
+  "VersionedCover": {
+    "b_disagreement": 93,
+    "cap_disagreement": 507,
+    "feasible_refusal_extra": 507,
+    "unsafe_extra": 0
+  }
+}

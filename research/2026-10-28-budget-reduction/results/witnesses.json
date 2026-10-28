@@ -1,0 +1,1476 @@
+{
+  "BlindSet:actual_breach": {
+    "initial": {
+      "cap": 1,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 1,
+      "id": "h00005",
+      "n": 0,
+      "order": [
+        "R",
+        "S",
+        "B",
+        "U"
+      ],
+      "s0": 0,
+      "slack": 0,
+      "x": 0
+    },
+    "key": "primary:h00005:BlindSet",
+    "rule": "BlindSet",
+    "score": {
+      "actual_breach": true,
+      "b_admitted": true,
+      "b_refused": false,
+      "cap_accepted": true,
+      "cap_refused": false,
+      "covered_breach": true,
+      "exposure_without_actual": false,
+      "feasible_refusal": false,
+      "final_actual_excess": 1,
+      "first_actual_event": "U",
+      "first_covered_event": "U",
+      "hold_exposure_at_change": false,
+      "max_actual_excess": 1,
+      "max_covered_excess": 1,
+      "past_use_excess_at_change": true,
+      "unsafe_change": true
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 1,
+            "hold": 1,
+            "revision": 0,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "released": 1,
+          "settled": 0
+        },
+        "event": "S"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 2,
+          "spent": 1
+        },
+        "before": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": true,
+          "cap": 1,
+          "cover_before": 0,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 0,
+          "revision": 3,
+          "spent": 1
+        },
+        "before": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 2,
+          "spent": 1
+        },
+        "decision": {
+          "accepted": true,
+          "conditions": {
+            "current_cover_ok": false,
+            "current_spent_ok": false,
+            "same_revision": false,
+            "saved_cover_ok": false
+          },
+          "requested_cap": 0
+        },
+        "event": "U"
+      }
+    ]
+  },
+  "BlindSet:exposure_without_actual": {
+    "initial": {
+      "cap": 1,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 1,
+      "id": "h00001",
+      "n": 0,
+      "order": [
+        "B",
+        "R",
+        "U",
+        "S"
+      ],
+      "s0": 0,
+      "slack": 0,
+      "x": 0
+    },
+    "key": "primary:h00001:BlindSet",
+    "rule": "BlindSet",
+    "score": {
+      "actual_breach": false,
+      "b_admitted": false,
+      "b_refused": true,
+      "cap_accepted": true,
+      "cap_refused": false,
+      "covered_breach": true,
+      "exposure_without_actual": true,
+      "feasible_refusal": false,
+      "final_actual_excess": 0,
+      "first_actual_event": null,
+      "first_covered_event": "U",
+      "hold_exposure_at_change": true,
+      "max_actual_excess": 0,
+      "max_covered_excess": 1,
+      "past_use_excess_at_change": false,
+      "unsafe_change": true
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": false,
+          "cap": 1,
+          "cover_before": 1,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 1,
+            "hold": 1,
+            "revision": 0,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 1,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": true,
+          "conditions": {
+            "current_cover_ok": false,
+            "current_spent_ok": true,
+            "same_revision": true,
+            "saved_cover_ok": false
+          },
+          "requested_cap": 0
+        },
+        "event": "U"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 0,
+          "revision": 2,
+          "spent": 0
+        },
+        "before": {
+          "cap": 0,
+          "hold": 1,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "released": 1,
+          "settled": 0
+        },
+        "event": "S"
+      }
+    ]
+  },
+  "BlindSet:unsafe_change": {
+    "initial": {
+      "cap": 1,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 1,
+      "id": "h00001",
+      "n": 0,
+      "order": [
+        "B",
+        "R",
+        "U",
+        "S"
+      ],
+      "s0": 0,
+      "slack": 0,
+      "x": 0
+    },
+    "key": "primary:h00001:BlindSet",
+    "rule": "BlindSet",
+    "score": {
+      "actual_breach": false,
+      "b_admitted": false,
+      "b_refused": true,
+      "cap_accepted": true,
+      "cap_refused": false,
+      "covered_breach": true,
+      "exposure_without_actual": true,
+      "feasible_refusal": false,
+      "final_actual_excess": 0,
+      "first_actual_event": null,
+      "first_covered_event": "U",
+      "hold_exposure_at_change": true,
+      "max_actual_excess": 0,
+      "max_covered_excess": 1,
+      "past_use_excess_at_change": false,
+      "unsafe_change": true
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": false,
+          "cap": 1,
+          "cover_before": 1,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 1,
+            "hold": 1,
+            "revision": 0,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 1,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": true,
+          "conditions": {
+            "current_cover_ok": false,
+            "current_spent_ok": true,
+            "same_revision": true,
+            "saved_cover_ok": false
+          },
+          "requested_cap": 0
+        },
+        "event": "U"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 0,
+          "revision": 2,
+          "spent": 0
+        },
+        "before": {
+          "cap": 0,
+          "hold": 1,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "released": 1,
+          "settled": 0
+        },
+        "event": "S"
+      }
+    ]
+  },
+  "CachedCover:actual_breach": {
+    "initial": {
+      "cap": 1,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 1,
+      "id": "h00010",
+      "n": 0,
+      "order": [
+        "S",
+        "R",
+        "B",
+        "U"
+      ],
+      "s0": 0,
+      "slack": 0,
+      "x": 0
+    },
+    "key": "primary:h00010:CachedCover",
+    "rule": "CachedCover",
+    "score": {
+      "actual_breach": true,
+      "b_admitted": true,
+      "b_refused": false,
+      "cap_accepted": true,
+      "cap_refused": false,
+      "covered_breach": true,
+      "exposure_without_actual": false,
+      "feasible_refusal": false,
+      "final_actual_excess": 1,
+      "first_actual_event": "U",
+      "first_covered_event": "U",
+      "hold_exposure_at_change": false,
+      "max_actual_excess": 1,
+      "max_covered_excess": 1,
+      "past_use_excess_at_change": true,
+      "unsafe_change": true
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "released": 1,
+          "settled": 0
+        },
+        "event": "S"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 1,
+            "hold": 0,
+            "revision": 1,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 2,
+          "spent": 1
+        },
+        "before": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": true,
+          "cap": 1,
+          "cover_before": 0,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 0,
+          "revision": 3,
+          "spent": 1
+        },
+        "before": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 2,
+          "spent": 1
+        },
+        "decision": {
+          "accepted": true,
+          "conditions": {
+            "current_cover_ok": false,
+            "current_spent_ok": false,
+            "same_revision": false,
+            "saved_cover_ok": true
+          },
+          "requested_cap": 0
+        },
+        "event": "U"
+      }
+    ]
+  },
+  "CachedCover:exposure_without_actual": {
+    "initial": {
+      "cap": 2,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 2,
+      "id": "h00052",
+      "n": 1,
+      "order": [
+        "R",
+        "B",
+        "U",
+        "S"
+      ],
+      "s0": 0,
+      "slack": 1,
+      "x": 0
+    },
+    "key": "primary:h00052:CachedCover",
+    "rule": "CachedCover",
+    "score": {
+      "actual_breach": false,
+      "b_admitted": true,
+      "b_refused": false,
+      "cap_accepted": true,
+      "cap_refused": false,
+      "covered_breach": true,
+      "exposure_without_actual": true,
+      "feasible_refusal": false,
+      "final_actual_excess": 0,
+      "first_actual_event": null,
+      "first_covered_event": "U",
+      "hold_exposure_at_change": true,
+      "max_actual_excess": 0,
+      "max_covered_excess": 1,
+      "past_use_excess_at_change": false,
+      "unsafe_change": true
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 2,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 2,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 2,
+            "hold": 1,
+            "revision": 0,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 2,
+          "hold": 1,
+          "revision": 1,
+          "spent": 1
+        },
+        "before": {
+          "cap": 2,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": true,
+          "cap": 2,
+          "cover_before": 1,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 2,
+          "spent": 1
+        },
+        "before": {
+          "cap": 2,
+          "hold": 1,
+          "revision": 1,
+          "spent": 1
+        },
+        "decision": {
+          "accepted": true,
+          "conditions": {
+            "current_cover_ok": false,
+            "current_spent_ok": true,
+            "same_revision": false,
+            "saved_cover_ok": true
+          },
+          "requested_cap": 1
+        },
+        "event": "U"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 3,
+          "spent": 1
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 2,
+          "spent": 1
+        },
+        "decision": {
+          "released": 1,
+          "settled": 0
+        },
+        "event": "S"
+      }
+    ]
+  },
+  "CachedCover:feasible_refusal": {
+    "initial": {
+      "cap": 1,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 1,
+      "id": "h00000",
+      "n": 0,
+      "order": [
+        "B",
+        "R",
+        "S",
+        "U"
+      ],
+      "s0": 0,
+      "slack": 0,
+      "x": 0
+    },
+    "key": "primary:h00000:CachedCover",
+    "rule": "CachedCover",
+    "score": {
+      "actual_breach": false,
+      "b_admitted": false,
+      "b_refused": true,
+      "cap_accepted": false,
+      "cap_refused": true,
+      "covered_breach": false,
+      "exposure_without_actual": false,
+      "feasible_refusal": true,
+      "final_actual_excess": 0,
+      "first_actual_event": null,
+      "first_covered_event": null,
+      "hold_exposure_at_change": false,
+      "max_actual_excess": 0,
+      "max_covered_excess": 0,
+      "past_use_excess_at_change": false,
+      "unsafe_change": false
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": false,
+          "cap": 1,
+          "cover_before": 1,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 1,
+            "hold": 1,
+            "revision": 0,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "released": 1,
+          "settled": 0
+        },
+        "event": "S"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": false,
+          "conditions": {
+            "current_cover_ok": true,
+            "current_spent_ok": true,
+            "same_revision": false,
+            "saved_cover_ok": false
+          },
+          "requested_cap": 0
+        },
+        "event": "U"
+      }
+    ]
+  },
+  "CachedCover:unsafe_change": {
+    "initial": {
+      "cap": 1,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 1,
+      "id": "h00010",
+      "n": 0,
+      "order": [
+        "S",
+        "R",
+        "B",
+        "U"
+      ],
+      "s0": 0,
+      "slack": 0,
+      "x": 0
+    },
+    "key": "primary:h00010:CachedCover",
+    "rule": "CachedCover",
+    "score": {
+      "actual_breach": true,
+      "b_admitted": true,
+      "b_refused": false,
+      "cap_accepted": true,
+      "cap_refused": false,
+      "covered_breach": true,
+      "exposure_without_actual": false,
+      "feasible_refusal": false,
+      "final_actual_excess": 1,
+      "first_actual_event": "U",
+      "first_covered_event": "U",
+      "hold_exposure_at_change": false,
+      "max_actual_excess": 1,
+      "max_covered_excess": 1,
+      "past_use_excess_at_change": true,
+      "unsafe_change": true
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "released": 1,
+          "settled": 0
+        },
+        "event": "S"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 1,
+            "hold": 0,
+            "revision": 1,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 2,
+          "spent": 1
+        },
+        "before": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": true,
+          "cap": 1,
+          "cover_before": 0,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 0,
+          "revision": 3,
+          "spent": 1
+        },
+        "before": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 2,
+          "spent": 1
+        },
+        "decision": {
+          "accepted": true,
+          "conditions": {
+            "current_cover_ok": false,
+            "current_spent_ok": false,
+            "same_revision": false,
+            "saved_cover_ok": true
+          },
+          "requested_cap": 0
+        },
+        "event": "U"
+      }
+    ]
+  },
+  "SpentOnly:actual_breach": {
+    "initial": {
+      "cap": 1,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 1,
+      "id": "h00145",
+      "n": 0,
+      "order": [
+        "B",
+        "R",
+        "U",
+        "S"
+      ],
+      "s0": 0,
+      "slack": 0,
+      "x": 1
+    },
+    "key": "primary:h00145:SpentOnly",
+    "rule": "SpentOnly",
+    "score": {
+      "actual_breach": true,
+      "b_admitted": false,
+      "b_refused": true,
+      "cap_accepted": true,
+      "cap_refused": false,
+      "covered_breach": true,
+      "exposure_without_actual": false,
+      "feasible_refusal": false,
+      "final_actual_excess": 1,
+      "first_actual_event": "S",
+      "first_covered_event": "U",
+      "hold_exposure_at_change": true,
+      "max_actual_excess": 1,
+      "max_covered_excess": 1,
+      "past_use_excess_at_change": false,
+      "unsafe_change": true
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": false,
+          "cap": 1,
+          "cover_before": 1,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 1,
+            "hold": 1,
+            "revision": 0,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 1,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": true,
+          "conditions": {
+            "current_cover_ok": false,
+            "current_spent_ok": true,
+            "same_revision": true,
+            "saved_cover_ok": false
+          },
+          "requested_cap": 0
+        },
+        "event": "U"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 0,
+          "revision": 2,
+          "spent": 1
+        },
+        "before": {
+          "cap": 0,
+          "hold": 1,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "released": 0,
+          "settled": 1
+        },
+        "event": "S"
+      }
+    ]
+  },
+  "SpentOnly:exposure_without_actual": {
+    "initial": {
+      "cap": 1,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 1,
+      "id": "h00001",
+      "n": 0,
+      "order": [
+        "B",
+        "R",
+        "U",
+        "S"
+      ],
+      "s0": 0,
+      "slack": 0,
+      "x": 0
+    },
+    "key": "primary:h00001:SpentOnly",
+    "rule": "SpentOnly",
+    "score": {
+      "actual_breach": false,
+      "b_admitted": false,
+      "b_refused": true,
+      "cap_accepted": true,
+      "cap_refused": false,
+      "covered_breach": true,
+      "exposure_without_actual": true,
+      "feasible_refusal": false,
+      "final_actual_excess": 0,
+      "first_actual_event": null,
+      "first_covered_event": "U",
+      "hold_exposure_at_change": true,
+      "max_actual_excess": 0,
+      "max_covered_excess": 1,
+      "past_use_excess_at_change": false,
+      "unsafe_change": true
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": false,
+          "cap": 1,
+          "cover_before": 1,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 1,
+            "hold": 1,
+            "revision": 0,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 1,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": true,
+          "conditions": {
+            "current_cover_ok": false,
+            "current_spent_ok": true,
+            "same_revision": true,
+            "saved_cover_ok": false
+          },
+          "requested_cap": 0
+        },
+        "event": "U"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 0,
+          "revision": 2,
+          "spent": 0
+        },
+        "before": {
+          "cap": 0,
+          "hold": 1,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "released": 1,
+          "settled": 0
+        },
+        "event": "S"
+      }
+    ]
+  },
+  "SpentOnly:unsafe_change": {
+    "initial": {
+      "cap": 1,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 1,
+      "id": "h00001",
+      "n": 0,
+      "order": [
+        "B",
+        "R",
+        "U",
+        "S"
+      ],
+      "s0": 0,
+      "slack": 0,
+      "x": 0
+    },
+    "key": "primary:h00001:SpentOnly",
+    "rule": "SpentOnly",
+    "score": {
+      "actual_breach": false,
+      "b_admitted": false,
+      "b_refused": true,
+      "cap_accepted": true,
+      "cap_refused": false,
+      "covered_breach": true,
+      "exposure_without_actual": true,
+      "feasible_refusal": false,
+      "final_actual_excess": 0,
+      "first_actual_event": null,
+      "first_covered_event": "U",
+      "hold_exposure_at_change": true,
+      "max_actual_excess": 0,
+      "max_covered_excess": 1,
+      "past_use_excess_at_change": false,
+      "unsafe_change": true
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": false,
+          "cap": 1,
+          "cover_before": 1,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 1,
+            "hold": 1,
+            "revision": 0,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 1,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": true,
+          "conditions": {
+            "current_cover_ok": false,
+            "current_spent_ok": true,
+            "same_revision": true,
+            "saved_cover_ok": false
+          },
+          "requested_cap": 0
+        },
+        "event": "U"
+      },
+      {
+        "after": {
+          "cap": 0,
+          "hold": 0,
+          "revision": 2,
+          "spent": 0
+        },
+        "before": {
+          "cap": 0,
+          "hold": 1,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "released": 1,
+          "settled": 0
+        },
+        "event": "S"
+      }
+    ]
+  },
+  "VersionedCover:feasible_refusal": {
+    "initial": {
+      "cap": 1,
+      "hold": 1,
+      "revision": 0,
+      "spent": 0
+    },
+    "input": {
+      "a": 1,
+      "b": 1,
+      "c0": 1,
+      "id": "h00000",
+      "n": 0,
+      "order": [
+        "B",
+        "R",
+        "S",
+        "U"
+      ],
+      "s0": 0,
+      "slack": 0,
+      "x": 0
+    },
+    "key": "primary:h00000:VersionedCover",
+    "rule": "VersionedCover",
+    "score": {
+      "actual_breach": false,
+      "b_admitted": false,
+      "b_refused": true,
+      "cap_accepted": false,
+      "cap_refused": true,
+      "covered_breach": false,
+      "exposure_without_actual": false,
+      "feasible_refusal": true,
+      "final_actual_excess": 0,
+      "first_actual_event": null,
+      "first_covered_event": null,
+      "hold_exposure_at_change": false,
+      "max_actual_excess": 0,
+      "max_covered_excess": 0,
+      "past_use_excess_at_change": false,
+      "unsafe_change": false
+    },
+    "steps": [
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": false,
+          "cap": 1,
+          "cover_before": 1,
+          "demand": 1
+        },
+        "event": "B"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "snapshot": {
+            "cap": 1,
+            "hold": 1,
+            "revision": 0,
+            "spent": 0
+          }
+        },
+        "event": "R"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 1,
+          "revision": 0,
+          "spent": 0
+        },
+        "decision": {
+          "released": 1,
+          "settled": 0
+        },
+        "event": "S"
+      },
+      {
+        "after": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "before": {
+          "cap": 1,
+          "hold": 0,
+          "revision": 1,
+          "spent": 0
+        },
+        "decision": {
+          "accepted": false,
+          "conditions": {
+            "current_cover_ok": true,
+            "current_spent_ok": true,
+            "same_revision": false,
+            "saved_cover_ok": false
+          },
+          "requested_cap": 0
+        },
+        "event": "U"
+      }
+    ]
+  }
+}

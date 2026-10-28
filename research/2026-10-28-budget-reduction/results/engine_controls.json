@@ -1,0 +1,34 @@
+{
+  "after_refusal": {
+    "cap": 5,
+    "hold": 2,
+    "revision": 0,
+    "spent": 1
+  },
+  "after_rollback": {
+    "cap": 5,
+    "hold": 2,
+    "revision": 0,
+    "spent": 1
+  },
+  "initial": {
+    "cap": 5,
+    "hold": 2,
+    "revision": 0,
+    "spent": 1
+  },
+  "inside_uncommitted": {
+    "cap": 1,
+    "hold": 2,
+    "revision": 1,
+    "spent": 9
+  },
+  "outside_during": {
+    "cap": 5,
+    "hold": 2,
+    "revision": 0,
+    "spent": 1
+  },
+  "passed": true,
+  "refused_rowcount": 0
+}

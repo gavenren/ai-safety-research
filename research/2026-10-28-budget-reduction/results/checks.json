@@ -1,0 +1,13 @@
+{
+  "control_rule_cases": 30,
+  "final_rows": 19471,
+  "input_histories": 3888,
+  "integrity": "ok",
+  "passed": true,
+  "primary_state_records": 174960,
+  "primary_steps": 77760,
+  "reopened_integrity": "ok",
+  "rule_cases": 19440,
+  "rules": 5,
+  "sql_statements": 428776
+}
