@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "public_files_before_checks_and_manifest": 38,
+  "relative_links_checked": 18,
+  "syntax_and_json": "passed",
+  "frozen_hashes": "all four match",
+  "result_checks": "all three passed",
+  "root_index_change": "one new row; all earlier text preserved",
+  "secret_and_private_path_scan": "no matches in public text, decompressed traces, or complete immutable SQLite dump",
+  "rights_review": "original code and synthetic inputs; source paraphrases checked separately",
+  "limits": "pattern scan is not proof that every possible secret is absent; manual scope check also used",
+  "publication": "local package check only; no remote assertion",
+  "excluded": [
+    "second byte-identical result folder",
+    "Python cache",
+    "temporary SQLite reader files"
+  ],
+  "external_references": "six primary sources checked in source_review.md; prior report paths resolved against remote tree",
+  "copied_text_and_rights": "manual source review found no copied dataset, code, figure, or long quotation; no new license"
+}

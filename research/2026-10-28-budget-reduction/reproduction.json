@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "files": {
+    "checks.json": {
+      "bytes": 276,
+      "sha256": "676a5e82ea4d7eaeefd7c07b321a314dcdf1088899add44d5631057ed5f10082",
+      "equal": true
+    },
+    "controls.json": {
+      "bytes": 81502,
+      "sha256": "ffc9c634b31e92b5fff82a0770d30757fc56dba5ce3214f4f6de3fbbaaec74a0",
+      "equal": true
+    },
+    "engine_controls.json": {
+      "bytes": 492,
+      "sha256": "37ea1b012ec835ca6a0a451e40ca6aff6aaf69b1c5f8278524d2ed0361b2ebd5",
+      "equal": true
+    },
+    "final_rows.json": {
+      "bytes": 2173245,
+      "sha256": "d4ee087c7cc189a3bbee0a71deeca568225f317292ff85171b0f574f3cc814ca",
+      "equal": true
+    },
+    "inputs.json": {
+      "bytes": 711507,
+      "sha256": "3831fe9dea6e5001d9a55c4c803cc200242347b7bf5543600768d12d7991386b",
+      "equal": true
+    },
+    "ledger.sqlite": {
+      "bytes": 1527808,
+      "sha256": "b935f37bf8e2437ce70d8840aff60d274fd58b860336544ca52dc5cdffbbf18b",
+      "equal": true
+    },
+    "paired.json": {
+      "bytes": 682,
+      "sha256": "e8e9283dab32c9a3e50b3734ffcf25b5f03c64398d083affdb2d9d14d435c049",
+      "equal": true
+    },
+    "sql.jsonl.gz": {
+      "bytes": 1640161,
+      "sha256": "d9877dd936c2f066e0d7b5a7f2b2de68c9bfcdd42c78c51a20f89d768e6b9751",
+      "equal": true
+    },
+    "summary.csv": {
+      "bytes": 4279,
+      "sha256": "e0cf5b6750851fbf50fa7bbc949d6d9cf4f25371ca46519fe9c2f66c2140d4e2",
+      "equal": true
+    },
+    "traces.jsonl.gz": {
+      "bytes": 333456,
+      "sha256": "2c60568ce7a64415b9635e9949f5ae86c3adf8765793bf1e13be29226a2b7188",
+      "equal": true
+    },
+    "witnesses.json": {
+      "bytes": 29973,
+      "sha256": "1d3abc3eeec3d079ca32c521496163d60e7b3f295b4a491fa2d00a88e5726fe7",
+      "equal": true
+    }
+  }
+}

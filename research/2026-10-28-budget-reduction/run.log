@@ -1,0 +1,1 @@
+{"passed": true, "input_histories": 3888, "rules": 5, "rule_cases": 19440, "primary_steps": 77760, "primary_state_records": 174960, "control_rule_cases": 30, "final_rows": 19471, "integrity": "ok", "reopened_integrity": "ok", "sql_statements": 428776, "cpu_seconds": 4.413954, "wall_seconds": 6.025109417000067}

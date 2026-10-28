@@ -1,0 +1,5 @@
+{
+  "frozen_at": "2026-10-28T13:44:29.297356+00:00",
+  "source_sha256": "738485915480f2067ab2c6bae7212d7a33e2b4ddaf468e387876e2a5ea8950ee",
+  "access": "Frozen before reading main outputs. Main source was read after independent specification and main source freezes, only to map schema, named fixtures, and SQL statements. No main implementation is imported."
+}

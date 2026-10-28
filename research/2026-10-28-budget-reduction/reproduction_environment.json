@@ -1,0 +1,24 @@
+{
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "sqlite": "3.50.4",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "cpu_seconds": 4.510571,
+  "wall_seconds": 6.134284624999964,
+  "output_bytes_before_environment": 6536149,
+  "model": "Codex generated the study; exact model build not exposed",
+  "seed": null,
+  "external_calls": 0,
+  "limits": {
+    "cpu_seconds": 120,
+    "wall_seconds": 450,
+    "saved_output_bytes": 200000000
+  },
+  "sqlite_settings": {
+    "journal_mode": "WAL",
+    "synchronous": "FULL",
+    "read_uncommitted": false,
+    "shared_cache": false
+  },
+  "source_sha256": "82cfd11fc7114e77e91de1e82f87eb4ef8378d24e1297cd0268d163e69254b91"
+}

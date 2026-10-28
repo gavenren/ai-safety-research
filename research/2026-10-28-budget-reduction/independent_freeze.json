@@ -1,0 +1,7 @@
+{
+  "frozen_at": "2026-10-28T13:41:34.167043+00:00",
+  "source_sha256": "4d8f3df20b8c0b760a35846a7058905033ed3137ebba393646d1c9f43dee02fe",
+  "plan_sha256": "3778f43c2c4edc030354091c46ea647acad325d39c31b086e40ef88bf4db7c05",
+  "access": "Only plan.md and plan_freeze.json were read before this freeze. No main implementation or main result was read.",
+  "method": "Direct prefix formulas from event positions. Decisions refer recursively only to earlier event cuts. No SQL or main import."
+}
