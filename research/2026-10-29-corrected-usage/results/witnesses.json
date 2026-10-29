@@ -1,0 +1,1827 @@
+{
+  "ArrivalReplace:excess_case": {
+    "input": {
+      "correction_group": "equal_up",
+      "duplicate_group": "none",
+      "id": 145,
+      "order": [
+        "A1",
+        "A2",
+        "B2",
+        "B1"
+      ],
+      "values": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": true,
+          "cap": 1,
+          "demand": 1,
+          "excess": 1,
+          "feasible_refusal": false,
+          "final_charge": 2,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 1
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 2,
+          "local_balance": 1
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 2,
+          "excess": 1,
+          "feasible_refusal": false,
+          "final_charge": 3,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 3,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 2,
+          "local_balance": 2
+        },
+        {
+          "admitted": true,
+          "cap": 3,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 3,
+          "local_balance": 1
+        }
+      ],
+      "case_id": 145,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "ArrivalReplace",
+      "score": {
+        "admitted": 5,
+        "any_negative": false,
+        "error": -1,
+        "exact": false,
+        "excess_branches": 2,
+        "excess_case": true,
+        "feasible_refusal_branches": 0,
+        "feasible_refusal_case": false,
+        "max_excess": 1,
+        "min_q": 0,
+        "over": false,
+        "under": true
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [
+            0,
+            1
+          ],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 1
+    }
+  },
+  "ArrivalReplace:feasible_refusal_case": {
+    "input": {
+      "correction_group": "equal_down",
+      "duplicate_group": "none",
+      "id": 433,
+      "order": [
+        "A1",
+        "A2",
+        "B2",
+        "B1"
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 2,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 1
+        }
+      ],
+      "case_id": 433,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "ArrivalReplace",
+      "score": {
+        "admitted": 1,
+        "any_negative": false,
+        "error": 1,
+        "exact": false,
+        "excess_branches": 0,
+        "excess_case": false,
+        "feasible_refusal_branches": 2,
+        "feasible_refusal_case": true,
+        "max_excess": 0,
+        "min_q": 0,
+        "over": true,
+        "under": false
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [
+            0,
+            1
+          ],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 0
+    }
+  },
+  "ArrivalReplace:over": {
+    "input": {
+      "correction_group": "equal_down",
+      "duplicate_group": "none",
+      "id": 433,
+      "order": [
+        "A1",
+        "A2",
+        "B2",
+        "B1"
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 2,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 1
+        }
+      ],
+      "case_id": 433,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "ArrivalReplace",
+      "score": {
+        "admitted": 1,
+        "any_negative": false,
+        "error": 1,
+        "exact": false,
+        "excess_branches": 0,
+        "excess_case": false,
+        "feasible_refusal_branches": 2,
+        "feasible_refusal_case": true,
+        "max_excess": 0,
+        "min_q": 0,
+        "over": true,
+        "under": false
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [
+            0,
+            1
+          ],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 0
+    }
+  },
+  "ArrivalReplace:under": {
+    "input": {
+      "correction_group": "equal_up",
+      "duplicate_group": "none",
+      "id": 145,
+      "order": [
+        "A1",
+        "A2",
+        "B2",
+        "B1"
+      ],
+      "values": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": true,
+          "cap": 1,
+          "demand": 1,
+          "excess": 1,
+          "feasible_refusal": false,
+          "final_charge": 2,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 1
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 2,
+          "local_balance": 1
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 2,
+          "excess": 1,
+          "feasible_refusal": false,
+          "final_charge": 3,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 3,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 2,
+          "local_balance": 2
+        },
+        {
+          "admitted": true,
+          "cap": 3,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 3,
+          "local_balance": 1
+        }
+      ],
+      "case_id": 145,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "ArrivalReplace",
+      "score": {
+        "admitted": 5,
+        "any_negative": false,
+        "error": -1,
+        "exact": false,
+        "excess_branches": 2,
+        "excess_case": true,
+        "feasible_refusal_branches": 0,
+        "feasible_refusal_case": false,
+        "max_excess": 1,
+        "min_q": 0,
+        "over": false,
+        "under": true
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [
+            0,
+            1
+          ],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 1
+    }
+  },
+  "GlobalClamp:feasible_refusal_case": {
+    "input": {
+      "correction_group": "equal_down",
+      "duplicate_group": "none",
+      "id": 433,
+      "order": [
+        "A1",
+        "A2",
+        "B2",
+        "B1"
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 2,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 1
+        }
+      ],
+      "case_id": 433,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "GlobalClamp",
+      "score": {
+        "admitted": 1,
+        "any_negative": false,
+        "error": 1,
+        "exact": false,
+        "excess_branches": 0,
+        "excess_case": false,
+        "feasible_refusal_branches": 2,
+        "feasible_refusal_case": true,
+        "max_excess": 0,
+        "min_q": 0,
+        "over": true,
+        "under": false
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 0
+    }
+  },
+  "GlobalClamp:over": {
+    "input": {
+      "correction_group": "equal_down",
+      "duplicate_group": "none",
+      "id": 433,
+      "order": [
+        "A1",
+        "A2",
+        "B2",
+        "B1"
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 2,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 1
+        }
+      ],
+      "case_id": 433,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "GlobalClamp",
+      "score": {
+        "admitted": 1,
+        "any_negative": false,
+        "error": 1,
+        "exact": false,
+        "excess_branches": 0,
+        "excess_case": false,
+        "feasible_refusal_branches": 2,
+        "feasible_refusal_case": true,
+        "max_excess": 0,
+        "min_q": 0,
+        "over": true,
+        "under": false
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 0
+    }
+  },
+  "ItemClamp:feasible_refusal_case": {
+    "input": {
+      "correction_group": "equal_down",
+      "duplicate_group": "none",
+      "id": 433,
+      "order": [
+        "A1",
+        "A2",
+        "B2",
+        "B1"
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 2,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 1
+        }
+      ],
+      "case_id": 433,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "ItemClamp",
+      "score": {
+        "admitted": 1,
+        "any_negative": false,
+        "error": 1,
+        "exact": false,
+        "excess_branches": 0,
+        "excess_case": false,
+        "feasible_refusal_branches": 2,
+        "feasible_refusal_case": true,
+        "max_excess": 0,
+        "min_q": 0,
+        "over": true,
+        "under": false
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [
+            0,
+            1
+          ],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 0
+    }
+  },
+  "ItemClamp:over": {
+    "input": {
+      "correction_group": "equal_down",
+      "duplicate_group": "none",
+      "id": 433,
+      "order": [
+        "A1",
+        "A2",
+        "B2",
+        "B1"
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 2,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 1
+        }
+      ],
+      "case_id": 433,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "ItemClamp",
+      "score": {
+        "admitted": 1,
+        "any_negative": false,
+        "error": 1,
+        "exact": false,
+        "excess_branches": 0,
+        "excess_case": false,
+        "feasible_refusal_branches": 2,
+        "feasible_refusal_case": true,
+        "max_excess": 0,
+        "min_q": 0,
+        "over": true,
+        "under": false
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [
+            0,
+            1
+          ],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 0
+    }
+  },
+  "MaxReplace:feasible_refusal_case": {
+    "input": {
+      "correction_group": "equal_down",
+      "duplicate_group": "none",
+      "id": 432,
+      "order": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 2,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 1
+        }
+      ],
+      "case_id": 432,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "MaxReplace",
+      "score": {
+        "admitted": 1,
+        "any_negative": false,
+        "error": 1,
+        "exact": false,
+        "excess_branches": 0,
+        "excess_case": false,
+        "feasible_refusal_branches": 2,
+        "feasible_refusal_case": true,
+        "max_excess": 0,
+        "min_q": 0,
+        "over": true,
+        "under": false
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [
+            0,
+            1
+          ],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [
+            0,
+            1
+          ],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 0
+    }
+  },
+  "MaxReplace:over": {
+    "input": {
+      "correction_group": "equal_down",
+      "duplicate_group": "none",
+      "id": 432,
+      "order": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": -1
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 2,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": true,
+          "final_charge": 0,
+          "local_balance": 1
+        }
+      ],
+      "case_id": 432,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "MaxReplace",
+      "score": {
+        "admitted": 1,
+        "any_negative": false,
+        "error": 1,
+        "exact": false,
+        "excess_branches": 0,
+        "excess_case": false,
+        "feasible_refusal_branches": 2,
+        "feasible_refusal_case": true,
+        "max_excess": 0,
+        "min_q": 0,
+        "over": true,
+        "under": false
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [
+            0,
+            0
+          ],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [
+            0,
+            1
+          ],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [
+            0,
+            1
+          ],
+          "q": 1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 0
+    }
+  },
+  "Net:any_negative": {
+    "input": {
+      "correction_group": "equal_down",
+      "duplicate_group": "none",
+      "id": 433,
+      "order": [
+        "A1",
+        "A2",
+        "B2",
+        "B1"
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "trace": {
+      "branches": [
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 0,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 0
+        },
+        {
+          "admitted": true,
+          "cap": 1,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 0
+        },
+        {
+          "admitted": false,
+          "cap": 1,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 0,
+          "local_balance": 1
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 1,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 1,
+          "local_balance": 1
+        },
+        {
+          "admitted": true,
+          "cap": 2,
+          "demand": 2,
+          "excess": 0,
+          "feasible_refusal": false,
+          "final_charge": 2,
+          "local_balance": 0
+        }
+      ],
+      "case_id": 433,
+      "closure": {
+        "all_reports": true,
+        "external_finality": true,
+        "passed": true
+      },
+      "rule": "Net",
+      "score": {
+        "admitted": 3,
+        "any_negative": true,
+        "error": 0,
+        "exact": true,
+        "excess_branches": 0,
+        "excess_case": false,
+        "feasible_refusal_branches": 0,
+        "feasible_refusal_case": false,
+        "max_excess": 0,
+        "min_q": -1,
+        "over": false,
+        "under": false
+      },
+      "states": [
+        {
+          "duplicate": false,
+          "event": null,
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": []
+        },
+        {
+          "duplicate": false,
+          "event": "A1",
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "A2",
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B2",
+          "items": [],
+          "q": -1,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B2"
+          ]
+        },
+        {
+          "duplicate": false,
+          "event": "B1",
+          "items": [],
+          "q": 0,
+          "revisions": [],
+          "seen": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "true_charge": 0
+    }
+  }
+}

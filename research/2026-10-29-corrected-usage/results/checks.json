@@ -1,0 +1,20 @@
+{
+  "boundary_control_rule_cases": 12,
+  "boundary_decisions": 72,
+  "decision_branches": 419904,
+  "delivery_steps": 338256,
+  "hypotheses_checked": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true
+  },
+  "input_histories": 11664,
+  "named_control_rule_cases": 36,
+  "passed": true,
+  "rule_cases": 69984,
+  "rules": 6,
+  "state_records": 408240,
+  "summary_rows": 78,
+  "witnesses": 11
+}

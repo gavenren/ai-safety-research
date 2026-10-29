@@ -1,0 +1,82 @@
+{
+  "against_net": [
+    {
+      "cases": 11664,
+      "decision_differences": 0,
+      "extra_admissions": 0,
+      "fewer_admissions": 0,
+      "q_equal": 11664,
+      "q_higher": 0,
+      "q_lower": 0,
+      "reference": "Net",
+      "rule": "Net"
+    },
+    {
+      "cases": 11664,
+      "decision_differences": 7538,
+      "extra_admissions": 0,
+      "fewer_admissions": 7538,
+      "q_equal": 8494,
+      "q_higher": 3170,
+      "q_lower": 0,
+      "reference": "Net",
+      "rule": "GlobalClamp"
+    },
+    {
+      "cases": 11664,
+      "decision_differences": 9642,
+      "extra_admissions": 0,
+      "fewer_admissions": 9642,
+      "q_equal": 7650,
+      "q_higher": 4014,
+      "q_lower": 0,
+      "reference": "Net",
+      "rule": "ItemClamp"
+    },
+    {
+      "cases": 11664,
+      "decision_differences": 16156,
+      "extra_admissions": 8078,
+      "fewer_admissions": 8078,
+      "q_equal": 4924,
+      "q_higher": 3370,
+      "q_lower": 3370,
+      "reference": "Net",
+      "rule": "ArrivalReplace"
+    },
+    {
+      "cases": 11664,
+      "decision_differences": 15984,
+      "extra_admissions": 0,
+      "fewer_admissions": 15984,
+      "q_equal": 5184,
+      "q_higher": 6480,
+      "q_lower": 0,
+      "reference": "Net",
+      "rule": "MaxReplace"
+    },
+    {
+      "cases": 11664,
+      "decision_differences": 0,
+      "extra_admissions": 0,
+      "fewer_admissions": 0,
+      "q_equal": 11664,
+      "q_higher": 0,
+      "q_lower": 0,
+      "reference": "Net",
+      "rule": "RevisionReplace"
+    }
+  ],
+  "item_vs_global": {
+    "cases": 11664,
+    "decision_differences": 2104,
+    "extra_admissions": 0,
+    "fewer_admissions": 2104,
+    "max_gap": 2,
+    "q_equal": 10500,
+    "q_higher": 1164,
+    "q_lower": 0,
+    "reference": "GlobalClamp",
+    "rule": "ItemClamp"
+  }
+}
