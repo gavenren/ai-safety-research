@@ -1,0 +1,7 @@
+{
+  "frozen_at": "2026-10-29T13:37:17.017890+00:00",
+  "source_sha256": "d28129ade94834eb6fbc37569511c1a963049acb50317bd950ee9e48b5c42685",
+  "plan_sha256": "34381f3328381543f6e11babb84eacb5a5467f24e24f7d2da727053350a11763",
+  "access": "Only plan.md and plan_freeze.json were read before this specification was written and frozen. No main implementation or main output was read. The inherited context contained the plan text and proposed topic.",
+  "method": "Direct distinct-prefix sums, minimum-prefix reflection, per-item final positions, and greatest source revision. No mutable main merge loop or main import."
+}

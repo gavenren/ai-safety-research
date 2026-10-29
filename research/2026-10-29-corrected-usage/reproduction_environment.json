@@ -1,0 +1,20 @@
+{
+  "bounds": {
+    "cpu_seconds": 120,
+    "periodic_output_bytes": 200000000,
+    "periodic_wall_seconds": 300
+  },
+  "cpu_seconds": 1.929251,
+  "external_calls": 0,
+  "finished_utc": "2026-10-29T13:39:55.675686+00:00",
+  "machine": "arm64",
+  "model_calls": 0,
+  "peak_memory_measured": false,
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "scientific_bytes": 4233904,
+  "seed": null,
+  "source_sha256": "8c71d88326062b3cdfb9d0069b94fa0e41da421f0e6ebd1106d24ef523da31aa",
+  "started_utc": "2026-10-29T13:39:53.750543+00:00",
+  "wall_seconds": 1.9251418339999873
+}

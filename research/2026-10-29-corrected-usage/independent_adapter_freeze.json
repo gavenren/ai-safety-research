@@ -1,0 +1,5 @@
+{
+  "frozen_at": "2026-10-29T13:40:15.988969+00:00",
+  "source_sha256": "228b7a3c1b6d85b871e5530a778a99533cf2de1ae2a41454fb22db9aa6f56326",
+  "access": "Main source was read after main and independent specification freezes to map schema and control names. This adapter was frozen before opening any main output. No main implementation is imported."
+}

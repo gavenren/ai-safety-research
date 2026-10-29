@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "files": {
+    "checks.json": {
+      "bytes": 406,
+      "sha256": "f74b6216b477a265b6dc155a8d1af7a2b08bdd14aab1f05ef18f87265f57e4f9",
+      "equal": true
+    },
+    "controls.json": {
+      "bytes": 179003,
+      "sha256": "58f474ad0934ac254367819ba5367f6aa01d58f0ff87b38f6911771d3a3db685",
+      "equal": true
+    },
+    "inputs.json": {
+      "bytes": 2712437,
+      "sha256": "e6b83a3eafe141b48972ecfc728c79e15fcf623cd4433574e2efeace353427ad",
+      "equal": true
+    },
+    "paired.json": {
+      "bytes": 1807,
+      "sha256": "37599ea812437bd0dd705e030fcc7782e5cb783e7ff543a49348ac5129159162",
+      "equal": true
+    },
+    "summary.csv": {
+      "bytes": 6264,
+      "sha256": "f52fbac86b5eb2da2cf42c03b266c3d11f2b04ccf7e6d5c3b58894cf744c5b0b",
+      "equal": true
+    },
+    "traces.jsonl.gz": {
+      "bytes": 1296916,
+      "sha256": "50d94253e2b2a9cf6fe5a9fe1c8a3471dfa68b1f407f74981ff0878128dc04b1",
+      "equal": true
+    },
+    "witnesses.json": {
+      "bytes": 37071,
+      "sha256": "19f3fdf011049a59b1ea0ff68dbed34e788dc19a24ccfeb14bf96576371fb369",
+      "equal": true
+    }
+  }
+}
