@@ -11,3 +11,7 @@ The design review requested clearer wording for the control whose machine label 
 The matched admission result and the difference between item and shared clipping are planned comparisons. They are not new experiments selected after the result. The report notes that duplicate multiset groups weight first-occurrence orders differently; their frequency differences are not isolated replay effects.
 
 The second complete scientific output set and Python cache files are omitted from publication. All inputs, main output, environment records, exact byte comparisons, and independent check records remain. Publication success requires a separate remote commit and file check.
+
+## Production extension on 2026-10-29
+
+The owner requested real production website tests. The new `live/` folder adds controlled account observations and browser decisions. The original frozen implementation and simulation evidence are unchanged. The report scope, abstract, references, README, and index now include the extension. See `live/changes.md` for all execution and audit issues.

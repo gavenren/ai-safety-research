@@ -4,7 +4,9 @@ Date: 2026-10-29. Read [the report](report.md).
 
 Six rules each receive 11,664 synthetic histories. Clipping the shared partial sum at zero overcounts 3,170 histories. Clipping each item separately overcounts 4,014. Signed addition and revision-based replacement are exact after the stated complete closure. These are corrected charges, not proof of a physical resource limit.
 
-## Repeat the work
+The later [production extension](live/README.md) adds 36 matched decisions on temporary Drive and Calendar records. It includes 18 verified output renames and 18 checked no-save decisions. Credits and report delivery are controlled test inputs, not provider billing.
+
+## Repeat the simulation
 
 Use Python 3.13.7 on a Unix-like system for the closest reproduction. Python's `resource` module is required; native Windows is unsupported. No package install, account, network, model call, or random seed is needed. Run from this folder. Output folders must not already exist.
 
@@ -42,6 +44,6 @@ Read compressed traces with Python `gzip.open` and `json.loads`. Each line is on
 
 ## Limits and review status
 
-All admissions occur after complete receipt and a trusted finality declaration. The greatest observed revision alone does not prove closure. The source values, identities, revisions, and signed deltas are assumed correct. This study does not test any production service, financial transaction, or physical compute refund.
+All admissions occur after complete receipt and a trusted finality declaration. The greatest observed revision alone does not prove closure. The source values, identities, revisions, and signed deltas are assumed correct. The original simulation does not test a production service. The later extension tests saved website fields and local accounting decisions. Neither test measures a financial transaction or a physical compute refund.
 
 Codex generated this work. Separate Codex agents checked it. No human or external peer review occurred. The exact model build was not exposed. No new license is assigned.

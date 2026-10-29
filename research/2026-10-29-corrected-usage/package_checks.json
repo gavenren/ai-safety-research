@@ -1,19 +1,15 @@
 {
   "passed": true,
-  "public_files_before_checks_and_manifest": 34,
-  "relative_links_checked": 16,
-  "syntax_and_json": "passed",
-  "frozen_hashes": "all four match",
-  "result_checks": "all three passed",
-  "root_index_change": "one new row; all earlier text preserved",
-  "secret_and_private_path_scan": "no matches in public files or decompressed traces",
-  "rights_review": "original code and synthetic inputs; source paraphrases checked separately",
-  "limits": "pattern scan is not proof that every possible secret is absent; manual scope check also used",
-  "publication": "local package check only; no remote assertion",
-  "external_reference_scope": "seven checked primary sources; source_review.md gives actual reading scopes; failed discovery leads are marked unused",
-  "copied_text_review": "manual review found only short attributed source paraphrases; no copied implementation, dataset, or figure",
-  "exclusions": [
-    "second byte-identical output set",
-    "Python cache"
-  ]
+  "scope": "original simulation plus controlled production extension",
+  "public_files_before_manifest_checks": 62,
+  "relative_links_checked": 27,
+  "frozen_files_checked": 8,
+  "private_identifier_secret_path_scan": "passed; known exact fixture IDs also excluded",
+  "syntax_json": "passed",
+  "index_change": "only the October29 row",
+  "report_sha256": "324b9720a7d195454c64950eb76b77d5b5711d4722498fa8afcf3e469b263d88",
+  "review": "separate formula, source, output, cleanup and final claim checks passed; no human review",
+  "publication": "local check only; remote verification required",
+  "rights": "test-only original material; short attributed source paraphrases; no new licence",
+  "limitations": "pattern checks do not prove absence of every possible secret; manual scope review also applied"
 }

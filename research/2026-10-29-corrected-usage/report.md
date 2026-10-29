@@ -1,10 +1,12 @@
 # A nonnegative balance can preserve an accounting error
 
-Date: 2026-10-29, America/Toronto. Research note. Exact finite simulation with invented charges.
+Date: 2026-10-29, America/Toronto. Research note. Exact finite simulation and a controlled production website extension with invented charges.
 
 ## Abstract
 
 An AI task can receive a corrected charge after its work has ended. The correction can reduce an earlier amount. We compare six accounting rules on 11,664 delivery histories each. All rules remove exact repeated events. Forcing the shared partial balance to be at least zero overcounts 3,170 histories after every required report arrives. Applying that restriction separately to each item overcounts 4,014 histories. The second rule refuses 2,104 more feasible job branches than the first. A signed sum and replacement by the greatest source revision are exact in the declared closed model. Last-arrival replacement has the same total admissions as the signed sum, but exchanges 8,078 valid admissions for 8,078 excess-charge admissions. The contribution is a complete comparison corpus, matched outcomes, full traces, and a separate formula check. The accounting methods and reflection identity are known. These results do not measure production failure rates or prove a limit on physical compute.
+
+A later production website extension used 25 temporary Google Drive and Calendar records. It added 36 matched decisions, 18 saved output renames, and 18 checked refusals. Four rules refused feasible saves after a reduction. ArrivalReplace saved an output above the invented test-credit limit on both services. These controlled inputs do not measure provider billing.
 
 ## Research question and safety relevance
 
@@ -116,7 +118,7 @@ MaxReplace ends at `max(uA,vA)+max(uB,vB)`. Its error is `max(uA-vA,0)+max(uB-vB
 
 When q equals Z, the branch guard is exactly `Z+b<=C`. When q is at least Z, it cannot admit an excess-charge branch, though it can refuse a feasible one. ArrivalReplace can fall below Z, so that argument does not apply. None of these results permits use of an incomplete signed sum as available spend. The external finality assumption is essential to the interpretation.
 
-## Reproduction and uncertainty
+## Simulation reproduction and uncertainty
 
 Two full runs produced identical bytes for seven scientific files. The separate formulas matched each run's 11,664 inputs, 69,984 rule cases, 408,240 state records, 338,256 event steps and duplicate flags, and 419,904 branches. They also matched 78 summary rows, seven paired tables, 11 first adverse examples, and 48 control cases with 240 states and 288 branches. States include repeated values after duplicates and are not independent samples. The independent formula source preceded main-source access; the schema adapter was written after source access. See [independent_review.md](independent_review.md).
 
@@ -126,13 +128,80 @@ Both runs stayed within the 120 CPU-second limit and periodic 300 wall-second an
 
 The enumeration gives exact counts for selected integers and delivery multisets. It does not justify a population failure rate, confidence interval, or significance claim. The six decision branches share each history and are not independent observations. [README.md](README.md) gives exact commands and file descriptions.
 
+## Production website extension: saved corrections and output actions
+
+Extension date: 2026-10-29. This section adds controlled tests on Google Drive and the primary Google Calendar account. The earlier simulation and its results remain unchanged.
+
+### Question, related work, and contribution
+
+Can the same six rules control real browser saves when their input values come from saved website records? This extension tests that connection. It does not test an actual billing system. A **test credit** is an invented accounting unit stored in a folder or event name. The value has no financial meaning.
+
+Google Drive documents stable file IDs and non-unique names [8]. Google Calendar documents event fields and conditional version checks [9,10]. We use exact provider IDs to join reads of the same record. We do not use names alone as identity. The revision labels in this test are assigned by the study. They are not Calendar sequence numbers, sorted etags, or verified Drive version counters. The browser writes do not test native conditional-update protection.
+
+WebVoyager evaluates browser tasks on live public websites [11]. The text checked for this comparison was its arXiv version 4; the ACL publication metadata was checked separately. Its selected tasks exclude login-required access. This extension has a narrower purpose: it connects controlled accounting inputs to changes in owned account records. It is not a broad agent benchmark. The contribution is the saved integration evidence and matched decision checks. The rule examples were selected from the earlier simulation, so their arithmetic outcomes are expected. The [source record](live/source_notes.md) gives search terms, rights, and read scopes. This limited search does not establish global novelty.
+
+### Plan and procedure
+
+The [extension plan](live/plan.md) froze at 13:59:15 UTC before account writes. A separate formula implementation froze at 13:59:04 UTC. Its author had seen an original-study code excerpt, but had not seen the new implementation or results. The wrapper froze at 13:59:46 UTC. It calls the unchanged original `evaluate` function. The wrapper converts checked saved names into the original integer inputs; it does not change a rule.
+
+Connector tools created 25 temporary records: one private Drive parent, six source folders and six output folders, and six source events and six output events. Calendar requests used Private and Free settings, no other guests, no reminders, no recurrence, and no meeting link. The saved attendee list included the owner as a self attendee. The requested interval was November 4, 2026, from 12:00 to 12:05 in America/Toronto. The audit checked the saved numeric interval and browser Free/Private fields. It did not verify a named saved time zone.
+
+Each source record first stored revision 1. The browser then changed that same record's name to revision 2. All twelve corrections had a reopened or reloaded browser observation and an exact-record connector read. Thus the inputs contain 24 saved versions of twelve real records. The source charges, signed deltas, and revision labels are still study data.
+
+The local controller delivered copies of those observations in the orders below. It also supplied the study operator's period-closure declaration. The changed delivery order, exact repeat, and closure are controlled conditions. They were not Google delivery faults or Google finality guarantees. All six rules received the same captured inputs and filtered repeated event IDs before accounting.
+
+| Selected case, on each service | Values (uA,vA,uB,vB) | Delivered order | Cap C | Demand b |
+| --- | --- | --- | ---: | ---: |
+| credit | (2,0,0,0) | A2,A1,B1,B2 | 1 | 1 |
+| upward | (0,2,0,0) | A2,A1,B1,B2 | 2 | 1 |
+| replay | (1,1,1,1) | A2,A2,B2,A1,B1 | 3 | 1 |
+
+Each rule had one output marker per service. The three cases reused that marker in the listed order. Each case started a fresh local accounting state. Earlier output changes were baseline fields, not charges in the next case. Before each decision, the exact marker was read. An admission permitted one browser rename to a unique case name. A refusal permitted no Save action. All markers were read again after the case, before later reuse. Each admitted rename cost one test credit by definition. This cap excluded setup, source edits, cleanup, and physical provider use.
+
+### Measured outcomes
+
+There were six selected service cases and 36 matched rule decisions. The browser saved twelve source corrections and eighteen output renames. The other eighteen decisions made no Save call. All 36 output before/after checks matched the intended action or unchanged field. These are counts of observed test actions. They are not independent population samples.
+
+Each row below has six rule decisions, three per service. Final accounting compares the locally computed q with the final credits in the saved source names. An excess is above the invented study cap.
+
+| Rule | Final undercounts | Final overcounts | Saved output renames | Excess-credit saves | Feasible refusals |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Net | 0 | 0 | 4 | 0 | 0 |
+| GlobalClamp | 0 | 2 | 2 | 0 | 2 |
+| ItemClamp | 0 | 2 | 2 | 0 | 2 |
+| ArrivalReplace | 2 | 2 | 4 | 2 | 2 |
+| MaxReplace | 0 | 2 | 2 | 0 | 2 |
+| RevisionReplace | 0 | 0 | 4 | 0 | 0 |
+
+In each credit case, Net and RevisionReplace booked zero and saved the permitted output. The other four rules booked two and refused a feasible one-credit save. In each upward case, ArrivalReplace booked zero after the old report. Its browser rename was saved, with a final test charge of three, which exceeds the cap of two by one. The other five rules booked two and refused. In both replay cases, all six rules booked two and saved one output each. All twelve repeated-event steps left the accounting state unchanged.
+
+These three cases do not distinguish GlobalClamp from ItemClamp. The earlier simulation's offset-across-items case does distinguish them. This extension does not add live evidence for that difference.
+
+### Checks, failures, and cleanup
+
+A separate audit matched all 24 source versions to private exact-ID reads and retained hashes. It checked all 36 rule decisions and 192 prefix states against the frozen formulas; 1,674 assertions passed. A portable public-data check passed 1,701 assertions. It also checked source and output action counts, duplicate steps, and sequential marker reuse. Two saved-data re-executions of the controller produced the same bytes as the original `decisions.json`. This was repeated analysis of one website test, not a second live run. A separate output audit checked the final website actions and cleanup. See the [reproduction guide](live/README.md), [source audit](live/independent_review.md), and [output audit](live/output_review.md).
+
+The browser had loading and navigation problems. An early Drive reload showed an old name before the saved state loaded. Some Calendar edit controls were not ready, and one Close selector matched both a window and a notice. These were resolved by fresh reads and exact record controls. No uncertain Save was repeated. The first Drive cleanup scan read incomplete pages and failed its path checks. A later scan waited for each record's own name before checking its path. The earlier failed evidence was retained. An independent audit adapter also needed a correction for the null field used on refused decisions. The accounting rules and observed test data did not change. [changes.md](live/changes.md) records these failures.
+
+All twelve exact Calendar IDs returned cancelled status. The primary-calendar marker query for November 4 returned no active result and no next page. The Drive parent and all twelve exact child URLs showed a recoverable Trash path. The active Drive marker query returned no result. Trash was not emptied. These checks establish removal from the stated active test scopes, not permanent deletion or removal of provider audit history.
+
+### Interpretation and limits
+
+The original arithmetic errors affected real browser dispatch in these selected cases. A correct saved name does not mean that its accounting rule made a correct admission decision. ArrivalReplace's two excessive test-credit actions were saved successfully. Conversely, a local refusal can preserve a valid website state while needlessly blocking work.
+
+This is an instrumented Codex workflow with fixed cases and checked inputs. It is not an independent unsupervised-agent evaluation. Test credits, order, finality, and trusted source revisions were supplied by the study. There was no real invoice, credit refund, provider quota, resource-meter test, concurrent writer, crash test, or native exactly-once guarantee. No new paid service or model API call was started. The selected counts do not justify a confidence interval, statistical significance, or a production failure rate.
+
+The public files contain test-only names, local decisions, saved-field extracts, action records, and raw-evidence hashes. Exact account IDs, addresses, unfiltered pages, and screenshots remain private. Public readers can repeat the analysis and use the procedure in an authorized account. They cannot query the removed private fixtures from these files. A hash links retained evidence; it does not prove a provider action by itself.
+
+The browser was Chrome 156.0.8078.48. Analysis used Python 3.13.7 and the standard library. Connector builds and the exact Codex model build were not exposed. No random seed or timing benchmark applies. Codex generated and ran this extension. Separate Codex agents checked sources, formulas, outputs, and claims. No human or external peer review occurred. No new licence is assigned.
+
 ## Discussion and limitations
 
 A nonnegative display is not proof that accounting is correct. Clipping removes information from an incomplete signed sum. If nonnegative display values are required, the ledger can retain the signed data while showing an explicitly incomplete view. This study does not test that interface or its effect on users.
 
 Keeping every record and filtering duplicate IDs are not sufficient if the merge operation changes meaning. The sum of signed adjustments and replacement by revision are valid for their respective encodings here. The maximum payload is valid for a monotone counter, as in the earlier studies, but not for exact downward-correction accounting. Adapters must preserve these distinctions.
 
-The corpus has two items, two revisions per item, exact integers, one optional repeated report, a fixed final period, and no missing primary record. It excludes conflicts, identity reuse, spoofed sources, clock-derived revisions, floating-point rounding, price conversion, taxes, crashes, atomic database writes, live job dispatch, and corrections after closure. The comparison does not establish that a billing, cloud, or agent service implements any tested rule.
+The finite simulation corpus has two items, two revisions per item, exact integers, one optional repeated report, a fixed final period, and no missing primary record. It excludes conflicts, identity reuse, spoofed sources, clock-derived revisions, floating-point rounding, price conversion, taxes, crashes, atomic database writes, live job dispatch, and corrections after closure. The comparison does not establish that a billing, cloud, or agent service implements any tested rule.
 
 All rules wait for complete closure. We do not test which can safely act earlier, how much capacity must be reserved, or how long finality takes. A source that can issue later corrections needs a different contract. Limits on physical compute and irreversible effects also require their own measurements and controls. No result here refunds that past use.
 
@@ -140,7 +209,7 @@ All rules wait for complete closure. We do not test which can safely act earlier
 
 Codex generated the study, code, analysis, and report. Separate Codex agents prepared formulas and reviewed sources, design, implementation, and results. The exact model build was not exposed. No human or external peer review occurred. No university affiliation, endorsement, or certification is claimed.
 
-Inputs are invented. No private record, payment, connected-account mutation, paid compute, or new credential was used. No source code, external dataset, figure, or long passage was copied. References are attributed short paraphrases with explicit reading scopes. No new license is assigned. The principal misuse risk is to present charge-accounting results as a guarantee about real physical use or production reliability. Relevant NeurIPS checklist topics are a review aid only [7].
+The original simulation uses invented inputs and made no account mutation. The later extension used owner-authorized temporary account records. It used no payment, paid compute, or new credential. Its private account evidence is excluded from public files. No source code, external dataset, figure, or long passage was copied. References are attributed short paraphrases with explicit reading scopes. No new license is assigned. The principal misuse risk is to present charge-accounting results as a guarantee about real physical use or production reliability. Relevant NeurIPS checklist topics are a review aid only [7].
 
 ## References
 
@@ -152,4 +221,9 @@ Inputs are invented. No private record, payment, connected-account mutation, pai
 6. Genliang Zhu and Chu Wang. [Fault-Tolerant Budget Conservation in Distributed Multi-Agent Delegation](https://arxiv.org/html/2610.00349v1). Preprint v1, 2026. Selected abstract, assumptions, and external-effect sections; no full-paper proof review.
 7. NeurIPS. [Paper Checklist Guidelines](https://neurips.cc/public/guides/PaperChecklist). Review aid only.
 
-All sources were checked on 2026-10-29. [references.bib](references.bib) and [source_search.md](source_search.md) give metadata, queries, rights, and precise reading limits.
+8. Google. [Drive files resource](https://developers.google.com/workspace/drive/api/reference/rest/v3/files). Identity, names, versions, and trash fields.
+9. Google. [Calendar events resource](https://developers.google.com/workspace/calendar/api/v3/reference/events). Event identity and saved fields.
+10. Google. [Get specific versions of resources](https://developers.google.com/workspace/calendar/api/guides/version-resources). Conditional etag checks.
+11. Hongliang He and colleagues. [WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models](https://aclanthology.org/2024.acl-long.371/). ACL 2024. Metadata checked; selected methods, limits, and ethics text read from [arXiv version 4](https://arxiv.org/html/2401.13919v4). The ACL PDF could not be retrieved.
+
+All sources were checked on 2026-10-29. [references.bib](references.bib) and [source_search.md](source_search.md) give metadata, queries, rights, and precise reading limits. The extension source record is [live/source_notes.md](live/source_notes.md).
