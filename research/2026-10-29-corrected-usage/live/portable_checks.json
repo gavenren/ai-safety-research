@@ -1,0 +1,70 @@
+{
+  "assertions": 1701,
+  "duplicate_steps_across_rules": 12,
+  "input_sha256": {
+    "actions.json": "5416fda14f3e38772a208b762f0b82669896b17c498a3d45e62cabf2ccc5f76f",
+    "browser_actions.json": "ca16ecbde0aa851718587dfbe918bf211e2fe37a0e457f7cbd70f6bab1487d8d",
+    "decisions.json": "4aa552b6977e2a9cc5c17b34db2ecd30509068b4abc0051a1828a5f329194e98",
+    "independent.py": "81de1f951ee52a6368f4d9cdf570e6638c7174fab710e98d10c79385e97656b5",
+    "observations.json": "a6103a844225dfbe037af95b5ff93852e68ad348ecbea50d9db8552409517ea3"
+  },
+  "output_browser_dispatches": 18,
+  "passed": true,
+  "prefix_states": 192,
+  "refusals_with_zero_dispatch_and_unchanged_field": 18,
+  "rule_decisions": 36,
+  "rule_totals": {
+    "ArrivalReplace": {
+      "admitted": 4,
+      "decisions": 6,
+      "excess_decisions": 2,
+      "feasible_refusals": 2,
+      "over": 2,
+      "under": 2
+    },
+    "GlobalClamp": {
+      "admitted": 2,
+      "decisions": 6,
+      "excess_decisions": 0,
+      "feasible_refusals": 2,
+      "over": 2,
+      "under": 0
+    },
+    "ItemClamp": {
+      "admitted": 2,
+      "decisions": 6,
+      "excess_decisions": 0,
+      "feasible_refusals": 2,
+      "over": 2,
+      "under": 0
+    },
+    "MaxReplace": {
+      "admitted": 2,
+      "decisions": 6,
+      "excess_decisions": 0,
+      "feasible_refusals": 2,
+      "over": 2,
+      "under": 0
+    },
+    "Net": {
+      "admitted": 4,
+      "decisions": 6,
+      "excess_decisions": 0,
+      "feasible_refusals": 0,
+      "over": 0,
+      "under": 0
+    },
+    "RevisionReplace": {
+      "admitted": 4,
+      "decisions": 6,
+      "excess_decisions": 0,
+      "feasible_refusals": 0,
+      "over": 0,
+      "under": 0
+    }
+  },
+  "scope": "Public evidence consistency and independent formula checks. No fresh website read. Private readback hashes are checked for form only; the private evidence audit checks their contents. Cleanup is outside this check.",
+  "source_browser_dispatches": 12,
+  "source_records": 12,
+  "source_versions": 24
+}

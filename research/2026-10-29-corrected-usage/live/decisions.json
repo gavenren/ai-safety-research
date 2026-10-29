@@ -1,0 +1,3818 @@
+[
+  {
+    "admitted": true,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-Net",
+    "q": 0,
+    "required_name": "CUA-CORR-20261029 D-out-Net saved-credit",
+    "rule": "Net",
+    "service": "D",
+    "source_keys": [
+      "D-credit-A-1",
+      "D-credit-A-2",
+      "D-credit-B-1",
+      "D-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": -2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 2,
+    "excess": 0,
+    "feasible_refusal": true,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-GlobalClamp",
+    "q": 2,
+    "required_name": null,
+    "rule": "GlobalClamp",
+    "service": "D",
+    "source_keys": [
+      "D-credit-A-1",
+      "D-credit-A-2",
+      "D-credit-B-1",
+      "D-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 2,
+    "excess": 0,
+    "feasible_refusal": true,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-ItemClamp",
+    "q": 2,
+    "required_name": null,
+    "rule": "ItemClamp",
+    "service": "D",
+    "source_keys": [
+      "D-credit-A-1",
+      "D-credit-A-2",
+      "D-credit-B-1",
+      "D-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 2,
+    "excess": 0,
+    "feasible_refusal": true,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-ArrivalReplace",
+    "q": 2,
+    "required_name": null,
+    "rule": "ArrivalReplace",
+    "service": "D",
+    "source_keys": [
+      "D-credit-A-1",
+      "D-credit-A-2",
+      "D-credit-B-1",
+      "D-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 2,
+    "excess": 0,
+    "feasible_refusal": true,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-MaxReplace",
+    "q": 2,
+    "required_name": null,
+    "rule": "MaxReplace",
+    "service": "D",
+    "source_keys": [
+      "D-credit-A-1",
+      "D-credit-A-2",
+      "D-credit-B-1",
+      "D-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-RevisionReplace",
+    "q": 0,
+    "required_name": "CUA-CORR-20261029 D-out-RevisionReplace saved-credit",
+    "rule": "RevisionReplace",
+    "service": "D",
+    "source_keys": [
+      "D-credit-A-1",
+      "D-credit-A-2",
+      "D-credit-B-1",
+      "D-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          0,
+          0
+        ],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          2,
+          1
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          2,
+          2
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-Net",
+    "q": 2,
+    "required_name": null,
+    "rule": "Net",
+    "service": "D",
+    "source_keys": [
+      "D-upward-A-1",
+      "D-upward-A-2",
+      "D-upward-B-1",
+      "D-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-GlobalClamp",
+    "q": 2,
+    "required_name": null,
+    "rule": "GlobalClamp",
+    "service": "D",
+    "source_keys": [
+      "D-upward-A-1",
+      "D-upward-A-2",
+      "D-upward-B-1",
+      "D-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-ItemClamp",
+    "q": 2,
+    "required_name": null,
+    "rule": "ItemClamp",
+    "service": "D",
+    "source_keys": [
+      "D-upward-A-1",
+      "D-upward-A-2",
+      "D-upward-B-1",
+      "D-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": -2,
+    "excess": 1,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-ArrivalReplace",
+    "q": 0,
+    "required_name": "CUA-CORR-20261029 D-out-ArrivalReplace saved-upward",
+    "rule": "ArrivalReplace",
+    "service": "D",
+    "source_keys": [
+      "D-upward-A-1",
+      "D-upward-A-2",
+      "D-upward-B-1",
+      "D-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-MaxReplace",
+    "q": 2,
+    "required_name": null,
+    "rule": "MaxReplace",
+    "service": "D",
+    "source_keys": [
+      "D-upward-A-1",
+      "D-upward-A-2",
+      "D-upward-B-1",
+      "D-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "D-out-RevisionReplace",
+    "q": 2,
+    "required_name": null,
+    "rule": "RevisionReplace",
+    "service": "D",
+    "source_keys": [
+      "D-upward-A-1",
+      "D-upward-A-2",
+      "D-upward-B-1",
+      "D-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          0,
+          0
+        ],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          1
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          2
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "D-out-Net",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 D-out-Net saved-replay",
+    "rule": "Net",
+    "service": "D",
+    "source_keys": [
+      "D-replay-A-1",
+      "D-replay-A-2",
+      "D-replay-B-1",
+      "D-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "D-out-GlobalClamp",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 D-out-GlobalClamp saved-replay",
+    "rule": "GlobalClamp",
+    "service": "D",
+    "source_keys": [
+      "D-replay-A-1",
+      "D-replay-A-2",
+      "D-replay-B-1",
+      "D-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "D-out-ItemClamp",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 D-out-ItemClamp saved-replay",
+    "rule": "ItemClamp",
+    "service": "D",
+    "source_keys": [
+      "D-replay-A-1",
+      "D-replay-A-2",
+      "D-replay-B-1",
+      "D-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "D-out-ArrivalReplace",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 D-out-ArrivalReplace saved-replay",
+    "rule": "ArrivalReplace",
+    "service": "D",
+    "source_keys": [
+      "D-replay-A-1",
+      "D-replay-A-2",
+      "D-replay-B-1",
+      "D-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "D-out-MaxReplace",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 D-out-MaxReplace saved-replay",
+    "rule": "MaxReplace",
+    "service": "D",
+    "source_keys": [
+      "D-replay-A-1",
+      "D-replay-A-2",
+      "D-replay-B-1",
+      "D-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "D-out-RevisionReplace",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 D-out-RevisionReplace saved-replay",
+    "rule": "RevisionReplace",
+    "service": "D",
+    "source_keys": [
+      "D-replay-A-1",
+      "D-replay-A-2",
+      "D-replay-B-1",
+      "D-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          0,
+          0
+        ],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          2
+        ],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          2
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          2
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-Net",
+    "q": 0,
+    "required_name": "CUA-CORR-20261029 C-out-Net saved-credit",
+    "rule": "Net",
+    "service": "C",
+    "source_keys": [
+      "C-credit-A-1",
+      "C-credit-A-2",
+      "C-credit-B-1",
+      "C-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": -2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 2,
+    "excess": 0,
+    "feasible_refusal": true,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-GlobalClamp",
+    "q": 2,
+    "required_name": null,
+    "rule": "GlobalClamp",
+    "service": "C",
+    "source_keys": [
+      "C-credit-A-1",
+      "C-credit-A-2",
+      "C-credit-B-1",
+      "C-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 2,
+    "excess": 0,
+    "feasible_refusal": true,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-ItemClamp",
+    "q": 2,
+    "required_name": null,
+    "rule": "ItemClamp",
+    "service": "C",
+    "source_keys": [
+      "C-credit-A-1",
+      "C-credit-A-2",
+      "C-credit-B-1",
+      "C-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 2,
+    "excess": 0,
+    "feasible_refusal": true,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-ArrivalReplace",
+    "q": 2,
+    "required_name": null,
+    "rule": "ArrivalReplace",
+    "service": "C",
+    "source_keys": [
+      "C-credit-A-1",
+      "C-credit-A-2",
+      "C-credit-B-1",
+      "C-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 2,
+    "excess": 0,
+    "feasible_refusal": true,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-MaxReplace",
+    "q": 2,
+    "required_name": null,
+    "rule": "MaxReplace",
+    "service": "C",
+    "source_keys": [
+      "C-credit-A-1",
+      "C-credit-A-2",
+      "C-credit-B-1",
+      "C-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 1,
+    "case": "credit",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-RevisionReplace",
+    "q": 0,
+    "required_name": "CUA-CORR-20261029 C-out-RevisionReplace saved-credit",
+    "rule": "RevisionReplace",
+    "service": "C",
+    "source_keys": [
+      "C-credit-A-1",
+      "C-credit-A-2",
+      "C-credit-B-1",
+      "C-credit-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          0,
+          0
+        ],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          2,
+          1
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          2,
+          2
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 0,
+    "values": [
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-Net",
+    "q": 2,
+    "required_name": null,
+    "rule": "Net",
+    "service": "C",
+    "source_keys": [
+      "C-upward-A-1",
+      "C-upward-A-2",
+      "C-upward-B-1",
+      "C-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-GlobalClamp",
+    "q": 2,
+    "required_name": null,
+    "rule": "GlobalClamp",
+    "service": "C",
+    "source_keys": [
+      "C-upward-A-1",
+      "C-upward-A-2",
+      "C-upward-B-1",
+      "C-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-ItemClamp",
+    "q": 2,
+    "required_name": null,
+    "rule": "ItemClamp",
+    "service": "C",
+    "source_keys": [
+      "C-upward-A-1",
+      "C-upward-A-2",
+      "C-upward-B-1",
+      "C-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": -2,
+    "excess": 1,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-ArrivalReplace",
+    "q": 0,
+    "required_name": "CUA-CORR-20261029 C-out-ArrivalReplace saved-upward",
+    "rule": "ArrivalReplace",
+    "service": "C",
+    "source_keys": [
+      "C-upward-A-1",
+      "C-upward-A-2",
+      "C-upward-B-1",
+      "C-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-MaxReplace",
+    "q": 2,
+    "required_name": null,
+    "rule": "MaxReplace",
+    "service": "C",
+    "source_keys": [
+      "C-upward-A-1",
+      "C-upward-A-2",
+      "C-upward-B-1",
+      "C-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": false,
+    "cap": 2,
+    "case": "upward",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A1",
+      "B1",
+      "B2"
+    ],
+    "output_alias": "C-out-RevisionReplace",
+    "q": 2,
+    "required_name": null,
+    "rule": "RevisionReplace",
+    "service": "C",
+    "source_keys": [
+      "C-upward-A-1",
+      "C-upward-A-2",
+      "C-upward-B-1",
+      "C-upward-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          0,
+          0
+        ],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          1
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B1"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          2,
+          0
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          2
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "C-out-Net",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 C-out-Net saved-replay",
+    "rule": "Net",
+    "service": "C",
+    "source_keys": [
+      "C-replay-A-1",
+      "C-replay-A-2",
+      "C-replay-B-1",
+      "C-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "C-out-GlobalClamp",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 C-out-GlobalClamp saved-replay",
+    "rule": "GlobalClamp",
+    "service": "C",
+    "source_keys": [
+      "C-replay-A-1",
+      "C-replay-A-2",
+      "C-replay-B-1",
+      "C-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "C-out-ItemClamp",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 C-out-ItemClamp saved-replay",
+    "rule": "ItemClamp",
+    "service": "C",
+    "source_keys": [
+      "C-replay-A-1",
+      "C-replay-A-2",
+      "C-replay-B-1",
+      "C-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "C-out-ArrivalReplace",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 C-out-ArrivalReplace saved-replay",
+    "rule": "ArrivalReplace",
+    "service": "C",
+    "source_keys": [
+      "C-replay-A-1",
+      "C-replay-A-2",
+      "C-replay-B-1",
+      "C-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "C-out-MaxReplace",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 C-out-MaxReplace saved-replay",
+    "rule": "MaxReplace",
+    "service": "C",
+    "source_keys": [
+      "C-replay-A-1",
+      "C-replay-A-2",
+      "C-replay-B-1",
+      "C-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "admitted": true,
+    "cap": 3,
+    "case": "replay",
+    "demand": 1,
+    "error": 0,
+    "excess": 0,
+    "feasible_refusal": false,
+    "order": [
+      "A2",
+      "A2",
+      "B2",
+      "A1",
+      "B1"
+    ],
+    "output_alias": "C-out-RevisionReplace",
+    "q": 2,
+    "required_name": "CUA-CORR-20261029 C-out-RevisionReplace saved-replay",
+    "rule": "RevisionReplace",
+    "service": "C",
+    "source_keys": [
+      "C-replay-A-1",
+      "C-replay-A-2",
+      "C-replay-B-1",
+      "C-replay-B-2"
+    ],
+    "states": [
+      {
+        "duplicate": false,
+        "event": null,
+        "items": [
+          0,
+          0
+        ],
+        "q": 0,
+        "revisions": [
+          0,
+          0
+        ],
+        "seen": []
+      },
+      {
+        "duplicate": false,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": true,
+        "event": "A2",
+        "items": [
+          1,
+          0
+        ],
+        "q": 1,
+        "revisions": [
+          2,
+          0
+        ],
+        "seen": [
+          "A2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B2",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          2
+        ],
+        "seen": [
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "A1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          2
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B2"
+        ]
+      },
+      {
+        "duplicate": false,
+        "event": "B1",
+        "items": [
+          1,
+          1
+        ],
+        "q": 2,
+        "revisions": [
+          2,
+          2
+        ],
+        "seen": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ]
+      }
+    ],
+    "true_charge": 2,
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+]

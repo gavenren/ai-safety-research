@@ -1,0 +1,386 @@
+[
+  {
+    "alias": "D-credit-A",
+    "before": "CUA-CORR-20261029 D-credit-A r1 c2",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-credit-A r2 c0",
+    "phase": "correction",
+    "time": "2026-10-29T14:01:25.676Z"
+  },
+  {
+    "alias": "D-credit-B",
+    "before": "CUA-CORR-20261029 D-credit-B r1 c0",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-credit-B r2 c0",
+    "phase": "correction",
+    "time": "2026-10-29T14:01:55.104Z"
+  },
+  {
+    "alias": "D-upward-A",
+    "before": "CUA-CORR-20261029 D-upward-A r1 c0",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-upward-A r2 c2",
+    "phase": "correction",
+    "time": "2026-10-29T14:01:56.197Z"
+  },
+  {
+    "alias": "D-upward-B",
+    "before": "CUA-CORR-20261029 D-upward-B r1 c0",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-upward-B r2 c0",
+    "phase": "correction",
+    "time": "2026-10-29T14:01:57.314Z"
+  },
+  {
+    "alias": "D-replay-A",
+    "before": "CUA-CORR-20261029 D-replay-A r1 c1",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-replay-A r2 c1",
+    "phase": "correction",
+    "time": "2026-10-29T14:01:58.433Z"
+  },
+  {
+    "alias": "D-replay-B",
+    "before": "CUA-CORR-20261029 D-replay-B r1 c1",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-replay-B r2 c1",
+    "phase": "correction",
+    "time": "2026-10-29T14:01:59.638Z"
+  },
+  {
+    "alias": "C-credit-A",
+    "before": "CUA-CORR-20261029 C-credit-A r1 c2",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-credit-A r2 c0",
+    "phase": "correction",
+    "time": "2026-10-29T14:02:43.292Z"
+  },
+  {
+    "alias": "C-credit-B",
+    "before": "CUA-CORR-20261029 C-credit-B r1 c0",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-credit-B r2 c0",
+    "phase": "correction",
+    "time": "2026-10-29T14:03:56.921Z"
+  },
+  {
+    "alias": "C-upward-A",
+    "before": "CUA-CORR-20261029 C-upward-A r1 c0",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-upward-A r2 c2",
+    "phase": "correction",
+    "time": "2026-10-29T14:04:54.237Z"
+  },
+  {
+    "alias": "C-upward-B",
+    "before": "CUA-CORR-20261029 C-upward-B r1 c0",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-upward-B r2 c0",
+    "phase": "correction",
+    "time": "2026-10-29T14:05:52.198Z"
+  },
+  {
+    "alias": "C-replay-A",
+    "before": "CUA-CORR-20261029 C-replay-A r1 c1",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-replay-A r2 c1",
+    "phase": "correction",
+    "time": "2026-10-29T14:05:59.791Z"
+  },
+  {
+    "alias": "C-replay-B",
+    "before": "CUA-CORR-20261029 C-replay-B r1 c1",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-replay-B r2 c1",
+    "phase": "correction",
+    "time": "2026-10-29T14:06:02.761Z"
+  },
+  {
+    "alias": "D-out-Net",
+    "before": "CUA-CORR-20261029 D-out-Net ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-out-Net saved-credit",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:27.999Z"
+  },
+  {
+    "alias": "D-out-GlobalClamp",
+    "before": "CUA-CORR-20261029 D-out-GlobalClamp ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 D-out-GlobalClamp ready",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:28.429Z"
+  },
+  {
+    "alias": "D-out-ItemClamp",
+    "before": "CUA-CORR-20261029 D-out-ItemClamp ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 D-out-ItemClamp ready",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:28.430Z"
+  },
+  {
+    "alias": "D-out-ArrivalReplace",
+    "before": "CUA-CORR-20261029 D-out-ArrivalReplace ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 D-out-ArrivalReplace ready",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:28.430Z"
+  },
+  {
+    "alias": "D-out-MaxReplace",
+    "before": "CUA-CORR-20261029 D-out-MaxReplace ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 D-out-MaxReplace ready",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:28.431Z"
+  },
+  {
+    "alias": "D-out-RevisionReplace",
+    "before": "CUA-CORR-20261029 D-out-RevisionReplace ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-out-RevisionReplace saved-credit",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:29.198Z"
+  },
+  {
+    "alias": "C-out-Net",
+    "before": "CUA-CORR-20261029 C-out-Net ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-out-Net saved-credit",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:38.907Z"
+  },
+  {
+    "alias": "C-out-GlobalClamp",
+    "before": "CUA-CORR-20261029 C-out-GlobalClamp ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 C-out-GlobalClamp ready",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:40.296Z"
+  },
+  {
+    "alias": "C-out-ItemClamp",
+    "before": "CUA-CORR-20261029 C-out-ItemClamp ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 C-out-ItemClamp ready",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:40.297Z"
+  },
+  {
+    "alias": "C-out-ArrivalReplace",
+    "before": "CUA-CORR-20261029 C-out-ArrivalReplace ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 C-out-ArrivalReplace ready",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:40.297Z"
+  },
+  {
+    "alias": "C-out-MaxReplace",
+    "before": "CUA-CORR-20261029 C-out-MaxReplace ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 C-out-MaxReplace ready",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:40.298Z"
+  },
+  {
+    "alias": "C-out-RevisionReplace",
+    "before": "CUA-CORR-20261029 C-out-RevisionReplace ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-out-RevisionReplace saved-credit",
+    "phase": "credit",
+    "time": "2026-10-29T14:07:41.256Z"
+  },
+  {
+    "alias": "D-out-Net",
+    "before": "CUA-CORR-20261029 D-out-Net saved-credit",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 D-out-Net saved-credit",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:08.062Z"
+  },
+  {
+    "alias": "D-out-GlobalClamp",
+    "before": "CUA-CORR-20261029 D-out-GlobalClamp ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 D-out-GlobalClamp ready",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:08.064Z"
+  },
+  {
+    "alias": "D-out-ItemClamp",
+    "before": "CUA-CORR-20261029 D-out-ItemClamp ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 D-out-ItemClamp ready",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:08.065Z"
+  },
+  {
+    "alias": "D-out-ArrivalReplace",
+    "before": "CUA-CORR-20261029 D-out-ArrivalReplace ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-out-ArrivalReplace saved-upward",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:11.800Z"
+  },
+  {
+    "alias": "D-out-MaxReplace",
+    "before": "CUA-CORR-20261029 D-out-MaxReplace ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 D-out-MaxReplace ready",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:12.138Z"
+  },
+  {
+    "alias": "D-out-RevisionReplace",
+    "before": "CUA-CORR-20261029 D-out-RevisionReplace saved-credit",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 D-out-RevisionReplace saved-credit",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:12.139Z"
+  },
+  {
+    "alias": "C-out-Net",
+    "before": "CUA-CORR-20261029 C-out-Net saved-credit",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 C-out-Net saved-credit",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:13.823Z"
+  },
+  {
+    "alias": "C-out-GlobalClamp",
+    "before": "CUA-CORR-20261029 C-out-GlobalClamp ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 C-out-GlobalClamp ready",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:13.824Z"
+  },
+  {
+    "alias": "C-out-ItemClamp",
+    "before": "CUA-CORR-20261029 C-out-ItemClamp ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 C-out-ItemClamp ready",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:13.824Z"
+  },
+  {
+    "alias": "C-out-ArrivalReplace",
+    "before": "CUA-CORR-20261029 C-out-ArrivalReplace ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-out-ArrivalReplace saved-upward",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:15.014Z"
+  },
+  {
+    "alias": "C-out-MaxReplace",
+    "before": "CUA-CORR-20261029 C-out-MaxReplace ready",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 C-out-MaxReplace ready",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:16.422Z"
+  },
+  {
+    "alias": "C-out-RevisionReplace",
+    "before": "CUA-CORR-20261029 C-out-RevisionReplace saved-credit",
+    "dispatches": 0,
+    "intended": "CUA-CORR-20261029 C-out-RevisionReplace saved-credit",
+    "phase": "upward",
+    "time": "2026-10-29T14:08:16.424Z"
+  },
+  {
+    "alias": "D-out-Net",
+    "before": "CUA-CORR-20261029 D-out-Net saved-credit",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-out-Net saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:37.502Z"
+  },
+  {
+    "alias": "D-out-GlobalClamp",
+    "before": "CUA-CORR-20261029 D-out-GlobalClamp ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-out-GlobalClamp saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:38.555Z"
+  },
+  {
+    "alias": "D-out-ItemClamp",
+    "before": "CUA-CORR-20261029 D-out-ItemClamp ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-out-ItemClamp saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:39.594Z"
+  },
+  {
+    "alias": "D-out-ArrivalReplace",
+    "before": "CUA-CORR-20261029 D-out-ArrivalReplace saved-upward",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-out-ArrivalReplace saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:40.650Z"
+  },
+  {
+    "alias": "D-out-MaxReplace",
+    "before": "CUA-CORR-20261029 D-out-MaxReplace ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-out-MaxReplace saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:41.676Z"
+  },
+  {
+    "alias": "D-out-RevisionReplace",
+    "before": "CUA-CORR-20261029 D-out-RevisionReplace saved-credit",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 D-out-RevisionReplace saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:42.740Z"
+  },
+  {
+    "alias": "C-out-Net",
+    "before": "CUA-CORR-20261029 C-out-Net saved-credit",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-out-Net saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:48.728Z"
+  },
+  {
+    "alias": "C-out-GlobalClamp",
+    "before": "CUA-CORR-20261029 C-out-GlobalClamp ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-out-GlobalClamp saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:51.417Z"
+  },
+  {
+    "alias": "C-out-ItemClamp",
+    "before": "CUA-CORR-20261029 C-out-ItemClamp ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-out-ItemClamp saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:53.630Z"
+  },
+  {
+    "alias": "C-out-ArrivalReplace",
+    "before": "CUA-CORR-20261029 C-out-ArrivalReplace saved-upward",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-out-ArrivalReplace saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:55.999Z"
+  },
+  {
+    "alias": "C-out-MaxReplace",
+    "before": "CUA-CORR-20261029 C-out-MaxReplace ready",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-out-MaxReplace saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:08:58.963Z"
+  },
+  {
+    "alias": "C-out-RevisionReplace",
+    "before": "CUA-CORR-20261029 C-out-RevisionReplace saved-credit",
+    "dispatches": 1,
+    "intended": "CUA-CORR-20261029 C-out-RevisionReplace saved-replay",
+    "phase": "replay",
+    "time": "2026-10-29T14:09:01.204Z"
+  }
+]

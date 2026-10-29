@@ -1,0 +1,9 @@
+{
+  "bytes": 3849,
+  "execution_status": "Not executed before this freeze.",
+  "file": "independent.py",
+  "frozen_at_utc": "2026-10-29T13:59:04.708674+00:00",
+  "method": "Prefix sums and minima; select first-occurrence records for replacement rules.",
+  "read_scope": "Original plan and inherited original-study code excerpt. No new live implementation or live results were read.",
+  "sha256": "81de1f951ee52a6368f4d9cdf570e6638c7174fab710e98d10c79385e97656b5"
+}

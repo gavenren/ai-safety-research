@@ -1,0 +1,75 @@
+{
+  "assertions": 1674,
+  "audit_changes": [
+    "The first audit adapter run failed because it expected an output name even for a refused action. The actual schema uses null for refusals. The adapter was corrected; the frozen evaluator and experiment data did not change."
+  ],
+  "browser_revision_2_records": 12,
+  "checked_at_utc": "2026-10-29T14:08:30.033573+00:00",
+  "decisions_sha256": "4aa552b6977e2a9cc5c17b34db2ecd30509068b4abc0051a1828a5f329194e98",
+  "duplicate_deliveries_across_rule_traces": 12,
+  "independence": "Frozen before new live implementation or live results were read. Original study code excerpt was present in inherited chat.",
+  "independent_sha256": "81de1f951ee52a6368f4d9cdf570e6638c7174fab710e98d10c79385e97656b5",
+  "limits": [
+    "Selected cases do not estimate provider failure rates.",
+    "Test credits, delivery order, source revisions, and closure are study data, not provider billing guarantees.",
+    "Calendar raw response does not expose a named time zone; this check confirms only the saved numeric time interval."
+  ],
+  "observations_sha256": "a6103a844225dfbe037af95b5ff93852e68ad348ecbea50d9db8552409517ea3",
+  "passed": true,
+  "prefix_states": 192,
+  "private_audit_code_sha256": "b3327e296fc5e5f8029b03da1bf06fb173ddc3776363460c9e2da9241e9d939d",
+  "rule_decisions": 36,
+  "rule_totals": {
+    "ArrivalReplace": {
+      "admitted": 4,
+      "decisions": 6,
+      "excess": 2,
+      "feasible_refusal": 2,
+      "over": 2,
+      "under": 2
+    },
+    "GlobalClamp": {
+      "admitted": 2,
+      "decisions": 6,
+      "excess": 0,
+      "feasible_refusal": 2,
+      "over": 2,
+      "under": 0
+    },
+    "ItemClamp": {
+      "admitted": 2,
+      "decisions": 6,
+      "excess": 0,
+      "feasible_refusal": 2,
+      "over": 2,
+      "under": 0
+    },
+    "MaxReplace": {
+      "admitted": 2,
+      "decisions": 6,
+      "excess": 0,
+      "feasible_refusal": 2,
+      "over": 2,
+      "under": 0
+    },
+    "Net": {
+      "admitted": 4,
+      "decisions": 6,
+      "excess": 0,
+      "feasible_refusal": 0,
+      "over": 0,
+      "under": 0
+    },
+    "RevisionReplace": {
+      "admitted": 4,
+      "decisions": 6,
+      "excess": 0,
+      "feasible_refusal": 0,
+      "over": 0,
+      "under": 0
+    }
+  },
+  "scope": "Recorded source reads and local accounting decisions. Output actions and cleanup are not part of this check.",
+  "source_records": 12,
+  "source_versions": 24
+}

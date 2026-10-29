@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "runs": 3,
+  "includes_original_analysis": true,
+  "website_runs": 1,
+  "bytes": 62327,
+  "sha256": "4aa552b6977e2a9cc5c17b34db2ecd30509068b4abc0051a1828a5f329194e98",
+  "comparison": "decisions.json equals two saved-data re-executions byte for byte"
+}

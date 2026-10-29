@@ -1,0 +1,187 @@
+{
+  "permanent_deletion": false,
+  "records": [
+    {
+      "alias": "D-credit-A",
+      "exact_url_checked": true,
+      "raw_sha256": "5a3076198500568982277474d19064a6bf4fc40b66767563d3f8f67d1ce894e4",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-credit-B",
+      "exact_url_checked": true,
+      "raw_sha256": "870b4252057ca2555c9d14c6ce0726fc621eece3a8f1103d89837462c03cd95c",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-upward-A",
+      "exact_url_checked": true,
+      "raw_sha256": "a0f50d88921d0a951f0ba88ae9a608e403b7fbfa58d6c34bb8eef3b6a5ec23a6",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-upward-B",
+      "exact_url_checked": true,
+      "raw_sha256": "c5f3d99e27c1d67a3c8211e791b3282d6dbbb4b278cd1850d91ff02c0fcfd89d",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-replay-A",
+      "exact_url_checked": true,
+      "raw_sha256": "ecdd02472e3754af2a29b86f79a027ff20d181cfe217152100eca94cae6f8f30",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-replay-B",
+      "exact_url_checked": true,
+      "raw_sha256": "6cb970fb3daf65262ec00d9cddfc9194d2f74a866e92c7e927caac9a903780b9",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-out-Net",
+      "exact_url_checked": true,
+      "raw_sha256": "63b91f1a66c3b1732bb766a95da38078367e8eaeb483f2c74f50c042b7d97d7e",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-out-GlobalClamp",
+      "exact_url_checked": true,
+      "raw_sha256": "cbb02e2abaa1d5ad6d92fe14c1cb6bfdd5766cdd493d9f67e64016d7d3f0d721",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-out-ItemClamp",
+      "exact_url_checked": true,
+      "raw_sha256": "87cef896dd9dd0bfa2aa16c2cedf83ef880691811d803951c7396918161268a6",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-out-ArrivalReplace",
+      "exact_url_checked": true,
+      "raw_sha256": "dee92166ea9b5d79924a26d6370ed1acb25cb8fca1ea0c17f50312acd384cf76",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-out-MaxReplace",
+      "exact_url_checked": true,
+      "raw_sha256": "4b63f1bf4ec843c3713425854c89be27e010577310a50a2e129ae094fa477c4b",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "D-out-RevisionReplace",
+      "exact_url_checked": true,
+      "raw_sha256": "50e0733cfde5f05d36dc1797e81fac30319394693c016b9cff2d1a143ae9821a",
+      "status": "recoverable_trash_path"
+    },
+    {
+      "alias": "C-credit-A",
+      "exact_id_checked": true,
+      "raw_sha256": "ae049945643ddf883df80a34473eb6bd21cc42b82bd847050d9b8eae637136b4",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.213Z"
+    },
+    {
+      "alias": "C-credit-B",
+      "exact_id_checked": true,
+      "raw_sha256": "88a9bd0b3b4ed2276431171936fe43fcb8f7357cdb1385bbce7fdb5ce22d0faa",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.612Z"
+    },
+    {
+      "alias": "C-upward-A",
+      "exact_id_checked": true,
+      "raw_sha256": "1bbedc1e462db077c85bb2b132a14eb241b486e112e741b1c23f843b3ce8bb39",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.130Z"
+    },
+    {
+      "alias": "C-upward-B",
+      "exact_id_checked": true,
+      "raw_sha256": "e9edb4bb1cddbae94e9b003bc50496b86050578d230be2c08a7ea819c6877ee2",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.143Z"
+    },
+    {
+      "alias": "C-replay-A",
+      "exact_id_checked": true,
+      "raw_sha256": "9204d6e5c7fcad883866e2bd36eafd2aa50976aa0a82c4779a1439f97f0052b8",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.103Z"
+    },
+    {
+      "alias": "C-replay-B",
+      "exact_id_checked": true,
+      "raw_sha256": "b6209aa7fbb93a4b262e5a8105c00599ab3a4c2725a0cd356ae6d5de9463e1c5",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.120Z"
+    },
+    {
+      "alias": "C-out-Net",
+      "exact_id_checked": true,
+      "raw_sha256": "bb7ee0039fdfe54d0e9475a59996b605a2e1b6fd0f14574cfa8965d6c073e97f",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.158Z"
+    },
+    {
+      "alias": "C-out-GlobalClamp",
+      "exact_id_checked": true,
+      "raw_sha256": "396cb7b4ed93d77df0424d0981ce890d776cb6f24f2e8ce3f37db8518ad0d428",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.143Z"
+    },
+    {
+      "alias": "C-out-ItemClamp",
+      "exact_id_checked": true,
+      "raw_sha256": "61ce3f20c64b645f71e51c15f7215350d78611c7f5df00cd8ee61ae8392007ae",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.126Z"
+    },
+    {
+      "alias": "C-out-ArrivalReplace",
+      "exact_id_checked": true,
+      "raw_sha256": "fe9b9e5355fcac33fb52783f45a087363fd7b21e990190aaa1b00b5965ce9783",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.915Z"
+    },
+    {
+      "alias": "C-out-MaxReplace",
+      "exact_id_checked": true,
+      "raw_sha256": "248432cd863debea7586eacacca73b7af013000ebbb3c9d480121ca2f508cc18",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.171Z"
+    },
+    {
+      "alias": "C-out-RevisionReplace",
+      "exact_id_checked": true,
+      "raw_sha256": "62555a8813f21409e63dfd15e6fc8102f89b3f1641f0049b2508e65ac28dd886",
+      "status": "cancelled",
+      "time": "2026-10-29T14:10:07.301Z"
+    },
+    {
+      "alias": "D-parent",
+      "exact_url_checked": true,
+      "raw_sha256": "c2c65ab58c030c7263b811fd3d37ed6c4a6db5acd4fe2d43cf0a7135b466e097",
+      "status": "recoverable_trash_path"
+    }
+  ],
+  "scope_queries": {
+    "calendar": {
+      "active_results": 0,
+      "calendar_scope": "primary",
+      "next_page_token": null,
+      "query_marker": "CUA-CORR-20261029",
+      "raw_sha256": "a8f74691ab1b624a2461f92106d1f3f9dfde79029116fad9b7e9e5c432059df7",
+      "time": "2026-10-29T14:10:08.646Z",
+      "time_max": "2026-11-05T00:00:00-05:00",
+      "time_min": "2026-11-04T00:00:00-05:00"
+    },
+    "drive": {
+      "active_results": 0,
+      "filter": "trashed = false",
+      "next_page_token": null,
+      "query_marker": "CUA-CORR-20261029",
+      "raw_sha256": "3cfe492dcb246c841bfd99e85be48807ae05f8f9f4fdb68b688ee85735521af0",
+      "time": "2026-10-29T14:10:08.657Z"
+    }
+  }
+}

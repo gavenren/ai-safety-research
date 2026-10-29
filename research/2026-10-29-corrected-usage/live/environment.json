@@ -1,0 +1,16 @@
+{
+  "agent": "Codex",
+  "browser_control": "Codex supported computer-use browser tool",
+  "chrome": "156.0.8078.48",
+  "connector_builds": "not exposed",
+  "human_review": false,
+  "model_api_calls_started": 0,
+  "model_build": "not exposed",
+  "network": "connected Google Drive and Google Calendar; source research and GitHub publication",
+  "new_credentials": false,
+  "paid_services_started": false,
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "random_seed": null,
+  "timing_benchmark": false
+}

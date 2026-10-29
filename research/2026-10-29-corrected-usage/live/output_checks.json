@@ -1,0 +1,630 @@
+{
+  "active_marker_searches_empty": 2,
+  "admitted_output_renames": 18,
+  "audited_public_evidence_sha256": {
+    "actions.json": "5416fda14f3e38772a208b762f0b82669896b17c498a3d45e62cabf2ccc5f76f",
+    "browser_actions.json": "ca16ecbde0aa851718587dfbe918bf211e2fe37a0e457f7cbd70f6bab1487d8d",
+    "decisions.json": "4aa552b6977e2a9cc5c17b34db2ecd30509068b4abc0051a1828a5f329194e98",
+    "observations.json": "a6103a844225dfbe037af95b5ff93852e68ad348ecbea50d9db8552409517ea3"
+  },
+  "calendar_cancelled_exact_ids": 12,
+  "cleanup_checks": [
+    {
+      "alias": "D-credit-A",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-credit-B",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-upward-A",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-upward-B",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-replay-A",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-replay-B",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-out-Net",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-out-GlobalClamp",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-out-ItemClamp",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-out-ArrivalReplace",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-out-MaxReplace",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "D-out-RevisionReplace",
+      "status": "exact_folder_path_through_Trash"
+    },
+    {
+      "alias": "C-credit-A",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-credit-B",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-upward-A",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-upward-B",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-replay-A",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-replay-B",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-out-Net",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-out-GlobalClamp",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-out-ItemClamp",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-out-ArrivalReplace",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-out-MaxReplace",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "C-out-RevisionReplace",
+      "status": "cancelled_exact_id"
+    },
+    {
+      "alias": "D-parent",
+      "status": "exact_folder_path_through_Trash"
+    }
+  ],
+  "drive_folders_with_exact_Trash_path": 13,
+  "feasible_refusals_under_study_cap": 8,
+  "fixture_creations": 25,
+  "limits": [
+    "Dispatch counts are checked against the saved action log, not a provider audit log.",
+    "Drive cleanup means a folder path through recoverable Trash, not permanent deletion.",
+    "Calendar contains only the owner as a self attendee; it is not an empty saved attendee list."
+  ],
+  "no_human_review": true,
+  "output_checks": [
+    {
+      "admitted": true,
+      "case": "credit",
+      "dispatches": 1,
+      "rule": "Net",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": false,
+      "case": "credit",
+      "dispatches": 0,
+      "rule": "GlobalClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": false,
+      "case": "credit",
+      "dispatches": 0,
+      "rule": "ItemClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": false,
+      "case": "credit",
+      "dispatches": 0,
+      "rule": "ArrivalReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": false,
+      "case": "credit",
+      "dispatches": 0,
+      "rule": "MaxReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": true,
+      "case": "credit",
+      "dispatches": 1,
+      "rule": "RevisionReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": true,
+      "case": "credit",
+      "dispatches": 1,
+      "rule": "Net",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": false,
+      "case": "credit",
+      "dispatches": 0,
+      "rule": "GlobalClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": false,
+      "case": "credit",
+      "dispatches": 0,
+      "rule": "ItemClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": false,
+      "case": "credit",
+      "dispatches": 0,
+      "rule": "ArrivalReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": false,
+      "case": "credit",
+      "dispatches": 0,
+      "rule": "MaxReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": true,
+      "case": "credit",
+      "dispatches": 1,
+      "rule": "RevisionReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": false,
+      "case": "upward",
+      "dispatches": 0,
+      "rule": "Net",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": false,
+      "case": "upward",
+      "dispatches": 0,
+      "rule": "GlobalClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": false,
+      "case": "upward",
+      "dispatches": 0,
+      "rule": "ItemClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": true,
+      "case": "upward",
+      "dispatches": 1,
+      "rule": "ArrivalReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": false,
+      "case": "upward",
+      "dispatches": 0,
+      "rule": "MaxReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": false,
+      "case": "upward",
+      "dispatches": 0,
+      "rule": "RevisionReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": false,
+      "case": "upward",
+      "dispatches": 0,
+      "rule": "Net",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": false,
+      "case": "upward",
+      "dispatches": 0,
+      "rule": "GlobalClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": false,
+      "case": "upward",
+      "dispatches": 0,
+      "rule": "ItemClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": true,
+      "case": "upward",
+      "dispatches": 1,
+      "rule": "ArrivalReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": false,
+      "case": "upward",
+      "dispatches": 0,
+      "rule": "MaxReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": false,
+      "case": "upward",
+      "dispatches": 0,
+      "rule": "RevisionReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "Net",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "GlobalClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "ItemClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "ArrivalReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "MaxReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "RevisionReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "D"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "Net",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "GlobalClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "ItemClamp",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "ArrivalReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "MaxReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    },
+    {
+      "admitted": true,
+      "case": "replay",
+      "dispatches": 1,
+      "rule": "RevisionReplace",
+      "same_id": true,
+      "saved_field_checked": true,
+      "service": "C"
+    }
+  ],
+  "physical_billing_test": false,
+  "premature_child_cleanup_reads_preserved": 12,
+  "privacy_checks": [
+    {
+      "alias": "D-credit-A",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-credit-B",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-upward-A",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-upward-B",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-replay-A",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-replay-B",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-out-Net",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-out-GlobalClamp",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-out-ItemClamp",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-out-ArrivalReplace",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-out-MaxReplace",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "D-out-RevisionReplace",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-credit-A",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-credit-B",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-upward-A",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-upward-B",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-replay-A",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-replay-B",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-out-Net",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-out-GlobalClamp",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-out-ItemClamp",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-out-ArrivalReplace",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-out-MaxReplace",
+      "privacy_conditions_checked": true
+    },
+    {
+      "alias": "C-out-RevisionReplace",
+      "privacy_conditions_checked": true
+    }
+  ],
+  "private_audit_script_sha256": "8ed835b07ffaa8f9bb1feed64a2441fc8882eab9670b948e2771376ca720c674",
+  "refused_output_actions": 18,
+  "review_scope": "Saved output fields, recorded browser dispatches, fixture privacy, and cleanup.",
+  "rule_decisions": 36,
+  "source_checks": [
+    {
+      "alias": "D-credit-A",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "D-credit-B",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "D-upward-A",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "D-upward-B",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "D-replay-A",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "D-replay-B",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "C-credit-A",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "C-credit-B",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "C-upward-A",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "C-upward-B",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "C-replay-A",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    },
+    {
+      "alias": "C-replay-B",
+      "both_saved_fields_checked": true,
+      "browser_correction_dispatches": 1,
+      "same_id": true
+    }
+  ],
+  "source_corrections": 12,
+  "status": "passed",
+  "total_recorded_browser_saves": 30,
+  "unsupported_admissions_under_study_cap": 2
+}
